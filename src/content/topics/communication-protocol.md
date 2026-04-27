@@ -6,11 +6,13 @@ subtopics:
   - Layered protocol models
   - Routing and transport concepts
   - Interoperability and standards
+  - Protocol-aware delivery pipelines
   - Protocol performance and reliability
 learningOutcomes:
   - Describe the purpose of common network protocols
   - Compare communication layers and responsibilities
   - Analyse protocol selection in real system scenarios
+  - Evaluate how deployment pipelines depend on protocol correctness and observability
 featured: true
 order: 2
 ---

@@ -9,6 +9,9 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 const topics = await getCollection('topics');
+const resources = (await getCollection('resources')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const blog = (await getCollection('blog')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const publications = (await getCollection('publications')).sort((a, b) => b.data.year - a.data.year);
 const entry = topics.find((item) => item.id.replace(/\.md$/, '') === slug);
 if (!entry) throw new Error(`Topic not found: ${slug}`);
 const { Content } = await entry.render();
@@ -33,6 +36,68 @@ const learningModes = [
     description: 'Connect the learning to a downloadable asset, reflection task, or professional use case that makes the topic feel useful beyond the page.'
   }
 ];
+
+const trackBySlug = {
+  'information-system-management': {
+    label: 'Governed service delivery track',
+    focus: 'Teach CI/CD as policy-driven change management for institutional systems.',
+    examples: [
+      'GitHub Actions quality workflow for branch review, build, and content validation.',
+      'Cloudflare Pages + Worker rollout framed as governance, traceability, and service continuity.',
+      'Release KPI discussion: approval latency, rollback readiness, and user-facing stability.'
+    ],
+    path: [
+      { step: '01', title: 'Map the service context', description: 'Identify the campus service, stakeholders, and risk of uncontrolled change.' },
+      { step: '02', title: 'Design governance gates', description: 'Turn approvals, tests, and release windows into a CI/CD policy model.' },
+      { step: '03', title: 'Verify operational trust', description: 'Use live checks and KPI signals to judge whether a release was truly successful.' }
+    ],
+    moduleUrl: '/downloads/information-systems-cicd-studio-module.md',
+    moduleLabel: 'Download lecturer-ready studio module',
+    diagramUrl: '/downloads/information-systems-cicd-governance-map.svg',
+    diagramLabel: 'Open CI/CD governance SVG diagram'
+  },
+  'communication-protocol': {
+    label: 'Protocol-aware deployment track',
+    focus: 'Teach releases as chains of protocol interactions, not hidden automation.',
+    examples: [
+      'Git checkout, package registry access, deploy API calls, and health checks mapped to protocols.',
+      'Cloudflare edge verification used to discuss DNS, TLS, HTTP, and realistic client behavior.',
+      'Observability prompts that separate transport issues from endpoint or application failures.'
+    ],
+    path: [
+      { step: '01', title: 'Trace the protocol chain', description: 'Label the protocols used from repository pull to edge delivery.' },
+      { step: '02', title: 'Study failure patterns', description: 'Compare healthy deploys with TLS, DNS, timeout, or header-related failures.' },
+      { step: '03', title: 'Build verification logic', description: 'Turn protocol literacy into health-check and troubleshooting routines.' }
+    ],
+    moduleUrl: '/downloads/protocol-delivery-observability-module.md',
+    moduleLabel: 'Download lecturer-ready studio module',
+    diagramUrl: '/downloads/protocol-delivery-observability-map.svg',
+    diagramLabel: 'Open protocol observability SVG diagram'
+  },
+  'artificial-intelligence': {
+    label: 'AI release guardrails track',
+    focus: 'Teach CI/CD for AI through evaluation evidence, prompt regressions, and monitoring.',
+    examples: [
+      'Prompt regression suites used as release gates instead of relying on code checks alone.',
+      'Model threshold and safety checks as approval signals before deployment.',
+      'Post-release monitoring framed as part of responsible AI operations.'
+    ],
+    path: [
+      { step: '01', title: 'Define evaluation gates', description: 'Set quality thresholds for prompts, models, and safety criteria.' },
+      { step: '02', title: 'Control release approval', description: 'Require evidence before AI changes can move to production.' },
+      { step: '03', title: 'Monitor behavior after launch', description: 'Use drift, confidence, and user-signal monitoring to judge release quality.' }
+    ],
+    moduleUrl: '/downloads/ai-release-guardrails-module.md',
+    moduleLabel: 'Download lecturer-ready studio module',
+    diagramUrl: '/downloads/ai-release-guardrails-map.svg',
+    diagramLabel: 'Open AI release SVG diagram'
+  }
+} as const;
+
+const track = trackBySlug[slug as keyof typeof trackBySlug];
+const relatedResources = resources.filter((item) => item.data.topic === entry.data.title).slice(0, 4);
+const relatedBlog = blog.filter((item) => item.data.topic === entry.data.title).slice(0, 3);
+const relatedPublications = publications.filter((item) => item.data.topic === entry.data.title).slice(0, 3);
 ---
 <BaseLayout title={`${entry.data.title} | Expertise`} description={entry.data.summary}>
   <section class="py-24" data-topic-detail>
@@ -96,6 +161,41 @@ const learningModes = [
         </div>
 
         <div class="card-surface p-8 sm:p-10">
+          <div class="flex flex-wrap items-start justify-between gap-6">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Phase 2 CI/CD track</p>
+              <h2 class="mt-3 text-3xl font-semibold text-white">{track.label}</h2>
+              <p class="mt-4 max-w-3xl text-sm leading-7 text-slate-300">{track.focus}</p>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href={track.moduleUrl} download class="rounded-full bg-brand-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-400">{track.moduleLabel}</a>
+              <a href={track.diagramUrl} target="_blank" rel="noreferrer" class="rounded-full border border-white/15 px-5 py-3 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5">{track.diagramLabel}</a>
+            </div>
+          </div>
+
+          <div class="mt-8 grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+            <div class="rounded-[2rem] border border-white/10 bg-white/5 p-6">
+              <p class="text-xs font-semibold uppercase tracking-[0.24em] text-slate-400">Teaching examples</p>
+              <div class="mt-4 grid gap-3 text-sm leading-7 text-slate-200">
+                {track.examples.map((item) => <div class="rounded-2xl border border-white/10 bg-slate-950/30 px-4 py-4">{item}</div>)}
+              </div>
+            </div>
+            <div class="rounded-[2rem] border border-white/10 bg-white/5 p-6">
+              <p class="text-xs font-semibold uppercase tracking-[0.24em] text-slate-400">Guided learning path</p>
+              <div class="mt-4 grid gap-3">
+                {track.path.map((step) => (
+                  <div class="rounded-2xl border border-white/10 bg-slate-950/30 px-4 py-4">
+                    <p class="text-xs font-semibold uppercase tracking-[0.24em] text-brand-200">Step {step.step}</p>
+                    <h3 class="mt-2 text-lg font-semibold text-white">{step.title}</h3>
+                    <p class="mt-2 text-sm leading-7 text-slate-300">{step.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-surface p-8 sm:p-10">
           <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Overview</p>
           <div class="mt-5 prose-invert-custom">
             <Content />
@@ -115,6 +215,42 @@ const learningModes = [
               <a href="/resources" class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">Browse learning materials that can support this topic.</a>
               <a href="/blog" class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">Read current teaching reflections connected to this pillar.</a>
               <a href="/contact" class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">Open a discussion for workshops, training, or collaboration.</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid gap-6 xl:grid-cols-3">
+          <div class="card-surface p-8 xl:col-span-1">
+            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Resources in this pillar</p>
+            <div class="mt-5 grid gap-3">
+              {relatedResources.map((item) => (
+                <a href={`/resources/${item.id.replace(/\.md$/, '')}`} class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">
+                  <p class="text-sm font-semibold text-white">{item.data.title}</p>
+                  <p class="mt-2 text-sm leading-6 text-slate-300">{item.data.summary}</p>
+                </a>
+              ))}
+            </div>
+          </div>
+          <div class="card-surface p-8 xl:col-span-1">
+            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Latest teaching reflections</p>
+            <div class="mt-5 grid gap-3">
+              {relatedBlog.map((item) => (
+                <a href={`/blog/${item.id.replace(/\.md$/, '')}`} class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">
+                  <p class="text-sm font-semibold text-white">{item.data.title}</p>
+                  <p class="mt-2 text-sm leading-6 text-slate-300">{item.data.summary}</p>
+                </a>
+              ))}
+            </div>
+          </div>
+          <div class="card-surface p-8 xl:col-span-1">
+            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Applied publication concepts</p>
+            <div class="mt-5 grid gap-3">
+              {relatedPublications.map((item) => (
+                <a href="/publications" class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">
+                  <p class="text-sm font-semibold text-white">{item.data.title}</p>
+                  <p class="mt-2 text-sm leading-6 text-slate-300">{item.data.summary}</p>
+                </a>
+              ))}
             </div>
           </div>
         </div>

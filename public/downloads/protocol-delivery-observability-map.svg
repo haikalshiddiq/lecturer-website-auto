@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#07111F"/>
+  <text x="90" y="110" fill="#F8FAFC" font-size="42" font-family="Arial" font-weight="700">Protocol Delivery & Observability Map</text>
+  <text x="90" y="155" fill="#93C5FD" font-size="20" font-family="Arial">GitHub → Registry → Deploy API → Edge → Health Check</text>
+  <g font-family="Arial">
+    <rect x="110" y="240" rx="28" ry="28" width="220" height="120" fill="#132238" stroke="#38BDF8" stroke-width="2"/>
+    <text x="162" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Checkout</text>
+    <text x="152" y="325" fill="#94A3B8" font-size="18">Git over HTTPS/SSH</text>
+    <rect x="390" y="240" rx="28" ry="28" width="220" height="120" fill="#132238" stroke="#22C55E" stroke-width="2"/>
+    <text x="438" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Install</text>
+    <text x="425" y="325" fill="#94A3B8" font-size="18">Registry + TLS</text>
+    <rect x="670" y="240" rx="28" ry="28" width="220" height="120" fill="#132238" stroke="#A78BFA" stroke-width="2"/>
+    <text x="720" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Deploy</text>
+    <text x="704" y="325" fill="#94A3B8" font-size="18">API + auth headers</text>
+    <rect x="950" y="240" rx="28" ry="28" width="220" height="120" fill="#132238" stroke="#F59E0B" stroke-width="2"/>
+    <text x="1008" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Edge</text>
+    <text x="985" y="325" fill="#94A3B8" font-size="18">DNS + TLS + HTTP</text>
+    <rect x="1230" y="240" rx="28" ry="28" width="220" height="120" fill="#132238" stroke="#FB7185" stroke-width="2"/>
+    <text x="1268" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Verify</text>
+    <text x="1262" y="325" fill="#94A3B8" font-size="18">Health checks + logs</text>
+    <path d="M330 300H390" stroke="#38BDF8" stroke-width="4"/>
+    <path d="M610 300H670" stroke="#38BDF8" stroke-width="4"/>
+    <path d="M890 300H950" stroke="#38BDF8" stroke-width="4"/>
+    <path d="M1170 300H1230" stroke="#38BDF8" stroke-width="4"/>
+    <rect x="110" y="470" rx="32" ry="32" width="1340" height="250" fill="#0F1B2D" stroke="#1E293B" stroke-width="2"/>
+    <text x="150" y="530" fill="#F8FAFC" font-size="28" font-weight="700">Observability questions</text>
+    <text x="150" y="580" fill="#CBD5E1" font-size="22">• Which protocol breaks first when deploys fail?</text>
+    <text x="150" y="620" fill="#CBD5E1" font-size="22">• What health-check proves the user-facing route is really live?</text>
+    <text x="150" y="660" fill="#CBD5E1" font-size="22">• Which signal belongs to transport, endpoint, or application logic?</text>
+  </g>
+</svg>

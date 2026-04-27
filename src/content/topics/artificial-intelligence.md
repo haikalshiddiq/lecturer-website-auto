@@ -6,11 +6,13 @@ subtopics:
   - Machine learning foundations
   - Intelligent decision support
   - Applied AI in education and industry
+  - MLOps and AI delivery workflows
   - Responsible and ethical AI
 learningOutcomes:
   - Explain core AI concepts for academic and professional contexts
   - Identify applied AI use cases across organisations
   - Discuss ethical considerations in AI deployment
+  - Relate CI/CD ideas to evaluation, release control, and monitoring for AI systems
 featured: true
 order: 3
 ---

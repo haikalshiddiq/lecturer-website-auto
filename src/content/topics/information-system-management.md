@@ -6,11 +6,13 @@ subtopics:
   - IT governance and alignment
   - Business process analysis
   - Digital transformation roadmap
+  - Service operations and CI/CD governance
   - Information quality and decision support
 learningOutcomes:
   - Explain the strategic role of information systems in organisations
   - Evaluate governance and process improvement approaches
   - Connect operational data to leadership decisions
+  - Assess how CI/CD disciplines improve institutional system reliability
 featured: true
 order: 1
 ---

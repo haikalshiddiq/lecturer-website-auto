@@ -27,11 +27,12 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString('en-US', {
           <span>•</span>
           <time datetime={entry.data.publishedAt.toISOString()}>{formattedDate}</time>
         </div>
-        <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{entry.data.title}</h1>
-        <p class="mt-5 text-base leading-8 text-slate-300">{entry.data.summary}</p>
-        <div class="mt-6 flex flex-wrap gap-2">
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="rounded-full border border-brand-300/30 bg-brand-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-100">{entry.data.topic}</span>
           {entry.data.tags.map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
         </div>
+        <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{entry.data.title}</h1>
+        <p class="mt-5 text-base leading-8 text-slate-300">{entry.data.summary}</p>
         <div class="prose-invert-custom mt-10">
           <Content />
         </div>

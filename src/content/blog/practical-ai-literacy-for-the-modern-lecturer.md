@@ -1,22 +1,25 @@
 ---
 title: Practical AI Literacy for the Modern Lecturer
-summary: Artificial Intelligence becomes more valuable in education when lecturers frame it as a workflow capability with clear limits and review checkpoints.
-publishedAt: 2026-04-25
-featured: true
+summary: Artificial Intelligence should be taught with enough realism to support responsible experimentation and confident academic use.
+topic: Artificial Intelligence
+publishedAt: 2026-04-27
+featured: false
 tags:
-  - artificial-intelligence
-  - ai-literacy
-  - teaching-workflow
+  - ai
+  - literacy
+  - higher-education
 ---
 
-AI tools can accelerate planning, summarisation, and ideation, but educational value depends on how they are governed. Students and lecturers both need a shared language for usefulness, risk, and accountability.
+AI is increasingly present in classroom workflows, research assistance, content generation, and institutional decision support. Learners need more than curiosity; they need structured literacy.
 
-## Three habits worth teaching
+## What to teach first
 
-1. Define the task clearly before prompting.
-2. Inspect outputs for evidence, assumptions, and omissions.
-3. Keep a human review step before adoption or publication.
+Start with capability boundaries, common use cases, and evaluation habits. Students should understand where AI helps, where it misleads, and how to verify outputs before relying on them.
 
-## Why this framing helps
+## A practical discussion format
 
-It moves AI away from hype and into a responsible professional workflow, which is exactly where academic practice can model good judgment.
+Use one real task, such as summarisation or idea generation, then compare raw model output with a revised, checked version. This reveals both the value and the limits of AI support.
+
+## Why this matters
+
+Responsible AI literacy prepares learners to engage with modern tools without confusing speed with accuracy.

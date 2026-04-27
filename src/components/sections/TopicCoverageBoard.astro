@@ -1,0 +1,141 @@
+---
+interface TopicMeta {
+  title: string;
+  slug: string;
+  summary: string;
+}
+
+interface TopicCoverage {
+  topic: string;
+  postsCount: number;
+  resourcesCount: number;
+  publicationsCount: number;
+  latestPost?: { title: string; href: string };
+  latestResource?: { title: string; href: string };
+  latestPublication?: { title: string; href: string };
+}
+
+interface Props {
+  topics: TopicMeta[];
+  coverage: TopicCoverage[];
+  title?: string;
+  description?: string;
+}
+
+const {
+  topics,
+  coverage,
+  title = 'Daily coverage across all lecturer pillars',
+  description = 'Track how each topic is growing through articles, learning resources, and academic outputs.'
+} = Astro.props;
+---
+<section class="py-20" data-topic-coverage-board>
+  <div class="container-shell">
+    <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+      <div class="max-w-3xl">
+        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-200">Topic coverage</p>
+        <h2 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{title}</h2>
+        <p class="mt-4 text-base leading-8 text-slate-300">{description}</p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        {topics.map((topic, index) => (
+          <button
+            type="button"
+            data-coverage-tab={topic.slug}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+            class={`rounded-full px-5 py-3 text-sm font-semibold transition ${index === 0 ? 'bg-white text-slate-950' : 'border border-white/10 bg-white/5 text-slate-100 hover:border-white/20 hover:bg-white/10'}`}
+          >
+            {topic.title}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <div class="mt-10 grid gap-6 lg:grid-cols-[1.02fr_0.98fr]">
+      {topics.map((topic, index) => {
+        const item = coverage.find((entry) => entry.topic === topic.title);
+        return (
+          <article data-coverage-panel={topic.slug} class={`${index === 0 ? 'grid' : 'hidden'} gap-6 lg:col-span-2 lg:grid-cols-[1.02fr_0.98fr]`}>
+            <div class="card-surface p-8 sm:p-10">
+              <div class="flex flex-wrap items-center justify-between gap-3 text-xs uppercase tracking-[0.24em] text-slate-400">
+                <span>Coverage dashboard</span>
+                <span>{topic.title}</span>
+              </div>
+              <h3 class="mt-4 text-3xl font-semibold text-white sm:text-4xl">{topic.summary}</h3>
+              <div class="mt-8 grid gap-4 sm:grid-cols-3">
+                <div class="rounded-[1.5rem] border border-white/10 bg-white/5 p-5">
+                  <p class="text-xs uppercase tracking-[0.24em] text-brand-200">Articles</p>
+                  <p class="mt-3 text-3xl font-semibold text-white">{item?.postsCount ?? 0}</p>
+                </div>
+                <div class="rounded-[1.5rem] border border-white/10 bg-white/5 p-5">
+                  <p class="text-xs uppercase tracking-[0.24em] text-brand-200">Resources</p>
+                  <p class="mt-3 text-3xl font-semibold text-white">{item?.resourcesCount ?? 0}</p>
+                </div>
+                <div class="rounded-[1.5rem] border border-white/10 bg-white/5 p-5">
+                  <p class="text-xs uppercase tracking-[0.24em] text-brand-200">Projects</p>
+                  <p class="mt-3 text-3xl font-semibold text-white">{item?.publicationsCount ?? 0}</p>
+                </div>
+              </div>
+              <div class="mt-8 flex flex-wrap gap-4">
+                <a href={`/expertise/${topic.slug}`} class="rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-400">Open topic pillar</a>
+                <a href="/resources" class="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5">Browse resources</a>
+              </div>
+            </div>
+
+            <aside class="grid gap-6">
+              <div class="card-surface p-8">
+                <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Latest article</p>
+                {item?.latestPost ? (
+                  <a href={item.latestPost.href} class="mt-4 block rounded-[1.5rem] border border-white/10 bg-white/5 p-5 text-sm text-slate-200 transition hover:border-white/20 hover:bg-white/10">{item.latestPost.title}</a>
+                ) : (
+                  <div class="mt-4 rounded-[1.5rem] border border-dashed border-white/10 bg-white/5 p-5 text-sm text-slate-400">New article slot ready for the next daily update.</div>
+                )}
+              </div>
+              <div class="card-surface p-8">
+                <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Latest resource</p>
+                {item?.latestResource ? (
+                  <a href={item.latestResource.href} class="mt-4 block rounded-[1.5rem] border border-white/10 bg-white/5 p-5 text-sm text-slate-200 transition hover:border-white/20 hover:bg-white/10">{item.latestResource.title}</a>
+                ) : (
+                  <div class="mt-4 rounded-[1.5rem] border border-dashed border-white/10 bg-white/5 p-5 text-sm text-slate-400">New resource slot ready for the next daily update.</div>
+                )}
+              </div>
+              <div class="card-surface p-8">
+                <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Latest project or publication</p>
+                {item?.latestPublication ? (
+                  <a href={item.latestPublication.href} class="mt-4 block rounded-[1.5rem] border border-white/10 bg-white/5 p-5 text-sm text-slate-200 transition hover:border-white/20 hover:bg-white/10">{item.latestPublication.title}</a>
+                ) : (
+                  <div class="mt-4 rounded-[1.5rem] border border-dashed border-white/10 bg-white/5 p-5 text-sm text-slate-400">New project slot ready for the next daily update.</div>
+                )}
+              </div>
+            </aside>
+          </article>
+        );
+      })}
+    </div>
+  </div>
+
+  <script is:inline>
+    document.querySelectorAll('[data-topic-coverage-board]').forEach((board) => {
+      const tabs = Array.from(board.querySelectorAll('[data-coverage-tab]'));
+      const panels = Array.from(board.querySelectorAll('[data-coverage-panel]'));
+      const activate = (slug) => {
+        tabs.forEach((tab) => {
+          const active = tab.dataset.coverageTab === slug;
+          tab.setAttribute('aria-pressed', String(active));
+          tab.classList.toggle('bg-white', active);
+          tab.classList.toggle('text-slate-950', active);
+          tab.classList.toggle('border', !active);
+          tab.classList.toggle('border-white/10', !active);
+          tab.classList.toggle('bg-white/5', !active);
+          tab.classList.toggle('text-slate-100', !active);
+        });
+        panels.forEach((panel) => {
+          const active = panel.dataset.coveragePanel === slug;
+          panel.classList.toggle('hidden', !active);
+          panel.classList.toggle('grid', active);
+        });
+      };
+      tabs.forEach((tab) => tab.addEventListener('click', () => activate(tab.dataset.coverageTab)));
+    });
+  </script>
+</section>

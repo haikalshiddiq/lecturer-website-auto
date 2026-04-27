@@ -1,24 +1,25 @@
 ---
 title: Teaching Protocols Through Evidence, Not Memorisation
-summary: Communication Protocol becomes more intuitive when students trace real exchanges instead of memorising isolated definitions.
-publishedAt: 2026-04-26
-featured: true
+summary: Communication Protocol should feel observable and testable so students can reason from behaviour instead of recalling isolated definitions.
+topic: Communication Protocol
+publishedAt: 2026-04-27
+featured: false
 tags:
-  - communication-protocol
+  - protocols
   - networking
-  - pedagogy
+  - labs
 ---
 
-Protocol education often becomes too abstract too quickly. Students are asked to remember terms, ports, and layer names before they understand why those distinctions matter.
+Protocol teaching improves when learners can inspect exchanges, compare expected behaviour, and describe why communication succeeds or fails.
 
-## A better entry point
+## Better framing for the classroom
 
-Start from observable traffic. Show a connection, identify each stage, and let students explain what happened. Once they have seen a handshake and a response, the layered model becomes meaningful instead of decorative.
+Instead of presenting protocol layers as a memorisation challenge, lecturers can position them as a set of agreements that shape timing, reliability, security, and interoperability.
 
-## Classroom benefit
+## A useful lab pattern
 
-This method strengthens analysis habits. Students learn to move from symptoms to evidence, which is useful well beyond networking classes.
+Ask students to observe a simple communication trace, identify the handshake or request-response sequence, and then explain what would break if one part changed.
 
-## Long-term payoff
+## Why this matters
 
-Evidence-based protocol teaching supports better troubleshooting, better documentation, and more confident technical communication.
+Students who learn to interpret protocol behaviour are more prepared for networking, systems integration, and infrastructure troubleshooting.

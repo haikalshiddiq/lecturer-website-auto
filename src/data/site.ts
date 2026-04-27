@@ -2,9 +2,10 @@ export const siteConfig = {
   name: 'Haikal Shiddiq S.Kom., M.T.',
   role: 'Lecturer · Academic Professional',
   siteUrl: 'https://lecturer-materials.pages.dev',
-  title: 'Haikal Shiddiq S.Kom., M.T. | Lecturer Website',
+  title:
+    'Haikal Shiddiq S.Kom., M.T. | Information System Management, Communication Protocol, and Artificial Intelligence',
   description:
-    'A premium lecturer profile and learning platform focused on Information System Management, Communication Protocol, and Artificial Intelligence.',
+    'Official lecturer website for Haikal Shiddiq S.Kom., M.T., featuring learning resources and academic topics in Information System Management, Communication Protocol, and Artificial Intelligence.',
   location: 'Indonesia',
   email: 'contact@example.com',
   socialLinks: [

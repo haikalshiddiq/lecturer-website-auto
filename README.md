@@ -11,7 +11,7 @@ A premium, Cloudflare-ready lecturer website built with Astro and Tailwind CSS f
 
 ## Local development
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
@@ -33,6 +33,7 @@ npm run build
 - Build command: `npm run build`
 - Output directory: `dist`
 - Project name: `lecturer-materials`
+- Production URL: `https://lecturer-materials.pages.dev`
 
 ### Cloudflare Worker
 ```bash
@@ -40,6 +41,8 @@ cd worker/contact-form
 npm install
 npx wrangler deploy
 ```
+
+- Production endpoint: `https://lecturer-materials.hicall.workers.dev/api/contact`
 
 ## Required GitHub secrets
 - `CLOUDFLARE_API_TOKEN`

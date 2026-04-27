@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({ params: { slug: post.id.replace(/\.md$/, '') } }));
+}
+
+const { slug } = Astro.params;
+const posts = await getCollection('blog');
+const entry = posts.find((item) => item.id.replace(/\.md$/, '') === slug);
+if (!entry) throw new Error(`Blog post not found: ${slug}`);
+const { Content } = await entry.render();
+const formattedDate = entry.data.publishedAt.toLocaleDateString('en-US', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+});
+---
+<BaseLayout title={`${entry.data.title} | Blog`} description={entry.data.summary}>
+  <section class="py-24">
+    <div class="container-shell max-w-4xl">
+      <article class="card-surface p-8 sm:p-10">
+        <div class="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.25em] text-slate-400">
+          <span>Blog</span>
+          <span>•</span>
+          <time datetime={entry.data.publishedAt.toISOString()}>{formattedDate}</time>
+        </div>
+        <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{entry.data.title}</h1>
+        <p class="mt-5 text-base leading-8 text-slate-300">{entry.data.summary}</p>
+        <div class="mt-6 flex flex-wrap gap-2">
+          {entry.data.tags.map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
+        </div>
+        <div class="prose-invert-custom mt-10">
+          <Content />
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

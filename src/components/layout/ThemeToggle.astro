@@ -1,0 +1,31 @@
+<button
+  type="button"
+  class="theme-toggle"
+  aria-label="Toggle dark mode"
+  data-theme-toggle
+>
+  <span class="theme-toggle__sun" aria-hidden="true">☀</span>
+  <span class="theme-toggle__moon" aria-hidden="true">☾</span>
+  <span class="theme-toggle__label">Theme</span>
+</button>
+
+<script is:inline>
+  const toggle = document.querySelector('[data-theme-toggle]');
+
+  const syncThemeLabel = () => {
+    if (!toggle) return;
+    const isDark = document.documentElement.classList.contains('dark');
+    document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
+    toggle.setAttribute('aria-pressed', String(isDark));
+    toggle.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+  };
+
+  syncThemeLabel();
+
+  toggle?.addEventListener('click', () => {
+    const isDark = document.documentElement.classList.toggle('dark');
+    document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    syncThemeLabel();
+  });
+</script>

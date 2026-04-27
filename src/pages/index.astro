@@ -6,6 +6,7 @@ import SectionHeading from '../components/sections/SectionHeading.astro';
 import TopicCard from '../components/cards/TopicCard.astro';
 import ResourceCard from '../components/cards/ResourceCard.astro';
 import PublicationCard from '../components/cards/PublicationCard.astro';
+import BlogCard from '../components/cards/BlogCard.astro';
 import CTASection from '../components/sections/CTASection.astro';
 import StatsBand from '../components/sections/StatsBand.astro';
 
@@ -14,8 +15,21 @@ const topicLinks = topics.map((topic) => ({
   ...topic,
   slug: topic.id.replace(/\.md$/, '')
 }));
-const resources = (await getCollection('resources')).filter((item) => item.data.featured);
+const resources = (await getCollection('resources'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+  .filter((item) => item.data.featured)
+  .map((resource) => ({
+    ...resource,
+    slug: resource.id.replace(/\.md$/, '')
+  }));
 const publications = (await getCollection('publications')).filter((item) => item.data.featured);
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+  .filter((item) => item.data.featured)
+  .map((post) => ({
+    ...post,
+    slug: post.id.replace(/\.md$/, '')
+  }));
 ---
 <BaseLayout>
   <Hero />
@@ -45,13 +59,26 @@ const publications = (await getCollection('publications')).filter((item) => item
     <div class="container-shell">
       <SectionHeading
         eyebrow="Learning Resources"
-        title="Structured materials designed for clarity and growth"
-        description="Content collections make it easy to add lecture notes, articles, and modules while preserving searchability, consistency, and maintenance discipline."
+        title="Downloadable teaching kits and guided learning resources"
+        description="Each resource can be maintained in Git, expanded with lecturer notes, and published with a direct download for students, workshop participants, and professional learners."
       />
       <div class="mt-10 grid gap-6 lg:grid-cols-3">
         {resources.map((resource) => (
-          <ResourceCard {...resource.data} />
+          <ResourceCard {...resource.data} slug={resource.slug} />
         ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container-shell">
+      <SectionHeading
+        eyebrow="Blog"
+        title="Fresh insights on systems, protocols, and practical AI"
+        description="The new blog layer supports thought leadership, teaching reflections, course updates, and evergreen academic content with RSS-ready publishing."
+      />
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        {posts.map((post) => <BlogCard {...post.data} slug={post.slug} />)}
       </div>
     </div>
   </section>
@@ -83,7 +110,7 @@ const publications = (await getCollection('publications')).filter((item) => item
     description="Use the contact area to invite teaching collaboration, academic partnership, guest lectures, workshops, and curriculum-aligned learning opportunities."
     primaryHref="/contact"
     primaryLabel="Contact"
-    secondaryHref="/about"
-    secondaryLabel="About the Lecturer"
+    secondaryHref="/blog"
+    secondaryLabel="Read the Blog"
   />
 </BaseLayout>

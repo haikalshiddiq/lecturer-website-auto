@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SectionHeading from '../../components/sections/SectionHeading.astro';
+import BlogCard from '../../components/cards/BlogCard.astro';
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+  .map((post) => ({
+    ...post,
+    slug: post.id.replace(/\.md$/, '')
+  }));
+---
+<BaseLayout title="Blog | Haikal Shiddiq S.Kom., M.T." description="Insights, teaching notes, and academic perspectives by Haikal Shiddiq S.Kom., M.T.">
+  <section class="py-24">
+    <div class="container-shell">
+      <SectionHeading
+        eyebrow="Blog"
+        title="Academic insights, teaching reflections, and practical technology commentary"
+        description="Use the blog to publish course updates, explain core concepts, share research-driven thinking, and strengthen a credible public academic profile."
+      />
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        {posts.map((post) => <BlogCard {...post.data} slug={post.slug} />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

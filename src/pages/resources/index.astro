@@ -3,18 +3,23 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SectionHeading from '../../components/sections/SectionHeading.astro';
 import ResourceCard from '../../components/cards/ResourceCard.astro';
-const resources = (await getCollection('resources')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const resources = (await getCollection('resources'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+  .map((resource) => ({
+    ...resource,
+    slug: resource.id.replace(/\.md$/, '')
+  }));
 ---
-<BaseLayout title="Resources | Haikal Shiddiq S.Kom., M.T." description="Learning resources, modules, and articles for students and professional learners.">
+<BaseLayout title="Resources | Haikal Shiddiq S.Kom., M.T." description="Learning resources, downloadable kits, modules, and articles for students and professional learners.">
   <section class="py-24">
     <div class="container-shell">
       <SectionHeading
         eyebrow="Resources"
-        title="A scalable content library for lecture materials and professional learning"
-        description="This collection-first architecture supports articles, lecture notes, curated modules, and future searchable resources without changing the presentation layer."
+        title="A scalable content library for lecture materials and direct downloads"
+        description="This collection-first architecture now supports downloadable teaching kits, lecture notes, and curated modules without changing the presentation layer."
       />
       <div class="mt-10 grid gap-6 lg:grid-cols-3">
-        {resources.map((resource) => <ResourceCard {...resource.data} />)}
+        {resources.map((resource) => <ResourceCard {...resource.data} slug={resource.slug} />)}
       </div>
     </div>
   </section>

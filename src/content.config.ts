@@ -20,10 +20,12 @@ const resources = defineCollection({
     summary: z.string(),
     topic: z.string(),
     level: z.enum(['Beginner', 'Intermediate', 'Advanced']),
-    format: z.enum(['Article', 'Module', 'Lecture Note', 'Guide']),
+    format: z.enum(['Article', 'Module', 'Lecture Note', 'Guide', 'Toolkit']),
     featured: z.boolean().default(false),
     publishedAt: z.coerce.date(),
-    tags: z.array(z.string()).default([])
+    tags: z.array(z.string()).default([]),
+    downloadUrl: z.string().optional(),
+    ctaLabel: z.string().optional()
   })
 });
 
@@ -41,4 +43,15 @@ const publications = defineCollection({
   })
 });
 
-export const collections = { topics, resources, publications };
+const blog = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    summary: z.string(),
+    publishedAt: z.coerce.date(),
+    tags: z.array(z.string()).default([]),
+    featured: z.boolean().default(false)
+  })
+});
+
+export const collections = { topics, resources, publications, blog };

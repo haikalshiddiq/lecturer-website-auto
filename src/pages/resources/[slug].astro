@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const resources = await getCollection('resources');
+  return resources.map((resource) => ({ params: { slug: resource.id.replace(/\.md$/, '') } }));
+}
+
+const { slug } = Astro.params;
+const resources = await getCollection('resources');
+const entry = resources.find((item) => item.id.replace(/\.md$/, '') === slug);
+if (!entry) throw new Error(`Resource not found: ${slug}`);
+const { Content } = await entry.render();
+---
+<BaseLayout title={`${entry.data.title} | Resources`} description={entry.data.summary}>
+  <section class="py-24">
+    <div class="container-shell grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
+      <aside class="card-surface h-fit p-8">
+        <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">{entry.data.format}</p>
+        <h1 class="mt-4 text-3xl font-semibold text-white">{entry.data.title}</h1>
+        <p class="mt-4 text-sm leading-7 text-slate-300">{entry.data.summary}</p>
+        <div class="mt-8 space-y-3 text-sm text-slate-300">
+          <p><span class="font-semibold text-white">Topic:</span> {entry.data.topic}</p>
+          <p><span class="font-semibold text-white">Level:</span> {entry.data.level}</p>
+          <p><span class="font-semibold text-white">Published:</span> {entry.data.publishedAt.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+        </div>
+        {entry.data.downloadUrl && (
+          <a href={entry.data.downloadUrl} download class="mt-8 inline-flex rounded-full bg-brand-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-400">
+            {entry.data.ctaLabel ?? 'Download resource'}
+          </a>
+        )}
+      </aside>
+      <article class="card-surface p-8">
+        <div class="prose-invert-custom">
+          <Content />
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,26 +1,53 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import SectionHeading from '../../components/sections/SectionHeading.astro';
 import BlogCard from '../../components/cards/BlogCard.astro';
 const posts = (await getCollection('blog'))
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
   .map((post) => ({
-    ...post,
+    ...post.data,
     slug: post.id.replace(/\.md$/, '')
   }));
+const [featured, ...rest] = posts;
 ---
 <BaseLayout title="Blog | Haikal Shiddiq S.Kom., M.T." description="Insights, teaching notes, and academic perspectives by Haikal Shiddiq S.Kom., M.T.">
-  <section class="py-24">
-    <div class="container-shell">
-      <SectionHeading
-        eyebrow="Blog"
-        title="Academic insights, teaching reflections, and practical technology commentary"
-        description="Use the blog to publish course updates, explain core concepts, share research-driven thinking, and strengthen a credible public academic profile."
-      />
-      <div class="mt-10 grid gap-6 lg:grid-cols-3">
-        {posts.map((post) => <BlogCard {...post.data} slug={post.slug} />)}
+  <section class="py-20">
+    <div class="container-shell grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+      {featured && (
+        <article class="card-surface overflow-hidden p-8 sm:p-10">
+          <div class="flex flex-wrap gap-3 text-xs uppercase tracking-[0.25em] text-slate-400">
+            <span>Featured article</span>
+            <span>•</span>
+            <time datetime={featured.publishedAt.toISOString()}>{featured.publishedAt.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
+          </div>
+          <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{featured.title}</h1>
+          <p class="mt-5 max-w-3xl text-base leading-8 text-slate-300">{featured.summary}</p>
+          <div class="mt-6 flex flex-wrap gap-2">
+            {featured.tags.map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
+          </div>
+          <a href={`/blog/${featured.slug}`} class="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">Read featured article</a>
+        </article>
+      )}
+      <div class="grid gap-6">
+        <div class="card-surface p-8">
+          <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Publishing posture</p>
+          <h2 class="mt-4 text-2xl font-semibold text-white">This blog is designed to feel active, useful, and academically credible.</h2>
+          <p class="mt-4 text-sm leading-7 text-slate-300">Use it for course framing, teaching reflections, technology interpretation, and public-facing thought leadership.</p>
+        </div>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-1">
+          {rest.slice(0, 2).map((post) => <BlogCard {...post} />)}
+        </div>
       </div>
     </div>
   </section>
+
+  {rest.length > 2 && (
+    <section class="pb-20">
+      <div class="container-shell">
+        <div class="grid gap-6 lg:grid-cols-3">
+          {rest.slice(2).map((post) => <BlogCard {...post} />)}
+        </div>
+      </div>
+    </section>
+  )}
 </BaseLayout>

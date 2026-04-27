@@ -2,54 +2,69 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/sections/Hero.astro';
-import SectionHeading from '../components/sections/SectionHeading.astro';
-import TopicCard from '../components/cards/TopicCard.astro';
-import ResourceCard from '../components/cards/ResourceCard.astro';
 import PublicationCard from '../components/cards/PublicationCard.astro';
 import BlogCard from '../components/cards/BlogCard.astro';
 import CTASection from '../components/sections/CTASection.astro';
 import StatsBand from '../components/sections/StatsBand.astro';
+import TopicStudio from '../components/sections/TopicStudio.astro';
+import ResourceExplorer from '../components/sections/ResourceExplorer.astro';
 
 const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
 const topicLinks = topics.map((topic) => ({
-  ...topic,
-  slug: topic.id.replace(/\.md$/, '')
+  title: topic.data.title,
+  slug: topic.id.replace(/\.md$/, ''),
+  summary: topic.data.summary,
+  importance: topic.data.importance,
+  subtopics: topic.data.subtopics,
+  learningOutcomes: topic.data.learningOutcomes
 }));
 const resources = (await getCollection('resources'))
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .filter((item) => item.data.featured)
   .map((resource) => ({
-    ...resource,
+    ...resource.data,
     slug: resource.id.replace(/\.md$/, '')
   }));
 const publications = (await getCollection('publications')).filter((item) => item.data.featured);
 const posts = (await getCollection('blog'))
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .filter((item) => item.data.featured)
   .map((post) => ({
-    ...post,
+    ...post.data,
     slug: post.id.replace(/\.md$/, '')
   }));
 ---
 <BaseLayout>
   <Hero />
-  <StatsBand />
+  <StatsBand topicsCount={topics.length} resourcesCount={resources.length} postsCount={posts.length} />
+  <TopicStudio topics={topicLinks} />
+  <ResourceExplorer
+    resources={resources}
+    title="Interactive downloads and learning materials for every pillar"
+    description="Filter the collection by topic, open a reading page, or download a ready-to-use class asset. This feels closer to a learning platform than a static portfolio."
+  />
 
   <section class="py-20">
-    <div class="container-shell">
-      <SectionHeading
-        eyebrow="Expertise"
-        title="Three strategic knowledge pillars for modern learners"
-        description="The site architecture highlights Haikal Shiddiq's subject areas through clear navigation, structured topic pages, and expandable academic resources."
-      />
-      <div class="mt-10 grid gap-6 lg:grid-cols-3">
-        {topicLinks.map((topic) => (
-          <TopicCard
-            title={topic.data.title}
-            href={`/expertise/${topic.slug}`}
-            summary={topic.data.summary}
-            subtopics={topic.data.subtopics}
-          />
+    <div class="container-shell grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+      <div class="card-surface overflow-hidden p-8 sm:p-10">
+        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-200">Fresh thinking</p>
+        <h2 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">A lecturer website should teach, not just introduce.</h2>
+        <p class="mt-5 text-base leading-8 text-slate-300">The blog now acts as an active layer for reflections, teaching notes, and practical commentary around systems, protocols, and AI adoption.</p>
+        <div class="mt-8 space-y-4">
+          <div class="rounded-[1.75rem] border border-white/10 bg-white/5 p-5">
+            <p class="text-sm font-semibold text-white">Why it matters</p>
+            <p class="mt-2 text-sm text-slate-300">Students and collaborators can see current thinking, not only static credentials.</p>
+          </div>
+          <div class="rounded-[1.75rem] border border-white/10 bg-white/5 p-5">
+            <p class="text-sm font-semibold text-white">How it feels</p>
+            <p class="mt-2 text-sm text-slate-300">More like an evolving learning destination with clear energy and stronger content pathways.</p>
+          </div>
+        </div>
+        <a href="/blog" class="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">Open the blog</a>
+      </div>
+      <div class="grid gap-6 lg:grid-cols-2">
+        {posts.slice(0, 3).map((post, index) => (
+          <div class={index === 0 ? 'lg:col-span-2' : ''}>
+            <BlogCard {...post} />
+          </div>
         ))}
       </div>
     </div>
@@ -57,40 +72,12 @@ const posts = (await getCollection('blog'))
 
   <section class="py-20">
     <div class="container-shell">
-      <SectionHeading
-        eyebrow="Learning Resources"
-        title="Downloadable teaching kits and guided learning resources"
-        description="Each resource can be maintained in Git, expanded with lecturer notes, and published with a direct download for students, workshop participants, and professional learners."
-      />
-      <div class="mt-10 grid gap-6 lg:grid-cols-3">
-        {resources.map((resource) => (
-          <ResourceCard {...resource.data} slug={resource.slug} />
-        ))}
+      <div class="mb-8 max-w-3xl">
+        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-200">Publications & projects</p>
+        <h2 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">A more vibrant showcase for research outputs and applied initiatives.</h2>
+        <p class="mt-4 text-base leading-8 text-slate-300">This section keeps the academic credibility of the site while matching the new playful, guided learning posture.</p>
       </div>
-    </div>
-  </section>
-
-  <section class="py-20">
-    <div class="container-shell">
-      <SectionHeading
-        eyebrow="Blog"
-        title="Fresh insights on systems, protocols, and practical AI"
-        description="The new blog layer supports thought leadership, teaching reflections, course updates, and evergreen academic content with RSS-ready publishing."
-      />
-      <div class="mt-10 grid gap-6 lg:grid-cols-3">
-        {posts.map((post) => <BlogCard {...post.data} slug={post.slug} />)}
-      </div>
-    </div>
-  </section>
-
-  <section class="py-20">
-    <div class="container-shell">
-      <SectionHeading
-        eyebrow="Publications & Projects"
-        title="A professional showcase for research, initiatives, and scholarly work"
-        description="The site includes a dedicated publication layer so research outputs and learning initiatives can be highlighted in a credible, high-trust format."
-      />
-      <div class="mt-10 grid gap-6 lg:grid-cols-2">
+      <div class="grid gap-6 lg:grid-cols-2">
         {publications.map((item) => (
           <PublicationCard
             title={item.data.title}
@@ -106,11 +93,11 @@ const posts = (await getCollection('blog'))
   </section>
 
   <CTASection
-    title="Ready to support students, collaborators, and professional learners"
-    description="Use the contact area to invite teaching collaboration, academic partnership, guest lectures, workshops, and curriculum-aligned learning opportunities."
+    title="Want a workshop, collaboration, or curated learning experience?"
+    description="The redesigned platform now supports interactive topic discovery, downloadable teaching assets, and thought-leadership publishing — with room for your verified lecturer profile next."
     primaryHref="/contact"
     primaryLabel="Contact"
-    secondaryHref="/blog"
-    secondaryLabel="Read the Blog"
+    secondaryHref="/about"
+    secondaryLabel="View Profile"
   />
 </BaseLayout>

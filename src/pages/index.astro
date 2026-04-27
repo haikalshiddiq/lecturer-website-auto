@@ -8,6 +8,7 @@ import CTASection from '../components/sections/CTASection.astro';
 import StatsBand from '../components/sections/StatsBand.astro';
 import TopicStudio from '../components/sections/TopicStudio.astro';
 import ResourceExplorer from '../components/sections/ResourceExplorer.astro';
+import TopicCoverageBoard from '../components/sections/TopicCoverageBoard.astro';
 
 const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
 const topicLinks = topics.map((topic) => ({
@@ -24,18 +25,46 @@ const resources = (await getCollection('resources'))
     ...resource.data,
     slug: resource.id.replace(/\.md$/, '')
   }));
-const publications = (await getCollection('publications')).filter((item) => item.data.featured);
+const publications = (await getCollection('publications'))
+  .sort((a, b) => b.data.year - a.data.year)
+  .map((item) => ({
+    ...item.data,
+    slug: item.id.replace(/\.md$/, '')
+  }));
+const featuredPublications = publications.filter((item) => item.featured);
 const posts = (await getCollection('blog'))
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
   .map((post) => ({
     ...post.data,
     slug: post.id.replace(/\.md$/, '')
   }));
+
+const topicCoverage = topicLinks.map((topic) => {
+  const latestPost = posts.find((post) => post.topic === topic.title);
+  const latestResource = resources.find((resource) => resource.topic === topic.title);
+  const latestPublication = publications.find((item) => item.topic === topic.title);
+
+  return {
+    topic: topic.title,
+    postsCount: posts.filter((post) => post.topic === topic.title).length,
+    resourcesCount: resources.filter((resource) => resource.topic === topic.title).length,
+    publicationsCount: publications.filter((item) => item.topic === topic.title).length,
+    latestPost: latestPost ? { title: latestPost.title, href: `/blog/${latestPost.slug}` } : undefined,
+    latestResource: latestResource ? { title: latestResource.title, href: `/resources/${latestResource.slug}` } : undefined,
+    latestPublication: latestPublication ? { title: latestPublication.title, href: latestPublication.externalUrl ?? '/publications' } : undefined
+  };
+});
 ---
 <BaseLayout>
   <Hero />
   <StatsBand topicsCount={topics.length} resourcesCount={resources.length} postsCount={posts.length} />
   <TopicStudio topics={topicLinks} />
+  <TopicCoverageBoard
+    topics={topicLinks.map((topic) => ({ title: topic.title, slug: topic.slug, summary: topic.summary }))}
+    coverage={topicCoverage}
+    title="Daily growth that stays balanced across all lecturer topics"
+    description="Each pillar should keep evolving. This board makes the website feel alive by showing where new articles, resources, and academic outputs are accumulating."
+  />
   <ResourceExplorer
     resources={resources}
     title="Interactive downloads and learning materials for every pillar"
@@ -78,14 +107,16 @@ const posts = (await getCollection('blog'))
         <p class="mt-4 text-base leading-8 text-slate-300">This section keeps the academic credibility of the site while matching the new playful, guided learning posture.</p>
       </div>
       <div class="grid gap-6 lg:grid-cols-2">
-        {publications.map((item) => (
+        {featuredPublications.map((item) => (
           <PublicationCard
-            title={item.data.title}
-            year={item.data.year}
-            type={item.data.type}
-            summary={item.data.summary}
-            status={item.data.status}
-            href={item.data.externalUrl}
+            title={item.title}
+            year={item.year}
+            type={item.type}
+            topic={item.topic}
+            summary={item.summary}
+            status={item.status}
+            href={item.externalUrl}
+            tags={item.tags}
           />
         ))}
       </div>

@@ -1,5 +1,11 @@
 import { defineCollection, z } from 'astro:content';
 
+const topicEnum = z.enum([
+  'Information System Management',
+  'Communication Protocol',
+  'Artificial Intelligence'
+]);
+
 const topics = defineCollection({
   type: 'content',
   schema: z.object({
@@ -18,7 +24,7 @@ const resources = defineCollection({
   schema: z.object({
     title: z.string(),
     summary: z.string(),
-    topic: z.string(),
+    topic: topicEnum,
     level: z.enum(['Beginner', 'Intermediate', 'Advanced']),
     format: z.enum(['Article', 'Module', 'Lecture Note', 'Guide', 'Toolkit']),
     featured: z.boolean().default(false),
@@ -35,6 +41,7 @@ const publications = defineCollection({
     title: z.string(),
     year: z.number(),
     type: z.string(),
+    topic: topicEnum,
     summary: z.string(),
     status: z.string(),
     externalUrl: z.string().url().optional(),
@@ -48,6 +55,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     summary: z.string(),
+    topic: topicEnum,
     publishedAt: z.coerce.date(),
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false)

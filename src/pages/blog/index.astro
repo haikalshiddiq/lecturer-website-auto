@@ -2,13 +2,49 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogCard from '../../components/cards/BlogCard.astro';
+import TopicCoverageBoard from '../../components/sections/TopicCoverageBoard.astro';
+
+const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
 const posts = (await getCollection('blog'))
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
   .map((post) => ({
     ...post.data,
     slug: post.id.replace(/\.md$/, '')
   }));
+const resources = (await getCollection('resources'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+  .map((resource) => ({
+    ...resource.data,
+    slug: resource.id.replace(/\.md$/, '')
+  }));
+const publications = (await getCollection('publications'))
+  .sort((a, b) => b.data.year - a.data.year)
+  .map((item) => ({
+    ...item.data,
+    slug: item.id.replace(/\.md$/, '')
+  }));
 const [featured, ...rest] = posts;
+
+const topicMeta = topics.map((topic) => ({
+  title: topic.data.title,
+  slug: topic.id.replace(/\.md$/, ''),
+  summary: topic.data.summary
+}));
+const coverage = topicMeta.map((topic) => {
+  const latestPost = posts.find((post) => post.topic === topic.title);
+  const latestResource = resources.find((resource) => resource.topic === topic.title);
+  const latestPublication = publications.find((item) => item.topic === topic.title);
+
+  return {
+    topic: topic.title,
+    postsCount: posts.filter((post) => post.topic === topic.title).length,
+    resourcesCount: resources.filter((resource) => resource.topic === topic.title).length,
+    publicationsCount: publications.filter((item) => item.topic === topic.title).length,
+    latestPost: latestPost ? { title: latestPost.title, href: `/blog/${latestPost.slug}` } : undefined,
+    latestResource: latestResource ? { title: latestResource.title, href: `/resources/${latestResource.slug}` } : undefined,
+    latestPublication: latestPublication ? { title: latestPublication.title, href: latestPublication.externalUrl ?? '/publications' } : undefined
+  };
+});
 ---
 <BaseLayout title="Blog | Haikal Shiddiq S.Kom., M.T." description="Insights, teaching notes, and academic perspectives by Haikal Shiddiq S.Kom., M.T.">
   <section class="py-20">
@@ -23,6 +59,7 @@ const [featured, ...rest] = posts;
           <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{featured.title}</h1>
           <p class="mt-5 max-w-3xl text-base leading-8 text-slate-300">{featured.summary}</p>
           <div class="mt-6 flex flex-wrap gap-2">
+            <span class="rounded-full border border-brand-300/30 bg-brand-400/10 px-3 py-1 text-xs text-brand-100">{featured.topic}</span>
             {featured.tags.map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
           </div>
           <a href={`/blog/${featured.slug}`} class="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">Read featured article</a>
@@ -40,6 +77,13 @@ const [featured, ...rest] = posts;
       </div>
     </div>
   </section>
+
+  <TopicCoverageBoard
+    topics={topicMeta}
+    coverage={coverage}
+    title="Publishing momentum across all three lecturer pillars"
+    description="The blog should not lean too heavily on one topic. This board helps visitors see balanced thought leadership across systems, protocols, and AI."
+  />
 
   {rest.length > 2 && (
     <section class="pb-20">

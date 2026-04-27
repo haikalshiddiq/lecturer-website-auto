@@ -2,10 +2,38 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PublicationCard from '../../components/cards/PublicationCard.astro';
+import TopicCoverageBoard from '../../components/sections/TopicCoverageBoard.astro';
 
+const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
 const publications = (await getCollection('publications')).sort((a, b) => b.data.year - a.data.year);
+const resources = (await getCollection('resources'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+  .map((resource) => ({ ...resource.data, slug: resource.id.replace(/\.md$/, '') }));
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+  .map((post) => ({ ...post.data, slug: post.id.replace(/\.md$/, '') }));
 const featured = publications[0];
 const typeFilters = ['All', ...new Set(publications.map((item) => item.data.type))];
+const topicMeta = topics.map((topic) => ({
+  title: topic.data.title,
+  slug: topic.id.replace(/\.md$/, ''),
+  summary: topic.data.summary
+}));
+const coverage = topicMeta.map((topic) => {
+  const latestPost = posts.find((post) => post.topic === topic.title);
+  const latestResource = resources.find((resource) => resource.topic === topic.title);
+  const latestPublication = publications.find((item) => item.data.topic === topic.title);
+
+  return {
+    topic: topic.title,
+    postsCount: posts.filter((post) => post.topic === topic.title).length,
+    resourcesCount: resources.filter((resource) => resource.topic === topic.title).length,
+    publicationsCount: publications.filter((item) => item.data.topic === topic.title).length,
+    latestPost: latestPost ? { title: latestPost.title, href: `/blog/${latestPost.slug}` } : undefined,
+    latestResource: latestResource ? { title: latestResource.title, href: `/resources/${latestResource.slug}` } : undefined,
+    latestPublication: latestPublication ? { title: latestPublication.data.title, href: latestPublication.data.externalUrl ?? '/publications' } : undefined
+  };
+});
 ---
 <BaseLayout title="Publications | Haikal Shiddiq S.Kom., M.T." description="Research, publications, projects, and academic initiatives.">
   <section class="py-24" data-publication-hub>
@@ -35,11 +63,12 @@ const typeFilters = ['All', ...new Set(publications.map((item) => item.data.type
               <span>Spotlight</span>
               <span>{featured.data.year}</span>
             </div>
-            <h2 class="mt-4 text-3xl font-semibold text-white">{featured.data.title}</h2>
-            <p class="mt-4 text-sm leading-7 text-slate-300">{featured.data.summary}</p>
-            <div class="mt-6 flex flex-wrap gap-2">
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="rounded-full border border-brand-300/30 bg-brand-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-100">{featured.data.topic}</span>
               {featured.data.tags.map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
             </div>
+            <h2 class="mt-4 text-3xl font-semibold text-white">{featured.data.title}</h2>
+            <p class="mt-4 text-sm leading-7 text-slate-300">{featured.data.summary}</p>
             <div class="mt-8 flex flex-wrap gap-4">
               {featured.data.externalUrl && <a href={featured.data.externalUrl} class="rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-400" target="_blank" rel="noreferrer">Open featured item</a>}
               <a href="/about" class="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5">View lecturer profile</a>
@@ -55,6 +84,7 @@ const typeFilters = ['All', ...new Set(publications.map((item) => item.data.type
               title={item.data.title}
               year={item.data.year}
               type={item.data.type}
+              topic={item.data.topic}
               summary={item.data.summary}
               status={item.data.status}
               href={item.data.externalUrl}
@@ -65,6 +95,13 @@ const typeFilters = ['All', ...new Set(publications.map((item) => item.data.type
       </div>
     </div>
   </section>
+
+  <TopicCoverageBoard
+    topics={topicMeta}
+    coverage={coverage}
+    title="Academic output coverage across the three lecturer pillars"
+    description="Publications and projects now sit inside a wider topic-growth system, so visitors can see where each academic pillar is building momentum."
+  />
 
   <script is:inline>
     document.querySelectorAll('[data-publication-hub]').forEach((hub) => {

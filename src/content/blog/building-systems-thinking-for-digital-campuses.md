@@ -1,6 +1,7 @@
 ---
 title: Building Systems Thinking for Digital Campuses
 summary: Why Information System Management should be taught as an organisational design discipline, not only a software topic.
+topic: Information System Management
 publishedAt: 2026-04-27
 featured: true
 tags:

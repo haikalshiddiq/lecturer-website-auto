@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SectionHeading from '../../components/sections/SectionHeading.astro';
+import TopicCard from '../../components/cards/TopicCard.astro';
+const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
+const topicLinks = topics.map((topic) => ({
+  ...topic,
+  slug: topic.id.replace(/\.md$/, '')
+}));
+---
+<BaseLayout title="Expertise | Haikal Shiddiq S.Kom., M.T." description="Explore the core expertise pillars of Information System Management, Communication Protocol, and Artificial Intelligence.">
+  <section class="py-24">
+    <div class="container-shell">
+      <SectionHeading
+        eyebrow="Expertise"
+        title="A focused academic structure built around three modern pillars"
+        description="Each topic section is designed as a scalable landing page for modules, lecture notes, case studies, and future curriculum-aligned resources."
+      />
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        {topicLinks.map((topic) => (
+          <TopicCard title={topic.data.title} href={`/expertise/${topic.slug}`} summary={topic.data.summary} subtopics={topic.data.subtopics} />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

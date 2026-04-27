@@ -1,0 +1,89 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/sections/Hero.astro';
+import SectionHeading from '../components/sections/SectionHeading.astro';
+import TopicCard from '../components/cards/TopicCard.astro';
+import ResourceCard from '../components/cards/ResourceCard.astro';
+import PublicationCard from '../components/cards/PublicationCard.astro';
+import CTASection from '../components/sections/CTASection.astro';
+import StatsBand from '../components/sections/StatsBand.astro';
+
+const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
+const topicLinks = topics.map((topic) => ({
+  ...topic,
+  slug: topic.id.replace(/\.md$/, '')
+}));
+const resources = (await getCollection('resources')).filter((item) => item.data.featured);
+const publications = (await getCollection('publications')).filter((item) => item.data.featured);
+---
+<BaseLayout>
+  <Hero />
+  <StatsBand />
+
+  <section class="py-20">
+    <div class="container-shell">
+      <SectionHeading
+        eyebrow="Expertise"
+        title="Three strategic knowledge pillars for modern learners"
+        description="The site architecture highlights Haikal Shiddiq's subject areas through clear navigation, structured topic pages, and expandable academic resources."
+      />
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        {topicLinks.map((topic) => (
+          <TopicCard
+            title={topic.data.title}
+            href={`/expertise/${topic.slug}`}
+            summary={topic.data.summary}
+            subtopics={topic.data.subtopics}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container-shell">
+      <SectionHeading
+        eyebrow="Learning Resources"
+        title="Structured materials designed for clarity and growth"
+        description="Content collections make it easy to add lecture notes, articles, and modules while preserving searchability, consistency, and maintenance discipline."
+      />
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        {resources.map((resource) => (
+          <ResourceCard {...resource.data} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container-shell">
+      <SectionHeading
+        eyebrow="Publications & Projects"
+        title="A professional showcase for research, initiatives, and scholarly work"
+        description="The site includes a dedicated publication layer so research outputs and learning initiatives can be highlighted in a credible, high-trust format."
+      />
+      <div class="mt-10 grid gap-6 lg:grid-cols-2">
+        {publications.map((item) => (
+          <PublicationCard
+            title={item.data.title}
+            year={item.data.year}
+            type={item.data.type}
+            summary={item.data.summary}
+            status={item.data.status}
+            href={item.data.externalUrl}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CTASection
+    title="Ready to support students, collaborators, and professional learners"
+    description="Use the contact area to invite teaching collaboration, academic partnership, guest lectures, workshops, and curriculum-aligned learning opportunities."
+    primaryHref="/contact"
+    primaryLabel="Contact"
+    secondaryHref="/about"
+    secondaryLabel="About the Lecturer"
+  />
+</BaseLayout>

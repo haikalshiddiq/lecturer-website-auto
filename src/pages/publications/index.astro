@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SectionHeading from '../../components/sections/SectionHeading.astro';
+import PublicationCard from '../../components/cards/PublicationCard.astro';
+const publications = (await getCollection('publications')).sort((a, b) => b.data.year - a.data.year);
+---
+<BaseLayout title="Publications | Haikal Shiddiq S.Kom., M.T." description="Research, publications, projects, and academic initiatives.">
+  <section class="py-24">
+    <div class="container-shell">
+      <SectionHeading
+        eyebrow="Publications & Projects"
+        title="A dedicated showcase for academic outputs and technical initiatives"
+        description="The content model supports research papers, collaborations, technical projects, and educational initiatives with room for future expansion."
+      />
+      <div class="mt-10 grid gap-6 lg:grid-cols-2">
+        {publications.map((item) => (
+          <PublicationCard title={item.data.title} year={item.data.year} type={item.data.type} summary={item.data.summary} status={item.data.status} href={item.data.externalUrl} />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

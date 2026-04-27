@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionHeading from '../components/sections/SectionHeading.astro';
+import CTASection from '../components/sections/CTASection.astro';
+import { profile } from '../data/profile';
+---
+<BaseLayout title="About | Haikal Shiddiq S.Kom., M.T." description="Academic profile, teaching philosophy, and professional positioning for Haikal Shiddiq S.Kom., M.T.">
+  <section class="py-24">
+    <div class="container-shell grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
+      <div class="card-surface p-8">
+        <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Profile Snapshot</p>
+        <h1 class="mt-4 text-4xl font-semibold text-white">Academic profile and lecturer identity</h1>
+        <p class="mt-4 text-sm leading-7 text-slate-300">{profile.longBio}</p>
+      </div>
+      <div class="grid gap-6">
+        <div class="card-surface p-8">
+          <h2 class="text-2xl font-semibold text-white">Teaching Philosophy</h2>
+          <p class="mt-4 text-sm leading-7 text-slate-300">{profile.teachingPhilosophy}</p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-2">
+          <div class="card-surface p-8">
+            <h2 class="text-xl font-semibold text-white">Education</h2>
+            <ul class="mt-4 space-y-3 text-sm leading-7 text-slate-300">
+              {profile.education.map((item) => <li>• {item}</li>)}
+            </ul>
+          </div>
+          <div class="card-surface p-8">
+            <h2 class="text-xl font-semibold text-white">Experience</h2>
+            <ul class="mt-4 space-y-3 text-sm leading-7 text-slate-300">
+              {profile.experience.map((item) => <li>• {item}</li>)}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-20">
+    <div class="container-shell">
+      <SectionHeading
+        eyebrow="Research Interests"
+        title="Strategic areas ready for validated academic enrichment"
+        description="The current structure uses placeholders where public profile data could not be reliably collected automatically. It is intentionally ready for quick factual enrichment once verified details are provided."
+      />
+      <div class="mt-10 grid gap-6 md:grid-cols-2">
+        <div class="card-surface p-8">
+          <h3 class="text-xl font-semibold text-white">Research Interests</h3>
+          <ul class="mt-4 space-y-3 text-sm leading-7 text-slate-300">
+            {profile.researchInterests.map((item) => <li>• {item}</li>)}
+          </ul>
+        </div>
+        <div class="card-surface p-8">
+          <h3 class="text-xl font-semibold text-white">Achievements</h3>
+          <ul class="mt-4 space-y-3 text-sm leading-7 text-slate-300">
+            {profile.achievements.map((item) => <li>• {item}</li>)}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CTASection
+    title="Provide verified academic details to enrich this profile further"
+    description="Education history, publications, certifications, and collaboration history can be added without redesigning the site architecture."
+    primaryHref="/contact"
+    primaryLabel="Update Profile Details"
+    secondaryHref="/resources"
+    secondaryLabel="Browse Resources"
+  />
+</BaseLayout>

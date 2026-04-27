@@ -1,0 +1,23 @@
+---
+import { siteConfig } from '../../data/site';
+const pathname = Astro.url.pathname;
+---
+<header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/85 backdrop-blur-xl">
+  <div class="container-shell flex items-center justify-between py-4">
+    <a href="/" class="flex items-center gap-3 text-sm font-semibold tracking-[0.24em] text-white uppercase">
+      <span class="flex h-10 w-10 items-center justify-center rounded-2xl bg-brand-500 text-base font-bold shadow-soft">HS</span>
+      <span class="hidden sm:inline">Haikal Shiddiq</span>
+    </a>
+    <nav class="hidden gap-6 md:flex">
+      {siteConfig.navigation.map((item) => (
+        <a
+          href={item.href}
+          class={`text-sm transition ${pathname === item.href || pathname.startsWith(`${item.href}/`) ? 'text-white' : 'text-slate-300 hover:text-white'}`}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+    <a href="/contact" class="rounded-full border border-brand-400/40 bg-brand-500/20 px-4 py-2 text-sm font-medium text-brand-100 transition hover:bg-brand-500/30">Let’s Collaborate</a>
+  </div>
+</header>

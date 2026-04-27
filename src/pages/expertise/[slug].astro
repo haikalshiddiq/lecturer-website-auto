@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+export async function getStaticPaths() {
+  const topics = await getCollection('topics');
+  return topics.map((topic) => ({ params: { slug: topic.id.replace(/\.md$/, '') } }));
+}
+const { slug } = Astro.params;
+const topics = await getCollection('topics');
+const entry = topics.find((item) => item.id.replace(/\.md$/, '') === slug);
+if (!entry) throw new Error(`Topic not found: ${slug}`);
+const { Content } = await entry.render();
+---
+<BaseLayout title={`${entry.data.title} | Expertise`} description={entry.data.summary}>
+  <section class="py-24">
+    <div class="container-shell grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
+      <aside class="card-surface h-fit p-8">
+        <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Why it matters</p>
+        <h1 class="mt-4 text-3xl font-semibold text-white">{entry.data.title}</h1>
+        <p class="mt-4 text-sm leading-7 text-slate-300">{entry.data.importance}</p>
+        <div class="mt-8">
+          <p class="text-sm font-semibold text-white">Learning Outcomes</p>
+          <ul class="mt-4 space-y-3 text-sm leading-7 text-slate-300">
+            {entry.data.learningOutcomes.map((item) => <li>• {item}</li>)}
+          </ul>
+        </div>
+      </aside>
+      <div class="card-surface p-8">
+        <div class="prose-invert-custom">
+          <Content />
+        </div>
+        <div class="mt-10 grid gap-4 sm:grid-cols-2">
+          {entry.data.subtopics.map((item) => (
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">{item}</div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

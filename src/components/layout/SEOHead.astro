@@ -1,0 +1,30 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+import { siteConfig } from '../../data/site';
+const { title = siteConfig.title, description = siteConfig.description } = Astro.props;
+const url = new URL(Astro.url.pathname, siteConfig.siteUrl).toString();
+---
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={url} />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={url} />
+<meta property="og:site_name" content={siteConfig.name} />
+<meta name="twitter:card" content="summary_large_image" />
+<script is:inline type="application/ld+json" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: siteConfig.name,
+  jobTitle: 'Lecturer',
+  description,
+  url: siteConfig.siteUrl,
+  sameAs: siteConfig.socialLinks.map((item) => item.href)
+})} />

@@ -1,0 +1,55 @@
+---
+import { profile } from '../../data/profile';
+---
+<section class="relative overflow-hidden py-24 sm:py-32">
+  <div class="container-shell grid items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
+    <div>
+      <p class="text-sm font-semibold uppercase tracking-[0.35em] text-brand-200">Premium Lecturer Profile</p>
+      <h1 class="mt-6 max-w-4xl text-5xl font-semibold tracking-tight text-white sm:text-6xl lg:text-7xl">
+        Haikal Shiddiq S.Kom., M.T.
+      </h1>
+      <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+        {profile.shortBio}
+      </p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="/resources" class="rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-400">Explore Learning Resources</a>
+        <a href="/about" class="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5">View Academic Profile</a>
+      </div>
+      <dl class="mt-12 grid gap-6 sm:grid-cols-3">
+        <div class="card-surface p-5">
+          <dt class="text-xs uppercase tracking-[0.3em] text-slate-400">Specialisation</dt>
+          <dd class="mt-2 text-lg font-semibold text-white">Information System Management</dd>
+        </div>
+        <div class="card-surface p-5">
+          <dt class="text-xs uppercase tracking-[0.3em] text-slate-400">Discipline</dt>
+          <dd class="mt-2 text-lg font-semibold text-white">Communication Protocol</dd>
+        </div>
+        <div class="card-surface p-5">
+          <dt class="text-xs uppercase tracking-[0.3em] text-slate-400">Innovation</dt>
+          <dd class="mt-2 text-lg font-semibold text-white">Artificial Intelligence</dd>
+        </div>
+      </dl>
+    </div>
+    <div class="card-surface relative overflow-hidden p-8">
+      <div class="absolute inset-0 bg-grid bg-[size:22px_22px] opacity-25"></div>
+      <div class="relative rounded-[2rem] border border-white/10 bg-slate-900/70 p-8 shadow-soft">
+        <p class="text-sm font-medium text-brand-200">Academic Positioning</p>
+        <ul class="mt-6 space-y-4 text-sm leading-7 text-slate-300">
+          <li>• A polished public profile for students, academic peers, and collaborators.</li>
+          <li>• A scalable content hub for modules, lecture notes, and curated resources.</li>
+          <li>• A Cloudflare-first delivery architecture optimised for speed and global reach.</li>
+        </ul>
+        <div class="mt-8 grid gap-4 sm:grid-cols-2">
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+            <p class="text-xs uppercase tracking-[0.25em] text-slate-400">Platform</p>
+            <p class="mt-2 text-base font-semibold text-white">Astro + Tailwind</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+            <p class="text-xs uppercase tracking-[0.25em] text-slate-400">Operations</p>
+            <p class="mt-2 text-base font-semibold text-white">GitHub + Cloudflare</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

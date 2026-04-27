@@ -6,18 +6,25 @@ interface Props {
   summary: string;
   status: string;
   href?: string;
+  tags?: string[];
 }
-const { title, year, type, summary, status, href } = Astro.props;
+const { title, year, type, summary, status, href, tags = [] } = Astro.props;
 ---
-<div class="card-surface h-full p-6">
+<div class="card-surface group relative h-full overflow-hidden p-6 transition duration-300 hover:-translate-y-1.5 hover:border-brand-400/40 hover:shadow-[0_30px_80px_rgba(45,82,216,0.16)]">
+  <div class="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-brand-300/70 to-transparent opacity-0 transition duration-300 group-hover:opacity-100"></div>
   <div class="flex items-center justify-between gap-3">
     <p class="text-xs uppercase tracking-[0.25em] text-brand-200">{type}</p>
     <p class="text-sm text-slate-400">{year}</p>
   </div>
   <h3 class="mt-4 text-xl font-semibold text-white">{title}</h3>
   <p class="mt-3 text-sm leading-7 text-slate-300">{summary}</p>
+  {tags.length > 0 && (
+    <div class="mt-5 flex flex-wrap gap-2">
+      {tags.map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
+    </div>
+  )}
   <div class="mt-6 flex items-center justify-between gap-3 text-sm">
     <span class="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-emerald-200">{status}</span>
-    {href && <a href={href} class="font-semibold text-brand-200" target="_blank" rel="noreferrer">Open →</a>}
+    {href && <a href={href} class="font-semibold text-brand-200 transition group-hover:translate-x-1" target="_blank" rel="noreferrer">Open →</a>}
   </div>
 </div>

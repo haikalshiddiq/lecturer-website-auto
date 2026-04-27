@@ -1,8 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import SectionHeading from '../../components/sections/SectionHeading.astro';
 import TopicCard from '../../components/cards/TopicCard.astro';
+
 const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
 const topicLinks = topics.map((topic) => ({
   ...topic,
@@ -10,13 +10,48 @@ const topicLinks = topics.map((topic) => ({
 }));
 ---
 <BaseLayout title="Expertise | Haikal Shiddiq S.Kom., M.T." description="Explore the core expertise pillars of Information System Management, Communication Protocol, and Artificial Intelligence.">
-  <section class="py-24">
+  <section class="py-24" data-expertise-hub>
     <div class="container-shell">
-      <SectionHeading
-        eyebrow="Expertise"
-        title="A focused academic structure built around three modern pillars"
-        description="Each topic section is designed as a scalable landing page for modules, lecture notes, case studies, and future curriculum-aligned resources."
-      />
+      <div class="grid gap-8 lg:grid-cols-[1.02fr_0.98fr]">
+        <div class="card-surface p-8 sm:p-10">
+          <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-200">Expertise hub</p>
+          <h1 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">Three pillars, one guided academic journey.</h1>
+          <p class="mt-5 max-w-2xl text-base leading-8 text-slate-300">This page turns the lecturer's main expertise areas into a navigable learning hub. Each pillar has its own rationale, subtopics, and action path so visitors can move with intent instead of scanning static text.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            {topicLinks.map((topic, index) => (
+              <button
+                type="button"
+                data-expertise-tab={topic.slug}
+                aria-pressed={index === 0 ? 'true' : 'false'}
+                class={`rounded-full px-5 py-3 text-sm font-semibold transition ${index === 0 ? 'bg-white text-slate-950' : 'border border-white/10 bg-white/5 text-slate-100 hover:border-white/20 hover:bg-white/10'}`}
+              >
+                {topic.data.title}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div class="card-surface p-8 sm:p-10">
+          {topicLinks.map((topic, index) => (
+            <article data-expertise-panel={topic.slug} class={`${index === 0 ? 'block' : 'hidden'}`}>
+              <div class="flex items-center justify-between gap-3 text-xs uppercase tracking-[0.24em] text-slate-400">
+                <span>Why this pillar matters</span>
+                <span>{String(topic.data.order).padStart(2, '0')}</span>
+              </div>
+              <h2 class="mt-4 text-3xl font-semibold text-white">{topic.data.summary}</h2>
+              <p class="mt-4 text-sm leading-7 text-slate-300">{topic.data.importance}</p>
+              <div class="mt-6 grid gap-3 text-sm text-slate-200">
+                {topic.data.learningOutcomes.slice(0, 3).map((item) => <div class="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">{item}</div>)}
+              </div>
+              <div class="mt-8 flex flex-wrap gap-4">
+                <a href={`/expertise/${topic.slug}`} class="rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-400">Open pillar page</a>
+                <a href="/resources" class="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5">Match resources</a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+
       <div class="mt-10 grid gap-6 lg:grid-cols-3">
         {topicLinks.map((topic) => (
           <TopicCard title={topic.data.title} href={`/expertise/${topic.slug}`} summary={topic.data.summary} subtopics={topic.data.subtopics} />
@@ -24,4 +59,25 @@ const topicLinks = topics.map((topic) => ({
       </div>
     </div>
   </section>
+
+  <script is:inline>
+    document.querySelectorAll('[data-expertise-hub]').forEach((hub) => {
+      const tabs = Array.from(hub.querySelectorAll('[data-expertise-tab]'));
+      const panels = Array.from(hub.querySelectorAll('[data-expertise-panel]'));
+      const activate = (slug) => {
+        tabs.forEach((tab) => {
+          const active = tab.dataset.expertiseTab === slug;
+          tab.setAttribute('aria-pressed', String(active));
+          tab.classList.toggle('bg-white', active);
+          tab.classList.toggle('text-slate-950', active);
+          tab.classList.toggle('border', !active);
+          tab.classList.toggle('border-white/10', !active);
+          tab.classList.toggle('bg-white/5', !active);
+          tab.classList.toggle('text-slate-100', !active);
+        });
+        panels.forEach((panel) => panel.classList.toggle('hidden', panel.dataset.expertisePanel !== slug));
+      };
+      tabs.forEach((tab) => tab.addEventListener('click', () => activate(tab.dataset.expertiseTab)));
+    });
+  </script>
 </BaseLayout>

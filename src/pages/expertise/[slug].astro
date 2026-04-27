@@ -1,40 +1,145 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
 export async function getStaticPaths() {
   const topics = await getCollection('topics');
   return topics.map((topic) => ({ params: { slug: topic.id.replace(/\.md$/, '') } }));
 }
+
 const { slug } = Astro.params;
 const topics = await getCollection('topics');
 const entry = topics.find((item) => item.id.replace(/\.md$/, '') === slug);
 if (!entry) throw new Error(`Topic not found: ${slug}`);
 const { Content } = await entry.render();
+
+const learningModes = [
+  {
+    slug: 'lecture',
+    label: 'Lecture mode',
+    title: 'Clarify the core idea with a strategic overview.',
+    description: 'Use this pillar to establish definitions, context, and why the subject matters in organisational or technological settings.'
+  },
+  {
+    slug: 'workshop',
+    label: 'Workshop mode',
+    title: 'Turn the topic into a guided class activity.',
+    description: 'Break the concept into case discussions, framework mapping, or small-group analysis so learners can apply rather than memorize.'
+  },
+  {
+    slug: 'application',
+    label: 'Application mode',
+    title: 'Anchor the topic in a concrete outcome.',
+    description: 'Connect the learning to a downloadable asset, reflection task, or professional use case that makes the topic feel useful beyond the page.'
+  }
+];
 ---
 <BaseLayout title={`${entry.data.title} | Expertise`} description={entry.data.summary}>
-  <section class="py-24">
-    <div class="container-shell grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
-      <aside class="card-surface h-fit p-8">
-        <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Why it matters</p>
-        <h1 class="mt-4 text-3xl font-semibold text-white">{entry.data.title}</h1>
-        <p class="mt-4 text-sm leading-7 text-slate-300">{entry.data.importance}</p>
-        <div class="mt-8">
-          <p class="text-sm font-semibold text-white">Learning Outcomes</p>
-          <ul class="mt-4 space-y-3 text-sm leading-7 text-slate-300">
+  <section class="py-24" data-topic-detail>
+    <div class="container-shell grid gap-8 lg:grid-cols-[0.82fr_1.18fr]">
+      <aside class="grid h-fit gap-6 lg:sticky lg:top-28">
+        <div class="card-surface p-8">
+          <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Why it matters</p>
+          <h1 class="mt-4 text-3xl font-semibold text-white">{entry.data.title}</h1>
+          <p class="mt-4 text-sm leading-7 text-slate-300">{entry.data.importance}</p>
+          <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
+            <div class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4">
+              <p class="text-xs uppercase tracking-[0.24em] text-slate-400">Subtopics</p>
+              <p class="mt-2 text-2xl font-semibold text-white">{entry.data.subtopics.length}</p>
+            </div>
+            <div class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4">
+              <p class="text-xs uppercase tracking-[0.24em] text-slate-400">Outcomes</p>
+              <p class="mt-2 text-2xl font-semibold text-white">{entry.data.learningOutcomes.length}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-surface p-8">
+          <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Learning outcomes</p>
+          <ul class="mt-5 space-y-3 text-sm leading-7 text-slate-300">
             {entry.data.learningOutcomes.map((item) => <li>• {item}</li>)}
           </ul>
         </div>
       </aside>
-      <div class="card-surface p-8">
-        <div class="prose-invert-custom">
-          <Content />
+
+      <div class="grid gap-6">
+        <div class="card-surface overflow-hidden p-8 sm:p-10">
+          <div class="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.24em] text-slate-400">
+            <span>Topic studio</span>
+            <span>•</span>
+            <span>{entry.data.title}</span>
+          </div>
+          <h2 class="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">Use the same topic through different teaching modes.</h2>
+          <p class="mt-4 text-base leading-8 text-slate-300">The page now behaves more like a guided academic module. Switch the mode below to frame how this topic can be delivered in class or collaboration settings.</p>
+
+          <div class="mt-8 flex flex-wrap gap-3">
+            {learningModes.map((mode, index) => (
+              <button
+                type="button"
+                data-learning-mode={mode.slug}
+                aria-pressed={index === 0 ? 'true' : 'false'}
+                class={`rounded-full px-5 py-3 text-sm font-semibold transition ${index === 0 ? 'bg-white text-slate-950' : 'border border-white/10 bg-white/5 text-slate-100 hover:border-white/20 hover:bg-white/10'}`}
+              >
+                {mode.label}
+              </button>
+            ))}
+          </div>
+
+          <div class="mt-8">
+            {learningModes.map((mode, index) => (
+              <article data-learning-panel={mode.slug} class={`${index === 0 ? 'block' : 'hidden'} rounded-[2rem] border border-white/10 bg-white/5 p-6 sm:p-7`}>
+                <h3 class="text-2xl font-semibold text-white">{mode.title}</h3>
+                <p class="mt-4 text-sm leading-7 text-slate-300">{mode.description}</p>
+              </article>
+            ))}
+          </div>
         </div>
-        <div class="mt-10 grid gap-4 sm:grid-cols-2">
-          {entry.data.subtopics.map((item) => (
-            <div class="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">{item}</div>
-          ))}
+
+        <div class="card-surface p-8 sm:p-10">
+          <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Overview</p>
+          <div class="mt-5 prose-invert-custom">
+            <Content />
+          </div>
+        </div>
+
+        <div class="grid gap-6 xl:grid-cols-[0.95fr_1.05fr]">
+          <div class="card-surface p-8">
+            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Subtopics</p>
+            <div class="mt-5 grid gap-3 text-sm text-slate-200">
+              {entry.data.subtopics.map((item) => <div class="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">{item}</div>)}
+            </div>
+          </div>
+          <div class="card-surface p-8">
+            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Next steps</p>
+            <div class="mt-5 grid gap-3 text-sm text-slate-200">
+              <a href="/resources" class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">Browse learning materials that can support this topic.</a>
+              <a href="/blog" class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">Read current teaching reflections connected to this pillar.</a>
+              <a href="/contact" class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">Open a discussion for workshops, training, or collaboration.</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+  <script is:inline>
+    document.querySelectorAll('[data-topic-detail]').forEach((detail) => {
+      const tabs = Array.from(detail.querySelectorAll('[data-learning-mode]'));
+      const panels = Array.from(detail.querySelectorAll('[data-learning-panel]'));
+      const activate = (slug) => {
+        tabs.forEach((tab) => {
+          const active = tab.dataset.learningMode === slug;
+          tab.setAttribute('aria-pressed', String(active));
+          tab.classList.toggle('bg-white', active);
+          tab.classList.toggle('text-slate-950', active);
+          tab.classList.toggle('border', !active);
+          tab.classList.toggle('border-white/10', !active);
+          tab.classList.toggle('bg-white/5', !active);
+          tab.classList.toggle('text-slate-100', !active);
+        });
+        panels.forEach((panel) => panel.classList.toggle('hidden', panel.dataset.learningPanel !== slug));
+      };
+      tabs.forEach((tab) => tab.addEventListener('click', () => activate(tab.dataset.learningMode)));
+    });
+  </script>
 </BaseLayout>

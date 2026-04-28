@@ -51,6 +51,23 @@ const trackBySlug = {
       { step: '02', title: 'Design governance gates', description: 'Turn approvals, tests, and release windows into a CI/CD policy model.' },
       { step: '03', title: 'Verify operational trust', description: 'Use live checks and KPI signals to judge whether a release was truly successful.' }
     ],
+    drills: [
+      {
+        step: 'Scenario 1',
+        prompt: 'A registrar update must ship before enrollment opens, but approval is delayed. Which governance signal should students check first?',
+        answer: 'Check whether the release gate is blocked by an approval workflow, not by build quality. This keeps students focused on governance evidence before technical blame.'
+      },
+      {
+        step: 'Scenario 2',
+        prompt: 'A Pages deployment is green, but the service owner reports missing content. Which verification move belongs in the studio?',
+        answer: 'Use a browser-like GET request against the live Pages URL and confirm an expected proof string, because a status code alone can hide stale or cached content.'
+      },
+      {
+        step: 'Scenario 3',
+        prompt: 'The release succeeded technically, yet support tickets increase. How should learners classify the problem?',
+        answer: 'Treat it as a service-quality governance issue. CI/CD is complete only when user-facing outcomes, rollback readiness, and support signals remain healthy.'
+      }
+    ],
     moduleUrl: '/downloads/information-systems-cicd-studio-module.md',
     moduleLabel: 'Download lecturer-ready studio module',
     diagramUrl: '/downloads/information-systems-cicd-governance-map.svg',
@@ -69,10 +86,29 @@ const trackBySlug = {
       { step: '02', title: 'Study failure patterns', description: 'Compare healthy deploys with TLS, DNS, timeout, or header-related failures.' },
       { step: '03', title: 'Build verification logic', description: 'Turn protocol literacy into health-check and troubleshooting routines.' }
     ],
+    drills: [
+      {
+        step: 'Scenario 1',
+        prompt: 'A GitHub Actions deploy reaches Cloudflare, but the final verification says 525 SSL handshake failed. What should students investigate first?',
+        answer: 'Start with the TLS boundary between client and edge or edge and origin, because the failure appears after connectivity exists but before secure HTTP can complete.'
+      },
+      {
+        step: 'Scenario 2',
+        prompt: 'The Worker endpoint returns 200 to curl but fails from the live form. Which protocol clue matters most?',
+        answer: 'Compare the request format and headers. HTML forms often send application/x-www-form-urlencoded or FormData, so JSON-based tests can miss the real failure path.'
+      },
+      {
+        step: 'Scenario 3',
+        prompt: 'A Pages release is live for one student but stale for another. How should the class read this?',
+        answer: 'Frame it as an HTTP caching and edge propagation discussion. Learners should inspect cache behavior, validation headers, and whether the proof string changed across clients.'
+      }
+    ],
     moduleUrl: '/downloads/protocol-delivery-observability-module.md',
     moduleLabel: 'Download lecturer-ready studio module',
     diagramUrl: '/downloads/protocol-delivery-observability-map.svg',
-    diagramLabel: 'Open protocol observability SVG diagram'
+    diagramLabel: 'Open protocol observability SVG diagram',
+    studioPackUrl: '/downloads/protocol-verification-scenario-pack.md',
+    studioPackLabel: 'Download protocol verification scenario pack'
   },
   'artificial-intelligence': {
     label: 'AI release guardrails track',
@@ -86,6 +122,23 @@ const trackBySlug = {
       { step: '01', title: 'Define evaluation gates', description: 'Set quality thresholds for prompts, models, and safety criteria.' },
       { step: '02', title: 'Control release approval', description: 'Require evidence before AI changes can move to production.' },
       { step: '03', title: 'Monitor behavior after launch', description: 'Use drift, confidence, and user-signal monitoring to judge release quality.' }
+    ],
+    drills: [
+      {
+        step: 'Scenario 1',
+        prompt: 'A prompt update improves style but worsens factual accuracy. What must the release gate protect?',
+        answer: 'The gate should protect against quality regressions across multiple dimensions, not only user delight. Accuracy, safety, and consistency all need explicit thresholds.'
+      },
+      {
+        step: 'Scenario 2',
+        prompt: 'Students want to skip post-release checks because offline evaluation passed. What is the teaching correction?',
+        answer: 'Explain that AI behavior changes in live contexts. Monitoring confidence, failure reports, and drift remains part of responsible CI/CD after deployment.'
+      },
+      {
+        step: 'Scenario 3',
+        prompt: 'A model change is approved, but no evidence links the result to the dataset version. Why is that a studio issue?',
+        answer: 'Because traceability is incomplete. Learners should treat missing lineage as a release-governance gap that weakens reproducibility and accountability.'
+      }
     ],
     moduleUrl: '/downloads/ai-release-guardrails-module.md',
     moduleLabel: 'Download lecturer-ready studio module',
@@ -193,6 +246,45 @@ const relatedPublications = publications.filter((item) => item.data.topic === en
               </div>
             </div>
           </div>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            {'studioPackUrl' in track && track.studioPackUrl && (
+              <a href={track.studioPackUrl} download class="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-5 py-3 text-sm font-semibold text-emerald-100 transition hover:border-emerald-300/40 hover:bg-emerald-400/15">{track.studioPackLabel}</a>
+            )}
+          </div>
+        </div>
+
+        <div class="card-surface p-8 sm:p-10" data-studio-drills>
+          <div class="flex flex-wrap items-start justify-between gap-6">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Interactive studio drill</p>
+              <h2 class="mt-3 text-3xl font-semibold text-white">Prompt learners to diagnose a release, not just repeat theory.</h2>
+              <p class="mt-4 max-w-3xl text-sm leading-7 text-slate-300">Each scenario below turns the topic into a mini decision point. Students can discuss first, then reveal the evidence-based teaching answer.</p>
+            </div>
+            <a href={`/publications`} class="rounded-full border border-white/15 px-5 py-3 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5">See related publication concepts</a>
+          </div>
+
+          <div class="mt-8 grid gap-4 xl:grid-cols-3">
+            {track.drills.map((drill, index) => (
+              <article class="rounded-[2rem] border border-white/10 bg-white/5 p-6">
+                <div class="flex items-center justify-between gap-3">
+                  <p class="text-xs font-semibold uppercase tracking-[0.24em] text-brand-200">{drill.step}</p>
+                  <button
+                    type="button"
+                    data-drill-toggle={`${slug}-${index}`}
+                    aria-expanded="false"
+                    class="rounded-full border border-white/15 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-100 transition hover:border-white/30 hover:bg-white/10"
+                  >
+                    Reveal answer
+                  </button>
+                </div>
+                <p class="mt-4 text-base font-semibold leading-7 text-white">{drill.prompt}</p>
+                <div data-drill-answer={`${slug}-${index}`} class="mt-4 hidden rounded-2xl border border-emerald-400/20 bg-emerald-400/10 px-4 py-4 text-sm leading-7 text-emerald-50">
+                  {drill.answer}
+                </div>
+              </article>
+            ))}
+          </div>
         </div>
 
         <div class="card-surface p-8 sm:p-10">
@@ -262,6 +354,7 @@ const relatedPublications = publications.filter((item) => item.data.topic === en
     document.querySelectorAll('[data-topic-detail]').forEach((detail) => {
       const tabs = Array.from(detail.querySelectorAll('[data-learning-mode]'));
       const panels = Array.from(detail.querySelectorAll('[data-learning-panel]'));
+      const drillButtons = Array.from(detail.querySelectorAll('[data-drill-toggle]'));
       const activate = (slug) => {
         tabs.forEach((tab) => {
           const active = tab.dataset.learningMode === slug;
@@ -276,6 +369,17 @@ const relatedPublications = publications.filter((item) => item.data.topic === en
         panels.forEach((panel) => panel.classList.toggle('hidden', panel.dataset.learningPanel !== slug));
       };
       tabs.forEach((tab) => tab.addEventListener('click', () => activate(tab.dataset.learningMode)));
+      drillButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          const key = button.dataset.drillToggle;
+          const answer = detail.querySelector(`[data-drill-answer="${key}"]`);
+          if (!answer) return;
+          const expanded = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', String(!expanded));
+          button.textContent = expanded ? 'Reveal answer' : 'Hide answer';
+          answer.classList.toggle('hidden', expanded);
+        });
+      });
     });
   </script>
 </BaseLayout>

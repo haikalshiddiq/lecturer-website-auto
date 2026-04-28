@@ -9,7 +9,7 @@
 
     <rect x="360" y="240" rx="28" ry="28" width="220" height="120" fill="#132238" stroke="#38BDF8" stroke-width="2"/>
     <text x="398" y="290" fill="#E2E8F0" font-size="24" font-weight="700">PR Review</text>
-    <text x="394" y="325" fill="#94A3B8" font-size="18">Approval & traceability</text>
+    <text x="394" y="325" fill="#94A3B8" font-size="18">Approval &amp; traceability</text>
 
     <rect x="630" y="240" rx="28" ry="28" width="220" height="120" fill="#132238" stroke="#22C55E" stroke-width="2"/>
     <text x="672" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Quality CI</text>

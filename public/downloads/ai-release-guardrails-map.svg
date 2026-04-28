@@ -8,7 +8,7 @@
     <text x="146" y="325" fill="#94A3B8" font-size="18">Expected outputs</text>
     <rect x="380" y="240" rx="28" ry="28" width="230" height="120" fill="#132238" stroke="#22C55E" stroke-width="2"/>
     <text x="431" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Model Gates</text>
-    <text x="439" y="325" fill="#94A3B8" font-size="18">Threshold & safety</text>
+    <text x="439" y="325" fill="#94A3B8" font-size="18">Threshold &amp; safety</text>
     <rect x="660" y="240" rx="28" ry="28" width="230" height="120" fill="#132238" stroke="#A78BFA" stroke-width="2"/>
     <text x="718" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Approval</text>
     <text x="712" y="325" fill="#94A3B8" font-size="18">Evidence review</text>
@@ -17,7 +17,7 @@
     <text x="978" y="325" fill="#94A3B8" font-size="18">Controlled release</text>
     <rect x="1220" y="240" rx="28" ry="28" width="230" height="120" fill="#132238" stroke="#FB7185" stroke-width="2"/>
     <text x="1273" y="290" fill="#E2E8F0" font-size="24" font-weight="700">Monitor</text>
-    <text x="1259" y="325" fill="#94A3B8" font-size="18">Behavior & drift</text>
+    <text x="1259" y="325" fill="#94A3B8" font-size="18">Behavior &amp; drift</text>
     <path d="M330 300H380" stroke="#38BDF8" stroke-width="4"/>
     <path d="M610 300H660" stroke="#38BDF8" stroke-width="4"/>
     <path d="M890 300H940" stroke="#38BDF8" stroke-width="4"/>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
   <rect width="1600" height="900" fill="#07111F"/>
-  <text x="90" y="110" fill="#F8FAFC" font-size="42" font-family="Arial" font-weight="700">Protocol Delivery & Observability Map</text>
+  <text x="90" y="110" fill="#F8FAFC" font-size="42" font-family="Arial" font-weight="700">Protocol Delivery &amp; Observability Map</text>
   <text x="90" y="155" fill="#93C5FD" font-size="20" font-family="Arial">GitHub → Registry → Deploy API → Edge → Health Check</text>
   <g font-family="Arial">
     <rect x="110" y="240" rx="28" ry="28" width="220" height="120" fill="#132238" stroke="#38BDF8" stroke-width="2"/>

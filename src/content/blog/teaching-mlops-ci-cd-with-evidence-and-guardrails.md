@@ -1,25 +1,33 @@
 ---
 title: Teaching MLOps CI/CD with Evidence and Guardrails
-summary: Artificial Intelligence courses benefit when CI/CD is framed as model evaluation, release evidence, and guardrails instead of blind automation.
+summary: Artificial Intelligence courses can use this website's daily content pipeline to show that automation still needs evidence, guardrails, and safe release conditions before production delivery.
 topic: Artificial Intelligence
-publishedAt: 2026-04-27
-featured: false
+publishedAt: 2026-04-28
+featured: true
 tags:
   - ci/cd
   - mlops
   - evaluation
+  - guardrails
 ---
 
-AI students already understand experimentation. The next step is helping them understand that production AI needs disciplined release workflows. CI/CD in AI education should emphasise evaluation gates, reproducibility, and monitoring rather than speed alone.
+AI students already understand experimentation. The next step is helping them see that automated release must still be governed by evidence. Even a daily content workflow should not publish blindly: it should validate content, build the site, preserve rollback history, and deploy only after checks pass.
 
 ## What to discuss in class
 
-Show how a model promotion decision can depend on benchmark thresholds, bias checks, prompt regression tests, and rollback readiness. This makes CI/CD feel relevant to responsible AI practice.
+Use the website pipeline as a simpler analogue for MLOps release management:
+
+- a scheduler decides when release can be attempted,
+- validation gates check output quality,
+- Git history preserves traceability,
+- deployment happens only after the pipeline proves readiness.
+
+Then compare this with model release decisions that also require benchmark thresholds, safety checks, and post-release monitoring.
 
 ## A practical assignment idea
 
-Ask students to design a lightweight model-release checklist that includes data versioning, validation criteria, approval steps, and post-release monitoring signals.
+Ask students to turn the website's daily content pipeline into an AI-aware release design by adding hypothetical prompt checks, evaluation thresholds, and rollback triggers.
 
 ## Why this matters
 
-Learners begin to see MLOps as a structured bridge between experimentation and trustworthy deployment, which is essential for modern AI implementation.
+Learners begin to see CI/CD as a discipline of controlled trust, which is exactly the mindset needed for responsible AI deployment.

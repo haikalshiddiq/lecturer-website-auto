@@ -1,11 +1,11 @@
 ---
 title: Protocol Delivery and Observability Module
-summary: A lecturer-ready advanced module for teaching how CI/CD pipelines rely on DNS, TLS, HTTP, webhooks, and health checks in Communication Protocol courses.
+summary: A lecturer-ready advanced module for teaching how the real GitHub-to-Cloudflare CI/CD path depends on DNS, TLS, HTTP, webhooks, and edge verification.
 topic: Communication Protocol
 level: Advanced
 format: Module
 featured: true
-publishedAt: 2026-04-27
+publishedAt: 2026-04-28
 tags:
   - ci/cd
   - protocols
@@ -20,18 +20,25 @@ This advanced module helps students read a deployment pipeline as a chain of pro
 ## Included teaching examples
 
 ```yaml
-- name: Deploy to Cloudflare Pages
-  run: npx wrangler pages deploy dist --project-name=lecturer-materials
+- name: Publish queued article
+  run: npm run content:daily
 
-- name: Verify production
-  run: curl -L -A 'Mozilla/5.0' https://lecturer-materials.pages.dev/blog/
+- name: Deploy to Cloudflare Pages
+  uses: cloudflare/wrangler-action@v3
+  with:
+    command: pages deploy dist --project-name=lecturer-materials
+
+- name: Deploy Cloudflare Worker
+  uses: cloudflare/wrangler-action@v3
+  with:
+    command: deploy
 ```
 
-Use the snippet to discuss where HTTP requests, DNS resolution, TLS handshakes, and edge responses can fail.
+Use the snippet to discuss where authenticated GitHub requests, Cloudflare API calls, DNS resolution, TLS handshakes, and edge responses can fail.
 
 ## Diagram support
 
-The paired SVG visualises source checkout, package download, build output, deploy API calls, and health verification through a protocol-aware lens.
+The paired SVG visualises source checkout, queued content publication, deploy API calls, Worker rollout, and live verification through a protocol-aware lens.
 
 ## Suggested learning flow
 

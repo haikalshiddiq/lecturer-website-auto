@@ -1,11 +1,11 @@
 ---
 title: AI Release Guardrails Module
-summary: An advanced lecturer-ready module for teaching CI/CD in AI through evaluation gates, prompt regression checks, and post-release monitoring.
+summary: An advanced lecturer-ready module for teaching AI-flavoured CI/CD through daily automation, validation evidence, release gates, and post-release observation.
 topic: Artificial Intelligence
 level: Advanced
 format: Module
 featured: true
-publishedAt: 2026-04-27
+publishedAt: 2026-04-28
 tags:
   - ci/cd
   - mlops
@@ -15,27 +15,30 @@ downloadUrl: /downloads/ai-release-guardrails-module.md
 ctaLabel: Download lecturer module
 ---
 
-This module helps students understand that AI delivery must balance deployment speed with evaluation evidence, reproducibility, and rollback readiness.
+This module helps students understand that automation should not be confused with trustworthiness. Even a daily website content release still needs evidence, reproducibility, and rollback readiness before it reaches users.
 
 ## Included teaching examples
 
 ```yaml
-- name: Run prompt regression suite
-  run: npm run test:prompts
+- name: Publish queued content
+  run: npm run content:daily
 
-- name: Check model quality gate
-  run: python scripts/evaluate_model.py --threshold 0.82
+- name: Validate release candidate
+  run: npm run validate:content && npm run build
+
+- name: Deploy after successful CI
+  if: github.event.workflow_run.conclusion == 'success'
 ```
 
-These examples support discussion about when an AI system should be blocked from release even if the code pipeline itself is healthy.
+These examples support discussion about when an automated system should be blocked from release even if the scheduler itself is working correctly.
 
 ## Diagram support
 
-The paired SVG diagram visualises prompt evaluation, model quality checks, approval gating, deployment, and post-release monitoring.
+The paired SVG diagram visualises evaluation gates, approval logic, deployment, and post-release monitoring through the lens of a practical website automation pipeline.
 
 ## Suggested learning flow
 
-1. Compare code-only CI/CD with AI-aware release control.
-2. Define evaluation gates for prompts, models, and safety checks.
-3. Discuss rollback conditions for low-confidence releases.
-4. Turn monitoring signals into a responsible-release discussion.
+1. Compare code-only automation with evidence-based release control.
+2. Define what counts as a trustworthy release gate.
+3. Discuss rollback conditions for weak or unsafe output.
+4. Turn post-release observation into a responsible AI discussion.

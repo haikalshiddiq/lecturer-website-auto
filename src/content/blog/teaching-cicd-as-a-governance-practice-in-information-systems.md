@@ -1,25 +1,31 @@
 ---
 title: Teaching CI/CD as a Governance Practice in Information Systems
-summary: CI/CD becomes easier to teach in Information System Management when students see it as governance, risk control, and service continuity rather than only developer automation.
+summary: CI/CD is more meaningful in Information System Management when learners see a daily GitHub-to-Cloudflare content pipeline as release policy, auditability, and service continuity in action.
 topic: Information System Management
-publishedAt: 2026-04-27
-featured: false
+publishedAt: 2026-04-28
+featured: true
 tags:
   - ci/cd
   - governance
-  - service-operations
+  - github-actions
+  - cloudflare
 ---
 
-CI/CD is often introduced as a software engineering convenience. In Information System Management classes, it becomes far more valuable when framed as an operating discipline that protects service quality and institutional trust.
+CI/CD is often introduced as a developer convenience. For Information System Management, the more valuable framing is governance: who is allowed to release change, how quality is checked, how evidence is stored, and how continuity is protected.
 
 ## What to discuss in class
 
-Show students how approval flows, rollback decisions, audit trails, and deployment windows connect directly to governance. A pipeline is not only a technical sequence. It is a visible policy for how change moves safely into production.
+This lecturer website now uses a real daily content pipeline. A scheduled GitHub workflow publishes queued content into the repository, pushes it to `main`, runs CI, and only then deploys to Cloudflare Pages and the Cloudflare Worker. That makes policy visible:
+
+- scheduled release timing,
+- repository-based audit trails,
+- automated quality gates,
+- controlled production delivery.
 
 ## A practical assignment idea
 
-Ask students to map a simple university service, define the risk of uncontrolled change, and design a CI/CD policy that covers testing, approval, release timing, and incident response.
+Ask students to redesign the pipeline for a university-facing service. They should define approval ownership, quality evidence, rollback expectations, and the rule that production deployment happens only after successful validation.
 
 ## Why this matters
 
-When learners connect CI/CD with governance, they understand that operational reliability is part of information systems leadership rather than an afterthought delegated to engineers.
+When learners connect CI/CD with governance, they understand that reliable digital services depend on disciplined release policy, not just faster automation.

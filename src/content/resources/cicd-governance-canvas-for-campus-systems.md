@@ -1,11 +1,11 @@
 ---
 title: CI/CD Governance Canvas for Campus Systems
-summary: A teaching toolkit for showing how release workflows, approvals, rollback plans, and auditability fit within Information System Management.
+summary: A teaching toolkit for showing how scheduled publication, CI approval, rollback planning, and Cloudflare deployment fit within Information System Management.
 topic: Information System Management
 level: Intermediate
 format: Toolkit
 featured: false
-publishedAt: 2026-04-27
+publishedAt: 2026-04-28
 tags:
   - ci/cd
   - governance
@@ -18,12 +18,12 @@ This resource helps students connect deployment automation with service governan
 
 ## What students can learn
 
-- How CI/CD pipelines encode approval and release policy.
-- How rollback readiness reduces the cost of operational mistakes.
-- How service owners and technical teams share responsibility for production change.
+- How a daily content queue becomes a controlled release backlog.
+- How CI workflows encode approval and quality policy before deployment.
+- How Cloudflare delivery can remain automated without bypassing governance.
 
 ## Recommended classroom use
 
 1. Introduce the canvas after discussing digital governance.
-2. Ask students to map one campus-facing service and define release controls.
+2. Ask students to map one campus-facing service and define its daily release controls.
 3. Compare strong and weak approval patterns across teams.

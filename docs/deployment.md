@@ -29,6 +29,7 @@ That means the website content is still updated from GitHub first, but now every
 - Forwarding channels supported by the Worker:
   - `CONTACT_WEBHOOK_URL` secret for webhook forwarding
   - `RESEND_API_KEY` secret plus `CONTACT_EMAIL` and `RESEND_FROM_EMAIL` vars for email forwarding via Resend
+  - `MAIL_FROM_EMAIL` plus a real `CONTACT_EMAIL` for MailChannels-based email fallback without a provider API key
 
 ### Worker secret setup
 Use the Cloudflare dashboard or Wrangler from `worker/contact-form/`:

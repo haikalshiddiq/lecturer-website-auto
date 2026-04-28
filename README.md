@@ -76,6 +76,7 @@ npx wrangler secret put RESEND_API_KEY
 Supported forwarding modes:
 - webhook only
 - email only via Resend
+- email via MailChannels fallback when `MAIL_FROM_EMAIL` and a real `CONTACT_EMAIL` are set
 - webhook + email together
 
 ## Required GitHub secrets

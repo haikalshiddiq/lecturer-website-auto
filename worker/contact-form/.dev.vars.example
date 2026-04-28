@@ -1,4 +1,5 @@
 CONTACT_EMAIL=contact@example.com
 RESEND_FROM_EMAIL=Lecturer Website <onboarding@resend.dev>
+MAIL_FROM_EMAIL=noreply@example.com
 CONTACT_WEBHOOK_URL=
 RESEND_API_KEY=

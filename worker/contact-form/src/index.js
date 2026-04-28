@@ -19,6 +19,10 @@ function normalizeField(value) {
   return String(value || '').trim();
 }
 
+function isPlaceholderEmail(value) {
+  return /example\.(com|org|net)$/i.test(normalizeField(value));
+}
+
 async function readPayload(request) {
   const contentType = request.headers.get('content-type') || '';
 
@@ -88,9 +92,17 @@ function buildTextBody(payload, context) {
   ].join('\n');
 }
 
+function getConfiguredRecipients(env) {
+  return normalizeField(env.CONTACT_EMAIL)
+    .split(',')
+    .map((value) => value.trim())
+    .filter(Boolean)
+    .filter((value) => !isPlaceholderEmail(value));
+}
+
 async function sendWebhook(env, payload, context) {
   if (!env.CONTACT_WEBHOOK_URL) {
-    return { skipped: true, channel: 'webhook' };
+    return { skipped: true, channel: 'webhook', reason: 'missing-webhook-url' };
   }
 
   const response = await fetch(env.CONTACT_WEBHOOK_URL, {
@@ -110,17 +122,10 @@ async function sendWebhook(env, payload, context) {
 }
 
 async function sendResendEmail(env, payload, context) {
-  if (!env.RESEND_API_KEY || !env.CONTACT_EMAIL || !env.RESEND_FROM_EMAIL) {
-    return { skipped: true, channel: 'email' };
-  }
+  const to = getConfiguredRecipients(env);
 
-  const to = String(env.CONTACT_EMAIL)
-    .split(',')
-    .map((value) => value.trim())
-    .filter(Boolean);
-
-  if (to.length === 0) {
-    return { skipped: true, channel: 'email' };
+  if (!env.RESEND_API_KEY || !env.RESEND_FROM_EMAIL || to.length === 0) {
+    return { skipped: true, channel: 'email', provider: 'resend', reason: 'missing-resend-config' };
   }
 
   const response = await fetch('https://api.resend.com/emails', {
@@ -143,7 +148,62 @@ async function sendResendEmail(env, payload, context) {
     throw new Error(`Resend email forwarding failed with ${response.status}: ${errorBody.slice(0, 300)}`);
   }
 
-  return { skipped: false, channel: 'email' };
+  return { skipped: false, channel: 'email', provider: 'resend' };
+}
+
+async function sendMailchannelsEmail(env, payload, context) {
+  const to = getConfiguredRecipients(env);
+  const from = normalizeField(env.MAIL_FROM_EMAIL || env.RESEND_FROM_EMAIL);
+
+  if (to.length === 0 || !from || isPlaceholderEmail(from) || env.RESEND_API_KEY) {
+    return { skipped: true, channel: 'email', provider: 'mailchannels', reason: 'missing-mailchannels-config' };
+  }
+
+  const response = await fetch('https://api.mailchannels.net/tx/v1/send', {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json'
+    },
+    body: JSON.stringify({
+      personalizations: [
+        {
+          to: to.map((email) => ({ email }))
+        }
+      ],
+      from: {
+        email: from,
+        name: 'Lecturer Website'
+      },
+      reply_to: {
+        email: payload.email,
+        name: payload.name
+      },
+      subject: `${payload.subject} — ${payload.name}`,
+      content: [
+        {
+          type: 'text/plain',
+          value: buildTextBody(payload, context)
+        }
+      ]
+    })
+  });
+
+  if (!response.ok) {
+    const errorBody = await response.text();
+    throw new Error(`MailChannels forwarding failed with ${response.status}: ${errorBody.slice(0, 300)}`);
+  }
+
+  return { skipped: false, channel: 'email', provider: 'mailchannels' };
+}
+
+function buildUnconfiguredMessage(env) {
+  const hasRealRecipient = getConfiguredRecipients(env).length > 0;
+
+  if (!hasRealRecipient) {
+    return 'Contact form received. Set a real CONTACT_EMAIL destination to activate forwarding.';
+  }
+
+  return 'Contact form received. Add CONTACT_WEBHOOK_URL, RESEND_API_KEY, or MAIL_FROM_EMAIL to activate automatic forwarding.';
 }
 
 export default {
@@ -173,7 +233,7 @@ export default {
       const results = [];
       const failures = [];
 
-      for (const send of [sendWebhook, sendResendEmail]) {
+      for (const send of [sendWebhook, sendResendEmail, sendMailchannelsEmail]) {
         try {
           const result = await send(env, payload, context);
           results.push(result);
@@ -182,7 +242,10 @@ export default {
         }
       }
 
-      const deliveredChannels = results.filter((result) => !result.skipped).map((result) => result.channel);
+      const deliveredChannels = results.filter((result) => !result.skipped).map((result) => {
+        if (result.provider) return `${result.channel}:${result.provider}`;
+        return result.channel;
+      });
 
       if (failures.length > 0 && deliveredChannels.length === 0) {
         return json(
@@ -198,10 +261,11 @@ export default {
       if (deliveredChannels.length === 0) {
         return json({
           ok: true,
-          message: 'Contact form received. Add CONTACT_WEBHOOK_URL and/or RESEND_API_KEY worker secrets to forward inquiries automatically.',
+          message: buildUnconfiguredMessage(env),
           delivery: {
             channels: [],
-            configured: false
+            configured: false,
+            recipientConfigured: getConfiguredRecipients(env).length > 0
           }
         });
       }

@@ -7,9 +7,10 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
-  publish-daily-content:
+  stage-daily-content-review:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -47,15 +48,34 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit daily content release
+      - name: Review staged daily content package
         if: steps.detect_changes.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add automation/daily-content-queue src/content/blog
-          git commit -m "chore(content): publish daily website update"
-          git push origin HEAD:main
+        id: review_package
+        env:
+          DAILY_CONTENT_BASE_REF: origin/main
+        run: node ./scripts/review-daily-content-pr.mjs
 
-      - name: No content due today
+      - name: Create daily content pull request
+        if: steps.detect_changes.outputs.changed == 'true'
+        id: create_pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/daily-content-${{ steps.review_package.outputs.published_at }}
+          base: main
+          delete-branch: true
+          commit-message: "chore(content): stage daily website update for ${{ steps.review_package.outputs.published_at }}"
+          title: "chore(content): review daily website update for ${{ steps.review_package.outputs.published_at }}"
+          body: |
+            ## Automated daily content review package
+
+            ${{ steps.review_package.outputs.review_body }}
+
+            This PR was prepared automatically from `automation/daily-content-queue/` and will be auto-reviewed before merge.
+          add-paths: |
+            automation/daily-content-queue
+            src/content/blog
+
+      - name: Report no content due today
         if: steps.detect_changes.outputs.changed != 'true'
         run: echo "No queued content was due for publication today."

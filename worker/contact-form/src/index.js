@@ -5,6 +5,13 @@ const JSON_HEADERS = {
   'access-control-allow-headers': 'content-type'
 };
 
+const MIN_FORM_FILL_MS = 2500;
+const MAX_MESSAGE_LENGTH = 3000;
+const MAX_NAME_LENGTH = 120;
+const MAX_EMAIL_LENGTH = 160;
+const MAX_URL_COUNT = 3;
+const SPAM_TERMS_PATTERN = /\b(?:viagra|casino|crypto giveaway|seo services)\b/i;
+
 function json(data, init = {}) {
   return new Response(JSON.stringify(data), {
     ...init,
@@ -33,7 +40,9 @@ async function readPayload(request) {
       email: normalizeField(body.email),
       message: normalizeField(body.message),
       subject: normalizeField(body.subject) || 'Lecturer website inquiry',
-      source: normalizeField(body.source) || 'lecturer-materials-contact-page'
+      source: normalizeField(body.source) || 'lecturer-materials-contact-page',
+      website: normalizeField(body.website),
+      formLoadedAt: normalizeField(body.formLoadedAt)
     };
   }
 
@@ -43,7 +52,9 @@ async function readPayload(request) {
     email: normalizeField(form.get('email')),
     message: normalizeField(form.get('message')),
     subject: normalizeField(form.get('subject')) || 'Lecturer website inquiry',
-    source: normalizeField(form.get('source')) || 'lecturer-materials-contact-page'
+    source: normalizeField(form.get('source')) || 'lecturer-materials-contact-page',
+    website: normalizeField(form.get('website')),
+    formLoadedAt: normalizeField(form.get('formLoadedAt'))
   };
 }
 
@@ -54,6 +65,41 @@ function validatePayload(payload) {
 
   if (!payload.email.includes('@')) {
     return 'Please provide a valid email address.';
+  }
+
+  if (payload.website) {
+    return 'Submission blocked by anti-spam protection.';
+  }
+
+  if (payload.name.length < 2 || payload.name.length > MAX_NAME_LENGTH) {
+    return 'Please provide a valid name.';
+  }
+
+  if (payload.email.length > MAX_EMAIL_LENGTH) {
+    return 'Please provide a shorter email address.';
+  }
+
+  if (payload.message.length < 20 || payload.message.length > MAX_MESSAGE_LENGTH) {
+    return 'Please provide a message between 20 and 3000 characters.';
+  }
+
+  const loadedAt = Number(payload.formLoadedAt || 0);
+  if (!loadedAt || Number.isNaN(loadedAt)) {
+    return 'Missing anti-spam timing token.';
+  }
+
+  if (Date.now() - loadedAt < MIN_FORM_FILL_MS) {
+    return 'Please take a moment to complete the form before sending.';
+  }
+
+  const urlMatches = payload.message.match(/https?:\/\//gi) || [];
+  if (urlMatches.length > MAX_URL_COUNT) {
+    return 'Too many links were included in the message.';
+  }
+
+  const combinedText = `${payload.name}\n${payload.message}`;
+  if (SPAM_TERMS_PATTERN.test(combinedText)) {
+    return 'Submission blocked by anti-spam content screening.';
   }
 
   return null;

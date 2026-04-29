@@ -6,7 +6,7 @@ A premium, Cloudflare-ready lecturer website built with Astro and Tailwind CSS f
 - Astro
 - Tailwind CSS
 - Cloudflare Pages
-- Cloudflare Worker for contact handling, webhook/email forwarding, and edge deployment continuity
+- Cloudflare Worker for contact handling, anti-spam screening, webhook/email forwarding, and edge deployment continuity
 - GitHub Actions CI/CD
 
 ## Local development

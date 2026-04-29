@@ -63,19 +63,24 @@ const inquiryPresets = [
         <form action="https://lecturer-materials.hicall.workers.dev/api/contact" method="post" class="grid gap-5" data-contact-form>
           <input type="hidden" name="subject" value="Lecturer website inquiry" />
           <input type="hidden" name="source" value="lecturer-materials-contact-page" />
+          <input type="hidden" name="formLoadedAt" value="" data-form-loaded-at />
+          <div class="hidden" aria-hidden="true">
+            <label for="website">Leave this field empty</label>
+            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+          </div>
           <div class="grid gap-5 md:grid-cols-2">
             <div>
               <label class="mb-2 block text-sm font-medium text-white" for="name">Name</label>
-              <input class="w-full rounded-2xl border-white/10 bg-white/5 text-white placeholder:text-slate-500" id="name" name="name" type="text" placeholder="Your name" required />
+              <input class="w-full rounded-2xl border-white/10 bg-white/5 text-white placeholder:text-slate-500" id="name" name="name" type="text" placeholder="Your name" required minlength="2" maxlength="120" />
             </div>
             <div>
               <label class="mb-2 block text-sm font-medium text-white" for="email">Email</label>
-              <input class="w-full rounded-2xl border-white/10 bg-white/5 text-white placeholder:text-slate-500" id="email" name="email" type="email" placeholder="you@example.com" required />
+              <input class="w-full rounded-2xl border-white/10 bg-white/5 text-white placeholder:text-slate-500" id="email" name="email" type="email" placeholder="you@example.com" required maxlength="160" />
             </div>
           </div>
           <div>
             <label class="mb-2 block text-sm font-medium text-white" for="message">Message</label>
-            <textarea class="min-h-48 w-full rounded-2xl border-white/10 bg-white/5 text-white placeholder:text-slate-500" id="message" name="message" placeholder="Tell me about the collaboration, event, workshop, or learning need." required></textarea>
+            <textarea class="min-h-48 w-full rounded-2xl border-white/10 bg-white/5 text-white placeholder:text-slate-500" id="message" name="message" placeholder="Tell me about the collaboration, event, workshop, or learning need." required minlength="20" maxlength="3000"></textarea>
           </div>
           <div class="grid gap-4 rounded-[1.75rem] border border-white/10 bg-white/5 p-5 text-sm text-slate-300 sm:grid-cols-3">
             <div>
@@ -91,8 +96,9 @@ const inquiryPresets = [
               <p class="mt-2">Share the preferred date, duration, or project window.</p>
             </div>
           </div>
+          <p class="text-xs leading-6 text-slate-400">This form uses lightweight anti-spam checks such as a hidden trap field, timing validation, and content screening.</p>
           <div data-contact-form-status class="hidden rounded-2xl border px-4 py-3 text-sm"></div>
-          <button type="submit" class="rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-400" data-contact-submit>Send inquiry</button>
+          <button type="submit" class="rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-400 disabled:cursor-not-allowed disabled:opacity-70" data-contact-submit>Send inquiry</button>
         </form>
       </div>
     </div>
@@ -104,6 +110,12 @@ const inquiryPresets = [
       const form = section.querySelector('[data-contact-form]');
       const statusBox = section.querySelector('[data-contact-form-status]');
       const submitButton = section.querySelector('[data-contact-submit]');
+      const loadedAtField = section.querySelector('[data-form-loaded-at]');
+      const honeypotField = section.querySelector('#website');
+
+      if (loadedAtField) {
+        loadedAtField.value = String(Date.now());
+      }
 
       section.querySelectorAll('[data-inquiry-preset]').forEach((button) => {
         button.addEventListener('click', () => {
@@ -131,6 +143,19 @@ const inquiryPresets = [
 
       form.addEventListener('submit', async (event) => {
         event.preventDefault();
+
+        if (honeypotField?.value) {
+          setStatus('error', 'Submission blocked by anti-spam protection.');
+          return;
+        }
+
+        const now = Date.now();
+        const loadedAt = Number(loadedAtField?.value || 0);
+        if (loadedAt && now - loadedAt < 2500) {
+          setStatus('error', 'Please take a moment to complete the form before sending.');
+          return;
+        }
+
         submitButton.setAttribute('disabled', 'disabled');
         submitButton.textContent = 'Sending…';
         statusBox.classList.add('hidden');
@@ -152,6 +177,9 @@ const inquiryPresets = [
 
           setStatus('success', payload.message || 'Inquiry sent successfully.');
           form.reset();
+          if (loadedAtField) {
+            loadedAtField.value = String(Date.now());
+          }
         } catch (error) {
           setStatus('error', error instanceof Error ? error.message : 'Unable to send the inquiry right now.');
         } finally {

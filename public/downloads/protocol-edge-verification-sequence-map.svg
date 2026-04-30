@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#07111F"/>
+  <text x="88" y="108" fill="#F8FAFC" font-size="42" font-family="Arial" font-weight="700">Protocol Edge Verification Sequence Map</text>
+  <text x="88" y="152" fill="#93C5FD" font-size="20" font-family="Arial">CI success → Pages HTML check → Worker form check → SVG XML proof</text>
+  <g font-family="Arial">
+    <rect x="104" y="228" rx="26" ry="26" width="250" height="128" fill="#132238" stroke="#38BDF8" stroke-width="2"/>
+    <text x="150" y="278" fill="#E2E8F0" font-size="26" font-weight="700">CI Checks</text>
+    <text x="136" y="316" fill="#94A3B8" font-size="18">Quality gates pass first</text>
+
+    <rect x="416" y="228" rx="26" ry="26" width="250" height="128" fill="#132238" stroke="#22C55E" stroke-width="2"/>
+    <text x="455" y="278" fill="#E2E8F0" font-size="26" font-weight="700">HTML GET</text>
+    <text x="449" y="316" fill="#94A3B8" font-size="18">Read expected live strings</text>
+
+    <rect x="728" y="228" rx="26" ry="26" width="250" height="128" fill="#132238" stroke="#A78BFA" stroke-width="2"/>
+    <text x="760" y="278" fill="#E2E8F0" font-size="26" font-weight="700">Form POST</text>
+    <text x="758" y="316" fill="#94A3B8" font-size="18">Match real content type</text>
+
+    <rect x="1040" y="228" rx="26" ry="26" width="250" height="128" fill="#132238" stroke="#F59E0B" stroke-width="2"/>
+    <text x="1076" y="278" fill="#E2E8F0" font-size="26" font-weight="700">SVG XML</text>
+    <text x="1070" y="316" fill="#94A3B8" font-size="18">Parse local and remote asset</text>
+
+    <path d="M354 292H416" stroke="#38BDF8" stroke-width="4"/>
+    <path d="M666 292H728" stroke="#38BDF8" stroke-width="4"/>
+    <path d="M978 292H1040" stroke="#38BDF8" stroke-width="4"/>
+
+    <rect x="104" y="454" rx="32" ry="32" width="1186" height="272" fill="#0F1B2D" stroke="#1E293B" stroke-width="2"/>
+    <text x="144" y="514" fill="#F8FAFC" font-size="30" font-weight="700">Evidence ladder</text>
+    <text x="144" y="570" fill="#CBD5E1" font-size="22">• Green CI is necessary but not enough for user-facing verification.</text>
+    <text x="144" y="612" fill="#CBD5E1" font-size="22">• Real GET requests should prove the expected page text shipped to the edge.</text>
+    <text x="144" y="654" fill="#CBD5E1" font-size="22">• Worker tests should use form-style payloads when the production form posts that way.</text>
+    <text x="144" y="696" fill="#CBD5E1" font-size="22">• XML assets need structural validation so broken ampersands and malformed tags are caught.</text>
+  </g>
+</svg>

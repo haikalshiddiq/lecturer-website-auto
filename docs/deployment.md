@@ -33,7 +33,14 @@ That means the website content is still updated from GitHub first, but now every
   - `MAIL_FROM_EMAIL` plus a real `CONTACT_EMAIL` for MailChannels-based email fallback without a provider API key
 
 ### Worker secret setup
-Use the Cloudflare dashboard or Wrangler from `worker/contact-form/`:
+Production deploys now auto-sync these optional Worker secrets from GitHub Actions secrets during `.github/workflows/deploy-worker.yml`:
+
+- `CONTACT_WEBHOOK_URL`
+- `RESEND_API_KEY`
+
+That means the recommended production setup is to store them as **repository secrets** in GitHub, then let the deploy workflow push them into the Worker automatically.
+
+Manual fallback via the Cloudflare dashboard or Wrangler from `worker/contact-form/`:
 
 ```bash
 npx wrangler secret put CONTACT_WEBHOOK_URL

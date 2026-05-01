@@ -29,6 +29,21 @@ jobs:
       - name: Install worker dependencies
         run: npm install
 
+      - name: Sync optional contact delivery secrets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CONTACT_WEBHOOK_URL: ${{ secrets.CONTACT_WEBHOOK_URL }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          if [ -n "$CONTACT_WEBHOOK_URL" ]; then
+            printf '%s' "$CONTACT_WEBHOOK_URL" | npx wrangler secret put CONTACT_WEBHOOK_URL
+          fi
+
+          if [ -n "$RESEND_API_KEY" ]; then
+            printf '%s' "$RESEND_API_KEY" | npx wrangler secret put RESEND_API_KEY
+          fi
+
       - name: Deploy worker
         uses: cloudflare/wrangler-action@v3
         with:

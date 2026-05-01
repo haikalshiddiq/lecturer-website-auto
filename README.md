@@ -66,7 +66,11 @@ The normal production path is GitHub Actions → automated PR review → CI → 
 ### Worker forwarding configuration
 Non-secret defaults are in `worker/contact-form/wrangler.toml`.
 
-Add secrets in Cloudflare Worker configuration or via Wrangler:
+Production deploys now auto-sync these optional Worker secrets from GitHub repository secrets during `.github/workflows/deploy-worker.yml`:
+- `CONTACT_WEBHOOK_URL`
+- `RESEND_API_KEY`
+
+Manual fallback if you want to set them directly in Cloudflare/Wrangler:
 ```bash
 cd worker/contact-form
 npx wrangler secret put CONTACT_WEBHOOK_URL

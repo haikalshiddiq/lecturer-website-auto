@@ -249,7 +249,7 @@ function buildUnconfiguredMessage(env) {
     return 'Contact form received. Set a real CONTACT_EMAIL destination to activate forwarding.';
   }
 
-  return 'Contact form received. Add CONTACT_WEBHOOK_URL, RESEND_API_KEY, or MAIL_FROM_EMAIL to activate automatic forwarding.';
+  return 'Contact form received. Forwarding recipient is set, but automatic delivery still needs CONTACT_WEBHOOK_URL, RESEND_API_KEY, or a verified MAIL_FROM_EMAIL sender.';
 }
 
 export default {

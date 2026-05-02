@@ -8,12 +8,15 @@ function run(command) {
   return execSync(command, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
 }
 
-function parseDiff() {
-  const output = run(`git diff --name-status --find-renames ${baseRef}...HEAD`);
-  if (!output) {
-    throw new Error(`No file changes detected against ${baseRef}.`);
+function tryRun(command) {
+  try {
+    return run(command);
+  } catch {
+    return '';
   }
+}
 
+function parseDiffOutput(output) {
   return output.split('\n').filter(Boolean).map((line) => {
     const parts = line.split('\t');
     const status = parts[0];
@@ -24,6 +27,20 @@ function parseDiff() {
 
     return { status, path: parts[1] };
   });
+}
+
+function parseDiff() {
+  const committedRangeDiff = tryRun(`git diff --name-status --find-renames ${baseRef}...HEAD`);
+  if (committedRangeDiff) {
+    return parseDiffOutput(committedRangeDiff);
+  }
+
+  const stagedWorkspaceDiff = tryRun(`git diff --cached --name-status --find-renames ${baseRef}`);
+  if (stagedWorkspaceDiff) {
+    return parseDiffOutput(stagedWorkspaceDiff);
+  }
+
+  throw new Error(`No committed or staged file changes detected against ${baseRef}.`);
 }
 
 function isQueueRootFile(filePath) {

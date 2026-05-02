@@ -42,11 +42,15 @@ jobs:
       - name: Detect changes
         id: detect_changes
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --short)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Stage generated daily content changes
+        if: steps.detect_changes.outputs.changed == 'true'
+        run: git add -A
 
       - name: Review staged daily content package
         if: steps.detect_changes.outputs.changed == 'true'

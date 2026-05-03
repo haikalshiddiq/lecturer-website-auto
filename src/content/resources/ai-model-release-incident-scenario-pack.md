@@ -27,7 +27,8 @@ This scenario pack gives Artificial Intelligence learners a realistic way to reh
 
 1. Split learners into release manager, evaluator, observability lead, and stakeholder roles.
 2. Run the scenario in timed rounds so each new evidence packet forces a fresh release decision.
-3. End with a retrospective on which gates should move earlier into the pipeline.
+3. Use the downloadable [AI model release incident timeline](/downloads/ai-model-release-incident-timeline.svg) as a board prompt while teams decide whether to approve, freeze, roll back, or revise the release gate.
+4. End with a retrospective on which gates should move earlier into the pipeline.
 
 ## Why this is useful here
 

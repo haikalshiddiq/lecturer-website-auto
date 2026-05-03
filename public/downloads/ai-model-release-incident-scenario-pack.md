@@ -82,6 +82,10 @@ Ask students to redesign the incident as a GitHub-to-Cloudflare style workflow:
 - require a rollback playbook in the release checklist
 - specify what evidence must appear in the post-release report
 
+## Downloadable board artifact
+
+Use the companion timeline diagram during the role-play: `/downloads/ai-model-release-incident-timeline.svg`. It gives each team a shared visual sequence for pre-release evidence, canary release signals, incident confirmation, and the governance loop.
+
 ## Suggested facilitator note
 
 Encourage students to notice that this is not an infrastructure outage. The core lesson is that a technically successful deployment can still be an educationally rich operational failure when model behaviour is misaligned with real-world use.

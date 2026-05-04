@@ -11,7 +11,7 @@ tags:
   - dns
   - http
   - tls
-downloadUrl: /downloads/protocol-aware-deployment-lab.pdf
+downloadUrl: /downloads/protocol-aware-deployment-lab.md
 ctaLabel: Download protocol-aware deployment lab
 ---
 

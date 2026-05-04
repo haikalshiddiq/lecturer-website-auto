@@ -10,7 +10,7 @@ tags:
   - ci/cd
   - governance
   - change-management
-downloadUrl: /downloads/cicd-governance-canvas-for-campus-systems.pdf
+downloadUrl: /downloads/cicd-governance-canvas-for-campus-systems.md
 ctaLabel: Download CI/CD governance canvas
 ---
 

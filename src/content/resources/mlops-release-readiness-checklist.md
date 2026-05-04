@@ -10,7 +10,7 @@ tags:
   - ci/cd
   - mlops
   - model-evaluation
-downloadUrl: /downloads/mlops-release-readiness-checklist.pdf
+downloadUrl: /downloads/mlops-release-readiness-checklist.md
 ctaLabel: Download MLOps release checklist
 ---
 

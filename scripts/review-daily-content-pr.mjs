@@ -55,12 +55,26 @@ function isBlogFile(filePath) {
   return filePath?.startsWith('src/content/blog/') && filePath.endsWith('.md');
 }
 
+function normaliseDate(value) {
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return String(value || '').trim();
+}
+
+function toBranchSafeSlug(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9._-]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 80) || 'daily-content';
+}
+
 function writeOutputs(result, reviewBody) {
   if (!process.env.GITHUB_OUTPUT) return;
 
   const lines = [
     `title=${result.title}`,
     `published_at=${result.publishedAt}`,
+    `branch_suffix=${toBranchSafeSlug(result.publishedAt)}`,
     `target_path=${result.targetPath}`,
     `archived_queue_path=${result.archivedQueuePath}`,
     `queue_source_path=${result.queueSourcePath}`,
@@ -120,7 +134,7 @@ const result = {
   title: String(data.title).trim(),
   summary: String(data.summary).trim(),
   topic: String(data.topic).trim(),
-  publishedAt: String(data.publishedAt).trim(),
+  publishedAt: normaliseDate(data.publishedAt),
   tags: Array.isArray(data.tags) ? data.tags : [],
   targetPath: blogPath,
   archivedQueuePath,

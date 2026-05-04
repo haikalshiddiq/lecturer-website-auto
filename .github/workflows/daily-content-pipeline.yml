@@ -65,7 +65,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: automation/daily-content-${{ steps.review_package.outputs.published_at }}-${{ github.run_id }}
+          branch: automation/daily-content-${{ steps.review_package.outputs.branch_suffix }}-${{ github.run_id }}
           base: main
           delete-branch: true
           commit-message: "chore(content): stage daily website update for ${{ steps.review_package.outputs.published_at }}"

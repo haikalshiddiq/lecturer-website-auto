@@ -21,16 +21,16 @@ npm run build
 ```
 
 ## Daily content publication
-This repository now has a real repo-native daily content pipeline with an automated PR review gate.
+This repository has a real repo-native daily content pipeline that validates, commits, and deploys one queued article per scheduled run.
 
 ### How it works
 1. prepare queued articles in `automation/daily-content-queue/`
 2. GitHub Actions runs `.github/workflows/daily-content-pipeline.yml` every day
 3. the workflow publishes the next due article into `src/content/blog/`
-4. the workflow opens an automated PR instead of pushing directly to `main`
-5. `.github/workflows/review-daily-content-pr.yml` validates and merges the PR
-6. `CI` validates the repository on `main`
-7. successful `CI` triggers Cloudflare Pages deployment and Cloudflare Worker deployment
+4. the workflow reviews the generated package, validates content, checks links, and builds the site
+5. the workflow commits the approved daily content package to `main`
+6. the workflow deploys the freshly built `dist/` output to Cloudflare Pages
+7. normal push-based `CI` and deploy workflows continue to protect manual changes on `main`
 
 ### Local test commands
 ```bash
@@ -45,7 +45,7 @@ node ./scripts/review-daily-content-pr.mjs
 - `automation/daily-content-queue` — pre-authored daily content waiting for publication
 - `worker/contact-form` — Cloudflare Worker for form handling and forwarding
 - `docs` — architecture, deployment, maintenance, and plans
-- `.github/workflows` — CI/CD, daily publication, PR review, and maintenance automation
+- `.github/workflows` — CI/CD, daily publication, deployment, and maintenance automation
 
 ## Deployment
 ### Cloudflare Pages
@@ -61,7 +61,7 @@ npm install
 npx wrangler deploy
 ```
 
-The normal production path is GitHub Actions → automated PR review → CI → Cloudflare deploys.
+The normal production path is GitHub Actions → validation/build → GitHub commit → Cloudflare deploy.
 
 ### Worker forwarding configuration
 Non-secret defaults are in `worker/contact-form/wrangler.toml`.

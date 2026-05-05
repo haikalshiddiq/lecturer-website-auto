@@ -116,7 +116,7 @@ if (queueSourceFiles.length !== 1) {
 }
 
 if (unexpected.length > 0) {
-  throw new Error(`Unexpected changed files in daily content PR: ${unexpected.map((entry) => entry.path || entry.oldPath).join(', ')}`);
+  throw new Error(`Unexpected changed files in daily content package: ${unexpected.map((entry) => entry.path || entry.oldPath).join(', ')}`);
 }
 
 const blogPath = blogFiles[0].path;

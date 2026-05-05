@@ -2,24 +2,22 @@
 
 ## Release architecture
 
-This repository now uses a review-gated GitHub-owned release path:
+This repository uses a GitHub-owned automated release path:
 
 1. queued daily content lives in `automation/daily-content-queue/`
 2. `.github/workflows/daily-content-pipeline.yml` publishes the next due article into `src/content/blog/`
-3. the workflow opens an automated PR instead of pushing straight to `main`
-4. `.github/workflows/review-daily-content-pr.yml` validates the package, posts an automated review, and merges it
-5. `.github/workflows/ci.yml` validates the merged commit on `main`
-6. successful CI triggers:
-   - `.github/workflows/deploy-pages.yml`
-   - `.github/workflows/deploy-worker.yml`
+3. the workflow reviews the generated package and allows only the expected blog/archive changes
+4. the workflow runs content validation, link checks, and a production build
+5. the workflow commits the approved package to `main`
+6. the workflow deploys the freshly built `dist/` output to Cloudflare Pages
 
-That means the website content is still updated from GitHub first, but now every scheduled content release has an auditable PR review gate before publication reaches `main`.
+That means the website content is still updated from GitHub first, while the scheduled release job avoids a bot-created PR deadlock and deploys only after quality gates pass.
 
 ## Cloudflare Pages
 - Project name: `lecturer-materials`
 - Build command: `npm run build`
 - Output directory: `dist`
-- Deployment trigger: successful `CI` run on `main`
+- Deployment trigger: successful `CI` run on `main` for manual changes; direct deploy from `.github/workflows/daily-content-pipeline.yml` for scheduled content releases
 
 ## Cloudflare Worker
 - Worker name: `lecturer-materials`

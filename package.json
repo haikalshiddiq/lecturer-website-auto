@@ -13,7 +13,8 @@
     "content:daily": "node ./scripts/publish-daily-content.mjs",
     "check:links": "node ./scripts/check-links.mjs",
     "validate:content": "node ./scripts/validate-content.mjs",
-    "maintenance:report": "node ./scripts/maintenance-report.mjs"
+    "maintenance:report": "node ./scripts/maintenance-report.mjs",
+    "smoke:live": "node ./scripts/smoke-check-live.mjs"
   },
   "dependencies": {
     "astro": "^5.5.5",

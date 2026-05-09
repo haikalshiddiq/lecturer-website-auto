@@ -34,6 +34,23 @@ That means the website content is still updated from GitHub first, while the sch
 
 Live sending still requires `RESEND_API_KEY`, `CONTACT_WEBHOOK_URL`, or a verified Cloudflare-compatible sender path.
 
+## Live smoke checks
+
+After a production deploy finishes, run:
+
+```bash
+npm run smoke:live
+```
+
+This checks the live Cloudflare deployment, not the local build output. The script uses browser-like request headers and verifies both HTTP status and expected proof text on the public Pages site:
+
+- `https://lecturer-materials.pages.dev/` includes the home hero text.
+- `https://lecturer-materials.pages.dev/resources/` includes the resource library text.
+- `https://lecturer-materials.pages.dev/blog/` includes the blog positioning text.
+- `https://lecturer-materials.hicall.workers.dev/api/contact` answers the documented contact endpoint CORS preflight without requiring a real contact submission.
+
+The smoke check retries transient failures a small number of times to allow for short propagation delays, then exits non-zero if live content or endpoint behavior still does not match expectations.
+
 ### Worker secret setup
 Production deploys now auto-sync these optional Worker secrets from GitHub Actions secrets during `.github/workflows/deploy-worker.yml`:
 

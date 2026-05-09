@@ -1,5 +1,4 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/sections/Hero.astro';
 import PublicationCard from '../components/cards/PublicationCard.astro';
@@ -9,51 +8,23 @@ import StatsBand from '../components/sections/StatsBand.astro';
 import TopicStudio from '../components/sections/TopicStudio.astro';
 import ResourceExplorer from '../components/sections/ResourceExplorer.astro';
 import TopicCoverageBoard from '../components/sections/TopicCoverageBoard.astro';
+import { buildTopicCoverage, getBlogPosts, getPublications, getResources, getTopics } from '../lib/content';
 
-const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
-const topicLinks = topics.map((topic) => ({
-  title: topic.data.title,
-  slug: topic.id.replace(/\.md$/, ''),
-  summary: topic.data.summary,
-  importance: topic.data.importance,
-  subtopics: topic.data.subtopics,
-  learningOutcomes: topic.data.learningOutcomes
+const topics = await getTopics();
+const topicLinks = topics.map(({ title, slug, summary, importance, subtopics, learningOutcomes }) => ({
+  title,
+  slug,
+  summary,
+  importance,
+  subtopics,
+  learningOutcomes
 }));
-const resources = (await getCollection('resources'))
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .map((resource) => ({
-    ...resource.data,
-    slug: resource.id.replace(/\.md$/, '')
-  }));
-const publications = (await getCollection('publications'))
-  .sort((a, b) => b.data.year - a.data.year)
-  .map((item) => ({
-    ...item.data,
-    slug: item.id.replace(/\.md$/, '')
-  }));
+const resources = await getResources();
+const publications = await getPublications();
 const featuredPublications = publications.filter((item) => item.featured);
-const posts = (await getCollection('blog'))
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .map((post) => ({
-    ...post.data,
-    slug: post.id.replace(/\.md$/, '')
-  }));
+const posts = await getBlogPosts();
 
-const topicCoverage = topicLinks.map((topic) => {
-  const latestPost = posts.find((post) => post.topic === topic.title);
-  const latestResource = resources.find((resource) => resource.topic === topic.title);
-  const latestPublication = publications.find((item) => item.topic === topic.title);
-
-  return {
-    topic: topic.title,
-    postsCount: posts.filter((post) => post.topic === topic.title).length,
-    resourcesCount: resources.filter((resource) => resource.topic === topic.title).length,
-    publicationsCount: publications.filter((item) => item.topic === topic.title).length,
-    latestPost: latestPost ? { title: latestPost.title, href: `/blog/${latestPost.slug}` } : undefined,
-    latestResource: latestResource ? { title: latestResource.title, href: `/resources/${latestResource.slug}` } : undefined,
-    latestPublication: latestPublication ? { title: latestPublication.title, href: latestPublication.externalUrl ?? '/publications' } : undefined
-  };
-});
+const topicCoverage = buildTopicCoverage({ topics: topicLinks, posts, resources, publications });
 ---
 <BaseLayout>
   <Hero />

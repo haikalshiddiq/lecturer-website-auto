@@ -1,50 +1,21 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogCard from '../../components/cards/BlogCard.astro';
 import TopicCoverageBoard from '../../components/sections/TopicCoverageBoard.astro';
+import { buildTopicCoverage, getBlogPosts, getPublications, getResources, getTopics } from '../../lib/content';
 
-const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
-const posts = (await getCollection('blog'))
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .map((post) => ({
-    ...post.data,
-    slug: post.id.replace(/\.md$/, '')
-  }));
-const resources = (await getCollection('resources'))
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .map((resource) => ({
-    ...resource.data,
-    slug: resource.id.replace(/\.md$/, '')
-  }));
-const publications = (await getCollection('publications'))
-  .sort((a, b) => b.data.year - a.data.year)
-  .map((item) => ({
-    ...item.data,
-    slug: item.id.replace(/\.md$/, '')
-  }));
+const topics = await getTopics();
+const posts = await getBlogPosts();
+const resources = await getResources();
+const publications = await getPublications();
 const [featured, ...rest] = posts;
 
 const topicMeta = topics.map((topic) => ({
-  title: topic.data.title,
-  slug: topic.id.replace(/\.md$/, ''),
-  summary: topic.data.summary
+  title: topic.title,
+  slug: topic.slug,
+  summary: topic.summary
 }));
-const coverage = topicMeta.map((topic) => {
-  const latestPost = posts.find((post) => post.topic === topic.title);
-  const latestResource = resources.find((resource) => resource.topic === topic.title);
-  const latestPublication = publications.find((item) => item.topic === topic.title);
-
-  return {
-    topic: topic.title,
-    postsCount: posts.filter((post) => post.topic === topic.title).length,
-    resourcesCount: resources.filter((resource) => resource.topic === topic.title).length,
-    publicationsCount: publications.filter((item) => item.topic === topic.title).length,
-    latestPost: latestPost ? { title: latestPost.title, href: `/blog/${latestPost.slug}` } : undefined,
-    latestResource: latestResource ? { title: latestResource.title, href: `/resources/${latestResource.slug}` } : undefined,
-    latestPublication: latestPublication ? { title: latestPublication.title, href: latestPublication.externalUrl ?? '/publications' } : undefined
-  };
-});
+const coverage = buildTopicCoverage({ topics: topicMeta, posts, resources, publications });
 ---
 <BaseLayout title="Blog | Haikal Shiddiq S.Kom., M.T." description="Insights, teaching notes, and academic perspectives by Haikal Shiddiq S.Kom., M.T.">
   <section class="py-20">

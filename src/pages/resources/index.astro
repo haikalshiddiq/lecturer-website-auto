@@ -1,13 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ResourceExplorer from '../../components/sections/ResourceExplorer.astro';
-const resources = (await getCollection('resources'))
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .map((resource) => ({
-    ...resource.data,
-    slug: resource.id.replace(/\.md$/, '')
-  }));
+import { getResources } from '../../lib/content';
+
+const resources = await getResources();
 ---
 <BaseLayout title="Resources | Haikal Shiddiq S.Kom., M.T." description="Interactive learning resources, downloadable kits, modules, and articles for students and professional learners.">
   <ResourceExplorer

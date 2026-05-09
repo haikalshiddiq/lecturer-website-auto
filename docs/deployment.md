@@ -25,10 +25,14 @@ That means the website content is still updated from GitHub first, while the sch
 - Route: `https://lecturer-materials.hicall.workers.dev/api/contact` via workers.dev unless a custom route is configured
 - Deployment trigger: successful `CI` run on `main`
 - Built-in anti-spam protection: honeypot field, form timing validation, length limits, link-count screening, and blocked-term filtering
+- Public contact recipient: `hicallsh@gmail.com`
+- Worker recipient var: `CONTACT_EMAIL = "hicallsh@gmail.com"`
 - Forwarding channels supported by the Worker:
   - `CONTACT_WEBHOOK_URL` secret for webhook forwarding
   - `RESEND_API_KEY` secret plus `CONTACT_EMAIL` and `RESEND_FROM_EMAIL` vars for email forwarding via Resend
   - `MAIL_FROM_EMAIL` plus a real `CONTACT_EMAIL` for MailChannels-based email fallback without a provider API key
+
+Live sending still requires `RESEND_API_KEY`, `CONTACT_WEBHOOK_URL`, or a verified Cloudflare-compatible sender path.
 
 ### Worker secret setup
 Production deploys now auto-sync these optional Worker secrets from GitHub Actions secrets during `.github/workflows/deploy-worker.yml`:

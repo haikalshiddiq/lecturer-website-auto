@@ -245,13 +245,7 @@ git commit -m "refactor: add reusable visual primitives"
 
 **Step 1: Update site email**
 
-In `src/data/site.ts`, change:
-
-```ts
-email: 'contact@example.com',
-```
-
-to:
+In `src/data/site.ts`, set:
 
 ```ts
 email: 'hicallsh@gmail.com',
@@ -273,11 +267,11 @@ Update docs to state:
 
 ```bash
 npm run build
-grep -R "contact@example.com" -n src docs README.md worker || true
+grep -R "<placeholder-contact-email>" -n src docs README.md worker || true
 grep -R "hicallsh@gmail.com" -n src docs README.md worker
 ```
 
-Expected: no public `contact@example.com` remains; `hicallsh@gmail.com` appears in intended config/docs.
+Expected: no public placeholder contact email remains; `hicallsh@gmail.com` appears in intended config/docs.
 
 **Step 5: Commit**
 
@@ -562,7 +556,7 @@ Report clearly:
 - `npm run validate:content` enforces basic balanced topic coverage.
 - `npm run check:links` passes.
 - Worker dry-run still passes.
-- Public contact email is no longer `contact@example.com`.
+- Public contact email is aligned with the Worker recipient.
 - Home page remains Wayground-inspired, interactive, and energetic.
 - Existing GitHub repo and Cloudflare project names are preserved.
 - Refactor is committed and pushed to `haikalshiddiq/lecturer-website-auto`.

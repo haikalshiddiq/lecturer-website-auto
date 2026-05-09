@@ -66,6 +66,11 @@ The normal production path is GitHub Actions → validation/build → GitHub com
 ### Worker forwarding configuration
 Non-secret defaults are in `worker/contact-form/wrangler.toml`.
 
+Public contact recipient: `hicallsh@gmail.com`.
+Worker recipient var: `CONTACT_EMAIL = "hicallsh@gmail.com"`.
+
+Live sending still requires `RESEND_API_KEY`, `CONTACT_WEBHOOK_URL`, or a verified Cloudflare-compatible sender path.
+
 Production deploys now auto-sync these optional Worker secrets from GitHub repository secrets during `.github/workflows/deploy-worker.yml`:
 - `CONTACT_WEBHOOK_URL`
 - `RESEND_API_KEY`
@@ -93,7 +98,6 @@ Automated access to the LinkedIn profile could not reliably retrieve structured 
 - teaching philosophy
 - education and experience timeline
 - achievements and publications
-- contact email
 - profile photo and CV
 
 ## Daily maintenance

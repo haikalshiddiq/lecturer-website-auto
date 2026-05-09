@@ -7,7 +7,7 @@ export const siteConfig = {
   description:
     'Official lecturer website for Haikal Shiddiq S.Kom., M.T., featuring learning resources and academic topics in Information System Management, Communication Protocol, and Artificial Intelligence.',
   location: 'Indonesia',
-  email: 'contact@example.com',
+  email: 'hicallsh@gmail.com',
   socialLinks: [
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/hicall/' },
     { label: 'GitHub', href: 'https://github.com/haikalshiddiq' },

@@ -3,6 +3,8 @@ const USER_AGENT =
 const TIMEOUT_MS = 15000;
 const RETRIES = 3;
 const RETRY_DELAY_MS = 3000;
+const CONTACT_ENDPOINT = 'https://lecturer-materials.hicall.workers.dev/api/contact';
+const SMOKE_ORIGIN = 'https://lecturer-materials.pages.dev';
 
 const checks = [
   {
@@ -25,13 +27,48 @@ const checks = [
   },
   {
     name: 'Worker contact endpoint CORS preflight',
-    url: 'https://lecturer-materials.hicall.workers.dev/api/contact',
+    url: CONTACT_ENDPOINT,
     method: 'OPTIONS',
+    headers: {
+      origin: SMOKE_ORIGIN,
+      'access-control-request-method': 'POST',
+      'access-control-request-headers': 'content-type'
+    },
     expectedStatus: 204,
     validateHeaders(headers) {
-      const allowedMethods = headers.get('access-control-allow-methods') || '';
-      if (!allowedMethods.includes('POST') || !allowedMethods.includes('OPTIONS')) {
-        return `expected access-control-allow-methods to include POST and OPTIONS, got ${JSON.stringify(allowedMethods)}`;
+      return validateCorsHeaders(headers);
+    }
+  },
+  {
+    name: 'Worker contact endpoint validation failure',
+    url: CONTACT_ENDPOINT,
+    method: 'POST',
+    headers: {
+      origin: SMOKE_ORIGIN,
+      'content-type': 'application/json'
+    },
+    body: JSON.stringify({}),
+    expectedStatus: 400,
+    expectedText: 'Missing required fields.',
+    validateHeaders(headers) {
+      const corsError = validateCorsHeaders(headers);
+      if (corsError) return corsError;
+
+      const contentType = headers.get('content-type') || '';
+      if (!contentType.includes('application/json')) {
+        return `expected content-type to include application/json, got ${JSON.stringify(contentType)}`;
+      }
+
+      return null;
+    },
+    validateBody(body) {
+      try {
+        const data = JSON.parse(body);
+        if (data.ok !== false || typeof data.error !== 'string' || data.error.length === 0) {
+          return `expected validation JSON with ok=false and an error string, got ${snippet(body)}`;
+        }
+      } catch (error) {
+        return `expected validation JSON response, but parsing failed: ${error instanceof Error ? error.message : String(error)}; body: ${snippet(body)}`;
       }
 
       return null;
@@ -40,6 +77,31 @@ const checks = [
 ];
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+function snippet(body) {
+  const compact = String(body || '').replace(/\s+/g, ' ').trim();
+  if (!compact) return '<empty body>';
+  return JSON.stringify(compact.length > 240 ? `${compact.slice(0, 240)}…` : compact);
+}
+
+function validateCorsHeaders(headers) {
+  const allowedOrigin = headers.get('access-control-allow-origin') || '';
+  if (allowedOrigin !== '*' && allowedOrigin !== SMOKE_ORIGIN) {
+    return `expected access-control-allow-origin to be * or ${SMOKE_ORIGIN}, got ${JSON.stringify(allowedOrigin)}`;
+  }
+
+  const allowedMethods = headers.get('access-control-allow-methods') || '';
+  if (!allowedMethods.includes('POST') || !allowedMethods.includes('OPTIONS')) {
+    return `expected access-control-allow-methods to include POST and OPTIONS, got ${JSON.stringify(allowedMethods)}`;
+  }
+
+  const allowedHeaders = headers.get('access-control-allow-headers') || '';
+  if (!allowedHeaders.toLowerCase().split(',').map((value) => value.trim()).includes('content-type')) {
+    return `expected access-control-allow-headers to include content-type, got ${JSON.stringify(allowedHeaders)}`;
+  }
+
+  return null;
+}
 
 async function fetchWithTimeout(url, options = {}) {
   const controller = new AbortController();
@@ -62,19 +124,28 @@ async function fetchWithTimeout(url, options = {}) {
 
 async function runCheck(check) {
   const method = check.method || 'GET';
-  const response = await fetchWithTimeout(check.url, { method });
+  const response = await fetchWithTimeout(check.url, {
+    method,
+    headers: check.headers,
+    body: check.body
+  });
   const body = method === 'HEAD' || response.status === 204 ? '' : await response.text();
 
   if (response.status !== check.expectedStatus) {
-    return `expected HTTP ${check.expectedStatus}, got HTTP ${response.status}`;
+    return `expected HTTP ${check.expectedStatus}, got HTTP ${response.status}; body: ${snippet(body)}`;
   }
 
   if (check.expectedText && !body.includes(check.expectedText)) {
-    return `expected response body to include ${JSON.stringify(check.expectedText)}`;
+    return `expected response body to include ${JSON.stringify(check.expectedText)}; body: ${snippet(body)}`;
   }
 
   if (check.validateHeaders) {
-    return check.validateHeaders(response.headers);
+    const error = check.validateHeaders(response.headers);
+    if (error) return error;
+  }
+
+  if (check.validateBody) {
+    return check.validateBody(body);
   }
 
   return null;

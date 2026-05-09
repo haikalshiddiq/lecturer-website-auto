@@ -47,9 +47,10 @@ This checks the live Cloudflare deployment, not the local build output. The scri
 - `https://lecturer-materials.pages.dev/` includes the home hero text.
 - `https://lecturer-materials.pages.dev/resources/` includes the resource library text.
 - `https://lecturer-materials.pages.dev/blog/` includes the blog positioning text.
-- `https://lecturer-materials.hicall.workers.dev/api/contact` answers the documented contact endpoint CORS preflight without requiring a real contact submission.
+- `https://lecturer-materials.hicall.workers.dev/api/contact` answers a browser-like CORS preflight for POST requests with `content-type`.
+- The same Worker contact endpoint rejects a deliberately invalid JSON POST with a documented validation error and CORS headers, proving route validation without forwarding a real message or requiring Worker secrets.
 
-The smoke check retries transient failures a small number of times to allow for short propagation delays, then exits non-zero if live content or endpoint behavior still does not match expectations.
+The smoke check retries transient failures a small number of times to allow for short propagation delays, then exits non-zero if live content, endpoint behavior, or validation/CORS responses still do not match expectations.
 
 ### Worker secret setup
 Production deploys now auto-sync these optional Worker secrets from GitHub Actions secrets during `.github/workflows/deploy-worker.yml`:

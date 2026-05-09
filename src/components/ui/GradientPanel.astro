@@ -1,0 +1,20 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+type Variant = 'card' | 'soft' | 'accent';
+
+type Props = HTMLAttributes<'div'> & {
+  variant?: Variant;
+};
+
+const { variant = 'card', class: className = '', ...attrs } = Astro.props;
+
+const variantClasses: Record<Variant, string> = {
+  card: 'card-surface',
+  soft: 'rounded-[2rem] border border-white/10 bg-white/5 backdrop-blur',
+  accent: 'rounded-[2rem] border border-white/10 bg-gradient-to-r from-violet-500/15 via-fuchsia-500/10 to-cyan-500/15 backdrop-blur'
+};
+---
+<div class:list={[variantClasses[variant], className]} {...attrs}>
+  <slot />
+</div>

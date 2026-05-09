@@ -1,4 +1,7 @@
 ---
+import ActionLink from '../ui/ActionLink.astro';
+import GradientPanel from '../ui/GradientPanel.astro';
+
 interface TopicMeta {
   title: string;
   slug: string;
@@ -56,7 +59,7 @@ const {
         const item = coverage.find((entry) => entry.topic === topic.title);
         return (
           <article data-coverage-panel={topic.slug} class={`${index === 0 ? 'grid' : 'hidden'} gap-6 lg:col-span-2 lg:grid-cols-[1.02fr_0.98fr]`}>
-            <div class="card-surface p-8 sm:p-10">
+            <GradientPanel class="p-8 sm:p-10">
               <div class="flex flex-wrap items-center justify-between gap-3 text-xs uppercase tracking-[0.24em] text-slate-400">
                 <span>Coverage dashboard</span>
                 <span>{topic.title}</span>
@@ -77,10 +80,10 @@ const {
                 </div>
               </div>
               <div class="mt-8 flex flex-wrap gap-4">
-                <a href={`/expertise/${topic.slug}`} class="rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-400">Open topic pillar</a>
-                <a href="/resources" class="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5">Browse resources</a>
+                <ActionLink href={`/expertise/${topic.slug}`} variant="brand">Open topic pillar</ActionLink>
+                <ActionLink href="/resources" variant="secondary">Browse resources</ActionLink>
               </div>
-            </div>
+            </GradientPanel>
 
             <aside class="grid gap-6">
               <div class="card-surface p-8">

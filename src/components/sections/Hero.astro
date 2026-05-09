@@ -1,13 +1,16 @@
 ---
 import { profile } from '../../data/profile';
+import ActionLink from '../ui/ActionLink.astro';
+import GradientPanel from '../ui/GradientPanel.astro';
+import Pill from '../ui/Pill.astro';
 ---
 <section class="relative overflow-hidden py-20 sm:py-24">
   <div class="absolute inset-x-0 top-0 -z-10 h-[32rem] bg-[radial-gradient(circle_at_top_left,_rgba(168,85,247,0.34),_transparent_35%),radial-gradient(circle_at_top_right,_rgba(34,211,238,0.22),_transparent_30%),radial-gradient(circle_at_bottom,_rgba(250,204,21,0.16),_transparent_26%)]"></div>
   <div class="container-shell grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
     <div>
       <div class="flex flex-wrap gap-3">
-        <span class="rounded-full border border-fuchsia-300/30 bg-fuchsia-500/15 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-fuchsia-100">Wayground-inspired learning experience</span>
-        <span class="rounded-full border border-cyan-300/30 bg-cyan-500/15 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-cyan-100">Interactive lecturer platform</span>
+        <Pill tone="fuchsia">Wayground-inspired learning experience</Pill>
+        <Pill tone="cyan">Interactive lecturer platform</Pill>
       </div>
       <h1 class="mt-8 max-w-4xl text-5xl font-semibold tracking-tight text-white sm:text-6xl lg:text-7xl">
         Turn every visit into a guided learning journey.
@@ -16,8 +19,8 @@ import { profile } from '../../data/profile';
         {profile.shortBio}
       </p>
       <div class="mt-8 flex flex-wrap gap-4">
-        <a href="#topic-studio" class="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100">Explore topic studio</a>
-        <a href="#resource-explorer" class="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/5">Browse resource explorer</a>
+        <ActionLink href="#topic-studio">Explore topic studio</ActionLink>
+        <ActionLink href="#resource-explorer" variant="secondary">Browse resource explorer</ActionLink>
       </div>
       <div class="mt-10 grid gap-4 sm:grid-cols-3">
         <div class="rounded-3xl border border-white/10 bg-white/8 p-5 backdrop-blur">
@@ -41,7 +44,7 @@ import { profile } from '../../data/profile';
     <div class="relative">
       <div class="absolute -left-8 top-8 h-24 w-24 rounded-full bg-fuchsia-500/25 blur-3xl"></div>
       <div class="absolute -right-8 bottom-8 h-24 w-24 rounded-full bg-cyan-400/25 blur-3xl"></div>
-      <div class="card-surface relative overflow-hidden p-6 sm:p-8">
+      <GradientPanel class="relative overflow-hidden p-6 sm:p-8">
         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.12),_transparent_52%)]"></div>
         <div class="relative space-y-5">
           <div class="flex items-center justify-between">
@@ -83,7 +86,7 @@ import { profile } from '../../data/profile';
             </div>
           </div>
         </div>
-      </div>
+      </GradientPanel>
     </div>
   </div>
 </section>

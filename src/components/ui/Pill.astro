@@ -1,0 +1,24 @@
+---
+interface Props {
+  tone?: 'brand' | 'cyan' | 'fuchsia' | 'amber' | 'emerald' | 'neutral';
+  class?: string;
+}
+
+const { tone = 'neutral', class: className = '' } = Astro.props;
+
+const toneClasses = {
+  brand: 'border-brand-300/30 bg-brand-500/15 text-brand-100',
+  cyan: 'border-cyan-300/30 bg-cyan-500/15 text-cyan-100',
+  fuchsia: 'border-fuchsia-300/30 bg-fuchsia-500/15 text-fuchsia-100',
+  amber: 'border-amber-300/30 bg-amber-500/15 text-amber-100',
+  emerald: 'border-emerald-300/30 bg-emerald-500/15 text-emerald-100',
+  neutral: 'border-white/10 bg-white/5 text-slate-100'
+};
+---
+<span class:list={[
+  'inline-flex rounded-full border px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em]',
+  toneClasses[tone],
+  className
+]}>
+  <slot />
+</span>

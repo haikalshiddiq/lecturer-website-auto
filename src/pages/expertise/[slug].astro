@@ -5,7 +5,7 @@ import { toSlug } from '../../lib/content';
 
 export async function getStaticPaths() {
   const topics = await getCollection('topics');
-  return topics.map((topic) => ({ params: { slug: topic.id.replace(/\.md$/, '') } }));
+  return topics.map((topic) => ({ params: { slug: toSlug(topic.id) } }));
 }
 
 const { slug } = Astro.params;
@@ -13,7 +13,7 @@ const topics = await getCollection('topics');
 const resources = (await getCollection('resources')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 const blog = (await getCollection('blog')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 const publications = (await getCollection('publications')).sort((a, b) => b.data.year - a.data.year);
-const entry = topics.find((item) => item.id.replace(/\.md$/, '') === slug);
+const entry = topics.find((item) => toSlug(item.id) === slug);
 if (!entry) throw new Error(`Topic not found: ${slug}`);
 const { Content } = await entry.render();
 
@@ -328,7 +328,7 @@ const relatedPublications = publications.filter((item) => item.data.topic === en
             <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Latest teaching reflections</p>
             <div class="mt-5 grid gap-3">
               {relatedBlog.map((item) => (
-                <a href={`/blog/${item.id.replace(/\.md$/, '')}`} class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">
+                <a href={`/blog/${toSlug(item.id)}`} class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">
                   <p class="text-sm font-semibold text-white">{item.data.title}</p>
                   <p class="mt-2 text-sm leading-6 text-slate-300">{item.data.summary}</p>
                 </a>

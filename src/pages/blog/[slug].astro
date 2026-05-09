@@ -1,15 +1,16 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { toSlug } from '../../lib/content';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
-  return posts.map((post) => ({ params: { slug: post.id.replace(/\.md$/, '') } }));
+  return posts.map((post) => ({ params: { slug: toSlug(post.id) } }));
 }
 
 const { slug } = Astro.params;
 const posts = await getCollection('blog');
-const entry = posts.find((item) => item.id.replace(/\.md$/, '') === slug);
+const entry = posts.find((item) => toSlug(item.id) === slug);
 if (!entry) throw new Error(`Blog post not found: ${slug}`);
 const { Content } = await entry.render();
 const formattedDate = entry.data.publishedAt.toLocaleDateString('en-US', {

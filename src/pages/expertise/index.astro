@@ -2,11 +2,12 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TopicCard from '../../components/cards/TopicCard.astro';
+import { toSlug } from '../../lib/content';
 
 const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
 const topicLinks = topics.map((topic) => ({
   ...topic,
-  slug: topic.id.replace(/\.md$/, '')
+  slug: toSlug(topic.id)
 }));
 ---
 <BaseLayout title="Expertise | Haikal Shiddiq S.Kom., M.T." description="Explore the core expertise pillars of Information System Management, Communication Protocol, and Artificial Intelligence.">

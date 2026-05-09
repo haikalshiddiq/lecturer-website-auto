@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { toSlug } from '../../lib/content';
 
 export async function getStaticPaths() {
   const topics = await getCollection('topics');
@@ -316,7 +317,7 @@ const relatedPublications = publications.filter((item) => item.data.topic === en
             <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Resources in this pillar</p>
             <div class="mt-5 grid gap-3">
               {relatedResources.map((item) => (
-                <a href={`/resources/${item.id.replace(/\.md$/, '')}`} class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">
+                <a href={`/resources/${toSlug(item.id)}`} class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 transition hover:border-white/20 hover:bg-white/10">
                   <p class="text-sm font-semibold text-white">{item.data.title}</p>
                   <p class="mt-2 text-sm leading-6 text-slate-300">{item.data.summary}</p>
                 </a>

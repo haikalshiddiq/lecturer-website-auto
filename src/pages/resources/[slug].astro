@@ -1,15 +1,16 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { toSlug } from '../../lib/content';
 
 export async function getStaticPaths() {
   const resources = await getCollection('resources');
-  return resources.map((resource) => ({ params: { slug: resource.id.replace(/\.md$/, '') } }));
+  return resources.map((resource) => ({ params: { slug: toSlug(resource.id) } }));
 }
 
 const { slug } = Astro.params;
 const resources = await getCollection('resources');
-const entry = resources.find((item) => item.id.replace(/\.md$/, '') === slug);
+const entry = resources.find((item) => toSlug(item.id) === slug);
 if (!entry) throw new Error(`Resource not found: ${slug}`);
 const { Content } = await entry.render();
 ---

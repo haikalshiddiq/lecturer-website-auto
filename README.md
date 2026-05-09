@@ -40,12 +40,26 @@ node ./scripts/review-daily-content-pr.mjs
 
 ## Project structure
 - `src/pages` — route pages
-- `src/components` — reusable UI
+- `src/lib/content.ts` — shared content collection helpers, sorting, topic coverage, and slug normalization
+- `src/components` — reusable section, card, layout, and UI components
+- `src/components/ui` — visual primitives such as pills, CTA links, and gradient panels
+- `src/data` — site, profile, and homepage teaching-track configuration
 - `src/content` — topics, resources, publications, and published blog content
+- `public/downloads` — static downloadable teaching assets
 - `automation/daily-content-queue` — pre-authored daily content waiting for publication
 - `worker/contact-form` — Cloudflare Worker for form handling and forwarding
 - `docs` — architecture, deployment, maintenance, and plans
 - `.github/workflows` — CI/CD, daily publication, deployment, and maintenance automation
+
+## Validation and smoke checks
+```bash
+npm run validate:content
+npm run check:links
+npm run build
+npm run smoke:live
+```
+
+`validate:content` checks collection structure and balanced coverage across the three teaching pillars. `smoke:live` verifies deployed Cloudflare Pages content plus Worker CORS/validation behavior after release.
 
 ## Deployment
 ### Cloudflare Pages

@@ -80,8 +80,8 @@ const {
                 </div>
               </div>
               <div class="mt-8 flex flex-wrap gap-4">
-                <ActionLink href={`/expertise/${topic.slug}`} variant="brand">Open topic pillar</ActionLink>
-                <ActionLink href="/resources" variant="secondary">Browse resources</ActionLink>
+                <ActionLink href={`/expertise/${topic.slug}`} variant="brand" size="sm" lift={false}>Open topic pillar</ActionLink>
+                <ActionLink href="/resources" variant="secondary" size="sm" lift={false}>Browse resources</ActionLink>
               </div>
             </GradientPanel>
 
@@ -131,6 +131,8 @@ const {
           tab.classList.toggle('border-white/10', !active);
           tab.classList.toggle('bg-white/5', !active);
           tab.classList.toggle('text-slate-100', !active);
+          tab.classList.toggle('hover:border-white/20', !active);
+          tab.classList.toggle('hover:bg-white/10', !active);
         });
         panels.forEach((panel) => {
           const active = panel.dataset.coveragePanel === slug;

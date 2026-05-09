@@ -2,24 +2,34 @@
 import type { HTMLAttributes } from 'astro/types';
 
 type Variant = 'primary' | 'secondary' | 'brand';
+type Size = 'sm' | 'md';
 
 type Props = HTMLAttributes<'a'> & {
   href: string;
   variant?: Variant;
+  size?: Size;
+  lift?: boolean;
 };
 
-const { href, variant = 'primary', class: className = '', ...attrs } = Astro.props;
+const { href, variant = 'primary', size = 'md', lift = true, class: className = '', ...attrs } = Astro.props;
 
 const variantClasses: Record<Variant, string> = {
   primary: 'bg-white text-slate-950 hover:bg-slate-100',
   secondary: 'border border-white/15 text-slate-100 hover:border-white/30 hover:bg-white/5',
   brand: 'bg-brand-500 text-white hover:bg-brand-400'
 };
+
+const sizeClasses: Record<Size, string> = {
+  sm: 'px-4 py-2',
+  md: 'px-6 py-3'
+};
 ---
 <a
   href={href}
   class:list={[
-    'inline-flex rounded-full px-6 py-3 text-sm font-semibold transition hover:-translate-y-0.5',
+    'inline-flex rounded-full text-sm font-semibold transition',
+    sizeClasses[size],
+    lift && 'hover:-translate-y-0.5',
     variantClasses[variant],
     className
   ]}

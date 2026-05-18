@@ -18,15 +18,11 @@ function listQueueFiles() {
 }
 
 function buildTargetFrontmatter(data) {
-  if (data.targetCollection !== 'blog') {
-    throw new Error(`Unsupported targetCollection: ${data.targetCollection}`);
-  }
-
   const publishDate = data.publishOn instanceof Date
     ? data.publishOn.toISOString().slice(0, 10)
     : String(data.publishOn || today).trim();
 
-  return {
+  const shared = {
     title: data.title,
     summary: data.summary,
     topic: data.topic,
@@ -34,6 +30,22 @@ function buildTargetFrontmatter(data) {
     featured: Boolean(data.featured),
     tags: Array.isArray(data.tags) ? data.tags : []
   };
+
+  if (data.targetCollection === 'blog') {
+    return shared;
+  }
+
+  if (data.targetCollection === 'resources') {
+    return {
+      ...shared,
+      level: data.level || 'Intermediate',
+      format: data.format || 'Guide',
+      ...(data.downloadUrl ? { downloadUrl: data.downloadUrl } : {}),
+      ...(data.ctaLabel ? { ctaLabel: data.ctaLabel } : {})
+    };
+  }
+
+  throw new Error(`Unsupported targetCollection: ${data.targetCollection}`);
 }
 
 function publishNextDueEntry() {

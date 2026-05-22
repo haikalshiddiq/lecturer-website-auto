@@ -1,4 +1,6 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { z } from 'astro:schema';
 
 const topicEnum = z.enum([
   'Information System Management',
@@ -7,7 +9,7 @@ const topicEnum = z.enum([
 ]);
 
 const topics = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/topics' }),
   schema: z.object({
     title: z.string(),
     summary: z.string(),
@@ -20,7 +22,7 @@ const topics = defineCollection({
 });
 
 const resources = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/resources' }),
   schema: z.object({
     title: z.string(),
     summary: z.string(),
@@ -36,7 +38,7 @@ const resources = defineCollection({
 });
 
 const publications = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/publications' }),
   schema: z.object({
     title: z.string(),
     year: z.number(),
@@ -51,7 +53,7 @@ const publications = defineCollection({
 });
 
 const blog = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
     title: z.string(),
     summary: z.string(),

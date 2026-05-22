@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { toSlug } from '../../lib/content';
 
@@ -12,7 +12,7 @@ const { slug } = Astro.params;
 const posts = await getCollection('blog');
 const entry = posts.find((item) => toSlug(item.id) === slug);
 if (!entry) throw new Error(`Blog post not found: ${slug}`);
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 const formattedDate = entry.data.publishedAt.toLocaleDateString('en-US', {
   day: 'numeric',
   month: 'long',

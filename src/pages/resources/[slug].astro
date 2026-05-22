@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { toSlug } from '../../lib/content';
 
@@ -12,7 +12,7 @@ const { slug } = Astro.params;
 const resources = await getCollection('resources');
 const entry = resources.find((item) => toSlug(item.id) === slug);
 if (!entry) throw new Error(`Resource not found: ${slug}`);
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 <BaseLayout title={`${entry.data.title} | Resources`} description={entry.data.summary}>
   <section class="py-24">

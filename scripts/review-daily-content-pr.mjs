@@ -55,6 +55,10 @@ function isBlogFile(filePath) {
   return filePath?.startsWith('src/content/blog/') && filePath.endsWith('.md');
 }
 
+function isResourceFile(filePath) {
+  return filePath?.startsWith('src/content/resources/') && filePath.endsWith('.md');
+}
+
 function normaliseDate(value) {
   if (value instanceof Date) return value.toISOString().slice(0, 10);
   return String(value || '').trim();
@@ -89,6 +93,8 @@ function writeOutputs(result, reviewBody) {
 
 const changes = parseDiff();
 const blogFiles = changes.filter((entry) => isBlogFile(entry.path));
+const resourceFiles = changes.filter((entry) => isResourceFile(entry.path));
+const contentFiles = [...blogFiles, ...resourceFiles];
 const archivedQueueFiles = changes.filter((entry) => isPublishedArchive(entry.path));
 const queueSourceFiles = changes.filter((entry) => {
   if (entry.status.startsWith('R') || entry.status.startsWith('C')) {
@@ -100,11 +106,11 @@ const queueSourceFiles = changes.filter((entry) => {
 
 const unexpected = changes.filter((entry) => {
   const paths = [entry.oldPath, entry.path].filter(Boolean);
-  return paths.some((filePath) => !isBlogFile(filePath) && !isQueueRootFile(filePath) && !isPublishedArchive(filePath));
+  return paths.some((filePath) => !isBlogFile(filePath) && !isResourceFile(filePath) && !isQueueRootFile(filePath) && !isPublishedArchive(filePath));
 });
 
-if (blogFiles.length !== 1) {
-  throw new Error(`Expected exactly one published blog file, found ${blogFiles.length}.`);
+if (contentFiles.length !== 1) {
+  throw new Error(`Expected exactly one published blog or resource file, found ${contentFiles.length}.`);
 }
 
 if (archivedQueueFiles.length !== 1) {
@@ -119,10 +125,10 @@ if (unexpected.length > 0) {
   throw new Error(`Unexpected changed files in daily content package: ${unexpected.map((entry) => entry.path || entry.oldPath).join(', ')}`);
 }
 
-const blogPath = blogFiles[0].path;
+const contentPath = contentFiles[0].path;
 const archivedQueuePath = archivedQueueFiles[0].path;
 const queueSourcePath = queueSourceFiles[0].oldPath || queueSourceFiles[0].path;
-const { data } = matter(fs.readFileSync(blogPath, 'utf8'));
+const { data } = matter(fs.readFileSync(contentPath, 'utf8'));
 
 const requiredFields = ['title', 'summary', 'topic', 'publishedAt'];
 const missingFields = requiredFields.filter((field) => !String(data[field] || '').trim());
@@ -136,7 +142,7 @@ const result = {
   topic: String(data.topic).trim(),
   publishedAt: normaliseDate(data.publishedAt),
   tags: Array.isArray(data.tags) ? data.tags : [],
-  targetPath: blogPath,
+  targetPath: contentPath,
   archivedQueuePath,
   queueSourcePath
 };

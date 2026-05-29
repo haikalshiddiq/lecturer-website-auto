@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import InteractiveHandsOnLab from '../../components/sections/InteractiveHandsOnLab.astro';
 import { toSlug } from '../../lib/content';
 
 export async function getStaticPaths() {
@@ -32,9 +33,12 @@ const { Content } = await render(entry);
           </a>
         )}
       </aside>
-      <article class="card-surface p-8">
-        <div class="prose-invert-custom">
-          <Content />
+      <article class="space-y-8">
+        <InteractiveHandsOnLab slug={slug} />
+        <div class="card-surface p-8">
+          <div class="prose-invert-custom">
+            <Content />
+          </div>
         </div>
       </article>
     </div>

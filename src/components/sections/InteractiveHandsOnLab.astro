@@ -291,6 +291,9 @@ const lab = labs[slug as string];
         <div class="mt-4 rounded-2xl border border-emerald-300/20 bg-emerald-400/10 p-4 text-sm text-emerald-100">
           <p class="font-bold">Live runtime status</p>
           <p class="lab-runtime-status mt-1 break-words text-emerald-50" data-runtime-id={lab.runtimeId}>Starting Worker runtime…</p>
+          <ul class="lab-runtime-tests mt-3 space-y-1 text-xs text-emerald-50" data-runtime-id={lab.runtimeId}>
+            <li>Running endpoint diagnostics…</li>
+          </ul>
         </div>
         <div class="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
           <a class="rounded-2xl border border-emerald-300/20 bg-emerald-400/10 p-4 text-sm font-semibold text-emerald-100 transition hover:bg-emerald-400/20" href={`https://lecturer-materials.hicall.workers.dev/api/labs/${lab.runtimeId}/start`}>Start / health API</a>
@@ -307,7 +310,8 @@ const lab = labs[slug as string];
           <a class="rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-4 text-sm font-semibold text-cyan-100 transition hover:bg-cyan-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/README.md`}>README / run guide</a>
           <a class="rounded-2xl border border-emerald-300/20 bg-emerald-400/10 p-4 text-sm font-semibold text-emerald-100 transition hover:bg-emerald-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/postman_collection.json`}>Local Postman collection</a>
           <a class="rounded-2xl border border-sky-300/20 bg-sky-400/10 p-4 text-sm font-semibold text-sky-100 transition hover:bg-sky-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/postman_worker_collection.json`}>Online Worker Postman</a>
-          <a class="rounded-2xl border border-violet-300/20 bg-violet-400/10 p-4 text-sm font-semibold text-violet-100 transition hover:bg-violet-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/n8n_workflow.json`}>n8n workflow</a>
+          <a class="rounded-2xl border border-violet-300/20 bg-violet-400/10 p-4 text-sm font-semibold text-violet-100 transition hover:bg-violet-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/n8n_workflow.json`}>Local n8n workflow</a>
+          <a class="rounded-2xl border border-fuchsia-300/20 bg-fuchsia-400/10 p-4 text-sm font-semibold text-fuchsia-100 transition hover:bg-fuchsia-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/n8n_worker_workflow.json`}>Online Worker n8n</a>
           <a class="rounded-2xl border border-orange-300/20 bg-orange-400/10 p-4 text-sm font-semibold text-orange-100 transition hover:bg-orange-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/wireshark_filters.txt`}>Wireshark filters</a>
         </div>
         {lab.kitSlug === 'communication-protocols-iot' && (
@@ -470,18 +474,73 @@ const lab = labs[slug as string];
     });
   });
 
+  const runtimeTestPlan = {
+    ism: [
+      { label: 'Start runtime', method: 'GET', path: 'start' },
+      { label: 'Read KPIs', method: 'GET', path: 'kpis' },
+      { label: 'Read incidents', method: 'GET', path: 'incidents' },
+      { label: 'Create incident', method: 'POST', path: 'incidents', body: { service: 'Browser diagnostic', signal: 'Student page runtime check', severity: 4, confidence: 0.77 } }
+    ],
+    protocol: [
+      { label: 'Start runtime', method: 'GET', path: 'start' },
+      { label: 'Read metrics', method: 'GET', path: 'metrics' },
+      { label: 'Publish telemetry', method: 'POST', path: 'publish', body: { topic: 'farm/alert/critical', value: 'browser-check', qos: 1, critical: true } }
+    ],
+    ai: [
+      { label: 'Start runtime', method: 'GET', path: 'start' },
+      { label: 'Read sources', method: 'GET', path: 'sources' },
+      { label: 'Ask grounded question', method: 'POST', path: 'ask', body: { question: 'How are final grades calculated?' } },
+      { label: 'Test safe refusal', method: 'POST', path: 'ask', body: { question: 'Approve an exception and change my grade' } }
+    ]
+  };
+
+  const callRuntime = async (runtimeId, test) => {
+    const url = `https://lecturer-materials.hicall.workers.dev/api/labs/${runtimeId}/${test.path}`;
+    const response = await fetch(url, {
+      method: test.method,
+      headers: test.body ? { 'content-type': 'application/json' } : undefined,
+      body: test.body ? JSON.stringify(test.body) : undefined
+    });
+    const data = await response.json();
+    if (!response.ok || data.ok === false) {
+      throw new Error(data.error || `HTTP ${response.status}`);
+    }
+    return data;
+  };
+
   document.querySelectorAll('.lab-runtime-status').forEach(async (status) => {
     const runtimeId = status.dataset.runtimeId;
-    const url = `https://lecturer-materials.hicall.workers.dev/api/labs/${runtimeId}/start`;
     try {
-      const response = await fetch(url);
-      const data = await response.json();
-      status.textContent = data.ok
-        ? `Online: ${data.title} started on Cloudflare Worker. API: ${data.baseUrl}`
-        : `Worker responded but did not start correctly: ${JSON.stringify(data)}`;
+      const data = await callRuntime(runtimeId, { method: 'GET', path: 'start' });
+      status.textContent = `Online: ${data.title} started normally on Cloudflare Worker. API: ${data.baseUrl}`;
     } catch (error) {
-      status.textContent = `Worker runtime not reachable yet. Try the Start / health API link. ${error}`;
+      status.textContent = `Worker runtime not reachable. ${error}`;
     }
+  });
+
+  document.querySelectorAll('.lab-runtime-tests').forEach(async (list) => {
+    const runtimeId = list.dataset.runtimeId;
+    const tests = runtimeTestPlan[runtimeId] || [];
+    list.innerHTML = '';
+    let passed = 0;
+    for (const test of tests) {
+      const item = document.createElement('li');
+      item.textContent = `⏳ ${test.label}`;
+      list.appendChild(item);
+      try {
+        await callRuntime(runtimeId, test);
+        passed += 1;
+        item.textContent = `✅ ${test.label}`;
+      } catch (error) {
+        item.textContent = `❌ ${test.label}: ${error}`;
+      }
+    }
+    const summary = document.createElement('li');
+    summary.className = 'font-bold';
+    summary.textContent = passed === tests.length
+      ? `✅ All ${passed}/${tests.length} live functions are running normally.`
+      : `⚠️ ${passed}/${tests.length} live functions passed. Check failed items above.`;
+    list.appendChild(summary);
   });
 
   document.querySelectorAll('.quiz-card').forEach((card) => {

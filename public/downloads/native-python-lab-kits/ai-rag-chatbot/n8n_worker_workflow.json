@@ -1,0 +1,82 @@
+{
+  "name": "ai-rag-chatbot online Worker runtime test",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ai/start",
+        "method": "GET",
+        "sendBody": false,
+        "options": {}
+      },
+      "id": "ai-0",
+      "name": "Start runtime",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ai/sources",
+        "method": "GET",
+        "sendBody": false,
+        "options": {}
+      },
+      "id": "ai-1",
+      "name": "Read policy sources",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        540,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ai/ask",
+        "method": "POST",
+        "sendBody": true,
+        "options": {},
+        "contentType": "json",
+        "jsonBody": "{\"question\": \"How are final grades calculated?\"}"
+      },
+      "id": "ai-2",
+      "name": "Ask grounded question",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        820,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Start runtime": {
+      "main": [
+        [
+          {
+            "node": "Read policy sources",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read policy sources": {
+      "main": [
+        [
+          {
+            "node": "Ask grounded question",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

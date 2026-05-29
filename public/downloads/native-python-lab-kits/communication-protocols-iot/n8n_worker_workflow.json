@@ -1,0 +1,82 @@
+{
+  "name": "communication-protocols-iot online Worker runtime test",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/protocol/start",
+        "method": "GET",
+        "sendBody": false,
+        "options": {}
+      },
+      "id": "protocol-0",
+      "name": "Start runtime",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/protocol/metrics",
+        "method": "GET",
+        "sendBody": false,
+        "options": {}
+      },
+      "id": "protocol-1",
+      "name": "Read protocol metrics",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        540,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/protocol/publish",
+        "method": "POST",
+        "sendBody": true,
+        "options": {},
+        "contentType": "json",
+        "jsonBody": "{\"topic\": \"farm/alert/critical\", \"value\": \"n8n-check\", \"qos\": 1, \"critical\": true}"
+      },
+      "id": "protocol-2",
+      "name": "Publish critical telemetry",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        820,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Start runtime": {
+      "main": [
+        [
+          {
+            "node": "Read protocol metrics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read protocol metrics": {
+      "main": [
+        [
+          {
+            "node": "Publish critical telemetry",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

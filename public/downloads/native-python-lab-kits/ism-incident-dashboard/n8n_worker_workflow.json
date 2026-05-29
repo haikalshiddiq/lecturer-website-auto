@@ -1,0 +1,80 @@
+{
+  "name": "ism-incident-dashboard online Worker runtime test",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ism/start",
+        "method": "GET",
+        "sendBody": false,
+        "options": {}
+      },
+      "id": "ism-0",
+      "name": "Start runtime",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ism/kpis",
+        "method": "GET",
+        "sendBody": false,
+        "options": {}
+      },
+      "id": "ism-1",
+      "name": "Read KPI dashboard",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        540,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ism/incidents",
+        "method": "GET",
+        "sendBody": false,
+        "options": {}
+      },
+      "id": "ism-2",
+      "name": "Read incidents",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        820,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Start runtime": {
+      "main": [
+        [
+          {
+            "node": "Read KPI dashboard",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read KPI dashboard": {
+      "main": [
+        [
+          {
+            "node": "Read incidents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

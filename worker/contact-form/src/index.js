@@ -252,6 +252,189 @@ function buildUnconfiguredMessage(env) {
   return 'Contact form received. Forwarding recipient is set, but automatic delivery still needs CONTACT_WEBHOOK_URL, RESEND_API_KEY, or a verified MAIL_FROM_EMAIL sender.';
 }
 
+
+const LAB_DATA = {
+  ism: {
+    id: 'ism',
+    title: 'Information System Management Incident Dashboard Runtime',
+    incidents: [
+      { id: 'E01', service: 'Citizen portal', signal: 'Authentication latency above baseline', severity: 4, confidence: 0.88, owner: 'Identity team', action: 'Check identity dependency and session store' },
+      { id: 'E02', service: 'Immigration', signal: 'Public report of service disruption', severity: 5, confidence: 0.63, owner: 'Immigration service owner', action: 'Verify internally before public statement' },
+      { id: 'E03', service: 'Core infrastructure', signal: 'Backup restore estimate changed twice', severity: 5, confidence: 0.41, owner: 'Infrastructure recovery lead', action: 'Escalate uncertainty and request recovery evidence' }
+    ]
+  },
+  protocol: {
+    id: 'protocol',
+    title: 'Communication Protocol IoT Runtime',
+    events: [
+      { topic: 'farm/soil/moisture', value: 27, qos: 0, critical: false, delivery: 'delivered', protocol: 'HTTP API -> MQTT-style telemetry' },
+      { topic: 'farm/alert/critical', value: 'dry-soil', qos: 1, critical: true, delivery: 'acknowledged', protocol: 'HTTP API -> MQTT QoS 1 alert' }
+    ]
+  },
+  ai: {
+    id: 'ai',
+    title: 'Responsible RAG Policy Assistant Runtime',
+    policies: [
+      { id: 'P01', area: 'Attendance', text: 'Students must satisfy minimum attendance requirements defined by the course policy.' },
+      { id: 'P02', area: 'Assessment', text: 'Final grades combine assignments, midterm, final exam, and lecturer-approved participation.' },
+      { id: 'P03', area: 'Appeal', text: 'Grade appeals require documented evidence and submission within the stated academic window.' },
+      { id: 'P04', area: 'Privacy', text: 'Student academic data must not be exposed to unauthorized parties.' },
+      { id: 'P05', area: 'Scope', text: 'The assistant cannot approve exceptions; it can only explain published policy and direct users to staff.' }
+    ]
+  }
+};
+
+function labRuntimeBase(request) {
+  const url = new URL(request.url);
+  return `${url.origin}/api/labs`;
+}
+
+function labHealth(request, lab) {
+  return {
+    ok: true,
+    runtime: 'cloudflare-worker',
+    note: 'Cloudflare Workers cannot execute CPython processes. This endpoint runs the browser-accessible Worker version of the same native Python lab API so students can test immediately online; downloadable Python remains available for local/native execution.',
+    lab: lab.id,
+    title: lab.title,
+    startedAt: new Date().toISOString(),
+    baseUrl: `${labRuntimeBase(request)}/${lab.id}`,
+    suggestedTools: ['browser', 'Postman', 'n8n HTTP Request node', 'Wireshark for local Python/loopback capture']
+  };
+}
+
+function calcIncidentKpis(incidents) {
+  const high = incidents.filter((item) => item.severity >= 4);
+  const weak = incidents.filter((item) => item.confidence < 0.6);
+  return {
+    totalSignals: incidents.length,
+    highSeverity: high.length,
+    weakEvidence: weak.length,
+    averageConfidence: Number((incidents.reduce((sum, item) => sum + item.confidence, 0) / incidents.length).toFixed(2)),
+    decisionNeeded: high.map((item) => item.action),
+    generatedAt: new Date().toISOString()
+  };
+}
+
+function tokenize(value) {
+  return String(value || '').toLowerCase().match(/[a-z0-9]+/g) || [];
+}
+
+function retrievePolicies(question) {
+  const q = new Set(tokenize(question));
+  return LAB_DATA.ai.policies
+    .map((policy) => ({
+      score: tokenize(`${policy.area} ${policy.text}`).filter((token) => q.has(token)).length,
+      policy
+    }))
+    .filter((item) => item.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 2)
+    .map((item) => item.policy);
+}
+
+async function readJsonBody(request) {
+  if (request.method === 'GET') return {};
+  const raw = await request.text();
+  if (!raw) return {};
+  return JSON.parse(raw);
+}
+
+async function handleLabRuntime(request) {
+  const url = new URL(request.url);
+  const parts = url.pathname.split('/').filter(Boolean);
+  const labId = parts[2];
+  const action = parts[3] || 'start';
+
+  if (!['ism', 'protocol', 'ai'].includes(labId)) {
+    return json({ ok: false, error: 'Unknown lab runtime. Use ism, protocol, or ai.' }, { status: 404 });
+  }
+
+  const lab = LAB_DATA[labId];
+
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 204, headers: JSON_HEADERS });
+  }
+
+  if (action === 'start' || action === 'health') {
+    return json(labHealth(request, lab));
+  }
+
+  if (labId === 'ism') {
+    if (request.method === 'GET' && action === 'incidents') return json({ incidents: lab.incidents });
+    if (request.method === 'GET' && action === 'kpis') return json(calcIncidentKpis(lab.incidents));
+    if (request.method === 'POST' && action === 'incidents') {
+      const body = await readJsonBody(request);
+      const created = {
+        id: body.id || `EDGE-${Date.now()}`,
+        service: body.service || 'Student submitted service',
+        signal: body.signal || 'Manual signal from Worker lab runtime',
+        severity: Number(body.severity || 3),
+        confidence: Number(body.confidence || 0.5),
+        owner: body.owner || 'Student triage team',
+        action: body.action || 'Review signal and update dashboard decision'
+      };
+      return json({ created, persistence: 'stateless-worker-demo' }, { status: 201 });
+    }
+  }
+
+  if (labId === 'protocol') {
+    if (request.method === 'GET' && action === 'metrics') {
+      return json({
+        messages: lab.events.length,
+        qos1Messages: lab.events.filter((event) => event.qos === 1).length,
+        simulatedLoss: lab.events.filter((event) => event.delivery === 'lost').length,
+        events: lab.events,
+        wiresharkHint: 'For packet capture, run the downloadable native Python version locally and capture loopback traffic.'
+      });
+    }
+    if (request.method === 'POST' && action === 'publish') {
+      const body = await readJsonBody(request);
+      const qos = Number(body.qos || 0);
+      const critical = Boolean(body.critical);
+      const event = {
+        topic: body.topic || 'farm/soil/moisture',
+        value: body.value ?? 27,
+        qos,
+        critical,
+        delivery: qos > 0 || critical ? 'acknowledged' : 'delivered-or-loss-risk',
+        protocol: 'Cloudflare Worker HTTP API simulating MQTT-style telemetry',
+        ts: new Date().toISOString()
+      };
+      return json({ accepted: event, persistence: 'stateless-worker-demo' }, { status: 201 });
+    }
+  }
+
+  if (labId === 'ai') {
+    if (request.method === 'GET' && action === 'sources') return json({ policies: lab.policies });
+    if (request.method === 'POST' && action === 'ask') {
+      const body = await readJsonBody(request);
+      const question = String(body.question || '');
+      const hits = retrievePolicies(question);
+      const risky = /approve|exception|change my grade|private data|password/i.test(question);
+      if (risky || hits.length === 0) {
+        return json({
+          question,
+          answer: 'I cannot answer or approve this from the provided policy sources. Please contact authorized academic staff.',
+          sources: hits.map((item) => item.id),
+          refusal: true,
+          faithfulness: 'safe_refusal',
+          evaluatedAt: new Date().toISOString()
+        });
+      }
+      return json({
+        question,
+        answer: `${hits.map((item) => item.text).join(' ')} Sources: ${hits.map((item) => item.id).join(', ')}`,
+        sources: hits.map((item) => item.id),
+        refusal: false,
+        faithfulness: 'grounded_in_retrieved_sources',
+        evaluatedAt: new Date().toISOString()
+      });
+    }
+  }
+
+  return json({ ok: false, error: 'Unsupported lab action for this method.' }, { status: 404 });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -261,6 +444,21 @@ export default {
         status: 204,
         headers: JSON_HEADERS
       });
+    }
+
+    if (url.pathname.startsWith('/api/labs/')) {
+      try {
+        return await handleLabRuntime(request);
+      } catch (error) {
+        return json(
+          {
+            ok: false,
+            error: 'Unable to process the lab runtime request.',
+            detail: error instanceof Error ? error.message : String(error)
+          },
+          { status: 500 }
+        );
+      }
     }
 
     if (request.method !== 'POST' || url.pathname !== '/api/contact') {

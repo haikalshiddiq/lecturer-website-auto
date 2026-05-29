@@ -23,3 +23,8 @@ Capture loopback traffic while Postman sends `/ask`. Use `wireshark_filters.txt`
 
 ## Student mission
 Students must demonstrate retrieval traceability, citation quality, refusal behavior, and hallucination-risk evaluation.
+
+
+## Online Worker runtime
+
+This material page auto-starts a Cloudflare Worker runtime when opened. To test without running local Python, import `postman_worker_collection.json` and call the public Worker endpoints. Native Python is still required when the class objective is local process execution or Wireshark loopback packet capture.

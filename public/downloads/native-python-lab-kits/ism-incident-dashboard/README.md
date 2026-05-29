@@ -23,3 +23,8 @@ Start capture on loopback, run the Postman requests, then use filters from `wire
 
 ## Student mission
 Students must prove that dashboard KPIs are generated from evidence, not from decorative assumptions.
+
+
+## Online Worker runtime
+
+This material page auto-starts a Cloudflare Worker runtime when opened. To test without running local Python, import `postman_worker_collection.json` and call the public Worker endpoints. Native Python is still required when the class objective is local process execution or Wireshark loopback packet capture.

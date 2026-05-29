@@ -2,6 +2,7 @@
 type Lab = {
   slug: string;
   kitSlug: string;
+  runtimeId: 'ism' | 'protocol' | 'ai';
   eyebrow: string;
   title: string;
   duration: string;
@@ -20,6 +21,7 @@ const labs: Record<string, Lab> = {
   'youcom-hands-on-lab-ism-incident-dashboard': {
     slug: 'youcom-hands-on-lab-ism-incident-dashboard',
     kitSlug: 'ism-incident-dashboard',
+    runtimeId: 'ism',
     eyebrow: 'Information System Management Interactive Lab',
     title: 'AI Incident Intelligence Dashboard Studio',
     duration: '120–150 minutes',
@@ -116,6 +118,7 @@ const labs: Record<string, Lab> = {
   'youcom-hands-on-lab-communication-protocols-wireshark-iot': {
     slug: 'youcom-hands-on-lab-communication-protocols-wireshark-iot',
     kitSlug: 'communication-protocols-iot',
+    runtimeId: 'protocol',
     eyebrow: 'Communication Protocol Interactive Lab',
     title: 'Wireshark + IoT Protocol Reliability Lab',
     duration: '120–180 minutes',
@@ -192,6 +195,7 @@ const labs: Record<string, Lab> = {
   'youcom-hands-on-lab-ai-rag-chatbot': {
     slug: 'youcom-hands-on-lab-ai-rag-chatbot',
     kitSlug: 'ai-rag-chatbot',
+    runtimeId: 'ai',
     eyebrow: 'Artificial Intelligence Interactive Lab',
     title: 'Responsible RAG Chatbot Evaluation Studio',
     duration: '150–180 minutes',
@@ -282,11 +286,27 @@ const lab = labs[slug as string];
         <span class="rounded-full bg-violet-400/15 px-4 py-2 font-semibold text-violet-100">Test with Wireshark / Postman / n8n</span>
       </div>
       <div class="mt-8 rounded-3xl border border-white/10 bg-black/30 p-5">
+        <h3 class="text-lg font-black text-white">Auto-start Worker Lab Runtime</h3>
+        <p class="mt-2 text-sm leading-6 text-slate-300">When this page loads, it automatically calls the Cloudflare Worker runtime for this topic. Students can immediately test the online API in the browser, Postman, or n8n. The downloadable native Python version remains available for local execution and Wireshark loopback capture.</p>
+        <div class="mt-4 rounded-2xl border border-emerald-300/20 bg-emerald-400/10 p-4 text-sm text-emerald-100">
+          <p class="font-bold">Live runtime status</p>
+          <p class="lab-runtime-status mt-1 break-words text-emerald-50" data-runtime-id={lab.runtimeId}>Starting Worker runtime…</p>
+        </div>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          <a class="rounded-2xl border border-emerald-300/20 bg-emerald-400/10 p-4 text-sm font-semibold text-emerald-100 transition hover:bg-emerald-400/20" href={`https://lecturer-materials.hicall.workers.dev/api/labs/${lab.runtimeId}/start`}>Start / health API</a>
+          <a class="rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-4 text-sm font-semibold text-cyan-100 transition hover:bg-cyan-400/20" href={`https://lecturer-materials.hicall.workers.dev/api/labs/${lab.runtimeId}/${lab.runtimeId === 'ism' ? 'kpis' : lab.runtimeId === 'protocol' ? 'metrics' : 'sources'}`}>Open live data endpoint</a>
+          <button type="button" class="lab-runtime-copy rounded-2xl border border-violet-300/20 bg-violet-400/10 p-4 text-left text-sm font-semibold text-violet-100 transition hover:bg-violet-400/20" data-copy={`https://lecturer-materials.hicall.workers.dev/api/labs/${lab.runtimeId}/start`}>Copy API base</button>
+          <span class="rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-sm font-semibold text-slate-200">Works with Postman + n8n HTTP Request</span>
+        </div>
+      </div>
+
+      <div class="mt-6 rounded-3xl border border-white/10 bg-black/30 p-5">
         <h3 class="text-lg font-black text-white">Native Python Testing Kit</h3>
         <p class="mt-2 text-sm leading-6 text-slate-300">Run the lab locally with Python only, then validate it using Postman requests, n8n automation, and Wireshark traffic evidence.</p>
         <div class="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
           <a class="rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-4 text-sm font-semibold text-cyan-100 transition hover:bg-cyan-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/README.md`}>README / run guide</a>
-          <a class="rounded-2xl border border-emerald-300/20 bg-emerald-400/10 p-4 text-sm font-semibold text-emerald-100 transition hover:bg-emerald-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/postman_collection.json`}>Postman collection</a>
+          <a class="rounded-2xl border border-emerald-300/20 bg-emerald-400/10 p-4 text-sm font-semibold text-emerald-100 transition hover:bg-emerald-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/postman_collection.json`}>Local Postman collection</a>
+          <a class="rounded-2xl border border-sky-300/20 bg-sky-400/10 p-4 text-sm font-semibold text-sky-100 transition hover:bg-sky-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/postman_worker_collection.json`}>Online Worker Postman</a>
           <a class="rounded-2xl border border-violet-300/20 bg-violet-400/10 p-4 text-sm font-semibold text-violet-100 transition hover:bg-violet-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/n8n_workflow.json`}>n8n workflow</a>
           <a class="rounded-2xl border border-orange-300/20 bg-orange-400/10 p-4 text-sm font-semibold text-orange-100 transition hover:bg-orange-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/wireshark_filters.txt`}>Wireshark filters</a>
         </div>
@@ -441,13 +461,27 @@ const lab = labs[slug as string];
     check.addEventListener('change', () => updateProgress(check.dataset.lab));
   });
 
-  document.querySelectorAll('.copy-btn').forEach((button) => {
+  document.querySelectorAll('.copy-btn, .lab-runtime-copy').forEach((button) => {
     button.addEventListener('click', async () => {
       await navigator.clipboard.writeText(button.dataset.copy || '');
       const original = button.textContent;
       button.textContent = 'Copied';
       setTimeout(() => { button.textContent = original; }, 1200);
     });
+  });
+
+  document.querySelectorAll('.lab-runtime-status').forEach(async (status) => {
+    const runtimeId = status.dataset.runtimeId;
+    const url = `https://lecturer-materials.hicall.workers.dev/api/labs/${runtimeId}/start`;
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      status.textContent = data.ok
+        ? `Online: ${data.title} started on Cloudflare Worker. API: ${data.baseUrl}`
+        : `Worker responded but did not start correctly: ${JSON.stringify(data)}`;
+    } catch (error) {
+      status.textContent = `Worker runtime not reachable yet. Try the Start / health API link. ${error}`;
+    }
   });
 
   document.querySelectorAll('.quiz-card').forEach((card) => {

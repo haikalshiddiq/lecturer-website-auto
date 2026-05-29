@@ -1,0 +1,68 @@
+{
+  "info": {
+    "name": "communication-protocols-iot online Cloudflare Worker lab runtime",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "ONLINE Worker GET /start",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/protocol/start"
+      }
+    },
+    {
+      "name": "ONLINE Worker POST /publish",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/protocol/publish",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"topic\": \"farm/soil/moisture\",\n  \"value\": 27,\n  \"qos\": 0,\n  \"critical\": false\n}"
+        }
+      }
+    },
+    {
+      "name": "ONLINE Worker POST /publish",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/protocol/publish",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"topic\": \"farm/alert/critical\",\n  \"value\": \"dry-soil\",\n  \"qos\": 1,\n  \"critical\": true\n}"
+        }
+      }
+    },
+    {
+      "name": "ONLINE Worker GET /metrics",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/protocol/metrics"
+      }
+    }
+  ]
+}

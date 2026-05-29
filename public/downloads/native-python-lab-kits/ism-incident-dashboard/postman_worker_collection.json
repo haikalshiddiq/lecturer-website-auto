@@ -1,0 +1,64 @@
+{
+  "info": {
+    "name": "ism-incident-dashboard online Cloudflare Worker lab runtime",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "ONLINE Worker GET /start",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ism/start"
+      }
+    },
+    {
+      "name": "ONLINE Worker GET /incidents",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ism/incidents"
+      }
+    },
+    {
+      "name": "ONLINE Worker GET /kpis",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ism/kpis"
+      }
+    },
+    {
+      "name": "ONLINE Worker POST /incidents",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ism/incidents",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"service\": \"Payment gateway\",\n  \"signal\": \"Timeout spike after failover\",\n  \"severity\": 4,\n  \"confidence\": 0.72,\n  \"owner\": \"Payments owner\",\n  \"action\": \"Check failover route and notify service desk\"\n}"
+        }
+      }
+    }
+  ]
+}

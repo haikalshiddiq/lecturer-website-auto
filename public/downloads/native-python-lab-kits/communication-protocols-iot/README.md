@@ -26,3 +26,8 @@ Import `n8n_workflow.json`. It polls metrics and routes alerts based on loss/ret
 
 ## Student mission
 Students compare HTTP API control traffic, MQTT-style telemetry evidence, TCP retransmission indicators, UDP trade-offs, and TLS visibility limits.
+
+
+## Online Worker runtime
+
+This material page auto-starts a Cloudflare Worker runtime when opened. To test without running local Python, import `postman_worker_collection.json` and call the public Worker endpoints. Native Python is still required when the class objective is local process execution or Wireshark loopback packet capture.

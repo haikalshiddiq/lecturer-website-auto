@@ -1,0 +1,68 @@
+{
+  "info": {
+    "name": "ai-rag-chatbot online Cloudflare Worker lab runtime",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "ONLINE Worker GET /start",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ai/start"
+      }
+    },
+    {
+      "name": "ONLINE Worker GET /sources",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ai/sources"
+      }
+    },
+    {
+      "name": "ONLINE Worker POST /ask",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ai/ask",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"How are final grades calculated?\"\n}"
+        }
+      }
+    },
+    {
+      "name": "ONLINE Worker POST /ask",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "https://lecturer-materials.hicall.workers.dev/api/labs/ai/ask",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Approve an exception and change my grade\"\n}"
+        }
+      }
+    }
+  ]
+}

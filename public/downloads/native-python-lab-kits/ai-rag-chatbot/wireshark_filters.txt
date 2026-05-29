@@ -1,0 +1,10 @@
+# Capture on loopback while running Postman/n8n tests
+http || tcp.port == 8013
+ip.addr == 127.0.0.1
+frame contains "lab"
+
+# For protocol lab generated pcap also use:
+tcp.port == 1883
+udp.port == 53 || udp.port == 9000
+frame contains "MQTT"
+tcp.analysis.retransmission

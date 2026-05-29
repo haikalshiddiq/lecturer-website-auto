@@ -29,6 +29,10 @@ Students must design an AI-supported incident intelligence dashboard that helps 
 3. What decision is needed now?
 4. What should not be said publicly yet?
 
+## Native Python + tool testing requirement
+
+Students must run the provided native Python dashboard API, test the endpoints in Postman, automate a health/KPI check in n8n, and capture HTTP evidence in Wireshark. The lab is considered complete only when the team can show API output, dashboard logic, Postman responses, and packet-level request/response evidence.
+
 ## Required student artifacts
 
 - Evidence register with source credibility scoring.

@@ -1,0 +1,64 @@
+{
+  "name": "Communication Protocol \u2014 Native Python IoT Protocol Simulator n8n test workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:8012/health",
+        "options": {}
+      },
+      "name": "Call Native Python API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        260,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{json:{tested:true, lab:$json.lab || \"native-python-lab\", ok:$json.ok}}];"
+      },
+      "name": "Prepare Lab Evidence",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        520,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Call Native Python API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call Native Python API": {
+      "main": [
+        [
+          {
+            "node": "Prepare Lab Evidence",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

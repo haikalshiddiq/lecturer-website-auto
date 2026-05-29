@@ -30,6 +30,10 @@ Students must answer:
 3. Which answer is faithful, partially supported, or hallucinated?
 4. What controls are needed before deployment?
 
+## Native Python + tool testing requirement
+
+Students must run the provided native Python RAG API, test supported and unsupported questions in Postman, import the n8n workflow to create an evaluation record, and optionally capture the API traffic in Wireshark. The lab is considered complete only when citation behavior, refusal behavior, and evaluation logs are demonstrated with real API responses.
+
 ## Required student artifacts
 
 - Policy mini-corpus with source IDs and metadata.

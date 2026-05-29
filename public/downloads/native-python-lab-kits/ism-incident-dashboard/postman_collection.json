@@ -1,0 +1,119 @@
+{
+  "info": {
+    "name": "Information System Management \u2014 Native Python Incident Dashboard API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET /health",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8011/health",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8011",
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/incidents",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8011/api/incidents",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8011",
+          "path": [
+            "api",
+            "incidents"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/kpis",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8011/api/kpis",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8011",
+          "path": [
+            "api",
+            "kpis"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /api/incidents",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8011/api/incidents",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8011",
+          "path": [
+            "api",
+            "incidents"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"service\": \"Payment gateway\",\n  \"signal\": \"Timeout spike after failover\",\n  \"severity\": 4,\n  \"confidence\": 0.72,\n  \"owner\": \"Payments owner\",\n  \"action\": \"Check failover route and notify service desk\"\n}"
+        }
+      }
+    }
+  ]
+}

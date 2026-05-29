@@ -1,6 +1,7 @@
 ---
 type Lab = {
   slug: string;
+  kitSlug: string;
   eyebrow: string;
   title: string;
   duration: string;
@@ -18,6 +19,7 @@ type Lab = {
 const labs: Record<string, Lab> = {
   'youcom-hands-on-lab-ism-incident-dashboard': {
     slug: 'youcom-hands-on-lab-ism-incident-dashboard',
+    kitSlug: 'ism-incident-dashboard',
     eyebrow: 'Information System Management Interactive Lab',
     title: 'AI Incident Intelligence Dashboard Studio',
     duration: '120–150 minutes',
@@ -113,6 +115,7 @@ const labs: Record<string, Lab> = {
   },
   'youcom-hands-on-lab-communication-protocols-wireshark-iot': {
     slug: 'youcom-hands-on-lab-communication-protocols-wireshark-iot',
+    kitSlug: 'communication-protocols-iot',
     eyebrow: 'Communication Protocol Interactive Lab',
     title: 'Wireshark + IoT Protocol Reliability Lab',
     duration: '120–180 minutes',
@@ -188,6 +191,7 @@ const labs: Record<string, Lab> = {
   },
   'youcom-hands-on-lab-ai-rag-chatbot': {
     slug: 'youcom-hands-on-lab-ai-rag-chatbot',
+    kitSlug: 'ai-rag-chatbot',
     eyebrow: 'Artificial Intelligence Interactive Lab',
     title: 'Responsible RAG Chatbot Evaluation Studio',
     duration: '150–180 minutes',
@@ -274,8 +278,21 @@ const lab = labs[slug as string];
       <p class="mt-4 max-w-4xl text-base leading-8 text-slate-200">{lab.scenario}</p>
       <div class="mt-6 flex flex-wrap gap-3 text-sm">
         <span class="rounded-full bg-cyan-400/15 px-4 py-2 font-semibold text-cyan-100">Duration: {lab.duration}</span>
-        <span class="rounded-full bg-emerald-400/15 px-4 py-2 font-semibold text-emerald-100">Interactive student workflow</span>
-        <span class="rounded-full bg-violet-400/15 px-4 py-2 font-semibold text-violet-100">Deep hands-on deliverables</span>
+        <span class="rounded-full bg-emerald-400/15 px-4 py-2 font-semibold text-emerald-100">Native Python runnable lab</span>
+        <span class="rounded-full bg-violet-400/15 px-4 py-2 font-semibold text-violet-100">Test with Wireshark / Postman / n8n</span>
+      </div>
+      <div class="mt-8 rounded-3xl border border-white/10 bg-black/30 p-5">
+        <h3 class="text-lg font-black text-white">Native Python Testing Kit</h3>
+        <p class="mt-2 text-sm leading-6 text-slate-300">Run the lab locally with Python only, then validate it using Postman requests, n8n automation, and Wireshark traffic evidence.</p>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          <a class="rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-4 text-sm font-semibold text-cyan-100 transition hover:bg-cyan-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/README.md`}>README / run guide</a>
+          <a class="rounded-2xl border border-emerald-300/20 bg-emerald-400/10 p-4 text-sm font-semibold text-emerald-100 transition hover:bg-emerald-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/postman_collection.json`}>Postman collection</a>
+          <a class="rounded-2xl border border-violet-300/20 bg-violet-400/10 p-4 text-sm font-semibold text-violet-100 transition hover:bg-violet-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/n8n_workflow.json`}>n8n workflow</a>
+          <a class="rounded-2xl border border-orange-300/20 bg-orange-400/10 p-4 text-sm font-semibold text-orange-100 transition hover:bg-orange-400/20" href={`/downloads/native-python-lab-kits/${lab.kitSlug}/wireshark_filters.txt`}>Wireshark filters</a>
+        </div>
+        {lab.kitSlug === 'communication-protocols-iot' && (
+          <a class="mt-3 inline-flex rounded-2xl border border-rose-300/20 bg-rose-400/10 px-4 py-3 text-sm font-semibold text-rose-100 transition hover:bg-rose-400/20" href="/downloads/native-python-lab-kits/communication-protocols-iot/iot_protocol_lab.pcap">Download generated Wireshark PCAP</a>
+        )}
       </div>
     </div>
 

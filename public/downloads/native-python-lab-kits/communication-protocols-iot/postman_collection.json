@@ -1,0 +1,120 @@
+{
+  "info": {
+    "name": "Communication Protocol \u2014 Native Python IoT Protocol Simulator",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET /health",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8012/health",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8012",
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /publish",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8012/publish",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8012",
+          "path": [
+            "publish"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"topic\": \"farm/soil/moisture\",\n  \"value\": 27,\n  \"qos\": 0,\n  \"critical\": false\n}"
+        }
+      }
+    },
+    {
+      "name": "POST /publish",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8012/publish",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8012",
+          "path": [
+            "publish"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"topic\": \"farm/alert/critical\",\n  \"value\": \"dry-soil\",\n  \"qos\": 1,\n  \"critical\": true\n}"
+        }
+      }
+    },
+    {
+      "name": "GET /metrics",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8012/metrics",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8012",
+          "path": [
+            "metrics"
+          ]
+        }
+      }
+    }
+  ]
+}

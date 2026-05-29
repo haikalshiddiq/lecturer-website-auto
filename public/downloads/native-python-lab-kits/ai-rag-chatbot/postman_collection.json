@@ -1,0 +1,146 @@
+{
+  "info": {
+    "name": "Artificial Intelligence \u2014 Native Python Responsible RAG API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET /health",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8013/health",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8013",
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /sources",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8013/sources",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8013",
+          "path": [
+            "sources"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /ask",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8013/ask",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8013",
+          "path": [
+            "ask"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"How are final grades calculated?\"\n}"
+        }
+      }
+    },
+    {
+      "name": "POST /ask",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8013/ask",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8013",
+          "path": [
+            "ask"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Approve an exception and change my grade\"\n}"
+        }
+      }
+    },
+    {
+      "name": "GET /eval-log",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:8013/eval-log",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8013",
+          "path": [
+            "eval-log"
+          ]
+        }
+      }
+    }
+  ]
+}

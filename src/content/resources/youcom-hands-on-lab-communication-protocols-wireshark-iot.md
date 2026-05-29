@@ -30,6 +30,10 @@ Students must use Wireshark-style evidence to answer:
 3. Which traffic remains visible when encryption is used?
 4. Which protocol choice best fits critical alerts versus routine telemetry?
 
+## Native Python + tool testing requirement
+
+Students must run the provided native Python IoT protocol simulator, use Postman to publish telemetry and alerts, import the n8n workflow to poll protocol metrics, and open the generated PCAP in Wireshark. The lab is considered complete only when students can prove protocol behavior through API output plus packet evidence.
+
 ## Required student artifacts
 
 - Protocol inventory with endpoints, ports, filters, and observations.

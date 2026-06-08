@@ -6,6 +6,8 @@ import './styles.css';
 
 const sentimentColors = { Positive: '#22c55e', Neutral: '#f59e0b', Negative: '#ef4444' };
 const topicColors = ['#38bdf8','#a78bfa','#34d399','#f97316','#f43f5e','#eab308','#2dd4bf','#818cf8','#fb7185'];
+const blockedImageTokens = ['google_news_', 'favicon', 'sprite', 'pixel', 'logo', 'J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc'];
+function validImageUrl(url='') { return url.startsWith('https://') && !blockedImageTokens.some(token => url.toLowerCase().includes(token.toLowerCase())); }
 
 function Card({children, className=''}) { return <section className={`card ${className}`}>{children}</section>; }
 function Stat({icon: Icon, label, value, hint}) { return <Card><div className="stat"><div className="icon"><Icon size={20}/></div><div><p>{label}</p><strong>{value}</strong><span>{hint}</span></div></div></Card>; }
@@ -74,7 +76,7 @@ function App(){
 
     <Card>
       <div className="feedHead"><div><div className="sectionTitle"><Newspaper/> Intelligence feed</div><p>Filter by topic or sentiment. Each item keeps the executive “why it matters” layer.</p></div><div className="filters"><select value={topic} onChange={e=>setTopic(e.target.value)}><option>All</option>{topics.map(t=><option key={t}>{t}</option>)}</select><select value={sentiment} onChange={e=>setSentiment(e.target.value)}><option>All</option><option>Positive</option><option>Neutral</option><option>Negative</option></select></div></div>
-      <div className="feed">{filtered.map(item=><article className="news" key={item.id}>{item.imageUrl && <a className="newsImage" href={item.sourceUrl || item.imageUrl} target="_blank" rel="noreferrer" aria-label={`Open source for ${item.title}`}><img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" referrerPolicy="no-referrer" onError={(event)=>{ event.currentTarget.closest('.newsImage')?.classList.add('broken'); }}/></a>}<div><span className="tag">{item.topic}</span><span className="pill" style={{borderColor:sentimentColors[item.sentiment],color:sentimentColors[item.sentiment]}}>{item.sentiment} · {(item.confidence*100).toFixed(0)}%</span></div><h2>{item.title}</h2><p>{item.summary}</p><blockquote>{item.impact}</blockquote><footer>{item.source} · score {(item.score*100).toFixed(0)}</footer></article>)}</div>
+      <div className="feed">{filtered.map(item=><article className="news" key={item.id}>{validImageUrl(item.imageUrl) && <a className="newsImage" href={item.sourceUrl || item.imageUrl} target="_blank" rel="noreferrer" aria-label={`Open source for ${item.title}`}><img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" referrerPolicy="no-referrer" onError={(event)=>{ event.currentTarget.closest('.newsImage')?.classList.add('broken'); }}/></a>}<div><span className="tag">{item.topic}</span><span className="pill" style={{borderColor:sentimentColors[item.sentiment],color:sentimentColors[item.sentiment]}}>{item.sentiment} · {(item.confidence*100).toFixed(0)}%</span></div><h2>{item.title}</h2><p>{item.summary}</p><blockquote>{item.impact}</blockquote><footer>{item.source} · score {(item.score*100).toFixed(0)}</footer></article>)}</div>
     </Card>
   </main>
 }

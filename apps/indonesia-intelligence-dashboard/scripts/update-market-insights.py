@@ -16,12 +16,27 @@ APP = Path(__file__).resolve().parents[1]
 DATA = APP / 'public/data/news.json'
 
 FOREX = {
-    'USD/IDR': {'symbol': 'USDIDR=X', 'label': 'US Dollar', 'useCase': 'Hard-currency hedge, import pricing, dollar assets'},
-    'EUR/IDR': {'symbol': 'EURIDR=X', 'label': 'Euro', 'useCase': 'Europe exposure and diversification'},
-    'JPY/IDR': {'symbol': 'JPYIDR=X', 'label': 'Japanese Yen', 'useCase': 'Japan travel/tuition/import planning'},
-    'SGD/IDR': {'symbol': 'SGDIDR=X', 'label': 'Singapore Dollar', 'useCase': 'ASEAN safe-haven and regional cash proxy'},
-    'AUD/IDR': {'symbol': 'AUDIDR=X', 'label': 'Australian Dollar', 'useCase': 'Commodity-cycle proxy and education/travel exposure'},
-    'MYR/IDR': {'symbol': 'MYRIDR=X', 'label': 'Malaysian Ringgit', 'useCase': 'Regional ASEAN tactical exposure'},
+    # Interpretation: if an Indonesian investor starts with IDR, converts into this foreign currency,
+    # then converts back into IDR later, the return is approximated by this currency's appreciation
+    # versus IDR after fees/spread are ignored.
+    'USD': {'symbol': 'USDIDR=X', 'label': 'US Dollar', 'useCase': 'Hard-currency hedge, import pricing, dollar assets'},
+    'EUR': {'symbol': 'EURIDR=X', 'label': 'Euro', 'useCase': 'Europe exposure and diversification'},
+    'GBP': {'symbol': 'GBPIDR=X', 'label': 'British Pound', 'useCase': 'UK exposure and hard-currency diversification'},
+    'CHF': {'symbol': 'CHFIDR=X', 'label': 'Swiss Franc', 'useCase': 'Defensive safe-haven currency exposure'},
+    'JPY': {'symbol': 'JPYIDR=X', 'label': 'Japanese Yen', 'useCase': 'Japan travel/tuition/import planning'},
+    'SGD': {'symbol': 'SGDIDR=X', 'label': 'Singapore Dollar', 'useCase': 'ASEAN safe-haven and regional cash proxy'},
+    'AUD': {'symbol': 'AUDIDR=X', 'label': 'Australian Dollar', 'useCase': 'Commodity-cycle proxy and education/travel exposure'},
+    'NZD': {'symbol': 'NZDIDR=X', 'label': 'New Zealand Dollar', 'useCase': 'Commodity and Oceania exposure'},
+    'CAD': {'symbol': 'CADIDR=X', 'label': 'Canadian Dollar', 'useCase': 'North America commodity-linked diversification'},
+    'HKD': {'symbol': 'HKDIDR=X', 'label': 'Hong Kong Dollar', 'useCase': 'USD-linked Asia liquidity proxy'},
+    'CNY': {'symbol': 'CNYIDR=X', 'label': 'Chinese Yuan', 'useCase': 'China trade exposure; data availability may vary'},
+    'KRW': {'symbol': 'KRWIDR=X', 'label': 'Korean Won', 'useCase': 'Korea tech/manufacturing exposure'},
+    'THB': {'symbol': 'THBIDR=X', 'label': 'Thai Baht', 'useCase': 'ASEAN tourism/consumption exposure'},
+    'MYR': {'symbol': 'MYRIDR=X', 'label': 'Malaysian Ringgit', 'useCase': 'Regional ASEAN tactical exposure'},
+    'PHP': {'symbol': 'PHPIDR=X', 'label': 'Philippine Peso', 'useCase': 'ASEAN regional diversification'},
+    'INR': {'symbol': 'INRIDR=X', 'label': 'Indian Rupee', 'useCase': 'India growth exposure'},
+    'AED': {'symbol': 'AEDIDR=X', 'label': 'UAE Dirham', 'useCase': 'USD-linked Gulf exposure'},
+    'SAR': {'symbol': 'SARIDR=X', 'label': 'Saudi Riyal', 'useCase': 'USD-linked Gulf/hajj-umrah planning exposure'},
 }
 
 STOCKS = {
@@ -126,7 +141,7 @@ def main():
     dashboard['marketInsights'] = {
         'generatedAt': now,
         'marketContext': 'IHSG is under pressure and rupiah weakness raises imported-inflation, foreign-flow, and funding-cost risk. This section is analytical screening, not financial advice.',
-        'forexBasis': 'Higher score means the currency has shown stronger appreciation momentum versus IDR with volatility penalty; useful for IDR hedging/diversification, not guaranteed profit.',
+        'forexBasis': 'Starting point is IDR: this ranks which foreign currency would have produced the strongest IDR return if you had exchanged rupiah into that currency earlier and converted back to rupiah now. Scores use 1M/3M/6M appreciation versus IDR minus volatility penalty; fees/spread/tax are excluded, so this is a screen, not guaranteed profit.',
         'forexComparison': forex_rows,
         'bestForex': forex_rows[0] if forex_rows else None,
         'stockBasis': 'Potential-cuan screen combines short-term momentum, 3-month trend, volatility/drawdown control, and red-market defensiveness. Always re-check fundamentals, valuation, and risk before buying.',

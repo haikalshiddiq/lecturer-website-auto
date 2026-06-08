@@ -13,7 +13,7 @@ function Card({children, className=''}) { return <section className={`card ${cla
 function Stat({icon: Icon, label, value, hint}) { return <Card><div className="stat"><div className="icon"><Icon size={20}/></div><div><p>{label}</p><strong>{value}</strong><span>{hint}</span></div></div></Card>; }
 
 function App(){
-  const [data,setData]=useState(null); const [topic,setTopic]=useState('All'); const [sentiment,setSentiment]=useState('All');
+  const [data,setData]=useState(null); const [topic,setTopic]=useState('All'); const [sentiment,setSentiment]=useState('All'); const [forexPair,setForexPair]=useState('');
   const [loadState,setLoadState]=useState({status:'loading', message:''});
   useEffect(()=>{
     let cancelled=false;
@@ -37,6 +37,10 @@ function App(){
     return () => { cancelled=true; };
   },[]);
   const items=data?.items||[];
+  const market=data?.marketInsights||{};
+  const forex=market.forexComparison||[];
+  const stocks=market.stockOpportunities||[];
+  const selectedForex=forex.find(f=>f.pair===forexPair)||forex[0];
   const filtered=items.filter(i=>(topic==='All'||i.topic===topic)&&(sentiment==='All'||i.sentiment===sentiment));
   const topics=[...new Set(items.map(i=>i.topic))];
   const sentimentData=['Positive','Neutral','Negative'].map(s=>({name:s,value:items.filter(i=>i.sentiment===s).length,avg:avg(items.filter(i=>i.sentiment===s).map(i=>i.score))}));
@@ -64,6 +68,13 @@ function App(){
       <Stat icon={AlertTriangle} label="Risk alerts" value={risks.length} hint="negative signals"/>
     </section>
 
+    {forex.length > 0 && <section className="grid two marketGrid">
+      <Card className="marketCard"><div className="feedHead"><div><div className="sectionTitle"><TrendingUp/> IDR forex opportunity radar</div><p>{market.forexBasis}</p></div><div className="filters"><select value={selectedForex?.pair||''} onChange={e=>setForexPair(e.target.value)}>{forex.map(f=><option key={f.pair} value={f.pair}>{f.pair}</option>)}</select></div></div><div className="winner"><span>Most attractive now</span><strong>{market.bestForex?.pair || selectedForex?.pair}</strong><small>{market.bestForex?.view} · score {market.bestForex?.profitScore}</small></div><ResponsiveContainer width="100%" height={260}><BarChart data={forex}><CartesianGrid strokeDasharray="3 3" stroke="#26324a"/><XAxis dataKey="pair" stroke="#94a3b8" tick={{fontSize:11}}/><YAxis stroke="#94a3b8"/><Tooltip/><Bar dataKey="profitScore" radius={[8,8,0,0]}>{forex.map((d,idx)=><Cell key={d.pair} fill={idx===0?'#22c55e':'#38bdf8'}/>)}</Bar></BarChart></ResponsiveContainer></Card>
+      <Card className="marketCard"><div className="sectionTitle"><Activity/> {selectedForex?.pair} trend vs IDR</div><p className="marketNote">Last {money(selectedForex?.last)} · 1M {pct(selectedForex?.return1m)} · 3M {pct(selectedForex?.return3m)} · 6M {pct(selectedForex?.return6m)} · volatility {pct(selectedForex?.volatility)}</p><ResponsiveContainer width="100%" height={260}><LineChart data={selectedForex?.sparkline||[]}><CartesianGrid strokeDasharray="3 3" stroke="#26324a"/><XAxis dataKey="date" stroke="#94a3b8" tick={{fontSize:10}}/><YAxis stroke="#94a3b8" domain={['dataMin','dataMax']}/><Tooltip/><Line type="monotone" dataKey="value" stroke="#22c55e" strokeWidth={3} dot={false}/></LineChart></ResponsiveContainer><blockquote className="marketQuote">{selectedForex?.useCase}</blockquote></Card>
+    </section>}
+
+    {stocks.length > 0 && <Card className="stockPanel"><div className="feedHead"><div><div className="sectionTitle"><Radar/> Potential cuan stock screen — red IHSG mode</div><p>{market.stockBasis}</p></div></div><div className="stockGrid">{stocks.map(s=><article key={s.code} className="stock"><div><b>{s.code}</b><span>{s.sector}</span></div><strong>{s.opportunityScore}</strong><p>{s.thesis}</p><footer>Last Rp {money(s.last)} · 1M {pct(s.return1m)} · 3M {pct(s.return3m)} · risk {s.risk}</footer></article>)}</div><p className="disclaimer">Analytical screening only, not financial advice. Re-check valuation, liquidity, corporate actions, and your risk profile before buying.</p></Card>}
+
     <section className="grid two">
       <Card><div className="sectionTitle"><BarChart3/> Sentiment mix</div><ResponsiveContainer width="100%" height={280}><PieChart><Pie data={sentimentData} dataKey="value" nameKey="name" innerRadius={70} outerRadius={105} paddingAngle={4}>{sentimentData.map(d=><Cell key={d.name} fill={sentimentColors[d.name]}/>)}</Pie><Tooltip/><Legend/></PieChart></ResponsiveContainer></Card>
       <Card><div className="sectionTitle"><Activity/> Topic impact score</div><ResponsiveContainer width="100%" height={280}><BarChart data={topicData}><CartesianGrid strokeDasharray="3 3" stroke="#26324a"/><XAxis dataKey="topic" stroke="#94a3b8" tick={{fontSize:11}}/><YAxis stroke="#94a3b8"/><Tooltip/><Bar dataKey="score" radius={[8,8,0,0]}>{topicData.map(d=><Cell key={d.topic} fill={d.fill}/>)}</Bar></BarChart></ResponsiveContainer></Card>
@@ -83,6 +94,8 @@ function App(){
 function Mini({item}){ return <div className="mini"><b>{item.topic}</b><span>{item.title}</span></div> }
 function avg(arr){ return arr.length? arr.reduce((a,b)=>a+b,0)/arr.length:0 }
 function scoreLabel(s){ if(s>0.2) return 'Positive'; if(s<-0.2) return 'Negative'; return 'Neutral'; }
+function pct(n){ return `${Number(n||0).toFixed(2)}%`; }
+function money(n){ return Number(n||0).toLocaleString('en-US',{maximumFractionDigits:2}); }
 function formatDate(s){ return new Intl.DateTimeFormat('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Jakarta'}).format(new Date(s))+' WIB'; }
 
 if ('serviceWorker' in navigator) {

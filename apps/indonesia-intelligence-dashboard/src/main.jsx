@@ -12,7 +12,28 @@ function Stat({icon: Icon, label, value, hint}) { return <Card><div className="s
 
 function App(){
   const [data,setData]=useState(null); const [topic,setTopic]=useState('All'); const [sentiment,setSentiment]=useState('All');
-  useEffect(()=>{ fetch('/data/news.json').then(r=>r.json()).then(setData); },[]);
+  const [loadState,setLoadState]=useState({status:'loading', message:''});
+  useEffect(()=>{
+    let cancelled=false;
+    const load = async () => {
+      try {
+        const response = await fetch(`/data/news.json?v=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        if (!cancelled) { setData(payload); setLoadState({status:'live', message:'Live data refreshed'}); }
+      } catch (error) {
+        try {
+          const fallback = await fetch('/data/news.json');
+          const payload = await fallback.json();
+          if (!cancelled) { setData(payload); setLoadState({status:'cached', message:'Showing cached data while refreshing globally'}); }
+        } catch (fallbackError) {
+          if (!cancelled) setLoadState({status:'error', message:'Unable to load dashboard data right now'});
+        }
+      }
+    };
+    load();
+    return () => { cancelled=true; };
+  },[]);
   const items=data?.items||[];
   const filtered=items.filter(i=>(topic==='All'||i.topic===topic)&&(sentiment==='All'||i.sentiment===sentiment));
   const topics=[...new Set(items.map(i=>i.topic))];
@@ -31,7 +52,7 @@ function App(){
         <h1>News sentiment, topic momentum, and executive market signals.</h1>
         <p className="subtitle">Daily briefing converted into structured analytics by topic, sentiment, confidence, and business/investment impact.</p>
       </div>
-      <div className="heroPanel"><span>Generated</span><strong>{formatDate(data.generatedAt)}</strong><small>{data.sentimentBasis}</small></div>
+      <div className="heroPanel"><span>Generated</span><strong>{formatDate(data.generatedAt)}</strong><small>{data.sentimentBasis}</small><em className={`sync ${loadState.status}`}>{loadState.message}</em></div>
     </header>
 
     <section className="stats">
@@ -61,5 +82,13 @@ function Mini({item}){ return <div className="mini"><b>{item.topic}</b><span>{it
 function avg(arr){ return arr.length? arr.reduce((a,b)=>a+b,0)/arr.length:0 }
 function scoreLabel(s){ if(s>0.2) return 'Positive'; if(s<-0.2) return 'Negative'; return 'Neutral'; }
 function formatDate(s){ return new Intl.DateTimeFormat('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Jakarta'}).format(new Date(s))+' WIB'; }
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch((error) => {
+      console.warn('PWA service worker registration failed', error);
+    });
+  });
+}
 
 createRoot(document.getElementById('root')).render(<App/>);

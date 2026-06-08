@@ -1,0 +1,39 @@
+{
+  "name": "Indonesia Intelligence Dashboard",
+  "short_name": "Indonesia Intel",
+  "description": "Daily Indonesia intelligence, sentiment, topic momentum, and executive market signals.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "orientation": "any",
+  "categories": ["business", "news", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open dashboard",
+      "short_name": "Dashboard",
+      "description": "Open the latest intelligence dashboard",
+      "url": "/",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Latest JSON feed",
+      "short_name": "JSON Feed",
+      "description": "Open the structured dashboard data feed",
+      "url": "/data/news.json",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}

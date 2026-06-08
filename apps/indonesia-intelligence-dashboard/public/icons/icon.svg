@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Indonesia Intelligence Dashboard</title>
+  <desc id="desc">Glowing dashboard mark with analytics bars and Indonesia intelligence initials.</desc>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0ea5e9"/>
+      <stop offset="0.5" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="line" x1="128" y1="120" x2="400" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#08111f"/>
+  <rect x="40" y="40" width="432" height="432" rx="96" fill="url(#bg)" opacity="0.96"/>
+  <circle cx="136" cy="124" r="76" fill="#38bdf8" opacity="0.22"/>
+  <circle cx="394" cy="352" r="112" fill="#a78bfa" opacity="0.2"/>
+  <path d="M132 346V212M210 346V150M288 346V246M366 346V188" stroke="#e0f2fe" stroke-width="34" stroke-linecap="round" opacity="0.92"/>
+  <path d="M116 304C170 252 213 276 250 222C283 174 328 156 392 142" fill="none" stroke="url(#line)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <text x="256" y="420" text-anchor="middle" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="900" letter-spacing="-4">ID</text>
+</svg>

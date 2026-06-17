@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import { execSync } from 'node:child_process';
-import matter from 'gray-matter';
+import { parseFrontmatter } from './frontmatter.mjs';
 
 const baseRef = process.env.DAILY_CONTENT_BASE_REF || 'origin/main';
 
@@ -128,7 +128,7 @@ if (unexpected.length > 0) {
 const contentPath = contentFiles[0].path;
 const archivedQueuePath = archivedQueueFiles[0].path;
 const queueSourcePath = queueSourceFiles[0].oldPath || queueSourceFiles[0].path;
-const { data } = matter(fs.readFileSync(contentPath, 'utf8'));
+const { data } = parseFrontmatter(fs.readFileSync(contentPath, 'utf8'));
 
 const requiredFields = ['title', 'summary', 'topic', 'publishedAt'];
 const missingFields = requiredFields.filter((field) => !String(data[field] || '').trim());

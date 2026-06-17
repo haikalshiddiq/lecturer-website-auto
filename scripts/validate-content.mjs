@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import matter from 'gray-matter';
+import { parseFrontmatter } from './frontmatter.mjs';
 
 const validationRoot = process.env.VALIDATE_CONTENT_ROOT
   ? path.resolve(process.env.VALIDATE_CONTENT_ROOT)
@@ -56,7 +56,7 @@ function countTopics(collection) {
   const counts = new Map(expectedTopics.map((topic) => [topic, 0]));
 
   for (const file of readMarkdownFiles(collectionPath(collection))) {
-    const { data } = matter(fs.readFileSync(file, 'utf8'));
+    const { data } = parseFrontmatter(fs.readFileSync(file, 'utf8'));
     const topic = collection.topicFromFrontmatter(data);
 
     if (counts.has(topic)) {

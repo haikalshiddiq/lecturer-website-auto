@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import matter from 'gray-matter';
+import { parseFrontmatter, stringifyFrontmatter } from './frontmatter.mjs';
 
 const queueDir = path.resolve(process.cwd(), 'automation/daily-content-queue');
 const publishedDir = path.join(queueDir, 'published');
@@ -57,7 +57,7 @@ function publishNextDueEntry() {
 
   for (const file of queueFiles) {
     const raw = fs.readFileSync(file, 'utf8');
-    const { data, content } = matter(raw);
+    const { data, content } = parseFrontmatter(raw);
     const publishOn = data.publishOn instanceof Date
       ? data.publishOn.toISOString().slice(0, 10)
       : String(data.publishOn || '').trim();
@@ -86,7 +86,7 @@ function publishNextDueEntry() {
     }
 
     const frontmatter = buildTargetFrontmatter(data);
-    const output = matter.stringify(`${content.trim()}\n`, frontmatter);
+    const output = stringifyFrontmatter(`${content.trim()}\n`, frontmatter);
 
     if (dryRun) {
       console.log(`DRY_RUN would publish ${path.basename(file)} -> ${path.relative(process.cwd(), targetPath)}`);

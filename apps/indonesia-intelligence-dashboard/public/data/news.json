@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T07:02:04+07:00",
+  "generatedAt": "2026-06-20T07:05:37+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 20 June 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24 hours; up to 36 hours accepted during early-morning runs when credible same-day items are sparse. Sources prioritize official/reputable publishers. Google News RSS links are used only as discovery/redirect links when direct publisher resolution is unavailable. Images are blank unless verified publisher og/twitter article images pass blacklist checks; no generic Google News images/logos/favicons are used.",
   "items": [
@@ -199,21 +199,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-06-19-34ccc092a5",
-      "date": "2026-06-19",
-      "topic": "Tech / AI",
-      "title": "Foxconn dan Schneider Electric Kembangkan Pusat Data AI Berkelanjutan",
-      "summary": "Kabarnusantara.id surfaced this fresh item within the last 24–36 hours: Foxconn dan Schneider Electric Kembangkan Pusat Data AI Berkelanjutan. Interpreted here for Indonesia business and investment impact; re-check the publisher/Google News redirect for full context, paywalls, and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.14,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key risk gates.",
-      "source": "Kabarnusantara.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM0tZbEhEWE5UUGc1Z2g4NTc0TkJUX3owSGxydDM0ZVdvbGdJWVFRNFIzRDgyczQ4dDNUd21DNmthUVVzaS1sSUxqU1Z3aXNJOU1MSEgtXzdEajV1MHZVd2Z6S1Z1SVYzSVJxejI4b1pLYzRDdEFMMG1pRWFUYVBvZVllOUo4a3VG?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-06-19-ad89039e76",
       "date": "2026-06-19",
       "topic": "Infrastructure",
@@ -332,10 +317,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTUNwSEM0YXBjZTdGOUdTTDByNk9DS2FETktubE5NSkJZam5MY1U3VG4zRldWNndoUWdHMXA4UG9YM0NsMWJuZXBINzFUc3JiUG9CYkhPQWV4cnpIc3k4WEI0TllEODRia25MaDRTeEtwTHRnblF6M0NJOTc4Z2ZzYXdtR0gxN3BmUmNjNjE5cW95OUFqNjlhc21xazJnSjAzckRZREZ3TXdvVnBXR3duTGdhZG82Qmh6YWF5NTQ4VHdhcFFvV0Fj0gHMAUFVX3lxTE9nR1VMbjlNa2xxUF9LbDgyVWxIc2J4ekNlMEtHR3NvQjMyR0NmOWhpSWdxcjdFclJyXzRYRVFJeUl2SUVsRjlrVnlEMTlQbnlfRElDcDJxYUhhRUdUM3hoN2FPVllhbDZBbFlRYlE1ZTZBakhHVm1IUnBObkpvWVRkYV9KZHFleTJoUnlIN1kzcTRhRTl2ZG91SFVLQzVaTmE4eDZDb3ZlWTdLaDBLcmx1TE50ckZXcUZWeEhGOG15VU1XbkVqd0hpQ29rVg?oc=5",
       "imageUrl": "",
       "imageAlt": ""
+    },
+    {
+      "id": "2026-06-19-c0a695a3cc",
+      "date": "2026-06-19",
+      "topic": "Energy",
+      "title": "Produksi Batu Bara dan Harga DMO Dinilai Picu Krisis Listrik",
+      "summary": "Tempo.co surfaced this fresh item within the last 24–36 hours: Produksi Batu Bara dan Harga DMO Dinilai Picu Krisis Listrik. Interpreted here for Indonesia business and investment impact; re-check the publisher/Google News redirect for full context, paywalls, and intraday updates.",
+      "sentiment": "Mixed",
+      "score": 0.06,
+      "confidence": 0.68,
+      "impact": "Affects inflation, fiscal settings, PLN/energy capex, commodity-linked exporters, and energy-transition positioning.",
+      "source": "Tempo.co via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ3BuekxwNUV3d0NBdEdhbExDeXJfOXdSZ1RaaUhkOWpHQzRwQkI5X3ItWllrVVlWSUZoeXRNLUo0eUw2aWYzM1REQkxibWFMV2NwQmloY2ptZ1Y3elp3X19paGNHQXdsOVA1Vk5iaGF6dE1ONFVBWk4yV3RuQnZ0ZDl6eV8zeFh4Y1ZGbHBIcmNxOWxDN1V4SXdxRUdmQQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-06-20T07:02:04+07:00",
+    "generatedAt": "2026-06-20T07:05:37+07:00",
     "marketContext": "IHSG is under pressure and rupiah weakness raises imported-inflation, foreign-flow, and funding-cost risk. This section is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: this ranks which foreign currency would have produced the strongest IDR return if you had exchanged rupiah into that currency earlier and converted back to rupiah now. Scores use 1M/3M/6M appreciation versus IDR minus volatility penalty; fees/spread/tax are excluded, so this is a screen, not guaranteed profit.",
     "forexComparison": [

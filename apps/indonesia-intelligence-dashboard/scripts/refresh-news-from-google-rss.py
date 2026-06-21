@@ -39,7 +39,7 @@ SOURCE_ALLOW = [
     'Kementerian Investasi', 'Investor Daily', 'Merdeka.com', 'Liputan6.com', 'CNN Indonesia', 'Republika',
     'Media Indonesia', 'The Jakarta Post', 'DealStreetAsia', 'Tech in Asia', 'DailySocial', 'InfoBankNews'
 ]
-SOURCE_BLOCK = ['Tribun', 'Suara.com', 'JPNN', 'Rokan Hilir', 'XTB.com', 'Tribrata', 'Universitas', 'blog', 'Kabarnusantara']
+SOURCE_BLOCK = ['Tribun', 'Suara.com', 'JPNN', 'Rokan Hilir', 'XTB.com', 'Tribrata', 'Universitas', 'Kompasiana', 'blog', 'Kabarnusantara']
 
 TOPIC_IMPACTS = {
     'Tech / AI': 'Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key risk gates.',

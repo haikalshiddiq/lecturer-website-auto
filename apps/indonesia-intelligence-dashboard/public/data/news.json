@@ -1,11 +1,41 @@
 {
-  "generatedAt": "2026-06-23T07:00:51+07:00",
-  "briefingTitle": "Indonesia Hot News Intelligence Briefing — 23 June 2026",
+  "generatedAt": "2026-06-24T07:00:09+07:00",
+  "briefingTitle": "Indonesia Hot News Intelligence Briefing — 24 June 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
     {
-      "id": "2026-06-23-ea1553c1cd",
-      "date": "2026-06-23",
+      "id": "2026-06-24-5e22fde0d3",
+      "date": "2026-06-24",
+      "topic": "Automotive / EV",
+      "title": "Proyek Baterai Mobil Listrik CATL-Antam Kelar, Siap Diresmikan Juli",
+      "summary": "CNN Indonesia surfaced this fresh item: Proyek Baterai Mobil Listrik CATL-Antam Kelar, Siap Diresmikan Juli. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "CNN Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaHNQWGNjSTZEY1RHZmF4TGxKS0Z6S0RQZ2JkbGRkRTJLZGQ5ZGdHdHgtdjk1WWljdDZ1TXpIaFdlaVJiaktSZjFDRzl4TUItcERJWTFIX1A4QzJVYm9QdU9HX1hUMHpwOXlLTHJiRjFhaXZNQzljZWllNG82eU5RMWp4RU1HSlU0V3RGU0RfUXpXRDlTTGMycFN4X2I0eXF6eWszRENlLTJCVHB6RkpPWXJYNnctOFFIWW1wN3hiZE15cU8xVV9nQ3AyYWhzUdIBzgFBVV95cUxOaHNQWGNjSTZEY1RHZmF4TGxKS0Z6S0RQZ2JkbGRkRTJLZGQ5ZGdHdHgtdjk1WWljdDZ1TXpIaFdlaVJiaktSZjFDRzl4TUItcERJWTFIX1A4QzJVYm9QdU9HX1hUMHpwOXlLTHJiRjFhaXZNQzljZWllNG82eU5RMWp4RU1HSlU0V3RGU0RfUXpXRDlTTGMycFN4X2I0eXF6eWszRENlLTJCVHB6RkpPWXJYNnctOFFIWW1wN3hiZE15cU8xVV9nQ3AyYWhzUQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-06-24-f14846f601",
+      "date": "2026-06-24",
+      "topic": "Business / Investment",
+      "title": "Pendataan Sensus Ekonomi 2026 Resmi Bergulir di Seluruh Indonesia",
+      "summary": "detikFinance surfaced this fresh item: Pendataan Sensus Ekonomi 2026 Resmi Bergulir di Seluruh Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "detikFinance via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWU42YjVRRG1ma2VWLXltMk93M0VpSmwtZGZsMXZ4dTlNUkowaHZrVS1tLVUtdkJac3FmSDJTSlV0VnVFWUxGNHZERXhoajg5QklpYTdheHRlNEdTcWU1N1FxLW5WYTZ5WXNqOXRrbVFadmpJRWdmZ0tRS3NMbi1LZDJYRXBPOUlmZTJYRkp3MklkMjVQZmd5ekRqNk1Yekdadm9NOXBwbkZYWE1Ib1ItLWpTONIBuAFBVV95cUxPWDdRTDVyRlAyZDNXTHNjTlI4TDlQSkZ6R0lKRlUtYmdMTTBtRlJsOXdCRW9MN0ZsWkZfclRLUG5KM0ZPTDYyckVWZ3U4VWl6MmhfY0t3MXFndlVsT3ljS2wtcDdMVjdiYTdkZWZ1bjdhZTljRzZTRkhVN3phUF9xSXlic3E5aEJlcTZHSDQ3V1NyUWdCWlNvOGdKNVJLSzhCLVJRLVFwcFMtOUhUTUZiYmtNdGFJajB3?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-06-24-0b3ce5bf85",
+      "date": "2026-06-24",
       "topic": "Business / Investment",
       "title": "Dinilai Tumbuh Pesat, PT PCM Raih Bisnis Indonesia Logistics Award 2024",
       "summary": "Berita Cilegon surfaced this fresh item: Dinilai Tumbuh Pesat, PT PCM Raih Bisnis Indonesia Logistics Award 2024. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
@@ -14,358 +44,328 @@
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "Berita Cilegon via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQS010QnFmNDNTWTFNRTFVWkhaemU5MS1NejkzRFRoQzA5cTJBMlBfUGpwQ0p0QndKeWNHRndpV3l4djdwaWlPV3hEU0VVNTZXVFB3WHJNUl9DdC0yWGh2WkN3ZE8wRXhVQUY0eHBseE9BZGJWaU15WEZPb2VSVkl1cXRWSnFVOU15Mk91YVFSQ2FTOFdSTkp6Yk9xWEhIUU55cGVaTGNUWkUzT1VrbEwwQ3VPMm5MZnJKbUF0TGh3LVdJX2txOUN0TzM3UEgtNXg1YzZGTEVn?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSE40RXdNYmh2a0dxTm1xbWN2RjNQRUoyUVlycXk5ZHlsVTJNMjZCSWYzdEVnaGtrdXNBOHc4SUNtZVB2RjFMRmRIc1h6SDVQOU9OcEJIejRWLXgzWkpIeHdxanY1azc1VWZkellIOFZSb1JiQlpLUVQ0OGo5aXBkODVhSXJGYl9HSUJWYTZkZUZHZzNkVWxjS1BXYk5jUFpSN3RGc0plUWlaVV9pVnJHQ21VaWdVa0t5eGEwbngxWlpnYVA5dVRXVjk5Y2RzYWlhU1FjYmFR?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-e6750a03d4",
-      "date": "2026-06-23",
-      "topic": "Business / Investment",
-      "title": "Aftech: Universal Banking Buka Peluang Integrasi Bank dan Fintech",
-      "summary": "TradingView surfaced this fresh item: Aftech: Universal Banking Buka Peluang Integrasi Bank dan Fintech. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-24-c42d83485d",
+      "date": "2026-06-24",
+      "topic": "Automotive / EV",
+      "title": "BYD Atto 1: Mobil Listrik Murah Ini Sukses Ganggu Dominasi LCGC: Jadi Sorotan Terbanyak Konsumen di Juni 2026 - sumeks.disway.id",
+      "summary": "Sumeks surfaced this fresh item: BYD Atto 1: Mobil Listrik Murah Ini Sukses Ganggu Dominasi LCGC: Jadi Sorotan Terbanyak Konsumen di Juni 2026 - sumeks.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.16,
+      "score": 0.08,
       "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "TradingView via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NVTVJUzI3SjBMcVI0RzUybVZCbE5uaWxFeGxwOW5TQ2xWbzd5bm94TGpKTlRteEtPdTQybS1aQWQ2ZzlDNkt5Q2VpZGlKMEdpbzNhY1dtbkZtUlgwdnJTc20yRE9pdw?oc=5",
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Sumeks via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLUkyLXpPQWUyTHNsdFh4QTVRcTVlN2JNeTlRVHp5SXlOMnFFVDhYNHhTN21waTJGdUpCQWltYmJFT2ZLUmhDd3FGU292a1Vaa2pGdnJ3R2p2bTBfdmVYWlhiWnpzVUlpLVcyZzdHaWV6NHVFRjlQMGdsN0lkc3NLRml1WEl0UUM3dklpbGM1YTVsREpMR3liMGliQndQY3BtNXJtWFQ0MDFvTlp4YWlOVEJ6VlpFU0VxdzdyUk9jcHZ4dHowT2UxQ3JrelVUeXVsWFFVY0pFWkF5bUZyTmxVTjJWNWVQa3I3eWfSAdsBQVVfeXFMTjA1VTlVLXhoNmFhZmFDdVBlTkw1c2ptNlFDOUVfU2VFVmI4Sm1pVm16R0JzU3lmb0dHeUFIbWtJVFBRbXRCbFZmeVRaRUp3UjYyVmJZaHB3YU43SHNjNHpIc1RuaUNlRzdRZVRNUEk0NW9XOE1XRUJ1QnNTczlXS2tJdEZqd1ZHUG9tMEUxWlBmNWNYZFdEVE90WWF0Q01Zd2RYS0hTWXFfNERrZVFYVEFwZmtaSXk5MEhCM2RXaTcwM3VDTktnZUdZZ0tudWV2QlRfdENOWWRESjAw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-21b34693a8",
-      "date": "2026-06-23",
-      "topic": "Business / Investment",
-      "title": "Indonesia Resmi Menjadi Official Partner Country INNOPROM 2026, Perkuat Kemitraan Industri Strategis dengan Rusia dan Kawasan Eurasia",
-      "summary": "agrofarm.co.id surfaced this fresh item: Indonesia Resmi Menjadi Official Partner Country INNOPROM 2026, Perkuat Kemitraan Industri Strategis dengan Rusia dan Kawasan Eurasia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-24-854bf40766",
+      "date": "2026-06-24",
+      "topic": "Infrastructure",
+      "title": "Hutama Karya Catat Kinerja Positif, Jalan Tol Trans Sumatera Kini Tembus 1.185 Km - palpres.disway.id",
+      "summary": "PALPRES.COM surfaced this fresh item: Hutama Karya Catat Kinerja Positif, Jalan Tol Trans Sumatera Kini Tembus 1.185 Km - palpres.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.16,
+      "score": 0.08,
       "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "agrofarm.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPYTNSbUx5cUZKbTN2YTZaVlNJMUp1b0lWR096M2lVQm9HMDVzZWF4OUFZSnJYRUU3ZGJNX0QzNWQ4Z3Y3YnBWTjdYVXhxT21naER3Q3QtV29admIyLVlSN3E1cnFqU0lGaW9JQjF0dU5lN1A4NlIxM1ItbDU4cDBqblR0WFZFS1NDRFk1ZG9nSHZ0TFhUbklnU0d2c3NUejVjUjZhVFNVWkFJZnVzMlJNbWI1a2kzT3JzTGd4bFZUa1Zwbk53U0UtQlRDeGtRUWxsOUt5WExndzBIbzd2SnY4VEZhV3E0SUdUYmhxd0ZPQ2FpRExvR0NkSkpMaGc?oc=5",
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "PALPRES.COM via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdXdXbUd5eVE2a0FPenlTSUpuZDlHOHN1QmtKMzg4V1Nka2R5aFV3SzM4dVY4OUF4eTE0c0xSTDhGeVNwaGpxWFdUOUF3d2wxMW5LUUhSbEVfSmFHeU1tNElKXzFEWk1mNGZiak1JUWhCNjdTTFVHMHZqWDhWSUZiSFZyTTVBYmdrRzZwM2kxaVJyMG50bXpUZ2VGZ1FyQnlxQ0pSRlRfZjlPY1Q3eVhRTlJGUzU4MmZPdUExM1dERdIBtwFBVV95cUxOMDlPdXZfWjYtb1l0b3pYaE04dFYxWnJYUDBWMUsxRE96UUlDdTNSc2NjMG5jc3VwNl9hWFQ2UU5mM0JVcEV6M1dlV2pJcGJnRVh3MDlNSWpjSGgwZkg2MXpHTjNzTFNSU21FaUg1RkZjMjR5cjI1bzRjLTQ0MHN1dVBnb05NWC1yWnVYOFJfV3BCcEVCY1BVN2hZbmlzSjZFTm5jaGE3WlFiSFg4b213NEV4c3FkblE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-b6414cddd0",
-      "date": "2026-06-23",
+      "id": "2026-06-24-d32ebd980d",
+      "date": "2026-06-24",
       "topic": "Markets",
-      "title": "BI Rate Naik, Yield SRBI Ikut Terungkit - Market",
-      "summary": "Bloomberg Technoz surfaced this fresh item: BI Rate Naik, Yield SRBI Ikut Terungkit - Market. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Kemenkeu-BI Masuk Bursa Buka Kemungkinan Konflik Kepentingan",
+      "summary": "Epaper Media Indonesia surfaced this fresh item: Kemenkeu-BI Masuk Bursa Buka Kemungkinan Konflik Kepentingan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.13,
+      "score": -0.07,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Bloomberg Technoz via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVTZTREpwX19PVDdfYUdPQjFfVG1OdUpzbTdhT3V0aUw2UXNVaUp5dm5FS21zcHpVcldzc2VxTlZNZ3lFVHVmS0cwMXp5SXQzblotc0UtdVdhdmZJRGZXd0dhMDdLQlU0VHg5NWR4b3hLeVVqTG5mRnh5djhFbzFheW5mZzVIRDBJeE1FMktwOEMtRkRfbFkw?oc=5",
+      "source": "Epaper Media Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUlF3NEZBUmFhWDhYQWIzbHpTWUxYMkd2Z21EeGJrZXFnM2hOOW5BMGdwdk44Z0thU1dXWkJfYlR6QXA3Vl8wRWlESEVlVjhoTDdjRC1TbG9FcVpsNUFjaG5GVjEzQ1Rsd1g2REtIWVpUUTE3dkJmcjkwalJtQkZTd3FISmhHQ0plUFFNMkgwQjZPcno0WDdRSjlwQ283c002VHA0?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-5692c67fba",
-      "date": "2026-06-23",
-      "topic": "Automotive / EV",
-      "title": "Industri Otomotif Indonesia 2026: Penjualan Mobil Listrik Tembus 100 Ribu Unit Target Pemerintah",
-      "summary": "JournalArta surfaced this fresh item: Industri Otomotif Indonesia 2026: Penjualan Mobil Listrik Tembus 100 Ribu Unit Target Pemerintah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-24-646af55cbd",
+      "date": "2026-06-24",
+      "topic": "Markets",
+      "title": "IHSG Dibayangi Tekanan MSCI, 5 Saham Layak Dicermati",
+      "summary": "investor.id surfaced this fresh item: IHSG Dibayangi Tekanan MSCI, 5 Saham Layak Dicermati. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.08,
+      "score": -0.07,
       "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "JournalArta via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRUZVRFNDVXRTSHZMWW01aUdPbHZJNHJFbklUZTBLMm1Vd0ExajdpN2MyZ05tZkUta1RqSE5KaTRacEhQTXVtSVM2SFIyYWZaV1EzYkpIWFZmMGtjMWl4MVVuaTA0em0zaDFxZzloNHRIRGNGRmlCRGhxTk9hMmhaTEVjRm5MMlRaeXZyelRidHVlSzgwN0dzeDhtM25MblhLUFlYMFdwMjJUTkRzNWlwaUdmNA?oc=5",
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "investor.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNVZJTmVXT2pjMmRrb2l3NGNleFkxVDAzOFdVbzFxcXdmQkhPa2Q5SGVmZ21fSE9VWDNXRHRiR1MtRHBXa1AyWTZXTEFmNFo1LTRoVDBUV0dtR3BLM3VzczVxT2RpbExqdS1QbUd3dC02c2FsQTBvTmtFc28ta3hYTzZWSVNBTEdxMXU1RGFn?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-248469889c",
-      "date": "2026-06-23",
-      "topic": "Automotive / EV",
-      "title": "Insentif Pembelian Kendaraan Listrik Kembali Ditunda Pemerintah",
-      "summary": "merahputih.com surfaced this fresh item: Insentif Pembelian Kendaraan Listrik Kembali Ditunda Pemerintah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-24-853af08744",
+      "date": "2026-06-24",
+      "topic": "Markets",
+      "title": "IHSG Melemah ke Level 6.101 Jelang Putusan MSCI",
+      "summary": "pdiperjuanganbali.id surfaced this fresh item: IHSG Melemah ke Level 6.101 Jelang Putusan MSCI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.08,
+      "score": -0.07,
       "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "merahputih.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTE9uYks1dlNPVGtaZnZmRGhSVm9xdkRpa1RBUVVqLU5pb2NveXZEM0I1YW8xR0NJYlJRc1I5X0pFRlIyaGxLdFJZZ29WeG1mZWVycHpoeUtBeW1SOXgyNTZZbF9Tbzd2eFhFU21qUFNGUDRCbmtpYUgyM01Pc2p2YndmdnlTR0Eta0ZFNEFfRjd4NVl2YmIwMFcyemJwS00yRFHSAaABQVVfeXFMT3VtOWE2Q2lCVGtXS1NPeHQyT3hQRnhPdkY3UmJLZ1NLODFBcFBnc0lyVkdyZS1jYmpmUkFXUy1MYU0zVFAzSkdZekV3NmJqVU9lMFdFOW5rd1BUODI3Y2owUlo5bzEyVkI3T0hhV1FDYXFiYmw1R3VBSVZ0cndNdE9yZkUyZmswNHU1TWtObV9Cd1kxX0VNNUZjeWxmUDAydA?oc=5",
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "pdiperjuanganbali.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00ZWJPX2ZLOFFJU1JKVUR0QnhaSks4a21zNXZ2TVVGQmZKdk5OYmJuRjZqVmtKZjFuTkNmTWw4TnNQUV9oV1hGbHRfMWl3TVliVkVKS1VrMUtuOWFzMHF2VWVHdmlzZDRPVWliYzk0VXk0dVE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-316feb4573",
-      "date": "2026-06-23",
-      "topic": "Automotive / EV",
-      "title": "4 Motor Listrik Dibawah Rp7 Juta: Harga Subsidi, Spesifikasi, Tips Beli",
-      "summary": "Industry.co.id surfaced this fresh item: 4 Motor Listrik Dibawah Rp7 Juta: Harga Subsidi, Spesifikasi, Tips Beli. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-24-8833e7c8b7",
+      "date": "2026-06-24",
+      "topic": "Markets",
+      "title": "RI Tetap Emerging Market, Perang Mereda: Saatnya Rupiah & IHSG Bangkit",
+      "summary": "CNBC Indonesia surfaced this fresh item: RI Tetap Emerging Market, Perang Mereda: Saatnya Rupiah & IHSG Bangkit. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.08,
+      "score": 0.05,
       "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Industry.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVXN0MjlQSUh4S3VzT284STMzRW1Zd0dYWk4xMGM4WUlYRWVzTzFPRDZISGMxZEVHeE4yMm5pd1Q3dE9jd0FabkNFNUg5Mk1YTFQyMkxmdWl0dUVHMnU3clhfd0ZDY1JwSHJ1SGUyNWZvRVdCdEZhVTMyb0pEWVpSSUZ2UHprUGRwNDBKb3h0ZkNTcTdPV3VfeVRoTlNUaXM0SjNkWXI1TUo0Z2lXV3pGYtIBsAFBVV95cUxQVXN0MjlQSUh4S3VzT284STMzRW1Zd0dYWk4xMGM4WUlYRWVzTzFPRDZISGMxZEVHeE4yMm5pd1Q3dE9jd0FabkNFNUg5Mk1YTFQyMkxmdWl0dUVHMnU3clhfd0ZDY1JwSHJ1SGUyNWZvRVdCdEZhVTMyb0pEWVpSSUZ2UHprUGRwNDBKb3h0ZkNTcTdPV3VfeVRoTlNUaXM0SjNkWXI1TUo0Z2lXV3pGYg?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-06-23-b6a58b7e07",
-      "date": "2026-06-23",
-      "topic": "Business / Investment",
-      "title": "Penjurian IDEAS 2026: Perempuan Ambil Alih Peran Strategis di Industri",
-      "summary": "Humas Indonesia surfaced this fresh item: Penjurian IDEAS 2026: Perempuan Ambil Alih Peran Strategis di Industri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Humas Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcHlBU1NERUdRODVvRnM0TG5wMkRNMFJOTS16eEgtQzNKOURLM2xiMnZiZzdWOFkwUjN5SUZvYko4SUdULXloOHlvV0x2SlRUYU1sTFZqUmNjRHpzWWZ5YVlDa1hmUXNzYlI0TDRGdldiWXhOeGdCVVJaRF9aNDYtelQycmxMN3hTdWJDTlNFNEoxSFY5ZkdKSXdhQ2g1YXZTVGN3N0JOZkxWVE0?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-06-23-d1adde9bcd",
-      "date": "2026-06-23",
-      "topic": "Business / Investment",
-      "title": "Perdamaian dan Stimulus Ekonomi, Sanggupkah Bangkitkan Rupiah-IHSG?",
-      "summary": "CNBC Indonesia surfaced this fresh item: Perdamaian dan Stimulus Ekonomi, Sanggupkah Bangkitkan Rupiah-IHSG?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZk9DMHZNSllaNTZNS2ozaU8zUG1MbC1wYkxqekVnSlhCZTdkaFZoSGRJQ1YxZXQyR2lvdHR3anZkTXFtQnVoMDR0NnJGQU1aMXRYVERsNld0cUFqRjNmWC1HY3Q5UE5Ka3BFakdNZS1mSVZXVFgzN3N0b2ZJakNBWVdRdU91QUtGSGduNl9mWXpSOFJQWHVkLThnSFB3YnB5bDlnZnhQWENtSXktRUlGTWpWTGdJbXk2MUtkcFNGblA1RTkwUjYtRjJR0gHPAUFVX3lxTFBnVWhxaUhxaUFJWTFTR1hqX3RVSEdhSV9fUHJ4aEkwQ1MydjFpaTg2MHUtT2xGcDlsM3JtclV3cEhZLU9udUlWMXB4dmE0T1FpR3gzZEtMZUxGUC1fNWFIbkQ0MGV1QW1nTWp3bW9JWWYxMmhGM1FEQnczUnZNQjhFVFNDZ2RKTzhFcGk3d3VCS0sybnBTNEg0bFY4YnVlUUFQWWUxam5sZFdWMVZxNmxLYTU4TU84WWVLb3gyenA0TEFUQUUxYkdBbzBCTHc5cw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTmp1WHlPYlYtbE4xYmFEZHBjQTdaS2wwSVR4Q1poRlVhNWtqdC15ZTVjUnRsZEhkUUlxM2FYalFOeE1ZQmV1ZWw2cll1Nm5fMzUwakEzbnQyYUo5bGxGUndJMkVTVEt5Vjk2YzRTVTJRSWNNbXV6TEluZlk0M3VERjN0SmFvMnJvYngwMW4wZ3pxQ2lvNkNCOXBkdUE0c2lSR0NTRXR6NEw2Ull3ZlZBcERxQ0cybElleUEzY0dnS2xQeTdPcXNldjlIZ9IB0AFBVV95cUxNNFVVb0xTSkNuNnZFZUIydFVNRU9Jd2llSkZfMmVQMEppVVpmcEU4V3dmZFpzMFBjbi1DLUF6OFJER2pVdy1QVUgxVXVYcGJTNDU3VUlEbGhOYXp5czRrUUswRWhOSFJibl8yTWdGTFdOM1dzbEZrTXBYa1hLdW9haGVoaHFVNE9pWWZOS3YxRWRzTjlDVU9Xa2tRdjAyRDdhY2s0SlB3M1RBNUt6RTRzdHNLMkJNVEhURmZpbzVKSjBKdWtBd1pCaWVqd0xibGNV?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-c421c768f8",
-      "date": "2026-06-23",
+      "id": "2026-06-24-f7fb8f17ae",
+      "date": "2026-06-24",
       "topic": "Markets",
-      "title": "Pergerakan IHSG Selasa (23/6) Masih Digoyang Sentimen MSCI dan FTSE",
-      "summary": "KONTAN surfaced this fresh item: Pergerakan IHSG Selasa (23/6) Masih Digoyang Sentimen MSCI dan FTSE. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Jelang Putusan MSCI 24 Juni 2026, IPOT Beberkan Sentimen Penentu Arah Pasar",
+      "summary": "KabarBursa.com surfaced this fresh item: Jelang Putusan MSCI 24 Juni 2026, IPOT Beberkan Sentimen Penentu Arah Pasar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.05,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "KONTAN via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNemZXWXQ4TndaVmkwMUQ4R1JGOG5tVENNWkd4TzJWQVN4OG9TV1JzSkEwYngtNG5RcGJQUE5QY2czLXRVT3BrUzRTLTNjUU1DSWNwZXIzMnI3YVNxVDRoM2hjZ0czc0VUZG1xdzd4eDgzdGFLWmtqRVp3WERMenFSY29JYjFQd3FrcUJTYXpXeEcxejFCWkVXckt4eTE0RFk?oc=5",
+      "source": "KabarBursa.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaFRiZXBGNklhTU9TNUV6NXdZa2ExWG16Qk8xQ0NNVGFTT1dnX1RrcDBWUnZwTlJvd1hucnRSdHVGZE9RcFhjbDVIcGpDazVqSWd4S29ZaHZrZFRNRGFNanlJVEU4d0ctbWp4MmFpMUxzRkVZQ3FXVUMya1d2WHFBVzdjWFdBWjMzcmw5d0ZITHdBUk5XcUEyUXp2REpMMkQycVhya1BsY2VIeDg2cFRLYXpEZFlMZG1G?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-bffe0d3e19",
+      "id": "2026-06-23-28e9b11913",
       "date": "2026-06-23",
-      "topic": "Markets",
-      "title": "BI, Kemenkeu, dan Danantara Bisa Jadi Pemegang Saham BEI, Apa Dampaknya?",
-      "summary": "Kompas.com surfaced this fresh item: BI, Kemenkeu, dan Danantara Bisa Jadi Pemegang Saham BEI, Apa Dampaknya?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
+      "topic": "Business / Investment",
+      "title": "Kemenko Kumham Imipas Rumuskan Strategi Penyederhanaan Regulasi untuk Meningkatkan Investasi dan Pertumbuhan Ekonomi",
+      "summary": "Kemenko Kumham Imipas surfaced this fresh item: Kemenko Kumham Imipas Rumuskan Strategi Penyederhanaan Regulasi untuk Meningkatkan Investasi dan Pertumbuhan Ekonomi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
       "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC1oSEtMVmpibXZDM2NodEw0REdta3Zwd25NZ3NHZEdLYWY5bHhTS0s1Q28xMFUxRW0wengxYzY2SDlBY0pBV01nTVh6SjM4bkE1OFpkaDZoaXNkbVE5S2t5XzZlQ09SdHRjYUhHa29kSTE3SFBJN0F3eHBTVnA0VFlFa21ndU5Hb09QVXV2TldiRmdZNV9ua2pXbVJ4dGRtTGg3dWw4VGJ6dWdoLXRFR21kcW0wdE14Y3lmSw?oc=5",
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Kemenko Kumham Imipas via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPelpnN0tZdUZLc3Z2NlNhWUlaeURTSTBrRmhCNC1CRzR3UjkxMnZEdHZ6RlpndWdqOTFjLVZfRXJMNGNYRThiZklZNFlKQTg3TnI4Wl9OcFpUd0Q3SmVJeGZWMmVmQUdyU3ZiSVFJc1R6SjJpLXBzM1pCZlNBeWhzTHFHVWotQjBDWkdUYnFNQnFrdkcyeUN5NFktOUg0Q3kxemZTbHFQVURnRFc1b2tfSHlBb0JLVUJRekQ2andtNmotbnFvU3NiRFpoOWtlc2YxQ01HanN1N1NLdDMtYnNNcGVhTGtpWWdTYjBadDR6U1NJLUh4QVg5M2YwQjlZZw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-23-88ae12d16e",
+      "id": "2026-06-23-f6ee969d66",
       "date": "2026-06-23",
       "topic": "Regulation",
-      "title": "MBG dan Kepatuhan Pajak",
-      "summary": "KONTAN surfaced this fresh item: MBG dan Kepatuhan Pajak. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "KONTAN via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBubnlDLXhfZnpNekVTQkl5Wk9SQzR4TlIxaWs3V0dlTU52QU1kWUxQMkhrR2xKOTloOGFzT1hEYkRJdVVUMFJyWFdlbWRWSGczaktLR2hDb056TmJmWmxTZU5TRWNGN04x?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-06-22-d6f5daff85",
-      "date": "2026-06-22",
-      "topic": "Regulation",
-      "title": "UU P2SK Resmi Atur Financial Center Indonesia, Insentif Pajak Disiapkan",
-      "summary": "Ikatan Konsultan Pajak Indonesia surfaced this fresh item: UU P2SK Resmi Atur Financial Center Indonesia, Insentif Pajak Disiapkan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Waketum Kadin Indonesia : Pemkab Bogor Yang Menaikkan Pajak Air Tanah Tinggi Perlu Pertimbangkan Kelanjutan Usaha dan Kepastian Investasi",
+      "summary": "sinarharapan.net surfaced this fresh item: Waketum Kadin Indonesia : Pemkab Bogor Yang Menaikkan Pajak Air Tanah Tinggi Perlu Pertimbangkan Kelanjutan Usaha dan Kepastian Investasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Positive",
       "score": 0.21,
       "confidence": 0.68,
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "Ikatan Konsultan Pajak Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHl3dUxBenVKR0xMQzRYM1NweXB2bk9vem81MV8tYmlWbE5ocGxCN1Jjb2FscG1ZdWItVUtKMzVCQjBNekEzcno4dGJrT1pRYlAtVWNkeFp5Z3Jkd2x0VTFjWG9WZVppVVVHR29lMzk4RWdRX2xoWGp5aTg5OTl4QlVYTGZ2bUdpV2RJdVU3U3g4WEpw?oc=5",
+      "source": "sinarharapan.net via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPT3BfTjFFbzlVTURnWVBUbGVoTzAtOFVldnlYakRmMjF3bG9PUG9sVVdrNTNJSUtIN1VIbXR2THM2OTF0M25RdjViazNkdDZfbkJGS2tzb0E1bWRnelc4WDdENnR1SjBsa0Uzc24zZGdoTjlLb0VveWpscEY2U2V0QV9vT3hCdVV3Tkl4bFcwa1JwMl9ybzRhSG5HQnRJVm5yQ2l2b0RXbk1hTTJldFBJbGw2bVhMYy1xSUJpYVlJenM4ZnR3aXlZd09JcUZJSXN1eVpycmI2WU5RbENHdElqbE14ckV1MEY4SmNpcElPbXdHalY1V2otdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-b4c53db159",
-      "date": "2026-06-22",
+      "id": "2026-06-23-bc5617dc1a",
+      "date": "2026-06-23",
       "topic": "Tech / AI",
-      "title": "Video: RI Gak Cuma Jadi Pengguna, Komdigi Dorong Transfer Teknologi AI",
-      "summary": "CNBC Indonesia surfaced this fresh item: Video: RI Gak Cuma Jadi Pengguna, Komdigi Dorong Transfer Teknologi AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Komdigi Siapkan AI untuk Salurkan Bansos ke 50 Juta Masyarakat",
+      "summary": "VOI.ID surfaced this fresh item: Komdigi Siapkan AI untuk Salurkan Bansos ke 50 Juta Masyarakat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUkgwUkhxdjg2X1BFRFotbXBfRE1OQzNxcTlhenFNalpDeDkwTTBKV2xiaVhZa0tvcXE0TXZiNHpxODFZQWdtdmxzWjJfTmVURlFtb2RSZFQyVmRteFVPaDZpaGxFcmNieUpYY3BQVC1RR3l3MVlQQVRtenYzOU9sZVZ1MDc4eGhrV0ctaWVsZm53NXM2MmtmSFpLblpiM1BRT1pGWTBBUHVxSmFkY1Y5YVc5N2dPakpHTlQyWDE1VUZYbDgyeTEzZXYzN3DSAcwBQVVfeXFMTlJIMFJIcXY4Nl9QRURaLW1wX0RNTkMzcXE5YXpxTWpaQ3g5ME0wSldsYmlYWWtLb3FxNE12YjR6cTgxWUFnbXZsc1oyX05lVEZRbW9kUmRUMlZkbXhVT2g2aWhsRXJjYnlKWGNwUFQtUUd5dzFZUEFUbXp2MzlPbGVWdTA3OHhoa1dHLWllbGZudzVzNjJrZkhaS25aYjNQUU9aRlkwQVB1cUphZGNWOWFXOTdnT2pKR05UMlgxNVVGWGw4MnkxM2V2Mzdw?oc=5",
+      "source": "VOI.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSFNlMjZWNnRCOWtwZmgwU0NlTWctQ2VldkdQZUU5azNhcko1TWU3VzIyTUtlWWhfZHBfTEltZVY3LXFzbHA2X2JKNTBuc3RxV1AtRDNCZVRTMHRyQzFyd1JPZVMtTEotVWtpeVI3WFE0bUFHMkNFUG80LVpBWmJiR1RUOTY2QzVQWlpISUpkVndLd9IBkgFBVV95cUxPSFNlMjZWNnRCOWtwZmgwU0NlTWctQ2VldkdQZUU5azNhcko1TWU3VzIyTUtlWWhfZHBfTEltZVY3LXFzbHA2X2JKNTBuc3RxV1AtRDNCZVRTMHRyQzFyd1JPZVMtTEotVWtpeVI3WFE0bUFHMkNFUG80LVpBWmJiR1RUOTY2QzVQWlpISUpkVndLdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-74bdf71dfc",
-      "date": "2026-06-22",
+      "id": "2026-06-23-7cd88fc38a",
+      "date": "2026-06-23",
       "topic": "Tech / AI",
-      "title": "Kemkomdigi dan JICA Siapkan Talenta AI untuk Lindungi Anak dan Perangi Disinformasi",
-      "summary": "Kementerian Komunikasi dan Digital surfaced this fresh item: Kemkomdigi dan JICA Siapkan Talenta AI untuk Lindungi Anak dan Perangi Disinformasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Komdigi Siapkan Teknologi AI untuk Distribusi Bansos Tepat Sasaran",
+      "summary": "Akses.co.id surfaced this fresh item: Komdigi Siapkan Teknologi AI untuk Distribusi Bansos Tepat Sasaran. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Kementerian Komunikasi dan Digital via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPXzM0cnJEMEFZMkFkemZsNmcwTmVPYlRHM1dCSFBIeHBZV0I1RExFdkZLUi1ZbWxFenVGYmNuZkpFbFpvdHFGeUpGcnlmZ2VFTUZBR0JBNE4xVk9nUDZCYXRiMm5tSVpjaHhBNnhIc0NBZEJteWRGbVVGOTBDTXdoWmlLSExZdnNUaUZ0R0V3a09jQUtRYTZOblRLczZUaElybUZOb1FPNjFRVkFBNWJIbDVCc1dmWHJJNlRNNWlDOHVMc0lQSE8wbVVBeTRJNDJ0?oc=5",
+      "source": "Akses.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NSmpKblBNX1RUZ1RzR1NQc0FfazA5ZGFuamd0STVMVnM5TnBUY3ZpMmlaYXBaalp6dE9iVnhtTjlXRWRhZ0ozRXgwc25XWnBzYVczSFFXSlNGT3M1UHFob3B6bVN1Zmd2X1Rz?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-ead205d446",
-      "date": "2026-06-22",
-      "topic": "Tech / AI",
-      "title": "Indonesia-Jepang Bangun AI Talent Factory, Siapkan SDM untuk Lawan Disinformasi",
-      "summary": "dialeksis.com surfaced this fresh item: Indonesia-Jepang Bangun AI Talent Factory, Siapkan SDM untuk Lawan Disinformasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-23-c1ad6260da",
+      "date": "2026-06-23",
+      "topic": "Business / Investment",
+      "title": "Insentif Pajak Hingga Bantuan Pangan, Ini 8 Stimulus Ekonomi yang Disiapkan Pemerintah di Semester II 2026",
+      "summary": "Ortax surfaced this fresh item: Insentif Pajak Hingga Bantuan Pangan, Ini 8 Stimulus Ekonomi yang Disiapkan Pemerintah di Semester II 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "dialeksis.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3pJOEcySlQ5X193ZzBHWXB3aWZnTHNiRmFETUh2VXJEclZVdGtFcE94Q01iUWpsSjRuM2xyLW5LbUo1djF2TURyMldnZjg1QnN1eE5ac0p4YzlrR29FMlNuaHRUYXUtaEw0UEltREpaWEc4YWlNYkpwUkpqeU1idURiNTFxb0FQX0VVZk1QNHNRdUh2U25xMlZWWktpclZ0YzZlYzZoMzJvbTNxanVF?oc=5",
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Ortax via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT09UWXV6U3FoOVJJOXhvcmt3MVc0RElEZlhjOFREMW9EdzRRWDNjODRZMURScks5Vl8yd3VtajV1YzM4dE93QXlzQUNNclBtLWxHZ2VfOE1ubTZTUHM4QlFXdjNSaHlkaEVUekJFMVRvLWJIcXhzV2xjZndhQlV4MnJWOGJ5M01ZY2RNZTR5RFlleXBULWxGc1FqYS1hOE5EaTZTNzc0V1VacExyQTBsVVlKMHdNWmJ3SllIZGxHNFQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-c3a595d8a5",
-      "date": "2026-06-22",
-      "topic": "Tech / AI",
-      "title": "Video:Jurus Komdigi Dorong Kemandirian Teknologi & Jamin Keamanan Data",
-      "summary": "CNBC Indonesia surfaced this fresh item: Video:Jurus Komdigi Dorong Kemandirian Teknologi & Jamin Keamanan Data. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-23-d4475f52dc",
+      "date": "2026-06-23",
+      "topic": "Business / Investment",
+      "title": "Pemkab Bekasi Perkuat Sinergi dengan Industri untuk Menjaga Lapangan Kerja dan Investasi",
+      "summary": "bekasikab surfaced this fresh item: Pemkab Bekasi Perkuat Sinergi dengan Industri untuk Menjaga Lapangan Kerja dan Investasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUzQ2bHBUdjJjOUNXeldSSTRhOVNILTJ2TFRXVjc4WDdIdm9weGlucWVzbWl3YzRrNWhfaEhqTjJpSkJpdWNwckxzNGNMSjFmcTNtdDkyTUVHZ1Q4UmVNU3l4WlVQY2dxOGRKZzNzeUNTbUtaYU5SUlgtcmRmajdzWEVYU21SSFlCSlNPc25famxIb21LVGxueVVKSC1FWVVYVGdVdHlIVFpGZUZVLTlDMldocEV1Z2dTQ1lmWlp3Wm0xUUdXX29yM0R2QdIBywFBVV95cUxNUzQ2bHBUdjJjOUNXeldSSTRhOVNILTJ2TFRXVjc4WDdIdm9weGlucWVzbWl3YzRrNWhfaEhqTjJpSkJpdWNwckxzNGNMSjFmcTNtdDkyTUVHZ1Q4UmVNU3l4WlVQY2dxOGRKZzNzeUNTbUtaYU5SUlgtcmRmajdzWEVYU21SSFlCSlNPc25famxIb21LVGxueVVKSC1FWVVYVGdVdHlIVFpGZUZVLTlDMldocEV1Z2dTQ1lmWlp3Wm0xUUdXX29yM0R2QQ?oc=5",
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "bekasikab via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONHpCcmJLcWFXOWl1RDBneTJYMzhrX1dwRlY3VHUta3RwTUthVmN5clN3WjBOSGhZQTUzdlc5TjIwTUxwaTdhRXZqN09Qc1JLb1NjT2xNSWVkbEpKSkdWNFNqTHo2Y0JScXJaUFN4UTMyeHpWR3JrUlBIWmo3VjJrWnhMMlBwOS1xelRwcmc4ZXV5azZqNlRKZzI5VkpXdEtfS2dpTXZxR01yRGdFWDNGNWhPbTd1ZUU?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-c6000cde97",
-      "date": "2026-06-22",
-      "topic": "Tech / AI",
-      "title": "Saat AI Bertumbuh Pesat, Industri Mulai Mencari Cara Agar Tetap Ramah Lingkungan",
-      "summary": "youngster.id surfaced this fresh item: Saat AI Bertumbuh Pesat, Industri Mulai Mencari Cara Agar Tetap Ramah Lingkungan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "youngster.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcFJScjM0dldsc0tGZVpZSGRlWHF5ZEVKSThpR1c0UC1xZklKeE5waXlkN012eW80bU5vSXlpeFlNMnVjVExWbzN4RjZsTVRhRDB6d2luV3JXaFJFeDB4Z2E0Z2NNcmtGdDU3YzBWQ21pYlE5Tnl2N0s5M1VqX1JaLXJudlAxekxVWXMtZURHQjRDMHk0NTBaMXZicXUtc2FMZWx6TlZ5REhQbmY4ZkFIUE1OZWE0STVEa1lPYms3TdIBvwFBVV95cUxQcFJScjM0dldsc0tGZVpZSGRlWHF5ZEVKSThpR1c0UC1xZklKeE5waXlkN012eW80bU5vSXlpeFlNMnVjVExWbzN4RjZsTVRhRDB6d2luV3JXaFJFeDB4Z2E0Z2NNcmtGdDU3YzBWQ21pYlE5Tnl2N0s5M1VqX1JaLXJudlAxekxVWXMtZURHQjRDMHk0NTBaMXZicXUtc2FMZWx6TlZ5REhQbmY4ZkFIUE1OZWE0STVEa1lPYms3TQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-06-22-2019159841",
-      "date": "2026-06-22",
-      "topic": "Automotive / EV",
-      "title": "Perang Iran Bantu Dorong Tren Mobil Listrik",
-      "summary": "dw.com surfaced this fresh item: Perang Iran Bantu Dorong Tren Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "dw.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNLTZCTXJiazVmTVZLVGJQRTlQOTA2amprbHdQMk1hVW9fUm82cDdTT25Qb0hXLWg5WVNHLXZTM3VzcXdVVmJyOUFidFNSUWRVSzRrSmxCOHlmQUVrN05kNmR0cnNSeGVXNzhPZWo5Z25lZHdIS1VQemh4dzEzdzZOZNIBgAFBVV95cUxPSWU1X1dMbml3bnRkY2VlY25Yb0lSN2VHY1ROSmRZQ3BwREduRk45bGVTZkYtTkd4RGRTTU16U0FScHRjMHpzYldqWnI2U3h2T1I4YmNhQXpJQWhtVFZXdUZCMGI3N0VLNFlLcGo5TWVCTHhubUlZRW1lYkZGd0lHeg?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-06-22-fe57739255",
-      "date": "2026-06-22",
+      "id": "2026-06-23-77d4aff78b",
+      "date": "2026-06-23",
       "topic": "Infrastructure",
-      "title": "Properti Kembali Bergairah, Akses Tol Jadi Magnet Baru Kenaikan Nilai Hunian",
-      "summary": "Suara.com surfaced this fresh item: Properti Kembali Bergairah, Akses Tol Jadi Magnet Baru Kenaikan Nilai Hunian. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Resmikan 1.151 KM Jalan Daerah se-Indonesia, Presiden Prabowo: Infrastruktur Jalan adalah Fondasi Ketahanan Pangan dan Energi",
+      "summary": "Presiden RI surfaced this fresh item: Resmikan 1.151 KM Jalan Daerah se-Indonesia, Presiden Prabowo: Infrastruktur Jalan adalah Fondasi Ketahanan Pangan dan Energi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Suara.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbjZXRWY2QzhhQ1hSd21MbWgzXzNod3Z4V09GbUprWXYydmE0WEtmWXBxdGtMMjdtWkF0X0hHbzEzdFF3akkxSGRsQk1PVWNpQTdRam82SVE4cVp5Q3RUdkFLNmd4eG9JMWJrNjFpSF9fUEZRaHI3RlBxWmV0Nml3WXR1THpNMEhNQlNiRmM5LWswSjZWQ042RDVWbnNQd3VqTXd1QzNhaEg4Y2ZLOHZqWjhlaXZlX0xxcWl3cEtZUdIBvwFBVV95cUxOVnRJZG9fME1VQnZERFVKMU9KejgyaFB0aE5JYmZfYXp6MVpNTUV0X1pSSEVYUy1JeEZOOWR3NFdaZ2EySGlhWUEwTEhnLXZsRjRBQjhVVUV3N0NtOVQwb2RwbnZlLTRlSHlZRGZWVGhoQ3RKOFotM1l2ZktjQWpjMmg3c1ZNMEZiMFZsWDJ1a3F4V2pYLVJCdnh2LXNzc2pxM2hQOHBoWXVqZVdZSXBIQkFkWC1TcEp6X2NlZmJFVQ?oc=5",
+      "source": "Presiden RI via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOR0E3dVF1aUZPV0wyeUs5N1FrbTF1T1A3T1NzSEd1cVFLMll5QTBKZHBDbi1xbWZVNm9fY1JYTkJzVEFidmI4ZzN0OGpISTdfOUtsZUxlQTgtZ1c1bEhvM2k0SjluXzFkcjdZVW5vbHFJNWRIeFE1ZzJXMUR6VHZ0Vy1zZlhGLUFCdnRkei1ON3JoMjk4NFhVR05BTHRvWGhkNWhuSWs4YnNSYVRuMmVJSGdlUko2OHpsa2czU2hzbXd6OTdnTDJ1Y3JndzV6MFYxMkFXNDFLMzNQem9ENnIxVTZPcG5rZy02dl8teGRadmFoYl9STV840gH3AUFVX3lxTE5HQTd1UXVpRk9XTDJ5Szk3UWttMXVPUDdPU3NIR3VxUUsyWXlBMEpkcENuLXFtZlU2b19jUlhOQnNUQWJ2YjhnM3Q4akhJN185S2xlTGVBOC1nVzVsSG8zaTRKOW5fMWRyN1lVbm9scUk1ZEh4UTVnMlcxRHpUdnRXLXNmWEYtQUJ2dGR6LU43cmgyOTg0WFVHTkFMdG9YaGQ1aG5Jazhic1JhVG4yZUlIZ2VSSjY4emxrZzNTaHNtd3o5N2dMMnVjcmd3NXowVjEyQVc0MUszM1B6b0Q2cjFVNk9wbmtnLTZ2Xy14ZFp2YWhiX1JNXzg?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-e47b53fa66",
-      "date": "2026-06-22",
-      "topic": "Markets",
-      "title": "Anomali Pasar Modal Indonesia: Suku Bunga Naik, IHSG Justru Melesat - Kompasiana.com",
-      "summary": "Kompasiana.com surfaced this fresh item: Anomali Pasar Modal Indonesia: Suku Bunga Naik, IHSG Justru Melesat - Kompasiana.com. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-23-00b04c593f",
+      "date": "2026-06-23",
+      "topic": "Infrastructure",
+      "title": "Presiden Prabowo Resmikan Jalan Daerah se-Indonesia, Fondasi Ketahanan Pangan dan Energi",
+      "summary": "Radarbangsa.com surfaced this fresh item: Presiden Prabowo Resmikan Jalan Daerah se-Indonesia, Fondasi Ketahanan Pangan dan Energi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.13,
+      "score": 0.16,
       "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Kompasiana.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSnZiWXZ2MTBtTXpqTXFNRjZlT0toMkNlMWluRzRzekVUTnRYUDZhTFRGdHB5bXkzYUMtSmQ4d29kNkpVWjBqb01nREVIRVJpSHgyRkJ4d2xsbWE5NlNxSDQ2d0RaREp6Rmg3eU9rNjNXam0xMy1HVExkNmloSWJkWlNrLWhoMkdDRjBJMVpnbzg4WkhVRm5xNFZ1UG5pZi1pU0dNbG5UZDY1ZDVaR2hlU2pET2t4NUxuQi03WjExZVBDZUxlZDlnZ1Joc1hRWURWZ2Zj0gHTAUFVX3lxTE5KdmJZdnYxMG1NempNcU1GNmVPS2gyQ2UxaW5HNHN6RVROdFhQNmFMVEZ0cHlteTNhQy1KZDh3b2Q2SlVaMGpvTWdERUhFUmlIeDJGQnh3bGxtYTk2U3FINDZ3RFpESnpGaDd5T2s2M1dqbTEzLUdUTGQ2aWhJYmRaU2staGgyR0NGMEkxWmdvODhaSFVGbnE0VnVQbmlmLWlTR01sblRkNjVkNVpHaGVTakRPa3g1TG5CLTdaMTFlUENlTGVkOWdnUmhzWFFZRFZnZmM?oc=5",
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Radarbangsa.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZG1aY3VQWTBaT3ZZUFVOcHZJamJjMnRZM0dyMFBVMjJOVUQtZWFkZ2FCbGZIV1UyTFpUNnhLX1U1QUFwSFdGYWRMWWxnaHJaNEktbzV6bzY2ODNEb0U2RGZaNVgyd1IzWGxBZVBfLTVjSjZyMFZZVHhsNHhNaVZVSnd6clJyMkVIT1VjUC1kRzFTUGEwaVE5TV9GSHJ1MGdOQWlWTXd1QWxqazI1cGJLN2RzYng5dTZZN3hCVkRuNjFLbkUt?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-3178c85fbd",
-      "date": "2026-06-22",
+      "id": "2026-06-23-2bc7931608",
+      "date": "2026-06-23",
       "topic": "Regulation",
-      "title": "BI Siapkan Modal Ke UMKM Bagi Yang Lulus Kompetensi Dan Pengalaman Praktik",
-      "summary": "waspada.id surfaced this fresh item: BI Siapkan Modal Ke UMKM Bagi Yang Lulus Kompetensi Dan Pengalaman Praktik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "BI Rate Naik, Ini Jeritan Pengusaha",
+      "summary": "CNBC Indonesia surfaced this fresh item: BI Rate Naik, Ini Jeritan Pengusaha. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "waspada.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV1BueHlDeWI0LXNDaTc5TkRQRzdRaFVzQ3A5UjkyTC1EcGxnYVFseENyY2s0M3ZtTnFVOUVUZExrMzhkdmtQX3pGazhHbVNJWWlDb0tnZFVOdjVEdk5NQy1fcG1HMXJ0ZGp1NlY5STBnMk5rN3c1RUJuX093QXYwb01HRktpVDlnNnpNZkdxd1BrR0FSS0ZUd3dDcjdOeTRaTnQ4QjdfNl9tZFhEbVQ2M2s0Nnp4bXFT?oc=5",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaEVuc2RFbkxVeGhodVd5SWxpdzNDcTJzcjI1VUdUZV85OGREem0tbHhPUFVVV0hZSHhYVDJRUmg5dTh2ZU5KSUtteFVpNDF5aW1ab1ZBdzJWQ1RQOXlrdjhCWndCdWxhU2FvX3NkOF9iWUt0R0d3MmxhbW1zMk5LTWtZa0kxQzQ3ZklfUTdCMUZLSGZkaDRHa9IBngFBVV95cUxNRzc3blljWnA0X1BYVHRxekptc2pNMFdieTJLVmFvSkRmU29CMjJoNkRXVXRZX05TdWU0bGV0QzZiMFQ1M2k1VzlWOUNwVUd2Y0xLTkxSZDB2VzAxeEJGUkVUV0VrTE9DaGFXVDV1WHdsWDYyTXpaYzNIcTF1dUlwOVpadlN0cFdvZC1yM1ZjY0F6MUdpSGE4bVhrMm9HUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-2359e83b36",
-      "date": "2026-06-22",
-      "topic": "Automotive / EV",
-      "title": "Lokasi Charger SPKLU Medan Untuk Mobil Listrik",
-      "summary": "Auto2000 surfaced this fresh item: Lokasi Charger SPKLU Medan Untuk Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-23-51ffa54ecb",
+      "date": "2026-06-23",
+      "topic": "Regulation",
+      "title": "Naik Kelas ke Skala Nasional, Dua Perusahaan Gadai Ini Kantongi Izin OJK",
+      "summary": "Stabilitas.id surfaced this fresh item: Naik Kelas ke Skala Nasional, Dua Perusahaan Gadai Ini Kantongi Izin OJK. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.08,
+      "score": 0.13,
       "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Auto2000 via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VLVFzb1RCM01SUE1CMVhSZXJaWjl3ZWRIWnVwbnFicFRGbEJHa1hzQzRMTXNQTXVvM2x3akFKam55cnhLVEJwRjJTLXpleGRzMHp0TlpBcVlqRWpGTURj?oc=5",
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "Stabilitas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObmlCV0ZuVGs0b1JTdnU2dGRWclNFaHZpcTNVMHFyNkNIUjF4eHlac0hNdkRmbXFBbmlNTWtXV3hpYXFaN001YnVqWUJzZnhKc2hGN1psd0JEMU5WZk1ndTI4Nl9kX1owRkkxZXd4MTk1Z2dXTTBkb01icmt4dUVOVzNGd0JqRldyU2JDeXBncVFzXzhQOFp4MUkxME5jLVU?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-06-22-16df62671c",
-      "date": "2026-06-22",
-      "topic": "Infrastructure",
-      "title": "Jasa Marga Intensifkan Preservasi Jalan Tol Jelang Libur Sekolah - pontianakinfo.disway.id",
-      "summary": "Pontianak Info surfaced this fresh item: Jasa Marga Intensifkan Preservasi Jalan Tol Jelang Libur Sekolah - pontianakinfo.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-06-23-6fcf4d85d0",
+      "date": "2026-06-23",
+      "topic": "Regulation",
+      "title": "Dongkrak Investasi, Pemkot Surabaya Minta Tak Persulit Perizinan",
+      "summary": "TIMES Jatim surfaced this fresh item: Dongkrak Investasi, Pemkot Surabaya Minta Tak Persulit Perizinan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "TIMES Jatim via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSmNKV1pyYkhmR1pxUFpUSlBBQkRQX205VVZpZkJ2NjZTR2ROcmlBRlhfa0h0NHYxUTZueWk3XzVBdGEzejA2c0tZc2hENlo4SnRMZk1RQTZhZU5KSERFZHJlWnZBcFJUVENualNhZGxKdUl1UXphVVgwUVhPYUlzQWhVdzV0c1VOUHJ0dzVPeUUzUWpES2hjeVhPVnZmQVRKS3FRb3kzVlJBdElTd1phVHc5VQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-06-23-d08af3fa58",
+      "date": "2026-06-23",
+      "topic": "Regulation",
+      "title": "Kreator Berpenghasilan di Bawah PTKP Tak Wajib NIB, KemenEkraf Dorong Legalitas Usaha",
+      "summary": "prabowosubianto.com surfaced this fresh item: Kreator Berpenghasilan di Bawah PTKP Tak Wajib NIB, KemenEkraf Dorong Legalitas Usaha. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "prabowosubianto.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS1JCMWY2WHpiNTIxR0dFaXZQX3pFV0FyVHpIYkM5ajhmX1ZSQVpFNDkwczFVS0wxZHgxV0JtTkpLeFgtRF9LOFdrZ2VleDdnVy1DNmFlVXItOXUtNWVpUG5qS3NxY1liMzBNZEV2N1VGNjJzMjZSNDJhNG41dF9pTWFnbjFTb3hPRnhaclhCX2dJUWNkSXp1NE1FZFBxOVVNVlpGNXZQQXZFYVhzejRObGQ0Yw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-06-23-c966f1b69c",
+      "date": "2026-06-23",
+      "topic": "Tech / AI",
+      "title": "Komdigi Ungkap Alasan Pemerintah Atur soal Penggunaan AI",
+      "summary": "Kompas.com surfaced this fresh item: Komdigi Ungkap Alasan Pemerintah Atur soal Penggunaan AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Pontianak Info via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUWZ5VHdEcVRVdkRrMmQ4MjFIMGhmaklSUTBuQWI2MmZKQjNTNGVqUGZzdmdyMFVfZ3JQa3pQdDFybDhvazUtdkkxNGExTW9qa3lBWlc0NDR5Z292ZHp4bkdJYVhNeWhSdHc2NVhGUWR5bWQ4bXBQZHJpZVBPTkVQUGtKYmp4WXJXbXhqMFJrQ0x0eHdhdEpIdnNfd0g4dk52SFl6RlhEVFc4QdIBqgFBVV95cUxNUWZ5VHdEcVRVdkRrMmQ4MjFIMGhmaklSUTBuQWI2MmZKQjNTNGVqUGZzdmdyMFVfZ3JQa3pQdDFybDhvazUtdkkxNGExTW9qa3lBWlc0NDR5Z292ZHp4bkdJYVhNeWhSdHc2NVhGUWR5bWQ4bXBQZHJpZVBPTkVQUGtKYmp4WXJXbXhqMFJrQ0x0eHdhdEpIdnNfd0g4dk52SFl6RlhEVFc4QQ?oc=5",
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR2VSc0lBS2tGcldqUDlQem9CU1N0aHU0Vk1VZVY0TE1lbGEyRTA3ZTIwSHpNUldzVUp0Vk05dXB5QkRNRkd1U042YjRsQW5icVFBTlZETFBjRl9IRmhxdktadzV3ZjVSMG1QTkpPOTR2clp3VUttZVlVRGVvRk1uRVZMSjIwX3R1U1lJTTQwUnFMcTNNakkteENLNXJFY3Nzc2t2RXFIeFk3N2labUlPZ3B2TkxESEFSblE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-06-23-95f11288e5",
+      "date": "2026-06-23",
+      "topic": "Tech / AI",
+      "title": "Peta Jalan AI Nasional: Kunci Kemandirian Teknologi",
+      "summary": "Listrik Indonesia surfaced this fresh item: Peta Jalan AI Nasional: Kunci Kemandirian Teknologi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Listrik Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QOHVfZHlZd3A0MFR4dTlHVHA5NmxNNzNOc25QYl9scjBhdEVQYVBFaUhFbnBtOEJ5ZnZ3R3JHWklfRDg5dkRlbDFJV1JNZXZfSnl3SU9qc0lVU0F5anlPWHZLN0JzNGs5WVlJZGppMnVWRlF3eExYOFctT0Q?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-06-23T07:00:51+07:00",
+    "generatedAt": "2026-06-24T07:00:09+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, and IDX opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,297 +374,297 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12458.2998,
+        "last": 12353.5996,
         "date": "2026-06-23",
-        "return1m": -1.63,
-        "return3m": 5.43,
-        "return6m": 13.23,
-        "return1y": 12.5,
-        "volatility": 9.66,
+        "return1m": -2.98,
+        "return3m": 5.19,
+        "return6m": 12.0,
+        "return1y": 11.75,
+        "volatility": 9.79,
         "maxDrawdown": -5.12,
         "sparkline": [
           {
-            "date": "2025-12-08",
-            "value": 11074.0
+            "date": "2025-12-09",
+            "value": 11054.3682
           },
           {
-            "date": "2025-12-10",
-            "value": 11064.1523
+            "date": "2025-12-11",
+            "value": 11099.3965
           },
           {
-            "date": "2025-12-12",
-            "value": 11099.2725
+            "date": "2025-12-15",
+            "value": 11057.4443
           },
           {
-            "date": "2025-12-16",
-            "value": 11050.2314
+            "date": "2025-12-17",
+            "value": 11039.6855
           },
           {
-            "date": "2025-12-18",
-            "value": 11002.3652
+            "date": "2025-12-19",
+            "value": 11030.459
           },
           {
-            "date": "2025-12-22",
-            "value": 11022.3799
+            "date": "2025-12-23",
+            "value": 11157.0986
           },
           {
-            "date": "2025-12-24",
-            "value": 11214.458
+            "date": "2025-12-26",
+            "value": 11230.2246
           },
           {
-            "date": "2025-12-29",
-            "value": 11237.4053
+            "date": "2025-12-30",
+            "value": 11222.9092
           },
           {
-            "date": "2025-12-31",
-            "value": 11188.2959
+            "date": "2026-01-02",
+            "value": 11122.752
           },
           {
-            "date": "2026-01-05",
-            "value": 11164.9727
+            "date": "2026-01-06",
+            "value": 11230.9932
           },
           {
-            "date": "2026-01-07",
-            "value": 11282.6719
+            "date": "2026-01-08",
+            "value": 11261.3857
           },
           {
-            "date": "2026-01-09",
-            "value": 11261.2783
+            "date": "2026-01-12",
+            "value": 11251.0889
           },
           {
-            "date": "2026-01-13",
-            "value": 11319.2344
+            "date": "2026-01-14",
+            "value": 11251.7773
           },
           {
-            "date": "2026-01-15",
-            "value": 11257.5801
+            "date": "2026-01-16",
+            "value": 11308.8164
           },
           {
-            "date": "2026-01-19",
-            "value": 11276.7754
+            "date": "2026-01-20",
+            "value": 11374.0273
           },
           {
-            "date": "2026-01-21",
-            "value": 11424.5947
+            "date": "2026-01-22",
+            "value": 11425.6504
           },
           {
-            "date": "2026-01-23",
-            "value": 11508.75
+            "date": "2026-01-26",
+            "value": 11564.7832
           },
           {
-            "date": "2026-01-27",
-            "value": 11573.0078
+            "date": "2026-01-28",
+            "value": 11687.2402
           },
           {
-            "date": "2026-01-29",
-            "value": 11775.958
+            "date": "2026-01-30",
+            "value": 11827.2051
           },
           {
-            "date": "2026-02-02",
-            "value": 11671.5156
+            "date": "2026-02-03",
+            "value": 11650.7754
           },
           {
-            "date": "2026-02-04",
-            "value": 11765.5039
+            "date": "2026-02-05",
+            "value": 11753.5322
           },
           {
-            "date": "2026-02-06",
-            "value": 11697.1318
+            "date": "2026-02-09",
+            "value": 11819.9541
           },
           {
-            "date": "2026-02-10",
-            "value": 11905.0889
+            "date": "2026-02-11",
+            "value": 11867.5186
           },
           {
-            "date": "2026-02-12",
-            "value": 11970.0117
+            "date": "2026-02-13",
+            "value": 11918.0146
           },
           {
-            "date": "2026-02-16",
-            "value": 11889.1367
+            "date": "2026-02-17",
+            "value": 11884.7695
           },
           {
-            "date": "2026-02-18",
-            "value": 11929.8594
+            "date": "2026-02-19",
+            "value": 11913.4072
           },
           {
-            "date": "2026-02-20",
-            "value": 11922.3701
+            "date": "2026-02-23",
+            "value": 11937.6816
           },
           {
-            "date": "2026-02-24",
-            "value": 11859.3125
+            "date": "2026-02-25",
+            "value": 11870.3203
           },
           {
-            "date": "2026-02-26",
-            "value": 11934.1445
+            "date": "2026-02-27",
+            "value": 11898.5176
           },
           {
-            "date": "2026-03-02",
-            "value": 11950.9814
+            "date": "2026-03-03",
+            "value": 11984.0283
           },
           {
-            "date": "2026-03-04",
-            "value": 11895.291
+            "date": "2026-03-05",
+            "value": 11932.6895
           },
           {
-            "date": "2026-03-06",
-            "value": 11860.6885
+            "date": "2026-03-09",
+            "value": 11889.9004
           },
           {
-            "date": "2026-03-10",
-            "value": 11931.8828
+            "date": "2026-03-11",
+            "value": 11990.0391
           },
           {
-            "date": "2026-03-12",
-            "value": 12037.1104
+            "date": "2026-03-13",
+            "value": 11960.1299
           },
           {
-            "date": "2026-03-16",
-            "value": 11846.0029
+            "date": "2026-03-17",
+            "value": 11992.6514
           },
           {
-            "date": "2026-03-18",
-            "value": 12049.5674
+            "date": "2026-03-19",
+            "value": 11970.9121
           },
           {
-            "date": "2026-03-20",
-            "value": 11919.0742
+            "date": "2026-03-23",
+            "value": 11929.5654
           },
           {
-            "date": "2026-03-24",
-            "value": 11816.6016
+            "date": "2026-03-25",
+            "value": 11744.501
           },
           {
-            "date": "2026-03-26",
-            "value": 11432.959
+            "date": "2026-03-27",
+            "value": 11668.0938
           },
           {
-            "date": "2026-03-29",
-            "value": 11617.2471
+            "date": "2026-03-30",
+            "value": 11627.1807
           },
           {
-            "date": "2026-03-31",
-            "value": 11685.1006
+            "date": "2026-04-01",
+            "value": 11726.7246
           },
           {
-            "date": "2026-04-02",
-            "value": 11717.7012
+            "date": "2026-04-05",
+            "value": 11697.5967
           },
           {
-            "date": "2026-04-06",
-            "value": 11772.8711
+            "date": "2026-04-07",
+            "value": 11875.8369
           },
           {
-            "date": "2026-04-08",
-            "value": 11981.5947
+            "date": "2026-04-09",
+            "value": 12082.165
           },
           {
-            "date": "2026-04-12",
-            "value": 11982.1846
+            "date": "2026-04-13",
+            "value": 12119.5859
           },
           {
-            "date": "2026-04-14",
-            "value": 12200.8418
+            "date": "2026-04-15",
+            "value": 12294.8271
           },
           {
-            "date": "2026-04-16",
-            "value": 12258.4551
+            "date": "2026-04-19",
+            "value": 12235.6719
           },
           {
-            "date": "2026-04-20",
-            "value": 12291.6074
+            "date": "2026-04-21",
+            "value": 12253.5117
           },
           {
-            "date": "2026-04-22",
-            "value": 12316.3184
+            "date": "2026-04-23",
+            "value": 12355.5762
           },
           {
-            "date": "2026-04-26",
-            "value": 12320.541
+            "date": "2026-04-27",
+            "value": 12369.6934
           },
           {
-            "date": "2026-04-28",
-            "value": 12385.0723
+            "date": "2026-04-29",
+            "value": 12338.2256
           },
           {
-            "date": "2026-04-30",
-            "value": 12465.6104
+            "date": "2026-05-03",
+            "value": 12448.8252
           },
           {
-            "date": "2026-05-04",
-            "value": 12431.3936
+            "date": "2026-05-05",
+            "value": 12489.541
           },
           {
-            "date": "2026-05-06",
-            "value": 12514.3076
+            "date": "2026-05-07",
+            "value": 12472.6494
           },
           {
-            "date": "2026-05-10",
-            "value": 12561.9844
+            "date": "2026-05-11",
+            "value": 12623.3799
           },
           {
-            "date": "2026-05-12",
-            "value": 12701.0
+            "date": "2026-05-13",
+            "value": 12692.4258
           },
           {
-            "date": "2026-05-14",
-            "value": 12644.8213
+            "date": "2026-05-17",
+            "value": 12555.4365
           },
           {
-            "date": "2026-05-18",
-            "value": 12693.1211
+            "date": "2026-05-19",
+            "value": 12629.8467
           },
           {
-            "date": "2026-05-20",
-            "value": 12625.3135
+            "date": "2026-05-21",
+            "value": 12644.4717
           },
           {
-            "date": "2026-05-24",
-            "value": 12664.2803
+            "date": "2026-05-25",
+            "value": 12732.4219
           },
           {
-            "date": "2026-05-26",
-            "value": 12691.4814
+            "date": "2026-05-27",
+            "value": 12699.5029
           },
           {
-            "date": "2026-05-28",
-            "value": 12779.7734
+            "date": "2026-05-31",
+            "value": 12797.2383
           },
           {
-            "date": "2026-06-01",
-            "value": 12798.0371
+            "date": "2026-06-02",
+            "value": 12810.8828
           },
           {
-            "date": "2026-06-03",
-            "value": 12844.4668
+            "date": "2026-06-04",
+            "value": 12803.2578
           },
           {
-            "date": "2026-06-07",
-            "value": 12688.8096
+            "date": "2026-06-08",
+            "value": 12804.1523
           },
           {
-            "date": "2026-06-09",
-            "value": 12662.54
+            "date": "2026-06-10",
+            "value": 12496.8857
           },
           {
-            "date": "2026-06-11",
-            "value": 12629.1074
+            "date": "2026-06-14",
+            "value": 12568.5996
           },
           {
-            "date": "2026-06-15",
-            "value": 12528.7539
+            "date": "2026-06-16",
+            "value": 12526.7773
           },
           {
-            "date": "2026-06-17",
-            "value": 12556.709
+            "date": "2026-06-18",
+            "value": 12478.6787
           },
           {
-            "date": "2026-06-21",
-            "value": 12456.583
+            "date": "2026-06-22",
+            "value": 12492.7715
           }
         ],
-        "profitScore": 6.76,
+        "profitScore": 5.84,
         "view": "strongest IDR return screen"
       },
       {
@@ -672,297 +672,297 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 17814.0,
-        "date": "2026-06-22",
-        "return1m": 0.69,
-        "return3m": 5.63,
-        "return6m": 6.95,
-        "return1y": 6.78,
-        "volatility": 5.38,
+        "last": 17863.0,
+        "date": "2026-06-23",
+        "return1m": 0.57,
+        "return3m": 6.34,
+        "return6m": 7.06,
+        "return1y": 7.05,
+        "volatility": 5.4,
         "maxDrawdown": -2.61,
         "sparkline": [
           {
-            "date": "2025-12-08",
-            "value": 16683.0
+            "date": "2025-12-09",
+            "value": 16686.0
           },
           {
-            "date": "2025-12-10",
-            "value": 16662.0
+            "date": "2025-12-11",
+            "value": 16639.0
           },
           {
-            "date": "2025-12-12",
-            "value": 16649.0
+            "date": "2025-12-15",
+            "value": 16623.0996
           },
           {
-            "date": "2025-12-16",
-            "value": 16645.8008
+            "date": "2025-12-17",
+            "value": 16644.5996
           },
           {
-            "date": "2025-12-18",
-            "value": 16657.0
+            "date": "2025-12-19",
+            "value": 16685.1992
           },
           {
-            "date": "2025-12-22",
-            "value": 16678.5
+            "date": "2025-12-23",
+            "value": 16756.4004
           },
           {
-            "date": "2025-12-24",
-            "value": 16735.0
+            "date": "2025-12-26",
+            "value": 16753.0996
           },
           {
-            "date": "2025-12-29",
-            "value": 16741.0996
+            "date": "2025-12-30",
+            "value": 16770.0
           },
           {
-            "date": "2025-12-31",
-            "value": 16709.0
+            "date": "2026-01-02",
+            "value": 16668.0
           },
           {
-            "date": "2026-01-05",
-            "value": 16683.0
+            "date": "2026-01-06",
+            "value": 16727.1992
           },
           {
-            "date": "2026-01-07",
-            "value": 16742.0
+            "date": "2026-01-08",
+            "value": 16753.0
           },
           {
-            "date": "2026-01-09",
-            "value": 16805.6992
+            "date": "2026-01-12",
+            "value": 16826.6992
           },
           {
-            "date": "2026-01-13",
-            "value": 16859.4004
+            "date": "2026-01-14",
+            "value": 16840.8008
           },
           {
-            "date": "2026-01-15",
-            "value": 16845.0996
+            "date": "2026-01-16",
+            "value": 16878.9004
           },
           {
-            "date": "2026-01-19",
-            "value": 16876.5996
+            "date": "2026-01-20",
+            "value": 16939.0
           },
           {
-            "date": "2026-01-21",
-            "value": 16960.0996
+            "date": "2026-01-22",
+            "value": 16897.0
           },
           {
-            "date": "2026-01-23",
-            "value": 16820.0
+            "date": "2026-01-26",
+            "value": 16770.0
           },
           {
-            "date": "2026-01-27",
-            "value": 16734.0
+            "date": "2026-01-28",
+            "value": 16674.6992
           },
           {
-            "date": "2026-01-29",
-            "value": 16722.8008
+            "date": "2026-01-30",
+            "value": 16778.3008
           },
           {
-            "date": "2026-02-02",
+            "date": "2026-02-03",
             "value": 16758.4004
           },
           {
-            "date": "2026-02-04",
-            "value": 16759.0
+            "date": "2026-02-05",
+            "value": 16800.0
           },
           {
-            "date": "2026-02-06",
-            "value": 16879.9004
+            "date": "2026-02-09",
+            "value": 16843.5
           },
           {
-            "date": "2026-02-10",
-            "value": 16796.0
+            "date": "2026-02-11",
+            "value": 16778.0
           },
           {
-            "date": "2026-02-12",
-            "value": 16793.9004
+            "date": "2026-02-13",
+            "value": 16809.0
           },
           {
-            "date": "2026-02-16",
-            "value": 16826.0996
+            "date": "2026-02-17",
+            "value": 16806.5996
           },
           {
-            "date": "2026-02-18",
-            "value": 16840.0
+            "date": "2026-02-19",
+            "value": 16915.3008
           },
           {
-            "date": "2026-02-20",
-            "value": 16887.1992
+            "date": "2026-02-23",
+            "value": 16843.4004
           },
           {
-            "date": "2026-02-24",
-            "value": 16804.3008
+            "date": "2026-02-25",
+            "value": 16816.8008
           },
           {
-            "date": "2026-02-26",
-            "value": 16749.8008
+            "date": "2026-02-27",
+            "value": 16749.0
           },
           {
-            "date": "2026-03-02",
-            "value": 16795.0
+            "date": "2026-03-03",
+            "value": 16863.0
           },
           {
-            "date": "2026-03-04",
-            "value": 16898.0996
+            "date": "2026-03-05",
+            "value": 16865.0
           },
           {
-            "date": "2026-03-06",
-            "value": 16913.0996
+            "date": "2026-03-09",
+            "value": 16923.6992
           },
           {
-            "date": "2026-03-10",
-            "value": 16886.0
+            "date": "2026-03-11",
+            "value": 16852.0
           },
           {
-            "date": "2026-03-12",
-            "value": 16884.0
+            "date": "2026-03-13",
+            "value": 16908.0
           },
           {
-            "date": "2026-03-16",
-            "value": 16952.0996
+            "date": "2026-03-17",
+            "value": 16953.0996
           },
           {
-            "date": "2026-03-18",
-            "value": 16971.3008
+            "date": "2026-03-19",
+            "value": 17041.6992
           },
           {
-            "date": "2026-03-20",
-            "value": 16915.9004
+            "date": "2026-03-23",
+            "value": 16959.3008
           },
           {
-            "date": "2026-03-24",
-            "value": 16865.0996
+            "date": "2026-03-25",
+            "value": 16797.3008
           },
           {
-            "date": "2026-03-26",
-            "value": 16749.5996
+            "date": "2026-03-27",
+            "value": 16925.0
           },
           {
-            "date": "2026-03-29",
-            "value": 16958.0
+            "date": "2026-03-30",
+            "value": 16975.4004
           },
           {
-            "date": "2026-03-31",
-            "value": 16936.4004
+            "date": "2026-04-01",
+            "value": 16924.0996
           },
           {
-            "date": "2026-04-02",
-            "value": 16959.0
+            "date": "2026-04-05",
+            "value": 16988.0
           },
           {
-            "date": "2026-04-06",
-            "value": 17015.3008
+            "date": "2026-04-07",
+            "value": 17027.4004
           },
           {
-            "date": "2026-04-08",
-            "value": 17005.5
+            "date": "2026-04-09",
+            "value": 17059.0
           },
           {
-            "date": "2026-04-12",
-            "value": 17083.0
+            "date": "2026-04-13",
+            "value": 17079.1992
           },
           {
-            "date": "2026-04-14",
-            "value": 17129.0
+            "date": "2026-04-15",
+            "value": 17146.0996
           },
           {
-            "date": "2026-04-16",
-            "value": 17123.0
+            "date": "2026-04-19",
+            "value": 17133.0
           },
           {
-            "date": "2026-04-20",
-            "value": 17123.8008
+            "date": "2026-04-21",
+            "value": 17133.0996
           },
           {
-            "date": "2026-04-22",
-            "value": 17199.5
+            "date": "2026-04-23",
+            "value": 17329.0
           },
           {
-            "date": "2026-04-26",
-            "value": 17246.0
+            "date": "2026-04-27",
+            "value": 17216.0
           },
           {
-            "date": "2026-04-28",
-            "value": 17244.0
+            "date": "2026-04-29",
+            "value": 17334.1992
           },
           {
-            "date": "2026-04-30",
-            "value": 17311.0
+            "date": "2026-05-03",
+            "value": 17288.5
           },
           {
-            "date": "2026-05-04",
-            "value": 17346.1992
+            "date": "2026-05-05",
+            "value": 17389.8008
           },
           {
-            "date": "2026-05-06",
-            "value": 17296.9004
+            "date": "2026-05-07",
+            "value": 17294.9004
           },
           {
-            "date": "2026-05-10",
-            "value": 17358.0
+            "date": "2026-05-11",
+            "value": 17413.0
           },
           {
-            "date": "2026-05-12",
-            "value": 17549.0
+            "date": "2026-05-13",
+            "value": 17500.0
           },
           {
-            "date": "2026-05-14",
-            "value": 17530.5996
+            "date": "2026-05-17",
+            "value": 17586.0
           },
           {
-            "date": "2026-05-18",
-            "value": 17701.0
+            "date": "2026-05-19",
+            "value": 17777.0
           },
           {
-            "date": "2026-05-20",
-            "value": 17658.4004
-          },
-          {
-            "date": "2026-05-24",
+            "date": "2026-05-21",
             "value": 17692.0
           },
           {
-            "date": "2026-05-26",
-            "value": 17699.6992
+            "date": "2026-05-25",
+            "value": 17762.0
           },
           {
-            "date": "2026-05-28",
-            "value": 17840.0
+            "date": "2026-05-27",
+            "value": 17804.0
           },
           {
-            "date": "2026-06-01",
-            "value": 17864.0
+            "date": "2026-05-31",
+            "value": 17817.0
           },
           {
-            "date": "2026-06-03",
-            "value": 18004.1992
+            "date": "2026-06-02",
+            "value": 17858.0
           },
           {
-            "date": "2026-06-07",
-            "value": 18029.0
+            "date": "2026-06-04",
+            "value": 17955.5
           },
           {
-            "date": "2026-06-09",
-            "value": 18031.0
+            "date": "2026-06-08",
+            "value": 18190.3008
           },
           {
-            "date": "2026-06-11",
-            "value": 17921.0
+            "date": "2026-06-10",
+            "value": 17875.9004
           },
           {
-            "date": "2026-06-15",
-            "value": 17716.0
+            "date": "2026-06-14",
+            "value": 17772.0
           },
           {
-            "date": "2026-06-17",
-            "value": 17891.0
+            "date": "2026-06-16",
+            "value": 17730.0
           },
           {
-            "date": "2026-06-21",
-            "value": 17788.0
+            "date": "2026-06-18",
+            "value": 17794.4004
+          },
+          {
+            "date": "2026-06-22",
+            "value": 17862.0
           }
         ],
-        "profitScore": 4.8,
+        "profitScore": 5.08,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,297 +970,297 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13772.3564,
+        "last": 13777.1133,
         "date": "2026-06-23",
-        "return1m": -0.56,
-        "return3m": 4.1,
-        "return6m": 6.66,
-        "return1y": 6.98,
-        "volatility": 7.2,
+        "return1m": -0.91,
+        "return3m": 4.27,
+        "return6m": 6.49,
+        "return1y": 7.16,
+        "volatility": 7.22,
         "maxDrawdown": -3.8,
         "sparkline": [
           {
-            "date": "2025-12-08",
-            "value": 12874.1221
+            "date": "2025-12-09",
+            "value": 12856.8457
           },
           {
-            "date": "2025-12-10",
-            "value": 12847.4609
+            "date": "2025-12-11",
+            "value": 12874.4971
           },
           {
-            "date": "2025-12-12",
-            "value": 12888.2178
+            "date": "2025-12-15",
+            "value": 12874.1777
           },
           {
-            "date": "2025-12-16",
-            "value": 12905.4717
+            "date": "2025-12-17",
+            "value": 12908.6309
           },
           {
-            "date": "2025-12-18",
-            "value": 12912.5967
+            "date": "2025-12-19",
+            "value": 12937.834
           },
           {
-            "date": "2025-12-22",
-            "value": 12893.6377
+            "date": "2025-12-23",
+            "value": 13007.4424
           },
           {
-            "date": "2025-12-24",
-            "value": 13028.3145
+            "date": "2025-12-26",
+            "value": 13048.4229
           },
           {
-            "date": "2025-12-29",
-            "value": 13036.209
+            "date": "2025-12-30",
+            "value": 13044.4932
           },
           {
-            "date": "2025-12-31",
-            "value": 13021.1797
+            "date": "2026-01-02",
+            "value": 12971.2061
           },
           {
-            "date": "2026-01-05",
-            "value": 12967.7422
+            "date": "2026-01-06",
+            "value": 13047.4268
           },
           {
-            "date": "2026-01-07",
-            "value": 13071.5176
+            "date": "2026-01-08",
+            "value": 13062.7676
           },
           {
-            "date": "2026-01-09",
-            "value": 13081.3477
+            "date": "2026-01-12",
+            "value": 13069.2812
           },
           {
-            "date": "2026-01-13",
-            "value": 13123.9375
+            "date": "2026-01-14",
+            "value": 13073.6553
           },
           {
-            "date": "2026-01-15",
-            "value": 13089.9717
+            "date": "2026-01-16",
+            "value": 13110.7822
           },
           {
-            "date": "2026-01-19",
-            "value": 13097.8662
+            "date": "2026-01-20",
+            "value": 13183.127
           },
           {
-            "date": "2026-01-21",
-            "value": 13206.6953
+            "date": "2026-01-22",
+            "value": 13153.1523
           },
           {
-            "date": "2026-01-23",
-            "value": 13135.9561
+            "date": "2026-01-26",
+            "value": 13178.2822
           },
           {
-            "date": "2026-01-27",
-            "value": 13173.2666
+            "date": "2026-01-28",
+            "value": 13225.8281
           },
           {
-            "date": "2026-01-29",
-            "value": 13255.6035
+            "date": "2026-01-30",
+            "value": 13275.2676
           },
           {
-            "date": "2026-02-02",
-            "value": 13174.4912
+            "date": "2026-02-03",
+            "value": 13170.5518
           },
           {
-            "date": "2026-02-04",
-            "value": 13194.7646
+            "date": "2026-02-05",
+            "value": 13198.2607
           },
           {
-            "date": "2026-02-06",
-            "value": 13239.2158
+            "date": "2026-02-09",
+            "value": 13251.2783
           },
           {
-            "date": "2026-02-10",
-            "value": 13270.9658
+            "date": "2026-02-11",
+            "value": 13261.9395
           },
           {
-            "date": "2026-02-12",
-            "value": 13310.3506
+            "date": "2026-02-13",
+            "value": 13317.915
           },
           {
-            "date": "2026-02-16",
-            "value": 13335.499
+            "date": "2026-02-17",
+            "value": 13332.2773
           },
           {
-            "date": "2026-02-18",
-            "value": 13338.9824
+            "date": "2026-02-19",
+            "value": 13347.958
           },
           {
-            "date": "2026-02-20",
-            "value": 13322.0342
+            "date": "2026-02-23",
+            "value": 13299.1709
           },
           {
-            "date": "2026-02-24",
-            "value": 13288.3701
+            "date": "2026-02-25",
+            "value": 13281.3916
           },
           {
-            "date": "2026-02-26",
-            "value": 13271.9688
+            "date": "2026-02-27",
+            "value": 13254.0127
           },
           {
-            "date": "2026-03-02",
-            "value": 13282.4609
+            "date": "2026-03-03",
+            "value": 13252.0225
           },
           {
-            "date": "2026-03-04",
-            "value": 13236.7803
+            "date": "2026-03-05",
+            "value": 13226.5176
           },
           {
-            "date": "2026-03-06",
-            "value": 13212.4629
+            "date": "2026-03-09",
+            "value": 13248.9277
           },
           {
-            "date": "2026-03-10",
-            "value": 13240.3906
+            "date": "2026-03-11",
+            "value": 13230.7451
           },
           {
-            "date": "2026-03-12",
-            "value": 13233.79
+            "date": "2026-03-13",
+            "value": 13218.2627
           },
           {
-            "date": "2026-03-16",
-            "value": 13224.1201
+            "date": "2026-03-17",
+            "value": 13269.6973
           },
           {
-            "date": "2026-03-18",
-            "value": 13287.6445
+            "date": "2026-03-19",
+            "value": 13274.9531
           },
           {
-            "date": "2026-03-20",
-            "value": 13216.2383
+            "date": "2026-03-23",
+            "value": 13224.9512
           },
           {
-            "date": "2026-03-24",
-            "value": 13230.2861
+            "date": "2026-03-25",
+            "value": 13212.8047
           },
           {
-            "date": "2026-03-26",
-            "value": 12840.5029
+            "date": "2026-03-27",
+            "value": 13168.1318
           },
           {
-            "date": "2026-03-29",
-            "value": 13147.6221
+            "date": "2026-03-30",
+            "value": 13155.877
           },
           {
-            "date": "2026-03-31",
-            "value": 13179.9229
+            "date": "2026-04-01",
+            "value": 13198.0527
           },
           {
-            "date": "2026-04-02",
-            "value": 13198.2266
+            "date": "2026-04-05",
+            "value": 13192.2061
           },
           {
-            "date": "2026-04-06",
-            "value": 13244.1582
+            "date": "2026-04-07",
+            "value": 13287.3291
           },
           {
-            "date": "2026-04-08",
-            "value": 13346.9355
+            "date": "2026-04-09",
+            "value": 13401.4141
           },
           {
-            "date": "2026-04-12",
-            "value": 13360.6025
+            "date": "2026-04-13",
+            "value": 13460.1475
           },
           {
-            "date": "2026-04-14",
-            "value": 13473.6631
+            "date": "2026-04-15",
+            "value": 13493.5625
           },
           {
-            "date": "2026-04-16",
-            "value": 13454.0742
+            "date": "2026-04-19",
+            "value": 13454.2139
           },
           {
-            "date": "2026-04-20",
-            "value": 13486.0127
+            "date": "2026-04-21",
+            "value": 13449.3555
           },
           {
-            "date": "2026-04-22",
-            "value": 13490.3936
+            "date": "2026-04-23",
+            "value": 13558.4072
           },
           {
-            "date": "2026-04-26",
-            "value": 13503.2393
+            "date": "2026-04-27",
+            "value": 13508.042
           },
           {
-            "date": "2026-04-28",
-            "value": 13509.3428
+            "date": "2026-04-29",
+            "value": 13542.3174
           },
           {
-            "date": "2026-04-30",
-            "value": 13598.8906
+            "date": "2026-05-03",
+            "value": 13586.2471
           },
           {
-            "date": "2026-05-04",
-            "value": 13583.502
+            "date": "2026-05-05",
+            "value": 13631.5215
           },
           {
-            "date": "2026-05-06",
-            "value": 13638.0771
+            "date": "2026-05-07",
+            "value": 13627.5811
           },
           {
-            "date": "2026-05-10",
-            "value": 13686.4678
+            "date": "2026-05-11",
+            "value": 13721.7197
           },
           {
-            "date": "2026-05-12",
-            "value": 13798.5537
+            "date": "2026-05-13",
+            "value": 13753.5371
           },
           {
-            "date": "2026-05-14",
-            "value": 13732.6875
+            "date": "2026-05-17",
+            "value": 13727.4268
           },
           {
-            "date": "2026-05-18",
-            "value": 13845.1309
+            "date": "2026-05-19",
+            "value": 13872.0254
           },
           {
-            "date": "2026-05-20",
-            "value": 13818.2959
+            "date": "2026-05-21",
+            "value": 13846.7559
           },
           {
-            "date": "2026-05-24",
-            "value": 13850.2793
+            "date": "2026-05-25",
+            "value": 13903.3369
           },
           {
-            "date": "2026-05-26",
-            "value": 13861.0811
+            "date": "2026-05-27",
+            "value": 13931.6328
           },
           {
-            "date": "2026-05-28",
-            "value": 13979.2744
+            "date": "2026-05-31",
+            "value": 13954.1982
           },
           {
-            "date": "2026-06-01",
-            "value": 13973.7168
+            "date": "2026-06-02",
+            "value": 13947.8574
           },
           {
-            "date": "2026-06-03",
-            "value": 14032.3447
+            "date": "2026-06-04",
+            "value": 13978.5908
           },
           {
-            "date": "2026-06-07",
-            "value": 13960.8174
+            "date": "2026-06-08",
+            "value": 14113.042
           },
           {
-            "date": "2026-06-09",
-            "value": 14005.0957
+            "date": "2026-06-10",
+            "value": 13871.5449
           },
           {
-            "date": "2026-06-11",
-            "value": 13955.1543
+            "date": "2026-06-14",
+            "value": 13866.6084
           },
           {
-            "date": "2026-06-15",
-            "value": 13810.0381
+            "date": "2026-06-16",
+            "value": 13827.0947
           },
           {
-            "date": "2026-06-17",
-            "value": 13890.1504
+            "date": "2026-06-18",
+            "value": 13787.9629
           },
           {
-            "date": "2026-06-21",
-            "value": 13765.6709
+            "date": "2026-06-22",
+            "value": 13808.085
           }
         ],
-        "profitScore": 3.74,
+        "profitScore": 3.65,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,297 +1268,297 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20344.0,
+        "last": 20321.0,
         "date": "2026-06-23",
-        "return1m": 0.26,
-        "return3m": 3.8,
-        "return6m": 3.86,
-        "return1y": 6.02,
-        "volatility": 14.06,
+        "return1m": -0.52,
+        "return3m": 5.07,
+        "return6m": 3.56,
+        "return1y": 5.74,
+        "volatility": 14.12,
         "maxDrawdown": -5.26,
         "sparkline": [
           {
-            "date": "2025-12-08",
-            "value": 19188.0
+            "date": "2025-12-09",
+            "value": 19218.0
           },
           {
-            "date": "2025-12-10",
-            "value": 19420.0
+            "date": "2025-12-11",
+            "value": 19187.0
           },
           {
-            "date": "2025-12-12",
-            "value": 19296.0
+            "date": "2025-12-15",
+            "value": 19305.0
           },
           {
-            "date": "2025-12-16",
-            "value": 19420.0
+            "date": "2025-12-17",
+            "value": 19601.0
           },
           {
-            "date": "2025-12-18",
-            "value": 19587.0
+            "date": "2025-12-19",
+            "value": 19623.0
           },
           {
-            "date": "2025-12-22",
-            "value": 19378.0
-          },
-          {
-            "date": "2025-12-24",
+            "date": "2025-12-23",
             "value": 19593.0
           },
           {
-            "date": "2025-12-29",
-            "value": 19528.0
+            "date": "2025-12-26",
+            "value": 19593.0
           },
           {
-            "date": "2025-12-31",
-            "value": 19680.0
+            "date": "2025-12-30",
+            "value": 19745.0
           },
           {
-            "date": "2026-01-05",
-            "value": 19368.4199
+            "date": "2026-01-02",
+            "value": 19401.0
           },
           {
-            "date": "2026-01-07",
-            "value": 19410.0
+            "date": "2026-01-06",
+            "value": 19620.0
           },
           {
-            "date": "2026-01-09",
-            "value": 19418.0
-          },
-          {
-            "date": "2026-01-13",
-            "value": 19540.0
-          },
-          {
-            "date": "2026-01-15",
-            "value": 19421.0
-          },
-          {
-            "date": "2026-01-19",
-            "value": 19414.0
-          },
-          {
-            "date": "2026-01-21",
-            "value": 19652.0
-          },
-          {
-            "date": "2026-01-23",
-            "value": 19503.0
-          },
-          {
-            "date": "2026-01-27",
-            "value": 19637.0
-          },
-          {
-            "date": "2026-01-29",
-            "value": 19822.0
-          },
-          {
-            "date": "2026-02-02",
-            "value": 19820.0
-          },
-          {
-            "date": "2026-02-04",
-            "value": 19543.0
-          },
-          {
-            "date": "2026-02-06",
-            "value": 19677.0
-          },
-          {
-            "date": "2026-02-10",
-            "value": 19890.0
-          },
-          {
-            "date": "2026-02-12",
-            "value": 19978.0
-          },
-          {
-            "date": "2026-02-16",
-            "value": 19723.0
-          },
-          {
-            "date": "2026-02-18",
-            "value": 19674.0
-          },
-          {
-            "date": "2026-02-20",
-            "value": 19852.0
-          },
-          {
-            "date": "2026-02-24",
-            "value": 19645.0
-          },
-          {
-            "date": "2026-02-26",
-            "value": 19566.0
-          },
-          {
-            "date": "2026-03-02",
+            "date": "2026-01-08",
             "value": 19590.0
           },
           {
-            "date": "2026-03-04",
-            "value": 19372.0
+            "date": "2026-01-12",
+            "value": 19390.0
           },
           {
-            "date": "2026-03-06",
-            "value": 19402.0
+            "date": "2026-01-14",
+            "value": 19441.0
           },
           {
-            "date": "2026-03-10",
+            "date": "2026-01-16",
+            "value": 19633.0
+          },
+          {
+            "date": "2026-01-20",
+            "value": 19518.0
+          },
+          {
+            "date": "2026-01-22",
+            "value": 19803.0
+          },
+          {
+            "date": "2026-01-26",
+            "value": 19539.6992
+          },
+          {
+            "date": "2026-01-28",
+            "value": 19803.0
+          },
+          {
+            "date": "2026-01-30",
+            "value": 19803.0
+          },
+          {
+            "date": "2026-02-03",
+            "value": 19668.0
+          },
+          {
+            "date": "2026-02-05",
+            "value": 19609.0
+          },
+          {
+            "date": "2026-02-09",
+            "value": 19670.0
+          },
+          {
+            "date": "2026-02-11",
+            "value": 19978.0
+          },
+          {
+            "date": "2026-02-13",
+            "value": 19971.0
+          },
+          {
+            "date": "2026-02-17",
+            "value": 19722.0
+          },
+          {
+            "date": "2026-02-19",
+            "value": 19739.0
+          },
+          {
+            "date": "2026-02-23",
+            "value": 19645.0
+          },
+          {
+            "date": "2026-02-25",
+            "value": 19808.0
+          },
+          {
+            "date": "2026-02-27",
+            "value": 19557.0
+          },
+          {
+            "date": "2026-03-03",
+            "value": 19710.0
+          },
+          {
+            "date": "2026-03-05",
+            "value": 19583.0
+          },
+          {
+            "date": "2026-03-09",
+            "value": 19412.0
+          },
+          {
+            "date": "2026-03-11",
             "value": 19554.0
           },
           {
-            "date": "2026-03-12",
-            "value": 19554.0
+            "date": "2026-03-13",
+            "value": 19286.0
           },
           {
-            "date": "2026-03-16",
-            "value": 19190.0
+            "date": "2026-03-17",
+            "value": 19460.0
           },
           {
-            "date": "2026-03-18",
-            "value": 19587.0
+            "date": "2026-03-19",
+            "value": 19424.0
           },
           {
-            "date": "2026-03-20",
-            "value": 19254.0
+            "date": "2026-03-23",
+            "value": 19375.0
           },
           {
-            "date": "2026-03-24",
-            "value": 19600.0
+            "date": "2026-03-25",
+            "value": 19341.0
           },
           {
-            "date": "2026-03-26",
-            "value": 19475.0
+            "date": "2026-03-27",
+            "value": 19257.0
           },
           {
-            "date": "2026-03-29",
-            "value": 19306.0
+            "date": "2026-03-30",
+            "value": 19311.0
           },
           {
-            "date": "2026-03-31",
+            "date": "2026-04-01",
             "value": 19507.0
           },
           {
-            "date": "2026-04-02",
+            "date": "2026-04-05",
             "value": 19362.0
           },
           {
-            "date": "2026-04-06",
+            "date": "2026-04-07",
             "value": 19628.0
           },
           {
-            "date": "2026-04-08",
-            "value": 19635.0
+            "date": "2026-04-09",
+            "value": 19812.0
           },
           {
-            "date": "2026-04-12",
-            "value": 19793.0
+            "date": "2026-04-13",
+            "value": 20102.0
           },
           {
-            "date": "2026-04-14",
-            "value": 20185.0
+            "date": "2026-04-15",
+            "value": 19968.0
           },
           {
-            "date": "2026-04-16",
-            "value": 19957.0
+            "date": "2026-04-19",
+            "value": 20028.0
           },
           {
-            "date": "2026-04-20",
-            "value": 20228.0
-          },
-          {
-            "date": "2026-04-22",
+            "date": "2026-04-21",
             "value": 20135.0
           },
           {
-            "date": "2026-04-26",
-            "value": 19973.0
+            "date": "2026-04-23",
+            "value": 19975.0
           },
           {
-            "date": "2026-04-28",
-            "value": 19955.0
+            "date": "2026-04-27",
+            "value": 19990.0
           },
           {
-            "date": "2026-04-30",
+            "date": "2026-04-29",
             "value": 20165.0
           },
           {
-            "date": "2026-05-04",
-            "value": 20163.0
+            "date": "2026-05-03",
+            "value": 20092.0
           },
           {
-            "date": "2026-05-06",
-            "value": 20410.0
+            "date": "2026-05-05",
+            "value": 20156.0
           },
           {
-            "date": "2026-05-10",
-            "value": 20194.0
+            "date": "2026-05-07",
+            "value": 20117.0
           },
           {
-            "date": "2026-05-12",
-            "value": 20317.0
+            "date": "2026-05-11",
+            "value": 20278.0
           },
           {
-            "date": "2026-05-14",
+            "date": "2026-05-13",
             "value": 20444.0
           },
           {
-            "date": "2026-05-18",
-            "value": 20342.0
+            "date": "2026-05-17",
+            "value": 20231.0
           },
           {
-            "date": "2026-05-20",
-            "value": 20613.0
+            "date": "2026-05-19",
+            "value": 20377.0
           },
           {
-            "date": "2026-05-24",
-            "value": 20292.0
+            "date": "2026-05-21",
+            "value": 20474.0
           },
           {
-            "date": "2026-05-26",
-            "value": 20550.0
+            "date": "2026-05-25",
+            "value": 20427.0
           },
           {
-            "date": "2026-05-28",
+            "date": "2026-05-27",
+            "value": 20499.0
+          },
+          {
+            "date": "2026-05-31",
             "value": 20705.0
           },
           {
-            "date": "2026-06-01",
-            "value": 20509.0
+            "date": "2026-06-02",
+            "value": 20546.0
           },
           {
-            "date": "2026-06-03",
-            "value": 20642.0
+            "date": "2026-06-04",
+            "value": 20734.0
           },
           {
-            "date": "2026-06-07",
-            "value": 20935.0
+            "date": "2026-06-08",
+            "value": 20712.0
           },
           {
-            "date": "2026-06-09",
-            "value": 20542.0
+            "date": "2026-06-10",
+            "value": 20050.0
           },
           {
-            "date": "2026-06-11",
-            "value": 20165.0
+            "date": "2026-06-14",
+            "value": 19993.0
           },
           {
-            "date": "2026-06-15",
-            "value": 19974.0
+            "date": "2026-06-16",
+            "value": 19961.0
           },
           {
-            "date": "2026-06-17",
-            "value": 20602.9004
+            "date": "2026-06-18",
+            "value": 19904.0
           },
           {
-            "date": "2026-06-21",
-            "value": 19833.0
+            "date": "2026-06-22",
+            "value": 20377.0
           }
         ],
-        "profitScore": 1.99,
+        "profitScore": 2.14,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,297 +1566,297 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 110.22,
+        "last": 110.51,
         "date": "2026-06-23",
-        "return1m": -1.02,
-        "return3m": 3.49,
-        "return6m": 2.91,
-        "return1y": 2.66,
+        "return1m": -1.1,
+        "return3m": 3.89,
+        "return6m": 3.02,
+        "return1y": 3.29,
         "volatility": 9.59,
         "maxDrawdown": -6.3,
         "sparkline": [
           {
-            "date": "2025-12-08",
-            "value": 107.3596
+            "date": "2025-12-09",
+            "value": 106.9938
           },
           {
-            "date": "2025-12-10",
-            "value": 106.2255
+            "date": "2025-12-11",
+            "value": 106.754
           },
           {
-            "date": "2025-12-12",
-            "value": 107.0104
+            "date": "2025-12-15",
+            "value": 106.7106
           },
           {
-            "date": "2025-12-16",
-            "value": 107.2321
+            "date": "2025-12-17",
+            "value": 107.5199
           },
           {
-            "date": "2025-12-18",
-            "value": 107.1001
+            "date": "2025-12-19",
+            "value": 107.2726
           },
           {
-            "date": "2025-12-22",
-            "value": 105.7358
+            "date": "2025-12-23",
+            "value": 106.7913
           },
           {
-            "date": "2025-12-24",
-            "value": 107.1692
+            "date": "2025-12-26",
+            "value": 107.5033
           },
           {
-            "date": "2025-12-29",
-            "value": 106.9377
+            "date": "2025-12-30",
+            "value": 107.4656
           },
           {
-            "date": "2025-12-31",
-            "value": 106.9256
+            "date": "2026-01-02",
+            "value": 106.2695
           },
           {
-            "date": "2026-01-05",
-            "value": 106.3509
+            "date": "2026-01-06",
+            "value": 106.9287
           },
           {
-            "date": "2026-01-07",
-            "value": 106.8633
+            "date": "2026-01-08",
+            "value": 106.8844
           },
           {
-            "date": "2026-01-09",
-            "value": 107.1251
+            "date": "2026-01-12",
+            "value": 106.5396
           },
           {
-            "date": "2026-01-13",
-            "value": 106.6417
+            "date": "2026-01-14",
+            "value": 105.8501
           },
           {
-            "date": "2026-01-15",
-            "value": 106.4697
+            "date": "2026-01-16",
+            "value": 106.4441
           },
           {
-            "date": "2026-01-19",
-            "value": 106.7258
+            "date": "2026-01-20",
+            "value": 107.1492
           },
           {
-            "date": "2026-01-21",
-            "value": 107.2653
+            "date": "2026-01-22",
+            "value": 106.74
           },
           {
-            "date": "2026-01-23",
-            "value": 106.1872
+            "date": "2026-01-26",
+            "value": 107.7193
           },
           {
-            "date": "2026-01-27",
-            "value": 108.4936
+            "date": "2026-01-28",
+            "value": 109.3108
           },
           {
-            "date": "2026-01-29",
-            "value": 109.08
+            "date": "2026-01-30",
+            "value": 109.7027
           },
           {
-            "date": "2026-02-02",
-            "value": 108.2824
+            "date": "2026-02-03",
+            "value": 107.7143
           },
           {
-            "date": "2026-02-04",
-            "value": 107.5736
+            "date": "2026-02-05",
+            "value": 107.1142
           },
           {
-            "date": "2026-02-06",
-            "value": 107.5029
+            "date": "2026-02-09",
+            "value": 107.184
           },
           {
-            "date": "2026-02-10",
-            "value": 107.6805
+            "date": "2026-02-11",
+            "value": 108.6063
           },
           {
-            "date": "2026-02-12",
-            "value": 109.696
+            "date": "2026-02-13",
+            "value": 110.0289
           },
           {
-            "date": "2026-02-16",
-            "value": 110.1904
+            "date": "2026-02-17",
+            "value": 109.6269
           },
           {
-            "date": "2026-02-18",
-            "value": 109.8739
+            "date": "2026-02-19",
+            "value": 109.2912
           },
           {
-            "date": "2026-02-20",
-            "value": 109.0335
+            "date": "2026-02-23",
+            "value": 108.6314
           },
           {
-            "date": "2026-02-24",
-            "value": 108.8537
+            "date": "2026-02-25",
+            "value": 107.9391
           },
           {
-            "date": "2026-02-26",
-            "value": 107.2931
+            "date": "2026-02-27",
+            "value": 107.3995
           },
           {
-            "date": "2026-03-02",
-            "value": 107.6344
+            "date": "2026-03-03",
+            "value": 107.2328
           },
           {
-            "date": "2026-03-04",
-            "value": 107.1857
+            "date": "2026-03-05",
+            "value": 107.3773
           },
           {
-            "date": "2026-03-06",
-            "value": 107.3683
+            "date": "2026-03-09",
+            "value": 107.3372
           },
           {
-            "date": "2026-03-10",
-            "value": 106.9228
+            "date": "2026-03-11",
+            "value": 106.5807
           },
           {
-            "date": "2026-03-12",
-            "value": 106.1293
+            "date": "2026-03-13",
+            "value": 106.1203
           },
           {
-            "date": "2026-03-16",
-            "value": 106.1191
+            "date": "2026-03-17",
+            "value": 106.5574
           },
           {
-            "date": "2026-03-18",
-            "value": 106.7062
+            "date": "2026-03-19",
+            "value": 106.6497
           },
           {
-            "date": "2026-03-20",
-            "value": 106.9473
+            "date": "2026-03-23",
+            "value": 106.5155
           },
           {
-            "date": "2026-03-24",
-            "value": 106.5045
+            "date": "2026-03-25",
+            "value": 106.3738
           },
           {
-            "date": "2026-03-26",
-            "value": 103.2538
+            "date": "2026-03-27",
+            "value": 106.0105
           },
           {
-            "date": "2026-03-29",
-            "value": 105.7482
+            "date": "2026-03-30",
+            "value": 106.298
           },
           {
-            "date": "2026-03-31",
-            "value": 106.7189
+            "date": "2026-04-01",
+            "value": 106.7704
           },
           {
-            "date": "2026-04-02",
-            "value": 106.3523
+            "date": "2026-04-05",
+            "value": 106.3072
           },
           {
-            "date": "2026-04-06",
-            "value": 106.5547
+            "date": "2026-04-07",
+            "value": 106.7404
           },
           {
-            "date": "2026-04-08",
-            "value": 107.2559
+            "date": "2026-04-09",
+            "value": 107.2605
           },
           {
-            "date": "2026-04-12",
-            "value": 106.8994
+            "date": "2026-04-13",
+            "value": 107.4825
           },
           {
-            "date": "2026-04-14",
-            "value": 107.8109
+            "date": "2026-04-15",
+            "value": 107.9526
           },
           {
-            "date": "2026-04-16",
-            "value": 107.6224
+            "date": "2026-04-19",
+            "value": 107.6853
           },
           {
-            "date": "2026-04-20",
-            "value": 107.8402
+            "date": "2026-04-21",
+            "value": 107.4533
           },
           {
-            "date": "2026-04-22",
-            "value": 107.9337
+            "date": "2026-04-23",
+            "value": 108.4785
           },
           {
-            "date": "2026-04-26",
-            "value": 108.0746
+            "date": "2026-04-27",
+            "value": 108.0003
           },
           {
-            "date": "2026-04-28",
-            "value": 108.062
+            "date": "2026-04-29",
+            "value": 108.1929
           },
           {
-            "date": "2026-04-30",
-            "value": 110.4776
+            "date": "2026-05-03",
+            "value": 110.0912
           },
           {
-            "date": "2026-05-04",
-            "value": 110.322
+            "date": "2026-05-05",
+            "value": 110.1429
           },
           {
-            "date": "2026-05-06",
-            "value": 110.583
+            "date": "2026-05-07",
+            "value": 110.2218
           },
           {
-            "date": "2026-05-10",
-            "value": 110.6356
+            "date": "2026-05-11",
+            "value": 110.763
           },
           {
-            "date": "2026-05-12",
-            "value": 111.2968
+            "date": "2026-05-13",
+            "value": 110.8574
           },
           {
-            "date": "2026-05-14",
-            "value": 110.6964
+            "date": "2026-05-17",
+            "value": 110.7026
           },
           {
-            "date": "2026-05-18",
-            "value": 111.4178
+            "date": "2026-05-19",
+            "value": 111.7727
           },
           {
-            "date": "2026-05-20",
-            "value": 111.1353
+            "date": "2026-05-21",
+            "value": 111.2498
           },
           {
-            "date": "2026-05-24",
-            "value": 111.3552
+            "date": "2026-05-25",
+            "value": 111.7406
           },
           {
-            "date": "2026-05-26",
-            "value": 111.1413
+            "date": "2026-05-27",
+            "value": 111.5731
           },
           {
-            "date": "2026-05-28",
-            "value": 112.0128
+            "date": "2026-05-31",
+            "value": 111.7908
           },
           {
-            "date": "2026-06-01",
-            "value": 111.8962
+            "date": "2026-06-02",
+            "value": 111.6306
           },
           {
-            "date": "2026-06-03",
-            "value": 112.5607
+            "date": "2026-06-04",
+            "value": 112.2289
           },
           {
-            "date": "2026-06-07",
-            "value": 112.4928
+            "date": "2026-06-08",
+            "value": 113.5598
           },
           {
-            "date": "2026-06-09",
-            "value": 112.4211
+            "date": "2026-06-10",
+            "value": 111.3065
           },
           {
-            "date": "2026-06-11",
-            "value": 111.9083
+            "date": "2026-06-14",
+            "value": 111.1139
           },
           {
-            "date": "2026-06-15",
-            "value": 110.5588
+            "date": "2026-06-16",
+            "value": 110.5155
           },
           {
-            "date": "2026-06-17",
-            "value": 111.3934
+            "date": "2026-06-18",
+            "value": 110.3197
           },
           {
-            "date": "2026-06-21",
-            "value": 110.184
+            "date": "2026-06-22",
+            "value": 110.5544
           }
         ],
-        "profitScore": 1.56,
+        "profitScore": 1.73,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2629.6001,
+        "last": 2630.8,
         "date": "2026-06-23",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-06-23",
-            "value": 2629.6001
+            "value": 2630.8
           }
         ],
         "profitScore": 0.0,
@@ -1887,297 +1887,297 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12458.2998,
+      "last": 12353.5996,
       "date": "2026-06-23",
-      "return1m": -1.63,
-      "return3m": 5.43,
-      "return6m": 13.23,
-      "return1y": 12.5,
-      "volatility": 9.66,
+      "return1m": -2.98,
+      "return3m": 5.19,
+      "return6m": 12.0,
+      "return1y": 11.75,
+      "volatility": 9.79,
       "maxDrawdown": -5.12,
       "sparkline": [
         {
-          "date": "2025-12-08",
-          "value": 11074.0
+          "date": "2025-12-09",
+          "value": 11054.3682
         },
         {
-          "date": "2025-12-10",
-          "value": 11064.1523
+          "date": "2025-12-11",
+          "value": 11099.3965
         },
         {
-          "date": "2025-12-12",
-          "value": 11099.2725
+          "date": "2025-12-15",
+          "value": 11057.4443
         },
         {
-          "date": "2025-12-16",
-          "value": 11050.2314
+          "date": "2025-12-17",
+          "value": 11039.6855
         },
         {
-          "date": "2025-12-18",
-          "value": 11002.3652
+          "date": "2025-12-19",
+          "value": 11030.459
         },
         {
-          "date": "2025-12-22",
-          "value": 11022.3799
+          "date": "2025-12-23",
+          "value": 11157.0986
         },
         {
-          "date": "2025-12-24",
-          "value": 11214.458
+          "date": "2025-12-26",
+          "value": 11230.2246
         },
         {
-          "date": "2025-12-29",
-          "value": 11237.4053
+          "date": "2025-12-30",
+          "value": 11222.9092
         },
         {
-          "date": "2025-12-31",
-          "value": 11188.2959
+          "date": "2026-01-02",
+          "value": 11122.752
         },
         {
-          "date": "2026-01-05",
-          "value": 11164.9727
+          "date": "2026-01-06",
+          "value": 11230.9932
         },
         {
-          "date": "2026-01-07",
-          "value": 11282.6719
+          "date": "2026-01-08",
+          "value": 11261.3857
         },
         {
-          "date": "2026-01-09",
-          "value": 11261.2783
+          "date": "2026-01-12",
+          "value": 11251.0889
         },
         {
-          "date": "2026-01-13",
-          "value": 11319.2344
+          "date": "2026-01-14",
+          "value": 11251.7773
         },
         {
-          "date": "2026-01-15",
-          "value": 11257.5801
+          "date": "2026-01-16",
+          "value": 11308.8164
         },
         {
-          "date": "2026-01-19",
-          "value": 11276.7754
+          "date": "2026-01-20",
+          "value": 11374.0273
         },
         {
-          "date": "2026-01-21",
-          "value": 11424.5947
+          "date": "2026-01-22",
+          "value": 11425.6504
         },
         {
-          "date": "2026-01-23",
-          "value": 11508.75
+          "date": "2026-01-26",
+          "value": 11564.7832
         },
         {
-          "date": "2026-01-27",
-          "value": 11573.0078
+          "date": "2026-01-28",
+          "value": 11687.2402
         },
         {
-          "date": "2026-01-29",
-          "value": 11775.958
+          "date": "2026-01-30",
+          "value": 11827.2051
         },
         {
-          "date": "2026-02-02",
-          "value": 11671.5156
+          "date": "2026-02-03",
+          "value": 11650.7754
         },
         {
-          "date": "2026-02-04",
-          "value": 11765.5039
+          "date": "2026-02-05",
+          "value": 11753.5322
         },
         {
-          "date": "2026-02-06",
-          "value": 11697.1318
+          "date": "2026-02-09",
+          "value": 11819.9541
         },
         {
-          "date": "2026-02-10",
-          "value": 11905.0889
+          "date": "2026-02-11",
+          "value": 11867.5186
         },
         {
-          "date": "2026-02-12",
-          "value": 11970.0117
+          "date": "2026-02-13",
+          "value": 11918.0146
         },
         {
-          "date": "2026-02-16",
-          "value": 11889.1367
+          "date": "2026-02-17",
+          "value": 11884.7695
         },
         {
-          "date": "2026-02-18",
-          "value": 11929.8594
+          "date": "2026-02-19",
+          "value": 11913.4072
         },
         {
-          "date": "2026-02-20",
-          "value": 11922.3701
+          "date": "2026-02-23",
+          "value": 11937.6816
         },
         {
-          "date": "2026-02-24",
-          "value": 11859.3125
+          "date": "2026-02-25",
+          "value": 11870.3203
         },
         {
-          "date": "2026-02-26",
-          "value": 11934.1445
+          "date": "2026-02-27",
+          "value": 11898.5176
         },
         {
-          "date": "2026-03-02",
-          "value": 11950.9814
+          "date": "2026-03-03",
+          "value": 11984.0283
         },
         {
-          "date": "2026-03-04",
-          "value": 11895.291
+          "date": "2026-03-05",
+          "value": 11932.6895
         },
         {
-          "date": "2026-03-06",
-          "value": 11860.6885
+          "date": "2026-03-09",
+          "value": 11889.9004
         },
         {
-          "date": "2026-03-10",
-          "value": 11931.8828
+          "date": "2026-03-11",
+          "value": 11990.0391
         },
         {
-          "date": "2026-03-12",
-          "value": 12037.1104
+          "date": "2026-03-13",
+          "value": 11960.1299
         },
         {
-          "date": "2026-03-16",
-          "value": 11846.0029
+          "date": "2026-03-17",
+          "value": 11992.6514
         },
         {
-          "date": "2026-03-18",
-          "value": 12049.5674
+          "date": "2026-03-19",
+          "value": 11970.9121
         },
         {
-          "date": "2026-03-20",
-          "value": 11919.0742
+          "date": "2026-03-23",
+          "value": 11929.5654
         },
         {
-          "date": "2026-03-24",
-          "value": 11816.6016
+          "date": "2026-03-25",
+          "value": 11744.501
         },
         {
-          "date": "2026-03-26",
-          "value": 11432.959
+          "date": "2026-03-27",
+          "value": 11668.0938
         },
         {
-          "date": "2026-03-29",
-          "value": 11617.2471
+          "date": "2026-03-30",
+          "value": 11627.1807
         },
         {
-          "date": "2026-03-31",
-          "value": 11685.1006
+          "date": "2026-04-01",
+          "value": 11726.7246
         },
         {
-          "date": "2026-04-02",
-          "value": 11717.7012
+          "date": "2026-04-05",
+          "value": 11697.5967
         },
         {
-          "date": "2026-04-06",
-          "value": 11772.8711
+          "date": "2026-04-07",
+          "value": 11875.8369
         },
         {
-          "date": "2026-04-08",
-          "value": 11981.5947
+          "date": "2026-04-09",
+          "value": 12082.165
         },
         {
-          "date": "2026-04-12",
-          "value": 11982.1846
+          "date": "2026-04-13",
+          "value": 12119.5859
         },
         {
-          "date": "2026-04-14",
-          "value": 12200.8418
+          "date": "2026-04-15",
+          "value": 12294.8271
         },
         {
-          "date": "2026-04-16",
-          "value": 12258.4551
+          "date": "2026-04-19",
+          "value": 12235.6719
         },
         {
-          "date": "2026-04-20",
-          "value": 12291.6074
+          "date": "2026-04-21",
+          "value": 12253.5117
         },
         {
-          "date": "2026-04-22",
-          "value": 12316.3184
+          "date": "2026-04-23",
+          "value": 12355.5762
         },
         {
-          "date": "2026-04-26",
-          "value": 12320.541
+          "date": "2026-04-27",
+          "value": 12369.6934
         },
         {
-          "date": "2026-04-28",
-          "value": 12385.0723
+          "date": "2026-04-29",
+          "value": 12338.2256
         },
         {
-          "date": "2026-04-30",
-          "value": 12465.6104
+          "date": "2026-05-03",
+          "value": 12448.8252
         },
         {
-          "date": "2026-05-04",
-          "value": 12431.3936
+          "date": "2026-05-05",
+          "value": 12489.541
         },
         {
-          "date": "2026-05-06",
-          "value": 12514.3076
+          "date": "2026-05-07",
+          "value": 12472.6494
         },
         {
-          "date": "2026-05-10",
-          "value": 12561.9844
+          "date": "2026-05-11",
+          "value": 12623.3799
         },
         {
-          "date": "2026-05-12",
-          "value": 12701.0
+          "date": "2026-05-13",
+          "value": 12692.4258
         },
         {
-          "date": "2026-05-14",
-          "value": 12644.8213
+          "date": "2026-05-17",
+          "value": 12555.4365
         },
         {
-          "date": "2026-05-18",
-          "value": 12693.1211
+          "date": "2026-05-19",
+          "value": 12629.8467
         },
         {
-          "date": "2026-05-20",
-          "value": 12625.3135
+          "date": "2026-05-21",
+          "value": 12644.4717
         },
         {
-          "date": "2026-05-24",
-          "value": 12664.2803
+          "date": "2026-05-25",
+          "value": 12732.4219
         },
         {
-          "date": "2026-05-26",
-          "value": 12691.4814
+          "date": "2026-05-27",
+          "value": 12699.5029
         },
         {
-          "date": "2026-05-28",
-          "value": 12779.7734
+          "date": "2026-05-31",
+          "value": 12797.2383
         },
         {
-          "date": "2026-06-01",
-          "value": 12798.0371
+          "date": "2026-06-02",
+          "value": 12810.8828
         },
         {
-          "date": "2026-06-03",
-          "value": 12844.4668
+          "date": "2026-06-04",
+          "value": 12803.2578
         },
         {
-          "date": "2026-06-07",
-          "value": 12688.8096
+          "date": "2026-06-08",
+          "value": 12804.1523
         },
         {
-          "date": "2026-06-09",
-          "value": 12662.54
+          "date": "2026-06-10",
+          "value": 12496.8857
         },
         {
-          "date": "2026-06-11",
-          "value": 12629.1074
+          "date": "2026-06-14",
+          "value": 12568.5996
         },
         {
-          "date": "2026-06-15",
-          "value": 12528.7539
+          "date": "2026-06-16",
+          "value": 12526.7773
         },
         {
-          "date": "2026-06-17",
-          "value": 12556.709
+          "date": "2026-06-18",
+          "value": 12478.6787
         },
         {
-          "date": "2026-06-21",
-          "value": 12456.583
+          "date": "2026-06-22",
+          "value": 12492.7715
         }
       ],
-      "profitScore": 6.76,
+      "profitScore": 5.84,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 91,
+        "opportunityScore": 95,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,7 +2194,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 91,
+        "opportunityScore": 95,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2202,15 +2202,23 @@
         "ticker": "TLKM",
         "name": "Telkom Indonesia",
         "theme": "Digital infrastructure",
-        "opportunityScore": 75,
+        "opportunityScore": 71,
         "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
+        "ticker": "JSMR",
+        "name": "Jasa Marga",
+        "theme": "Infrastructure / toll roads",
+        "opportunityScore": 67,
+        "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
         "ticker": "ANTM",
         "name": "Aneka Tambang",
         "theme": "Nickel / EV supply chain",
-        "opportunityScore": 75,
+        "opportunityScore": 63,
         "rationale": "Linked to battery metals and EV headlines; commodity and policy volatility can be high.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2218,16 +2226,8 @@
         "ticker": "ASII",
         "name": "Astra International",
         "theme": "Automotive / diversified consumer",
-        "opportunityScore": 75,
-        "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
-        "ticker": "JSMR",
-        "name": "Jasa Marga",
-        "theme": "Infrastructure / toll roads",
         "opportunityScore": 63,
-        "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
+        "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }
     ],

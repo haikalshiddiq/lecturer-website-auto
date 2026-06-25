@@ -27,7 +27,7 @@ const inquiryPresets = [
         <div class="card-surface p-8 sm:p-10">
           <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-200">Collaboration desk</p>
           <h1 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">Invite collaboration, teaching, research, or a practical learning session.</h1>
-          <p class="mt-5 text-base leading-8 text-slate-300">This page is designed to make outreach feel easier and more guided. Choose an inquiry type, use the prompt starter, and send the collaboration context through the Cloudflare Worker-backed form with webhook and email-ready forwarding.</p>
+          <p class="mt-5 text-base leading-8 text-slate-300">This page is designed to make outreach feel easier and more guided. Choose an inquiry type, use the prompt starter, and send the collaboration context directly to the lecturer contact address with a resilient email handoff.</p>
           <div class="mt-8 space-y-3 text-sm text-slate-300">
             <p><span class="font-semibold text-white">Email:</span> {siteConfig.email}</p>
             <p><span class="font-semibold text-white">LinkedIn:</span> <a class="text-brand-200" href="https://www.linkedin.com/in/hicall/" target="_blank" rel="noreferrer">linkedin.com/in/hicall</a></p>
@@ -58,7 +58,7 @@ const inquiryPresets = [
             <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">Inquiry form</p>
             <h2 class="mt-3 text-2xl font-semibold text-white">Send a structured inquiry</h2>
           </div>
-          <span class="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-emerald-200">Worker-forwarded</span>
+          <span class="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-emerald-200">Email-ready</span>
         </div>
         <form action="https://lecturer-materials.hicall.workers.dev/api/contact" method="post" class="grid gap-5" data-contact-form>
           <input type="hidden" name="subject" value="Lecturer website inquiry" />
@@ -141,6 +141,28 @@ const inquiryPresets = [
         statusBox.textContent = message;
       };
 
+      const buildDirectEmailUrl = () => {
+        const formData = new FormData(form);
+        const name = String(formData.get('name') || '').trim();
+        const email = String(formData.get('email') || '').trim();
+        const message = String(formData.get('message') || '').trim();
+        const subject = encodeURIComponent(`Lecturer website inquiry — ${name || 'Website visitor'}`);
+        const body = encodeURIComponent([
+          `Name: ${name}`,
+          `Email: ${email}`,
+          `Source: hicall.web.id/contact`,
+          '',
+          'Message:',
+          message
+        ].join('\n'));
+
+        return `mailto:hicallsh@gmail.com?subject=${subject}&body=${body}`;
+      };
+
+      const openDirectEmail = () => {
+        window.location.href = buildDirectEmailUrl();
+      };
+
       form.addEventListener('submit', async (event) => {
         event.preventDefault();
 
@@ -181,7 +203,8 @@ const inquiryPresets = [
             loadedAtField.value = String(Date.now());
           }
         } catch (error) {
-          setStatus('error', error instanceof Error ? error.message : 'Unable to send the inquiry right now.');
+          openDirectEmail();
+          setStatus('success', 'Opening your email app with the inquiry pre-filled for hicallsh@gmail.com. If it does not open, email hicallsh@gmail.com directly.');
         } finally {
           submitButton.removeAttribute('disabled');
           submitButton.textContent = 'Send inquiry';

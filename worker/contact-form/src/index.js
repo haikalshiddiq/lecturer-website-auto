@@ -1,5 +1,3 @@
-import { EmailMessage } from 'cloudflare:email';
-
 const JSON_HEADERS = {
   'content-type': 'application/json',
   'access-control-allow-origin': '*',
@@ -144,24 +142,6 @@ function sanitizeHeader(value) {
   return normalizeField(value).replace(/[\r\n]+/g, ' ').slice(0, 180);
 }
 
-function buildRfc822Message(payload, context, from, to) {
-  const subject = sanitizeHeader(`${payload.subject} - ${payload.name}`);
-  const replyTo = sanitizeHeader(payload.email);
-  const text = buildTextBody(payload, context);
-
-  return [
-    `From: Lecturer Website <${from}>`,
-    `To: ${to}`,
-    `Reply-To: ${replyTo}`,
-    `Subject: ${subject}`,
-    'MIME-Version: 1.0',
-    'Content-Type: text/plain; charset=UTF-8',
-    'Content-Transfer-Encoding: 8bit',
-    '',
-    text
-  ].join('\r\n');
-}
-
 function getConfiguredRecipients(env) {
   return normalizeField(env.CONTACT_EMAIL)
     .split(',')
@@ -230,8 +210,12 @@ async function sendCloudflareEmailRouting(env, payload, context) {
   }
 
   const recipient = to[0];
-  const message = new EmailMessage(from, recipient, buildRfc822Message(payload, context, from, recipient));
-  await env.CONTACT_EMAIL_ROUTING.send(message);
+  await env.CONTACT_EMAIL_ROUTING.send({
+    to: recipient,
+    from,
+    subject: sanitizeHeader(`${payload.subject} - ${payload.name}`),
+    text: buildTextBody(payload, context)
+  });
   return { skipped: false, channel: 'email', provider: 'cloudflare-email-routing' };
 }
 

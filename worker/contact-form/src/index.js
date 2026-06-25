@@ -210,12 +210,18 @@ async function sendCloudflareEmailRouting(env, payload, context) {
   }
 
   const recipient = to[0];
-  await env.CONTACT_EMAIL_ROUTING.send({
-    to: recipient,
-    from,
-    subject: sanitizeHeader(`${payload.subject} - ${payload.name}`),
-    text: buildTextBody(payload, context)
-  });
+  try {
+    await env.CONTACT_EMAIL_ROUTING.send({
+      to: recipient,
+      from,
+      subject: sanitizeHeader(`${payload.subject} - ${payload.name}`),
+      text: buildTextBody(payload, context)
+    });
+  } catch (error) {
+    const code = error && typeof error === 'object' && 'code' in error ? error.code : 'unknown';
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Cloudflare Email Routing failed with ${code}: ${message}`);
+  }
   return { skipped: false, channel: 'email', provider: 'cloudflare-email-routing' };
 }
 

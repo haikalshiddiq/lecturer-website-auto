@@ -1,3 +1,5 @@
+import { EmailMessage } from 'cloudflare:email';
+
 const JSON_HEADERS = {
   'content-type': 'application/json',
   'access-control-allow-origin': '*',
@@ -138,6 +140,28 @@ function buildTextBody(payload, context) {
   ].join('\n');
 }
 
+function sanitizeHeader(value) {
+  return normalizeField(value).replace(/[\r\n]+/g, ' ').slice(0, 180);
+}
+
+function buildRfc822Message(payload, context, from, to) {
+  const subject = sanitizeHeader(`${payload.subject} - ${payload.name}`);
+  const replyTo = sanitizeHeader(payload.email);
+  const text = buildTextBody(payload, context);
+
+  return [
+    `From: Lecturer Website <${from}>`,
+    `To: ${to}`,
+    `Reply-To: ${replyTo}`,
+    `Subject: ${subject}`,
+    'MIME-Version: 1.0',
+    'Content-Type: text/plain; charset=UTF-8',
+    'Content-Transfer-Encoding: 8bit',
+    '',
+    text
+  ].join('\r\n');
+}
+
 function getConfiguredRecipients(env) {
   return normalizeField(env.CONTACT_EMAIL)
     .split(',')
@@ -184,7 +208,7 @@ async function sendResendEmail(env, payload, context) {
       from: env.RESEND_FROM_EMAIL,
       to,
       reply_to: payload.email,
-      subject: `${payload.subject} — ${payload.name}`,
+      subject: `${payload.subject} - ${payload.name}`,
       text: buildTextBody(payload, context)
     })
   });
@@ -195,6 +219,20 @@ async function sendResendEmail(env, payload, context) {
   }
 
   return { skipped: false, channel: 'email', provider: 'resend' };
+}
+
+async function sendCloudflareEmailRouting(env, payload, context) {
+  const to = getConfiguredRecipients(env);
+  const from = normalizeField(env.MAIL_FROM_EMAIL || 'noreply@hicall.web.id');
+
+  if (!env.CONTACT_EMAIL_ROUTING || to.length === 0 || !from || isPlaceholderEmail(from)) {
+    return { skipped: true, channel: 'email', provider: 'cloudflare-email-routing', reason: 'missing-email-routing-binding' };
+  }
+
+  const recipient = to[0];
+  const message = new EmailMessage(from, recipient, buildRfc822Message(payload, context, from, recipient));
+  await env.CONTACT_EMAIL_ROUTING.send(message);
+  return { skipped: false, channel: 'email', provider: 'cloudflare-email-routing' };
 }
 
 async function sendMailchannelsEmail(env, payload, context) {
@@ -224,7 +262,7 @@ async function sendMailchannelsEmail(env, payload, context) {
         email: payload.email,
         name: payload.name
       },
-      subject: `${payload.subject} — ${payload.name}`,
+      subject: `${payload.subject} - ${payload.name}`,
       content: [
         {
           type: 'text/plain',
@@ -477,7 +515,7 @@ export default {
       const results = [];
       const failures = [];
 
-      for (const send of [sendWebhook, sendResendEmail, sendMailchannelsEmail]) {
+      for (const send of [sendWebhook, sendResendEmail, sendCloudflareEmailRouting, sendMailchannelsEmail]) {
         try {
           const result = await send(env, payload, context);
           results.push(result);

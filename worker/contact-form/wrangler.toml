@@ -7,3 +7,7 @@ workers_dev = true
 CONTACT_EMAIL = "hicallsh@gmail.com"
 RESEND_FROM_EMAIL = "Lecturer Website <onboarding@resend.dev>"
 MAIL_FROM_EMAIL = "noreply@hicall.web.id"
+
+[[send_email]]
+name = "CONTACT_EMAIL_ROUTING"
+destination_address = "hicallsh@gmail.com"

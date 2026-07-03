@@ -1,43 +1,64 @@
 ---
 title: "Campus Service Evidence Review: 2026-07-03"
-summary: "Daily teaching update for Information System Management: a practical classroom plan using evidence, reflection, and hicall.web.id as the public learning hub."
+summary: "A class-ready Information System Management activity where students audit one campus digital service and turn evidence into improvement decisions."
 topic: "Information System Management"
 publishedAt: "2026-07-03"
-featured: false
+featured: true
 tags:
   - "information-systems"
   - "service-management"
-  - "governance"
+  - "campus-digital-service"
+  - "evidence-review"
 ---
 
-This daily teaching update keeps the lecturer website aligned with the current public domain, **https://hicall.web.id**, and turns one classroom topic into an evidence-based activity that students can run, inspect, and explain.
+This teaching update is now live at **https://hicall.web.id/blog/2026-07-03-campus-service-evidence-review**. Use it as a practical Information System Management studio for reviewing whether a campus digital service is supported by enough operational evidence.
 
-## Teaching focus
+## Learning objective
 
-**Topic:** Information System Management  
-**Studio:** Campus Service Evidence Review  
-**Angle:** Service owners, release notes, and decision evidence
+Students learn to separate opinion from evidence when evaluating a digital service. By the end of the session, each group should be able to identify one service weakness, show the proof, and propose one realistic improvement action.
 
-The session starts with a short scenario, then asks students to collect observable evidence before they write conclusions. The goal is to make the learning artifact concrete: screenshots, request logs, packet traces, rubric notes, or model-evaluation records.
+## Scenario
+
+A campus unit receives complaints that an online academic service is slow, confusing, or unreliable. The class acts as a service review team. Their job is not to blame the operator. Their job is to collect visible evidence and translate it into a decision note.
+
+## Evidence students should collect
+
+Choose one campus service flow, such as course registration, payment confirmation, helpdesk ticketing, LMS access, or transcript request. Then collect three kinds of proof:
+
+1. **User evidence:** screenshot of the confusing step, unclear message, or repeated action.
+2. **System evidence:** response time, error message, status page, log excerpt, or ticket history.
+3. **Process evidence:** owner, escalation path, service target, or missing handoff rule.
 
 ## Classroom flow
 
-1. **Problem framing:** Present a small campus or digital-service case that fits the topic.
-2. **Evidence capture:** Students collect one observable artifact, such as an API response, a packet filter result, a decision log, or an AI output comparison.
-3. **Interpretation:** Each group explains what the evidence proves and what it does not prove.
-4. **Control point:** Students propose one guardrail, monitoring step, or review checkpoint.
-5. **Reflection:** The class documents the limitation of the evidence and the next test they would run.
+1. **Frame the service:** name the service, users, and expected outcome.
+2. **Map the journey:** list the steps a student or staff member must complete.
+3. **Capture evidence:** save screenshots, timings, messages, or ticket examples.
+4. **Interpret the finding:** explain what the evidence proves and what it does not prove.
+5. **Recommend one action:** write a practical improvement with an owner and a follow-up check.
 
 ## Student deliverable
 
-Students submit a one-page evidence note with:
+Each group submits a one-page evidence note with this structure:
 
-- the observed artifact,
-- the interpretation,
-- the risk or limitation,
-- the recommended next action,
-- and a short link back to `hicall.web.id` as the source hub.
+- service reviewed,
+- evidence collected,
+- interpretation,
+- risk or limitation,
+- recommended next action,
+- owner or stakeholder,
+- and the next verification step.
+
+## Assessment rubric
+
+Use a simple 10-point rubric:
+
+- **2 points:** service flow is clearly described,
+- **2 points:** evidence is specific and observable,
+- **2 points:** interpretation is logical,
+- **2 points:** recommendation is realistic,
+- **2 points:** limitation and next verification step are included.
 
 ## Lecturer note
 
-Use this update as a lightweight daily content block. It is intentionally practical, repeatable, and suitable for Information System Management, Communication Protocol, and Artificial Intelligence classes.
+This activity fits Information System Management because it connects service quality, governance, process ownership, and operational evidence. It also prepares students to discuss audits, service improvement, and digital transformation with a more concrete vocabulary.

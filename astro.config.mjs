@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 
 export default defineConfig({
-  site: 'https://lecturer-materials.pages.dev',
+  site: 'https://hicall.web.id',
   integrations: [sitemap(), mdx()],
   output: 'static',
   vite: {

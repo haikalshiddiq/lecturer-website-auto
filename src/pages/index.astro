@@ -8,6 +8,7 @@ import StatsBand from '../components/sections/StatsBand.astro';
 import TopicStudio from '../components/sections/TopicStudio.astro';
 import ResourceExplorer from '../components/sections/ResourceExplorer.astro';
 import TopicCoverageBoard from '../components/sections/TopicCoverageBoard.astro';
+import LatestTeachingUpdate from '../components/sections/LatestTeachingUpdate.astro';
 import { buildTopicCoverage, getBlogPosts, getPublications, getResources, getTopics } from '../lib/content';
 
 const topics = await getTopics();
@@ -28,6 +29,7 @@ const topicCoverage = buildTopicCoverage({ topics: topicLinks, posts, resources,
 ---
 <BaseLayout>
   <Hero />
+  <LatestTeachingUpdate post={posts[0]} />
   <StatsBand topicsCount={topics.length} resourcesCount={resources.length} postsCount={posts.length} />
   <TopicStudio topics={topicLinks} />
   <TopicCoverageBoard
@@ -96,7 +98,7 @@ const topicCoverage = buildTopicCoverage({ topics: topicLinks, posts, resources,
 
   <CTASection
     title="Want a workshop, collaboration, or curated learning experience?"
-    description="The redesigned platform now supports interactive topic discovery, downloadable teaching assets, and thought-leadership publishing — with room for your verified lecturer profile next."
+    description="The redesigned platform now supports interactive topic discovery, downloadable teaching assets, and thought-leadership publishing, with room for your verified lecturer profile next."
     primaryHref="/contact"
     primaryLabel="Contact"
     secondaryHref="/about"

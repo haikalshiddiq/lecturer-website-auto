@@ -116,6 +116,7 @@ function App() {
   const [topic, setTopic] = useState('All');
   const [sentiment, setSentiment] = useState('All');
   const [forexPair, setForexPair] = useState('');
+  const [usTicker, setUsTicker] = useState('');
   const [loadState, setLoadState] = useState({ status: 'loading', message: '' });
 
   useEffect(() => {
@@ -144,7 +145,9 @@ function App() {
   const market = data?.marketInsights || {};
   const forex = market.forexComparison || [];
   const stocks = market.stockOpportunities || [];
+  const usStocks = market.usStockOpportunities || [];
   const selectedForex = forex.find(f => f.pair === forexPair) || forex[0];
+  const selectedUsStock = usStocks.find(s => s.symbol === usTicker) || usStocks[0];
   const filtered = items.filter(i => (topic === 'All' || i.topic === topic) && (sentiment === 'All' || i.sentiment === sentiment));
   const topics = [...new Set(items.map(i => i.topic))];
   const sentimentData = ['Positive', 'Neutral', 'Negative'].map(s => ({
@@ -278,6 +281,75 @@ function App() {
             ))}
           </div>
           <p className="disclaimer">Analytical screening only, not financial advice. Re-check valuation, liquidity, corporate actions, and your risk profile before buying.</p>
+        </Card>
+      )}
+
+      {/* US Market Opportunity Radar */}
+      {usStocks.length > 0 && (
+        <Card className="usMarketPanel">
+          <div className="feedHead usMarketHead">
+            <div>
+              <div className="sectionTitle"><Globe2 size={16} /> US market opportunity radar</div>
+              <p>{market.usStockBasis}</p>
+            </div>
+            <div className="filters">
+              <select value={selectedUsStock?.symbol || ''} onChange={e => setUsTicker(e.target.value)} aria-label="Select US stock">
+                {usStocks.map(stock => <option key={stock.symbol} value={stock.symbol}>{stock.symbol} - {stock.name}</option>)}
+              </select>
+            </div>
+          </div>
+
+          <div className="usTerminal">
+            <div className="usChartPane">
+              <div className="tickerStrip">
+                <div><b>{selectedUsStock?.symbol}</b><span>{selectedUsStock?.name}</span></div>
+                <strong>${money(selectedUsStock?.last)}</strong>
+                <span className={(selectedUsStock?.return1m || 0) >= 0 ? 'marketUp' : 'marketDown'}>{pct(selectedUsStock?.return1m)} 1M</span>
+                <a href={selectedUsStock?.tradingViewUrl} target="_blank" rel="noreferrer">Open TradingView <ArrowUpRight size={13} /></a>
+              </div>
+              <ResponsiveContainer width="100%" height={310}>
+                <AreaChart data={selectedUsStock?.sparkline || []} margin={{ top: 12, right: 12, bottom: 0, left: 0 }}>
+                  <defs>
+                    <linearGradient id="usPriceGradient" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor={COLORS.accentBright} stopOpacity={0.32} />
+                      <stop offset="95%" stopColor={COLORS.accentBright} stopOpacity={0} />
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="2 4" stroke={COLORS.chartGridSub} />
+                  <XAxis dataKey="date" stroke={COLORS.textMuted} minTickGap={44} tick={{ fontSize: 9, fontFamily: 'Geist Mono' }} />
+                  <YAxis orientation="right" stroke={COLORS.textMuted} domain={['auto', 'auto']} tick={{ fontSize: 10, fontFamily: 'Geist Mono' }} />
+                  <Tooltip content={<CockpitTooltip />} />
+                  <Area type="monotone" dataKey="value" name="USD" stroke={COLORS.accentBright} strokeWidth={2} fill="url(#usPriceGradient)" dot={false} />
+                </AreaChart>
+              </ResponsiveContainer>
+              <div className="usMetrics">
+                <span>1M <b className={(selectedUsStock?.return1m || 0) >= 0 ? 'marketUp' : 'marketDown'}>{pct(selectedUsStock?.return1m)}</b></span>
+                <span>3M <b className={(selectedUsStock?.return3m || 0) >= 0 ? 'marketUp' : 'marketDown'}>{pct(selectedUsStock?.return3m)}</b></span>
+                <span>6M <b className={(selectedUsStock?.return6m || 0) >= 0 ? 'marketUp' : 'marketDown'}>{pct(selectedUsStock?.return6m)}</b></span>
+                <span>1Y <b className={(selectedUsStock?.return1y || 0) >= 0 ? 'marketUp' : 'marketDown'}>{pct(selectedUsStock?.return1y)}</b></span>
+                <span>Volatility <b>{pct(selectedUsStock?.volatility)}</b></span>
+                <span>Max drawdown <b className="marketDown">{pct(selectedUsStock?.maxDrawdown)}</b></span>
+              </div>
+            </div>
+
+            <aside className="usLeaderboard">
+              <div className="leaderboardHead"><span>Current ranking</span><b>Score</b></div>
+              {usStocks.slice(0, 8).map((stock, index) => (
+                <button key={stock.symbol} className={selectedUsStock?.symbol === stock.symbol ? 'active' : ''} onClick={() => setUsTicker(stock.symbol)}>
+                  <span className="rank">{String(index + 1).padStart(2, '0')}</span>
+                  <span className="tickerName"><b>{stock.symbol}</b><small>{stock.sector}</small></span>
+                  <span className={(stock.return3m || 0) >= 0 ? 'marketUp' : 'marketDown'}>{pct(stock.return3m)}</span>
+                  <strong>{stock.opportunityScore}</strong>
+                </button>
+              ))}
+            </aside>
+          </div>
+
+          <div className="usThesis">
+            <div><span>Quant screen leader</span><strong>{market.bestUsStock?.symbol} at {market.bestUsStock?.opportunityScore}</strong></div>
+            <p><b>{selectedUsStock?.risk} risk.</b> {selectedUsStock?.thesis}</p>
+            <small>Prices are delayed end-of-day observations in USD. Rankings use price history only and exclude valuation, earnings revisions, dividends, taxes, FX conversion, and transaction costs. This is not financial advice and does not guarantee profit.</small>
+          </div>
         </Card>
       )}
 

@@ -30,6 +30,18 @@ for (const [i, item] of (data.items || []).entries()) {
 if (!data.marketInsights || !Array.isArray(data.marketInsights.forexComparison) || !Array.isArray(data.marketInsights.stockOpportunities)) {
   errors.push('marketInsights forexComparison and stockOpportunities are required arrays');
 }
+const usStocks = data.marketInsights?.usStockOpportunities;
+if (!Array.isArray(usStocks) || usStocks.length < 5) {
+  errors.push('marketInsights.usStockOpportunities must contain at least 5 screened stocks');
+} else {
+  for (const [i, stock] of usStocks.entries()) {
+    for (const key of ['symbol', 'name', 'sector', 'last', 'date', 'opportunityScore', 'risk', 'thesis', 'tradingViewUrl']) {
+      if (stock[key] === undefined || stock[key] === '') errors.push(`usStockOpportunities[${i}].${key} is required`);
+    }
+    if (!Array.isArray(stock.sparkline) || stock.sparkline.length < 20) errors.push(`usStockOpportunities[${i}].sparkline is too short`);
+    if (stock.opportunityScore < 0 || stock.opportunityScore > 100) errors.push(`usStockOpportunities[${i}].opportunityScore must be 0-100`);
+  }
+}
 
 const ageHours = data.generatedAt ? (Date.now() - Date.parse(data.generatedAt)) / 3_600_000 : Infinity;
 if (ageHours > 72) errors.push(`generatedAt is stale (${ageHours.toFixed(1)} hours old)`);

@@ -66,24 +66,23 @@ jobs:
         env:
           EXPECTED_SHA: ${{ github.sha }}
         run: |
-          node <<'NODE'
-          const local = require('./public/data/news.json');
-          const url = 'https://indonesia-intelligence-dashboard.pages.dev/data/news.json';
-          for (let attempt = 1; attempt <= 12; attempt++) {
-            const response = await fetch(`${url}?sha=${process.env.EXPECTED_SHA}&attempt=${attempt}`, {
-              headers: { 'user-agent': 'Mozilla/5.0 GitHub-Actions-CI-CD-Verification' }
-            });
-            if (response.ok) {
-              const live = await response.json();
-              if (live.generatedAt === local.generatedAt && live.items?.length === local.items?.length) {
-                console.log(`Live deployment verified: ${live.generatedAt}, ${live.items.length} items`);
-                process.exit(0);
-              }
-              console.log(`Attempt ${attempt}: live=${live.generatedAt}, expected=${local.generatedAt}`);
-            } else {
-              console.log(`Attempt ${attempt}: HTTP ${response.status}`);
-            }
-            await new Promise(resolve => setTimeout(resolve, 10000));
-          }
-          throw new Error('Cloudflare Pages remained stale after deployment verification window');
-          NODE
+          expected="$(node -p "require('./public/data/news.json').generatedAt")"
+          expected_count="$(node -p "require('./public/data/news.json').items.length")"
+          for attempt in $(seq 1 18); do
+            if curl --fail --silent --show-error --location \
+              --retry 2 --retry-all-errors \
+              --user-agent 'Mozilla/5.0 GitHub-Actions-CI-CD-Verification' \
+              "https://indonesia-intelligence-dashboard.pages.dev/data/news.json?sha=${EXPECTED_SHA}&attempt=${attempt}" \
+              --output /tmp/live-news.json; then
+              live="$(node -p "require('/tmp/live-news.json').generatedAt || ''" 2>/dev/null || true)"
+              live_count="$(node -p "require('/tmp/live-news.json').items?.length || 0" 2>/dev/null || true)"
+              if [ "$live" = "$expected" ] && [ "$live_count" = "$expected_count" ]; then
+                echo "Live deployment verified: $live, $live_count items"
+                exit 0
+              fi
+              echo "Attempt $attempt: live=$live/$live_count expected=$expected/$expected_count"
+            fi
+            sleep 10
+          done
+          echo "Cloudflare Pages remained stale after deployment verification window" >&2
+          exit 1

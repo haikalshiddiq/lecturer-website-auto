@@ -1,9 +1,10 @@
 {
   "scripts": {
     "dev": "vite --host 0.0.0.0",
+    "validate:data": "node scripts/validate-news-data.mjs",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "check": "npm run build"
+    "check": "npm run validate:data && npm run build"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

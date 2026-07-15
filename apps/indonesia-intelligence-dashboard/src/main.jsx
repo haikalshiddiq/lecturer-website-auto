@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis, Line, LineChart } from 'recharts';
-import { Activity, AlertTriangle, ArrowUpRight, BarChart3, Globe2, Newspaper, Radar, TrendingUp } from 'lucide-react';
+import { Activity, AlertTriangle, ArrowUpRight, BarChart3, Globe2, Moon, Newspaper, Radar, Sun, TrendingUp } from 'lucide-react';
 import '@fontsource/geist-sans/latin-400.css';
 import '@fontsource/geist-sans/latin-600.css';
 import '@fontsource/geist-sans/latin-700.css';
@@ -125,6 +125,15 @@ function App() {
   const [forexPair, setForexPair] = useState('');
   const [usTicker, setUsTicker] = useState('');
   const [loadState, setLoadState] = useState({ status: 'loading', message: '' });
+  const [theme, setTheme] = useState(() => document.documentElement.dataset.theme || 'light');
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+    localStorage.setItem('indonesia-intel-theme', theme);
+    const themeColor = document.querySelector('meta[name="theme-color"]');
+    themeColor?.setAttribute('content', theme === 'dark' ? '#0b1120' : '#ffffff');
+  }, [theme]);
 
   useEffect(() => {
     let cancelled = false;
@@ -205,11 +214,23 @@ function App() {
           <span className="brandMark">ID</span>
           <span>Indonesia Intelligence</span>
         </a>
-        <div className="navLinks">
-          <a href="#overview">Overview</a>
-          <a href="#markets">Markets</a>
-          <a href="#analytics">Analytics</a>
-          <a href="#news">News feed</a>
+        <div className="navActions">
+          <div className="navLinks">
+            <a href="#overview">Overview</a>
+            <a href="#markets">Markets</a>
+            <a href="#analytics">Analytics</a>
+            <a href="#news">News feed</a>
+          </div>
+          <button
+            className="themeToggle"
+            type="button"
+            aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+            title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+            onClick={() => setTheme(current => current === 'dark' ? 'light' : 'dark')}
+          >
+            {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
+            <span>{theme === 'dark' ? 'Light' : 'Dark'}</span>
+          </button>
         </div>
       </nav>
       <main id="dashboard-content">

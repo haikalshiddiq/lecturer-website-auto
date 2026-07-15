@@ -2,23 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#08111f" />
-    <title>Indonesia Intelligence Dashboard — Offline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Indonesia Intelligence Dashboard - Offline</title>
     <style>
-      :root { color-scheme: dark; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-      body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: radial-gradient(circle at top left, #16345e, #08111f 42%, #050914); color: #e5eefc; padding: 24px; }
-      section { width: min(560px, 100%); border: 1px solid rgba(148,163,184,.22); border-radius: 28px; padding: 32px; background: rgba(15,23,42,.72); box-shadow: 0 24px 80px rgba(0,0,0,.32); backdrop-filter: blur(16px); }
-      p { color: #b6c6dd; line-height: 1.65; }
-      a { color: #7dd3fc; font-weight: 800; }
+      :root {
+        color-scheme: light dark;
+        font-family: "Geist Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        --bg: #f6f8fb;
+        --surface: #ffffff;
+        --border: #dfe6ef;
+        --ink: #0f172a;
+        --muted: #475569;
+        --accent: #1d4ed8;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root { --bg: #0b1120; --surface: #111827; --border: #293449; --ink: #eef2f8; --muted: #b8c3d4; --accent: #93c5fd; }
+      }
+      * { box-sizing: border-box; }
+      body { min-height: 100dvh; margin: 0; display: grid; place-items: center; background: var(--bg); color: var(--ink); padding: 24px; }
+      section { width: min(560px, 100%); border: 1px solid var(--border); border-radius: 16px; padding: 32px; background: var(--surface); }
+      .mark { width: 48px; height: 48px; display: grid; place-items: center; margin-bottom: 24px; border-radius: 13px; background: var(--ink); color: var(--surface); font: 700 17px ui-monospace, monospace; }
+      h1 { margin: 0 0 14px; font-size: clamp(28px, 7vw, 42px); line-height: 1.08; letter-spacing: -.035em; }
+      p { color: var(--muted); line-height: 1.65; }
+      a { display: inline-flex; margin-top: 8px; border-radius: 9px; padding: 10px 14px; background: var(--ink); color: var(--surface); font-weight: 700; text-decoration: none; }
+      a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
     </style>
   </head>
   <body>
     <section>
-      <p style="text-transform:uppercase;letter-spacing:.16em;color:#7dd3fc;font-weight:900;font-size:12px">Offline mode</p>
-      <h1>Indonesia Intelligence Dashboard is cached, but this page needs a connection for the freshest update.</h1>
-      <p>Open the dashboard again when your connection returns. The app keeps the shell cached globally and refreshes the news feed in the background whenever Cloudflare is reachable.</p>
-      <p><a href="/">Try opening the dashboard</a></p>
+      <div class="mark" aria-hidden="true">ID</div>
+      <h1>You are offline.</h1>
+      <p>The dashboard shell and last available intelligence remain cached. Reconnect to refresh news, market prices, and source status.</p>
+      <a href="/">Open cached dashboard</a>
     </section>
   </body>
 </html>

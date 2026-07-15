@@ -1,11 +1,14 @@
-const SW_VERSION = 'indonesia-intel-pwa-v2';
+const SW_VERSION = 'indonesia-intel-pwa-v3';
 const RUNTIME_CACHE = `${SW_VERSION}-runtime`;
 const APP_SHELL = [
   '/',
   '/index.html',
   '/offline.html',
   '/manifest.webmanifest',
-  '/icons/icon.svg'
+  '/icons/icon.svg',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
+  '/icons/icon-maskable-512.png'
 ];
 const DATA_URL = '/data/news.json';
 

@@ -1,4 +1,4 @@
-const SW_VERSION = 'indonesia-intel-pwa-v4';
+const SW_VERSION = 'indonesia-intel-pwa-v5';
 const RUNTIME_CACHE = `${SW_VERSION}-runtime`;
 const APP_SHELL = [
   '/',
@@ -42,9 +42,6 @@ self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
     await Promise.all(keys.filter((key) => key !== SW_VERSION && key !== RUNTIME_CACHE).map((key) => caches.delete(key)));
-    if ('navigationPreload' in self.registration) {
-      await self.registration.navigationPreload.enable();
-    }
     await self.clients.claim();
   })());
 });
@@ -77,11 +74,6 @@ self.addEventListener('fetch', (event) => {
 async function networkFirstNavigation(event) {
   const cache = await caches.open(SW_VERSION);
   try {
-    const preload = await event.preloadResponse;
-    if (preload) {
-      cache.put('/index.html', preload.clone());
-      return preload;
-    }
     const response = await fetch(event.request);
     cache.put('/index.html', response.clone());
     return response;

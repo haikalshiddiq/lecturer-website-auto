@@ -1,4 +1,4 @@
-const SW_VERSION = 'indonesia-intel-pwa-v3';
+const SW_VERSION = 'indonesia-intel-pwa-v4';
 const RUNTIME_CACHE = `${SW_VERSION}-runtime`;
 const APP_SHELL = [
   '/',
@@ -13,11 +13,29 @@ const APP_SHELL = [
 const DATA_URL = '/data/news.json';
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(SW_VERSION)
-      .then((cache) => cache.addAll(APP_SHELL))
-      .then(() => self.skipWaiting())
-  );
+  event.waitUntil((async () => {
+    const shellCache = await caches.open(SW_VERSION);
+    await shellCache.addAll(APP_SHELL);
+
+    // Vite emits hashed asset names. Discover and cache them from the built shell
+    // during installation so the first visit is already offline-capable.
+    const shellResponse = await shellCache.match('/index.html');
+    const shellHtml = shellResponse ? await shellResponse.text() : '';
+    const assetUrls = [...shellHtml.matchAll(/(?:src|href)="(\/assets\/[^"]+)"/g)].map(match => match[1]);
+    await Promise.all(assetUrls.map(async (assetUrl) => {
+      try { await shellCache.add(assetUrl); } catch { /* A single optional asset must not block installation. */ }
+    }));
+
+    try {
+      const dataResponse = await fetch(DATA_URL, { cache: 'no-store' });
+      if (dataResponse.ok) {
+        const runtimeCache = await caches.open(RUNTIME_CACHE);
+        await runtimeCache.put(DATA_URL, dataResponse);
+      }
+    } catch { /* The app shell remains installable when the live feed is temporarily unavailable. */ }
+
+    await self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', (event) => {
@@ -47,7 +65,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   if (url.pathname === DATA_URL) {
-    event.respondWith(staleWhileRevalidate(request, RUNTIME_CACHE));
+    event.respondWith(staleWhileRevalidate(request, RUNTIME_CACHE, DATA_URL));
     return;
   }
 
@@ -68,16 +86,16 @@ async function networkFirstNavigation(event) {
     cache.put('/index.html', response.clone());
     return response;
   } catch (error) {
-    return (await cache.match('/index.html')) || (await cache.match('/offline.html'));
+    return (await cache.match('/offline.html')) || (await cache.match('/index.html'));
   }
 }
 
-async function staleWhileRevalidate(request, cacheName) {
+async function staleWhileRevalidate(request, cacheName, cacheKey = request) {
   const cache = await caches.open(cacheName);
-  const cached = await cache.match(request);
+  const cached = await cache.match(cacheKey);
   const network = fetch(request, { cache: 'no-store' })
     .then((response) => {
-      if (response.ok) cache.put(request, response.clone());
+      if (response.ok) cache.put(cacheKey, response.clone());
       return response;
     })
     .catch(() => cached);

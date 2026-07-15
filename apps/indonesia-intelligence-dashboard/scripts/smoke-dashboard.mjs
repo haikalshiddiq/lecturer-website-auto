@@ -117,9 +117,19 @@ try {
   assert(pwa.controlled, 'PWA: service worker is not active');
   assert(pwa.display === 'standalone' && pwa.startUrl.startsWith('/'), 'PWA: manifest is not installable');
   assert(pwa.pngIcons >= 3 && pwa.maskable, 'PWA: required PNG and maskable icons are missing');
+  if (!await pwaPage.evaluate(() => Boolean(navigator.serviceWorker.controller))) {
+    await pwaPage.reload({ waitUntil: 'networkidle' });
+    await pwaPage.locator('.news').first().waitFor({ state: 'visible' });
+  }
+  assert(await pwaPage.evaluate(() => Boolean(navigator.serviceWorker.controller)), 'PWA: page is not controlled by the service worker');
   await pwaContext.setOffline(true);
-  await pwaPage.reload({ waitUntil: 'domcontentloaded' });
-  assert(await pwaPage.locator('#root').count() === 1, 'PWA: cached app shell did not load offline');
+  const cachedItems = await pwaPage.evaluate(async () => {
+    const response = await fetch(`/data/news.json?v=offline-${Date.now()}`);
+    return (await response.json()).items.length;
+  });
+  assert(cachedItems >= 8, 'PWA: cached intelligence data is unavailable offline');
+  await pwaPage.goto(`${baseURL}/?offline-smoke=1`, { waitUntil: 'domcontentloaded' });
+  assert(await pwaPage.getByRole('heading', { name: 'You are offline.' }).isVisible(), 'PWA: standalone offline navigation fallback did not render');
   await pwaContext.setOffline(false);
   await pwaContext.close();
 

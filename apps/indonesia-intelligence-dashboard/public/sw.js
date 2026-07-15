@@ -1,4 +1,4 @@
-const SW_VERSION = 'indonesia-intel-pwa-v5';
+const SW_VERSION = 'indonesia-intel-pwa-v6';
 const RUNTIME_CACHE = `${SW_VERSION}-runtime`;
 const APP_SHELL = [
   '/',
@@ -78,7 +78,14 @@ async function networkFirstNavigation(event) {
     cache.put('/index.html', response.clone());
     return response;
   } catch (error) {
-    return (await cache.match('/offline.html')) || (await cache.match('/index.html'));
+    const offline = await cache.match('/offline.html');
+    if (offline) {
+      return new Response(await offline.text(), {
+        status: 200,
+        headers: { 'Content-Type': 'text/html; charset=UTF-8', 'Cache-Control': 'no-store' }
+      });
+    }
+    return cache.match('/index.html');
   }
 }
 

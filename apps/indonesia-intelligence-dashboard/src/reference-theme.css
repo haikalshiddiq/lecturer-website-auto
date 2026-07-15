@@ -1,0 +1,159 @@
+/* Clean Indonesian API documentation grammar, adapted for a dense analytics product. */
+:root {
+  --bg: #f6f8fb;
+  --surface: #ffffff;
+  --surface-raised: #f1f5f9;
+  --border: #dfe6ef;
+  --border-subtle: #e9eef5;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --accent: #1d4ed8;
+  --accent-bright: #2563eb;
+  --accent-glow: #eff6ff;
+  --accent-border: #bfdbfe;
+  --positive: #059669;
+  --positive-dim: #ecfdf5;
+  --neutral: #a16207;
+  --negative: #dc2626;
+  --negative-dim: #fef2f2;
+  --chart-grid: #dbe4ef;
+  --chart-grid-subtle: #edf2f7;
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+html { color-scheme: light; scroll-padding-top: 92px; }
+body { background: var(--bg); min-height: 100dvh; overscroll-behavior-y: auto; }
+
+.skipLink {
+  position: fixed; left: 16px; top: -64px; z-index: 40;
+  padding: 10px 14px; border-radius: 8px; background: #0f172a; color: #fff;
+  font: 700 13px var(--font-sans); text-decoration: none;
+}
+.skipLink:focus { top: 12px; }
+
+.topNav {
+  position: sticky; top: 0; z-index: 20; min-height: 76px;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  padding: 12px max(20px, calc((100vw - 1240px) / 2));
+  background: rgba(255, 255, 255, .94); border-bottom: 1px solid var(--border-subtle);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+}
+.brand { display: inline-flex; align-items: center; gap: 12px; color: var(--text-primary); font-weight: 750; text-decoration: none; white-space: nowrap; }
+.brandMark { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; background: #0f172a; color: #fff; font: 750 17px var(--font-mono); box-shadow: 0 4px 8px rgba(15, 23, 42, .14); }
+.navLinks { display: flex; align-items: center; gap: 4px; }
+.navLinks a { padding: 9px 11px; border-radius: 8px; color: var(--text-secondary); font-size: 13px; font-weight: 600; text-decoration: none; transition: background .18s ease, color .18s ease; }
+.navLinks a:hover { background: var(--surface-raised); color: var(--text-primary); }
+.navLinks a:focus-visible, .brand:focus-visible, .news h2 a:focus-visible { outline: 3px solid rgba(37, 99, 235, .3); outline-offset: 3px; }
+
+main { max-width: 1240px; padding: 54px 20px 64px; }
+.ambient-glow { display: none; }
+.hero { grid-template-columns: minmax(0, 1fr) 320px; gap: 36px; margin-bottom: 28px; align-items: center; }
+.eyebrow { color: var(--accent); letter-spacing: .08em; }
+.hero h1 { max-width: 850px; margin: 14px 0 16px; font-size: clamp(38px, 5vw, 66px); line-height: 1.02; letter-spacing: -.04em; color: var(--text-primary); text-wrap: balance; }
+.subtitle { max-width: 720px; color: var(--text-secondary); font-size: 17px; line-height: 1.65; text-wrap: pretty; }
+.heroPanel { align-self: stretch; justify-content: center; padding: 24px; }
+.heroPanel strong { color: var(--text-primary); font-size: 21px; }
+.sync { width: fit-content; background: var(--positive-dim); border-color: #a7f3d0; color: #047857; }
+
+.card, .panel { background: var(--surface); border-color: var(--border); border-radius: var(--radius); }
+.card { padding: 20px; }
+.stats { gap: 14px; margin-bottom: 18px; }
+.stat { min-height: 106px; padding: 18px; }
+.stat-icon { background: var(--accent-glow); color: var(--accent); }
+.stat p { color: var(--text-muted); }
+.stat strong { color: var(--text-primary); }
+.grid { gap: 16px; margin-bottom: 18px; }
+.sectionTitle { color: var(--text-primary); font-size: 16px; }
+.sectionTitle svg { color: var(--accent); }
+.feedHead p, .marketNote, .stock p, .stock footer, .disclaimer { color: var(--text-muted); }
+
+select { background: #fff; color: var(--text-primary); border-color: #cbd5e1; min-height: 40px; }
+select:hover { border-color: #94a3b8; }
+select:focus-visible { outline: 3px solid rgba(37, 99, 235, .2); outline-offset: 2px; }
+
+.winner { background: var(--accent-glow); border-color: var(--accent-border); }
+.winner strong, .usThesis div strong { color: var(--accent); }
+.marketQuote, .news blockquote { border-left: 0; border-radius: 9px; background: var(--accent-glow); color: #1e3a8a; box-shadow: inset 0 0 0 1px #dbeafe; }
+.stockGrid { grid-template-columns: repeat(3, 1fr); }
+.stock { background: #f8fafc; border-color: var(--border-subtle); }
+.stock b { color: var(--accent); }
+.stock strong { color: #854d0e; }
+
+.usTerminal { background: #fff; border-color: var(--border); }
+.usChartPane { border-color: var(--border); }
+.tickerStrip div b, .tickerStrip strong { color: var(--text-primary); }
+.tickerStrip a { color: var(--accent); background: #fff; }
+.tickerStrip a:hover { background: var(--accent-glow); }
+.usMetrics, .usMetrics span { border-color: var(--border-subtle); }
+.usMetrics b { color: var(--text-primary); }
+.usLeaderboard button { color: var(--text-secondary); }
+.usLeaderboard button:hover, .usLeaderboard button.active { background: var(--accent-glow); }
+.tickerName b { color: var(--text-primary); }
+.usThesis { background: #f8fafc; border-color: var(--border-subtle); }
+
+.feedPanel { padding: 24px; }
+.feed { gap: 14px; }
+.news { background: #fff; border-color: var(--border); padding: 18px; transition: border-color .18s ease, box-shadow .18s ease; }
+.news:hover { border-color: #bfdbfe; box-shadow: 0 6px 14px rgba(30, 64, 175, .07); }
+.news h2 { font-size: 17px; color: var(--text-primary); }
+.news h2 a { display: inline-flex; align-items: flex-start; gap: 6px; color: inherit; text-decoration: none; }
+.news h2 a svg { flex: 0 0 auto; margin-top: 3px; color: var(--accent); opacity: .72; }
+.news h2 a:hover { color: var(--accent); }
+.news p { color: var(--text-secondary); font-size: 13px; }
+.news footer { color: var(--text-muted); }
+.tag { background: var(--accent-glow); color: var(--accent); }
+.newsImage { background: var(--surface-raised); border-color: var(--border); }
+.newsImage img { transition: none; }
+.newsImage:hover img { transform: none; }
+
+.emptyState { grid-column: 1 / -1; min-height: 220px; display: grid; place-items: center; align-content: center; gap: 8px; text-align: center; color: var(--text-muted); }
+.emptyState h2 { color: var(--text-primary); font-size: 18px; }
+.emptyState p { max-width: 52ch; }
+.compactEmpty { max-width: 30ch; color: var(--text-muted); font-size: 12px; line-height: 1.5; }
+.statePage { min-height: 100dvh; display: grid; place-items: center; padding: 24px; }
+.stateCard { width: min(480px, 100%); display: grid; gap: 12px; padding: 28px; border: 1px solid var(--border); border-radius: var(--radius); background: #fff; color: var(--text-secondary); }
+.stateCard svg { color: var(--negative); }
+.stateCard h1 { color: var(--text-primary); font-size: 24px; }
+.stateCard button { width: fit-content; border: 0; border-radius: 9px; padding: 10px 14px; background: #0f172a; color: #fff; font-weight: 700; cursor: pointer; }
+.loadingShell { width: min(680px, 100%); display: grid; gap: 14px; }
+.loadingShell span { height: 84px; border-radius: 14px; background: linear-gradient(90deg, #e7edf4 25%, #f8fafc 50%, #e7edf4 75%); background-size: 200% 100%; animation: skeleton 1.4s ease-in-out infinite; }
+.loadingShell span:first-child { height: 180px; }
+@keyframes skeleton { to { background-position: -200% 0; } }
+
+.recharts-cartesian-axis-tick text { fill: var(--text-muted) !important; }
+.recharts-legend-item-text { color: var(--text-secondary) !important; }
+
+@media (max-width: 900px) {
+  .topNav { min-height: 68px; padding: 10px 14px; }
+  .brandMark { width: 40px; height: 40px; }
+  .navLinks { max-width: 58vw; overflow-x: auto; scrollbar-width: none; }
+  .navLinks::-webkit-scrollbar { display: none; }
+  .navLinks a { white-space: nowrap; }
+  main { padding: 36px 14px 48px; }
+  .hero, .two { grid-template-columns: 1fr; }
+  .hero { gap: 18px; }
+  .hero h1 { font-size: 38px; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 560px) {
+  .brand > span:last-child { display: none; }
+  .navLinks { max-width: calc(100vw - 76px); }
+  .navLinks a { padding: 8px 9px; font-size: 12px; }
+  main { padding-top: 28px; }
+  .hero h1 { font-size: 32px; line-height: 1.08; }
+  .subtitle { font-size: 15px; }
+  .heroPanel { padding: 18px; }
+  .stats { grid-template-columns: 1fr; }
+  .stockGrid { grid-template-columns: 1fr; }
+  .stat { min-height: 88px; }
+  .card, .feedPanel { padding: 14px; }
+  .feedHead { gap: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

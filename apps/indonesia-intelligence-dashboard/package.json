@@ -4,9 +4,12 @@
     "validate:data": "node scripts/validate-news-data.mjs",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "check": "npm run validate:data && npm run build"
+    "smoke": "node scripts/smoke-dashboard.mjs",
+    "check": "npm run validate:data && npm run build && npm run smoke"
   },
   "dependencies": {
+    "@fontsource/geist-mono": "^5.2.8",
+    "@fontsource/geist-sans": "^5.2.5",
     "@vitejs/plugin-react": "latest",
     "lucide-react": "latest",
     "react": "latest",
@@ -14,5 +17,8 @@
     "recharts": "latest",
     "typescript": "latest",
     "vite": "latest"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
   }
 }

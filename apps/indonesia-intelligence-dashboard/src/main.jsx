@@ -2,18 +2,25 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis, Line, LineChart } from 'recharts';
 import { Activity, AlertTriangle, ArrowUpRight, BarChart3, Globe2, Newspaper, Radar, TrendingUp } from 'lucide-react';
+import '@fontsource/geist-sans/latin-400.css';
+import '@fontsource/geist-sans/latin-600.css';
+import '@fontsource/geist-sans/latin-700.css';
+import '@fontsource/geist-mono/latin-400.css';
+import '@fontsource/geist-mono/latin-600.css';
+import '@fontsource/geist-mono/latin-700.css';
 import './styles.css';
+import './reference-theme.css';
 
 /* ── Design tokens ── */
 const COLORS = {
-  accent: '#3b82f6',
-  accentBright: '#60a5fa',
-  positive: '#22c55e',
-  neutral: '#eab308',
-  negative: '#ef4444',
-  chartGrid: '#27272a',
-  chartGridSub: '#1e1e22',
-  textMuted: '#71717a',
+  accent: '#2563eb',
+  accentBright: '#3b82f6',
+  positive: '#059669',
+  neutral: '#a16207',
+  negative: '#dc2626',
+  chartGrid: '#dbe4ef',
+  chartGridSub: '#edf2f7',
+  textMuted: '#64748b',
 };
 const sentimentColors = { Positive: COLORS.positive, Neutral: COLORS.neutral, Negative: COLORS.negative };
 const topicColors = ['#3b82f6','#60a5fa','#22c55e','#eab308','#f97316','#ef4444','#8b5cf6','#06b6d4','#ec4899'];
@@ -49,8 +56,8 @@ function AnimatedNumber({ value, duration = 600 }) {
 }
 
 /* ── Card ── */
-function Card({ children, className = '' }) {
-  return <section className={`card ${className}`}>{children}</section>;
+function Card({ children, className = '', ...props }) {
+  return <section className={`card ${className}`} {...props}>{children}</section>;
 }
 
 /* ── Stat block ── */
@@ -169,17 +176,49 @@ function App() {
   const risks = items.filter(i => i.sentiment === 'Negative').sort((a, b) => a.score - b.score);
   const avgScore = avg(items.map(i => i.score));
 
-  if (!data) return <div className="loading">Loading Indonesia intelligence dashboard…</div>;
+  if (!data && loadState.status === 'error') {
+    return (
+      <main className="statePage" role="alert">
+        <div className="stateCard">
+          <AlertTriangle size={24} />
+          <h1>Dashboard data is unavailable</h1>
+          <p>{loadState.message}. Check your connection, then reload this page.</p>
+          <button type="button" onClick={() => window.location.reload()}>Reload dashboard</button>
+        </div>
+      </main>
+    );
+  }
+
+  if (!data) {
+    return (
+      <main className="statePage" aria-busy="true" aria-label="Loading dashboard">
+        <div className="loadingShell"><span /><span /><span /></div>
+      </main>
+    );
+  }
 
   return (
-    <main>
-      <div className="ambient-glow" />
+    <>
+      <a className="skipLink" href="#dashboard-content">Skip to dashboard content</a>
+      <nav className="topNav" aria-label="Primary navigation">
+        <a className="brand" href="#overview" aria-label="Indonesia Intelligence home">
+          <span className="brandMark">ID</span>
+          <span>Indonesia Intelligence</span>
+        </a>
+        <div className="navLinks">
+          <a href="#overview">Overview</a>
+          <a href="#markets">Markets</a>
+          <a href="#analytics">Analytics</a>
+          <a href="#news">News feed</a>
+        </div>
+      </nav>
+      <main id="dashboard-content">
 
       {/* ── Header ── */}
-      <header className="hero">
+      <header className="hero" id="overview">
         <div>
           <p className="eyebrow"><Globe2 size={14} /> Indonesia intelligence dashboard</p>
-          <h1>News sentiment, topic momentum, and executive market signals.</h1>
+          <h1>Indonesia intelligence, made actionable.</h1>
           <p className="subtitle">Daily briefing structured into analytics by topic, sentiment, confidence, and business/investment impact.</p>
         </div>
         <div className="heroPanel panel">
@@ -200,7 +239,7 @@ function App() {
 
       {/* ── Forex Radar ── */}
       {forex.length > 0 && (
-        <section className="grid two marketGrid">
+        <section className="grid two marketGrid" id="markets">
           <Card className="marketCard">
             <div className="feedHead">
               <div>
@@ -269,14 +308,17 @@ function App() {
           </div>
           <div className="stockGrid">
             {stocks.map(s => (
-              <article key={s.code} className="stock">
+              <article key={s.code || s.ticker} className="stock">
                 <div>
-                  <b>{s.code}</b>
-                  <span>{s.sector}</span>
+                  <b>{s.code || s.ticker}</b>
+                  <span>{s.sector || s.theme}</span>
                 </div>
                 <strong>{s.opportunityScore}</strong>
-                <p>{s.thesis}</p>
-                <footer>Last Rp {money(s.last)} · 1M {pct(s.return1m)} · 3M {pct(s.return3m)} · risk {s.risk}</footer>
+                <p>{s.thesis || s.rationale}</p>
+                <footer>
+                  {s.last ? `Last Rp ${money(s.last)} · 1M ${pct(s.return1m)} · 3M ${pct(s.return3m)} · ` : ''}
+                  {s.risk}
+                </footer>
               </article>
             ))}
           </div>
@@ -354,7 +396,7 @@ function App() {
       )}
 
       {/* ── Sentiment Mix + Topic Impact ── */}
-      <section className="grid two">
+      <section className="grid two" id="analytics">
         <Card>
           <div className="sectionTitle"><BarChart3 size={16} /> Sentiment mix</div>
           <ResponsiveContainer width="100%" height={260}>
@@ -418,17 +460,19 @@ function App() {
             <div>
               <h3>Opportunity</h3>
               {positives.slice(0, 8).map(i => <Mini key={i.id} item={i} />)}
+              {positives.length === 0 && <p className="compactEmpty">No positive-impact signals in the current briefing.</p>}
             </div>
             <div>
               <h3>Risk</h3>
               {risks.slice(0, 8).map(i => <Mini key={i.id} item={i} />)}
+              {risks.length === 0 && <p className="compactEmpty">No negative-impact signals in the current briefing.</p>}
             </div>
           </div>
         </Card>
       </section>
 
       {/* ── Intelligence Feed ── */}
-      <Card>
+      <Card className="feedPanel" id="news">
         <div className="feedHead">
           <div>
             <div className="sectionTitle"><Newspaper size={16} /> Intelligence feed</div>
@@ -447,7 +491,7 @@ function App() {
             </select>
           </div>
         </div>
-        <div className="feed">
+        <div className="feed" aria-live="polite">
           {filtered.map(item => (
             <article className="news" key={item.id}>
               {validImageUrl(item.imageUrl) && (
@@ -470,15 +514,23 @@ function App() {
                   {item.sentiment} · {(item.confidence * 100).toFixed(0)}%
                 </span>
               </div>
-              <h2>{item.title}</h2>
+              <h2><a href={item.sourceUrl} target="_blank" rel="noreferrer">{item.title}<ArrowUpRight size={15} aria-hidden="true" /></a></h2>
               <p>{item.summary}</p>
               <blockquote>{item.impact}</blockquote>
               <footer>{item.source} · score {(item.score * 100).toFixed(0)}</footer>
             </article>
           ))}
+          {filtered.length === 0 && (
+            <div className="emptyState">
+              <Newspaper size={22} />
+              <h2>No signals match these filters</h2>
+              <p>Choose a different topic or sentiment to restore the intelligence feed.</p>
+            </div>
+          )}
         </div>
       </Card>
-    </main>
+      </main>
+    </>
   );
 }
 

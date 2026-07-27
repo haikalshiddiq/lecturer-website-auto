@@ -26,10 +26,10 @@ jobs:
         working-directory: apps/indonesia-intelligence-dashboard
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -45,7 +45,7 @@ jobs:
         run: npm run build
 
       - name: Archive validated production artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: indonesia-intelligence-dashboard-${{ github.sha }}
           path: apps/indonesia-intelligence-dashboard/dist
@@ -53,14 +53,48 @@ jobs:
           retention-days: 14
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          wranglerVersion: "4.94.0"
-          workingDirectory: apps/indonesia-intelligence-dashboard
-          preCommands: wrangler pages project create indonesia-intelligence-dashboard --production-branch=main || true
-          command: pages deploy dist --project-name=indonesia-intelligence-dashboard --branch main --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -uo pipefail
+          if [ -z "${CLOUDFLARE_API_TOKEN:-}" ] || [ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ]; then
+            echo "::error::Cloudflare deployment secrets are missing"
+            exit 1
+          fi
+
+          # Project creation is idempotent. A pre-existing project is expected and harmless.
+          npx --yes wrangler@4.114.0 pages project create indonesia-intelligence-dashboard \
+            --production-branch=main >/tmp/wrangler-project.log 2>&1 || true
+
+          # Bounded self-healing: retry transient Cloudflare/npm failures, then try the
+          # current Wrangler release in case the pinned CLI has regressed.
+          versions=("4.114.0" "4.114.0" "latest")
+          delays=(0 15 45)
+          for index in 0 1 2; do
+            sleep "${delays[$index]}"
+            version="${versions[$index]}"
+            echo "Cloudflare Pages deploy attempt $((index + 1))/3 with wrangler@${version}"
+            set +e
+            npx --yes "wrangler@${version}" pages deploy dist \
+              --project-name=indonesia-intelligence-dashboard \
+              --branch=main \
+              --commit-hash="${GITHUB_SHA}" \
+              --commit-dirty=true 2>&1 | tee "/tmp/wrangler-deploy-$((index + 1)).log"
+            status=${PIPESTATUS[0]}
+            set -e
+            if [ "$status" -eq 0 ]; then
+              echo "Cloudflare Pages deployment succeeded on attempt $((index + 1))"
+              exit 0
+            fi
+          done
+
+          if grep -Eqi 'authentication|unauthorized|invalid.*token|code[": ]+10000|permission' /tmp/wrangler-deploy-*.log; then
+            echo "::error::Cloudflare rejected the repository credential after three attempts; rotate CLOUDFLARE_API_TOKEN with Pages Edit permission"
+          else
+            echo "::error::Cloudflare Pages deployment failed after three bounded attempts"
+          fi
+          exit 1
 
       - name: Verify live deployment freshness
         env:

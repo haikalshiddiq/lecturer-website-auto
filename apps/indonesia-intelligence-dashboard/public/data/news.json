@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T15:39:10+07:00",
+  "generatedAt": "2026-07-28T15:40:31+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 28 July 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-07-28T15:39:10+07:00",
+    "generatedAt": "2026-07-28T15:40:31+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -672,12 +672,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12602.9004,
+        "last": 12592.5,
         "date": "2026-07-28",
-        "return1m": 2.5,
-        "return3m": 1.89,
-        "return6m": 8.98,
-        "return1y": 12.01,
+        "return1m": 2.41,
+        "return3m": 1.8,
+        "return6m": 8.89,
+        "return1y": 11.92,
         "volatility": 10.14,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 12563.416
           }
         ],
-        "profitScore": 4.39,
+        "profitScore": 4.3,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,13 +970,13 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13984.4043,
+        "last": 13973.0352,
         "date": "2026-07-28",
-        "return1m": 1.52,
-        "return3m": 3.53,
-        "return6m": 6.12,
-        "return1y": 6.97,
-        "volatility": 7.68,
+        "return1m": 1.44,
+        "return3m": 3.44,
+        "return6m": 6.03,
+        "return1y": 6.88,
+        "volatility": 7.67,
         "maxDrawdown": -3.8,
         "sparkline": [
           {
@@ -1260,7 +1260,7 @@
             "value": 13928.6504
           }
         ],
-        "profitScore": 3.68,
+        "profitScore": 3.59,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,13 +1268,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20545.0,
+        "last": 20529.0,
         "date": "2026-07-28",
-        "return1m": 3.98,
-        "return3m": 2.78,
-        "return6m": 5.14,
-        "return1y": 5.68,
-        "volatility": 16.66,
+        "return1m": 3.9,
+        "return3m": 2.7,
+        "return6m": 5.06,
+        "return1y": 5.6,
+        "volatility": 16.63,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -1558,7 +1558,7 @@
             "value": 19853.0
           }
         ],
-        "profitScore": 2.75,
+        "profitScore": 2.67,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,13 +1566,13 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 110.31,
+        "last": 110.22,
         "date": "2026-07-28",
-        "return1m": 0.1,
-        "return3m": 2.14,
-        "return6m": 2.41,
-        "return1y": 4.21,
-        "volatility": 9.44,
+        "return1m": 0.02,
+        "return3m": 2.06,
+        "return6m": 2.32,
+        "return1y": 4.13,
+        "volatility": 9.43,
         "maxDrawdown": -6.3,
         "sparkline": [
           {
@@ -1856,7 +1856,7 @@
             "value": 109.7265
           }
         ],
-        "profitScore": 1.1,
+        "profitScore": 1.01,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2671.2,
+        "last": 2668.2,
         "date": "2026-07-28",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-07-28",
-            "value": 2671.2
+            "value": 2668.2
           }
         ],
         "profitScore": 0.0,

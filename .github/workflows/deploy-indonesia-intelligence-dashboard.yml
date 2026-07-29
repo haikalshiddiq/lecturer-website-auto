@@ -63,16 +63,10 @@ jobs:
             exit 1
           fi
 
-          # Do not waste three retries on a permanently revoked or malformed token.
-          # Future workflow runs automatically retry after an administrator rotates it.
-          if ! curl --fail --silent --show-error \
-            --header "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
-            --header "Content-Type: application/json" \
-            https://api.cloudflare.com/client/v4/user/tokens/verify \
-            --output /tmp/cloudflare-token-verification.json; then
-            echo "::error::Cloudflare rejected the repository credential; rotate CLOUDFLARE_API_TOKEN with Pages Edit permission"
-            exit 1
-          fi
+          # Do not use /user/tokens/verify as a deployment gate. Some valid
+          # account-scoped Pages tokens fail that endpoint even though Wrangler
+          # can deploy successfully. The actual Pages operation below is the
+          # authoritative permission check and retains bounded retries.
 
           # Project creation is idempotent. A pre-existing project is expected and harmless.
           npx --yes wrangler@4.114.0 pages project create indonesia-intelligence-dashboard \

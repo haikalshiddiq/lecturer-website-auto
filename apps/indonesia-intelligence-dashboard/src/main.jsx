@@ -25,6 +25,7 @@ const COLORS = {
 const sentimentColors = { Positive: COLORS.positive, Neutral: COLORS.neutral, Negative: COLORS.negative };
 const topicColors = ['#3b82f6','#60a5fa','#22c55e','#eab308','#f97316','#ef4444','#8b5cf6','#06b6d4','#ec4899'];
 const blockedImageTokens = ['google_news_', 'favicon', 'sprite', 'pixel', 'logo', 'J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc'];
+const LIVE_REFRESH_MS = 5 * 60 * 1000;
 
 function validImageUrl(url='') {
   return url.startsWith('https://') && !blockedImageTokens.some(t => url.toLowerCase().includes(t.toLowerCase()));
@@ -154,7 +155,16 @@ function App() {
       }
     };
     load();
-    return () => { cancelled = true; };
+    const timer = window.setInterval(load, LIVE_REFRESH_MS);
+    const refreshWhenVisible = () => {
+      if (document.visibilityState === 'visible') load();
+    };
+    document.addEventListener('visibilitychange', refreshWhenVisible);
+    return () => {
+      cancelled = true;
+      window.clearInterval(timer);
+      document.removeEventListener('visibilitychange', refreshWhenVisible);
+    };
   }, []);
 
   const items = data?.items || [];
@@ -240,13 +250,13 @@ function App() {
         <div>
           <p className="eyebrow"><Globe2 size={14} /> Indonesia intelligence dashboard</p>
           <h1>Indonesia intelligence, made actionable.</h1>
-          <p className="subtitle">Daily briefing structured into analytics by topic, sentiment, confidence, and business/investment impact.</p>
+          <p className="subtitle">Live briefing refreshed automatically into analytics by topic, sentiment, confidence, and business/investment impact.</p>
         </div>
         <div className="heroPanel panel">
           <span>Generated</span>
           <strong>{formatDate(data.generatedAt)}</strong>
           <small>{data.sentimentBasis}</small>
-          <em className={`sync ${loadState.status}`}>{loadState.message}</em>
+          <em className={`sync ${loadState.status}`}>{loadState.message} · auto-refresh every 5 minutes</em>
         </div>
       </header>
 

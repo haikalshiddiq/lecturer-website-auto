@@ -1,4 +1,4 @@
-const SW_VERSION = 'indonesia-intel-pwa-v6';
+const SW_VERSION = 'indonesia-intel-pwa-v7';
 const RUNTIME_CACHE = `${SW_VERSION}-runtime`;
 const APP_SHELL = [
   '/',
@@ -62,7 +62,9 @@ self.addEventListener('fetch', (event) => {
   }
 
   if (url.pathname === DATA_URL) {
-    event.respondWith(staleWhileRevalidate(request, RUNTIME_CACHE, DATA_URL));
+    // News freshness is more important than an instant stale response. Always
+    // try the network first and use the last verified payload only when offline.
+    event.respondWith(networkFirstData(request, RUNTIME_CACHE, DATA_URL));
     return;
   }
 
@@ -89,16 +91,19 @@ async function networkFirstNavigation(event) {
   }
 }
 
-async function staleWhileRevalidate(request, cacheName, cacheKey = request) {
+async function networkFirstData(request, cacheName, cacheKey = request) {
   const cache = await caches.open(cacheName);
   const cached = await cache.match(cacheKey);
-  const network = fetch(request, { cache: 'no-store' })
-    .then((response) => {
-      if (response.ok) cache.put(cacheKey, response.clone());
-      return response;
-    })
-    .catch(() => cached);
-  return cached || network;
+  try {
+    const response = await fetch(request, { cache: 'no-store' });
+    if (response.ok) await cache.put(cacheKey, response.clone());
+    return response;
+  } catch {
+    return cached || new Response(JSON.stringify({ error: 'Data unavailable offline' }), {
+      status: 503,
+      headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' }
+    });
+  }
 }
 
 async function cacheFirst(request, cacheName) {

@@ -567,10 +567,20 @@ function App() {
 
 /* ── PWA Registration ── */
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch((error) => {
+  window.addEventListener('load', async () => {
+    try {
+      const registration = await navigator.serviceWorker.register('/sw.js', { scope: '/', updateViaCache: 'none' });
+      await registration.update();
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        const reloadKey = 'indonesia-intel-sw-controller-reloaded';
+        if (!sessionStorage.getItem(reloadKey)) {
+          sessionStorage.setItem(reloadKey, '1');
+          window.location.reload();
+        }
+      });
+    } catch (error) {
       console.warn('PWA service worker registration failed', error);
-    });
+    }
   });
 }
 

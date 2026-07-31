@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T05:00:45+07:00",
+  "generatedAt": "2026-08-01T06:00:46+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 01 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -30,6 +30,21 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "AFU.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSWpWZ0lpUHMxRkhMdFZKWXhnS0JYRnQ2MXh6M1djZnRZR2I2RmExOTVOcFRSTlRNUUQwc2o5c1daaGxaSXQ1aXBPbHp5c0JZSW5QNXduM3dvamtIM1JRQzVWLUo0TFVMeUtXVkxoQTdLQWRHMnRMelN4N1lwNExmdzlReUtDZV9NY0prWFdrRmhmaVJRejNQdDgwdjVKMEU1SzdsdWUzTHpXNW1idXBLTnVvNGVvLVVyNnhvVHJB?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-01-7aac72ed57",
+      "date": "2026-08-01",
+      "topic": "Markets",
+      "title": "Investor Asing Lakukan Jual Bersih Saham Saat IHSG Menguat",
+      "summary": "achmadnurhidayat.id surfaced this fresh item: Investor Asing Lakukan Jual Bersih Saham Saat IHSG Menguat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "achmadnurhidayat.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83dHlhMWlVMk02STNZaFVtMzVlT3FVZVdrMFFuRThJc0FnazlrdWw0M0FDYjNVNklNREJodUNGTlNrbC0zM01mLXphSVNPZzUxYk82Tm5BT21FS29KaTA0V3k4TWhBWVFLcGswanhxal9uY3U5aHc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -109,21 +124,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-07-31-2ec1d5f2a4",
-      "date": "2026-07-31",
-      "topic": "Tech / AI",
-      "title": "Amazon Naikkan Capex AI ke $220 M — AWS Tumbuh 37%, Saham Menguat",
-      "summary": "feedberry.com surfaced this fresh item: Amazon Naikkan Capex AI ke $220 M — AWS Tumbuh 37%, Saham Menguat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.32,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "feedberry.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUmNHRUtaYWhYVzJxdGZqVnlCWGI2bjVxa3IyY2N4aE5KUUlnS1F0VVlrM0xzenU0X2dNLVRpRl93d3pzYV9MX0NEZW4wdmJmemlzelNUaUhldEhnWGZoS1I1R1VkZm1kdEZ0Z19Lb3IzTmx0aFFDVUxOUkpZZFJDQm9iRllwdXJZNUowbVlsZ3FkRWdL?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-07-31-e9a056e9e4",
       "date": "2026-07-31",
       "topic": "Business / Investment",
@@ -173,12 +173,12 @@
       "date": "2026-07-31",
       "topic": "Tech / AI",
       "title": "Kredit tumbuh 12,7%, perbankan Indonesia mulai lirik proyek AI?",
-      "summary": "IDNFinancials surfaced this fresh item: Kredit tumbuh 12,7%, perbankan Indonesia mulai lirik proyek AI?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "idnfinancials.com surfaced this fresh item: Kredit tumbuh 12,7%, perbankan Indonesia mulai lirik proyek AI?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "IDNFinancials via Google News RSS discovery",
+      "source": "idnfinancials.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTFJWTTNBeUphNzl1V2QtNmREYlNidXRLZnFVYlB0VkdjampGV1lLR0VJRFdFMTMzZnlfZU03aU42REV3TWtOcVlLelZKMVJoenkyMVBobEpmRmUzcFFPUFFTZlpaYTVWXy04bW80ZUZlc0ZsejUwSklvbmtwTkkxbGpZT193clV5QjBuMWdTaWZqNGUyelJBcDZaR3ludzAwYW1YRVRidw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -203,12 +203,12 @@
       "date": "2026-07-31",
       "topic": "Markets",
       "title": "Saham BBRI Menopang IHSG Hari Ini, Bursa RI Ditutup Menguat 0,8%",
-      "summary": "bloombergtechnoz.com surfaced this fresh item: Saham BBRI Menopang IHSG Hari Ini, Bursa RI Ditutup Menguat 0,8%. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Bloomberg Technoz surfaced this fresh item: Saham BBRI Menopang IHSG Hari Ini, Bursa RI Ditutup Menguat 0,8%. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "bloombergtechnoz.com via Google News RSS discovery",
+      "source": "Bloomberg Technoz via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdUNkR3ZmeFg0Z2JCNnFhUm8yemM4WVlWVXhoTzF5VHJuOElrV2FlSng4bmE4bVpPMEUxTTFFdmlsTDNPU1Z2cHJ4b1BwdnVPT0JZRzl6cGNmWG5PVUNuLTlCc0VkZV81STI2c044LXdJazZuak16MVhYVXZhLVBZWXRoRl83STIxZDZ2ZlNFLWlTWFc2WFpMTTQ5UlFNSC1ZVVItWFc5dmpib3o4QlZzcldXdl8?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -259,16 +259,31 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-07-31-0c3088f42a",
+      "date": "2026-07-31",
+      "topic": "Tech / AI",
+      "title": "Cari Kerja Kantoran Susah, Gen Z Ramai-Ramai Jadi Kuli Gaji Segini",
+      "summary": "CNBC Indonesia surfaced this fresh item: Cari Kerja Kantoran Susah, Gen Z Ramai-Ramai Jadi Kuli Gaji Segini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMktZVTFvaHF3SHFFMkZTMFkyNWotLUFjQ1BMZkhoekZpeno1bHR5Z1pPa1NHZTBSWkVWZm83dnRpRVRUUDRJRkFWMzBSUnZXZjFoMzRaUHBWTVRPd2tpaXJvb3J1TURJQXNWNHBYTV9mUVJnOUN0MXhESWdWSlRqcmpNNXpZNWlBVE9FVXR5bFVUcVVkTVBXXzJDMzM1cjRtaVFyaE04cm5HOXdObW56UERJc3RNYnNHLWdJcHpqSHUtbWYyclRCaNIByAFBVV95cUxNMktZVTFvaHF3SHFFMkZTMFkyNWotLUFjQ1BMZkhoekZpeno1bHR5Z1pPa1NHZTBSWkVWZm83dnRpRVRUUDRJRkFWMzBSUnZXZjFoMzRaUHBWTVRPd2tpaXJvb3J1TURJQXNWNHBYTV9mUVJnOUN0MXhESWdWSlRqcmpNNXpZNWlBVE9FVXR5bFVUcVVkTVBXXzJDMzM1cjRtaVFyaE04cm5HOXdObW56UERJc3RNYnNHLWdJcHpqSHUtbWYyclRCaA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-07-31-f3a42f46a3",
       "date": "2026-07-31",
       "topic": "Automotive / EV",
       "title": "Masih Ragu Beli Mobil Listrik? Ini Faktor Penyebab dan Solusinya",
-      "summary": "Kompas.com surfaced this fresh item: Masih Ragu Beli Mobil Listrik? Ini Faktor Penyebab dan Solusinya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "otomotif.kompas.com surfaced this fresh item: Masih Ragu Beli Mobil Listrik? Ini Faktor Penyebab dan Solusinya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
+      "source": "otomotif.kompas.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLW9KSFJDZ1FaUU5TQmFjd042S1dYY0tCUDF1a2tDTmFLbjdWRU5hLXdZbUdwc01xV0Foc3Vuclc4ZkNZLW8wSXpTS0FhaldEMWRoSVpYR1VWYTRZaDV0TmdLcmx4X1Iyd1ZjTERVb2w4RGxvZUNwTi1rTFo5N2lzQ2RWVDNDSlRsbWxnZlpMRlQ3X1ZHZV9WdlcyNEJROVB6LVVJVVRqOTVHVlE0XzE1UEI2NFhYZDA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbUFpaEtpTzdrZS1CeUNFNUlVMi1GOFZ5NlN6MlVEN3ZmZFRVMXdDejNVcTJvclpUS3hORl9xVTRPVVdtdFkxWHVabEI5TEJBdjRyWlBTdHFVdFozNEktNlRGc3JfZ19qQ3NseXpra3pFMm9CTjliam5MZVlXSTZHZG1pNU14VHptclRaSldYRVpsVGdxRnBmQlZkcmltaDdNTWMtVVN6MjFQMjJQRHRZUml0YXBnZWFxazBIWkhDT0Vud3JvWUFLMVp4XzVtazliWm5BekFGeFpzMjgz?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-07-31-741d556dc4",
-      "date": "2026-07-31",
-      "topic": "Infrastructure",
-      "title": "WSP PunyaInovasi Infrastruktur Berbasis Budaya, Raih Penghargaan Ini",
-      "summary": "CNBC Indonesia surfaced this fresh item: WSP PunyaInovasi Infrastruktur Berbasis Budaya, Raih Penghargaan Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSjdvMU1XSjZtM0ZoQmZRS0xHNUthSVlQR1lka3N3bU9kSUtBYjBkcTdscC00b1JNUm56WTQwMTU4dzctdDEyRTBPTFIzRGVUeUNwdHN5b0pjd3BCQUZzYklOd2FieGJrM2tUQ1J6bTlabW44RVl1OWYyb0lRc0xkWTJ3aVFxVkdHVXA4bVRwR2Y1eGFrVUJKSXJwVE9kR0dpMGRXWHJBZDVaUi1GeXo4Z01PNGp1Mzc3MFZMUHNrWW14cGtaa3FZeGxB0gHKAUFVX3lxTE5KN28xTVdKNm0zRmhCZlFLTEc1S2FJWVBHWWRrc3dtT2RJS0FiMGRxN2xwLTRvUk1SbnpZNDAxNTh3Ny10MTJFME9MUjNEZVR5Q3B0c3lvSmN3cEJBRnNiSU53YWJ4Ymsza1RDUnptOVptbjhFWXU5ZjJvSVFzTGRZMndpUXFWR0dVcDhtVHBHZjV4YWtVQkpJcnBUT2RHR2kwZFdYckFkNVpSLUZ5ejhnTU80anUzNzcwVkxQc2tZbXhwa1prcVl4bEE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-01T05:00:45+07:00",
+    "generatedAt": "2026-08-01T06:00:46+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 83,
+        "opportunityScore": 87,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,7 +2194,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 83,
+        "opportunityScore": 87,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2226,7 +2226,7 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 75,
+        "opportunityScore": 71,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

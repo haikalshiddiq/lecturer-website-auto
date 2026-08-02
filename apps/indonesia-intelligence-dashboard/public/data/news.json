@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T14:01:02+07:00",
+  "generatedAt": "2026-08-02T15:01:01+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 02 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -34,17 +34,32 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-02-ec1de9dd46",
+      "id": "2026-08-02-2ff5ad9f17",
+      "date": "2026-08-02",
+      "topic": "Markets",
+      "title": "Bank DBS Indonesia Kupas Strategi Investasi di Tengah Tantangan Rupiah, Suku Bunga, dan Volatilitas Pasar",
+      "summary": "Jakartakita.com surfaced this fresh item: Bank DBS Indonesia Kupas Strategi Investasi di Tengah Tantangan Rupiah, Suku Bunga, dan Volatilitas Pasar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "Jakartakita.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQzFnUklOSDVMcTBCYjNVZG50cDZCXy1hVllKNU41WGstLTdnOVRiYlppc1E2bl9DZllCRU9tOHdZcGlRRGI2eVNjZ2xtOTJzdXFiVllTMUFzR2I3Z21HN2FhdlowZjVGbHdmaGtSVERzM3A2dkw5bmhDcnE0cjNLNi1YWXpYbDBxU1lRQi1YS1lhbG9XRDh4SmQwMHE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-02-cd194a0a88",
       "date": "2026-08-02",
       "topic": "Automotive / EV",
-      "title": "Jetour Kembangkan Mobil Listrik Baru Khusus Pasar Indonesia",
-      "summary": "Kompas.com surfaced this fresh item: Jetour Kembangkan Mobil Listrik Baru Khusus Pasar Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Deretan Kasus Mobil Listrik Terbakar di Indonesia",
+      "summary": "Kompas.com surfaced this fresh item: Deretan Kasus Mobil Listrik Terbakar di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVnptNGxWbEZzYm5Hd2Q1YkVwTFdUTnVEbU1zTmxBUmgtVml3Z05FT1BSWlF5QWYyS3o2MHlyOE5qQzdOajlxTTR4RUhYS2dnQVpvSDdEcWFXRF9vRGdBazQ1N19iTjBqQkdEck1RNTlqRnhpTUJOMGVMT2JIVkwxQm5idkZsNzJqTU5peHJlNlpzVHFHWnlFaVB5ZnE5M1RTMUxicG0zRmx6WGthcEVtZkV5cw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc2wxS3BBbk5PaHpqWUJzMzQyb2JydTZRWG90OHQtcGNBMWlsOXNnQVNKSjFWb1Y1NmtrcU9qbmRjNEpqVUFINEtyRnUtdm84T2RjMEFzNEx4T0dTcDRSQ3BZblJzcmJqUmlaejlqU1VjWDBzTGJOTTlqMDlqV1NsYUd4a0lyaVRXQ0RPUjhla1RsSjJVUlBfZXpOTVZPbkJmSlRfcmZ3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -79,17 +94,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-02-d3c9c4b43b",
+      "id": "2026-08-02-cc30579cb4",
       "date": "2026-08-02",
       "topic": "Automotive / EV",
-      "title": "Wuling Tanggapi Rencana Pengalihan Insentif Kendaraan Listrik",
-      "summary": "achmadnurhidayat.id surfaced this fresh item: Wuling Tanggapi Rencana Pengalihan Insentif Kendaraan Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Mau Beli Wuling Aira ev? Kenali Dulu Perbedaan Standard Range dan Long Range",
+      "summary": "mobilinanews.com surfaced this fresh item: Mau Beli Wuling Aira ev? Kenali Dulu Perbedaan Standard Range dan Long Range. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "achmadnurhidayat.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmRmUtdE94TnlzQ0pFR0ZVYm41WWJQQWhhS3VTYktBeG12d2d5NTJ6YWplUWJydWx2RTljYmdjOHp3eUVsaWRJYzJ2aU14UEpNRXhUcjV3Z0lqenpWNlJaR00xdS1HLWJIRDUwRWdrdG5CUzRqcktLcDFOaw?oc=5",
+      "source": "mobilinanews.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWmc3QW9jNUhwUVhIUFZTOTZiQmJEaGhrV3pfQkdyMW1YUVpWRWNJYlFEbDdQUUxobDBZdm5paXdDQVFidTJhdlBFelQwZW9oSFNNdW9NMEtKZmxPbzhOakpFQUdlOHBGQ3VXc1I2cGN3VDZaMElZMFpZU0RFN1NTTk9jaGhXREctNWdqaUhWN2cyNVUtNnM5UWJ0NFBhU2pKTlV6aXdiVDlwNzVheU5KYjBxTVY2Vk1oTmtr?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -169,16 +184,31 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-02-a6bf31d743",
+      "id": "2026-08-02-7d31c043a9",
       "date": "2026-08-02",
       "topic": "Regulation",
-      "title": "Bank Dunia: Separuh Perusahaan RI Mengaku Mudah Lakukan Penghindaran Pajak",
-      "summary": "ekonomi.bisnis.com surfaced this fresh item: Bank Dunia: Separuh Perusahaan RI Mengaku Mudah Lakukan Penghindaran Pajak. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Survei Bank Dunia, Separuh Perusahaan RI Mudah Hindari Pajak",
+      "summary": "Harian Jogja surfaced this fresh item: Survei Bank Dunia, Separuh Perusahaan RI Mudah Hindari Pajak. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.05,
       "confidence": 0.68,
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "ekonomi.bisnis.com via Google News RSS discovery",
+      "source": "Harian Jogja via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTI3RUdaTDdrbEZaeU1iMkdsU1U2a3pjYWFPN0lGXzkxREE0ZTdxUlNGRFR0bjJGOGJoSTMtUDJWMENWMEdjSGRnTzZOcjRfaVBtLVQtMVl6ZmQwVlZhVHd1OGxQQ3Y1Q3lORE9fdFA1QlpKbTdxdUZWc0FibGNjLUhyZG9FY05BdzkwRnFFYy1ZQkdVc1N4NERLelBYT2JF?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-02-a6bf31d743",
+      "date": "2026-08-02",
+      "topic": "Regulation",
+      "title": "Bank Dunia: Separuh Perusahaan RI Mengaku Mudah Lakukan Penghindaran Pajak",
+      "summary": "Bisnis.com - Ekonomi surfaced this fresh item: Bank Dunia: Separuh Perusahaan RI Mengaku Mudah Lakukan Penghindaran Pajak. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.05,
+      "confidence": 0.68,
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "Bisnis.com - Ekonomi via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSDNuMjVuS195bzNZUnlYRHZnZlp4WEF3M3c4dml4ZzJDUnBSbzY5Y21jdU5Pa3JwZk11b0tyZktFMGdTWWI4dWcyVlh1eFNndXktWjF6WW1Id2NWTVRPZUtBdWM2c3o5c1Y3N3g3NzZycFJsaXZDTVoweEhuNWhYNXI2NEVISTZmWFdzX3lCaGpiY3BtdjVLSUdjQ0Y4QjUwSEJxSEFVNkVVSm56Mm1yTzk3OTNxT1ZkQ2RITTlNUHRQX2hN?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -332,40 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb0hRdzdiMUM5dHlESHFDUkhhVU9DTFNWTk5fWUdnRWdFWmpfUEk5Z0o4VnZENG9mUzE3QVZtT3VkYzNvNzdIOUVxZVRZeVR5V2I4cGcyMV9CVW9ZbmRsWjFnOW5VOFl4eFpCVFV1VnA0b3RHeDNkU0kwdHlDZldGV1B5WkNCWXNqOUpvQ0pPLUw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-01-044288e414",
-      "date": "2026-08-01",
-      "topic": "Infrastructure",
-      "title": "Jasa Marga Bangun Tol Berkelanjutan di Bali, BSI Kucurkan Rp1,56 Triliun",
-      "summary": "konstruksimedia.com surfaced this fresh item: Jasa Marga Bangun Tol Berkelanjutan di Bali, BSI Kucurkan Rp1,56 Triliun. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "konstruksimedia.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVjlQbkk4d3RMMmdSNlpNcWFSVlRlbUZmQVByR2lSR1ptTWxJTXQzVGwtdkFfbnJFVFFodEtZbERoaHVpb29GNlJYdjhzNVJKa3I2U1BhbmlKOWhxUzZpX2NjdEZjSWNoYWw5ZVg0NndYQzFQN1lTMUI5ZnpYeUE0ZjlrT3luYlpfQURzV2pqNk9zclNnaGRoREd1RmNJTExn?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-01-63d53d7ddd",
-      "date": "2026-08-01",
-      "topic": "Infrastructure",
-      "title": "Tol Trans Jawa Terus Tambah Panjang, Dikit Lagi Tembus Banyuwangi",
-      "summary": "CNBC Indonesia surfaced this fresh item: Tol Trans Jawa Terus Tambah Panjang, Dikit Lagi Tembus Banyuwangi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ0Nudm1QOUwtR1F5aG9Zekh6dVZfMXRMVnkwNUNUbXlXTjU0MVFUVTJTUnluaFk4X2xrWW8wa1dxOTNsenFNX2pFVDI0cjhXbDVTTFE3N1hVVmlINUdmenFfNXNZUGY4S3pQTy1RbTFNS0o4b2VFMTNON3ZLaUVwQzFwM2E0TEFXM1k1bDBzbUc3TEpHR1dqb0w4ek1CenF3aVRFdXlmMjRtX3JIRXBJVkswT0JJMVBUaTRyekRFM27SAcYBQVVfeXFMTTY4bmg2a3lNa0NoSklsNHMxSzNIMWZka01ncGQ2ZXlsUkRGSU5RUG5wVWxtM0twYThYMzJ0Q3Z3dGNPOFdWczhuaWNHek11MEFDX0x0TV82QWJzSC05X0g3MGpfVUE5bE5kTmM1dU9oSkNkWXJIWHR4VHQzc2RCSTNHRC1GVF9IaFlEckQwZjlsb0VKMm1pa3NYYnBRT1d6ZnJUYVcySldqd0lNVGs1RlZTdy1ER284NEJlMWZYSkNkc1MtM1Z3?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-02T14:01:02+07:00",
+    "generatedAt": "2026-08-02T15:01:01+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 79,
+        "opportunityScore": 83,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,7 +2194,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 79,
+        "opportunityScore": 83,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2226,7 +2226,7 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 75,
+        "opportunityScore": 67,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

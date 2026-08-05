@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T03:00:20+07:00",
+  "generatedAt": "2026-08-06T04:00:26+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 06 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -19,17 +19,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-06-e90c48f245",
+      "id": "2026-08-06-bdf9f86585",
       "date": "2026-08-06",
       "topic": "Business / Investment",
-      "title": "IKBM pada Triwulan II-2026 tercatat sebesar 52,31, menunjukkan Industri Manufaktur Indonesia berada pada Posisi Ekspansi",
-      "summary": "Badan Pusat Statistik Indonesia surfaced this fresh item: IKBM pada Triwulan II-2026 tercatat sebesar 52,31, menunjukkan Industri Manufaktur Indonesia berada pada Posisi Ekspansi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Ekonomi Indonesia Triwulan II-2026 Tumbuh 5,29 Persen (Y-on-Y)",
+      "summary": "Badan Pusat Statistik Indonesia surfaced this fresh item: Ekonomi Indonesia Triwulan II-2026 Tumbuh 5,29 Persen (Y-on-Y). Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "Badan Pusat Statistik Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxON3RBVEJDVUN5VHZrOE55QThfS24zMU4xa0M3eUNFR0lyNHplcVVpZFlWSWFwdUtycmxaNVBKQ0Z5U25BWXRpd0UtUDV0ODgydWxhMzFYZ0dHTkp0Z2EtbjRlS0dwX2JIZ3FMQ3IyX1NYSnU5MWlSYklQVjZ5ckhlSUFxT1pFb0xlQ1pjMC1Ea2pVQWdXdW5wblBncjhBYzdmelUydFYxMHBlR0lNM3pvLUoxSnRGbnZ3aGZwM24zdlZ0V24wRVBwY2lUQjVpaU5tbVNWeVc4STBqbWVfVFE1eHZaai1xMU9QblRUUVBJd0N4alotcG9tRndsWW5FOXFyZ3lERlhkU19HalE?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2t1Y09mSGJFVU5IXzVrR1N5X0hZbUFwbmhtWWlvLUwwVUxidWxCekpZWWJCU0VQU0VhSFUtYy16RjFUUHZOYkpaV0h5cnN3anVUMmttVExQVmNXc2xVbmQ2RnB2U1lBOGtpellDYkFqdnhCWm8tSFh4X3dQZnJHR2pGbVZnMmdKeFRia2pva3g4YkJVSXNrcE9wTVR2MnduLUlzbnN4U05Zd3ZMQ1Y0SHlZS0lkX0lWRmFmamNB?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -49,6 +49,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-06-0d4ac51c58",
+      "date": "2026-08-06",
+      "topic": "Tech / AI",
+      "title": "AI dan Sensus Kasta India 2027 — Pelajaran Etika Data untuk Indonesia",
+      "summary": "feedberry.com surfaced this fresh item: AI dan Sensus Kasta India 2027 — Pelajaran Etika Data untuk Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "feedberry.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNDFIN3c0RVdOU1pCWW5ZTWlsNE9BUHVQdVFoVWw5bl9KZnNOaFloN3lOZUcwRXdrOHk5TFpoVWtFTy1ZazNDNi0zUE9mVHRKNkJNMlpOUDJDS3FHc1JvVGd0V1V4OFl0VFJHVzVUTExLc2FPRWFHaDB6SHIzN0lBR0N0djhpQllJTktlUEN0aFRCak1lN3FjOEVoQlJYQQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-06-61f56c862a",
       "date": "2026-08-06",
       "topic": "Automotive / EV",
@@ -60,6 +75,21 @@
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Uzone.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5mN1plZ1BuSEo0X29IQ3JTU0d3UldSelJNM19NV0d3MDZZSWw4c2RXdWozY2ZQYXFmOGRwS255UDF5N3dNbHFoZHlBc0t0eU5OaEx4SUhKME1FQnlUQm0ySV9ldk5nU2lYLS01TzVZWE5wMWxPc2ZUeEVB?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-06-a5163808b0",
+      "date": "2026-08-06",
+      "topic": "Automotive / EV",
+      "title": "Mobil Listrik Sudah Murah Tapi Konsumen Masih Ragu, Ternyata Ini Biang Keroknya",
+      "summary": "VIVA.co.id surfaced this fresh item: Mobil Listrik Sudah Murah Tapi Konsumen Masih Ragu, Ternyata Ini Biang Keroknya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "VIVA.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTWhSVFd0YXlMN3BrRXJXMjczWjR2NTR5am1Ya0swcE1ITWJweEVYR18tU0k0d3pLcDFIMlVYVUVlNkpQeWVtZEpRR1RxcExjNUMzcUFVeHJCT3k1T29ZcXJleWFqLVhVU2dHNXNKVDh0RU9CTDdSVkY0LXZ2Rm9BbUhRMDRnMmc0cnZMaTN4eWptTC02NDJobm1SOXIydmNfUm93WjhuMWVwcVJOU1pGMmg1RTBIektkVFHSAb8BQVVfeXFMTnZKUkhiNDlac0tPX2dMTjBuaTRURDdHN1NqdkdJSjRtUW1zaXN6ODlzLTBZek05S3JPSEtnR09OMmE1X08tVGktdjFkX01XNUExb2J0MlFvY2NIeGJYcUxMTFY4dHQwUXZ0dXUtcGhPR19kU2t5RTdVcjJ6UXVLT3h1T2FXOFEySEJqU3NhWXFwYXNNRkR6a2xROEs3U3FLU3VmR0tST2NLNFRNUzZodUdQRFlRUl9YakRZWG5XaDA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -199,21 +229,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-05-3b2fdf848b",
-      "date": "2026-08-05",
-      "topic": "Tech / AI",
-      "title": "Pemerintah Perkuat Ekosistem Ekonomi Digital sebagai Mesin Pertumbuhan Baru",
-      "summary": "PENAJAM News surfaced this fresh item: Pemerintah Perkuat Ekosistem Ekonomi Digital sebagai Mesin Pertumbuhan Baru. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "PENAJAM News via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ0NNSjlyTVpQY3I3RnByRHJNU3RuUFd2cF9pYUFUVkNCWHRoalhVWVJCbGl6VGNJUEtDQjRhblBzbFg3YkJfV253RFhtLWJVeHczdW5CcW9LY2VRY3haRGE1RGJHQmd3Y0M0TXFveHFiZThydnExUEZOSDl6R1FoV2VKM3QwU3NiVXhmUVBrODVqVDFNOGZTdXNOX3psNkpoZ3c?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-05-e9e732cdc3",
       "date": "2026-08-05",
       "topic": "Automotive / EV",
@@ -229,17 +244,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-05-ba7b69e6e8",
+      "id": "2026-08-05-722b136497",
       "date": "2026-08-05",
-      "topic": "Automotive / EV",
-      "title": "Komunitas Mobil Listrik Dorong Regulasi EV di Indonesia Lebih Berani",
-      "summary": "otomotif.kompas.com surfaced this fresh item: Komunitas Mobil Listrik Dorong Regulasi EV di Indonesia Lebih Berani. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Infrastructure",
+      "title": "Investor China Lirik Investasi di Kawasan Tol Solo-Yogyakarta",
+      "summary": "BeritaSatu.com surfaced this fresh item: Investor China Lirik Investasi di Kawasan Tol Solo-Yogyakarta. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "otomotif.kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkZjSmtvNGY5LTBtbmdCOS02NUNpNXhPT1FLN3dqbFRRMzl0TXlYOW1OcVgzMTRlNHlpNmdpR04yRXkzbU5hX1ZnUjNtaXBSX05NVUFrZEJGaTMzUzN5eVd4WjJLcDZERTByN1dGY2VSWnB4TzZhbVpxVDhhVXM2aXk5RE1QY051N3Y5bVhsN00wS25ibzQ5VnRzdkNzbC1fYXpVMXV3V0RvV09xVE9vbHlkQ3ZveUtYdFpiYmRjMA?oc=5",
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "BeritaSatu.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcG9FTHdKc3g5ZGdiTl9qWlhFTHpZOWlNeXpvemFVbjE1eXZqV1ZMOTdqYXkxZ21WSy1rdkpPa2F2OENMYlFWOGFWQkgtUHNPOFNuaWJsQzRsdjNxejduaFNVVlE3SGFaTF9zaDM1d05GT0syaXZ0bFB1RXNGOFBwTE1HSThTQUdIVkdRc01MR0F6RTRVWm4xNGdFOTJoV1ZZN051VV8wRQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -293,12 +308,12 @@
       "date": "2026-08-05",
       "topic": "Markets",
       "title": "IHSG Dibuka Menguat ke Level 6.338, Investor Sambut Positif Redanya Ketegangan AS-Iran",
-      "summary": "Suara Surabaya surfaced this fresh item: IHSG Dibuka Menguat ke Level 6.338, Investor Sambut Positif Redanya Ketegangan AS-Iran. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "suarasurabaya.net surfaced this fresh item: IHSG Dibuka Menguat ke Level 6.338, Investor Sambut Positif Redanya Ketegangan AS-Iran. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Suara Surabaya via Google News RSS discovery",
+      "source": "suarasurabaya.net via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeldUaGQ5TE0xQ3RWVzNNeWlSNWFKbHlYaGtQUUZuVkppblZrejdZSXRHaXFzLVpFbm1FSlNCN1ROakloUlNaQ0JVV3E3SVlTSjFkV1JXODczZEt3anZpa0dWbVoyUzUzRV96NmR6QmllR0RXNWR0WklLUWRPRWo1d0RLSVdPQWlpRGduNVBnZ0kybUlTencyck9TQ2pFeE1vMlBkWGRDZmVVSmZHRDAwYnNUUFh0V3A1SDFwRkYzSXlvaDlPbm03bHpSX0psR1o50gHWAUFVX3lxTE1OUjBxcF9hVF81SXdtNnpYUHdid1FhYlJmLXZ5MVFlcmhNay1TdGpTTWxvaUF0Wkk1QnNtR2IyZGJVLTJEdENYNDhJUmtxUHhzMlNYUmgwWFdsTjRONUZQQjhHcHlRMHNxME1TOVlCQlB5NjBpSWFCV3RZSDFna2RQSFJGZk02cFMzVnQxWENIeHlfR1diUUY1eDlRN2JkeDNRbnB1Vk9EUXlVZVViLWVRbkxxLXFSTlcwT0JjdzhuRXEtZnpTWjJQbFBicWlVU05SQTczaXc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd1FWQ2wtLVhQY3l5dnRHZ1lmUkpVRENXejgzeDRleUo3OHltVGw0SEU3b1JIX1UxNmhrVzNfU2lTY2FldkhVTmktcDRXNlpQVU1PbHVuVzJvNC05N3VXMzFtaEFDZ19hd0dCWXVBLUVtU1dpNmVILXJEQWl0c2VZQ1V6eHNjcWdFOWRiWnZEclZEeDJEbzB3UVBleGJlU3dvSzZsUjF1U3ZXc0QzYm1ONUFDMUVFOTgtbTJyTDN1Y2NYUdIBxwFBVV95cUxNdEhuQW5vT1FrRW03dzZudUd1YzBncDBUaXRRX0RUZ01qOFVPbUs0QmltOW9SdkNKOHZlZk9tSkp2OEhFTS1OV1ZUdlNrMGIyalRaa08wQUNGRV8xbW0xYXF2andrcXd6WDY0SXBKQTNScUNiYUF3dkJ3N2M3RnNaYkhGQkdtVkJuUFdyc1JsLTlCRmE4UGhLT2xkbnc0WnBpX0pqTEtnUTJBSzZuRS1WZEZPOF9NTWlEY2wtdmwtTVA1T0pPNlVB?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-05-598f8f2d0a",
-      "date": "2026-08-05",
-      "topic": "Infrastructure",
-      "title": "Pengusaha Logistik Ungkap Kapasitas Tol Indonesia Belum Bersaing dengan Negara Lain",
-      "summary": "Bisnis.com - Ekonomi surfaced this fresh item: Pengusaha Logistik Ungkap Kapasitas Tol Indonesia Belum Bersaing dengan Negara Lain. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Bisnis.com - Ekonomi via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWk1UQWZIS2ZrMWp6OXRvMl9vMXJwd1VsR3JoeHc1aEp5TFVfUGdHU0VNekNtZWVtVjF6SVp5a0JBRF9COUJieERsT1RfUzZHNmlPMDhxbGxMWVA2RXc5YlZzZnN3a1BGTnBQWTZPc3VtVVd2bXZVZWRqd0N6bEgwdDFUc21uV3BIbGkzWWh5NG5ta3FrS2dZdDRBSEJJVzdLSWpVZjFWeFpqa0wyTXhsMzBOMjhvN1JMT0RycllHSmp0UlJyVmRIZVRvZXJLOHlq?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-06T03:00:20+07:00",
+    "generatedAt": "2026-08-06T04:00:26+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -672,12 +672,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12653.7998,
+        "last": 12657.5,
         "date": "2026-08-05",
-        "return1m": 1.68,
-        "return3m": 1.11,
-        "return6m": 7.55,
-        "return1y": 9.95,
+        "return1m": 1.71,
+        "return3m": 1.14,
+        "return6m": 7.58,
+        "return1y": 9.98,
         "volatility": 10.22,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 12661.2344
           }
         ],
-        "profitScore": 3.31,
+        "profitScore": 3.34,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +970,12 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 113.66,
+        "last": 113.64,
         "date": "2026-08-05",
-        "return1m": 2.64,
-        "return3m": 2.78,
-        "return6m": 5.66,
-        "return1y": 7.04,
+        "return1m": 2.62,
+        "return3m": 2.76,
+        "return6m": 5.64,
+        "return1y": 7.02,
         "volatility": 9.87,
         "maxDrawdown": -6.3,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 113.8495
           }
         ],
-        "profitScore": 3.26,
+        "profitScore": 3.24,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,12 +1268,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13996.04,
+        "last": 13998.7168,
         "date": "2026-08-05",
-        "return1m": 0.71,
-        "return3m": 2.62,
-        "return6m": 6.07,
-        "return1y": 6.55,
+        "return1m": 0.73,
+        "return3m": 2.64,
+        "return6m": 6.09,
+        "return1y": 6.57,
         "volatility": 7.66,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -1558,7 +1558,7 @@
             "value": 14011.8096
           }
         ],
-        "profitScore": 3.18,
+        "profitScore": 3.2,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,13 +1566,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20705.0,
+        "last": 20709.0,
         "date": "2026-08-05",
-        "return1m": 1.45,
-        "return3m": 1.45,
-        "return6m": 5.95,
-        "return1y": 6.16,
-        "volatility": 16.13,
+        "return1m": 1.46,
+        "return3m": 1.46,
+        "return6m": 5.97,
+        "return1y": 6.18,
+        "volatility": 16.14,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -1856,7 +1856,7 @@
             "value": 20148.0
           }
         ],
-        "profitScore": 2.18,
+        "profitScore": 2.2,
         "view": "strongest IDR return screen"
       },
       {
@@ -2238,15 +2238,15 @@
         "name": "Apple",
         "sector": "Consumer technology",
         "thesis": "Installed-base monetization, services, and premium-device ecosystem.",
-        "last": 310.92,
+        "last": 311.0,
         "date": "2026-08-05",
-        "return1m": 0.08,
-        "return3m": 10.99,
-        "return6m": 20.39,
-        "return1y": 49.79,
+        "return1m": 0.11,
+        "return3m": 11.02,
+        "return6m": 20.42,
+        "return1y": 49.83,
         "volatility": 25.88,
         "maxDrawdown": -13.82,
-        "opportunityScore": 71.8,
+        "opportunityScore": 71.9,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -2647,7 +2647,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 310.92
+            "value": 311.0
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AAPL/"
@@ -2657,15 +2657,15 @@
         "name": "Eli Lilly",
         "sector": "Healthcare",
         "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-        "last": 1168.78,
+        "last": 1169.86,
         "date": "2026-08-05",
-        "return1m": -5.4,
-        "return3m": 21.33,
-        "return6m": 12.44,
-        "return1y": 57.93,
-        "volatility": 38.39,
+        "return1m": -5.32,
+        "return3m": 21.44,
+        "return6m": 12.54,
+        "return1y": 58.07,
+        "volatility": 38.4,
         "maxDrawdown": -23.31,
-        "opportunityScore": 70.1,
+        "opportunityScore": 70.3,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -3066,7 +3066,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 1168.78
+            "value": 1169.86
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"
@@ -3076,13 +3076,13 @@
         "name": "Alphabet",
         "sector": "Digital ads / cloud",
         "thesis": "Search cash flow, cloud growth, and AI product distribution.",
-        "last": 362.32,
+        "last": 362.43,
         "date": "2026-08-05",
-        "return1m": -1.28,
-        "return3m": -6.06,
-        "return6m": 8.3,
-        "return1y": 88.81,
-        "volatility": 32.46,
+        "return1m": -1.25,
+        "return3m": -6.03,
+        "return6m": 8.33,
+        "return1y": 88.86,
+        "volatility": 32.45,
         "maxDrawdown": -21.09,
         "opportunityScore": 67.4,
         "risk": "Moderate",
@@ -3485,7 +3485,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 362.32
+            "value": 362.43
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-GOOGL/"
@@ -3495,12 +3495,12 @@
         "name": "JPMorgan Chase",
         "sector": "Financials",
         "thesis": "Scale, diversified earnings, and strong balance-sheet execution.",
-        "last": 359.15,
+        "last": 359.24,
         "date": "2026-08-05",
-        "return1m": 5.88,
-        "return3m": 14.94,
-        "return6m": 19.59,
-        "return1y": 21.24,
+        "return1m": 5.9,
+        "return3m": 14.97,
+        "return6m": 19.62,
+        "return1y": 21.27,
         "volatility": 22.34,
         "maxDrawdown": -15.47,
         "opportunityScore": 66.7,
@@ -3904,7 +3904,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 359.15
+            "value": 359.24
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-JPM/"
@@ -3914,15 +3914,15 @@
         "name": "Broadcom",
         "sector": "Semiconductors / infrastructure",
         "thesis": "AI networking, custom silicon, and infrastructure software cash flow.",
-        "last": 418.49,
+        "last": 418.28,
         "date": "2026-08-05",
-        "return1m": 12.87,
-        "return3m": -0.66,
-        "return6m": 25.75,
-        "return1y": 42.49,
+        "return1m": 12.81,
+        "return3m": -0.71,
+        "return6m": 25.69,
+        "return1y": 42.42,
         "volatility": 47.54,
         "maxDrawdown": -28.95,
-        "opportunityScore": 64.9,
+        "opportunityScore": 64.8,
         "risk": "High",
         "sparkline": [
           {
@@ -4323,7 +4323,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 418.49
+            "value": 418.28
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AVGO/"
@@ -4333,13 +4333,13 @@
         "name": "NVIDIA",
         "sector": "Semiconductors / AI",
         "thesis": "AI accelerator leadership with high growth and valuation sensitivity.",
-        "last": 219.2,
+        "last": 219.22,
         "date": "2026-08-05",
-        "return1m": 11.31,
-        "return3m": 10.46,
-        "return6m": 16.27,
-        "return1y": 23.24,
-        "volatility": 36.52,
+        "return1m": 11.32,
+        "return3m": 10.47,
+        "return6m": 16.28,
+        "return1y": 23.25,
+        "volatility": 36.53,
         "maxDrawdown": -20.22,
         "opportunityScore": 62.3,
         "risk": "Moderate",
@@ -4742,7 +4742,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 219.2
+            "value": 219.22
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
@@ -4752,12 +4752,12 @@
         "name": "Exxon Mobil",
         "sector": "Energy",
         "thesis": "Cash generation and diversification when energy prices support the cycle.",
-        "last": 151.6,
+        "last": 151.63,
         "date": "2026-08-05",
-        "return1m": 6.99,
-        "return3m": -0.75,
-        "return6m": 10.79,
-        "return1y": 35.79,
+        "return1m": 7.02,
+        "return3m": -0.73,
+        "return6m": 10.82,
+        "return1y": 35.82,
         "volatility": 24.92,
         "maxDrawdown": -20.65,
         "opportunityScore": 59.2,
@@ -5161,7 +5161,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 151.6
+            "value": 151.63
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-XOM/"
@@ -5171,15 +5171,15 @@
         "name": "Visa",
         "sector": "Payments",
         "thesis": "Global electronic-payment volume and high-margin network economics.",
-        "last": 368.43,
+        "last": 368.54,
         "date": "2026-08-05",
-        "return1m": 4.61,
-        "return3m": 12.32,
-        "return6m": 13.27,
-        "return1y": 6.65,
+        "return1m": 4.64,
+        "return3m": 12.35,
+        "return6m": 13.31,
+        "return1y": 6.68,
         "volatility": 21.87,
         "maxDrawdown": -17.35,
-        "opportunityScore": 58.2,
+        "opportunityScore": 58.3,
         "risk": "Lower",
         "sparkline": [
           {
@@ -5580,7 +5580,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 368.43
+            "value": 368.54
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-V/"
@@ -5590,12 +5590,12 @@
         "name": "Amazon",
         "sector": "Cloud / commerce",
         "thesis": "AWS margin expansion and global commerce operating leverage.",
-        "last": 272.59,
+        "last": 272.65,
         "date": "2026-08-05",
-        "return1m": 10.82,
-        "return3m": 1.61,
-        "return6m": 11.41,
-        "return1y": 16.44,
+        "return1m": 10.84,
+        "return3m": 1.64,
+        "return6m": 11.43,
+        "return1y": 16.46,
         "volatility": 35.36,
         "maxDrawdown": -21.74,
         "opportunityScore": 54.4,
@@ -5999,7 +5999,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 272.59
+            "value": 272.65
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AMZN/"
@@ -6009,15 +6009,15 @@
         "name": "Microsoft",
         "sector": "Software / cloud",
         "thesis": "Azure, enterprise software, and AI monetization exposure.",
-        "last": 487.24,
+        "last": 487.46,
         "date": "2026-08-05",
-        "return1m": 25.31,
-        "return3m": 17.57,
-        "return6m": 1.39,
-        "return1y": -8.67,
-        "volatility": 31.93,
+        "return1m": 25.36,
+        "return3m": 17.62,
+        "return6m": 1.43,
+        "return1y": -8.63,
+        "volatility": 31.92,
         "maxDrawdown": -34.91,
-        "opportunityScore": 50.6,
+        "opportunityScore": 50.7,
         "risk": "High",
         "sparkline": [
           {
@@ -6418,7 +6418,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 487.24
+            "value": 487.46
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-MSFT/"
@@ -6428,11 +6428,11 @@
         "name": "Costco",
         "sector": "Consumer staples",
         "thesis": "Membership economics and resilient high-frequency consumer demand.",
-        "last": 942.03,
+        "last": 941.99,
         "date": "2026-08-05",
         "return1m": -0.58,
         "return3m": -6.89,
-        "return6m": -2.91,
+        "return6m": -2.92,
         "return1y": 0.25,
         "volatility": 19.82,
         "maxDrawdown": -16.57,
@@ -6837,7 +6837,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 942.03
+            "value": 941.99
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-COST/"
@@ -6847,12 +6847,12 @@
         "name": "Meta Platforms",
         "sector": "Digital ads / AI",
         "thesis": "Advertising efficiency, engagement, and AI-driven recommendation gains.",
-        "last": 588.8,
+        "last": 588.77,
         "date": "2026-08-05",
-        "return1m": -4.35,
+        "return1m": -4.36,
         "return3m": -3.28,
         "return6m": -12.51,
-        "return1y": -23.87,
+        "return1y": -23.88,
         "volatility": 38.37,
         "maxDrawdown": -33.45,
         "opportunityScore": 24.8,
@@ -7256,7 +7256,7 @@
           },
           {
             "date": "2026-08-05",
-            "value": 588.8
+            "value": 588.77
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-META/"
@@ -7267,15 +7267,15 @@
       "name": "Apple",
       "sector": "Consumer technology",
       "thesis": "Installed-base monetization, services, and premium-device ecosystem.",
-      "last": 310.92,
+      "last": 311.0,
       "date": "2026-08-05",
-      "return1m": 0.08,
-      "return3m": 10.99,
-      "return6m": 20.39,
-      "return1y": 49.79,
+      "return1m": 0.11,
+      "return3m": 11.02,
+      "return6m": 20.42,
+      "return1y": 49.83,
       "volatility": 25.88,
       "maxDrawdown": -13.82,
-      "opportunityScore": 71.8,
+      "opportunityScore": 71.9,
       "risk": "Moderate",
       "sparkline": [
         {
@@ -7676,7 +7676,7 @@
         },
         {
           "date": "2026-08-05",
-          "value": 310.92
+          "value": 311.0
         }
       ],
       "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AAPL/"

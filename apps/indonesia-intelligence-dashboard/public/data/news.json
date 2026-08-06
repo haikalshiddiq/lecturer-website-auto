@@ -1,23 +1,8 @@
 {
-  "generatedAt": "2026-08-06T13:00:33+07:00",
+  "generatedAt": "2026-08-06T14:00:34+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 06 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
-    {
-      "id": "2026-08-06-f5dcfaef87",
-      "date": "2026-08-06",
-      "topic": "Tech / AI",
-      "title": "Airlangga Dorong Data Center, AI, dan Semikonduktor Jadi Mesin Pertumbuhan Ekonomi",
-      "summary": "Batamtoday.com surfaced this fresh item: Airlangga Dorong Data Center, AI, dan Semikonduktor Jadi Mesin Pertumbuhan Ekonomi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.24,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Batamtoday.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUGNoWmtCNm55OU1aOEVMTmdVdHhaRW9Ba043X2d6NHFhYTR4VEdIUGREM3FnblJTeHJnT1otM2kzb0VreE5BOGlGM202ZXhlVDQ2alc3RllWSzRNa3ZDUVRuM181R1FINTJrTkM3S0RrTjZjSTRSNFFCTl9tT2MzMzh6SzlxbnZqR3dYY1hSR3kyeEVJYndnV0M3d1REYUJtb3dJVndLRXZyVmZoNjc4NFliaXlrTVE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
     {
       "id": "2026-08-06-71f39995cc",
       "date": "2026-08-06",
@@ -30,6 +15,36 @@
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Kompas.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV2ZUQVdfVmtOOFZiNDFxVDJiZ1BybXJFSjl1WmFVNEtERkFYdWdEWHQzX3FZeXZoQjlEeTBhSnA2ZlZTdjJBOGdZaXp0TndCRFUwclllZDJBd0xEaWE4ZVVxSThmdkRIb2N5RmYxaUExcjZScG5OYlk3cHplVEtWMk5oblVwQjA0dnE1U1ZuZmxTemxQSUpUTEs3YkVFdzB0b0pqVmc2QnJxMzZmM01oaHJFMlprdVVl?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-06-90f9b7b066",
+      "date": "2026-08-06",
+      "topic": "Business / Investment",
+      "title": "Ekonomi Indonesia Tumbuh 5,29 Persen, Semester I 2026 Cetak Rekor Tertinggi dalam Lima Tahun",
+      "summary": "Batamtoday.com surfaced this fresh item: Ekonomi Indonesia Tumbuh 5,29 Persen, Semester I 2026 Cetak Rekor Tertinggi dalam Lima Tahun. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Batamtoday.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPenVycXhlQ0ZHVXhrckFMREtWRU05X1liWFp0OElUTERUZVRJN3VVRmpqcTBKTUlXM01CU3dMSEFEZl9FbkE1Q3Q1cVZXZk82Z3RwczU0YVVLUURIaF9ZOEpETWF1bXhXU1VldXlud0h0dlZPWUQ4MTV6UFVHTEdpZjcyV2ZqUFpaYzI0UzR6VTdkSXNxUXJBREcxbWhpWkVhSUthSlRMOXpfaWNXXzdCdjU0U0t6ZkdxTmc?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-06-da8010c5ad",
+      "date": "2026-08-06",
+      "topic": "Tech / AI",
+      "title": "Airlangga: Data Center, AI dan Semikonduktor Jadi Mesin Baru Pertumbuhan Ekonomi Indonesia",
+      "summary": "Batamtoday.com surfaced this fresh item: Airlangga: Data Center, AI dan Semikonduktor Jadi Mesin Baru Pertumbuhan Ekonomi Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Batamtoday.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUGNoWmtCNm55OU1aOEVMTmdVdHhaRW9Ba043X2d6NHFhYTR4VEdIUGREM3FnblJTeHJnT1otM2kzb0VreE5BOGlGM202ZXhlVDQ2alc3RllWSzRNa3ZDUVRuM181R1FINTJrTkM3S0RrTjZjSTRSNFFCTl9tT2MzMzh6SzlxbnZqR3dYY1hSR3kyeEVJYndnV0M3d1REYUJtb3dJVndLRXZyVmZoNjc4NFliaXlrTVE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -64,21 +79,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-06-b7f0247856",
-      "date": "2026-08-06",
-      "topic": "Business / Investment",
-      "title": "Indonesia Kejar Pertumbuhan Ekonomi Digital, Talenta Lokal Jadi Kunci Utama",
-      "summary": "news.schoolmedia.id surfaced this fresh item: Indonesia Kejar Pertumbuhan Ekonomi Digital, Talenta Lokal Jadi Kunci Utama. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "news.schoolmedia.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPelVmY2p6NkdUWE1femQ4bnF3aUQ5bXNfeWNoQnFlOUpwbFByTXBTM3BOTDIzZWlJeUxPeS1EMk1kc2M2cVE0cHlTX21TdllWTUZiUUpqQXVZMlBUYVBWbWhhN3RQVzdtOUNXWkZ2ZzZFeUZqWkZ0NkRqQWwwWXItZ3dIeGVKaVZhcXM4SDluSkJRTHAzTEdvN2dsWFZDR1lZUkc4Ti1HS3lXaktxVlJ2X0tEZXA?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-06-4718249060",
       "date": "2026-08-06",
       "topic": "Business / Investment",
@@ -94,17 +94,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-06-8d1199e337",
+      "id": "2026-08-06-b7f0247856",
       "date": "2026-08-06",
       "topic": "Business / Investment",
-      "title": "Data Pertumbuhan Ekonomi Triwulan II-2026 Bisa Dibaca Apa?",
-      "summary": "Kompas.id surfaced this fresh item: Data Pertumbuhan Ekonomi Triwulan II-2026 Bisa Dibaca Apa?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Indonesia Kejar Pertumbuhan Ekonomi Digital, Talenta Lokal Jadi Kunci Utama",
+      "summary": "news.schoolmedia.id surfaced this fresh item: Indonesia Kejar Pertumbuhan Ekonomi Digital, Talenta Lokal Jadi Kunci Utama. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Kompas.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON1Q5OFhLSjQtdEExdjFuMk9paGlWZFUzc21aUTJHbS1zWUw1NDhXci1XZ2RhWmFtdEFlNXREN2hwbXc2LUVwbTcxNHJuQjQyTVBZeGdmWVZDU2lsVlNocEZsUlJvT1owaTBXbFR2M0czdEl2bXREQUhzdDIyY0hzdUdNWUpERW1scUZyX1R1XzE?oc=5",
+      "source": "news.schoolmedia.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPelVmY2p6NkdUWE1femQ4bnF3aUQ5bXNfeWNoQnFlOUpwbFByTXBTM3BOTDIzZWlJeUxPeS1EMk1kc2M2cVE0cHlTX21TdllWTUZiUUpqQXVZMlBUYVBWbWhhN3RQVzdtOUNXWkZ2ZzZFeUZqWkZ0NkRqQWwwWXItZ3dIeGVKaVZhcXM4SDluSkJRTHAzTEdvN2dsWFZDR1lZUkc4Ti1HS3lXaktxVlJ2X0tEZXA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -124,17 +124,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-06-4950cf08b5",
+      "id": "2026-08-06-1db839aa6a",
       "date": "2026-08-06",
       "topic": "Markets",
-      "title": "IHSG menguat 28,78 poin ke posisi 6.379",
-      "summary": "ANTARA News Yogyakarta surfaced this fresh item: IHSG menguat 28,78 poin ke posisi 6.379. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "IHSG Kamis dibuka menguat 28,78 poin ke posisi 6.379",
+      "summary": "ANTARA News surfaced this fresh item: IHSG Kamis dibuka menguat 28,78 poin ke posisi 6.379. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "ANTARA News Yogyakarta via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQlFkR3RzU3ZscTBKckxSeC1CZ09id2Q3QnNaREo4OC1sU3hLMDBPRURZU2VDeVhobURaRTIwc21yZmppdUZtaWlBWEdxOEZIVXhSaWZUd2ZwRk9KYU1zNkMxZGdBMEN6YXhZcG9EakZJTXlaazRvMmpXZ1F6ZkFpcUJ4czlSQ3c?oc=5",
+      "source": "ANTARA News via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdzFNcTRzS2szTG53eDQ1Xy1yaUFlaVNmb0pSZVMyUEpacmFCdnFZLTFJOUNhNjFzTl9sdlR2V05uUWlZenVaLVZnLUFXa3FGMFFzYVJZb3R6eHFDZEUzc0U4bjFVM2dHN01mU2oxMlFRNVA2YS1BTC12NkJ0QmZNU2N6SHZkRDZUUzFqTkJEc1ZBMUE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -154,17 +154,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-06-1db839aa6a",
+      "id": "2026-08-06-4950cf08b5",
       "date": "2026-08-06",
       "topic": "Markets",
-      "title": "IHSG Kamis dibuka menguat 28,78 poin ke posisi 6.379",
-      "summary": "ANTARA News surfaced this fresh item: IHSG Kamis dibuka menguat 28,78 poin ke posisi 6.379. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "IHSG menguat 28,78 poin ke posisi 6.379",
+      "summary": "ANTARA News Yogyakarta surfaced this fresh item: IHSG menguat 28,78 poin ke posisi 6.379. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "ANTARA News via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdzFNcTRzS2szTG53eDQ1Xy1yaUFlaVNmb0pSZVMyUEpacmFCdnFZLTFJOUNhNjFzTl9sdlR2V05uUWlZenVaLVZnLUFXa3FGMFFzYVJZb3R6eHFDZEUzc0U4bjFVM2dHN01mU2oxMlFRNVA2YS1BTC12NkJ0QmZNU2N6SHZkRDZUUzFqTkJEc1ZBMUE?oc=5",
+      "source": "ANTARA News Yogyakarta via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQlFkR3RzU3ZscTBKckxSeC1CZ09id2Q3QnNaREo4OC1sU3hLMDBPRURZU2VDeVhobURaRTIwc21yZmppdUZtaWlBWEdxOEZIVXhSaWZUd2ZwRk9KYU1zNkMxZGdBMEN6YXhZcG9EakZJTXlaazRvMmpXZ1F6ZkFpcUJ4czlSQ3c?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-06T13:00:33+07:00",
+    "generatedAt": "2026-08-06T14:00:34+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -672,12 +672,12 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 113.55,
+        "last": 113.49,
         "date": "2026-08-06",
-        "return1m": 2.54,
-        "return3m": 2.68,
-        "return6m": 5.56,
-        "return1y": 6.93,
+        "return1m": 2.49,
+        "return3m": 2.63,
+        "return6m": 5.5,
+        "return1y": 6.88,
         "volatility": 9.87,
         "maxDrawdown": -6.3,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 113.8495
           }
         ],
-        "profitScore": 3.16,
+        "profitScore": 3.1,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +970,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13987.1104,
+        "last": 13978.9189,
         "date": "2026-08-06",
-        "return1m": 0.65,
-        "return3m": 2.56,
-        "return6m": 6.01,
-        "return1y": 6.48,
+        "return1m": 0.59,
+        "return3m": 2.5,
+        "return6m": 5.94,
+        "return1y": 6.42,
         "volatility": 7.67,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 14011.8096
           }
         ],
-        "profitScore": 3.11,
+        "profitScore": 3.05,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,12 +1268,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12628.7002,
+        "last": 12618.0996,
         "date": "2026-08-06",
-        "return1m": 1.48,
-        "return3m": 0.91,
-        "return6m": 7.34,
-        "return1y": 9.73,
+        "return1m": 1.39,
+        "return3m": 0.83,
+        "return6m": 7.25,
+        "return1y": 9.64,
         "volatility": 10.23,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -1558,7 +1558,7 @@
             "value": 12661.2344
           }
         ],
-        "profitScore": 3.1,
+        "profitScore": 3.01,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,13 +1566,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20684.0,
+        "last": 20675.0,
         "date": "2026-08-06",
-        "return1m": 1.34,
-        "return3m": 1.34,
-        "return6m": 5.84,
-        "return1y": 6.06,
-        "volatility": 16.1,
+        "return1m": 1.3,
+        "return3m": 1.3,
+        "return6m": 5.79,
+        "return1y": 6.01,
+        "volatility": 16.09,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -1856,7 +1856,7 @@
             "value": 20148.0
           }
         ],
-        "profitScore": 2.08,
+        "profitScore": 2.03,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2655.1001,
+        "last": 2654.7,
         "date": "2026-08-06",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-08-06",
-            "value": 2655.1001
+            "value": 2654.7
           }
         ],
         "profitScore": 0.0,

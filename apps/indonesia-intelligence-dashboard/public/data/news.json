@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T08:00:07+07:00",
+  "generatedAt": "2026-08-07T09:00:08+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 07 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -38,12 +38,12 @@
       "date": "2026-08-07",
       "topic": "Automotive / EV",
       "title": "Menkeu Purbaya Tegaskan Dukungan Pemerintah untuk Industri Otomotif di GIIAS 2026",
-      "summary": "investortrust.id surfaced this fresh item: Menkeu Purbaya Tegaskan Dukungan Pemerintah untuk Industri Otomotif di GIIAS 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "InvestorTrust surfaced this fresh item: Menkeu Purbaya Tegaskan Dukungan Pemerintah untuk Industri Otomotif di GIIAS 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "investortrust.id via Google News RSS discovery",
+      "source": "InvestorTrust via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMjFldVB4VC1Qc0RoeUlLNUREQUwtdVlCdmFtOWZnc3BFRlcwLTV4VG9nR2xRSnY5NnpfWi1qU0FESURHZHNoc2k3eFh5RHF1eEdDQ0xWaExKSkFRNVJFRzkyUWtVMFNIbUlHY3gta3cxUWE3NW5HOW5rNFU1SnFXLS1fZUZTRUFtd2ZsNjZIYnJjRVdpRENGcXBINDYwRXpiVjBtQldITWRUQVZ5MmNpUGpHUlRpbDduLURuOTNOSQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -64,17 +64,32 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-07-0ed122925d",
+      "id": "2026-08-07-dfb0425ddf",
       "date": "2026-08-07",
-      "topic": "Tech / AI",
-      "title": "BRIN Fokus Kembangkan Teknologi Nuklir hingga AI, Tingkatkan Daya Saing Indonesia",
-      "summary": "sukabumi.indonesiasatu.co.id surfaced this fresh item: BRIN Fokus Kembangkan Teknologi Nuklir hingga AI, Tingkatkan Daya Saing Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Business / Investment",
+      "title": "Meski Masih Bertumbuh, Mesin Utama Ekonomi Rapuh",
+      "summary": "Kompas.id surfaced this fresh item: Meski Masih Bertumbuh, Mesin Utama Ekonomi Rapuh. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Kompas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZDVDcUZITVpoWTBJVVFnbU9jcFR5SlhWNnNyLXlENFFvamJyVkNqQ3p1eWpvLVRQVHF3dEhRMFlQUkVFUWdQVnlEc093a3ZCQ3FIUTFKUkd5bXpZMWZVYno2VDhGTzNLTkJkRUU2cFlOdFNxTlRYbFpXNmdHTGNXcW5TNA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-07-c121f746b0",
+      "date": "2026-08-07",
+      "topic": "Automotive / EV",
+      "title": "Vale: Permintaan Nikel Didominasi Industri Baterai EV pada 2030",
+      "summary": "Bloomberg Technoz surfaced this fresh item: Vale: Permintaan Nikel Didominasi Industri Baterai EV pada 2030. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "sukabumi.indonesiasatu.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRzZOZVFRZGlRbDNSbTZuMnVzQ0FaQXBudlllZ2pGTTVWQ2RZcE8tcm9GWXlTMHNHdUpiTTdrM01lVEF2U1c0MUNTX0p2Ry1nUzJVckhGdTNVeU52amNuTTZPU3VJRVc5UW5mU1V3Z3NWSndZbmY3ZlZlU3BzVnhEUVNlcG5sdVZPSTJlTkstT3VwbmxSWEhIdU44ZTZGd1p4bWxBM3ZsbU9QZldCZWFpZnBWTE8xdjBs?oc=5",
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Bloomberg Technoz via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVU9KcEpHcVdCX0RMQURqRjFTbGpSbC1PRGtYMjVDTzBFRlJvMlh3dGtTVkZDal9KNlBWUnVucFVtTlcyOWdqVXE2c2YtSXdwNTQzLW8wbTdzVGxkUXpxTlg0ajlMRHRwdE96dEduQzJzRHZyZEtJMjh0TURWVU4tY0V4Q096aGNPY3lHQk9NUERfcVFYWVBKWklkd2pEcUlPTGtkNnltUF96dDhrak42WTg1bDU?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -94,17 +109,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-07-bf0679e13f",
+      "id": "2026-08-07-438898f53d",
       "date": "2026-08-07",
       "topic": "Automotive / EV",
-      "title": "Fitur Keamanan Lepas E4 EV Hadirkan Perlindungan Maksimal Berstandar NCAP",
-      "summary": "Mobil Komersial surfaced this fresh item: Fitur Keamanan Lepas E4 EV Hadirkan Perlindungan Maksimal Berstandar NCAP. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Pengguna Home Charging PLN Tembus 92 Ribu, EV Makin Populer",
+      "summary": "listrikindonesia.com surfaced this fresh item: Pengguna Home Charging PLN Tembus 92 Ribu, EV Makin Populer. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Mobil Komersial via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVmhOTXBveUlaM0l2OFdxdDNrU0xvS0tNNm9qUTNIaVRiMHlSLUN2VnhRTnZCRHIxMjV1UzB5VXlSak0yOXNIeTZaa0RIQks4b2h5VExuY1pwX0NPdko2ZkYyTTdqbDhIMVdoa0RycFAxeE1ZZXItUGF6aF81dDBycFBrczE4YVY1b1FwQ2h0UzFSWHJNc01nY1BCY2hKSFhrTV83dGc0aFJWeHlZdGVNelJB?oc=5",
+      "source": "listrikindonesia.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT3lmMFpmaWNhYlp5bGhqeTZVQVJzZTE1d01ReTRycU9wd2U1VzgwYkM1eC1GVzc2azZQa0ZDTGtGT0paNkFyNmJRV1htYlpuLVRjZWwyNzNweDBOYXczX1U5dVZzaWlzMzBRR1h1R1gzVVp5SUxZYm1ILWFOdnhuWUtYOG8ya0o3XzNJZg?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -143,28 +158,13 @@
       "date": "2026-08-07",
       "topic": "Business / Investment",
       "title": "China Bangun Kawasan Industri di Madura",
-      "summary": "Listrik Indonesia surfaced this fresh item: China Bangun Kawasan Industri di Madura. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "listrikindonesia.com surfaced this fresh item: China Bangun Kawasan Industri di Madura. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Listrik Indonesia via Google News RSS discovery",
+      "source": "listrikindonesia.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNakFmUzh2amxGbTFEcjdGbFpoUG5pZWFnRDFjSVpEektIMVRxZndaUnJNTHZTc3lhaHlreGo4dXAzVS1XUU94RlhDZGpwYVNsMk9IbW82NzczR0RodkdZS2E0di14TlVHRG50TXhGNG03T0xnWnRFbEV5b0xMR29UVUgxYmRhcmRL?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-07-dd69fc045e",
-      "date": "2026-08-07",
-      "topic": "Business / Investment",
-      "title": "Ekonomi Indonesia Kembali Ngebut, Industri dan Konsumsi Jadi Penopang",
-      "summary": "detikFinance surfaced this fresh item: Ekonomi Indonesia Kembali Ngebut, Industri dan Konsumsi Jadi Penopang. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "detikFinance via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUFpiM3ljM2FYT2pRZ3hDeE91eFQ0VVhQSWF0VTVlaFpOelZHWjU3ZDJwT1pUYmxqWnY5TlFQa3p0dS0waVpxNy03ZzlDZzNZNjU0UlZkSEtUX2h3YnhkT01jd09yRWZTd0hOOVZJS2hqOHNXQlJQTTFka2xIZDJSQ1ppZXJHY3pwcWt0VmpOUFVPaVU1aW9UU3g1ajNRMldNZUE1eW9zZkpHaGpnVFczQWpCSFU4QXfSAbwBQVVfeXFMTTh4OVBWcFdXVTdQdkhzWjJ1V1BicUo3UEZ0ZGd3cldUenJsQ1lBckRmVkhEYTRVaG4zWEs4bGZFbDFCNEpzWjF6SVBPN1B5ekhDNXdseS12WTB6NUxlUnlNLWNkdUdOakJtbUtVUFNkb0FaY0d1N1hXNUtKOHA2aWNmTlRURUJndEhKZ2JiWkJTWXlkT0djYkZTRGZPX1p0TTd2cGFKOTM5LW1YM3h4aG80eGMwMHowa3NBSFk?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -199,6 +199,36 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-07-7b58faea27",
+      "date": "2026-08-07",
+      "topic": "Markets",
+      "title": "IHSG Terkoreksi Ke Level 6343 Saat Bursa Saham AS Melemah",
+      "summary": "achmadnurhidayat.id surfaced this fresh item: IHSG Terkoreksi Ke Level 6343 Saat Bursa Saham AS Melemah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": -0.07,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "achmadnurhidayat.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xY053RnNwaVBuTWN3VlY4Z2M2WEJUSFhTMXBocy03dnBsblFoQTRUcTV4a2NWUzNYdksxc0lyUVN4QTJLVFBCYlU3SkloaklRVTNjczFQN1FuaTBqcEVydmdyU1dCNVAyYmw3dmZ1N1pvWTQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-07-53462d3e44",
+      "date": "2026-08-07",
+      "topic": "Markets",
+      "title": "BNI Sekuritas Jagokan Saham BMRI, BUMI, AMMN,BIPI, VKTR, dan BRPT",
+      "summary": "SWA.co.id surfaced this fresh item: BNI Sekuritas Jagokan Saham BMRI, BUMI, AMMN,BIPI, VKTR, dan BRPT. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.05,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "SWA.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQW1GbkctWTI0cWxjMmV6VWVwRVNENkdGcVpTeWRPVnJVU1JtUjRWNVh1V3pFYjdDXzFRcldnOTRuUElIbUdvVTJ2Q3kwdzMxZVNiVmVmd2Q1N29HWFUxcHBDWG1vZ2ltS2tHdEh2LVhIVG9XYngyMU1CazhuQjdib19fNExOZTc4Y1FFQS1hMzRJNzlt?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-07-def5c9987d",
       "date": "2026-08-07",
       "topic": "Regulation",
@@ -229,21 +259,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-06-b559460649",
-      "date": "2026-08-06",
-      "topic": "Markets",
-      "title": "IHSG Menguat Usai Ekonomi Indonesia Tumbuh 5,29 Persen",
-      "summary": "achmadnurhidayat.id surfaced this fresh item: IHSG Menguat Usai Ekonomi Indonesia Tumbuh 5,29 Persen. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.21,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "achmadnurhidayat.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DMXlzXzhoSGN0Z29Fb1pldlJCM21xOWRveWptMzhLZ1JjRFNzRFFJeHdUT0k3UXRvZnBQVzJGdXgtSzQ2RkZJYy1RMFRlY3h4eFpYajVSTzd2WnpnYUpLdXN1dWVIM1ViYTRDajFYTXRyNjg?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-06-f09abdbe88",
       "date": "2026-08-06",
       "topic": "Tech / AI",
@@ -255,21 +270,6 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "kontan.co.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTjFEWnltbEsySng1U3hmN015blFfYnhKTF9ucllEZGtHeWRCMHIySTBQRHhicFd3Z2VwaGJMQldVYUgwa005MjBQWXBWVmVsb2xHSTgtdnF1NlNlaXFlME1XQWtIbFZiR2RUZk9rOXpUZlY5cWNyU2VDOWNhNmxaTDlYQjVwVkRMT1M5aXBQcnBlcHY5X2MtXzJZa0FKM1R5MjNVeWF5TnF3NjjSAaQBQVVfeXFMT0Q3WFVjbFlNMkhYYURiRVFQWWdueWVWUUVjamp0UkdsZVcyOXliSzJnd181TmRjS0xZTGU5TXQyUWVicmxYemlfNjJPOHMwelFtQWdnV18zS2JtUGJWTWpFUlZDQkZhYXU5UFFDUkZya0pPNFRDYWtySVhTWmltTGdKT2dOT24yMERkYzdTSUNYWFctSDRkbjJONFFpSGctdjZtUDU?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-06-57af281001",
-      "date": "2026-08-06",
-      "topic": "Automotive / EV",
-      "title": "Jetour Perluas Jajaran Mobil Energi Baru di Indonesia, SUV Listrik TX Dijadwalkan Meluncur Awal 2027",
-      "summary": "Pontianak Post surfaced this fresh item: Jetour Perluas Jajaran Mobil Energi Baru di Indonesia, SUV Listrik TX Dijadwalkan Meluncur Awal 2027. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Pontianak Post via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNb2lzU1pWOUhvU2pWVjlmcGh6Um5WdGp2VktscUhMVElVN0NtMkxhalUyNDBaYWhlS1pMeldXQTI0S2hIV05RWTgtZk42U1pmTlBzVjJ0NXQtUkJ1czVIVkdHbDJGZWpsdDFKdEQxNmM1bjJET2dEU2p4TTFkTEQwZWhma1FUZF8yTnEzdXFSd1dvSjNFY0s4OHZzUXEtZUlwZUZnNkJSTTUwVkV0SjVhVFlSVU1xbUoyOElBLXd2M2I3WUVmYUFxdGF4ekR5dENDbkdjZW03SlhCQ19GVHp0Rnh2dDBzSzY20gHuAUFVX3lxTE5UcEpBMkpWekhMU3RBS0Y1c2FQc2F5MkhMeEtDRXpOUmJSVDZ3QzZMQWdwR0VPQzhwekgtV21jQnoxLW5yZDNDeHU0aGpoRV9QMUZkQXh4Rk4zSEhWd1MwNGFQODZqZ1pXQno0RmgzcklPM3ZNbDg4TWRQTm90X0ZHX28tNTlnbVBDZ1drVEE3NURIMC0tUGVtTlJyQjlHLVNScVRsSERhQXdyQlRtM0VzMUNFRnVPekk4cWlwaVBxcFZENlo4blZBeDFLNkc2NS1JN3hicktWelV0cUhaNzBrVWNzanh0clpreWVpTVE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -349,23 +349,23 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-06-58c42e5cbb",
+      "id": "2026-08-06-53257be673",
       "date": "2026-08-06",
       "topic": "Tech / AI",
-      "title": "BRIN: Riset Nuklir, AI, dan Genomik Jadi Prioritas",
-      "summary": "investor.id surfaced this fresh item: BRIN: Riset Nuklir, AI, dan Genomik Jadi Prioritas. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "BRIN Fokus Kembangkan Teknologi Nuklir hingga AI, Tingkatkan Daya Saing Indonesia",
+      "summary": "merahputih.com surfaced this fresh item: BRIN Fokus Kembangkan Teknologi Nuklir hingga AI, Tingkatkan Daya Saing Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "investor.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVDJ0UHlJcl8xM0g5Z1JUcUR4THV1UmRWVXJ4TnFRbk4wN2JCZTZ3OU85ZDhwc1Q4b3FyOWNNQW9GNGN1c0RNZ2FzR2tmYkRLcmZMdXVoX2dkUjRYWjRxMjBEMWdCRG53M2VEZWk0RjRTYjg2bnNjaVpkQWlDZnI0SWY0QjJJX1p2OW5Z?oc=5",
+      "source": "merahputih.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbjVyWU5iWl9ESS1hSG9zZ1gyYkNhcnd2T25qSGEtMWwwcXhfZV9yRVVFYWJJZmZSNU5JdjhGSXJ1R3Z5bjExci1HRVhYVnQ3NjdIYnpBWXR3Q1dWWUQ5Z0VpNmg2Q1VfSjlhX1otVDAxR1NMWjJVRzUzYnFaejM5dGdITDJzOGs1Vmw4Wk9uR3VZOHRKNzAwWmEwODFyM2t5T1phOU1QWTdUVk0xN0FucXlvNjJGNXPSAbcBQVVfeXFMUG41cllOYlpfREktYUhvc2dYMmJDYXJ3dk9uakhhLTFsMHF4X2VfckVVRWFiSWZmUjVOSXY4RklydUd2eW4xMXItR0VYWFZ0NzY3SGJ6QVl0d0NXVllEOWdFaTZoNkNVX0o5YV9aLVQwMUdTTFoyVUc1M2JxWnozOXRnSEwyczhrNVZsOFpPbkd1WTh0SjcwMFphMDgxcjNreU9aYTlNUFk3VFZNMTdBbnF5bzYyRjVz?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-07T08:00:07+07:00",
+    "generatedAt": "2026-08-07T09:00:08+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 91,
+        "opportunityScore": 95,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,16 +2194,8 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 91,
+        "opportunityScore": 95,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 75,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
@@ -2220,6 +2212,14 @@
         "theme": "Automotive / diversified consumer",
         "opportunityScore": 75,
         "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
+        "opportunityScore": 71,
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {

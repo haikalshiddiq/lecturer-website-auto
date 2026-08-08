@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-09T01:00:30+07:00",
+  "generatedAt": "2026-08-09T02:00:32+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 09 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-09-ac5de6272e",
+      "date": "2026-08-09",
+      "topic": "Markets",
+      "title": "BEI catat investor saham tumbuh 16,83 persen capai 10,05 juta SID",
+      "summary": "antaranews.com surfaced this fresh item: BEI catat investor saham tumbuh 16,83 persen capai 10,05 juta SID. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "antaranews.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeDN4em16dXNfVmxoanNPU1dLOEVucF90YjFKLWxhRndqMExXeHNSTDhSY2VpVXdBSkJnYWlGOGNsTWJ0Z3hFZ1pFUXVBNmtsNGwzSVluMHk0SnpZLThyci01Mm8xVlQ5MjZfY1lHUlMtUi1PcUxnY1RNc2dRNmNwXy1WZnNiVE05RjVaVTVsWE5mbHZGcXFzVHVJSUpGb2ZWRVpQRnlnY0w?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-09-3f3a228a61",
       "date": "2026-08-09",
@@ -64,21 +79,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-08-fc7a50c75a",
-      "date": "2026-08-08",
-      "topic": "Tech / AI",
-      "title": "BRIN Perkuat Riset Teknologi Strategis, Dorong Kemandirian Ekonomi Indonesia",
-      "summary": "Kalbar News surfaced this fresh item: BRIN Perkuat Riset Teknologi Strategis, Dorong Kemandirian Ekonomi Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Kalbar News via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnBJRlJFcHJJN0trTHc0VlRHZFBLaXpaODdfSXZQbVZnc1ExWWtCQW1FQ19OejBOWlFqZk5FOU8tRHdJWlNheVZkSVFMWW5ndE9PWXRBNGRuLUt0cWtMa1BYRTVkeWdiQ1d0SGUzLVhZb1BycmFSdmNXUGxQaVdVOGFZcGF5M0k?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-08-233c515038",
       "date": "2026-08-08",
       "topic": "Automotive / EV",
@@ -90,6 +90,21 @@
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Pontianak Post via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV1ZMNFhqbXliaS16RmtxR2g5QXp4OGN3emFhVjBfY09naVBPb0ZoTE93LXRNVmlVQ2xaY0VVSHdqQVI5TnVxMENqT0V4LVhyVVpmakxwNUx5YjZmVFpUejZ0d0lnNktadDczeGh1blFVZmVwMTVXNDdoVExrcUlNTHV2UUZIN01TYURDdlhxYW1CZFEtN1pURGhGSlpsMGNXUnJXOHR1SHZ0V1MxaEtiSDNCZlhJR251T0Q5YXN4V25xRG1PcFltUDVLVWMxM1dlNmNj0gHYAUFVX3lxTE03R1BUT1hCUHhBX2lLOERYY3NCZjhqb0VFdHViRFhvc1RVWkZ2SFRXMlVRZERIbXA2R3hQbGNsTWduWnlSUkdRb19qYjh4M0JBVXlkSWZ6NWJzM29pOHE0UmhSaDFYd2laRG50eDdhTkFqM3JrNTY0dTVmSTJRR0ZpU1BtLW1NaHVkQmdMaFhzQ3BDYzFqQUdwRFJvcFRobG1VaF9ZQXhzb1RneXlHbHBQcnVoZlFCZXk0VFBsZmNabjMwY2E0X2VweElxMXhoMnhZeE02cWlCaA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-08-034f55e0f2",
+      "date": "2026-08-08",
+      "topic": "Business / Investment",
+      "title": "Produk Diagnostik Buatan Indonesia Tembus Pasar Global, Bukti Daya Saing Industri Nasional Kian Menguat",
+      "summary": "InfoPublik.id surfaced this fresh item: Produk Diagnostik Buatan Indonesia Tembus Pasar Global, Bukti Daya Saing Industri Nasional Kian Menguat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "InfoPublik.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTTjZkQVBxeGJPeVZZdG1jSFVFMF9Wekdnek1jZWZaNVNHU0hMZ3dTRjhLazNYME5ISWdTb1hzZ1hDY3lCSWZmU0MtVlVNOGJVM0lVeDVsMTBEdXRQN3JfdFQ5WHlReG5IQUZKaFR4YUsxU19BWVZ3Yjg2aXk?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -124,21 +139,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-08-a1c48ae38c",
-      "date": "2026-08-08",
-      "topic": "Business / Investment",
-      "title": "Mendag Dorong Pembahasan Perluasan Akses Pembiayaan UMKM di BRICS TMM",
-      "summary": "detikNews surfaced this fresh item: Mendag Dorong Pembahasan Perluasan Akses Pembiayaan UMKM di BRICS TMM. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "detikNews via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON3lRLTFDSFJQVmVBbmNFdWRsMVRRd05yc3dxTndsdk1LYnk3Q3VILTRzU18wYTFkcHVkYi1zV2sycmwzWjdUTXI3SkhOUkx1anJZM3VXY0lOUks4QmZNZmwzSEJOcUkzMmgwMGxWY2VfRU9hMzBxbnVxMlhCdEpFd3VMS0xOZlgzU1R0SFVlSnBmckZ4bEp1M1FWY29ZOUxqTnNjUW8yaW5TcE8wa2fSAbMBQVVfeXFMTkFjWHBSLVlIZ3F0c3lmQm5jdXdXdnk3SVowbXQxMEZnMThJMzhKY05GVndSTW0walp0bHotZlZZbTU0bnBTX244VUFMZEtDWnVjSHhGNVZDcXJ2bzlERXQyZzZlU0J1RDRlUUYtRG5scXV0V0tWZnBrc1pqQm1ERjBTMEdvQld5ZDN5Sm1yUjR4TEptaGhMUlJ4N0s5ZFdfXzF6cEcyakJTZUNrRVZiTGcyb0k?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-08-c0bdadd24e",
       "date": "2026-08-08",
       "topic": "Infrastructure",
@@ -169,21 +169,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-08-7b2a532d28",
-      "date": "2026-08-08",
-      "topic": "Markets",
-      "title": "IHSG Naik 2.78% Pekan Ini, Kapitalisasi Pasar Capai Rp11.212 Triliun",
-      "summary": "MetroTVNews.com surfaced this fresh item: IHSG Naik 2.78% Pekan Ini, Kapitalisasi Pasar Capai Rp11.212 Triliun. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "MetroTVNews.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaDZtZHdIMl85Z00xb0tqX19TdUI2Tm9xVmlxQ3dwOEFuaDhwNzFIa0xuSHNUVURzWHZyRUs3LVcwRXB3MWNIdzdWM0hlLU9RblBPeURMZU9lNjQxSTRrYTd1dU1mb0RQZ2J3d3FmbjJzQ2RrN2Q5MGF0dU9pVjN0SXZvdURweXZyWXh4NElxY3lvQXJST1VZRF91X3BmUDU2ck5GZTl4WVMzdzBL?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-08-5b650e3933",
       "date": "2026-08-08",
       "topic": "Tech / AI",
@@ -195,6 +180,21 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "inet.detik.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLTdhOWZnUXFhU2hfNzZiRnlWQXMtTUtvd19lVG1CRkZ5UlIzSzgyNHFwdURJdmRNQ2ZiVXpsUVJCekpEbVJnQXRrNVhqLTBOblMxQUN4N2ZPbXBUQnBXVHFweUhnSWdwTGNFT1EyWEhCZW1MSzNrZ1dKaDVyVVd2VzlWUGRJNGR2VjNIYdIBkgFBVV95cUxPRF9ndHIzT05mTUE5dW5SMEJZWVpsdllkb1BKSFlkSGU0SGJrNkxxS1VZWkdkYVdoSThvNFFyeDdrRmdxelFwbzY3STd0TkxHclV5NHZ5ZUo2azZpd3Nsa1ZlYUNEYkFUZHB4ZzZXbEtyS1g1bTBfN1BIUjZ0SVBtOTNKa3MtU0FuOXRzWnY5Tm1hQQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-08-f2c575ec0b",
+      "date": "2026-08-08",
+      "topic": "Automotive / EV",
+      "title": "Maxus Mifa 7, MPV Listrik Premium untuk Keluarga Modern",
+      "summary": "kabaroto surfaced this fresh item: Maxus Mifa 7, MPV Listrik Premium untuk Keluarga Modern. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "kabaroto via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZkpzb3VzV3ZaZkpTcTUwR21PSkh6WGwzSEdfY3dKMGNUbGZuRlVaMTlSTjJjT2QwcUgxcl81eG52X3dXLTR0NDRkc1YycXhhemJaWlp0cFJJWDNzMEJxUEc3aUhpVnIwZS1lbzNUVGRJWkJJUlZTUDhOQ0wyVW9VUk1GM0NKeEZTNmNaeNIBjAFBVV95cUxOZkpzb3VzV3ZaZkpTcTUwR21PSkh6WGwzSEdfY3dKMGNUbGZuRlVaMTlSTjJjT2QwcUgxcl81eG52X3dXLTR0NDRkc1YycXhhemJaWlp0cFJJWDNzMEJxUEc3aUhpVnIwZS1lbzNUVGRJWkJJUlZTUDhOQ0wyVW9VUk1GM0NKeEZTNmNaeA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -214,21 +214,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-08-0df64e4ba8",
-      "date": "2026-08-08",
-      "topic": "Automotive / EV",
-      "title": "Daihatsu Masih Pantau Pasar, Mobil Listrik Belum Prioritas?",
-      "summary": "Kompas.com surfaced this fresh item: Daihatsu Masih Pantau Pasar, Mobil Listrik Belum Prioritas?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVW50dEFPdE9ZeW5MVmtRdmY5TWoxellPVmRIaXlQWE1tT0RSWEJfUEdNMjExSjhtZ1pnRHhLSER6OHpwZnNtTldKOU43cjhYcmFfb25IMkExeTJrUlZXaG5CSVotRE9OWEY2UDdXZEdXTUxhUFlmYXJjZkdqNWZKMGhPT0xsTXE5blhwUEg0VW9mTVRsZUh1WnRudEdTOEFtVW1TNktrNXhlOExsLVpQZGdoMDhGSmR3WDBILUln?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-08-a53d1b82d4",
       "date": "2026-08-08",
       "topic": "Automotive / EV",
@@ -244,17 +229,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-08-4a7ffe53bc",
+      "id": "2026-08-08-0df64e4ba8",
       "date": "2026-08-08",
       "topic": "Automotive / EV",
-      "title": "Leapmotor Mulai Perakitan Lokal Dua Mobil Listrik di Indonesia",
-      "summary": "CaraPandang surfaced this fresh item: Leapmotor Mulai Perakitan Lokal Dua Mobil Listrik di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Daihatsu Masih Pantau Pasar, Mobil Listrik Belum Prioritas?",
+      "summary": "Kompas.com surfaced this fresh item: Daihatsu Masih Pantau Pasar, Mobil Listrik Belum Prioritas?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "CaraPandang via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRC0yd2xZTUE3OFBCWHhJMG56dFBDeklBZEExX0EtSFU3WENlVWs0aFZiWnU1ZEFzbXZWcS1BREVnRDNEcUdMZEZLTUJtdWRLaWU2Z3VjVTdoNlZpUHhUeGpTaVlSYWw0R3JZNDhlVHQ2cy1PNGZtMUJFMzBFNFA1a0xMNlhvRHEzM1JkbzFKS3AxTkVlNXJWLUtVM0U?oc=5",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVW50dEFPdE9ZeW5MVmtRdmY5TWoxellPVmRIaXlQWE1tT0RSWEJfUEdNMjExSjhtZ1pnRHhLSER6OHpwZnNtTldKOU43cjhYcmFfb25IMkExeTJrUlZXaG5CSVotRE9OWEY2UDdXZEdXTUxhUFlmYXJjZkdqNWZKMGhPT0xsTXE5blhwUEg0VW9mTVRsZUh1WnRudEdTOEFtVW1TNktrNXhlOExsLVpQZGdoMDhGSmR3WDBILUln?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -362,10 +347,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVmdjOWZadGRsT2NSM3ZlaHlCRVVxNlpxQWlnSk1wZGVpeEZUR3dzNGVLNGxkdUNQd2g0MkhvRWhQMzlqZFFHckhOb1FPNE5hUXVjX25MbUV0bGNOVk5iMTBTdTg4bm1CTTVtYzBaNXRuR3dmUEJiQXRuaTRSQkFLMFJMdmpYRUN5a1NCQ2daTXJhWmpDY2c?oc=5",
       "imageUrl": "",
       "imageAlt": ""
+    },
+    {
+      "id": "2026-08-08-51a7a97efc",
+      "date": "2026-08-08",
+      "topic": "Markets",
+      "title": "MSCI Umumkan Rebalancing Saham 12 Agustus",
+      "summary": "detikFinance surfaced this fresh item: MSCI Umumkan Rebalancing Saham 12 Agustus. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.05,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "detikFinance via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeEFZbzdyMllIXzNxUU5LenRtbERBRnExdVpFajlNTlVJS1A0TWl6c0JKR1F0bVB1TTNWZm5vWTdsWUVDX1NuZjJjakp1dmNLc05Uc1d2dTNrMG82T1hLc2VtblJ3R2ItY1dWUlZTbWtVNVNmWHZaeDRGb0xDTUljcWFxc1BhNmhhWW1YV0NlSUdHek9DVVBxRdIBngFBVV95cUxQb2VUWG5QR2JrMXNKc0N2S1RsZFhpVGk3ZW9NYVBqQW5IdlkwRjluU19yeDF1Z3lYNzhqb01fdFJyWjRKbHVGSGVzclhTVVllZWNteTFwejhxdl91aDR2NEp4T1piZmRmNUhPZHR2bmtyY2ExZjdEY19uNk5pN1k4bmZRbVNfdVZwTHpMQU5SeDRpRGJxcVdJU1pCeVBDdw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-09T01:00:30+07:00",
+    "generatedAt": "2026-08-09T02:00:32+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 87,
+        "opportunityScore": 91,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,16 +2194,8 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 87,
+        "opportunityScore": 91,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 75,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
@@ -2228,6 +2220,14 @@
         "theme": "Infrastructure / toll roads",
         "opportunityScore": 75,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
+        "opportunityScore": 71,
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }
     ],

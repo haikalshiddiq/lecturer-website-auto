@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-08T08:01:02+07:00",
+  "generatedAt": "2026-08-08T09:01:04+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 08 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-08-fc7a50c75a",
+      "date": "2026-08-08",
+      "topic": "Tech / AI",
+      "title": "BRIN Perkuat Riset Teknologi Strategis, Dorong Kemandirian Ekonomi Indonesia",
+      "summary": "Kalbar News surfaced this fresh item: BRIN Perkuat Riset Teknologi Strategis, Dorong Kemandirian Ekonomi Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Kalbar News via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnBJRlJFcHJJN0trTHc0VlRHZFBLaXpaODdfSXZQbVZnc1ExWWtCQW1FQ19OejBOWlFqZk5FOU8tRHdJWlNheVZkSVFMWW5ndE9PWXRBNGRuLUt0cWtMa1BYRTVkeWdiQ1d0SGUzLVhZb1BycmFSdmNXUGxQaVdVOGFZcGF5M0k?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-08-3c694901db",
       "date": "2026-08-08",
@@ -34,6 +49,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-08-c0bdadd24e",
+      "date": "2026-08-08",
+      "topic": "Infrastructure",
+      "title": "Standar Layanan Jalan Tol Diperketat, Operator Tak Otomatis Bisa Naikkan Tarif",
+      "summary": "kabarbisnis.com surfaced this fresh item: Standar Layanan Jalan Tol Diperketat, Operator Tak Otomatis Bisa Naikkan Tarif. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "kabarbisnis.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTVJHX08tRUtySEEycklycjh3M1dFdWl2a3ZPNHNWcERoWVc2S0p1UUZIeXY4Qk4xTDJGcUpnT29ROUtnMDJicjlfcGdxdXdBVTRPY2ZpbEJhYWRoOEp4V1NkTzRUczJZQ3lBbHpSZGg4R2xyd2VseVJia3NXb1phLW5JUDg2aU8tUVJhb1N5RV9lZ0IwaEhFYmc1RjhhQ0Q3SFdOMUJld2FFaVU2cVI1TERsNGJ2UEtiMlE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-08-3977b60960",
       "date": "2026-08-08",
       "topic": "Tech / AI",
@@ -53,12 +83,12 @@
       "date": "2026-08-08",
       "topic": "Automotive / EV",
       "title": "Populasi Motor dan Mobil Listrik di RI Tembus 468 Ribu Unit",
-      "summary": "Uzone.id surfaced this fresh item: Populasi Motor dan Mobil Listrik di RI Tembus 468 Ribu Unit. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "uzone.id surfaced this fresh item: Populasi Motor dan Mobil Listrik di RI Tembus 468 Ribu Unit. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Uzone.id via Google News RSS discovery",
+      "source": "uzone.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObVFINjB0VHZrMUlsRnBHLXQzUlJaX2t6YXp5TGUycVNVOUEwX3JQZjRHbkczNmxLa0pYd2VyLTRxVXhWTlY3SDBmYWNmX3VtbnY3OGhMdDdWVnU0SDRibFlTNHRaNElMc1oyRkpHUkd2bFE0ZVdVWHY4SHV5eFMtTUZn?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -139,6 +169,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-08-137968298b",
+      "date": "2026-08-08",
+      "topic": "Business / Investment",
+      "title": "”Dutch Disease” dan Deindustrialisasi Dini Ciptakan Jutaan Pengangguran",
+      "summary": "Kompas.id surfaced this fresh item: ”Dutch Disease” dan Deindustrialisasi Dini Ciptakan Jutaan Pengangguran. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Kompas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUE9zUFQzVEtydUdPRldDVEx2WjJYRTg1RjhYQjM0WHZvZk5WY3l4QWpuVUo5STNNQnZsUVBMSllUN2R5d3RxNjczNklZVThUVmNiMTNKM3BxZkFoc3lCUVJLV3NXckRqbThWWjB0Z21uaWZTMGtaZ3hPMmkwRjVqMDNrSFhVOVFSQzZsMGt2c3dtQ0ZsSGNUYVV4YWZ5UTQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-08-216a503746",
       "date": "2026-08-08",
       "topic": "Business / Investment",
@@ -150,6 +195,21 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "ANTARA News Makassar via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTzZ4MTJxMFc2VFhwNVVxdzA4dnExWVB1TVN5cE00ZVJGbDJmaExwdnRFQzkwNl9jNlp5cHpyNlQzaFhHWjVNWHU1M05zSUpsYWJ3amNuTmFKZVhsVGdwNVlTTktSZTFBSlBZUkhIU0EtbzhwSGxIWUYxT0xUSWFVeUR3UXJHTWwtMERJTkpqeE94bVJUakVmdXk5TjBUOWxrNWxtR1RobVI?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-08-1ce52d2ae3",
+      "date": "2026-08-08",
+      "topic": "Infrastructure",
+      "title": "Jasa Marga Jalankan Keberlanjutan Lingkungan di Ruas Jagorawi",
+      "summary": "kabarsdgs.com surfaced this fresh item: Jasa Marga Jalankan Keberlanjutan Lingkungan di Ruas Jagorawi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "kabarsdgs.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTZGdjFVeThaMUU4UGkwMmlHQWp3c0JjQnVaVUZNdkE0eFVHVUtYQkVOYy12c2xtWkxFNEZHRkN6ZnF5cXRpMHlieldZVGxZeUVhOGszNGExYmJqa3RKRC0wNk8yeWltbkFCM2pZX0hZT2VucnhNNWIyY01FUVR0ZDJRb1E2OEl4dW5ZeUY1ZUN4elpqbXB2UHBXVFdKZHhRQVFIWA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -229,21 +289,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-08-f408a6dab4",
-      "date": "2026-08-08",
-      "topic": "Business / Investment",
-      "title": "Kuota Ekspor Kembali, Spesies Monyet Ekor Panjang Terancam Lagi",
-      "summary": "Betahita surfaced this fresh item: Kuota Ekspor Kembali, Spesies Monyet Ekor Panjang Terancam Lagi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": -0.04,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Betahita via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWkzRTZSZ19NQmE0OUNFbmFBaHRfZDBFZHU0Rk5ZVG5HUVdXUG5YUm4yVkdJWlNncmdfUi1zQ0RMV2M2bkZYUFloSmV2TXhMSGJnOW5obnhzZzAxaXZTM3J3YnlOMFBVXy10SXpaTU4wYm1lQk5oaUFmV0R2VTd6NTg3d3Z2QXNDU1RDWl9hbEtQaGM1SVJJdTJEbXNGNXNj?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-08-d59a33f41b",
       "date": "2026-08-08",
       "topic": "Infrastructure",
@@ -274,21 +319,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-07-528966d22d",
-      "date": "2026-08-07",
-      "topic": "Tech / AI",
-      "title": "Lampung Membuka Babak Baru Pembangunan Berbasis Data melalui Peluncuran Satelit Lampung-1 Berbasis AI",
-      "summary": "diskominfotik provinsi lampung surfaced this fresh item: Lampung Membuka Babak Baru Pembangunan Berbasis Data melalui Peluncuran Satelit Lampung-1 Berbasis AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "diskominfotik provinsi lampung via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPX21TV0Z6STlxTkhURTVibHNDZlp1U0dna1pYY1dCX2N1UVpsZE1ZX0FWcDJpbHBITkxFaTNzTWUxNmhZcjJOQ1ZNTWNXUHVnVXlNb01QZEdDY0pDSlZ0dGtFbFNXR1hGSWs4bmhfWXRFY1ZYdW5kZ0lRRVZlT0pQMkRyUkFqRWVVM1VwMmQ5bWFVS1dOTTZla2VpcTY4RFcwS3ZmWlVFM0NSTFNDbml3c3dwOWstZzZ5dS1QSS12NmQ0cDIwMHNDcWpIdV9ZYXRlNVFac0NUWVlUR0JJYTdLbDdPdmxNdjNI?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-07-1ed81a7ae0",
       "date": "2026-08-07",
       "topic": "Tech / AI",
@@ -300,6 +330,21 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "Warta Ekonomi via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV0ctcjd4NnFDZHVIY2sxblRDalc5TWVCTTR4YnhTaVViTFM5cEpQVEh3V19RMWszX0RSTlVJQ0xJY0wtbHVJVEc4dGp1bEFpZ19CSFRpdENDdmdxcHg5QWxvRWx2V0I1NU5QWnJKTnNYdHNka3VqOUNPYl9jOGJ4c2EzS3prTmV2d3FkSWhtRlpBVWxuRHhhRmZ2TzZFUEJEUGpsb0k1RU8tcTRWdzZuRXpoa0hiVFAzSWptWTkyeXR1d9IBwgFBVV95cUxOV0ctcjd4NnFDZHVIY2sxblRDalc5TWVCTTR4YnhTaVViTFM5cEpQVEh3V19RMWszX0RSTlVJQ0xJY0wtbHVJVEc4dGp1bEFpZ19CSFRpdENDdmdxcHg5QWxvRWx2V0I1NU5QWnJKTnNYdHNka3VqOUNPYl9jOGJ4c2EzS3prTmV2d3FkSWhtRlpBVWxuRHhhRmZ2TzZFUEJEUGpsb0k1RU8tcTRWdzZuRXpoa0hiVFAzSWptWTkyeXR1dw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-07-528966d22d",
+      "date": "2026-08-07",
+      "topic": "Tech / AI",
+      "title": "Lampung Membuka Babak Baru Pembangunan Berbasis Data melalui Peluncuran Satelit Lampung-1 Berbasis AI",
+      "summary": "diskominfotik provinsi lampung surfaced this fresh item: Lampung Membuka Babak Baru Pembangunan Berbasis Data melalui Peluncuran Satelit Lampung-1 Berbasis AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "diskominfotik provinsi lampung via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPX21TV0Z6STlxTkhURTVibHNDZlp1U0dna1pYY1dCX2N1UVpsZE1ZX0FWcDJpbHBITkxFaTNzTWUxNmhZcjJOQ1ZNTWNXUHVnVXlNb01QZEdDY0pDSlZ0dGtFbFNXR1hGSWs4bmhfWXRFY1ZYdW5kZ0lRRVZlT0pQMkRyUkFqRWVVM1VwMmQ5bWFVS1dOTTZla2VpcTY4RFcwS3ZmWlVFM0NSTFNDbml3c3dwOWstZzZ5dS1QSS12NmQ0cDIwMHNDcWpIdV9ZYXRlNVFac0NUWVlUR0JJYTdLbDdPdmxNdjNI?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -317,55 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaEJGWFhtNjZsaE55ZE9mNzdCTF9nTDh4ckpYZnRrUTl6aFpkQ0NjcTJnRE1zSDNIRjBIcjRmbmg3ZDJGbUxzbU1velRaUFlKZjhmQjF3aTZiZlBzbjR1UGRlLUYwU1lTS2QxSG9VWGV1WTJpMkU0YWVHdDRBV3VpVXFYcElFcWxaWF9STWp2cnhxWE9NZHVnTlRONkFTd2w4VXBRMDQ5WWJKRUlmekZzWlhEeHhad1E0Y3d1azdoeVBjLTE2Z0pDYtIBzgFBVV95cUxNV0l4OWhBeUlWTFUyN0JSV3dhWHB6UjdIQTEweDRDLXNiWWRGMXNxbG9Rb1o3THJIeXJCUldvcDJORmtVZDFobGRMQl8wZTU3bDE4eUJqbUtfSENDR1ppQzJWYTlUZXVBajFDY1VfX09rZ1lNSTIyRHJNTUZHOWZzNHY1cS1RcVFYSWlqS0hCY2Q2OFF3MTF4dkNLcDNNamJSN0NKd1dTaG5yVEF4Wmg5WUN3dnhiTzlQeUE0WDZ5NzViS1RoaWowTFptc2pYdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-07-b7e3312414",
-      "date": "2026-08-07",
-      "topic": "Tech / AI",
-      "title": "Kementerian Komunikasi dan Digital",
-      "summary": "Kementerian Komunikasi dan Digital surfaced this fresh item: Kementerian Komunikasi dan Digital. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Kementerian Komunikasi dan Digital via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPR2N3OU96RFBDOXF2dm5OWEhJdzNsRVNsYUhaeVNUOTU2RkQ5Zk9HWlJ2RFN0MEJRQXN4M3hGTE5NQkRSUWFUcUdkMThIMzZhTlpfZVVYcUhucDJTb0FkMEZRRTNCTmFvT0ZhS09Ja2x5YVJqS0VQWVZDVVlfTndUcWN4R0k3RnhKUlFlQlhVck84ek4xeG4yOFhkYnpOMVRVSEJMM0REUVUxOWwyb2JUbTJsZHNlOWZXcC1rUkZYNzFqVWdqTnp6bW15bDFsOEV4cC0zcUhWS0IyZEpscmc?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-07-cab9907ebe",
-      "date": "2026-08-07",
-      "topic": "Tech / AI",
-      "title": "BRIN Fokus Kembangkan Teknologi Nuklir hingga AI",
-      "summary": "VOI.ID surfaced this fresh item: BRIN Fokus Kembangkan Teknologi Nuklir hingga AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "VOI.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00bUt5NDEwWFVnQ0dLeWkxS0FqbmtNMHUzWDFEakYtTTI2Mlo3YXhjSVRGbm9TQ1FDN3ZMV0ZTZDhFVk1vdG9OTUJLVVo1dWpHd1liN3JoQWVKd1B3Vm01NE1CUUVJOElYQUFvNVp2RHV5ZXU3anRUWDMtdUVWc1k?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-07-2c63a2dbba",
-      "date": "2026-08-07",
-      "topic": "Infrastructure",
-      "title": "PLTS Akan Dibangun di Sepanjang Jalan Tol, Kejar Target 100 GW",
-      "summary": "konstruksimedia.com surfaced this fresh item: PLTS Akan Dibangun di Sepanjang Jalan Tol, Kejar Target 100 GW. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "konstruksimedia.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVllBNHE0dlRpeWctWU5iNi1yVGtWWmlOSTVFNWtBNUZSVFJ1MjFKMFVpNDFJWXB3MTZ3c3ZyVmQ5dTFWTUVSSnFPTm1qOVVqZmUxNEE2eFUzYUtFdExtMzBCVUg1cnVCYUJHT2o2SXdzRTdCV0g2NXhURVQzd0JPTVBGSVpSU2lJQjNQVVNTNzB1T2F1?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-08T08:01:02+07:00",
+    "generatedAt": "2026-08-08T09:01:04+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2199,14 +2199,6 @@
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 75,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
         "ticker": "ANTM",
         "name": "Aneka Tambang",
         "theme": "Nickel / EV supply chain",
@@ -2223,10 +2215,18 @@
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
+        "opportunityScore": 71,
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 63,
+        "opportunityScore": 67,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

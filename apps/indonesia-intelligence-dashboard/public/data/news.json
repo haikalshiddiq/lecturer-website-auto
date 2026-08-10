@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:00:39+07:00",
+  "generatedAt": "2026-08-10T19:00:46+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 10 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -34,6 +34,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-10-9a28e96978",
+      "date": "2026-08-10",
+      "topic": "Business / Investment",
+      "title": "Investasi Banjar Lampaui Target, Tiga Sektor Unggulan Jadi Pendorong Utama",
+      "summary": "Radio Suara Banjar surfaced this fresh item: Investasi Banjar Lampaui Target, Tiga Sektor Unggulan Jadi Pendorong Utama. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Radio Suara Banjar via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYlFfTWNuY2VOb0FpSVBZVXloWFNjeW1ocE1SREFSY3FRS1c3eWNRVS1kRTFTejRPWkZtUElsdnJWMjdWdk5QOGlBYmNRLWgzbUttM0t0YkRERV9YLWN4cVZPSXd2OU1yRGJJUlBURmR0Y2oyOW4yei0tX29qeDVMdnRESTVvU29xZ1d4WUtRR0NKcVBsSXBQR211REZDS3NWSkpDMQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-10-a7b72df5e3",
       "date": "2026-08-10",
       "topic": "Infrastructure",
@@ -64,32 +79,62 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-10-f740478834",
+      "id": "2026-08-10-923ea10950",
+      "date": "2026-08-10",
+      "topic": "Markets",
+      "title": "IHSG Ditutup Melemah ke 6.365,37, LQ45 Turun 0,96 Persen",
+      "summary": "Suara Surabaya surfaced this fresh item: IHSG Ditutup Melemah ke 6.365,37, LQ45 Turun 0,96 Persen. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": -0.19,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "Suara Surabaya via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV0NmVHE4TmJNRkdQQnhmWS13U0p4UW50c2htdkJNSncwYWVEdXpUTGZSbEtBWmlhV29ZaXRqUHNQcEI5Q3hHaFU1Y1RvSjVTS0Fic01wSDZJcFNNNF8zUUZ1d3B5bnh1VjNwVFpuSGp3UGpLVEtOUnUzNTFDQURwM2pxQlhvS1RKY2ZLWkI3cEpsZUh3RUFHeGhDU29pRUtxN2wzQ0930gGrAUFVX3lxTFBNSThNR0lwS2RNTFdHdWIzRVI1Q2xuMlhhUzBZbnR3MHBJTXFsOHpyc0xlbWViZVJEN29UMmtlajRwVkp0d0RQSFMtZmdjSjZYR01oSU1felRWTkF0cDI3R3dKZl9LRTZVREQyRWkyM3VhQjcwbzlpY1p5NkFsRzNmMmRrdWViV19qUkFiNGVVOC1SSXRGRG9WWjltMThick5zYUNIc3RHX0tXTQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-10-54fa4996e6",
       "date": "2026-08-10",
       "topic": "Tech / AI",
-      "title": "Ambisi Indonesia Bangun AI Factory 1 GW Terkendala Investasi Besar, Kesiapan Ekosistem Jadi Penentu",
-      "summary": "AFU.id surfaced this fresh item: Ambisi Indonesia Bangun AI Factory 1 GW Terkendala Investasi Besar, Kesiapan Ekosistem Jadi Penentu. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Perebutan Investasi AI: Bisakah Indonesia Menyalip Singapura, Malaysia, dan Vietnam?",
+      "summary": "Vibiznews.com surfaced this fresh item: Perebutan Investasi AI: Bisakah Indonesia Menyalip Singapura, Malaysia, dan Vietnam?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "AFU.id via Google News RSS discovery",
+      "source": "Vibiznews.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQTdDMUY3TlM2eVJwa3c2U05tVXR6MmVGaENmb3NHMGNhNGphTndqTmdrTE1Rd0lWU1lDR2RUejFCOG40Z2E3SndlWElfQkpzV25yTjQ3MW4zY0F3MGMwOVJxRlhMdGp1LU9IWHJNWTZqRHhRMVRoQnRwaS1OSlY4OFVJVWkzRFd2cFBmaDI2bmFmam1JQXpZeEl6dGt6TU1WU2VTcC1qNXVqcFVVTmFURHowcUd3bWloWmVHczc2R0pZQQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-10-f740478834",
+      "date": "2026-08-10",
+      "topic": "Tech / AI",
+      "title": "Ambisi Indonesia Bangun AI Factory 1 GW Terkendala Investasi Besar, Kesiapan Ekosistem Jadi Penentu",
+      "summary": "afu.id surfaced this fresh item: Ambisi Indonesia Bangun AI Factory 1 GW Terkendala Investasi Besar, Kesiapan Ekosistem Jadi Penentu. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "afu.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaEZRUzJWQWc0YUVGTHctWEFJYlRtWG9MYUhTZll2MEM5c0FmSktQNjhRVXU5RVhBT01qWlBUVDU4SjJ4aTJ2VUJBQlNQbnE1a1JVVUpSTEw1N1c2aThhY0lXZmhBeGpQWXg0S3N3RjA4ODRxS2FtNXZfb2JFVlNfMl81azJ1UVpZSU53RGRoUGh2MncweHNoQnNtV0dDUkNXX2pMZFdGVHo3LTBhSWM4Q1hCRVlySG1Ua3p4MUVVWQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-08-10-2d8b068e1f",
+      "id": "2026-08-10-bd163bcb0d",
       "date": "2026-08-10",
       "topic": "Automotive / EV",
-      "title": "Daftar 13 Mobil Listrik Baru Yang Meluncur Di GIIAS 2026, Ada Yang Cuma 150 Jutaan",
-      "summary": "Moladin surfaced this fresh item: Daftar 13 Mobil Listrik Baru Yang Meluncur Di GIIAS 2026, Ada Yang Cuma 150 Jutaan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Insentif EV Bakal Berlanjut, Hyundai Optimistis Penjualan Tumbuh Signifikan",
+      "summary": "kontan.co.id surfaced this fresh item: Insentif EV Bakal Berlanjut, Hyundai Optimistis Penjualan Tumbuh Signifikan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Moladin via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaWFDZzFQV1NxZ3RQYWVGTmg4bTAxV2dXOFk1bHhFbllja1JJSWY4djdicU01b19RZUhXakkwMFQ2aDVEekV2WWthWVFpQVl3M3VfNUJteWUyRHdTMUhid0NCNzZYck9jRjh2Vjc3b0ZOMXhtb1BTWndlaEpwdUpqVGduR0ExQQ?oc=5",
+      "source": "kontan.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTGc1TjFxS251a2lTQWhwdzJWUDZiQnNfNUl1LVBIQWNBVzlubDlQVXFEdHQ5ZFJjd1BXb0N4Q1M3SEZsdG0ySEQycktucjFGZG85YTdBM04xWXpVaTdvTHNOVFMyNDZQYjJ1NEdLcVl5Mkg2UWVSZzZ5VHBJSFlMOWhJRVd3bG8wZnh4VHhxZF8yUzFzQTRTRzBsUmtzYk53bFRJamtQVlRDRmt2MlHSAacBQVVfeXFMT3UzQjc4QUpqSlNMYzRscF9OaHlheWN2S1ZkbGJLMjYwbDdZTzItaFBXQjFKamYyVWp4V016U1V3a1k2aEdQV2NnMHdlVEh5NmJNc2lwcWZzSEJhczk3akZIb182SkNNUC1CTkMwQzNqWFBYSG8zWXBZZnNoRGNHQVFwTFFNQWc4bWpTTjZ1eVl4NmpjWloxeXRmUEtOTk93SFBacW1paVk?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -109,21 +154,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-10-84d6d61d91",
-      "date": "2026-08-10",
-      "topic": "Business / Investment",
-      "title": "RI butuh investasi Rp8.705 triliun di 2027, dari mana dananya?",
-      "summary": "idnfinancials.com surfaced this fresh item: RI butuh investasi Rp8.705 triliun di 2027, dari mana dananya?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "idnfinancials.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkZ0dTdQanRfTUpfUVJfX19Lc3YtREw3Y3dCS3FDZzNGdUNyTkc0Q1FtNDVSa1dRMFNfci1rYXpsRlJpcTQ1QURYa05SYks5a08yNHZJM1NpTTVjQzdUbUZtTlFOOG8wUnFkc2ZlTlBfeWYtdTBEd0xxaTYzdlJCTGhaTlZkendCa3ZkNnRUdjFDYzF1aUgwRk56djRsbG52NHhhSW1LOA?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-10-38d4dc8f48",
       "date": "2026-08-10",
       "topic": "Infrastructure",
@@ -139,21 +169,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-10-9431c6b9f5",
-      "date": "2026-08-10",
-      "topic": "Infrastructure",
-      "title": "ATI Dorong Model Baru Pembiayaan Jalan Tol: Kurangi Beban APBN, Perbesar Peran Swasta",
-      "summary": "Warta Ekonomi surfaced this fresh item: ATI Dorong Model Baru Pembiayaan Jalan Tol: Kurangi Beban APBN, Perbesar Peran Swasta. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Warta Ekonomi via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaldtcWdZcS10QWcwOUFIU19sb3JYb2pVRE5nQ2ZQb25KS2pOU1J3Wi1NR3hzSVdBSUJvQzBSVTFIODZiSGtTTTlvdWl1Rk8wOFJBeEpBenh0RTVUYWxEMnc4OUQ3bVh1VzAxZlNqc1M1NDVBa1RqeU1XNjlVQVZWTk5wSEdTdHF6Q3lkallaZmVzSXhxQXU5dExQOEltLVJRc184NzdrZG53SXM4aEdERC1OZHZjdGQzMTZfbTJB0gHDAUFVX3lxTE10cXc4a2txUnEwUXl0Mk1LUFJUU2U4V19BZ3hrRUVMV1NzNDZsOXJDNmtnSUJoRnRBNGlrbi1lOWNYSEZwXzRrMGxxaWV1VTY5c2c1eDVSNk1sSEMwekItLUNsUWhVVExDSkVVY25MTEZBTmdPTFhyWVJNY3JWbmNWbFo0RGJBOFhpWkRqSGFxUXdpcHMyNlBoblloaTBJeXQ0dkJobzJwZHlsZVlURGNQLWZLRFZIY0c2VWU5QlRNVzFvQQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-10-c295d14554",
       "date": "2026-08-10",
       "topic": "Infrastructure",
@@ -165,6 +180,21 @@
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
       "source": "Kumparan.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXlZXzZJYjNpZ0hOVWxBMjY0LUFMSGFCS0tZdDBCR3JzVWRzNXY4cTZtV1RLRXFZZ2MyT0wwZU1ZT0laN1FEWFFRNEJYT0RxYm9DV0JvM3lwQVN6alg4dGJXcVBXMUhKUHk4QjlDNkJJMTVfbkE5OEQxd000YUh0dWVjeldyek43RFE4dXVlQjh4TDVoM1ZKa19COUZJOEhnNWs2NjJjS2ZERW1VRnNpd2h3VnQzbkt2eEhmQmxacThYX3M?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-10-9431c6b9f5",
+      "date": "2026-08-10",
+      "topic": "Infrastructure",
+      "title": "ATI Dorong Model Baru Pembiayaan Jalan Tol: Kurangi Beban APBN, Perbesar Peran Swasta",
+      "summary": "Warta Ekonomi surfaced this fresh item: ATI Dorong Model Baru Pembiayaan Jalan Tol: Kurangi Beban APBN, Perbesar Peran Swasta. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Warta Ekonomi via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaldtcWdZcS10QWcwOUFIU19sb3JYb2pVRE5nQ2ZQb25KS2pOU1J3Wi1NR3hzSVdBSUJvQzBSVTFIODZiSGtTTTlvdWl1Rk8wOFJBeEpBenh0RTVUYWxEMnc4OUQ3bVh1VzAxZlNqc1M1NDVBa1RqeU1XNjlVQVZWTk5wSEdTdHF6Q3lkallaZmVzSXhxQXU5dExQOEltLVJRc184NzdrZG53SXM4aEdERC1OZHZjdGQzMTZfbTJB0gHDAUFVX3lxTE10cXc4a2txUnEwUXl0Mk1LUFJUU2U4V19BZ3hrRUVMV1NzNDZsOXJDNmtnSUJoRnRBNGlrbi1lOWNYSEZwXzRrMGxxaWV1VTY5c2c1eDVSNk1sSEMwekItLUNsUWhVVExDSkVVY25MTEZBTmdPTFhyWVJNY3JWbmNWbFo0RGJBOFhpWkRqSGFxUXdpcHMyNlBoblloaTBJeXQ0dkJobzJwZHlsZVlURGNQLWZLRFZIY0c2VWU5QlRNVzFvQQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -203,12 +233,12 @@
       "date": "2026-08-10",
       "topic": "Markets",
       "title": "IHSG menguat dipicu optimisme arah \"dovish\" bank sentral global",
-      "summary": "ANTARA News Yogyakarta surfaced this fresh item: IHSG menguat dipicu optimisme arah \"dovish\" bank sentral global. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "jogja.antaranews.com surfaced this fresh item: IHSG menguat dipicu optimisme arah \"dovish\" bank sentral global. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "ANTARA News Yogyakarta via Google News RSS discovery",
+      "source": "jogja.antaranews.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdXpwZVJqTldPaEwwOFhoUS1ZUGJTOUlzNEdqQU03cU9GaEJhS0JycG0zY3VMRXNLQ2pPZnM1WnZEZ0JRb1ZITWFoOFNSTWZ4bzQ3VmpBZUlvTWpaYWxDSG9fNVFYNHFZTUxZT0ZwLTRpZ2pSbUZVMFZnN182SzNIRmgzWi1YaUVuYl9FM2ZkSnJDUkptZ2Q5dkIzeFFFZms4Tkt3MXVhaw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -289,21 +319,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-10-8fc60fda15",
-      "date": "2026-08-10",
-      "topic": "Tech / AI",
-      "title": "Chip Makin Mahal, Persaingan Vendor Smartphone dan Laptop Makin Ketat",
-      "summary": "kontan.co.id surfaced this fresh item: Chip Makin Mahal, Persaingan Vendor Smartphone dan Laptop Makin Ketat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "kontan.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR0JLUXVZM2VYalhmUzhwUGR2MERMdzNtM3VzcGprcmsyQVF3aEpKSHltNjh1QVl3N3lYT05QZWNtR2lzal9aclVfY3JFRXJQQ1lVX0xGZzVMR1hRYlFLUXF6YnNHY0FkTFdTQ2Y3TVhET1VsQm5SU3Uzakl4ZGU2SWNQRHg2MVdQbmJpUUlsWlc0VG0yUjVkRXdlX3R5U2lrSVViOU5R0gGfAUFVX3lxTE9oYV9NRTJMZGlXSU5zLWNPNWdKT3N1OG1rYUQ0eG1JcHh6bVZFd3RadmYwUllWNmw0bHFuUVdlbkMxRFRId0JLN01aN3h1c3QwaVowektPTE80d21HZWZCVkdZTVl5THBZOGJtXzV0LWZTQ1ByWHFhbjdGSWVrWnd0MjlSajduSG02UFFmV2hhMVNkV3lKS2twOExscGFsbw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-10-7fe841c4c8",
       "date": "2026-08-10",
       "topic": "Automotive / EV",
@@ -334,38 +349,23 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-10-9566763322",
+      "id": "2026-08-10-11e8cad63c",
       "date": "2026-08-10",
       "topic": "Automotive / EV",
-      "title": "Mobil Listrik China Murah Makin Marak, LCGC Masih Punya Masa Depan?",
-      "summary": "CNBC Indonesia surfaced this fresh item: Mobil Listrik China Murah Makin Marak, LCGC Masih Punya Masa Depan?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Mobil Listrik Terlaris di Indonesia Unjuk Gaya di GIIAS 2026",
+      "summary": "Uzone.id surfaced this fresh item: Mobil Listrik Terlaris di Indonesia Unjuk Gaya di GIIAS 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRmpVc1dFQnNnRDA0Q0luYkdiUTNkTmFfbTZHdFg1VGtMU3huUWdfU1h3M0UyN1dObm5zWUUxLV9pbmR5M3JhRVdsNHBhWVhRNUt5eFpNOTVmbWdUVEk2ZUl5Wm9RZGtxVUEtS0RWVEEzX2Q2MXh4UzQyYi1FanFwdUFkVjA0aDVvQ2xSM3JoYnRGWlRUZWV0ajZfOFdKMjlQNDVfZ1M0QzVUM1hidU1QUFduTjY4VTJId3UzRUdtUVpmd9IBxwFBVV95cUxNRDN4RXBMZ2UwZ2pzM19lS1BRWHV2MF8zUTR3ZGYyTlZCMFVENFlRdXJQNDItalJfRUNtU2UxemJKM05OUDV0WXdtQVFjWGVYTnVkVGdnYWtVUWVOOVFxLTA5VlRnS25GZUxtZVR6Nm13cnd0YS1scDkwd2tsZHhoQUlFWWVzNjZjeXVwd3pMekstUVl1d2oxbHpBYUxITmxQUlBrN3JXclNWMUthbER6ZTA3aXY3Rkpqa0thU2xGb2I2SEdYdzdz?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-10-44d29157f9",
-      "date": "2026-08-10",
-      "topic": "Automotive / EV",
-      "title": "Harga Rata-rata Mobil Listrik Global Kini Lebih Murah dari Hybrid",
-      "summary": "cnnindonesia.com surfaced this fresh item: Harga Rata-rata Mobil Listrik Global Kini Lebih Murah dari Hybrid. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "cnnindonesia.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ3UtOHdqcEplQy1jVEFZeW9GWnUwUDdzZWMwdWd6U2IyRjk3WXJJRllOcUZXb2haQnloRWtXYWVSYjhiZjhXbGVhNF9tbWJIQTVVQkNIMmlTYVgtc1B2MjJ5RXdXYUJxVVlnbmhrUUZxZFhHLXNIMzJFS21hcVZidFBNSmJjWmdQUER3SzFmblhiQVhtYVRuWEdFdUxQQko1cUh1M25aUGdKU2hYYWlLQ2lOejNJeTBzYy1Qb2ZCVC11OXNqR2VMbk9n0gHPAUFVX3lxTFAxck9IR09lNE9UV1EzWmdiek1idE9GSEVhY0hkM3FNSERkUTczbFhNOEpmTmF6eW5LcU9SQjcyVFh3dkFSMGRISVdzZVNIV1Ztb055U2ZCUnN0RHM0eE1kNHFjMkEya3lNclFJd1JnUm5tdXkyN1RCNHdlZmo4MHIxdmxKVmh6bG5SQlM0VmxzUEVKZVRqX2EwY1NyTDZwdWxoN0Q0M0hDcVZVYTZtckJ3RjBfX2MxMTJpc1lDVXlSYjl4VlNNdkQ2cnczMFBqNA?oc=5",
+      "source": "Uzone.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWXU0YlFpYnF0YlRIWlRaM2U2UTA1ZjRld05lamhKMFM0NEZXM0JKYi1qQXB6LVdyZnB0RkxRY2IzbjdfV281MkhMMUdKdUYtVk1SaWN0bmpVVng5Y196WHFhbUlyeElIVjNUUlFRY2tYS05jNWNKdmNtR3ZmOUdWMEE0VQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-10T18:00:39+07:00",
+    "generatedAt": "2026-08-10T19:00:46+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 83,
+        "opportunityScore": 87,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,7 +2194,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 83,
+        "opportunityScore": 87,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2207,10 +2207,18 @@
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
+        "ticker": "JSMR",
+        "name": "Jasa Marga",
+        "theme": "Infrastructure / toll roads",
+        "opportunityScore": 75,
+        "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
         "ticker": "ANTM",
         "name": "Aneka Tambang",
         "theme": "Nickel / EV supply chain",
-        "opportunityScore": 75,
+        "opportunityScore": 71,
         "rationale": "Linked to battery metals and EV headlines; commodity and policy volatility can be high.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2218,16 +2226,8 @@
         "ticker": "ASII",
         "name": "Astra International",
         "theme": "Automotive / diversified consumer",
-        "opportunityScore": 75,
+        "opportunityScore": 71,
         "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
-        "ticker": "JSMR",
-        "name": "Jasa Marga",
-        "theme": "Infrastructure / toll roads",
-        "opportunityScore": 75,
-        "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }
     ],

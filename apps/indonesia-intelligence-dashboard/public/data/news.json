@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:00:44+07:00",
+  "generatedAt": "2026-08-11T16:00:44+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 11 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -15,6 +15,21 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "feedberry.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRF9KZldCbnl4R0RrdFhZLWZ0SWN5MUFQMkRLODFnZVdjbkZhMmZuUkZTQ0hHWDd1RjdTQmZ4SWJORkRaX0x4bVJQVzlieGtGdnI5MXFnb1ctRlBOSko1WFV4c0VOLVdhem9MMzE2WElzeTA2cVVYb0UwOTJ0T3lveHI4Um1QbzlnSktDS2Jidmtza25ST2lxMVJUYU5SdDViSUJkc3BjYjY0bXM?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-11-553aa6a98b",
+      "date": "2026-08-11",
+      "topic": "Automotive / EV",
+      "title": "Dukung Insentif Mobil Listrik 2026, Komisi VII Desak Pemerintah Susun Roadmap Industri Nasional",
+      "summary": "FPKB DPR RI surfaced this fresh item: Dukung Insentif Mobil Listrik 2026, Komisi VII Desak Pemerintah Susun Roadmap Industri Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "FPKB DPR RI via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRUpmcWR0TW91ZHE4dGFHRDJTNXd1RlRjWWlNWlVEZmZ3dFZrODg3LXV2XzNTQmZDOUR2Q1J2VlJRcHV1RHZaNnJ6c2d4aWhUTVlkYWZoZnYwNWhiSDY1cjd6OGhDUjc4ZVVXeHdUUVJVamdrck1oTTN6YlMtZVh2b0lBRmtBM2UwaVpneHQydmpaRXpFMGxBMk5pV2FwRXhIOTZEYUExY0ZLdnBYY1dSQ19ONzlFN3NiTGNNRmpZZE5fYlhWSkhzNU5JcTE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -64,21 +79,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-11-49b815ecd6",
-      "date": "2026-08-11",
-      "topic": "Business / Investment",
-      "title": "Strategi KKP Mendorong Ekspor Produk Laut Indonesia",
-      "summary": "stekom.ac.id surfaced this fresh item: Strategi KKP Mendorong Ekspor Produk Laut Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "stekom.ac.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUhPMUJFbWF1cFpQVHZ2YU9QeVh6MGpxN3pHcnI1X0U4ZGRHMUhQWWYza1RTNU5kVkFCSlZMeWVoRHZRNVRMX2t5NnRYRHRHdGQ2SzgtTDhBRGlLbl9QUWpaNHBVUlNXS00xdHdDc2Y5UXIwQ3V2dThubFh2X2dtLUZzbURzVEJqbW9nUUJQeHNlcGNXX0Y2Y2pxdw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-11-ee67cda823",
       "date": "2026-08-11",
       "topic": "Infrastructure",
@@ -113,13 +113,28 @@
       "date": "2026-08-11",
       "topic": "Tech / AI",
       "title": "7 Ujian Indonesia Menuju Hub Data Center dan AI ASEAN",
-      "summary": "premium.bisnis.com surfaced this fresh item: 7 Ujian Indonesia Menuju Hub Data Center dan AI ASEAN. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Bisnis Indonesia Premium surfaced this fresh item: 7 Ujian Indonesia Menuju Hub Data Center dan AI ASEAN. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "premium.bisnis.com via Google News RSS discovery",
+      "source": "Bisnis Indonesia Premium via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOHFaZHRicWpJdEFtY0R3MGhrV3ZGYUY3Q1dERjE1dzFiN2M2V3ZGTy10TVo5M2JfbzVhOURWa2JsaVJORGN6OVBCLTRhREhBZ0NfYmFnQnFLNW9CbGF6RU9YblRIbkdfMTNxaW5kUURKSDZ6VkJWUFJoSWVnc2NqNkJodnVOVmZmSTRGOE9ES3FMR2VYNWd0LUJOY1pDanMxQ0NLQXB2d0FFdw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-11-d81d2c8d83",
+      "date": "2026-08-11",
+      "topic": "Tech / AI",
+      "title": "Kadin Ungkap 3 Mesin Baru Ekonomi Digital Indonesia: Data Center, AI dan Kripto",
+      "summary": "InvestorTrust surfaced this fresh item: Kadin Ungkap 3 Mesin Baru Ekonomi Digital Indonesia: Data Center, AI dan Kripto. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "InvestorTrust via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONm82OHkyZnVpdlladVNPS2UxY1JrWUJyclQyeDlZUFlMVFdhQkx4Z25CUW5oRjdqVW1Pd0kteTdyeEo3XzhjaWhhODktYXhHdDl2RkNTcnJ1NndLVlFvczFETGpHbzdSYjZIVzItbG53SkFlYXBRT0VjSVh1RWpZMExWTTZvX3ZJbE5ndG1qSVZlZExaNUJtYi1RckNPYWtJdFAtaHVUS2JVMHNMYWVRYUU5Y0FPOVZNTmc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -214,32 +229,32 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-11-2f62949907",
-      "date": "2026-08-11",
-      "topic": "Automotive / EV",
-      "title": "Rekomendasi 5 Mobil Listrik di Bawah Rp 250 Jutaan Terbaik di Indonesia - babelpos.disway.id",
-      "summary": "Babelpos surfaced this fresh item: Rekomendasi 5 Mobil Listrik di Bawah Rp 250 Jutaan Terbaik di Indonesia - babelpos.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Babelpos via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOXFwS0pPMkJMdmo3anZBZURWRkhubHBzU3hoMV91Nnhqck40d2NhUG9qVzJpM210SV9hM04zRTlyNUlsODJYbVJpV0REcEdBMllUUHRTRjVzd3JVcUsyOVk0V3ZjWnhLZzJ4OTNIRWNYdXZSZl9rVWIxQ19nLTRFRjIwVTdzYVpMMFpVN2NfeGdRNFkyeFNKVkxSR0xJVGM4dDlYVUZ0U2VSUVpvWEZ1NG1Fczg1TXFa0gGuAUFVX3lxTE8xNjNSOVNjRHNTeFk5YUp5UWhCUG1IVFM5VWUyZU9DODRpV3NVUWJpSGpIMEY1TmdJOExwYUhWdFN3OUw0WkFqa2dGTERIOENWc19VVHdqdlQ1ZGd5T1RxOU1yY2h1SGx5ZlFoU1AwdUV3c3FFUXJheUhOZk5wT2o2U2h6UmZPSEs5RnYzRXdzN0dIeHFiNmdNZ1o2WTR2N1JQQzNjU3pzTG5wQlNjQQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-11-1d9ad81942",
       "date": "2026-08-11",
       "topic": "Business / Investment",
       "title": "Pemerintah Kota Bekasi",
-      "summary": "Pemerintah Kota Bekasi surfaced this fresh item: Pemerintah Kota Bekasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "bekasikota.go.id surfaced this fresh item: Pemerintah Kota Bekasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Pemerintah Kota Bekasi via Google News RSS discovery",
+      "source": "bekasikota.go.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd2dUdHRfZm1sQkRSdmJ2dGM3NDBIWkI5b3FJemNMSmJHV3FQTUc5dVQyOXp6LTFXVnBfQzJHaDZwS2lZWHlETVNfbEt6Q1ZQTXh6MWp2R1pIdm5CemppWEZGVVBEampzYzltSnFqdTFvTWdqM2Vrc185eGRYbHRuTWtsZ0xsbEMwcW1GYjNfdDctUUZLUVlMQk9vTDJlS3RsTW5IMEJ4TUMzSXE2c0Ntc0FYOWFXbE5iTEdoYXcxVXlYWmc?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-11-ca761630d6",
+      "date": "2026-08-11",
+      "topic": "Business / Investment",
+      "title": "Menteri UMKM Maman Abdurrahman menghadiri Rapat Koordinasi membahas Finalisasi Perpres Ojol yang diselenggarakan oleh Dewan Perwakilan Rakyat Republik Indonesia di Jakarta",
+      "summary": "Kementerian UMKM surfaced this fresh item: Menteri UMKM Maman Abdurrahman menghadiri Rapat Koordinasi membahas Finalisasi Perpres Ojol yang diselenggarakan oleh Dewan Perwakilan Rakyat Republik Indonesia di Jakarta. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Kementerian UMKM via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZVGdBenRUNld6UHNkRHpMM0J5S2tKQm90TTlWcjgyUzBrRlVDMVJVWGhaa0xuRnduQlBZWWlyOGd2ZkliRGRPVGo3M3d1S0lpR3ZaODliWmwtVkRMUExZ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -259,17 +274,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-11-a9ee8af7a9",
+      "id": "2026-08-11-d1bdf340a1",
       "date": "2026-08-11",
       "topic": "Infrastructure",
-      "title": "TNI AU kaji jalan tol di Jatim jadi landasan pesawat",
-      "summary": "ANTARA News Bengkulu surfaced this fresh item: TNI AU kaji jalan tol di Jatim jadi landasan pesawat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "TNI AU Kaji Jalan Tol di Jawa Timur Jadi Landasan Darurat Pesawat",
+      "summary": "CNN Indonesia surfaced this fresh item: TNI AU Kaji Jalan Tol di Jawa Timur Jadi Landasan Darurat Pesawat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "ANTARA News Bengkulu via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTZ4eGVmamRJcmtxd0RZbWVCQTAwd2NkSVNIOTduQnFiZ2I0YjlUR3RsN2hnc3F2akxEUUZZeDZLYUdjYWVReXFBdGw4YV9fRVlSSHF2WUdRdm82RmQzbGtXd0xQamVFTUU5Ukd2Z29TVGdpQTJsandhcnUwaWFnM092NzdWN1JlQVdKQTctcFZhdktLUEtLSnlsT2s0ZU3SAaQBQVVfeXFMUDNDclF1TFFuaWQ0b1E2SVZkMmVEaGNkSWZQOWpseXlMU2hVa2pjZWNJRVZyZDVvQXZIVmlieXpZNDJEZzdYWlpfai1HaWpaTUpzdEd0M2NLSExfV2k2ZE1KYm9nS095WE5JRUtEUlVOT0x3QnN2dEtNMFVFcEl3M3U5Y3pHckRSUER5VUpZb193U05DRVk3SXZHSkVaMHhMcFNuQUI?oc=5",
+      "source": "CNN Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQzhaaENvNENETGxQTm1CcUtxSUZPMzRFOXlfU256dEpRdEZBdDdFZmVGclV5cnM2b1hXZzRmeXYzR1JoZHdVcXBkaWF3aUVzRjlHYm80b25NelNydU9memp2VUhMQlVyNFR6dkZuRG9jSXk2OEk3OEJfOTN0QjdEdzRNSmZfcGVPMjJBa3BTM21lNVgtUUhrZnpDdUZNVndiR1lKQ2pkZ0tHRXZtdWxqZmR3M2lXcWRad3FUT0UyQ01OV09NRG9abdIBzgFBVV95cUxOdXBQcUdhTjlmR3l3Mk1ZR3RXXzBEQmdCdzhHSDA3TUJrQVB6OEVZU1haSXV0VXgxeEptdnhvenA0alZIWFdNLTIzLVpjcl9iOHdUT2VmckJsQmZyZnVHVVpzNEhKTk9uRUl3WG90bWpmd3JYc0c0dk5MNDZxNDAtdDVoaExPbnZtQ1ozQTJyYmJOSXBFcmRxdnZaTWQ1UDFabk5ITFJaTm1XVEhpUkVsbzI5TlRxcDd4OXZiRGhYNUFGWG9LenJKQTI0a05fdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYTBlMFhraDBzV3p0cDBjQ0lETHR6VHIzbzc5SjZHem9BRl9tT0dvbXdqOHlLd3lFZ0NYWjRrYjZWWFNSdHJWdDJsYVZZdXpDV1lHbVV0eUxkanlYODZ1SzBqdlVTS215VUFvaUQ4d2RkSkxCMGM4ZUpXNUFVT1ZocFFxOWl4WUV0OFZzS3JvQ0ItQQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-11-9fa2f8262d",
-      "date": "2026-08-11",
-      "topic": "Markets",
-      "title": "IHSG Anjlok 25,87 Persen, OJK Klaim Bursa RI Tetap Tangguh",
-      "summary": "Kompas.com surfaced this fresh item: IHSG Anjlok 25,87 Persen, OJK Klaim Bursa RI Tetap Tangguh. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd2ZEZFA1NHRmbFNaaDhfWXR1VUZwaTVUU0w3UHVmRWxsVm43Q0NLWjJzYlBzeEhPS3dVXzdud1FBSkg0WkgxcXllYzZwMDh2RUJlcGFpR3hzUGN0M0NIQjRpZThMLXB6ZFQzNmN2OWFFOGtHRC1fTVl3V1BjRnhWZTJkdGJ3aUViWXllVTBCckh2MlVTbG5wdWFsOE5HUHp4MkFYaVdJa1dWXzQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-11T15:00:44+07:00",
+    "generatedAt": "2026-08-11T16:00:44+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -672,12 +672,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13920.3105,
+        "last": 13924.875,
         "date": "2026-08-11",
-        "return1m": -0.35,
-        "return3m": 1.45,
-        "return6m": 5.05,
-        "return1y": 5.25,
+        "return1m": -0.31,
+        "return3m": 1.48,
+        "return6m": 5.08,
+        "return1y": 5.29,
         "volatility": 7.67,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 13918.7979
           }
         ],
-        "profitScore": 2.1,
+        "profitScore": 2.13,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +970,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12571.0,
+        "last": 12581.0996,
         "date": "2026-08-11",
-        "return1m": 0.28,
-        "return3m": -0.41,
-        "return6m": 6.35,
-        "return1y": 7.56,
+        "return1m": 0.36,
+        "return3m": -0.33,
+        "return6m": 6.44,
+        "return1y": 7.65,
         "volatility": 10.15,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 12574.1299
           }
         ],
-        "profitScore": 1.96,
+        "profitScore": 2.04,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,13 +1268,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20560.0,
+        "last": 20568.0,
         "date": "2026-08-11",
-        "return1m": 2.44,
-        "return3m": 1.39,
-        "return6m": 4.52,
-        "return1y": 3.82,
-        "volatility": 16.21,
+        "return1m": 2.48,
+        "return3m": 1.43,
+        "return6m": 4.57,
+        "return1y": 3.86,
+        "volatility": 16.23,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -1558,7 +1558,7 @@
             "value": 19950.0
           }
         ],
-        "profitScore": 1.71,
+        "profitScore": 1.75,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2643.6001,
+        "last": 2644.2,
         "date": "2026-08-11",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-08-11",
-            "value": 2643.6001
+            "value": 2644.2
           }
         ],
         "profitScore": 0.0,
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 95,
+        "opportunityScore": 91,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,8 +2194,16 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 95,
+        "opportunityScore": 91,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
+        "opportunityScore": 75,
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
@@ -2212,14 +2220,6 @@
         "theme": "Automotive / diversified consumer",
         "opportunityScore": 75,
         "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 71,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {

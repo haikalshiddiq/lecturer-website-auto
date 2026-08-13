@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:00:21+07:00",
+  "generatedAt": "2026-08-13T20:00:21+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 13 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -64,21 +64,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-073c503179",
-      "date": "2026-08-13",
-      "topic": "Business / Investment",
-      "title": "HIMKI: Pertumbuhan Ekonomi Belum Sepenuhnya Dorong Industri Mebel",
-      "summary": "KONTAN surfaced this fresh item: HIMKI: Pertumbuhan Ekonomi Belum Sepenuhnya Dorong Industri Mebel. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.24,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "KONTAN via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVlE0b2VQSTc3YTR0dG0wQWNqWUtkaVNTQzQ2dzVoaHYtTzdpblRnZGswX0JSM21FUVdnY1NoNXd3Tjg4UDc0b3c4TE92ZTlyUVJtLXFaQ1d3MzFUbWZDOEhUbkVDb0RTbHNUeHMxTDFnLWh2V0o2VDRYcGpEMnNFUkFhTjdNVld5cE9wd0tTc1dLVHlNZlA1UmthNkRTQ03SAZoBQVVfeXFMUGVaQ09HdXVuR0lfN2xoNHBJdHVkdU0xUGNfdnBmeHgzdTdNU0o1S08teXZRY3pYUlZKeE1oc2MwaWx5b3BFdHd0U2hQTG1zNzNucVZrSl9pb3pIQlpwR3dGY3ZCZzQzY254MTZ0UTdlcjZ2UGdvLVpWdGpEaXA5VlNFWm4yS2dmR0g5ZVFQVTl6UGlCYmNVenVjUQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-13-c63cbac528",
       "date": "2026-08-13",
       "topic": "Infrastructure",
@@ -113,12 +98,12 @@
       "date": "2026-08-13",
       "topic": "Infrastructure",
       "title": "ATI Dorong Ekosistem Investasi Jalan Tol yang Sehat dan Berkelanjutan",
-      "summary": "RM.ID surfaced this fresh item: ATI Dorong Ekosistem Investasi Jalan Tol yang Sehat dan Berkelanjutan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "rm.id surfaced this fresh item: ATI Dorong Ekosistem Investasi Jalan Tol yang Sehat dan Berkelanjutan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Positive",
       "score": 0.24,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "RM.ID via Google News RSS discovery",
+      "source": "rm.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWGVJVXlvcGExVXpWUzdzOU9xYUNqQ29ucnp4QU4tQnRnbUdJb0g4VXZzRmdmX28wdHdVSHhjc3BYQTItSEZONEdJcjRXQTl0SHl1c1YyWjJ4UWFMMnFfREs5QzJHckRVbzhJRkNtNkVoWGR4a0JFN1N0dU1meHVibWVyZl84ZmhjckxpcFBrVmNYYUVJX2FQMzBXeWZWdWNVei1LUnpiU3ZtYzlTSktlcTRqTVRPOFpN?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -135,6 +120,21 @@
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
       "source": "achmadnurhidayat.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc3ZIV29jOEYxOTZpTjJFNm1DRHZuWUdjYWQyQUdDeVNkZERuQWhVcVdrUGJVaXJFbUtPbkozaER3T256VmZkUnpnalFna3NaZ0c2bE4tbEhuQm5KLUV0b2IxYmY0VmkyVjk2MDlzZU1oYjJxZHlZWEFla1U3Slc5Uw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-0c9ef4424c",
+      "date": "2026-08-13",
+      "topic": "Tech / AI",
+      "title": "Kemkomdigi, Indosat, NVIDIA, UGM Resmi Buka Pusat Teknologi AI",
+      "summary": "jatimnow.com surfaced this fresh item: Kemkomdigi, Indosat, NVIDIA, UGM Resmi Buka Pusat Teknologi AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "jatimnow.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYk8zLWpWTmZLWmhZSWFtVXVxQ3Y5ckZhUHk0alNkNmhrdHhDMTdGendtZF9OeFpSMnk2b21uODhkVGRWRUtlanJHRnFnQjFJVmpWaU9ZU2VSNUxKeERTdF93a0gxcWpvUXRxVlRtUzBGcVMwOWxvYWNWWjFkUGcxRzF6UGl6UU1hWjhjZkYzWktVX2Jzb2fSAZsBQVVfeXFMTTFzLXh1NEMwMjNSOGhMZ1JYSHNrYmJjWnRYU3Q5WVNsOTU5djZKbkwyZjJsMWtZVEhJTV9KbHpFSE10clBZOFNYLWVQVGN5c2Fzdzd3bkJ3Ri1jejBnUzg4U1Q1VGJrX29yMmRydmk4YmxsSWVVZWV6X2hDZ0RLVTFKb3FvOWYtbHF1aUhfdTVRWjMzOTZoMVl2dUk?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -169,21 +169,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-9d8961abdd",
-      "date": "2026-08-13",
-      "topic": "Tech / AI",
-      "title": "UGM, Indosat, dan NVIDIA Luncurkan Pusat Teknologi AI di Yogyakarta",
-      "summary": "republika.co.id surfaced this fresh item: UGM, Indosat, dan NVIDIA Luncurkan Pusat Teknologi AI di Yogyakarta. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "republika.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNsenhBUExIV3dXcTY0WXViaXhtWm13dndxZVlWVGl3WkNaQnBWYjVoYmhna082dXVwd3BXU1dFNE16WUFiczg4TGFLTmRQQmZ4V2dEOVFWWDVjNUlZd0VGRWxKbkRfSUtvcUwzUWloNnVCaTdVallYNndxclhrTzdDdEk0bDdDQ3JjSENqWGx0Z3BOM3NSdGU3b1N1VlVianlqbUJYYnhJZWo2UXpoNnk5eWE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-13-de57d1e1a8",
       "date": "2026-08-13",
       "topic": "Automotive / EV",
@@ -195,6 +180,21 @@
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "20detik via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTFdDU2hMVzZNQzBLOFFqbFpqMHN6ODRqZ05TVHRpY3c0QWMxMjM4Z2NSRHVXTVpDMEY2MGMyRVpEZVRYTTk4QTVqc1VPNng3UGk2cHI0Ulpfd0NIbmF2TGtZTHJjdkRvdHVOaGNPOUZWckNZdjhFV3JyY0Jueks0dVRNaVllcFdQbWp2bERGZ3VUSFJ1UjlqV1pQU25YZnFuOXM4SQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-309a5c7706",
+      "date": "2026-08-13",
+      "topic": "Automotive / EV",
+      "title": "Luncurkan Motor Listrik Nasional, Prabowo Tawarkan DP 0 Persen hingga Tukar Tambah",
+      "summary": "kompas.id surfaced this fresh item: Luncurkan Motor Listrik Nasional, Prabowo Tawarkan DP 0 Persen hingga Tukar Tambah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "kompas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbU1VYXZYcTZvVWRFbUVuYm4zRkZfUi01bV9IRDNfei02eGlVYTBuQWlXUkdCeFBVQVhHUVlPWDFWWlRLYjdPdUFtTVRkdEp0bDR0UnctUlJSQThuU085VWFENXdlSXZNNVh5YWd0ckd5cFB4V0huOWdGOFRPTjhqd1ZEQXRMUW4zeDRsYjRBUDhJcV9wMHc5ZUZCV2VKdkpjek1kZ09uQ2pPZzNmRTQ4Wg?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -229,6 +229,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-13-631e567f1b",
+      "date": "2026-08-13",
+      "topic": "Business / Investment",
+      "title": "Punya Potensi 24 GW, Investasi Geothermal Indonesia Masih Terganjal Harga PPA",
+      "summary": "Listrik Indonesia surfaced this fresh item: Punya Potensi 24 GW, Investasi Geothermal Indonesia Masih Terganjal Harga PPA. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Listrik Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSVItUEMzQ0dTWlJ2MFg4V2tiXzZYOWU2QlBkOHZGYndoby13eTNMd2JzaTNoZlRpUVFvRk1PMDhwdGl6ZEFzdGJHNERtX190SDUzbmZtaUFERUVLRzQwaWNWUDhFV1NLb1FQNWNpcHE4b2tHWGwybjRxQWRmb3RkVXZESXBrY0k3eC1yTXhESUk4eXVCc3lTQjZQTnp2WGlzalY4OWVSLTduVURONVJMWjBJOXhSYW5UQUE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-13-5612a58281",
       "date": "2026-08-13",
       "topic": "Infrastructure",
@@ -259,21 +274,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-6f72dd715d",
-      "date": "2026-08-13",
-      "topic": "Startups",
-      "title": "Siapkan Modal Rp107 T, Anthropic Incar Kepemilikan Startup Baru",
-      "summary": "Bloomberg Technoz surfaced this fresh item: Siapkan Modal Rp107 T, Anthropic Incar Kepemilikan Startup Baru. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
-      "source": "Bloomberg Technoz via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU280Wmt3SWhEQ082alNaVXJiMGFsZzI3c2xQZEdTNDlSV3hOS25oWVQ4SmJXVEVEYi1lQk9naWYtWFh6VXRxbkVJZlBya3pFVG5BZGFrSUZtVEJnWlBHYXpFeXkxclJsSDVvbFZQVjd3QXhmeGdabGtvZWRZekVSd19xWExLbTNZc0xGTDVncjN5cmdQWkxyaW40Rm5ZS1I3em9NNjVuZjc2TUp6WG1VLXBFT0Y?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-13-44fb067332",
       "date": "2026-08-13",
       "topic": "Regulation",
@@ -285,6 +285,21 @@
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
       "source": "Infobanknews via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd0FkQkZOZDg3UENqWGthSTJFd3Vwby1jemV2aU1tbllGN2lvU1RzLTFlWjJlenQ1WDBrTXZOdHhQUWJ4V0UtZF85SFFCck5oLXcyX3FESDduYVlQWnc5cHJ4RzBqTTgtNGM0NVluWE1jRmpnYUJwMHlZaHg3Z2RpMHd3WWU?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-ecf1bdaf43",
+      "date": "2026-08-13",
+      "topic": "Automotive / EV",
+      "title": "Presiden Prabowo Apresiasi Keberanian Pelaku Usaha Bangun Industri Kendaraan Listrik Nasional",
+      "summary": "Presiden RI surfaced this fresh item: Presiden Prabowo Apresiasi Keberanian Pelaku Usaha Bangun Industri Kendaraan Listrik Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Presiden RI via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWTBQSTVybE1vdFoxSUZuUWVXSGtDeDhvbm9haWVYMzBwSDZMQnNZZW54V2N4WXVJNC1fRHludjd2aUVwNkkyN0xuaWJ1Nlc3Y2E3WGpVamJkbnJFQ0oyaDBLc3M4R0loTVVwdW5Ua2Y3Nnl6TFdMaEx5aHBJRFB3OTlqM0kwSmpwQWwyd2pXZ3NlQWYwR2k1TUFJU2NiOHVTX0VILWVwai1ZSVc5RkVvX2NyZ1FUR3p3MmwwX2IwUXY1SzlHU0hkYnNYLVQ1NjjSAc8BQVVfeXFMUFkwUEk1cmxNb3RaMUlGblFlV0hrQ3g4b25vYWllWDMwcEg2TEJzWWVueFdjeFl1STQtX0R5bnY3dmlFcDZJMjdMbmlidTZXN2NhN1hqVWpiZG5yRUNKMmgwS3NzOEdJaE1VcHVuVGtmNzZ5ekxXTGhMeWhwSURQdzk5ajNJMEpqcEFsMndqV2dzZUFmMEdpNU1BSVNjYjh1U19FSC1lcGotWUlXOUZFb19jcmdRVEd6dzJsMF9iMFF2NUs5R1NIZGJzWC1UNTY4?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -319,36 +334,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-78e0aa84c5",
-      "date": "2026-08-13",
-      "topic": "Automotive / EV",
-      "title": "Prabowo Ungkap Mobil Listrik Nasional Sedang Digarap di Subang",
-      "summary": "Kompas.com surfaced this fresh item: Prabowo Ungkap Mobil Listrik Nasional Sedang Digarap di Subang. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNanVKZFlpanRIcnRqOFpVYmRxcXZNYWxIZG9FZEw3ZGZhNzJXVTcyeGZaU25MdEZLaXg3VDhVWTNSaFJlbFVQYkVaNlBuN3lLcWdXNUxyV05WaWlOcDhROWRaNU15OWo4RENxSG1Bc0FMLUFoY2ZaeXVTeGNrM2ZVbURKMFZKYWZISmV1NXhBV2dxazNPY0ZVdGwxdzVHdWVWSzU5M2poTGRobVlSSUg2NC1CNmJFT1U?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-13-c44f25787e",
-      "date": "2026-08-13",
-      "topic": "Automotive / EV",
-      "title": "Ekosistem Mobil Listrik Dibangun di Subang, Produksi Paling Lambat 2028",
-      "summary": "MetroTVNews.com surfaced this fresh item: Ekosistem Mobil Listrik Dibangun di Subang, Produksi Paling Lambat 2028. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "MetroTVNews.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdTJkSXcybEpsWkJuVnBMUDBzRGdXWGJDRENaSDRrbkNVLWFFeHhYUVd1TnhQNEpQb3ozbWhSUmhTekJuajcxcE15eHVtLXVyX0ltLXUtSG01UDYyaGJpYzRpd1JudFlMX2dkdlJfUEU1NFVHeWhmeF9RYmlFSXZabl9ZbThaN21HTlEwWUpZZ1ZoT2NtdjVoOHNfSHl2WEZXUW5nRlV1Z0tPRTcwNUtFZEpn?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-13-a66df1cb86",
       "date": "2026-08-13",
       "topic": "Startups",
@@ -362,10 +347,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX0NjeGs3VWU3LS1JUGM3RnpPenNpQ19ybjJnUm53ZXZac2VGYXRpUXVKbVVKb1psRUs2NUYtRkNQRXlnZlVwLXVLSzEwNUg0R0RaVm4yanZLOGNPUmFBb0NtX1AxRGtaTTl4eVg5RkR0OUNMZUtONE5KS3RmWTVUR2JPX0hnX2JiakpwWVY0ajh3TUdha3k0Z3FWaWg2cG9lU2pYUkNVU2kzNzVpVnU2TjllYjZPX1ZIQW5oQ2QyY012Zw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-980d96123e",
+      "date": "2026-08-13",
+      "topic": "Startups",
+      "title": "P2MW 2026 Bukan Sekadar Pendanaan, Artholic Studio Mahasiswa UNM Kini Kantongi NIB",
+      "summary": "Universitas Nusa Mandiri surfaced this fresh item: P2MW 2026 Bukan Sekadar Pendanaan, Artholic Studio Mahasiswa UNM Kini Kantongi NIB. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
+      "source": "Universitas Nusa Mandiri via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9rQkZMSTVfWDd2Mkh6Y3oyRU5TZnRUNVdnanlkTWg5Nk9XaTJ4ZnVnN0NsSjlsQmh1ekNkZ3Q4YlUyTDNTQkNsRDBVd1NwYVF0ZEhzU3NzRnpOVXhnTTRKX2tuTTY3UlFSWTBoWDIwZXJkQ2x0OTlZU2VFU2o?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-13T19:00:21+07:00",
+    "generatedAt": "2026-08-13T20:00:21+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

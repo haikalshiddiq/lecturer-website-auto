@@ -1,35 +1,80 @@
 {
-  "generatedAt": "2026-08-13T17:00:19+07:00",
+  "generatedAt": "2026-08-13T18:00:20+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 13 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
-    {
-      "id": "2026-08-13-1d79c0fea1",
-      "date": "2026-08-13",
-      "topic": "Tech / AI",
-      "title": "Resmi Diluncurkan di UGM, Pusat AI Berbasis Universitas Jadi Langkah Nyata Kedaulatan Digital Indonesia",
-      "summary": "Portal Komdigi surfaced this fresh item: Resmi Diluncurkan di UGM, Pusat AI Berbasis Universitas Jadi Langkah Nyata Kedaulatan Digital Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.24,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Portal Komdigi via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjR2RZcGNzeWp6LTFmNDZjSlQxMFdJX213WWo3cXpfM3hVbW1hQXZPODZheXdiN1N4d2V3SWNrWHd1WGw1YkpudTRsZlFlNlFIT0hQTVRDaVJYVGxUY1FSQTNxa1duRXJ5NVpJ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
     {
       "id": "2026-08-13-0f21a2dbeb",
       "date": "2026-08-13",
       "topic": "Tech / AI",
       "title": "Pusat AI UGM Resmi Meluncur, Meutya Hafid Bidik Talenta Kelas Dunia",
-      "summary": "nasional.tvrinews.com surfaced this fresh item: Pusat AI UGM Resmi Meluncur, Meutya Hafid Bidik Talenta Kelas Dunia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "TVRI News surfaced this fresh item: Pusat AI UGM Resmi Meluncur, Meutya Hafid Bidik Talenta Kelas Dunia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Positive",
       "score": 0.24,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "nasional.tvrinews.com via Google News RSS discovery",
+      "source": "TVRI News via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcS16ZFZHenpwLXh3c29BaE92Nk9HOFg5YXBpcW5SeFBCV2dJUVFyV0oxdU90bmdFOHZpZDNTal9yMlZzcTJ0Z3hDYnF1RnNEMElrNm1jMlVNZEV1QklCSlp0U3l4SWI1czhmV2kxak9QN3lHMVdpTDY5TnlyekttM1ZtNGwxMTdFZ3JWRlRBVThkRFRZTW9HUmJIMUstMVdLVlVFUFk1SlFwcHgyRzJGMA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-db3307fc3c",
+      "date": "2026-08-13",
+      "topic": "Tech / AI",
+      "title": "WIKA Gedung Tangkap Peluang Pertumbuhan Infrastruktur Data Center Indonesia, Perkuat Kapabilitas Modular",
+      "summary": "Top Konstruksi surfaced this fresh item: WIKA Gedung Tangkap Peluang Pertumbuhan Infrastruktur Data Center Indonesia, Perkuat Kapabilitas Modular. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Top Konstruksi via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNWVYX1k1RktrRmpkTDNqVnU5c3l3NTJZOFdEZElmN2hZSFdIcGUxMGVLT1dxcmZhenhIV0U3SDRtcFJZUDJKMjBVaVRlNGJuUDlGYUFweF9PVWZwQTdTUFlNMDNzM3cyVjB0cHYyQ3gzNzN4VnNFWXctVUhMZi1nejhwTzAwUmpBQ1ZDV2o2MndOclpSbzM0YUl4THlSdktuOVR5VE5EaV9YVkdKb2tNaHhYbXlMWWVqNEtuOVBTR2pEaEc2anF5anNR?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-e8e99993bf",
+      "date": "2026-08-13",
+      "topic": "Tech / AI",
+      "title": "Majalah ICT – Resmi Diluncurkan di UGM, Menkomdigi: Pusat AI Berbasis Universitas Jadi Langkah Nyata Kedaulatan Digital Indonesia",
+      "summary": "Majalah ICT surfaced this fresh item: Majalah ICT – Resmi Diluncurkan di UGM, Menkomdigi: Pusat AI Berbasis Universitas Jadi Langkah Nyata Kedaulatan Digital Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Majalah ICT via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSi1KRTNMRzNoTk5uZ2Z1dkhyX1lMZ0paTlo1UUZGVkdETzNxZnJpcmp3NXc0WUdVblpRdVZFempOUFRlZmlXenpPdHNvemViRm5iTVRQSTV0eWtVTzlLV0VQREljYktfMDM5ZXlzRXdIeUJUNi1leXhWOUZBaV95LVVzLWx6VEJwS0VGZW5HT2ROX09wVGZ4U2VzQUpZMFNZVTVLcjdVVFJtdmZvalZpVUQzSTNVQXMwN0hhcmt5U0N2U0xleXlybzdGV1lseVowbVpfVC1TUWs?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-eb402e183e",
+      "date": "2026-08-13",
+      "topic": "Business / Investment",
+      "title": "Resmi Diluncurkan di UGM, Pusat AI Berbasis Universitas Jadi Langkah Nyata Kedaulatan Digital Indonesia",
+      "summary": "portal.komdigi.go.id surfaced this fresh item: Resmi Diluncurkan di UGM, Pusat AI Berbasis Universitas Jadi Langkah Nyata Kedaulatan Digital Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "portal.komdigi.go.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjR2RZcGNzeWp6LTFmNDZjSlQxMFdJX213WWo3cXpfM3hVbW1hQXZPODZheXdiN1N4d2V3SWNrWHd1WGw1YkpudTRsZlFlNlFIT0hQTVRDaVJYVGxUY1FSQTNxa1duRXJ5NVpJ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-073c503179",
+      "date": "2026-08-13",
+      "topic": "Business / Investment",
+      "title": "HIMKI: Pertumbuhan Ekonomi Belum Sepenuhnya Dorong Industri Mebel",
+      "summary": "KONTAN surfaced this fresh item: HIMKI: Pertumbuhan Ekonomi Belum Sepenuhnya Dorong Industri Mebel. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "KONTAN via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVlE0b2VQSTc3YTR0dG0wQWNqWUtkaVNTQzQ2dzVoaHYtTzdpblRnZGswX0JSM21FUVdnY1NoNXd3Tjg4UDc0b3c4TE92ZTlyUVJtLXFaQ1d3MzFUbWZDOEhUbkVDb0RTbHNUeHMxTDFnLWh2V0o2VDRYcGpEMnNFUkFhTjdNVld5cE9wd0tTc1dLVHlNZlA1UmthNkRTQ03SAZoBQVVfeXFMUGVaQ09HdXVuR0lfN2xoNHBJdHVkdU0xUGNfdnBmeHgzdTdNU0o1S08teXZRY3pYUlZKeE1oc2MwaWx5b3BFdHd0U2hQTG1zNzNucVZrSl9pb3pIQlpwR3dGY3ZCZzQzY254MTZ0UTdlcjZ2UGdvLVpWdGpEaXA5VlNFWm4yS2dmR0g5ZVFQVTl6UGlCYmNVenVjUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -94,6 +139,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-13-54b5bedf60",
+      "date": "2026-08-13",
+      "topic": "Tech / AI",
+      "title": "Meutya Hafid Resmikan Pusat Teknologi AI UGM Indosat NVIDIA",
+      "summary": "achmadnurhidayat.id surfaced this fresh item: Meutya Hafid Resmikan Pusat Teknologi AI UGM Indosat NVIDIA. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "achmadnurhidayat.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QeTV0UGxkeUhkRzhQSTFKTDQxNXNrV2phWnBOaXM1MmVLVktQaVc4T2QxX3A3M3BTWVdxQ3REdGpqcHJvQmFrNE9qd25wMFcyamVuTHRmTEx4alNWdUhkeHQ0b19NYnZCWTVKWXRUOA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-13-69185bfc67",
       "date": "2026-08-13",
       "topic": "Tech / AI",
@@ -109,51 +169,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-a3776d3c5a",
-      "date": "2026-08-13",
-      "topic": "Tech / AI",
-      "title": "Indosat NVIDIA dan UGM Resmikan Pusat AI di Sleman",
-      "summary": "achmadnurhidayat.id surfaced this fresh item: Indosat NVIDIA dan UGM Resmikan Pusat AI di Sleman. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "achmadnurhidayat.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tXzRIV1lqNGJhckJRR3JlUjVQZ2ljd3JfOTI3dTBWR0JmYXBEUmdXWjJ2c18tYUZzRHY2bXprQTM3TU10UGNFSXY4dXU1cF85b2FsOXM4Ym55WXRONE9DcXdrM1E2QTVCMTI1SktQTHhsZw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-13-9d8961abdd",
-      "date": "2026-08-13",
-      "topic": "Tech / AI",
-      "title": "UGM, Indosat, dan NVIDIA Luncurkan Pusat Teknologi AI di Yogyakarta",
-      "summary": "republika.co.id surfaced this fresh item: UGM, Indosat, dan NVIDIA Luncurkan Pusat Teknologi AI di Yogyakarta. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "republika.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNsenhBUExIV3dXcTY0WXViaXhtWm13dndxZVlWVGl3WkNaQnBWYjVoYmhna082dXVwd3BXU1dFNE16WUFiczg4TGFLTmRQQmZ4V2dEOVFWWDVjNUlZd0VGRWxKbkRfSUtvcUwzUWloNnVCaTdVallYNndxclhrTzdDdEk0bDdDQ3JjSENqWGx0Z3BOM3NSdGU3b1N1VlVianlqbUJYYnhJZWo2UXpoNnk5eWE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-13-11e8bfcc73",
-      "date": "2026-08-13",
-      "topic": "Automotive / EV",
-      "title": "Wuling Aira ev Berhasil Bukukan Lebih dari 3.500 SPK Dalam 2 Minggu Peluncuran Nasional",
-      "summary": "Wuling surfaced this fresh item: Wuling Aira ev Berhasil Bukukan Lebih dari 3.500 SPK Dalam 2 Minggu Peluncuran Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Wuling via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOenAxbk10aHJ0bTdMaTQyV3k0NDUwUW5EUS1DM3N1MWpIcnIyTmVNWUI2WjZITXJ2WGVwWFhuQnZvSXFucDNRTkRwUEU0Z3k0TVRNU2RwVjN5OS1tNEU5VGJnOWtGbi1TcU15aXQ3SzRxaVpKOUtnQTEzMlpqNWcya2FhZEgxWTZIampIWVRXQzFoM3V2RlRLdXl1N09sTl83VFBKUVpFZFpSYzFRZXc1NWxnbTY0NkZzOWo1VXNhM2lGYVRsOGc?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-13-7830d5236a",
       "date": "2026-08-13",
       "topic": "Business / Investment",
@@ -165,36 +180,6 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "Kementerian PPN/Bappenas via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM016VFhDckphNm9fMTJiMUhzbkR2SjJnaGRhUzY4MmdBUFB0MEk2U0V1NTNma1RyQTFZVENDdUpKTTZGYUhlaTRyRGRGRkdrTkV5dklPc1BJYmVVNjllc0RUaEtrVjZldEZiUG1kaWk3TjFvZWh3anJKREFaUGhSOGMzbFgtTy1fOFZDZERtQ1kwRXdsMjV6YTZhOTJPeFR3aGE3UEtWVlY4NW5iR01HM01QSnJublhWRjRSTDluN1Y0X1JKZWNN?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-13-bd96958f70",
-      "date": "2026-08-13",
-      "topic": "Business / Investment",
-      "title": "MBG dan Koperasi Merah Putih Jadi Mesin Baru Investasi Ekonomi RI",
-      "summary": "cnbcindonesia.com surfaced this fresh item: MBG dan Koperasi Merah Putih Jadi Mesin Baru Investasi Ekonomi RI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "cnbcindonesia.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNGNPYkVPRWlOcmlSTklDUHBTOTI2aUd5M2RQSTB1VkhCZTZaUXliT0dDU25yMWVWWFRWVV9iZmVVWmN6WEo0Y1YzTm4zNWVGdUVsLThWeGtLdnJMYUtRNGlxLVQ1dEhaYjEyd0Frc2F1akxQbmZyZ3VBWk1FY3BBQ3c5R2VIVmpCbjNLQVlQSHB2ZFJfbG9GanZKYl9lOGc0MV8wbU5IVXpTVVcybkVSX19iYnFxSVpQTFhpSjZWN1J3bmZxeHfSAcsBQVVfeXFMTllSS1lEM1lNTGxjd2tWdFJ3NXdsdzg4WE9vTTRNVzIwZTNCYTc2eFg3Mi0zYnRyejdNLUFjRHU4TjUxd3h1UG5jUzgxY3Q1NnMxUlhUU1otckhRQnNKVll5eWV5V3hfRVEyYnNtcHJTTDdvdEI3b3FDUkZnVko5Y2pWTTEwUmZ6N0JSdGtWZzhrSGZXRG9FYVJFWDVCZC03bzZwU2FfalJucFl5VF94c2RlY2p0NXpRa202WVNUeUt3MWpDS0psLW9zNlk?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-13-a252a5ece0",
-      "date": "2026-08-13",
-      "topic": "Business / Investment",
-      "title": "Pertumbuhan Ekonomi Indonesia Ungguli Jepang dan China, Capai 5,29%",
-      "summary": "Listrik Indonesia surfaced this fresh item: Pertumbuhan Ekonomi Indonesia Ungguli Jepang dan China, Capai 5,29%. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Listrik Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV0NjcXBfOVlOa01aZGxSVzRiODFyOGRtbC1qZUtpQkplSUhkY3RxY2F6Yk5pWHg1SDAyN2hUZmx1NzctZXZQY0ttMDVlVTVOcGZZeU9Bd09qS2hkMHp0VUJfNTVHR0hJOFFIakVDM0F4Ny0yZFVDaW5tTjRRTWtveGRBLVdDVElBVDlrY1BpQnRfdnNDRUIzbjdmOElEVHJzc3dYYXhqYmFfQQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -244,21 +229,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-3e9f5c8ab8",
-      "date": "2026-08-13",
-      "topic": "Markets",
-      "title": "IHSG menguat 14,38 poin ke posisi 6.388",
-      "summary": "ANTARA News Yogyakarta surfaced this fresh item: IHSG menguat 14,38 poin ke posisi 6.388. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "ANTARA News Yogyakarta via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTTd5WUZseXdXTXJKOUtaU1JXOVRmcHFxUTVVbW50eGdmMGFRYkJfZjBKLVhNU19yN3BWdU5xazdXc1hkRU85ZlNQbUdTTTFNWXN0YXBPSXdjOEtRZURBSE9rYW92MjB6Y0dabEdQQzdkamNBcXhFZUhWNkN0NE1MaTAzR2xYWG8?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-13-44fb067332",
       "date": "2026-08-13",
       "topic": "Regulation",
@@ -304,47 +274,62 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-f56cb4e95a",
+      "id": "2026-08-13-55dcebe56a",
       "date": "2026-08-13",
       "topic": "Automotive / EV",
-      "title": "Prabowo Ungkap Ekosistem Mobil Listrik Dibangun di Subang, Produksi Massal 2028",
-      "summary": "detikFinance surfaced this fresh item: Prabowo Ungkap Ekosistem Mobil Listrik Dibangun di Subang, Produksi Massal 2028. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Prabowo Targetkan Mobil Listrik Indonesia Produksi Massal pada 2028",
+      "summary": "detikNews surfaced this fresh item: Prabowo Targetkan Mobil Listrik Indonesia Produksi Massal pada 2028. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "detikFinance via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajI4ak5reHZQTUVvckk2S0Uyakl3R1ZtZVUzMFJmS2F5eHJhMC1GbHdXRU4tN3k4ZUJGZWRhdlZ0andjMG5mZWhOQkUxM2NmSUJPWVBVamY2bWVLb3M5eXJGNkFhWmZJSzF6NExNUHlDUUdCdWt6R0hYUXNMSDNScFFLTlBReUQydzhEN1AycW9sbHluYUg3eDExWWpxNWhVbjdoV2pmWlhhSTU3N3RQMG9wMDNrU2dXOHA1aXk0RGLSAcYBQVVfeXFMTjJfMTNQaGRBZ0RhV05NZ0lTSTF0QnF2YnhpVTlYMFpLU3NwMEpKcVNaZFA5VVdwNWdGSE1pTnVLenJDRzJjUUxQUGlsMENXbXhhejFNRnNVVGJwNjZCckh2QjJEMEJKdEdKTk9aRUk2bnBkWUlvMkhYblFvTm1veVczOUJkamtmalRiTEV2d296Z3NNcXNodHQ5LVZBYnVIQ1ZvR25OUlhabnktUklTbjlXVm5Gd2llTlBmWEtTSTVNcVkwVjRB?oc=5",
+      "source": "detikNews via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeHA1V2F3ZG5HakdEWlU4cERRWG5QOVFUMEIyRERRMmprUHFwSTdvMVZjNlpiQlZNSF8zTEpDYUduOVhDN2pKRTlmZTEzSVp6dnZwLVVhaGhQNlhWOFAwYkw5a0xxWUp4R3ZsMmRsOEdFejFkcmRCY2lYV0lTV3E1aWkxeVJ3MHZPcEZKUENMVVQ5WnVoNHFrcC1rRnVzeGFaM2Q5WFMyOFYyZFHSAbABQVVfeXFMT1ZVRlVGYkRFQTR1OGgwR2NuZ0ptbnBuVzdhWkZPWktUNWNkSEg5NzJCN2x4THdWZ0NpSWFnWEJtemVsNTVNOGk4LThBV0JqT3RIeFRWMFZRSFBEYUNZMTUxTjd5NFljX0hRYzhXNUR6RG41OFVzN1E5YzBRY2ZIX0dmUy1BS2NKMk9ES1RmbUx1QVdwX0RRVzlFM2o0LTRMTTAyS09mTHAzOFZ0SXJkczk?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-1bf9751f63",
+      "id": "2026-08-13-78e0aa84c5",
       "date": "2026-08-13",
       "topic": "Automotive / EV",
-      "title": "Mobil Listrik Laris, Ini Biaya Pasang DC Charger untuk Isi Baterai Lebih Cepat",
-      "summary": "KONTAN surfaced this fresh item: Mobil Listrik Laris, Ini Biaya Pasang DC Charger untuk Isi Baterai Lebih Cepat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Prabowo Ungkap Mobil Listrik Nasional Sedang Digarap di Subang",
+      "summary": "otomotif.kompas.com surfaced this fresh item: Prabowo Ungkap Mobil Listrik Nasional Sedang Digarap di Subang. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "KONTAN via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNHlrbVNRUkROMlp4QU1ZTkJRNXUwZVBJOE11UEZBLS1jTWxwQUFjc3hIS3l0dUQ5TVprcWRIcFdHRjRFQzFHNXZkQTV2TVVrZXdtajhzRWhPcExoeTN5VXp4VlBWQmZuQnBqdUJfY1o3anZHd2FQZWotRk9uNzktWUFFNS1KTDhmM3ZDUTBNRk42ODVLUjJvdXRrLXJGOEkwZVpjRExhMlBzRE1oWm10bA?oc=5",
+      "source": "otomotif.kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNanVKZFlpanRIcnRqOFpVYmRxcXZNYWxIZG9FZEw3ZGZhNzJXVTcyeGZaU25MdEZLaXg3VDhVWTNSaFJlbFVQYkVaNlBuN3lLcWdXNUxyV05WaWlOcDhROWRaNU15OWo4RENxSG1Bc0FMLUFoY2ZaeXVTeGNrM2ZVbURKMFZKYWZISmV1NXhBV2dxazNPY0ZVdGwxdzVHdWVWSzU5M2poTGRobVlSSUg2NC1CNmJFT1U?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-08-13-f8dbc43fb8",
+      "id": "2026-08-13-43e3d1b38b",
+      "date": "2026-08-13",
+      "topic": "Automotive / EV",
+      "title": "Presiden Prabowo Umumkan Produksi Massal Mobil Listrik di Subang 2028",
+      "summary": "achmadnurhidayat.id surfaced this fresh item: Presiden Prabowo Umumkan Produksi Massal Mobil Listrik di Subang 2028. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "achmadnurhidayat.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1SWxsbWRGUFpiUzRVWk91WWU0d1lKenk2Nlp2cE5JZkVUaDFnM2FVN3FON01Sek9yZ2FuSVVZeGNJdFVfSmhlYTA0ZTktZjJwSWxjNnA1M0Zfb0NMUUVvMVdueDFodEVJYjZGWmRNYw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-a756421b0f",
       "date": "2026-08-13",
       "topic": "Business / Investment",
-      "title": "Groundbreaking PT Chingluh Group: Angin Segar Pembangunan Ekonomi Daerah di Kabupaten Cirebon",
-      "summary": "cirebonkab.go.id surfaced this fresh item: Groundbreaking PT Chingluh Group: Angin Segar Pembangunan Ekonomi Daerah di Kabupaten Cirebon. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Ramai-Ramai Bahas Strategi Penguatan Mineral-Emas Demi Ekonomi RI",
+      "summary": "cnbcindonesia.com surfaced this fresh item: Ramai-Ramai Bahas Strategi Penguatan Mineral-Emas Demi Ekonomi RI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "cirebonkab.go.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOclVPZFBDV1RaTFdTRHcwUmxTUXJvU3QxSG1MZHpHVGV2c3ZwbnljamFYd0w3ZFBOX1pXQTRNcGFhXzR6eGF3dnlHYVNmTFMzOXl4WFktMlFxQ0hHMTZLQkxIRXFlVmJwRDFTZ3VWNFRsalZtdk92S3J1WjFjYTJoa1BHUHh2UHh6QWNRR0dTa3BDS0VicmtDeHY5UU4wLU9fNHVjSFF2VzBkWGJoZVhXOTJqejNMT1pRU2c?oc=5",
+      "source": "cnbcindonesia.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcTFpNE1fWVd3R2VsMEE1Q05YM1ozcGU4eEc5cjA3Mmw1MUlTRHgwZE5Jcm5zelhqVTFSMjc4NlU3WXZEZ29Id0Ficl8zTEV4M1htOUVpS1BfX2doYjNBY1F0SjE1R2FYSWNMaFRZZkJkMnNUUVVkaVZVUHRmeHk0TjlqeFdkVjlRZzNtVXg4YnVBS2ozWmhTbm9rZ01wTzZPd1ZXYjl5T0F3S0dnY1lYNVBDSTNuOWd2VTRYR0FoSzlRUdIBxwFBVV95cUxQUjBJOWVGNmZ2OE5vRUs3cm5OMkdBV29vUjBNc3RubUxvV05xclpVaXM0aGhrc0FuamdmUVkzUUd6TEJZbXY1Z2xLOFRIc2VzMTQtYWlqblZfLUQ2R05UTHF2ZU5oaFREa01qT0R6U0tvUXlQWTRtTFJUd2M5VmZGRmNOYjFJbUMzVm9taXI2MDNka2Z6N2tGSWxWZUIzVElwb3N4UWhPS3MxZ0ZMZjlPZVIxMTl0d1hPNjkzTUtnWHZqSktjSWxF?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -353,19 +338,34 @@
       "date": "2026-08-13",
       "topic": "Startups",
       "title": "Mandiri Capital Indonesia Bakal Sasar Pendanaan di Sektor Konsumer dan Riil di Jangka Menengah",
-      "summary": "SWA.co.id surfaced this fresh item: Mandiri Capital Indonesia Bakal Sasar Pendanaan di Sektor Konsumer dan Riil di Jangka Menengah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "swa.co.id surfaced this fresh item: Mandiri Capital Indonesia Bakal Sasar Pendanaan di Sektor Konsumer dan Riil di Jangka Menengah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
-      "source": "SWA.co.id via Google News RSS discovery",
+      "source": "swa.co.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX0NjeGs3VWU3LS1JUGM3RnpPenNpQ19ybjJnUm53ZXZac2VGYXRpUXVKbVVKb1psRUs2NUYtRkNQRXlnZlVwLXVLSzEwNUg0R0RaVm4yanZLOGNPUmFBb0NtX1AxRGtaTTl4eVg5RkR0OUNMZUtONE5KS3RmWTVUR2JPX0hnX2JiakpwWVY0ajh3TUdha3k0Z3FWaWg2cG9lU2pYUkNVU2kzNzVpVnU2TjllYjZPX1ZIQW5oQ2QyY012Zw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-13-980d96123e",
+      "date": "2026-08-13",
+      "topic": "Startups",
+      "title": "P2MW 2026 Bukan Sekadar Pendanaan, Artholic Studio Mahasiswa UNM Kini Kantongi NIB",
+      "summary": "Universitas Nusa Mandiri surfaced this fresh item: P2MW 2026 Bukan Sekadar Pendanaan, Artholic Studio Mahasiswa UNM Kini Kantongi NIB. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
+      "source": "Universitas Nusa Mandiri via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9rQkZMSTVfWDd2Mkh6Y3oyRU5TZnRUNVdnanlkTWg5Nk9XaTJ4ZnVnN0NsSjlsQmh1ekNkZ3Q4YlUyTDNTQkNsRDBVd1NwYVF0ZEhzU3NzRnpOVXhnTTRKX2tuTTY3UlFSWTBoWDIwZXJkQ2x0OTlZU2VFU2o?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-13T17:00:19+07:00",
+    "generatedAt": "2026-08-13T18:00:20+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -672,12 +672,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13959.9062,
+        "last": 13963.833,
         "date": "2026-08-13",
-        "return1m": -0.75,
-        "return3m": 1.5,
-        "return6m": 5.26,
-        "return1y": 5.16,
+        "return1m": -0.72,
+        "return3m": 1.53,
+        "return6m": 5.29,
+        "return1y": 5.19,
         "volatility": 7.68,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 13925.8311
           }
         ],
-        "profitScore": 2.13,
+        "profitScore": 2.16,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,13 +970,13 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12611.2998,
+        "last": 12607.4004,
         "date": "2026-08-13",
-        "return1m": -0.42,
-        "return3m": -0.64,
-        "return6m": 6.27,
-        "return1y": 6.63,
-        "volatility": 10.11,
+        "return1m": -0.45,
+        "return3m": -0.67,
+        "return6m": 6.23,
+        "return1y": 6.6,
+        "volatility": 10.1,
         "maxDrawdown": -5.12,
         "sparkline": [
           {
@@ -1260,7 +1260,7 @@
             "value": 12591.2422
           }
         ],
-        "profitScore": 1.7,
+        "profitScore": 1.67,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,13 +1268,13 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 112.1,
+        "last": 112.11,
         "date": "2026-08-13",
         "return1m": 0.14,
-        "return3m": 1.12,
-        "return6m": 3.22,
+        "return3m": 1.13,
+        "return6m": 3.23,
         "return1y": 2.19,
-        "volatility": 9.66,
+        "volatility": 9.67,
         "maxDrawdown": -6.3,
         "sparkline": [
           {
@@ -1558,7 +1558,7 @@
             "value": 111.8945
           }
         ],
-        "profitScore": 1.09,
+        "profitScore": 1.1,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,13 +1566,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20596.0,
+        "last": 20604.0,
         "date": "2026-08-13",
-        "return1m": 3.09,
-        "return3m": 0.74,
-        "return6m": 3.09,
-        "return1y": 4.0,
-        "volatility": 16.21,
+        "return1m": 3.13,
+        "return3m": 0.78,
+        "return6m": 3.13,
+        "return1y": 4.04,
+        "volatility": 16.22,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -1856,7 +1856,7 @@
             "value": 19988.0
           }
         ],
-        "profitScore": 0.97,
+        "profitScore": 1.01,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2648.3999,
+        "last": 2648.5,
         "date": "2026-08-13",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-08-13",
-            "value": 2648.3999
+            "value": 2648.5
           }
         ],
         "profitScore": 0.0,
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 79,
+        "opportunityScore": 75,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,7 +2194,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 79,
+        "opportunityScore": 75,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },

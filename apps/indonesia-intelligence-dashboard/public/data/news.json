@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-14T17:00:51+07:00",
+  "generatedAt": "2026-08-14T18:00:52+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 14 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-14-3d1c8e8be2",
+      "date": "2026-08-14",
+      "topic": "Tech / AI",
+      "title": "Resmi Diluncurkan di Yogyakarta, UGM Indosat NVIDIA AI Technology Center Cetak Sejarah Pusat Riset AI Kampus Pertama di Indonesia",
+      "summary": "KabarSelebes.id surfaced this fresh item: Resmi Diluncurkan di Yogyakarta, UGM Indosat NVIDIA AI Technology Center Cetak Sejarah Pusat Riset AI Kampus Pertama di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "KabarSelebes.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNc0prT3RrdmNJV1JQdVNxLVgwQm9mdHpMbjNmOG5ETHVvQWdtbGJ3WnhRT1VZYWhtX3FTdkk2NnUwQzlzMk93Y1E3bnNheWR2SHdyOFVjMjZBaWRyRkpnN3FBV1VCcGdsQ0x0anAwYVJFb3RyM2N3Wmh2YnFpaFIzbWwwM3cxLVVXZ1pZMVhxdXl2N3NuY2wySHhVd0w2RjgzMkZ3cTlGUXZHTlR4RExxWXR0UlJJQ2hMUFZzTGh4QThhRUV4RmkxbWU5YmNfQTVpdFg1Q0ZvSi1kY0JWMm9xVEZUQnl5UFBwOGk2R29yM3hoclVNMHVxeklDbUNhZ0hw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-14-6c513cf245",
       "date": "2026-08-14",
@@ -64,21 +79,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-14-62ae1482f0",
-      "date": "2026-08-14",
-      "topic": "Regulation",
-      "title": "Pembiayaan Tumbuh 159%, GRC Jadi Pengawal Ekspansi LiuGong Finance",
-      "summary": "TopBusiness.id surfaced this fresh item: Pembiayaan Tumbuh 159%, GRC Jadi Pengawal Ekspansi LiuGong Finance. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.21,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "TopBusiness.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTWRoMFRWRFRzSDBfbEtibUVMaURMM1l5NmlFRVJBYl91MkZXc0ZZcGxrTy0yZ1I1cEJELXpOYVFnYXZxZl9iVkQxTEZOZkZmcTBsMmM3aHZ2Ql9iWERQMzRtNUFXUkNFaTVCS1NTejJqeGU5WXNrc0hOSHhJWVV6cUNabDBjWlNLcWNreWxPczF3TFJudTZqYnlrYWEtS19VcXFlX05B?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-14-e6452be90b",
       "date": "2026-08-14",
       "topic": "Tech / AI",
@@ -124,17 +124,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-14-f83a999ee2",
+      "id": "2026-08-14-144e738a2d",
       "date": "2026-08-14",
-      "topic": "Tech / AI",
-      "title": "UGM, Indosat, dan NVIDIA Luncurkan Pusat Teknologi AI Pertama di Indonesia",
-      "summary": "achmadnurhidayat.id surfaced this fresh item: UGM, Indosat, dan NVIDIA Luncurkan Pusat Teknologi AI Pertama di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Automotive / EV",
+      "title": "Video Indonesia Resmi Punya Motor Listrik Nasional!",
+      "summary": "20.detik.com surfaced this fresh item: Video Indonesia Resmi Punya Motor Listrik Nasional!. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "achmadnurhidayat.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Gcm1TYTVyZU1kcTkzeTVDT2lsQTZNUWFZVmVXcVZLU3B1YmE5MGpKTWFVVzFEZkVXaWtHZmxQQm9rWUlCZWlzd1VRNEpnQlBneDNLaU43U0M5bzZpaUdrdXlRcVFtWFpZN3RJLVRnN0JrcWs?oc=5",
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "20.detik.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTFdDU2hMVzZNQzBLOFFqbFpqMHN6ODRqZ05TVHRpY3c0QWMxMjM4Z2NSRHVXTVpDMEY2MGMyRVpEZVRYTTk4QTVqc1VPNng3UGk2cHI0Ulpfd0NIbmF2TGtZTHJjdkRvdHVOaGNPOUZWckNZdjhFV3JyY0Jueks0dVRNaVllcFdQbWp2bERGZ3VUSFJ1UjlqV1pQU25YZnFuOXM4SQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -154,31 +154,16 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-14-56e0aa1169",
-      "date": "2026-08-14",
-      "topic": "Automotive / EV",
-      "title": "Apa Itu MOLINAS yang Diresmikan Presiden Prabowo? Ini Program Motor Listrik Terbaru",
-      "summary": "kontan.co.id surfaced this fresh item: Apa Itu MOLINAS yang Diresmikan Presiden Prabowo? Ini Program Motor Listrik Terbaru. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "kontan.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ3ZnZU0yMmlycmdveVJPNmZfaU5VU19EYXR6QkZtUjdjZ0VuTlVPVnlIRk82Z04zSjVFYjg1Y193OW1ZNDRBYjRnSEE3aC1XV2UteUl1bGpFdnVxaUlKMzYweW04bjMyM3Jncmp6U2F0TnpWYjZFb3ZxT1J6b3NhX1BZa2QwZVFmUnMyN1hrWGxoUDVBc1MwS29UQUg1RlNCcC1LRDVHUFN3N0RIbGdyRmNGYnhGUE5O0gGyAUFVX3lxTE50REJiMnRET1Q4U0RWdjFTXzAtdlBCOHp5UjJYOHJ5MG1ZbjRwMjFWbFliaU45cUdBRVBmaGROUklsUDJIdkhraWxObXdxVVVWR1l5V3F0SHkxcXZEbzVnZWJPYWNad0J6WGZzMFJscnJWa2pIYk1VWnE1TzY5cEwyVEMwSEMwc1hpekYyd0IyWElOM0JCZE81dWszWUhvek8xRzRCbHNwaXdoQ1Y2ZmwwM1E?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-14-8312ab9033",
       "date": "2026-08-14",
       "topic": "Business / Investment",
       "title": "Presiden Prabowo Tegaskan Kemandirian Ekonomi di Tengah Gejolak Global, Pertumbuhan Harus Sejahterakan Rakyat",
-      "summary": "setneg.go.id surfaced this fresh item: Presiden Prabowo Tegaskan Kemandirian Ekonomi di Tengah Gejolak Global, Pertumbuhan Harus Sejahterakan Rakyat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Kementerian Sekretariat Negara surfaced this fresh item: Presiden Prabowo Tegaskan Kemandirian Ekonomi di Tengah Gejolak Global, Pertumbuhan Harus Sejahterakan Rakyat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "setneg.go.id via Google News RSS discovery",
+      "source": "Kementerian Sekretariat Negara via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNanJXU2NIVXFNOTJYMUdETUZjSXpXM25KMGx5STVSbDBQNk9CSkFHbGQzcjRhQW9QUWxId2NzdHI2dGo5OF96ZFVaX1N3ejFibVR4VGJaRkZmaTlJMzBNai1ybGhNcTNNblhkWTR1NWFHdVBaczhWbS1QRzcxdC1NT1NocWk3eHItNGcwSFJiY3BqSkZqNjIxc3Nid0ZkWmVYUll1dnZaWkdidVRQQWhZTmZyRzBDMVM4WW9NRFl6cXktTkEzNjlwcHY3NFM1NWZhd0F5OWlBWkdRUS1V?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -203,12 +188,12 @@
       "date": "2026-08-14",
       "topic": "Business / Investment",
       "title": "Pidato Kenegaraan 2026: Presiden Prabowo Pamer Capaian Ekonomi dan Investasi",
-      "summary": "muc.co.id surfaced this fresh item: Pidato Kenegaraan 2026: Presiden Prabowo Pamer Capaian Ekonomi dan Investasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "MUC Consulting surfaced this fresh item: Pidato Kenegaraan 2026: Presiden Prabowo Pamer Capaian Ekonomi dan Investasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "muc.co.id via Google News RSS discovery",
+      "source": "MUC Consulting via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd2NxRU9tWDVLa051MHpHbE5OU2hvWXhQS2RFbDNwTUhFN1dEY1FvU25JV2ZpYzluLUZXS1NqQzRaMkFrbUlzaVIyOGh2RU8zYXlUYWU2eVN6QlA1YnRYLURiUmZfdDNYVDFTd1V4MWV5UmlhNFZPN1cyWWo5N2dCeDlZV2I1aXlUYlZBMUQ3MHk3WTRRZ08yZWVSVkdnbWdZbUdqa3c1SQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -218,13 +203,28 @@
       "date": "2026-08-14",
       "topic": "Infrastructure",
       "title": "ATI Dorong Model Baru Pembiayaan Jalan Tol: Kurangi Beban APBN, Perbesar Peran Swasta - pontianakinfo.disway.id",
-      "summary": "Pontianak Info surfaced this fresh item: ATI Dorong Model Baru Pembiayaan Jalan Tol: Kurangi Beban APBN, Perbesar Peran Swasta - pontianakinfo.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "pontianakinfo.disway.id surfaced this fresh item: ATI Dorong Model Baru Pembiayaan Jalan Tol: Kurangi Beban APBN, Perbesar Peran Swasta - pontianakinfo.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Pontianak Info via Google News RSS discovery",
+      "source": "pontianakinfo.disway.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeVVKWUJFamlrVk1lS295MUY5SE1GV0dLdTJ6dTFQVkxWSVJuY2ZrRUlZUlcxMkEyZnNia3ZJc0xwS3dNU2ZpaGZMUnBvUXpBU1pwMmxCaXdqSTVocnE4QUNNRUVmTlNMQUpHWTl4VXdDeWtNNTRxMjdwSzB4X3RkN1pKckpGaml1VXUwZFhqejJjOTJhRFNFTVhLOVVzVktNSzdnVm9QTlY1VHFHTDloLXpDTDNDNXktRUZfNGZzT3c5cmfSAcMBQVVfeXFMTXlVSllCRWppa1ZNZUtveTFGOUhNRldHS3UyenUxUFZMVklSbmNma0VJWVJXMTJBMmZzYmt2SXNMcEt3TVNmaWhmTFJwb1F6QVNacDJsQml3akk1aHJxOEFDTUVFZk5TTEFKR1k5eFV3Q3lrTTU0cTI3cEsweF90ZDdaSnJKRmppdVV1MGRYanoyYzkyYURTRU1YSzlVc1ZLTUs3Z1ZvUE5WNVRxR0w5aC16Q0wzQzV5LUVGXzRmc093OXJn?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-14-948c9cd634",
+      "date": "2026-08-14",
+      "topic": "Infrastructure",
+      "title": "Inovasi Baru! Pemerintah Akan Luncurkan Aspal Merah Putih Pasca HUT RI Ke-81",
+      "summary": "Top Konstruksi surfaced this fresh item: Inovasi Baru! Pemerintah Akan Luncurkan Aspal Merah Putih Pasca HUT RI Ke-81. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Top Konstruksi via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVG5odHlEcnZJdFBkbXRjTGJmNHpMSHdQY1JYTlZ0cU5nSG5PSDRxd3hCd1otS1Jqd1dWOHg0cng2RHNnenp6Y3JxdTZGNEk2a1Q2NDJCMGdfRWpXbmNVZjdNSkhKcWRlREZkY3ZMYTRMV2ZXMTBLcm1DY0tDMVNDSFFlTl9zeDNEUWh5ZUMyRG9jZTJ6Y0Z4ZGF4MzNpT3BxS2FDdQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -244,6 +244,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-14-62a023e984",
+      "date": "2026-08-14",
+      "topic": "Markets",
+      "title": "Prabowo Dorong Demutualisasi BEI: Harus Jadi Bursa Terbesar Dunia",
+      "summary": "InvestorTrust surfaced this fresh item: Prabowo Dorong Demutualisasi BEI: Harus Jadi Bursa Terbesar Dunia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "InvestorTrust via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbnBDay1mUmNFOWFuay13dDFZNG04NzRxOHVSWUlyTXAtcmZPWS1nZ0ZlUTB5c3l6NzNZS3VhM182WXlpQ0I2WEZlM1dld1htb2ZjNHFFTGFQRUlxRHdJZlRqNFl2TzlZUlN1R0FlTHNYNUpNdm5Nd09tZGVGekl5QmlwY010OGlkQmtqX0RCeVl2cDdBQi1RTGtBc3MzV1RSY1lzV21R?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-14-42b068779c",
       "date": "2026-08-14",
       "topic": "Regulation",
@@ -255,6 +270,21 @@
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
       "source": "kontan.co.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYVhaaWFqQzREZk9tM25wNlF2VjZtMzNpTWVqMVJKMjdpemtQeDBFVTlndERpdWJweEgyT3ByV1VFTGNOV3MyWklFUDFrQVFYNXhrdEstZXlZYVY4Y3BRR05xS25DWFRIMGlraGZOUkp1WjdUMjdwbGM0R0xsMUthaUdTdW10OXFjRFJ4OWttbWpzd1Mxdml0clZydG80ZXBPbWs0RDNB0gGfAUFVX3lxTE1YblA0bXZBbEYzVEhkZnhOV0lYbk10VjA3NnFFY1BoY2hXbTdmQ2s1bDBVVFdTazdLVVJELXF4STlTdmd6U3loM2tiMldpbGRaY2h6R3I3OEllRnlERVc3QU8tanM0SVhDdmF0WWVXOVVSZzRjRXFhazZDUjVGcjRjdFB2SWVCQ1N6WWtvODFtNWxFUDJFUWtTQTZINFdndw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-14-ff3fc6eaef",
+      "date": "2026-08-14",
+      "topic": "Regulation",
+      "title": "OJK Perkuat Ekosistem Asuransi Syariah, Industri Siapkan Struktur Baru",
+      "summary": "Media Indonesia surfaced this fresh item: OJK Perkuat Ekosistem Asuransi Syariah, Industri Siapkan Struktur Baru. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "Media Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMVZxemRxd3QyNDJUNTNjMzhKcm4xQUtyU18zNmRScElCXzNobllaY2dJaDR1MmpFRnl0VzFENjBqaXVtN1F0allUUEQzTnlnV2lJSDBEYm9RVl91NkV6dFFabVZWTFlRX0I3aXcweTFJOFpSeW5OQ1E1VnRTeXNVTGtFTFpJelN0RjV2MnF6UldOVjQzVTJBTVkyX0JIVTZDTkRoOHFZOXpPV2pieU5QUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -274,17 +304,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-14-7cb0caa5ec",
+      "id": "2026-08-14-a9174e4d90",
       "date": "2026-08-14",
       "topic": "Automotive / EV",
-      "title": "Prabowo Umumkan Insentif buat Motor Listrik",
-      "summary": "detikFinance surfaced this fresh item: Prabowo Umumkan Insentif buat Motor Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Ini Daftar Mobil Listrik Terlaris di Indonesia Juli 2026",
+      "summary": "Kompas.com surfaced this fresh item: Ini Daftar Mobil Listrik Terlaris di Indonesia Juli 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "detikFinance via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU09EM1hRbmVMVDF5eVRLVVFqS0hORUJoLXVYUGdsMWsyMEctekZEd3VtSmgycW9nSlpZUy1FalF5ZThvczJRWlVZM3JndHluT0lCazFBWU5hMVZGQ0tyR3FrVmFPLVdDVFg2RGRNOGlfcE1ZaWI4ZDY1dkgzWlZIN1d1TWhxUVpwcjk5VTQ4U2cxLVdWMFkzRzBqRlEya040bUxv?oc=5",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTG5yakQydl9ZanZsR0xqc3M4RjN5TGN4bHRZTlh5TkVMd3o0RHlZYkpJLU1OSEwza3ZtZTZTZHNXT2c5U09LU2dZOEJ3SzVLWmxHU1JOeXFzNzhxNDBaOXJSbGdseWVmMnZrdUpCTE5qZDlDSC0wandqRlFFNGotWUFSS25FY283aElDc1B6WFJrNkJ1aGhpMnlsSjRpWEdFRmszblc4YWc5VHpWVlVV?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -332,40 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNODFKWWplX3Z3MFVkTXFOWnBJbUdoNkxWaHpaWTZzbVc3Y0NrSDV1UW9oUVZmVFJFQTlKRlBsVFFiaFdoOVUxamdCeDNscXh4cGVfdWYzLWhscTZlZjNfRkVBM2VJYmZidGZmZTdwRW9nbnhTcDJTQkhRdkxGLWMweDFJT3hzSjhQSGxtVExHS240d2c4U0JZNnhIenRjck42MDZkcUo3VVRjZ21HS3lvTWVta3VHazZ3RWc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-14-173fea28e8",
-      "date": "2026-08-14",
-      "topic": "Markets",
-      "title": "​MSCI Masih Batasi Pasar Saham Indonesia, IHSG Diprediksi Masih Bisa Tembus 7.000",
-      "summary": "kontan.co.id surfaced this fresh item: ​MSCI Masih Batasi Pasar Saham Indonesia, IHSG Diprediksi Masih Bisa Tembus 7.000. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "kontan.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ3FISnJjaEIwcTczcU9lSUhLZnFFbGVDcWQzUFFwMFl6MzlvdEgzM19fYnJjZmFyeWdxZDNROU5pZmlsdF8tX25oeFdkRE9vTGJUVzEtUEFiZ0tIamRfUXRsaXBlRkFZMC01c3hwZ2FMc1U4OWxHeGJNMjI5bTdhZXhZbDRCMTBIaUlvZXplNll1VEpZWkdzMzYxQWNYekR0dGlCYWVQeVQ1VVJ0T01USW96LU3SAawBQVVfeXFMTWJzNUN2cGVWWkZDY2ZrMFhtdF9MOWJLN2RVcklrTERzdjA1QVVhbFIyWGd4UlZPMXEtY1kza0wwZGlzRTR6c09BSE5zVVFhQzVaeThIRUxyellTNWVNYmdTU3BVbE9PRTQ0ZUZIWGhFRmhiRTQxc0RiTWZsalYyc0RCTnNMZEU5bWNsWWZlY0RzclRVTWFfMlNOOXN4N2pvYl9EZVBsT2N3cEJKNw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-14-c8e774a387",
-      "date": "2026-08-14",
-      "topic": "Regulation",
-      "title": "OJK Beri Izin Usaha PT FWD Insurance Indonesia Syariah",
-      "summary": "Media Asuransi News surfaced this fresh item: OJK Beri Izin Usaha PT FWD Insurance Indonesia Syariah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "Media Asuransi News via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPelpCbDduTmZnQWtpb3otQkdmT1VrX0drYUFoSVdQY1lNX29PWVM5VW5tYVQweWlJVlJ0RDJHM19GYm9xNTRBenpZalF6emJTWHoxNDgtUC1HS2dyd0xJSjF4UTU1TW5LaXlvUHVOVWpqcU1UVER5WGxFTDJqamh5d2lUSTNzRFUyOXJMRE9CbGVKUXB2RHNOMWlHblE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-14T17:00:51+07:00",
+    "generatedAt": "2026-08-14T18:00:52+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -672,12 +672,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13934.4951,
+        "last": 13937.1641,
         "date": "2026-08-14",
-        "return1m": -0.64,
-        "return3m": 1.47,
-        "return6m": 4.69,
-        "return1y": 5.77,
+        "return1m": -0.62,
+        "return3m": 1.49,
+        "return6m": 4.71,
+        "return1y": 5.79,
         "volatility": 7.6,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 13947.7109
           }
         ],
-        "profitScore": 1.89,
+        "profitScore": 1.91,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +970,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12610.2002,
+        "last": 12612.2998,
         "date": "2026-08-14",
-        "return1m": -0.42,
-        "return3m": -0.27,
-        "return6m": 5.35,
-        "return1y": 8.04,
+        "return1m": -0.4,
+        "return3m": -0.26,
+        "return6m": 5.37,
+        "return1y": 8.06,
         "volatility": 9.94,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 12610.7344
           }
         ],
-        "profitScore": 1.43,
+        "profitScore": 1.45,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,12 +1268,12 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20581.0,
+        "last": 20586.0,
         "date": "2026-08-14",
-        "return1m": 2.7,
-        "return3m": 0.67,
-        "return6m": 3.02,
-        "return1y": 3.84,
+        "return1m": 2.73,
+        "return3m": 0.69,
+        "return6m": 3.04,
+        "return1y": 3.86,
         "volatility": 16.16,
         "maxDrawdown": -5.62,
         "sparkline": [
@@ -1558,7 +1558,7 @@
             "value": 20565.0
           }
         ],
-        "profitScore": 0.84,
+        "profitScore": 0.87,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,12 +1566,12 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 111.95,
+        "last": 111.92,
         "date": "2026-08-14",
-        "return1m": 0.42,
-        "return3m": 1.13,
-        "return6m": 2.05,
-        "return1y": 3.39,
+        "return1m": 0.39,
+        "return3m": 1.11,
+        "return6m": 2.03,
+        "return1y": 3.36,
         "volatility": 9.5,
         "maxDrawdown": -6.3,
         "sparkline": [
@@ -1856,7 +1856,7 @@
             "value": 112.0459
           }
         ],
-        "profitScore": 0.64,
+        "profitScore": 0.62,
         "view": "strongest IDR return screen"
       },
       {
@@ -2226,7 +2226,7 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 59,
+        "opportunityScore": 63,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T21:00:39+07:00",
+  "generatedAt": "2026-08-15T22:00:40+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 15 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -83,13 +83,28 @@
       "date": "2026-08-15",
       "topic": "Business / Investment",
       "title": "Hadiri Sidang Tahunan MPR, Menekraf Tegaskan Ekonomi Kreatif Jadi Mesin Pertumbuhan Ekonomi",
-      "summary": "ekraf.go.id surfaced this fresh item: Hadiri Sidang Tahunan MPR, Menekraf Tegaskan Ekonomi Kreatif Jadi Mesin Pertumbuhan Ekonomi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif Republik Indonesia surfaced this fresh item: Hadiri Sidang Tahunan MPR, Menekraf Tegaskan Ekonomi Kreatif Jadi Mesin Pertumbuhan Ekonomi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "ekraf.go.id via Google News RSS discovery",
+      "source": "Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif Republik Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYW1pQ3hNUEwzckIzM20weUJaZmRWb2JPaGNfVjBPZUpicDBpZmxmQ0poNUdKdWRZVkdjMXRGd0R1TXJuY2FqLURoa1d5Smw4NmFXVEtodzJtR2NoWTJtMV9MMW1KNGdES1ZCUWNXOWtWeV9vblZYSUtBMkE4OXpYNUV4VWxYNnphTmJ2elFqRXYtWDZfRjAwVGhJVQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-15-6fd956506f",
+      "date": "2026-08-15",
+      "topic": "Business / Investment",
+      "title": "Ekonomi Indonesia Sedang Berubah, Bisnis Apa yang Justru Punya Peluang? Halaman 1",
+      "summary": "Kompasiana.com surfaced this fresh item: Ekonomi Indonesia Sedang Berubah, Bisnis Apa yang Justru Punya Peluang? Halaman 1. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Kompasiana.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeTF5am84SURESjZUalNGVDMydTN6RmxsbEtvcERBOEpiX1V0NlNOTDd6Q1RXN0NEXzJKU3R4Z2xxTjN1MDV0OU8td0tHQ3pGTzlSbEZoUDloYS1sR3phcDhRVHNnMlhJTUNyaFAwZm1GckNzTHljR2dhTnlwVTRtOEd2cVhDU0FObHhhaklBak56SFVPM1JYTklfRkNjbXphWDlHYm5kbnhIZ3ZRNjlSaEtZb2U4VXhnSEpOeW5lWmZjUmQyMzFCWDVPcUVSWXg4ZHgw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -199,6 +214,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-15-56411e41ff",
+      "date": "2026-08-15",
+      "topic": "Tech / AI",
+      "title": "Kata Arkonin Soal Masa Depan Data Center Indonesia",
+      "summary": "konstruksimedia.com surfaced this fresh item: Kata Arkonin Soal Masa Depan Data Center Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "konstruksimedia.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcENveUZPZlZZVGZwTUtPdEJ6MXVqYVhPQi1ycHhtOU9oX1l2QjFjYWpBU192SVlORHBzMEZqSkVHLUllMTJDWjN6MjVuMXZmX1BYeVd5UVlxXzFnSzUyOHl1cm1OR3RDZ1J4U3YtdHVodkdIWlAtWGdlQUhGaThMbUFhWFNiZw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-15-3c5f41f9a5",
       "date": "2026-08-15",
       "topic": "Tech / AI",
@@ -210,21 +240,6 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "Jurnal Borneo via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcXRwcnZyNjBHdVl4dTJoUzZKSzZBOVpWQThkWGZoenp4NGtNcUJDRHhPZF9oc1hJM0kyczdSOWlnSldWNWozdUllYVRfUUJPVHE2ejg1aHg3bDZQajVuLWdySUVRVnktWk9xWXFiU0F5bmRJVGlYcUtTSkRDMlVzaUpaNWZvc0RMOS1ZTUVERUJNaUxLeXdjOHh2NU5fOVU?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-15-b24ee74eb0",
-      "date": "2026-08-15",
-      "topic": "Tech / AI",
-      "title": "Hadirkan AI Technology Center, Kolaborasi Indosat, NVIDIA, dan UGM Perkuat Pendidikan Riset",
-      "summary": "Republiknews.co.id surfaced this fresh item: Hadirkan AI Technology Center, Kolaborasi Indosat, NVIDIA, dan UGM Perkuat Pendidikan Riset. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Republiknews.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObGZReHRBOC1PMHBkX3NMd2R4NUpPaENWcFYyX1NENGpBcE9NbVZ6NTYwNjA4MFVIWFp0VjhObjRYMVNSUHRkQXRhaDR4R0F6NGhtTFd5S3h6NnlUUFB6VUYtTDd0bEdaWkNuWHFQeUlIaXh4Y1U4S1FNMktLRnRyR2tZcWhVcTJCTlV2X1A0NkVLY0pvbmJZcXlYbWQ0VTNDTUZSak4tYUlTSEtvbU5OQlQzWEFobzA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -248,12 +263,12 @@
       "date": "2026-08-15",
       "topic": "Automotive / EV",
       "title": "Prabowo Ungkap Mobil Listrik Nasional Sedang Digarap di Subang",
-      "summary": "Kompas.com surfaced this fresh item: Prabowo Ungkap Mobil Listrik Nasional Sedang Digarap di Subang. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "video.kompas.com surfaced this fresh item: Prabowo Ungkap Mobil Listrik Nasional Sedang Digarap di Subang. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
+      "source": "video.kompas.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOFlvMGhNbVZ3U1IxQVhZZ013UUFvNU5oYnpaQTBmWGtpS1o1Nkx5ZXo0LWZpTWFybHpmbnByMjZ0c0RPX0QwVjFxLTFkUkFCQlYtcFd0eGpLOTJnVVJCWlN0QXNwZXVHMnJuSG5EV2FSbTVJRGp5cktoYmhxeHZlR2F6TTZSQ3pqaHlzYnZUVm9kZnh6dHVaaEhCYkVyUE9nTWtwSmdMRzYzLUViczRJeEIxaHh5STdKb1NBTnhYc2Fmc3FkMHRfVnUtaGpyTlFYcDljanZUdjdGeTRmZVVCQnA2cDFOQQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -289,21 +304,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-15-54305175a6",
-      "date": "2026-08-15",
-      "topic": "Business / Investment",
-      "title": "BRIN Optimalkan Mineral Strategis dan Limbah Industri untuk Perkuat Hilirisasi",
-      "summary": "BRIN - Badan Riset dan Inovasi Nasional surfaced this fresh item: BRIN Optimalkan Mineral Strategis dan Limbah Industri untuk Perkuat Hilirisasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "BRIN - Badan Riset dan Inovasi Nasional via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObWczdDA5YU45LUhyR0NRb1Zud21FWkxZWDYxc0pwbFpKUU1nLU9VUjBpb2EzRGk5Nks0cUNFVlpyc1JweENLbXFYd0k4azRuZmN5TTl2SHozMlg3MVgyUTFBYkE1cDlQMEZmQklCQVZ3VWFkckZOeFN3NWdMcHV3LVp6cFNaXzZac3lvUkotN2t4S0VXWXNfVm5CRUNHa0VsWDg5WW1CMGlUbThFb1E?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-15-abe618fc87",
       "date": "2026-08-15",
       "topic": "Infrastructure",
@@ -334,6 +334,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-15-ac833b9439",
+      "date": "2026-08-15",
+      "topic": "Startups",
+      "title": "CFS Pimpin Pendanaan Fusi US$7,1 Miliar",
+      "summary": "feedberry.com surfaced this fresh item: CFS Pimpin Pendanaan Fusi US$7,1 Miliar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
+      "source": "feedberry.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxZU55UVF3MXFqZkwtaldJY05HOUlkVEtBSlN1TUFiVkl3VXdjSm9Kc1ZLWm1NMUczNUx1RC1TZzNBajViSFhBQXJYZHdJLW9jRWhaVG5FVl9TTFlXLTNJbU92Y1VqblZod1duQ3U1cEtORzBtaVp3?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-15-4cdd676d4e",
       "date": "2026-08-15",
       "topic": "Markets",
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUVnNERON2l5dU5Cb2t5ZllhS3RKR05DeER3cExwczl0TjNmSWpORDkxMHpDQmhmVHJsMFd3SVd1X0pEN0RUTnR4dTdFM1V5R2xQQzM4UzdobmYzT0luVnB6TlktdE00NzBJSXdlakVfbHhkTGgyaUhoNV9FUDlGZFZTWENrVXVRdGVNSlVUU1kxS0c5QWRtZmxmdnpNMVpIMHc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-15-d1ed4e4812",
-      "date": "2026-08-15",
-      "topic": "Regulation",
-      "title": "Jangkau 174 Kecamatan, BI & Untan Petakan Produk Unggulan Kalbar",
-      "summary": "Pontianak Post surfaced this fresh item: Jangkau 174 Kecamatan, BI & Untan Petakan Produk Unggulan Kalbar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "Pontianak Post via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdkt6Mkx4bDQ2MmRKdlVVaGN5OTBPVG42aUVoVExJRnZwdWh0N3JuUGxpMnozQWJlTVhYQWpMWE1DVVVpc2xabkxQRm5QaWVkV3pGZ3dTSGpESWo1S3RXdDUwX0RRUDVNeW9zazl1bFM5cGo3LWRmN1YxbkFyUzZSa09Rb3pleFZDYVJFcHlJXzZiNFk0dGdoWmhoLU5ocW12elZwNHNrSGoydWV3eWFDOEo0OVDSAboBQVVfeXFMT04wNWZoQ2JOblJQQnQ5d2RicHN1RmRNNmplandBeHJZZW1qcGVUTmdVVjhHZk5BdHgtb0k1Y093UElaTnpNa1FTZW5zRjNRMmpxUU90ZEFxbGViLXlJZVBQZzNNV3doSkxIU0xocmU3eF9WSWV4TFE3OVBhcEwyQy1pYTkyTDEtOG1HaHJXOGpLblpnR1kwX0VwSUhPV0lUOGJYRmdkUE9TTklQNFcwdDlHRktPbDNiS05B?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-15T21:00:39+07:00",
+    "generatedAt": "2026-08-15T22:00:40+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

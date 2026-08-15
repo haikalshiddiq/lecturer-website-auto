@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:00:28+07:00",
+  "generatedAt": "2026-08-15T14:00:27+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 15 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -15,21 +15,6 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "ANTARA News Kepri via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVXJsbnJNRjJfZE4yZm85bDhzYTA5TDJrc0VfUThFbWdfUnhJbE5ZWUZTYVhBbEtSVEZmMUJsYlNzRGpnWXh6cmtnclpyZWZ4LUI4ZUxvYkNYMTBjb1RxSjRvYnNSdlM0ZnYzckNDMGFmZVpVSUZZbWhST1ZwNkVSLVNSeTlvZXJ6bExWaUFDY09fbXpsaXU2SDlWRkQwVGpkT0hQQzFDM2hFUQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-15-a387fb163c",
-      "date": "2026-08-15",
-      "topic": "Automotive / EV",
-      "title": "Janji Prabowo di Peluncuran Molinas, Akan Siapkan Skema Tukar Tambah Motor Bensin ke Listrik",
-      "summary": "GridOto.com surfaced this fresh item: Janji Prabowo di Peluncuran Molinas, Akan Siapkan Skema Tukar Tambah Motor Bensin ke Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.24,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "GridOto.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3AxWlVCQXhrdjVUMW9MT2RZM01nMHk5OHY2a3BtUmFrYTYtSzAyeHdxQ1ljUk1lYVVWMXNzMVluc1J4RHVUc1gxTXNWd0ZQRmU0TEg3VFZKOXlUMVcyRUdGY1ZWNHdKcWFMalZ0a3FhVFctdUttVk9sUGRoZEN3RUgzNURCTERfWTVwUFgzUWRvUFhPSERJaWh2QXI5aVJUaEEwQWNrelkyclhuOFBIV1B3ZktkQ1N5SVlsQlRaZ0VCOU1IVEJiSUR30gHIAUFVX3lxTFBXLXVtLXZ6OG81Zng1aHo1Y2EzSzNWMFBPZkJxTG1xOWhWRzNJcV9IUjBMZU9sLVpXTldsOFVKTlFmbFFsdUpFVnRhVUVleEVxTGY0R2VFOVBYSlhhLWdOa1RMbUFnVU5zVnkweWZRRFRJbUZtSUZXWlExbjBfZGp3RnpaLWFyb2hERi0tZUF5TWRvN1hOMG4wMWtURXFpU2c3NlpNT0FMNGhFbll2OVZDUS1HSzRyaUNRdG1BTDBHcUIxLWwzNkE3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -139,6 +124,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-15-3c5f41f9a5",
+      "date": "2026-08-15",
+      "topic": "Tech / AI",
+      "title": "Perkuat Kedaulatan Teknologi, Indonesia Fokus Bangun Ekosistem AI Mandiri",
+      "summary": "Jurnal Borneo surfaced this fresh item: Perkuat Kedaulatan Teknologi, Indonesia Fokus Bangun Ekosistem AI Mandiri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Jurnal Borneo via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcXRwcnZyNjBHdVl4dTJoUzZKSzZBOVpWQThkWGZoenp4NGtNcUJDRHhPZF9oc1hJM0kyczdSOWlnSldWNWozdUllYVRfUUJPVHE2ejg1aHg3bDZQajVuLWdySUVRVnktWk9xWXFiU0F5bmRJVGlYcUtTSkRDMlVzaUpaNWZvc0RMOS1ZTUVERUJNaUxLeXdjOHh2NU5fOVU?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-15-1e2b12437c",
       "date": "2026-08-15",
       "topic": "Automotive / EV",
@@ -149,7 +149,7 @@
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMjJCZlF0bDJOQ1V4TFRUQXpNRGsyRkNONnAxczJndWN5V1hObV80WWFyUlVEWDZoWkJfekxUUEk1dVpMajBsX1hQbU9kNDlYa1FzaGRHZGlaanlIODYyektnTUpVYVg5T2RrOWhjWVZBV0xXRUV4LWdseWJlRUpUNHJ6NEVIbDRmX0hLbHp3ZnZ4UDFoam02aFJoR25iMXBud0RLd2JTVUtJdWc5a25taG9zUU1ueGczN3paN3I3Zl9SRVFfblUzUkFFU0RtR2RibXNxa2NzTkZMSmd2Tmlj?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQXVSUGRCWDduY0gyYlNZamphamVMa2lVX3ExRVBHZUFiWW1FOEZSak1zTUVqQ0ZrWGMwdThMM0ZUdFNrM0x1eGh3VlI1LVRhaGwwQWl5MGF2d3JQNVJaTzhTNTZheDlnZDd2SG1BYVR2eVFvVE1RUEQ4QURfd1dTZlJTM0FNRnpNb3pGNHd4M25idGFTT3EwNHN0aWVRd1ZNTDBfUWJENWxQbmpHVW5RMkpZYzZ5VzJhN003eUFQTFhkUHVXZmRQSExJa3JZQQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -199,6 +199,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-15-79c44896ec",
+      "date": "2026-08-15",
+      "topic": "Automotive / EV",
+      "title": "IBC Ungkap Baterai CATL di Pabrik RI Sudah Dapat Calon Pembeli",
+      "summary": "Bloomberg Technoz surfaced this fresh item: IBC Ungkap Baterai CATL di Pabrik RI Sudah Dapat Calon Pembeli. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Bloomberg Technoz via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamhDOEE5R3ZUODRyUXJsTmNvNHg2UVRNV3RpaHRRb2dnRXFvN2U4UHI0UjUzbERSRjBnVHlJLTB3VFhDeVY0bld3LUhXNVFfZVBjcGlONGtVSFpxN3dleXowdk5JeHVETVhYRlRaS0I5dUNNNnVNak80ZzdWanQ5b21XaWVLNlo2ZURFbmwydzA0UzlmRER5QVdMb2RtclNjWHB2MURNR0E0ZlVKdlN1UWdENEJpRjA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-15-f860ad0db8",
       "date": "2026-08-15",
       "topic": "Business / Investment",
@@ -244,6 +259,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-15-9c23630cfb",
+      "date": "2026-08-15",
+      "topic": "Business / Investment",
+      "title": "BRI Perkuat Langkah UMKM Mendunia, NOMNOM Tembus Pasar Singapura",
+      "summary": "CNBC Indonesia surfaced this fresh item: BRI Perkuat Langkah UMKM Mendunia, NOMNOM Tembus Pasar Singapura. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWU5FVTdySVFGWnppZkRsNFhOcXJHZXVXN0VHTExDbm94UHlhNEVkLVBnMlFxVDlFWndzUDU4OTFfaV90WVNzLXVoeUl6cmFyRnNhMDN2b2dfQ1RQTnRFY0p6ZmZMZ285WlVOR1c3cE5wSmJvcUpWTkE5QllsZmM5RG1fSHlnaVRwNnI4cmFEd3AtbmVYM2VHSVZpSFp6N2s4MkZkLXRiM2tnYkZXUjRVYkM0SlBwYm10Zkw2OE1UMDItYjB1eDRJaUwyUdIB0AFBVV95cUxNei0tQzZqN3VheUlCenRZR2xEV29XYkRSUWtiMFN2Wjl4X1pURmY1WFNQaTJLbzJsOXhMSm9uR0NlRG14S3hDQkhJcTFLamFia1E2VWZDbS1ESG5JekEwM09jZlhtRkh5ekYtektweFJ1czNBQkpyVGlULUp0YjVNbWRxVHU1LXFHWmFmaG0wVnNpQUJWQjlGNFpKMnlKWUZyS2lFOVl0dWphazVGTU40dXhXZi0yNENKTWlVLXpKVGVQakZrNHJHaTZ6YmpPQ0ww?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-15-27d069a410",
       "date": "2026-08-15",
       "topic": "Business / Investment",
@@ -255,21 +285,6 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "TVRI News via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRmp5Ty1EcTJtcGJEei1NcXNOLVhnSXFZWm82Zk1SNHBTNGh6QUJ6NHVscldnVDBmdUV1MlNVUHlOWU5FOTRCZ1FRdjlHZDB3WGc5R0tVWTNJSTNESmI5SlpKaHZPQVJ6NUU1Wmo2c1VIV2kyWjVQbTJ5V2RnWndqYTRhMjB0RXhFRTZ4S2szQUc5YTVzSHhlN3prclBreHZHRVMya2p3?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-15-589505d252",
-      "date": "2026-08-15",
-      "topic": "Business / Investment",
-      "title": "Dengarkan Pidato Kenegaraan Presiden, Gubernur Banten Andra Soni Pastikan Pembangunan Sejalan dengan Pemerintah Pusat",
-      "summary": "bantenprov.go.id surfaced this fresh item: Dengarkan Pidato Kenegaraan Presiden, Gubernur Banten Andra Soni Pastikan Pembangunan Sejalan dengan Pemerintah Pusat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "bantenprov.go.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcElfbmtXMjA0WHhSVlpmb29NekZZd1p5TG1PUUVWaURJMEJYQjBaYnB5dndJbnJuZm5hU3N3SGxfOUNHb0RkelAzbmhKYWdqcmdVSWY4S25yTzRZRDdBLTkya1JuVXNDTnNoaDBpMnpITlJtWElWaXp1a1NCVlN2WHBaVGpZTUlDd0V0Wi1OZzYxRi1qVERJMUhCSm04T2c0TnpJazFPa2hIVU5tZGJqYlR1Y1k1cUQzNEczN21SRy1RQU4zZ3RqMGp5X3RLRWJOZmxxOE5Ccl9SMmNBMHdrZ0pn?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -289,21 +304,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-15-fd114bb8be",
-      "date": "2026-08-15",
-      "topic": "Regulation",
-      "title": "Kepercayaan Berujung Kerugian: Pegawai BUMN Kehilangan Ratusan Juta",
-      "summary": "realita.co surfaced this fresh item: Kepercayaan Berujung Kerugian: Pegawai BUMN Kehilangan Ratusan Juta. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": -0.07,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "realita.co via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYXJkTVdiaVgxVFNLcmZmcWRhNUtFSDRxQ2xES0ZUdmh2ZHI1SklCNjJ3YVNfZFRldElTTEVrWWlXUG9hbnh4THdiWDN6QTA4d256a0I3a3JaRTFOM28zUmlwaWhLYWFFQ0lOVWpWSzdnbmJMNVpFc3ZOb1d1cWhyMFRGYXp6bUZQRHZESWJEa2RUaWJSODlBdTlTN2k3ekdkSnfSAaIBQVVfeXFMUGFyZE1XYmlYMVRTS3JmZnFkYTVLRUg0cUNsREtGVHZodmRyNUpJQjYyd2FTX2RUZXRJU0xFa1lpV1BvYW54eEx3YlgzekEwOHduemtCN2tyWkUxTjNvM1JpcGloS2FhRUNJTlVqVks3Z25iTDVaRXN2Tm9XdXFocjBURmF6em1GUER2REliRGtkVGliUjg5QXU5UzdpN3pHZEp3?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-15-883ba5f2cb",
       "date": "2026-08-15",
       "topic": "Markets",
@@ -315,21 +315,6 @@
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "Bisnis.com - Market via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjBWLWFOQURXNHpEbVRMSGh1cUp3cFAtamFmMlc0TnFMbkdtMHhoUHVVd3B0cWVwQVBCN3NCcDNhWlNwOTVTR0RmQkwyMVZCQUcyX0RtRHkwM1B1d3gwRXdOV0hLdEY0REQ5N1FqZUowdUQwSlIzNTY4LWFSS2MzQXBvSTk3WHk2bmFSd0hRRllycm8tRmlaeTdaSU1FcGd5RFJLWTF6S2N2M0VtclNHSXczLUt6NkNCUS1n?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-15-08b2038646",
-      "date": "2026-08-15",
-      "topic": "Markets",
-      "title": "MSCI Bekukan Saham Indonesia! Dana Asing Kian Deras Keluar",
-      "summary": "Kontan TV surfaced this fresh item: MSCI Bekukan Saham Indonesia! Dana Asing Kian Deras Keluar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Kontan TV via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1mMjNReEV0TEhIMHJCSldGM3FIOEczUi0yc2dUMkVKWFdESjJ3aVJvLUpHT3o4Sl9DX0pwUEhBT2lfQzUzSXF3NXVQTkpGdkJtVF8xRDJYdTdCdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -362,10 +347,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSml1Y2Vadng4Q0hkcXBMdE8takwxWUFIY3I0SENHLTVDdGt3N0hqOS1sQzlSU1UtdF9sRFEyYzBjMkJCcWlONEZ3TGt0a2ZTZmxOaDFIT2pfanY3dGQwcFBNa1dSbS1UYmhwd0k2bWpfRUJNN0NXa0hjWkY2N1ZGbnRQcnBHYzVjY29iRWpsUWEteXo4TnhERjJ2aWk?oc=5",
       "imageUrl": "",
       "imageAlt": ""
+    },
+    {
+      "id": "2026-08-15-b675d4e883",
+      "date": "2026-08-15",
+      "topic": "Regulation",
+      "title": "Pembiayaan Perbankan Syariah Tembus Rp720 Triliun, BI Terus Genjot Akses Modal Korporasi",
+      "summary": "Radar Surabaya Bisnis surfaced this fresh item: Pembiayaan Perbankan Syariah Tembus Rp720 Triliun, BI Terus Genjot Akses Modal Korporasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.05,
+      "confidence": 0.68,
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "Radar Surabaya Bisnis via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMjdBVngyRktqd1F4RUNpTVNOOFpzWHNFc2tWTWFKelc0NzMyYWtkeGVWa3I2TUpOV3Z2MVpoVmtGZTA1WFVlQXhOeDJVc0E1MnAzWVIxUWtvRHFrZW5Jek04YlczUlprM3BETzNEN0xoVGFDUXJFWnl5RGV2bS01X2ZteEM1ZkJldWs2MTgxUWlXTGdfLWlmLXg4U2U1WkltZnUtMmlTMzc1eTlZTThCb1RGeVhxVW43REt4STNJNFV4TWhsdWlPbkg4eVhfbXVPeG9QWkxGYTFsbDhVYVNxLXZuQ1Y5TXZDMW1hbktEejFPX1HSAfMBQVVfeXFMUDI3QVZ4MkZLandReEVDaU1TTjhac1hzRXNrVk1hSnpXNDczMmFrZHhlVmtyNk1KTld2djFaaFZrRmUwNVhVZUF4TngyVXNBNTJwM1lSMVFrb0Rxa2VuSXpNOGJXM1JaazNwRE8zRDdMaFRhQ1FyRVp5eURldm0tNV9mbXhDNWZCZXVrNjE4MVFpV0xnXy1pZi14OFNlNVpJbWZ1LTJpUzM3NXk5WU04Qm9URnlYcVVuN0RLeEkzSTRVeE1obHVpT25IOHlYX211T3hvUFpMRmExbGw4VWFTcS12bkNWOU12QzFtYW5LRHoxT19R?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-15T13:00:28+07:00",
+    "generatedAt": "2026-08-15T14:00:27+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 91,
+        "opportunityScore": 87,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,8 +2194,16 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 91,
+        "opportunityScore": 87,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
+        "opportunityScore": 75,
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
@@ -2212,14 +2220,6 @@
         "theme": "Automotive / diversified consumer",
         "opportunityScore": 75,
         "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 71,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {

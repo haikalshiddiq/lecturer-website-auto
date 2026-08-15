@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T07:00:15+07:00",
+  "generatedAt": "2026-08-15T08:00:18+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 15 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -19,6 +19,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-15-2f87232eea",
+      "date": "2026-08-15",
+      "topic": "Business / Investment",
+      "title": "Ekonom: Realistiskah Pertumbuhan 6 Persen?",
+      "summary": "Kompas.id surfaced this fresh item: Ekonom: Realistiskah Pertumbuhan 6 Persen?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Kompas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YM3hRZzV0clVJS3VmekJ0RXdCX01MTHR5QjN3LTllQWpjWXkyRHpNVWl3R2tOc09YZzJEY2NQTE1BeEVUaXpTbDVPYnh5bElqRGNHdVR1M3lBNzdhbmVmQ0Fzemd2bTQzTk1nclZieG43SWtHMzNXU2pn?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-15-aa2d669585",
       "date": "2026-08-15",
       "topic": "Markets",
@@ -30,6 +45,36 @@
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "kontan.co.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQnhuNTg4c1hXRXFfZjZGZXJYVGVQcWtwZVhFZWtuR2tJSE5nMUJDVTdXMmVzU3dBWjlfeTE3amdXSGJwcTdoNUx5QTgzREU4SHZqQUhXY25kdFFEY3dPTEJ4b3pISlhKWnN3Y0pQdzExRUxvZlc0STJXcVNXY0w1WkpnRjZuQjZpei0yenlIREJNZ3pUeUxuNENvM1NjaUkydVpBVNIBnAFBVV95cUxNSUJTLUQ1Z3AwTWRxUWswV1RLV3Rybms3a3pmRGtsXzNlVXNHcFYyWmFJdkxsR281Y3pvY0ZlTUJGR21tWU5WcEt0Vl9VOEhUVWNKQVZRdWV3NXpNRURBbkQxN2tfZ0ZTSUlxb1ZmYktaYnJDMXIwMWhfUU5IWS1sX051ZGNwY2lBS1hyY01zVXZtb1ZkdHBRLXVhNlc?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-15-d39a566ea9",
+      "date": "2026-08-15",
+      "topic": "Automotive / EV",
+      "title": "Prabowo Pastikan Mobil Listrik Nasional Mengaspal pada 2028",
+      "summary": "KatadataOTO surfaced this fresh item: Prabowo Pastikan Mobil Listrik Nasional Mengaspal pada 2028. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "KatadataOTO via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnlORXVaeVcyRmtJVlFpNXRXZmtTN01ubzk0ejdLNDJHTlAzYnd6WGdWR2R3LXlRcFFkbk9iZGZfMDlWUlhjUTBJY01Kd1ZHekN1U3dzQ0NjSm9SMl9aLS1FTWQxZXRESy1MaHA0cnJ5dF9fT21fWTZVeUJ2NTFCNHdQalNBN2xOcGFLeDRaUmR5bTNKMXZFaFlneURGeGRsZldkUTB3?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-15-577d754076",
+      "date": "2026-08-15",
+      "topic": "Automotive / EV",
+      "title": "Changan Deepal S05 REEV, Sensasi BEV Tanpa Khawatir Jarak Tempuh",
+      "summary": "Kompas.id surfaced this fresh item: Changan Deepal S05 REEV, Sensasi BEV Tanpa Khawatir Jarak Tempuh. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Kompas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWk1GblVUS3d3a3Z6R0FGS240QTBEM1h1c2pUMDBOUnpabTNUNWNhMWQwWWJGSnhuU1EzRk01NThNanZ1bGdiWjhNSUl3aDFkaklnUS02MktxTkl4Q0s1X3BaWE1ybV9weGVILTBZN01ZeEhwUGRYcGtGaXEyVmdTenFpZW1QeGRpM1E?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -64,17 +109,32 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-15-09a6742929",
+      "id": "2026-08-15-c19c06830d",
       "date": "2026-08-15",
       "topic": "Business / Investment",
-      "title": "Indonesia Ekspor 1.000 Ton Beras ke Malaysia, Pengiriman Melalui Entikong Kalbar",
-      "summary": "Pontianak Post surfaced this fresh item: Indonesia Ekspor 1.000 Ton Beras ke Malaysia, Pengiriman Melalui Entikong Kalbar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Gubernur Bobby Nasution Saksikan Pidato Kenegaraan Presiden Prabowo, Swasembada Pangan dan Ekonomi Jadi Sorotan",
+      "summary": "Diskominfo Provsu surfaced this fresh item: Gubernur Bobby Nasution Saksikan Pidato Kenegaraan Presiden Prabowo, Swasembada Pangan dan Ekonomi Jadi Sorotan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Pontianak Post via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOE1nRXZuRjhwVmE4WXVBZVRqeFJSNUoyN0RyblFWd3I5dWlaN1JDb2YtNnFLcmJpNk84VW5RODBZMVBBUW1LclBndExzWTNGbDdwdVdGSmpxWXdWTVY4VlM4SXBXamoxaVVIUDBhcDJmd1pLa0ZqSmhILWNfV3Y2WHVQMy1tY1gxelF2QkZrMkxaN2pHYUZ6eFlvQVVFVnhUNEdVaFF6RHZua29lcnRGQ2tKdXMzbzNkMmhoZGpvYTRFQVZyYnhIUkRfONIB0AFBVV95cUxOUFNnU3hJSUk4N19mc2o1Wlp3akIyRHdBdGJoZzhzZ0lsc1Z3N0NYbEFvSHdkNkxITEswQ056Q3pYRHR3amMwUWNIRklKSTRSZkwyc2xzUVVuWlNUSkl4XzJYb2t2T2xfYzBYVkNaRkc2NVBXWWs0bjhNYkdiUFM5YjU4MHFSdHFpVTZkakVDdkJBb0s4WDliMTdOLS1UWl9tZ09sbDdaWGRDZFkyUkdWTGlZUjlTVDZEREZfMzN1NkJuNnhULTdiN1FkTmVTZmNM?oc=5",
+      "source": "Diskominfo Provsu via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYTVfUVR1LVZnMEllMnpyWWpORTczNzQ2MnBWTGVHZ3NSS0RnX2ZCeHlBRVhmeE1odFU4WWZDRDR1R1ZWVDlFaHZvdzFJd0tJdkZLWDZxSmh6TzZJNGdla3kzQ181dTByZlJ2c19COG9LSll4MS1QR2RtWjdMZ2UzMU1MT1k1VXhsajVqWmljY3BHdE1mY1FXSE81eEdabmlUWHR1LXVtZUVid1lLd2tvSi1NMThRUzlkQWIxMVZxYlkyUUhRTEZvUmJaZDN6MHBOQThHdlBPRm1mRTh3bTVmN08ySzdtUlRPUnlwYzdR?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-15-8dc2c79195",
+      "date": "2026-08-15",
+      "topic": "Business / Investment",
+      "title": "Video: Nota Keuangan 2027: Membaca Arah Ekonomi Prabowo",
+      "summary": "CNBC Indonesia surfaced this fresh item: Video: Nota Keuangan 2027: Membaca Arah Ekonomi Prabowo. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbW92UmRxWWN0UXVjMVJieXVIam5yVW9qWFhfZXNGUGxuUWhMelJlM25tVEcyOHJXWTQ0YnhUVVhmWkdHOFhDWlVzVjdKdTkwUjB0QzVDbFJ6d0FrWDBjaS1DQmRCczFtdmJuVEhYald1YnBEa0hBQk9Za2VVQWxqOHZpdUNzR0duWkM4TkM5ZWh3VHUyRzd1ZE9QMk1UZi1WeFktMVd1SGIyLXhZeWw1Vm5n?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -139,21 +199,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-14-8a91580d36",
-      "date": "2026-08-14",
-      "topic": "Automotive / EV",
-      "title": "Prabowo Resmi Luncurkan Motor Listrik Nasional, Jadi Langkah Baru Kemandirian Industri Indonesia",
-      "summary": "Universitas Sains dan Teknologi Komputer surfaced this fresh item: Prabowo Resmi Luncurkan Motor Listrik Nasional, Jadi Langkah Baru Kemandirian Industri Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.24,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Universitas Sains dan Teknologi Komputer via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaUNoQjVTU2RlQWlzVU9XQ1dYdnhTeFZxWjYtcHdjSzVkbTVoVjViUzZtelZ5djZwaUFfLUdBaUM0V0ZZT3Jsd0JxSzZJR1dJZEZja1QtMnV1NWdqMnNlazVZMGxXYXFRcEFpaFpILW50T3NJc1lQb1RsTTJoQ2ZVUlp3NmxoVzNBOHoxU3dkTm1yOU1LbFh5b1pJd3U4RVo0T1VkZTZTLV9RVjVSRmtTRm80b2hIRjBvLUpVYmNZUUFnUGJVejJHdktGMDFQOUNpQVFadg?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-14-01becf8960",
       "date": "2026-08-14",
       "topic": "Business / Investment",
@@ -169,17 +214,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-14-fdd46de221",
+      "id": "2026-08-14-eea011b16d",
       "date": "2026-08-14",
       "topic": "Business / Investment",
-      "title": "Prabowo: Investasi dan Pertumbuhan Ekonomi harus Memperbaiki Kehidupan Rakyat",
-      "summary": "Kementerian Pariwisata surfaced this fresh item: Prabowo: Investasi dan Pertumbuhan Ekonomi harus Memperbaiki Kehidupan Rakyat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Presiden: Investasi Harus Ciptakan Lapangan Kerja dan Dorong Kesejahteraan Rakyat",
+      "summary": "Kementerian Sekretariat Negara surfaced this fresh item: Presiden: Investasi Harus Ciptakan Lapangan Kerja dan Dorong Kesejahteraan Rakyat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Positive",
       "score": 0.24,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Kementerian Pariwisata via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0htdEtiS3hmc0NMNUdoZC0wYzZnTEQ4RkpaZUcycWVJYmtkR25pc3E2bHI2RlppeE1IclkzdFF3RFlkc1YtMHJ6VDdORjhMa08tTzVpdXN0TVNVY1NkazRxazhxYTU4VWRneTByaXluU19sSkpNcmpUNmFVcllPQ2FUNHZldDZoZXQ0UWcxWHIxMmVWLVlnYW5scTJQTHRPQ3VUdFlKSVlZUQ?oc=5",
+      "source": "Kementerian Sekretariat Negara via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYkptaU9IYkNlSGdzSU90VkhqRmpjSklYdW5XRFNXWm9xdXJNTGpjTWhfM1F3aFk2SEpMbFN1Uzg2ekRmcE9GSXFBb2xaU0dQd19icGdUd2lhdWtnVnVpZDdreWZzdHJCSUd5NGhqVXRZTERJYmJlajlodU9INVF6dnM2dlgxV19VVG1Pb0lGbHYzaG15OTNJYWhnWlZabUdza1VqcjhQRzBSbkhGYmRIdFBn?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -240,36 +285,6 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "Metro Jateng via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ2lBNHhwNmJaeFU0V0tUUEJSanBnZEtyWTBBTDVpSjZEYjRVNVl5eTlDdVkwaXlSUmJYaXFIM3RDUUpwUXlnRzVrQ3k0N3VYVTN3Z3JTUEthMTNZT1VPbmotYmlBcnZQNWlQT3kwS1IzQWdPbl9xZnVWaVRPcy1uU3Q0MTVKOEMtamxYWDFfVjBJVVU5dnVoTklMNTh0Zw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-14-8312ab9033",
-      "date": "2026-08-14",
-      "topic": "Business / Investment",
-      "title": "Presiden Prabowo Tegaskan Kemandirian Ekonomi di Tengah Gejolak Global, Pertumbuhan Harus Sejahterakan Rakyat",
-      "summary": "dpn.go.id surfaced this fresh item: Presiden Prabowo Tegaskan Kemandirian Ekonomi di Tengah Gejolak Global, Pertumbuhan Harus Sejahterakan Rakyat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "dpn.go.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNel9Ea1RXSHB6YzU0TUNjZGJqUTdjQTd4eGhGbmtTUU5ydTlQMEhlaUNZWmZFSDRLVWtBZUo3WVo2Slg0blF2dWYxZ0M4cTRsM1pULWNnNzMzZ05hMTU0YldaU1pCcjNZZHR3NmNNUFdaZzM4TW5oMnNmalpycy1VRDRQYVEwT2M4c3o2eTRwQWdJRS1BcE1sV3N3UVdRRzRVVWRtYmgyQ0Y4RUpnZDRxQkRlby0xSnhlRjRXbkxEY0pJNWY2SWdpRGF3?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-14-d7cdd264ba",
-      "date": "2026-08-14",
-      "topic": "Business / Investment",
-      "title": "Ekonomi Indonesia Tumbuh",
-      "summary": "Pemerintah Provinsi Banten surfaced this fresh item: Ekonomi Indonesia Tumbuh. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Pemerintah Provinsi Banten via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBEX1p6Z2hqckhzV096VDRpeU1pZjZrcFVTOExtQ2FNUDhNVmk5OVFaSGlBUktYNnQxVEtGR00yRmt5cExmbndwaVIxNHc1Qjh0cWJhYlJrWUxjODlBQXFlYzd6UUgxZw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZzZGekR3RmY3aGxzUG5EM0E1YXVsbFZ4cXpTY192dTRJYW5Ob1lHaXRqVUdOdGtMaE0xTk5Nc3cwTkVSbmRlZjZQQlg4My1nQTZHcjRGQW9XRW43d3FWMUNMYzFMd0IyTXozYkN5eGtqYng1STdJcXNraWo5WHVfQnhiYVg0OTZjajdzUU9Sc1NUV2FfelpiMA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-14-42b068779c",
-      "date": "2026-08-14",
-      "topic": "Regulation",
-      "title": "FWD Syariah Resmi Kantongi Izin Usaha Asuransi Jiwa Syariah dari OJK",
-      "summary": "InvestorTrust surfaced this fresh item: FWD Syariah Resmi Kantongi Izin Usaha Asuransi Jiwa Syariah dari OJK. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "InvestorTrust via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS2Jtakozb3BRTUxhVjBCRHpsUmNrRy1GQkFESkFJb1B0cjdVR0R3ZlVQQjQxeURBR3d1VTBRWjFsZWFGZE5yNklMM05MNm5LV3lTQnFNaDVYaTltRE43MTEzX2FGYldvWXVXcFBmTGRDbm55UXJJV2lpczgtUmNZUEJTTTM2ZkFmQXpCbkpqMHA3NDFBc3Q5ZWVOUkV1YzhoN19wT3JfTHJaRnFXaUg0?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-15T07:00:15+07:00",
+    "generatedAt": "2026-08-15T08:00:18+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2218,7 +2218,7 @@
         "ticker": "ANTM",
         "name": "Aneka Tambang",
         "theme": "Nickel / EV supply chain",
-        "opportunityScore": 67,
+        "opportunityScore": 71,
         "rationale": "Linked to battery metals and EV headlines; commodity and policy volatility can be high.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2226,7 +2226,7 @@
         "ticker": "ASII",
         "name": "Astra International",
         "theme": "Automotive / diversified consumer",
-        "opportunityScore": 67,
+        "opportunityScore": 71,
         "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-15T10:00:18+07:00",
+  "generatedAt": "2026-08-15T11:00:19+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 15 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-15-2b0ab3780c",
+      "date": "2026-08-15",
+      "topic": "Tech / AI",
+      "title": "NeutraDC gandeng PLN siapkan ekspansi data center hingga 200 MW",
+      "summary": "ANTARA News Kepri surfaced this fresh item: NeutraDC gandeng PLN siapkan ekspansi data center hingga 200 MW. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "ANTARA News Kepri via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVXJsbnJNRjJfZE4yZm85bDhzYTA5TDJrc0VfUThFbWdfUnhJbE5ZWUZTYVhBbEtSVEZmMUJsYlNzRGpnWXh6cmtnclpyZWZ4LUI4ZUxvYkNYMTBjb1RxSjRvYnNSdlM0ZnYzckNDMGFmZVpVSUZZbWhST1ZwNkVSLVNSeTlvZXJ6bExWaUFDY09fbXpsaXU2SDlWRkQwVGpkT0hQQzFDM2hFUQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-15-c35af76b02",
       "date": "2026-08-15",
@@ -15,21 +30,6 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "lajur.co via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeGl5N1BvYWw5R2M3emlPN3NVZC0wOTllbHZBbm1xckFzZGtRUVhvNjFrVENwQW1sSHQzRk4taEc1SkZVMzdSeW1lQXlxLW1RdTJXWElFQzNSY1JncHRBRG5sSzZ0LVpySWV4ZlZlVVAwVXhWR3lrUEdtRUZjT08ya1dLNFFPY3ZFUktTY1lJRDZCUVlCRVV0cnI2eks5bGtubnc?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-15-2f87232eea",
-      "date": "2026-08-15",
-      "topic": "Business / Investment",
-      "title": "Ekonom: Realistiskah Pertumbuhan 6 Persen?",
-      "summary": "Kompas.id surfaced this fresh item: Ekonom: Realistiskah Pertumbuhan 6 Persen?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Kompas.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YM3hRZzV0clVJS3VmekJ0RXdCX01MTHR5QjN3LTllQWpjWXkyRHpNVWl3R2tOc09YZzJEY2NQTE1BeEVUaXpTbDVPYnh5bElqRGNHdVR1M3lBNzdhbmVmQ0Fzemd2bTQzTk1nclZieG43SWtHMzNXU2pn?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -79,6 +79,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-15-51f01c695d",
+      "date": "2026-08-15",
+      "topic": "Tech / AI",
+      "title": "Tiga Inovasi AI Raih Penghargaan di Ajang AIDeaNation 2026",
+      "summary": "BRIN - Badan Riset dan Inovasi Nasional surfaced this fresh item: Tiga Inovasi AI Raih Penghargaan di Ajang AIDeaNation 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "BRIN - Badan Riset dan Inovasi Nasional via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNmlrbkhBZ2UzV1NzcjI1ZG5TY3JHT1ZpTTNBX21OdFVDcVdtZE1veTlMNy1aU3BYMEh4U3lERVRjZEdWYXhwbUk1cXZHazdIcDZsV0V4dVpYT1BXdDE0NTB0RlI4LWtua0J2MHMybkhlSHh5NGxWSUNzUmlNR04wNS1RVnpKRXVtdE96TUQ1ZXByUGs?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-15-c7367ba169",
       "date": "2026-08-15",
       "topic": "Tech / AI",
@@ -98,13 +113,28 @@
       "date": "2026-08-15",
       "topic": "Automotive / EV",
       "title": "Prabowo Pastikan Mobil Listrik Nasional Mengaspal pada 2028",
-      "summary": "otomotif.katadata.co.id surfaced this fresh item: Prabowo Pastikan Mobil Listrik Nasional Mengaspal pada 2028. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "KatadataOTO surfaced this fresh item: Prabowo Pastikan Mobil Listrik Nasional Mengaspal pada 2028. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "otomotif.katadata.co.id via Google News RSS discovery",
+      "source": "KatadataOTO via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnlORXVaeVcyRmtJVlFpNXRXZmtTN01ubzk0ejdLNDJHTlAzYnd6WGdWR2R3LXlRcFFkbk9iZGZfMDlWUlhjUTBJY01Kd1ZHekN1U3dzQ0NjSm9SMl9aLS1FTWQxZXRESy1MaHA0cnJ5dF9fT21fWTZVeUJ2NTFCNHdQalNBN2xOcGFLeDRaUmR5bTNKMXZFaFlneURGeGRsZldkUTB3?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-15-252fc75cf8",
+      "date": "2026-08-15",
+      "topic": "Automotive / EV",
+      "title": "Komparasi BYD Racco Vs Atto 1, Adu Konsep Mobil Listrik Mungil",
+      "summary": "Kompas.com surfaced this fresh item: Komparasi BYD Racco Vs Atto 1, Adu Konsep Mobil Listrik Mungil. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOckFkRHlINVg2WnFpWnRNSWIyMXlpYTFJenExdmdKRHVpa1Z3RVNaNVNvdm0zMW13MWNiNHlzUEJtQ1JTUkU3bDd6ZmFobXVreHhsNHkzckZKYkdaZTVrV2JFSktienJ0d3h5TEFjQXZ3QTI4N1pXZkw5dnFIWThIVzU3MGNvSXpVRDJqRldiT01LbTM1TzVVVkN4akVNVlRkVzhWamFNX0NsTEJkdm5Bdng1UndHdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -139,17 +169,32 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-15-4277e55e50",
+      "id": "2026-08-15-b75b37c5b5",
       "date": "2026-08-15",
       "topic": "Automotive / EV",
-      "title": "Berpotensi Sumbang PAD Rp 3 Triliun, Pemprov DKI Bidik Pajak Mobil Listrik",
-      "summary": "RM.ID surfaced this fresh item: Berpotensi Sumbang PAD Rp 3 Triliun, Pemprov DKI Bidik Pajak Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "IBC Ungkap Baterai CATL di Pabrik RI Sudah Dapat Calon Pembeli - Green",
+      "summary": "Bloomberg Technoz surfaced this fresh item: IBC Ungkap Baterai CATL di Pabrik RI Sudah Dapat Calon Pembeli - Green. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "RM.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnVnY0ZCVExHRHBfbWJUb3J5VFBjS2E4el9kVHJIak5LVE8xYTAweERxZGphRzdXYi1qdzhkUlBjUnkzV010SmxJNTFRNkRRSXlDZkZKWEd6WnlMa3VrSnZ1NF81TDVibkl1dzBycDdzeHprcGFQSFpYSENJQnAzRVZoVWMwMjg0ZW5LMnVsNXdabF9iWHBHUmRWeHd1Mmt5SzQxRU92NjZTSXE0RFFRVkRwYTJfZXZ0bnc?oc=5",
+      "source": "Bloomberg Technoz via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbkktcVhxVGJJLWY3VFNDQTJNWGdCVGl1VWNzcV9GQ2w5aTNTbmw3RXp3eGRoOGo5dUlXZDB6Mi1UcUstWnJIVjdEN1pHOUlUcnJtUVRjTGNJZTc0RWlKZkM4Q3Zvc2hydndTeWpoOEZLaHl5eXhUaWs5a0NzZGpvN3BJZHRIcEF0cGc3c0FEazkwZ0lfZWREQkxTbi1QVlpBUjk2SnpCWThFUk1GeDJWXy1Fcno?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-15-f860ad0db8",
+      "date": "2026-08-15",
+      "topic": "Business / Investment",
+      "title": "Malam Kebangsaan Sambut HUT Ke-81 RI, Wali Kota Yogya Ajak Perkuat Kedaulatan Ekonomi",
+      "summary": "Pemerintah Kota Yogyakarta surfaced this fresh item: Malam Kebangsaan Sambut HUT Ke-81 RI, Wali Kota Yogya Ajak Perkuat Kedaulatan Ekonomi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Pemerintah Kota Yogyakarta via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdDVZbVZsNkdZTmljMlFPNmVZeTZCY09mMVYxbEhkdmdCWlZKR2s0czdPblRrNlptdVN1eHdVcXhjTlFkVHU2d2FpRGEzamZSSVhXQUFGV3NjdHVMMVZ2UFdfV3haRTR3amVWQWg1UUtGeU1nbk5nN1VNMmM1b3d1VFNjTm5tVXdsckFKMURRdmNoUjdFNHVRcG9zcTdNWHJ0WWotWmlIdVZ5M05kbWRob2lvbVVRNnVVbENXUHVXUmI3bkhVcWZSQU93WEVzbUwya09CUzVRTDNtdlJY?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -184,17 +229,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-15-726f765cd8",
+      "id": "2026-08-15-1b204a3a6a",
       "date": "2026-08-15",
       "topic": "Business / Investment",
-      "title": "Indonesia Ekspor 1.000 Ton Beras ke Malaysia, Harga Rp 17.000 Per Kg",
-      "summary": "money.kompas.com surfaced this fresh item: Indonesia Ekspor 1.000 Ton Beras ke Malaysia, Harga Rp 17.000 Per Kg. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Stok Beras 5,2 Juta Ton, Ini Alasan Indonesia Ekspor ke Malaysia",
+      "summary": "Kompas.com surfaced this fresh item: Stok Beras 5,2 Juta Ton, Ini Alasan Indonesia Ekspor ke Malaysia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "money.kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN0dNdzNXOVVxT1pBWFhWV3Izd1hoSy1DWFRtZlBTSXZ0RHpJdmpoX0otS2ZkdWRSazBnNXM4NTRUTGRFU0JyU1Q4YkNtT1o3MTRDUlg4eUxrVUpXckhlYmYwbXpmV185NXB4TUJiZ2taanotVzRyZ3FNaXVoX3FGWUcwb1VwY3cyVm5ld29YNWRmQTgxQ0N5clY4bEpnWWt4UTUxZUV1dU9ld2dka3UwbllkbklJaGc?oc=5",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUW83TkZCLW9FVlNUTWF4QUlmNTlYdEhGWUV6aXpwUVlQZkpRdHlhTVBtbDlYQ2pDek1HMmlxT1h4WEFqV2RaMmdhRnktT0dRUFhEMUpHX1drdHhvYk11ODZIS1FBNjQwVndlNXM2SXYwRUhVV09rSEhlQWFlMk1WOFlpSmxaOVVQVTVZX1FuQmRIdFlITGNuaUhoMUd5aWQtdEE5SVNBNEl6VVZRUE10bFZtMkQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -289,21 +334,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-14-6c513cf245",
-      "date": "2026-08-14",
-      "topic": "Tech / AI",
-      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
-      "summary": "Tempo.co surfaced this fresh item: NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.24,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Tempo.co via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeFlncTgzLVdIM3pOLXhxaFlHT0ZQTUVIWno2NHQtMzlFemhsQ2phWE9ocGV2RU9hR0ZJSDJkYTFEd2J0c3JyalV3ZHUyODlsQkd3YXlIcjFYQnE4UzVULUpNblMtM2djTDhObzVnT3prb29Ua1FaYjNEWUhKd2xEV1o2VG92YW5EUVRnUUh4dTE4cENoUGRjbk1LRnpQWTNUdDMwNmlGOHRIZw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-14-62ae1482f0",
       "date": "2026-08-14",
       "topic": "Regulation",
@@ -315,36 +345,6 @@
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
       "source": "TopBusiness.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTWRoMFRWRFRzSDBfbEtibUVMaURMM1l5NmlFRVJBYl91MkZXc0ZZcGxrTy0yZ1I1cEJELXpOYVFnYXZxZl9iVkQxTEZOZkZmcTBsMmM3aHZ2Ql9iWERQMzRtNUFXUkNFaTVCS1NTejJqeGU5WXNrc0hOSHhJWVV6cUNabDBjWlNLcWNreWxPczF3TFJudTZqYnlrYWEtS19VcXFlX05B?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-14-1e43941438",
-      "date": "2026-08-14",
-      "topic": "Tech / AI",
-      "title": "AI Makin Ramai, NeutraDC Siapkan Data Center hingga 200 MW",
-      "summary": "Uzone.id surfaced this fresh item: AI Makin Ramai, NeutraDC Siapkan Data Center hingga 200 MW. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Uzone.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aWXEtYjRMMXAwaHhRRXRoSzRNcHVlUV84b2I1cndzSm16QVdHc2hOd25pbndVTUM5QjRlZ3VZcjBsNnEtU1pkOVpDcmhBLUE3WTRmdXFENW9xVE1YZ2c0dFJpZVcwOU5ZU2F1dVVpcXFmazlTcGhaMU9HWUU4Wk0?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-14-144e738a2d",
-      "date": "2026-08-14",
-      "topic": "Automotive / EV",
-      "title": "Video Indonesia Resmi Punya Motor Listrik Nasional!",
-      "summary": "20detik surfaced this fresh item: Video Indonesia Resmi Punya Motor Listrik Nasional!. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "20detik via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTFdDU2hMVzZNQzBLOFFqbFpqMHN6ODRqZ05TVHRpY3c0QWMxMjM4Z2NSRHVXTVpDMEY2MGMyRVpEZVRYTTk4QTVqc1VPNng3UGk2cHI0Ulpfd0NIbmF2TGtZTHJjdkRvdHVOaGNPOUZWckNZdjhFV3JyY0Jueks0dVRNaVllcFdQbWp2bERGZ3VUSFJ1UjlqV1pQU25YZnFuOXM4SQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-15T10:00:18+07:00",
+    "generatedAt": "2026-08-15T11:00:19+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,13 +374,13 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 17831.0,
+        "last": 17820.0,
         "date": "2026-08-15",
-        "return1m": -0.86,
-        "return3m": 1.39,
-        "return6m": 6.08,
-        "return1y": 6.4,
-        "volatility": 6.26,
+        "return1m": -0.92,
+        "return3m": 1.33,
+        "return6m": 6.01,
+        "return1y": 6.33,
+        "volatility": 6.27,
         "maxDrawdown": -2.61,
         "sparkline": [
           {
@@ -664,7 +664,7 @@
             "value": 17863.0
           }
         ],
-        "profitScore": 2.55,
+        "profitScore": 2.49,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2645.3,
+        "last": 2643.3999,
         "date": "2026-08-15",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-08-15",
-            "value": 2645.3
+            "value": 2643.3999
           }
         ],
         "profitScore": 0.0,
@@ -1887,13 +1887,13 @@
       "label": "US Dollar",
       "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
       "pair": "USD",
-      "last": 17831.0,
+      "last": 17820.0,
       "date": "2026-08-15",
-      "return1m": -0.86,
-      "return3m": 1.39,
-      "return6m": 6.08,
-      "return1y": 6.4,
-      "volatility": 6.26,
+      "return1m": -0.92,
+      "return3m": 1.33,
+      "return6m": 6.01,
+      "return1y": 6.33,
+      "volatility": 6.27,
       "maxDrawdown": -2.61,
       "sparkline": [
         {
@@ -2177,7 +2177,7 @@
           "value": 17863.0
         }
       ],
-      "profitScore": 2.55,
+      "profitScore": 2.49,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",

@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-16T19:00:07+07:00",
+  "generatedAt": "2026-08-16T20:00:18+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 16 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-16-946932ea3b",
+      "date": "2026-08-16",
+      "topic": "Business / Investment",
+      "title": "Ekspansi ke Jantung Bisnis Jakarta, Dealer Kedua iCar Indonesia Resmi Beroperasi",
+      "summary": "Mobil Komersial surfaced this fresh item: Ekspansi ke Jantung Bisnis Jakarta, Dealer Kedua iCar Indonesia Resmi Beroperasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Mobil Komersial via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbGRPRXVXTGItZlotMTZqcnk0alMtTzlPSXNiTFFUWUR3QThJSVpOMjhTTERCSk1oa29IalZzbFB3cXRRUWF4OTRKelNyNklCckFBVEVKNzFPLXloc1dzc3IyODZvSmRneV9ncDVrcElENjF4RGhmWlhUdWRuQ2psYWUxMGlzeVhOUHpwRnpOd09nck9aejJUQkViTE51eExzX2FiMkRaN0gtb0ZvSHRRRVhpUWNfMjl6Q3c?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-16-d2249f61f5",
       "date": "2026-08-16",
@@ -15,6 +30,21 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "Seputar Sumut via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWGhYNkVrUk41VnpudDJrQlhSdlZFYi01eFpGTXFjRlJBeWF2MTJWTFFfUlMwVm9VSGdLQ3JRRTFDQ2dEWDNBODJPUGZmTkhHWWtLSmtIVndHQUFwY3VNTEVCOVdEVHVpcmk5d2dpMnoya2xOZlNwY0FmMTc2ZFlLZjF6M1lUbXFJZ3RaVHQ3M2xkcVJpNW81NWVVVW1Ya2tzUDUwNGtjdXhydw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-16-4c94dd00ca",
+      "date": "2026-08-16",
+      "topic": "Tech / AI",
+      "title": "Kemkomdigi, Indosat, NVIDIA, dan UGM Resmi Buka UGM Indosat NVIDIA AI Technology Center untuk Memajukan Riset dan Pendidikan Nasional",
+      "summary": "Bali Ekbis surfaced this fresh item: Kemkomdigi, Indosat, NVIDIA, dan UGM Resmi Buka UGM Indosat NVIDIA AI Technology Center untuk Memajukan Riset dan Pendidikan Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Bali Ekbis via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQVExuV0V1bUdvajBpOFpHZkk1RG1GVTZaMHdmZlc4RllMX3d4TmNqSTZxZ2J2QkVjM19PejlCbWFuc3NxQ2s3aTQ4MDJOcGhKT1dfMnAwQmtGLTBvaHZ4WS1pOXdVNUI3VVkzTkRYa2VxOWZIcW4xNDdzUlRaSkZUTzFIemxYNEotQ0JLUWphZ2wxT09BWFRNYlg4SXhubWVkWW1FZzdLSXhGSGFCc3J4QUJzR25sM2Y0TmFCTW5jUEd1LUJESUU1NTVRRWJ1VUxBVnJLa3g3ZHRwNlRXaVpNZTF5cEprdzBZZXpkUm9R?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -38,12 +68,12 @@
       "date": "2026-08-16",
       "topic": "Automotive / EV",
       "title": "Penjualan EV dan Hybrid Diklaim Naik 40 Persen Lebih",
-      "summary": "cnnindonesia.com surfaced this fresh item: Penjualan EV dan Hybrid Diklaim Naik 40 Persen Lebih. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "CNN Indonesia surfaced this fresh item: Penjualan EV dan Hybrid Diklaim Naik 40 Persen Lebih. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "cnnindonesia.com via Google News RSS discovery",
+      "source": "CNN Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUklkOVhfNnp2dk9LWnRqelVWRHpwQ0EtanY0TkFEWmREUy15dzgzbUp4ZEVpcVRxNEN1eHRzZnF4Y2FiaUdhbjRwVlNEU2xaZHlaeS1aWE9RZkxEUU56SnFaNnI4dWlhUjE4NjhVSEYxQ0IwR2tZTVUzVnVTMi02WlV3emVkOGJBeGJGNWRvc0RkTDdYaDZ0VnFoM0pvclZHZ19fNDE2WHdZdHVMVF9rT2xrMlJDWmk5SHowNi1R0gG-AUFVX3lxTE9SSWQ5WF82enZ2T0tadGp6VVZEenBDQS1qdjROQURaZERTLXl3ODNtSnhkRWlxVHE0Q3V4dHNmcXhjYWJpR2FuNHBWU0RTbFpkeVp5LVpYT1FmTERRTnpKcVo2cjh1aWFSMTg2OFVIRjFDQjBHa1lNVTNWdVMyLTZaVXd6ZWQ4YkF4YkY1ZG9zRGRMN1hoNnRWcWgzSm9yVkdnX180MTZYd1l0dUxUX2tPbGsyUkNaaTlIejA2LVE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -75,21 +105,6 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "CNBC Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbFU3MmRwWHkzQldTX1RtdU5lWkR6czhZdEliQW4zMXNObndOazVWV0JBZk5NZkpqWHlCbHZhSk1LaGxIUVZkQlRVWjByRzhLQml5Ulh3VFZJQmVLN2lJWEU0azhFUGdrYVJLZWxqckdnRnVZVm1fRndQWWpSMTNZLS1xb2RtUFFvbE04TU5keDVuWm1naFpYLXdNelJMSkZFTVd2T3g1WG9qLUVteDlhV2lkeWZHbWh6M1BhdHFKNFFsSUE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-16-ed97704125",
-      "date": "2026-08-16",
-      "topic": "Business / Investment",
-      "title": "Pimpin Upacara HUT RI ke-80, Robinsar Dorong Mewujudkan Kota Industri yang Hijau dan Sejahtera",
-      "summary": "berita.cilegon.go.id surfaced this fresh item: Pimpin Upacara HUT RI ke-80, Robinsar Dorong Mewujudkan Kota Industri yang Hijau dan Sejahtera. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "berita.cilegon.go.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZkg4Wlhfc052dUZ0TzdZT3p2dFhoRnVUZC1BbmJzbVl3REtGNVBDOGFhMGlrSzlZaFhLZmtodThvUDJ4SXJfNU5wNzJHeXJJOHhCSE51VmtPcERBbWJ6NUZFc0dLVmJOUnRiUjNCRFRkMXFrYmV3N2pJa3RKazBmRDZnd1NPOFdac3hpeFNlS2RuZ0Z1eEdiT2pBNm5CUDE3SUw4WW1iWVNtMWtjRnRzcHRpckNydVZzTHExS25MTVhOODJlVWZmb2dkd1g4aGRrcFJQeVNDdU9EcGJCdFg4?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -203,12 +218,12 @@
       "date": "2026-08-16",
       "topic": "Automotive / EV",
       "title": "Handal Bicara Kondisi Produksi Mobil Listrik Neta di Indonesia",
-      "summary": "cnnindonesia.com surfaced this fresh item: Handal Bicara Kondisi Produksi Mobil Listrik Neta di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "CNN Indonesia surfaced this fresh item: Handal Bicara Kondisi Produksi Mobil Listrik Neta di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "cnnindonesia.com via Google News RSS discovery",
+      "source": "CNN Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTWVkTU1jRHUzSzhrZnZYUjc1aElKVlozVEl4cXY0SFR1RzluMWhvY1NDQ1dUODVTU2Zhcjd1ckRoSnUzWkhKZE42OFNzT3BrRDVPSDlfREJGT2J1clZhdFhDS3BLNkYyM2tRVVAzRGEzV3RXSWEwSzNHRGlfeWFZTGlpMmcyUFQ5ZWIya2JmYzYyLWFWeHBlSkdscnJMQ0J5WGlfME1PQjFmRWpnWlVOengxdEdzX1pMd3dhOVhBd3ltMlJkM0HSAcsBQVVfeXFMTzdFWjNmdVA2bEVUV0Y1NllLMlBCRUpyWTZ6ZXZNWERKNjAxSGg4ZXprLXgtaXNJbzByRFQ4Ti1ZTGdQa0ctYkNpeko2UEZhS25xZ1FSR0JnRkJGTVl5aXFrZ0JnTVRUVUhudFZSc0ttTHhkZC1uQW41RFRod1RPSU5DTXVTUjNHc213dVdJX0xLWVZCajZmVUFTMlJrNk1UQktKSUFiM2thOEtmekRzdmlKbTBOVnV3MzF3VlFheWlSTXVzY2dXRXJ2c1U?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -229,17 +244,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-16-7d2150929b",
+      "id": "2026-08-16-32c0bc8df3",
       "date": "2026-08-16",
       "topic": "Business / Investment",
-      "title": "Kado Kemerdekaan, Indonesia Ekspor Beras ke Malaysia",
-      "summary": "prabowosubianto.com surfaced this fresh item: Kado Kemerdekaan, Indonesia Ekspor Beras ke Malaysia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Ekspor Senilai US$10 Juta Tertahan, Serikat Pekerja PT Dua Kuda Soroti Hasil Kurasi",
+      "summary": "InvestorTrust surfaced this fresh item: Ekspor Senilai US$10 Juta Tertahan, Serikat Pekerja PT Dua Kuda Soroti Hasil Kurasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "prabowosubianto.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbmpLWUl2TjI1emNJZjNFZHdWTU81MXZWUEVCZVE5R0hCOEFZbXlqUFhhU2RJck5fa2xWemlvUWF3LVdEdm5YeHJ3bzRuXzhRUUo1allDcjNIazRtZUVSa3k3Q2FmNVhwWjBHN0p6eGdGYXdPSmE1ZnJ3WFowRHByV3hJODBkM3c?oc=5",
+      "source": "InvestorTrust via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR2xxQmJYS1N2MC1JTXNSSHBvcFU5UVp5RFF4dXJYcnF3YkpaSG5rVHpKUW1wa3dSanRzTFdWSkFMUzlfTVBoT2UzcHpkVUFnLVV5RDBEVE1XenRKZUNydWF0dVgyUjNnc1Y3a2toVmpvMzZUVzhFOXFOZkpiM3FjYWdfVHFTNF9GZ2pkV1JKaS12S2phb1MyOFpBVnNnVHR2X1hSdE9kdGVyaWZNTHg3aFQzOXBvSmU1MHFoMGtwUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -338,34 +353,19 @@
       "date": "2026-08-16",
       "topic": "Regulation",
       "title": "Opppsss….!!! OJK Cabut Izin Usaha BPR Dwicahaya Nusaperkasa Kota Batu Hari Ini",
-      "summary": "AdaDiMalang.com surfaced this fresh item: Opppsss….!!! OJK Cabut Izin Usaha BPR Dwicahaya Nusaperkasa Kota Batu Hari Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "adadimalang.com surfaced this fresh item: Opppsss….!!! OJK Cabut Izin Usaha BPR Dwicahaya Nusaperkasa Kota Batu Hari Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.05,
       "confidence": 0.68,
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "AdaDiMalang.com via Google News RSS discovery",
+      "source": "adadimalang.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzNIcXg5b0pQcXlUUUJJY1FVcWE0elQ2RHp3aGxjc29ZTVl0RnNqZm1DY21hYk1jRHdiWEVSbGtPVDJUSWxwQnRzN3czWnlKNDBXZndENnEyRGpSWmx4RUFMMV92dVNkWGNJaE9fQWdOYjlsUUNwRnNLSHMzbmF6ek54TnNWNl9ZdXlGQ3N0dl9raUdZVTloVF9HMzU1QlE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-16-4587398b13",
-      "date": "2026-08-16",
-      "topic": "Regulation",
-      "title": "Pemkot Cilegon Minta Pengelola Parkir Segera Urus Izin Usaha",
-      "summary": "berita.cilegon.go.id surfaced this fresh item: Pemkot Cilegon Minta Pengelola Parkir Segera Urus Izin Usaha. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "berita.cilegon.go.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSHkxZWRrYU9JUkQzcThNQ21XeGpocUlIcWMyTkxlbWNJcThUMnJZdXVQV2pkWG5MU1NiS2JMZVJSSjR4eDFSMTB2bWo1QVVMdUVVMzg4c0ZtbHdLdVdET0t4bHJuR1lwZHpBZDNZRFNXeXBhOVlYNnZOWFJVc0tTZS1yTVRhOFBleGd5QV9Gc2VDUEplUTdnOXhaVy1Gd0U5eHp0U3ZnWnVpSklqM3BSZl9B?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-16T19:00:07+07:00",
+    "generatedAt": "2026-08-16T20:00:18+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2199,6 +2199,14 @@
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
+        "opportunityScore": 75,
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
         "ticker": "ANTM",
         "name": "Aneka Tambang",
         "theme": "Nickel / EV supply chain",
@@ -2220,14 +2228,6 @@
         "theme": "Infrastructure / toll roads",
         "opportunityScore": 75,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 71,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }
     ],

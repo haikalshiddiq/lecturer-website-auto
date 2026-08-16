@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T12:00:51+07:00",
+  "generatedAt": "2026-08-16T13:00:53+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 16 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -64,6 +64,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-16-0300f4a748",
+      "date": "2026-08-16",
+      "topic": "Business / Investment",
+      "title": "Video:Ekonom BNI Ramal Pertumbuhan Ekonomi RI H2-2026 Solid di Atas 5%",
+      "summary": "CNBC Indonesia surfaced this fresh item: Video:Ekonom BNI Ramal Pertumbuhan Ekonomi RI H2-2026 Solid di Atas 5%. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQ192MTE5Q2w5Q3hWR1IzVE1YUWFZUnNJZDI1S0hJb3VWendUZHZrUXVPRXg3VTdxWVp0QzFNYk9aWUJJTFFyb3EyTDFpdU1admJXbU1ucG1zV091QzZvaDVnRWtnQ0F0TmhweDg2UmQtVVJNUTN5QVp6MHo5a1NTQWo3c3dweHVHVExwNi1sU2NKcUVhclc3THdqODlleklyYy12MTM2ZUxRUmFSU2p6TVByOUp4czd2NEZwdXhzMEdGd2F2SGdIemRLQQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-16-7dc35a843f",
       "date": "2026-08-16",
       "topic": "Infrastructure",
@@ -79,17 +94,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-16-83b64896b6",
+      "id": "2026-08-16-234dcdbbfc",
       "date": "2026-08-16",
       "topic": "Automotive / EV",
-      "title": "Populasi Kendaraan Listrik Indonesia Sudah Tembus Ratusan Ribu Unit",
-      "summary": "Kompas.com surfaced this fresh item: Populasi Kendaraan Listrik Indonesia Sudah Tembus Ratusan Ribu Unit. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Apakah Mobil Listrik Bisa Parkir Paralel? Ini Penjelasannya",
+      "summary": "otomotif.kompas.com surfaced this fresh item: Apakah Mobil Listrik Bisa Parkir Paralel? Ini Penjelasannya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQclhrbTNxWHlHUlNkVWZSQ3o1N3pkV252RHZtVlVIUEQzU2JYdTdwblB6bTkzZm9RR211X1VfZU1OZjZld2g3OFNCYjFvMGJJa29fOTVKcHRWUEF4elhJeTBCc0dqY1l6OF9ZdUVHbXZHbzY0WEdlVzBNWFdxb2pSbGhXWFdEaFMxSkx0WUUyWGVNLUVfTnlDZFhJNXBOU3FsVjMwREk5bDlvMVBqNmN5TFZBVHFtSmFiLVlmemt3?oc=5",
+      "source": "otomotif.kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeFBYQ3d5bVZWWWtfNG5RanlWaU44TzYxME5vTTNTbzkwWGQyNDVJbEZubVJVWGZUTzhNakkwOWVMUTl3UlJDTlpkTVdDejlWTk4yZnZhRDdmdkstX1pfRGtRUFlmWnVMbVAyM090b296SFp4cUtQV3ZKY3htUTZlYzBUV2t4VWlTSTdsSm4zT3dCZlF4RThVaHo3STN3U01yMVZLbUdHbjFRMEdEU1hIYUl3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -98,12 +113,12 @@
       "date": "2026-08-16",
       "topic": "Automotive / EV",
       "title": "Donald Trump Sebut Pengguna Mobil Listrik Gila karena Khawatir Baterai Habis",
-      "summary": "kabaroto.com surfaced this fresh item: Donald Trump Sebut Pengguna Mobil Listrik Gila karena Khawatir Baterai Habis. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "kabaroto surfaced this fresh item: Donald Trump Sebut Pengguna Mobil Listrik Gila karena Khawatir Baterai Habis. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "kabaroto.com via Google News RSS discovery",
+      "source": "kabaroto via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNODl6enV3Zk9iNjNfVXpDMVNiSFFsbkNWNWNjeGpQZmlqZ05kNU84U296dGxvYVhDbjg2aVd3MEVkZnVmWFdIeUMybG5oM25HZzNDMWRReHpDSklNVk1nX191T2hNUUtqZHIwMUxjcjlONGF4WkctYlpvMGlkSVIzZk1xMnpKSU1xYkd2U0Q2M0Y3VlVaUk1iT0pOWTUzUdIBngFBVV95cUxNODl6enV3Zk9iNjNfVXpDMVNiSFFsbkNWNWNjeGpQZmlqZ05kNU84U296dGxvYVhDbjg2aVd3MEVkZnVmWFdIeUMybG5oM25HZzNDMWRReHpDSklNVk1nX191T2hNUUtqZHIwMUxjcjlONGF4WkctYlpvMGlkSVIzZk1xMnpKSU1xYkd2U0Q2M0Y3VlVaUk1iT0pOWTUzUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -113,12 +128,12 @@
       "date": "2026-08-16",
       "topic": "Automotive / EV",
       "title": "Handal Bicara Kondisi Produksi Mobil Listrik Neta di Indonesia",
-      "summary": "CNN Indonesia surfaced this fresh item: Handal Bicara Kondisi Produksi Mobil Listrik Neta di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "cnnindonesia.com surfaced this fresh item: Handal Bicara Kondisi Produksi Mobil Listrik Neta di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "CNN Indonesia via Google News RSS discovery",
+      "source": "cnnindonesia.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTWVkTU1jRHUzSzhrZnZYUjc1aElKVlozVEl4cXY0SFR1RzluMWhvY1NDQ1dUODVTU2Zhcjd1ckRoSnUzWkhKZE42OFNzT3BrRDVPSDlfREJGT2J1clZhdFhDS3BLNkYyM2tRVVAzRGEzV3RXSWEwSzNHRGlfeWFZTGlpMmcyUFQ5ZWIya2JmYzYyLWFWeHBlSkdscnJMQ0J5WGlfME1PQjFmRWpnWlVOengxdEdzX1pMd3dhOVhBd3ltMlJkM0HSAcsBQVVfeXFMTzdFWjNmdVA2bEVUV0Y1NllLMlBCRUpyWTZ6ZXZNWERKNjAxSGg4ZXprLXgtaXNJbzByRFQ4Ti1ZTGdQa0ctYkNpeko2UEZhS25xZ1FSR0JnRkJGTVl5aXFrZ0JnTVRUVUhudFZSc0ttTHhkZC1uQW41RFRod1RPSU5DTXVTUjNHc213dVdJX0xLWVZCajZmVUFTMlJrNk1UQktKSUFiM2thOEtmekRzdmlKbTBOVnV3MzF3VlFheWlSTXVzY2dXRXJ2c1U?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -128,12 +143,12 @@
       "date": "2026-08-16",
       "topic": "Automotive / EV",
       "title": "10 Mobil Listrik Terlaris Juli 2026: Wuling Aira ev Nomor Berapa?",
-      "summary": "oto.detik.com surfaced this fresh item: 10 Mobil Listrik Terlaris Juli 2026: Wuling Aira ev Nomor Berapa?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "detikoto surfaced this fresh item: 10 Mobil Listrik Terlaris Juli 2026: Wuling Aira ev Nomor Berapa?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "oto.detik.com via Google News RSS discovery",
+      "source": "detikoto via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWi1DekpQOV9PRzFENktXSVJNQzBST3paUnN2aWp2MkNhXzdwaEd5U3hldmQ2YnRWY1VMRmc3UXNNLTVXUkxxVEhXYUNvdndBYVBIcXFkeEstWGJEd1BPUjdBeVNCekFQa1JKU1R5RnBIaUVSWTBHdTJNZVRFeWUxWkpIVnpzUlQ3OGc3amF1TVJOaGVPT0JtQl9GMVpaSVdqbG56RnYwZEIydDd5b0HSAbMBQVVfeXFMTkxfMTdmTVBoNnV5SnJ1dlJZeS0tektfSzYyTWdrS0VkX01RYVRDVjZLYUtXR09xUEZHYnA4SXlMZDFKRHhhRmxKQjEtZlhCS2xLb1k4LWNCUktWLTdIWHZWWFVxYU94NjJ5SHlaa0EySWpDS2NibXdCSHV3akQ2eEF3Vmt0UWpNZUNhRWxCYUhTVnlQNERBRmNUa0FreVVnQnlMa1hTZDR1LUZMaGZocWRDMTQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -165,21 +180,6 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "Badan Pengawasan Keuangan dan Pembangunan via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPanVLeE9YYzRzc3pFN2Z1ZUowOU9KYV94S0ZmcURtUWxOd2s0eXI4TUxONWRsMHp4bTZnNmlFZXhjR2duQWpWcmxLNHNMenVob3ZySFhCU0ppUk82NmhMekhCMGxzTUhrdkJBWmZlYzVCM3ZmUjREMDJ5ak5zVjNBdkNZRi1fanBIeUd3d21uUEI4VHlaZ29kMlZZZXhaQVVOWTZaQUFJaHpCOUJHNFJEU25QcnR6VUoyMjlGaXNUaTJYdHFwNjJxd2pzMUsweXZDU3NIWHNiOA?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-16-f9e1b2b4e6",
-      "date": "2026-08-16",
-      "topic": "Business / Investment",
-      "title": "Perang Relokasi Industri, Masihkah Indonesia Meyakinkan Investor?",
-      "summary": "Kompas.com surfaced this fresh item: Perang Relokasi Industri, Masihkah Indonesia Meyakinkan Investor?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYmxIYklIYWRNVEVrMnFHUWRJLUJfTG15Nk9DVWxzUXl3dUoybjlSZGZCS29xZ2hHRkpSclQ3ZGhRc1FmaUlGc2RXV1B5dGlzZWVfejM5Y0JYYWZ1bHBHaThmNzBhV1Exc3dqSXBPU05mVU13dHhMZ3lGamlxc0RMNWdnaENfSDUwSGtGd3FBaklNM0RFREktdGY4ZGFGWmdHYnZXQ3dmRDNSZjdlUGpkWVZORy1XQQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-16T12:00:51+07:00",
+    "generatedAt": "2026-08-16T13:00:53+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

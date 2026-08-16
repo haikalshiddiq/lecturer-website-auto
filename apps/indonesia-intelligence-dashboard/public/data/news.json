@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T09:00:19+07:00",
+  "generatedAt": "2026-08-16T10:00:29+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 16 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -19,6 +19,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-16-0d49d7c7ce",
+      "date": "2026-08-16",
+      "topic": "Tech / AI",
+      "title": "Nvidia Minat Investasi US$3 Miliar di Data Center OpenAI",
+      "summary": "feedberry.com surfaced this fresh item: Nvidia Minat Investasi US$3 Miliar di Data Center OpenAI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "feedberry.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM2JYTWs2REI3QjZ1U09fQ2RyOEhCRmJqeXBUck02VndqVk40VjVYMExDbXZDQUxmNlFDRHFkRm5DcHRYM1ZnZGNreFU3ekladDFBRXI4dHpZMjdXQzZWNjVXNExueFBHVUNldkxQcV9qYzdqLWVwNzFXX0s1aEJkUnN5RHZYcTJKbnI1cklmMA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-16-7be078165c",
       "date": "2026-08-16",
       "topic": "Automotive / EV",
@@ -30,6 +45,21 @@
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Uzone.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaG5OZVQxemcyWWU0TDloRjl3VEYyTko5ZlhENzdDckVWRjM1eTdOSkNQM21taS01N3VSM1c0d1NnYWJoWG41czNUeUxaSUNmcGdURWYtX2M5eS04MGdzdXEzc0NHQ3A1azNIcDFjWjQ3Vy1jQWxZRlYxYllmN1BaLXc1c090MXBKM0FN?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-16-6baf44d20a",
+      "date": "2026-08-16",
+      "topic": "Business / Investment",
+      "title": "Ekspor Batu Bara Indonesia Naik 46,8 persen, Ditopang Permintaan China dan Harga",
+      "summary": "RCTI+ surfaced this fresh item: Ekspor Batu Bara Indonesia Naik 46,8 persen, Ditopang Permintaan China dan Harga. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "RCTI+ via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWFJ0QU5PbjZTWGVnWjZQejZYbTluUklYTWMzbU9Xdkh0dFUzQzVjc3A2S0k0bmlvaEZQMjhxeTR4Z0hib1FKZVJjYUdvWjBMNDBDY0drQkNpN3R2T0xUTThaVVFwTlFGdmE5emhtR2RMWlk5VGRoWl9acWstbHNramNHaVdfUTBaaFJlZ0lZdDlSNGZwdFNDdjNrUFMzMXdqMzJhTGtSZm9wQ1doMVN3U05idkt0anVCQUJmYVBXdlp0UElETWNGazRDUWJHazBVbHc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -139,21 +169,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-16-8aa52d8551",
-      "date": "2026-08-16",
-      "topic": "Business / Investment",
-      "title": "Di Luar Nalar, Segini Keuntungan Belanda Selama Jajah Indonesia",
-      "summary": "CNBC Indonesia surfaced this fresh item: Di Luar Nalar, Segini Keuntungan Belanda Selama Jajah Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWGR6ZWQ3dWFMOFBOXzliQVFWYTJ4Y1lTc0N0THZCbVhpemZ6b3NyekZYc0dGdlFUM243c0gwLU1SbUh3bW9HeXRER2dCeWk1ajkzUGxQVlA4dUZTQ2lIa1puaFFZa2h3MFpheHJ1ZXBDakZESHJsQjBzaEdvWHJMdmJoZ0h0Y1NlN2ozRXlhbTVIN2xVbkc1eC04Nnd2a3BTamhPSVZaZ0tLbDU2QmlxWWs0UWlsQjN2enhYSHpB0gHDAUFVX3lxTE9FUFRzTlJaYi12NFZHZ1hzWmllS0NHRlhDM0dsWktGU2pJSDVNT0t0WlJNMW4yYlNrdV80QVVtc3lrcXlieW5lOVoyeHhPblFjV2xJNGZWczZLaUFveTFHMmJITThfNzN4WFBjRXpBV200YlRUcHV4NlY5YWZRNTF5aUk1amtBeDZXbXEwVExqVXMtS3RGUXM3NjU4VWtSMTR6STE1T2w5dFd6ckt0d1E3dWJyVmp3Wkt5MnpUU0lnWjllOA?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-16-b33cd1c501",
       "date": "2026-08-16",
       "topic": "Infrastructure",
@@ -165,6 +180,21 @@
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
       "source": "CNBC Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGhjX0w3Rm4zMXhkQWpDSjF1bE5rUjgzc3FPNW5ESjZhbWt5QlhFT29oZ1h6YjNOSUNHX2Y0WGY5UGVUb0lxdjJBWXdNSzZWdW5CWU8yMVlvUHlNbHowOElFX0xTN0hQLWtvQ01ZcXcyaVNtU2NFR0VtS2J4NU56RF9vdG16NndWNExWQjNzVE9VekpFRWV3dmxhWDRLekdXalJaQ0hDWVpEWVUzTXfSAbMBQVVfeXFMTXY4ZHNaUE0yRlJoRTJjdi0tR1dEVkUxLWpDSVdlaWhicVlQZmRvVkJGRUhESFJzNzN0ajNIV0ptdmdzc3lIczJ1U1JCTG1hQ1lNaXpmbU1RR2djeWxETkx0Um0tcFRIQi1wUG9uT3M3cHdsZm5raU1TQ2JMd05GcXpmSlZwR3p4VWJaTlRtRms0cFI2MWREVDM4V2h0WWxIci1VMWRVcUxTY1BGRDdZMzFYXzg?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-16-93f193518a",
+      "date": "2026-08-16",
+      "topic": "Markets",
+      "title": "RAPBN 2027 Jadi Sentimen Positif IHSG, Rerating Masih Jadi Tantangan",
+      "summary": "Bisnis.com - Market surfaced this fresh item: RAPBN 2027 Jadi Sentimen Positif IHSG, Rerating Masih Jadi Tantangan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.05,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "Bisnis.com - Market via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZVp4bGtVSVNlYUxLUUdHd0FBS29OSkpPVmFMc2daZGdSOU41N2RXd0g1VUhLT2ZURzFrRERoTnlPQjZFMVFMS0FoNkhWdzYyMzJQWXUtN0ZVUVNzZlJ5bVRodUloS1BxTk9HTzUybk9FODZYLVQwYnFkUGZXVlZvTFduQ2JtQ082SGFKVTQ0c2pCUGc2d1ZHVnRUcTJXdk02dE1TcDhxc2FZbVM2aDBuUzhFTVVJMkhZ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -199,21 +229,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-15-56411e41ff",
-      "date": "2026-08-15",
-      "topic": "Tech / AI",
-      "title": "Kata Arkonin Soal Masa Depan Data Center Indonesia",
-      "summary": "konstruksimedia.com surfaced this fresh item: Kata Arkonin Soal Masa Depan Data Center Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "konstruksimedia.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcENveUZPZlZZVGZwTUtPdEJ6MXVqYVhPQi1ycHhtOU9oX1l2QjFjYWpBU192SVlORHBzMEZqSkVHLUllMTJDWjN6MjVuMXZmX1BYeVd5UVlxXzFnSzUyOHl1cm1OR3RDZ1J4U3YtdHVodkdIWlAtWGdlQUhGaThMbUFhWFNiZw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-15-51f01c695d",
       "date": "2026-08-15",
       "topic": "Tech / AI",
@@ -225,6 +240,21 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "BRIN - Badan Riset dan Inovasi Nasional via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNmlrbkhBZ2UzV1NzcjI1ZG5TY3JHT1ZpTTNBX21OdFVDcVdtZE1veTlMNy1aU3BYMEh4U3lERVRjZEdWYXhwbUk1cXZHazdIcDZsV0V4dVpYT1BXdDE0NTB0RlI4LWtua0J2MHMybkhlSHh5NGxWSUNzUmlNR04wNS1RVnpKRXVtdE96TUQ1ZXByUGs?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-15-56411e41ff",
+      "date": "2026-08-15",
+      "topic": "Tech / AI",
+      "title": "Kata Arkonin Soal Masa Depan Data Center Indonesia",
+      "summary": "konstruksimedia.com surfaced this fresh item: Kata Arkonin Soal Masa Depan Data Center Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "konstruksimedia.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcENveUZPZlZZVGZwTUtPdEJ6MXVqYVhPQi1ycHhtOU9oX1l2QjFjYWpBU192SVlORHBzMEZqSkVHLUllMTJDWjN6MjVuMXZmX1BYeVd5UVlxXzFnSzUyOHl1cm1OR3RDZ1J4U3YtdHVodkdIWlAtWGdlQUhGaThMbUFhWFNiZw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -244,47 +274,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-15-3c5f41f9a5",
-      "date": "2026-08-15",
-      "topic": "Tech / AI",
-      "title": "Perkuat Kedaulatan Teknologi, Indonesia Fokus Bangun Ekosistem AI Mandiri",
-      "summary": "Jurnal Borneo surfaced this fresh item: Perkuat Kedaulatan Teknologi, Indonesia Fokus Bangun Ekosistem AI Mandiri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Jurnal Borneo via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcXRwcnZyNjBHdVl4dTJoUzZKSzZBOVpWQThkWGZoenp4NGtNcUJDRHhPZF9oc1hJM0kyczdSOWlnSldWNWozdUllYVRfUUJPVHE2ejg1aHg3bDZQajVuLWdySUVRVnktWk9xWXFiU0F5bmRJVGlYcUtTSkRDMlVzaUpaNWZvc0RMOS1ZTUVERUJNaUxLeXdjOHh2NU5fOVU?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-15-abe618fc87",
       "date": "2026-08-15",
       "topic": "Infrastructure",
       "title": "Serunya Menikmati Jalan Tol di Jerman yang Gratis Halaman 1",
-      "summary": "Kompasiana.com surfaced this fresh item: Serunya Menikmati Jalan Tol di Jerman yang Gratis Halaman 1. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "kompasiana.com surfaced this fresh item: Serunya Menikmati Jalan Tol di Jerman yang Gratis Halaman 1. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Kompasiana.com via Google News RSS discovery",
+      "source": "kompasiana.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR3lVWVRoazBNSHUtZlBOMzRMQm44a2xreEZ0Q0dMUFBvTVU0NDdONlRiZkwya3V5RVByOEJET0F1ZE9WazF1Um0yUkVTVVprY3p4eUtIRnpMV1RiRFVyQXJrc2tlYllZMHhzR1B5Q3hITkZ6MEtYN2ZrWmFWQjBWcXVPSFpSWEFKUUlCRkwtVXlGZjRvaERSRjVQbmpTU0Q2eldGSC0xY1NoaWhrZnkwdXVn?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-15-08ab5b9e9e",
-      "date": "2026-08-15",
-      "topic": "Infrastructure",
-      "title": "Korlantas Polri Ingatkan Pengguna Tol: Layanan 110 Siap Bantu 24 Jam",
-      "summary": "mediabudayaindonesia.com surfaced this fresh item: Korlantas Polri Ingatkan Pengguna Tol: Layanan 110 Siap Bantu 24 Jam. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "mediabudayaindonesia.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT3pUazN1NVdWMjBoUmFmZW93NWhWUHQzVGNzcjJkWmVDaDB3eUc3c2Znc1ptZUdOSkRuaUtreS1CQlJHUVpndnd3OUZiV2tLblNEX0tvT1lOTXpBbnJLaS1ZajFqNWliRVFCWUZCZS01RDZzSlFoY2g5ck9zbUFJaEJkZHhWZ1J1NjZvR3lzV0gtRk5nVG9GMy1jRHY1b1B6c1RmdFJ5X0ticVRSaXBPbzdhWXZQS2JMYUFqUUZZa1RDTEU?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -293,12 +293,12 @@
       "date": "2026-08-15",
       "topic": "Markets",
       "title": "Bursa Sepekan Susut: IHSG Turun Tipis 0,12% Jadi 6.401",
-      "summary": "validnews.id surfaced this fresh item: Bursa Sepekan Susut: IHSG Turun Tipis 0,12% Jadi 6.401. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Validnews surfaced this fresh item: Bursa Sepekan Susut: IHSG Turun Tipis 0,12% Jadi 6.401. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": -0.07,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "validnews.id via Google News RSS discovery",
+      "source": "Validnews via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUVnNERON2l5dU5Cb2t5ZllhS3RKR05DeER3cExwczl0TjNmSWpORDkxMHpDQmhmVHJsMFd3SVd1X0pEN0RUTnR4dTdFM1V5R2xQQzM4UzdobmYzT0luVnB6TlktdE00NzBJSXdlakVfbHhkTGgyaUhoNV9FUDlGZFZTWENrVXVRdGVNSlVUU1kxS0c5QWRtZmxmdnpNMVpIMHc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-16T09:00:19+07:00",
+    "generatedAt": "2026-08-16T10:00:29+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 79,
+        "opportunityScore": 83,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,7 +2194,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 79,
+        "opportunityScore": 83,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2226,7 +2226,7 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 71,
+        "opportunityScore": 67,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

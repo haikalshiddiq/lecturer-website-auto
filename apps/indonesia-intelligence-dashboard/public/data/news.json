@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-16T20:00:18+07:00",
+  "generatedAt": "2026-08-16T21:00:30+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 16 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-16-8c7bf16128",
+      "date": "2026-08-16",
+      "topic": "Tech / AI",
+      "title": "UGM Indosat NVIDIA AI Technology Center Resmi Diluncurkan untuk Akselerasi Riset dan Kedaulatan AI Nasional",
+      "summary": "kabarnusa.com surfaced this fresh item: UGM Indosat NVIDIA AI Technology Center Resmi Diluncurkan untuk Akselerasi Riset dan Kedaulatan AI Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "kabarnusa.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOclM2WUIzQ1IxbEk3YkU3UDdPeGNGd3lFV0NLb0FXNjdQMG8wWkNvbWQtUEFva0JTUW1xMWZ3WXRpN19abkQ3NnlmYTlwbDNQLVl3Nlh6NWZTa1hlU1ljTEFIaWU4M24wZTJ0NG5WZzJHSVhpRzM5RWd0RHdSc1dBZEJLdFNyUl8tNzNYMWlwUGRfbzNWcVA1aFEtTFZ5dUVFREo3YjZ1RnA2Sy1lYU9BZXExbWRQREt1R0FTSWh6QzRVanVPQzllQlVB?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-16-946932ea3b",
       "date": "2026-08-16",
@@ -94,21 +109,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-16-208c3c93dc",
-      "date": "2026-08-16",
-      "topic": "Business / Investment",
-      "title": "Video: Agar Ekonomi Tumbuh Lebih Cepat, Pemerintah Harus Lakukan Ini",
-      "summary": "CNBC Indonesia surfaced this fresh item: Video: Agar Ekonomi Tumbuh Lebih Cepat, Pemerintah Harus Lakukan Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbFU3MmRwWHkzQldTX1RtdU5lWkR6czhZdEliQW4zMXNObndOazVWV0JBZk5NZkpqWHlCbHZhSk1LaGxIUVZkQlRVWjByRzhLQml5Ulh3VFZJQmVLN2lJWEU0azhFUGdrYVJLZWxqckdnRnVZVm1fRndQWWpSMTNZLS1xb2RtUFFvbE04TU5keDVuWm1naFpYLXdNelJMSkZFTVd2T3g1WG9qLUVteDlhV2lkeWZHbWh6M1BhdHFKNFFsSUE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-16-c259c39dda",
       "date": "2026-08-16",
       "topic": "Infrastructure",
@@ -150,21 +150,6 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "TheStance via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8teHJOQlp3dVBrTUVNWk1vWHRfOU1qT0dPelRnZlg2dDlrdG1NRnYwOEpJcE1ISmh5b1hOYnNTUDNnam9RZWZFU2V4Q1BKTUdZY0xhZWd0WG1OenBrUHJ4OTZFdURWR1d5TUhUazYzT1I2bDgxSVE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-16-17229ee737",
-      "date": "2026-08-16",
-      "topic": "Tech / AI",
-      "title": "Mitra Keluarga potong beban operasional dengan AI",
-      "summary": "indotelko.com surfaced this fresh item: Mitra Keluarga potong beban operasional dengan AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "indotelko.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUC1SVWxnSVRMaEhpVXZ2TGdtVUNha0QwWmpPMkl2SFR3MzVzVTFlNzlxMWp5WWljSGJ2RnpyandyVTZwZ3g4Ni16Q1R4Zy1Ucm1WajdQSkR2TE1kbnEtZmtYNGk1dGV5WnhXdnU1UTdqTVByX0dfT0E4LXZ1eGRTOTBTZkNnYWZiWnBXVC1KQllVLTNIWEHSAZsBQVVfeXFMT3RLZEZMSllvcFVhTUNRa1RrdXFmWm10ZDE3M0FyME5KVHRCQlAwQmpXR0RqZDRnS2k3VkFoWjViVEtaTGZQdGpYeDRHRFByZ0hyWXYtUkRDUE5uc0lLdkFOYzlfYWgtcThnczdYUWVaOUZGbXpiNy1vVEEyMEE0VDhXdlZlLTJ2UWVsMlFJVzdZM0VmcGh5OUk1UDQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -259,6 +244,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-16-7d2150929b",
+      "date": "2026-08-16",
+      "topic": "Business / Investment",
+      "title": "Kado Kemerdekaan, Indonesia Ekspor Beras ke Malaysia",
+      "summary": "prabowosubianto.com surfaced this fresh item: Kado Kemerdekaan, Indonesia Ekspor Beras ke Malaysia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "prabowosubianto.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbmpLWUl2TjI1emNJZjNFZHdWTU81MXZWUEVCZVE5R0hCOEFZbXlqUFhhU2RJck5fa2xWemlvUWF3LVdEdm5YeHJ3bzRuXzhRUUo1allDcjNIazRtZUVSa3k3Q2FmNVhwWjBHN0p6eGdGYXdPSmE1ZnJ3WFowRHByV3hJODBkM3c?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-16-b33cd1c501",
       "date": "2026-08-16",
       "topic": "Infrastructure",
@@ -289,17 +289,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-16-3f9a9b2bb1",
+      "id": "2026-08-16-936d91b598",
       "date": "2026-08-16",
       "topic": "Infrastructure",
-      "title": "Pelindo Siap Kolaborasi Integrasikan Tol Cibitung-Cilincing hingga Akses Tanjung Priok",
-      "summary": "republika.co.id surfaced this fresh item: Pelindo Siap Kolaborasi Integrasikan Tol Cibitung-Cilincing hingga Akses Tanjung Priok. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Integrasi Jalan Tol Dinilai Pangkas Biaya Logistik",
+      "summary": "Media Indonesia surfaced this fresh item: Integrasi Jalan Tol Dinilai Pangkas Biaya Logistik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "republika.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSFZFdmxPd3dpaWpZOFEwbG1NSXVqYjhoYVk2VkhtR1RsNU1qalBlNzVreEtLMW43TUQ0dFQ5cTVzUFNqb28tQVo4QzV4OVprclZIM3NuYWdVNkZ0TnZmTnRLUnc3d3pVYW1mS2xocEVad01KOVk2Q043SjcwaWZzLW52NnhyUThUUkMyTTBHX1FObVJDUVBJYVNOd3NEZVU5cVAwTjZ1NE9oNVdtYnJXM2NHNzJULWdQQVFlYzFWcmZ1eUZ5V1V2Nkh5ZXRGRGs?oc=5",
+      "source": "Media Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDJPRHBxSXk1eTVXbVljdE5jakhXN1Zrbm9ZOF9MNFI4RGFSNTRkZGp2RkxpU1c2dVUwejRaWndJdU93eWc3RnBvNklMcjhuSXVWQTR6X3VtRUp6cTVtSnlHY2ZUMFg0WWRLWExTV3NoMWFCMERYUktuZXRyb1RWU0c2R0ViakxXQkRHYWtiVWxEZ21CZXhj?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -338,12 +338,12 @@
       "date": "2026-08-16",
       "topic": "Markets",
       "title": "RAPBN 2027 Jadi Sentimen Positif IHSG, Rerating Masih Jadi Tantangan",
-      "summary": "Bisnis.com - Market surfaced this fresh item: RAPBN 2027 Jadi Sentimen Positif IHSG, Rerating Masih Jadi Tantangan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "market.bisnis.com surfaced this fresh item: RAPBN 2027 Jadi Sentimen Positif IHSG, Rerating Masih Jadi Tantangan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.05,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Bisnis.com - Market via Google News RSS discovery",
+      "source": "market.bisnis.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZVp4bGtVSVNlYUxLUUdHd0FBS29OSkpPVmFMc2daZGdSOU41N2RXd0g1VUhLT2ZURzFrRERoTnlPQjZFMVFMS0FoNkhWdzYyMzJQWXUtN0ZVUVNzZlJ5bVRodUloS1BxTk9HTzUybk9FODZYLVQwYnFkUGZXVlZvTFduQ2JtQ082SGFKVTQ0c2pCUGc2d1ZHVnRUcTJXdk02dE1TcDhxc2FZbVM2aDBuUzhFTVVJMkhZ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -353,19 +353,19 @@
       "date": "2026-08-16",
       "topic": "Regulation",
       "title": "Opppsss….!!! OJK Cabut Izin Usaha BPR Dwicahaya Nusaperkasa Kota Batu Hari Ini",
-      "summary": "adadimalang.com surfaced this fresh item: Opppsss….!!! OJK Cabut Izin Usaha BPR Dwicahaya Nusaperkasa Kota Batu Hari Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "AdaDiMalang.com surfaced this fresh item: Opppsss….!!! OJK Cabut Izin Usaha BPR Dwicahaya Nusaperkasa Kota Batu Hari Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.05,
       "confidence": 0.68,
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "adadimalang.com via Google News RSS discovery",
+      "source": "AdaDiMalang.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzNIcXg5b0pQcXlUUUJJY1FVcWE0elQ2RHp3aGxjc29ZTVl0RnNqZm1DY21hYk1jRHdiWEVSbGtPVDJUSWxwQnRzN3czWnlKNDBXZndENnEyRGpSWmx4RUFMMV92dVNkWGNJaE9fQWdOYjlsUUNwRnNLSHMzbmF6ek54TnNWNl9ZdXlGQ3N0dl9raUdZVTloVF9HMzU1QlE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-16T20:00:18+07:00",
+    "generatedAt": "2026-08-16T21:00:30+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-19T03:00:07+07:00",
+  "generatedAt": "2026-08-19T04:00:10+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 19 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
     {
-      "id": "2026-08-19-4ac6c0db02",
+      "id": "2026-08-19-0b515661e4",
       "date": "2026-08-19",
       "topic": "Business / Investment",
-      "title": "81 Tahun Indonesia Merdeka, ini 8 kontribusi nyata BRI untuk negeri",
-      "summary": "ANTARA News Jateng surfaced this fresh item: 81 Tahun Indonesia Merdeka, ini 8 kontribusi nyata BRI untuk negeri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
+      "title": "ICCN Dorong Ekonomi Kreatif Daerah Naik Kelas, Vicky Arief Siap Jadikan Bengkalis Kabupaten Kreatif",
+      "summary": "bengkaliskab.go.id surfaced this fresh item: ICCN Dorong Ekonomi Kreatif Daerah Naik Kelas, Vicky Arief Siap Jadikan Bengkalis Kabupaten Kreatif. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "ANTARA News Jateng via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcjFLVzN1MF9mbG5jeWhyMmpMUDU5X21WMXBXdEJQNUMyZnA5SVpQNFVObEd2U3VfLWZXRjN5eS1ZRUxHcjdWdXVqVVo1N0k5UG5xUEtIaFAyS29JYlpiUDRfQXo5WDMxZ0tLVXA2TDZYTmowcXV3XzRodU8xY2Z2cHowZFl0X0ZPWVdMYTRIeG9KQ05NZm11R3poQWdwdXFQVUxtQVhSOUVrSG9ocUxJ?oc=5",
+      "source": "bengkaliskab.go.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaG1PX01NWGxJMWtfTTdlQ1dJSVQ4NTlkNTBsemVRZFJfZjdCZl9TOGVGVnl2QWRWdlYteVBCTGhHQ3R6aFNaLWJLbF94Y3BOa0lNNGRMUUJra2NLS1k0dFA2bkJwTUdseUV4SmtZVkExQ0pNcTVKWVZQSzFqN1pDNEdKT04xTTdlbGdHUjdfRTIwM1QyWjkzajMtSlBGSWVocVMySG1WZWFVT21HS1VCWUtmdlRJWG9aOXlNR2R5Nll2N2E2WGtUWEtLLW4?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-08-19-aa386968cb",
+      "id": "2026-08-19-144de83ddb",
       "date": "2026-08-19",
-      "topic": "Business / Investment",
-      "title": "Kemenperin Perkuat Daya Saing Industri TPT untuk Menangkan Kompetisi Global",
-      "summary": "agrofarm.co.id surfaced this fresh item: Kemenperin Perkuat Daya Saing Industri TPT untuk Menangkan Kompetisi Global. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Automotive / EV",
+      "title": "Baterai EV Makin Murah, Indonesia Punya Peluang Besar?",
+      "summary": "KabarBursa.com surfaced this fresh item: Baterai EV Makin Murah, Indonesia Punya Peluang Besar?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.08,
+      "score": 0.16,
       "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "agrofarm.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMUM5SVBsMWl1c1haV2x0SzlWeXFldTJOeldNNTJDbXFmaVNHRUVKd3lWWFhKYzg2Rk52YXpDbGtPMThrcF9WemhkdHFPNngyUDNXQnhDNnZ2TkNhbFVla1lxZVRQVlRaWV9ldksyaHE3VGFrX2tzME1INzA1Z2E2cVpMREozUzJlV2QzcG4xbldQZjNJbEFuUlVFV2d2TFlkMjA3MzZlRW9UWjJYeTQ0?oc=5",
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "KabarBursa.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlZITXFmWU8zdEU5eHBjZUdqZGVlY1lLWjZrZlkyeVdjUVBUNWw1Qzcxano4ZXhkdWQ1RmhFSlRxdndCYlhkZHg2bUZwTjFrQ1VUcWcwUnFkbjc4aGdxZkNOUEZzd2JWV0pPUkRPb3gzQTdPdTVpY3ZwbGxvbEhiVDJtR2xxYVB3d1R2eXlnTzZZUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -104,7 +104,7 @@
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "Validnews.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWRMa001ZU9PUEtqTUZJNjN2XzZwM0NxQXRMOTV6NmYzTFhZNnRMMUp5dnJyVjV3aHRzdUJ6NjdIY3VPTG0tb2NveXQxZl9PejlYZ19aZndLM05jWG9faVVwWWFGR0tLVlpCeE5EMTcwei1EY05JWm1CbnJNOEwzQm1xOE5jTzlEMUtseW1HM3dlQmZtRmc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjRlU2tVX0Y3MXYwYVdRdWRqV28zMEg4YzNBRlAtY1BjeUdBbHI5SENGX0JPQU53aHFwaUpEU3JPckpMX1BrWjhiamdzYmNRelVfV0RSQnJMT1p0NmlUNnJpUnJlVHdoRHdNN2lNbTdPTDFUNUlZaE5RSm5EVWRqWjBxaFNPMzdiQU80WnpLQU8?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -143,12 +143,12 @@
       "date": "2026-08-18",
       "topic": "Tech / AI",
       "title": "Data Labs Analytics Meluncurkan Gemini Enterprise Xperience Center",
-      "summary": "Peradaban.id surfaced this fresh item: Data Labs Analytics Meluncurkan Gemini Enterprise Xperience Center. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "peradaban.id surfaced this fresh item: Data Labs Analytics Meluncurkan Gemini Enterprise Xperience Center. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Peradaban.id via Google News RSS discovery",
+      "source": "peradaban.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQak1WQnRLVTg3eGtGTUZrR0JlWk0zU3BDcUp1d1RCaXJiVlNMb1E5U3YyNFNsaU9JNS1yNG9uRGNlQ21oeUtWZC1YblJxeG1oeXRtOEVndFlhdDJtVDlrOV9pV243VW16WmNwQ05wWlJtVjNRYlNtdV9PRGpDM1FBNG9JYWJneVNNYUFvQlZ3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -184,6 +184,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-18-9962d092db",
+      "date": "2026-08-18",
+      "topic": "Business / Investment",
+      "title": "Investasi Tembus Rp6,4 Triliun, Pemkot Bidik Rp12 Triliun hingga Akhir 2026",
+      "summary": "jabarprov.go.id surfaced this fresh item: Investasi Tembus Rp6,4 Triliun, Pemkot Bidik Rp12 Triliun hingga Akhir 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "jabarprov.go.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQUNJdEl0QUhRS1p6OUtmR2h2bTlUYkplSFkxaFk1RlJjdkw5bVgzbXNkRHM1dGlpcXIySWV2OVBMdUdZQ0tobmt3bDNZYV9uQWZxQjVwWDMzMXhnZ2pDSDY2a1F3aWxFLWlQb29mY3ZuQ0E5UENVb2JQNk55RHVobVRGNGxEZGhPbU5KN3FPVWtyeHZtWGNqNm1mSVZSZjNqSjJEQlQyYTZCcDU0Y2FPOA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-18-ccd1e036a6",
       "date": "2026-08-18",
       "topic": "Infrastructure",
@@ -203,12 +218,12 @@
       "date": "2026-08-18",
       "topic": "Infrastructure",
       "title": "Menuju Model Pembiayaan Baru Jalan Tol, Kepastian Investasi Perlu Diperkuat - pontianakinfo.disway.id",
-      "summary": "pontianakinfo.disway.id surfaced this fresh item: Menuju Model Pembiayaan Baru Jalan Tol, Kepastian Investasi Perlu Diperkuat - pontianakinfo.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Pontianak Info surfaced this fresh item: Menuju Model Pembiayaan Baru Jalan Tol, Kepastian Investasi Perlu Diperkuat - pontianakinfo.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "pontianakinfo.disway.id via Google News RSS discovery",
+      "source": "Pontianak Info via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWE5SYUl5N21pWFV4OU5RVzhLR2FHWGhhS0Rwenp5aU4wYnR6OE9ERVJfWWlPRlpWVWxxQXF4TXM1OE9LRTBLdnJ1UU4zamx5TXZySHRxNzJxcUtYSzlMOWFyNUR1d05WcXlNeE1VU01xQ2tMc1F6dl8zeDlNQkNvZTBJVlpMS0tNdHpPUmZuUDFwU2NyUWNaWk9faWc3N1VxMHFOQkZleW9BcHFuN2R4U1E4aGxpY0XSAbcBQVVfeXFMT1hOUmFJeTdtaVhVeDlOUVc4S0dhR1hoYUtEcHp6eWlOMGJ0ejhPREVSX1lpT0ZaVlVscUFxeE1zNThPS0UwS3ZydVFOM2pseU12ckh0cTcycXFLWEs5TDlhcjVEdXdOVnF5TXhNVVNNcUNrTHNRenZfM3g5TUJDb2UwSVZaTEtLTXR6T1JmblAxcFNjclFjWlpPX2lnNzdVcTBxTkJGZXlvQXBxbjdkeFNROGhsaWNF?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -233,12 +248,12 @@
       "date": "2026-08-18",
       "topic": "Markets",
       "title": "IHSG Naik 0,75 Persen ke 6.449,83, Pasar Tunggu Keputusan BI-Rate",
-      "summary": "suarasurabaya.net surfaced this fresh item: IHSG Naik 0,75 Persen ke 6.449,83, Pasar Tunggu Keputusan BI-Rate. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Suara Surabaya surfaced this fresh item: IHSG Naik 0,75 Persen ke 6.449,83, Pasar Tunggu Keputusan BI-Rate. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "suarasurabaya.net via Google News RSS discovery",
+      "source": "Suara Surabaya via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeU14Rm1iMUF3cHVETklGcWg4em13cVFKRVJhZTZzT2FEMGdKX1Z5ME9TYk84bXBPYXphYzNxTVZRYlNsTHNHQzU0YU0ySlpsS08yMXFUQ09PelJTQS0zcnRDQzlUcm5Ydlh0NTRTWXJGQU9oSW1lbzBaTVRqcVl0bEJGMFFab05qbVg1Sm4xZHJmWi1scDd1VXk1elM0WWJsZmprVUh2c1B0OGhzYVZGWG5n0gG3AUFVX3lxTFBHTW1DemQyRkFpcFVtYURaLWpGOXlVcWwwZi1KRVNkbEV5eUdkbjhaTEtaMW13UWt4dWctczlBLWFPal9kQ3Eyc0k5LWM4bkIxT1dJeHZRQW5LRWcxUWdHVzFjVUJoTm9BOHBWbjdaNDVBOFlPRFlfWEpCbUJ6TmpEWkpvMFhkbDdiNG80cEV5NUVNMktyZXhqc01vdDBGTzZPWTZOZzJQVktIaENPZDJhX1R5Y0NzMA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -248,12 +263,12 @@
       "date": "2026-08-18",
       "topic": "Markets",
       "title": "IHSG menguat 46,94 poin ke posisi 6.448",
-      "summary": "ANTARA News Yogyakarta surfaced this fresh item: IHSG menguat 46,94 poin ke posisi 6.448. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "jogja.antaranews.com surfaced this fresh item: IHSG menguat 46,94 poin ke posisi 6.448. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "ANTARA News Yogyakarta via Google News RSS discovery",
+      "source": "jogja.antaranews.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOG43WkZDZjZPMGNrblhacVpOZHJWc3M3YWk5ajJGdGVmUlY0bER5NnlNM19QdmdpOEJBTWJzSXllX0dQdTBQWE9JRnVHeE5pcW1teTZTTllMLVZ6THk0c0FINDRHd0h4MXlmalVmYnFnd0hmSmI2VnhMRW1FQkIxMGN4MjlUV2s?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -278,12 +293,12 @@
       "date": "2026-08-18",
       "topic": "Markets",
       "title": "IHSG Menguat 0,89 Persen pada Pembukaan Perdagangan Hari Ini",
-      "summary": "kabarsdgs.com surfaced this fresh item: IHSG Menguat 0,89 Persen pada Pembukaan Perdagangan Hari Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Kabar SDGs surfaced this fresh item: IHSG Menguat 0,89 Persen pada Pembukaan Perdagangan Hari Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "kabarsdgs.com via Google News RSS discovery",
+      "source": "Kabar SDGs via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSFY2RFpYaElQOGprQmZFeWFrYW5RMXRZRkwyaURkcjBQLTUwTWItOFp5V1lIOWs0ZGJRUGlFR1pPeFVkQjFwOGFST1k2VmpkTnlzQ2xSajFKVHlRdlRFVF9XUV9KYVdialVMT1FGMWE5VmFtbTJzUnBFUk45T3N1ZjQ3X1ZsWkxyUC1JMzRvSHJ1eHc5VEZyd3VZYlhIQmhnel9UeEUwSktUdlFYWVJIcg?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -338,34 +353,19 @@
       "date": "2026-08-18",
       "topic": "Automotive / EV",
       "title": "Segini Biaya Pasang DC Charger untuk Mobil Listrik",
-      "summary": "Bloomberg Technoz surfaced this fresh item: Segini Biaya Pasang DC Charger untuk Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "bloombergtechnoz.com surfaced this fresh item: Segini Biaya Pasang DC Charger untuk Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Bloomberg Technoz via Google News RSS discovery",
+      "source": "bloombergtechnoz.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0FNQ3ZTMFR2TW1aZ1dPTFMzNEN1U0twdThmcFdUNlY2czlWMU94UDNQbjVOZGJVR1hHUmNWZ09NSzJqczhtN3ZJbXZ6emFkS0NaQlU4TFBlZUpwYVFzaEd6ckw0a3VJNnktTldMZ0NuekxxaHQ3NG1DMGE0VUZGNkxZYmdSOWppX0RoYkdnbG55LW05cEhQMU9Ta0Qyb1g0NFlUWQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-18-02a6bcb40b",
-      "date": "2026-08-18",
-      "topic": "Automotive / EV",
-      "title": "10 Mobil Terlaris di Indonesia Juli 2026, Kendaraan Listrik Bertengger di Peringkat Atas",
-      "summary": "RCTI+ surfaced this fresh item: 10 Mobil Terlaris di Indonesia Juli 2026, Kendaraan Listrik Bertengger di Peringkat Atas. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "RCTI+ via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZWZhWXNaRHZObmhaSlJOdEFudVRLUm1qU1dvN1NhZjBWU1N2OHFFcjYyRy1YVkdvNGlJNVl1U0tCUmVnS25yX09CZ0c5RVJpaUFtMFBzMEFMNFF0R1NrM2wwNUZZb2RiNF9LUHlTWm5OdGlEY01NWS1JRXBUMGpuSjhpYWRRYjRfWFRMYVJmd09rdTYwZjZadDl2b3JZbXRJZS14TFowSjRreGFCS295MmxoZjdUR0g5cTBSMlFua2ttbEQ4R2tjRXgxQUdUR1RGYzVWS2lmNGQxQQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-19T03:00:07+07:00",
+    "generatedAt": "2026-08-19T04:00:10+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2238,15 +2238,15 @@
         "name": "Eli Lilly",
         "sector": "Healthcare",
         "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-        "last": 1225.23,
+        "last": 1225.73,
         "date": "2026-08-18",
-        "return1m": 6.83,
-        "return3m": 21.71,
-        "return6m": 17.28,
-        "return1y": 85.5,
+        "return1m": 6.87,
+        "return3m": 21.76,
+        "return6m": 17.33,
+        "return1y": 85.58,
         "volatility": 35.69,
         "maxDrawdown": -23.31,
-        "opportunityScore": 82.8,
+        "opportunityScore": 82.9,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -2647,7 +2647,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 1225.23
+            "value": 1225.73
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"
@@ -2657,12 +2657,12 @@
         "name": "Exxon Mobil",
         "sector": "Energy",
         "thesis": "Cash generation and diversification when energy prices support the cycle.",
-        "last": 165.6,
+        "last": 165.56,
         "date": "2026-08-18",
-        "return1m": 11.62,
-        "return3m": 8.39,
-        "return6m": 9.51,
-        "return1y": 53.9,
+        "return1m": 11.59,
+        "return3m": 8.36,
+        "return6m": 9.49,
+        "return1y": 53.87,
         "volatility": 25.28,
         "maxDrawdown": -20.65,
         "opportunityScore": 68.0,
@@ -3066,7 +3066,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 165.6
+            "value": 165.56
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-XOM/"
@@ -3076,12 +3076,12 @@
         "name": "JPMorgan Chase",
         "sector": "Financials",
         "thesis": "Scale, diversified earnings, and strong balance-sheet execution.",
-        "last": 363.17,
+        "last": 363.25,
         "date": "2026-08-18",
-        "return1m": 7.17,
-        "return3m": 21.09,
-        "return6m": 12.75,
-        "return1y": 25.0,
+        "return1m": 7.19,
+        "return3m": 21.12,
+        "return6m": 12.78,
+        "return1y": 25.03,
         "volatility": 22.09,
         "maxDrawdown": -15.47,
         "opportunityScore": 67.3,
@@ -3485,7 +3485,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 363.17
+            "value": 363.25
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-JPM/"
@@ -3495,12 +3495,12 @@
         "name": "Apple",
         "sector": "Consumer technology",
         "thesis": "Installed-base monetization, services, and premium-device ecosystem.",
-        "last": 310.07,
+        "last": 310.03,
         "date": "2026-08-18",
-        "return1m": -5.06,
-        "return3m": 3.98,
-        "return6m": 12.91,
-        "return1y": 32.89,
+        "return1m": -5.07,
+        "return3m": 3.96,
+        "return6m": 12.89,
+        "return1y": 32.87,
         "volatility": 24.84,
         "maxDrawdown": -13.82,
         "opportunityScore": 60.0,
@@ -3904,7 +3904,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 310.07
+            "value": 310.03
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AAPL/"
@@ -3914,12 +3914,12 @@
         "name": "Alphabet",
         "sector": "Digital ads / cloud",
         "thesis": "Search cash flow, cloud growth, and AI product distribution.",
-        "last": 344.07,
+        "last": 344.2,
         "date": "2026-08-18",
-        "return1m": -2.25,
-        "return3m": -14.21,
-        "return6m": 6.09,
-        "return1y": 70.37,
+        "return1m": -2.21,
+        "return3m": -14.18,
+        "return6m": 6.13,
+        "return1y": 70.43,
         "volatility": 32.51,
         "maxDrawdown": -21.09,
         "opportunityScore": 57.9,
@@ -4323,7 +4323,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 344.07
+            "value": 344.2
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-GOOGL/"
@@ -4333,15 +4333,15 @@
         "name": "Amazon",
         "sector": "Cloud / commerce",
         "thesis": "AWS margin expansion and global commerce operating leverage.",
-        "last": 259.28,
+        "last": 259.45,
         "date": "2026-08-18",
-        "return1m": 3.72,
-        "return3m": -2.97,
-        "return6m": 24.22,
-        "return1y": 15.46,
+        "return1m": 3.78,
+        "return3m": -2.91,
+        "return6m": 24.31,
+        "return1y": 15.54,
         "volatility": 34.26,
         "maxDrawdown": -21.74,
-        "opportunityScore": 57.0,
+        "opportunityScore": 57.1,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -4742,7 +4742,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 259.28
+            "value": 259.45
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AMZN/"
@@ -4752,11 +4752,11 @@
         "name": "Visa",
         "sector": "Payments",
         "thesis": "Global electronic-payment volume and high-margin network economics.",
-        "last": 364.22,
+        "last": 364.25,
         "date": "2026-08-18",
-        "return1m": 1.01,
-        "return3m": 12.93,
-        "return6m": 11.87,
+        "return1m": 1.02,
+        "return3m": 12.94,
+        "return6m": 11.88,
         "return1y": 6.33,
         "volatility": 21.8,
         "maxDrawdown": -17.35,
@@ -5161,7 +5161,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 364.22
+            "value": 364.25
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-V/"
@@ -5171,15 +5171,15 @@
         "name": "Microsoft",
         "sector": "Software / cloud",
         "thesis": "Azure, enterprise software, and AI monetization exposure.",
-        "last": 481.34,
+        "last": 481.63,
         "date": "2026-08-18",
-        "return1m": 19.65,
-        "return3m": 17.56,
-        "return6m": 16.38,
-        "return1y": -7.54,
+        "return1m": 19.72,
+        "return3m": 17.63,
+        "return6m": 16.45,
+        "return1y": -7.48,
         "volatility": 32.04,
         "maxDrawdown": -34.91,
-        "opportunityScore": 56.8,
+        "opportunityScore": 56.9,
         "risk": "High",
         "sparkline": [
           {
@@ -5580,7 +5580,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 481.34
+            "value": 481.63
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-MSFT/"
@@ -5590,15 +5590,15 @@
         "name": "NVIDIA",
         "sector": "Semiconductors / AI",
         "thesis": "AI accelerator leadership with high growth and valuation sensitivity.",
-        "last": 219.58,
+        "last": 219.74,
         "date": "2026-08-18",
-        "return1m": 8.02,
-        "return3m": -6.86,
-        "return6m": 15.54,
-        "return1y": 20.92,
+        "return1m": 8.1,
+        "return3m": -6.79,
+        "return6m": 15.63,
+        "return1y": 21.01,
         "volatility": 36.61,
         "maxDrawdown": -20.22,
-        "opportunityScore": 53.6,
+        "opportunityScore": 53.7,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -5999,7 +5999,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 219.58
+            "value": 219.74
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
@@ -6009,15 +6009,15 @@
         "name": "Broadcom",
         "sector": "Semiconductors / infrastructure",
         "thesis": "AI networking, custom silicon, and infrastructure software cash flow.",
-        "last": 379.7,
+        "last": 380.0,
         "date": "2026-08-18",
-        "return1m": 0.41,
-        "return3m": -13.66,
-        "return6m": 10.4,
-        "return1y": 22.84,
+        "return1m": 0.49,
+        "return3m": -13.6,
+        "return6m": 10.48,
+        "return1y": 22.94,
         "volatility": 47.77,
         "maxDrawdown": -28.95,
-        "opportunityScore": 44.5,
+        "opportunityScore": 44.6,
         "risk": "High",
         "sparkline": [
           {
@@ -6418,7 +6418,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 379.7
+            "value": 380.0
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AVGO/"
@@ -6428,12 +6428,12 @@
         "name": "Costco",
         "sector": "Consumer staples",
         "thesis": "Membership economics and resilient high-frequency consumer demand.",
-        "last": 961.01,
+        "last": 961.35,
         "date": "2026-08-18",
-        "return1m": 2.69,
-        "return3m": -7.71,
-        "return6m": -3.67,
-        "return1y": -1.82,
+        "return1m": 2.73,
+        "return3m": -7.67,
+        "return6m": -3.63,
+        "return1y": -1.79,
         "volatility": 19.6,
         "maxDrawdown": -16.57,
         "opportunityScore": 39.9,
@@ -6837,7 +6837,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 961.01
+            "value": 961.35
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-COST/"
@@ -6847,12 +6847,12 @@
         "name": "Meta Platforms",
         "sector": "Digital ads / AI",
         "thesis": "Advertising efficiency, engagement, and AI-driven recommendation gains.",
-        "last": 543.51,
+        "last": 543.67,
         "date": "2026-08-18",
-        "return1m": -15.85,
-        "return3m": -12.11,
-        "return6m": -19.74,
-        "return1y": -30.33,
+        "return1m": -15.82,
+        "return3m": -12.09,
+        "return6m": -19.72,
+        "return1y": -30.31,
         "volatility": 38.52,
         "maxDrawdown": -33.05,
         "opportunityScore": 13.8,
@@ -7256,7 +7256,7 @@
           },
           {
             "date": "2026-08-18",
-            "value": 543.51
+            "value": 543.67
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-META/"
@@ -7267,15 +7267,15 @@
       "name": "Eli Lilly",
       "sector": "Healthcare",
       "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-      "last": 1225.23,
+      "last": 1225.73,
       "date": "2026-08-18",
-      "return1m": 6.83,
-      "return3m": 21.71,
-      "return6m": 17.28,
-      "return1y": 85.5,
+      "return1m": 6.87,
+      "return3m": 21.76,
+      "return6m": 17.33,
+      "return1y": 85.58,
       "volatility": 35.69,
       "maxDrawdown": -23.31,
-      "opportunityScore": 82.8,
+      "opportunityScore": 82.9,
       "risk": "Moderate",
       "sparkline": [
         {
@@ -7676,7 +7676,7 @@
         },
         {
           "date": "2026-08-18",
-          "value": 1225.23
+          "value": 1225.73
         }
       ],
       "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"

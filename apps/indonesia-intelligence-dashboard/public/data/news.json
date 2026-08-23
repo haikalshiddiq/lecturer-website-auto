@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T00:43:27+07:00",
+  "generatedAt": "2026-08-24T01:01:02+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 24 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -109,21 +109,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-23-03c37894d6",
-      "date": "2026-08-23",
-      "topic": "Business / Investment",
-      "title": "DPR Siapkan Pembahasan RUU Pemilu 2026 untuk Perkuat Desain Demokrasi Nasional",
-      "summary": "beritanasionalupdate.com surfaced this fresh item: DPR Siapkan Pembahasan RUU Pemilu 2026 untuk Perkuat Desain Demokrasi Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "beritanasionalupdate.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZjVYajN2ZWpseWt0ZU9lZFdLR1FvR3FZZmRpQmNRaFhFQVBvTVczUm5yR3ROZ0E0bnQ0QkpQQ254VlpEcDBLMTE5c0NLNE1PVDBacTBpTzExVi02UzR2a3FnVUhxakJPSnlIWEwyd3Nld1NpYjFsZDVNQ0lYandBYzdOUklTeVNtRjJRbGpRdTdEOE5XdElseWpLQXMyZHdvMVdxTmUydDNyWXJhcjV0V2hiM00zLXN6VXgzUGI5OUFNdC1hRHhaNFIwQnVZYlpDT2FNYVJrdUtROFo2eEE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-23-3a156a230e",
       "date": "2026-08-23",
       "topic": "Business / Investment",
@@ -135,6 +120,21 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "TIMES Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNGxlT3VXajJMaGZhM2l5UW93UExjWkltNUh2QmpZM25ZQURSZ1VxUUpEOUU1X3k4cmhVb1NLSG80OHU4dG5ZSm8wczhJcV9FTVJsS0dVazBkYlZfTXRQZVpvRU5lOUZHWUF3SHpuSmRQNlNPZ19hbmtGQWZES0ctU1IxZWZHbERqTkJ0OHQ5UWl2eUs3RWk5ZVcxY1FFaXI0SEpQUmpSOU5yTGxoekE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-23-03c37894d6",
+      "date": "2026-08-23",
+      "topic": "Business / Investment",
+      "title": "DPR Siapkan Pembahasan RUU Pemilu 2026 untuk Perkuat Desain Demokrasi Nasional",
+      "summary": "beritanasionalupdate.com surfaced this fresh item: DPR Siapkan Pembahasan RUU Pemilu 2026 untuk Perkuat Desain Demokrasi Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "beritanasionalupdate.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZjVYajN2ZWpseWt0ZU9lZFdLR1FvR3FZZmRpQmNRaFhFQVBvTVczUm5yR3ROZ0E0bnQ0QkpQQ254VlpEcDBLMTE5c0NLNE1PVDBacTBpTzExVi02UzR2a3FnVUhxakJPSnlIWEwyd3Nld1NpYjFsZDVNQ0lYandBYzdOUklTeVNtRjJRbGpRdTdEOE5XdElseWpLQXMyZHdvMVdxTmUydDNyWXJhcjV0V2hiM00zLXN6VXgzUGI5OUFNdC1hRHhaNFIwQnVZYlpDT2FNYVJrdUtROFo2eEE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-24T00:43:27+07:00",
+    "generatedAt": "2026-08-24T01:01:02+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

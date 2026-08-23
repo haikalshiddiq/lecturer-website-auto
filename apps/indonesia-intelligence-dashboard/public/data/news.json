@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-24T03:01:04+07:00",
+  "generatedAt": "2026-08-24T04:01:05+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 24 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-24-5a128bd470",
+      "date": "2026-08-24",
+      "topic": "Business / Investment",
+      "title": "Geothermal Tak Hanya untuk Listrik, Bahlil Dorong Pemanfaatan untuk Industri",
+      "summary": "Listrik Indonesia surfaced this fresh item: Geothermal Tak Hanya untuk Listrik, Bahlil Dorong Pemanfaatan untuk Industri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Listrik Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS05XazdWamwtZ2hValFmdnVqUEp3b0EybHVyMzdtYlk4RHZYeVBTa25YRlp2VXB2ZlJCTXB1MG5vTndkYU1rLWhfYXdqWW5xRjgyaVkwVGhzUUdaYkUwVUFKallGb0I0QWdDMGRqM1lPR2FMVWZ2N3dQeDZXd2k5X3NEd3FWV3BJeVlrOTN2Umd1MzBZdmZMaFpLdzNESGxjUlJrblBYd0NpUVBMSjN3OEV1b2JIdHRO?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-24-2f49e61e9a",
       "date": "2026-08-24",
@@ -124,6 +139,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-23-7ae1d3608a",
+      "date": "2026-08-23",
+      "topic": "Automotive / EV",
+      "title": "Hyundai Resmi Buka Pemesanan Mobil Listrik IONIQ V di China",
+      "summary": "achmadnurhidayat.id surfaced this fresh item: Hyundai Resmi Buka Pemesanan Mobil Listrik IONIQ V di China. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "achmadnurhidayat.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBseURyVDJTTXJnSEc0SEFrMldVMmV5dTdvTzktU3FsZTI4eDdOLTFEeGlhTWxyNHJuVlF3bHpZMXI0WGRVSXRER2IwRnVBZVNCbTFCblR4VUF1cV9vdi1mQzRyUWJRSkZiaDVQQzBMeXNuUQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-23-47078013c4",
       "date": "2026-08-23",
       "topic": "Business / Investment",
@@ -150,21 +180,6 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "beritanasionalupdate.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZjVYajN2ZWpseWt0ZU9lZFdLR1FvR3FZZmRpQmNRaFhFQVBvTVczUm5yR3ROZ0E0bnQ0QkpQQ254VlpEcDBLMTE5c0NLNE1PVDBacTBpTzExVi02UzR2a3FnVUhxakJPSnlIWEwyd3Nld1NpYjFsZDVNQ0lYandBYzdOUklTeVNtRjJRbGpRdTdEOE5XdElseWpLQXMyZHdvMVdxTmUydDNyWXJhcjV0V2hiM00zLXN6VXgzUGI5OUFNdC1hRHhaNFIwQnVZYlpDT2FNYVJrdUtROFo2eEE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-23-3a156a230e",
-      "date": "2026-08-23",
-      "topic": "Business / Investment",
-      "title": "Erick Thohir Sebut Olahraga Sebagai Investasi Masa Depan Bangsa",
-      "summary": "TIMES Indonesia surfaced this fresh item: Erick Thohir Sebut Olahraga Sebagai Investasi Masa Depan Bangsa. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "TIMES Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNGxlT3VXajJMaGZhM2l5UW93UExjWkltNUh2QmpZM25ZQURSZ1VxUUpEOUU1X3k4cmhVb1NLSG80OHU4dG5ZSm8wczhJcV9FTVJsS0dVazBkYlZfTXRQZVpvRU5lOUZHWUF3SHpuSmRQNlNPZ19hbmtGQWZES0ctU1IxZWZHbERqTkJ0OHQ5UWl2eUs3RWk5ZVcxY1FFaXI0SEpQUmpSOU5yTGxoekE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -289,21 +304,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-23-4c035144b7",
-      "date": "2026-08-23",
-      "topic": "Automotive / EV",
-      "title": "Guangdong China Bidik Potensi Pasar Motor Listrik di Indonesia",
-      "summary": "Bisnis.com - Otomotif surfaced this fresh item: Guangdong China Bidik Potensi Pasar Motor Listrik di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Bisnis.com - Otomotif via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmtDb1hjMDlsNF9uX0VZRFpxdkVoSTNBOGt5S3lfSng4X3gzdFlYZFlmMkVPQTN4SXNTQXJpNnZ4bTlpVXVoTm9LYlZodXVJOWZxN1MweU4xVFBZdUQ3U3Ztc0xYNG1XOHF0dElEM2NfQnUwakdodjBZRUJyTjdKbUxDb0UxY1FhajN6NHdLTzBNeDY0TkxPR0xTZ1dPVmc4b2FPd3FLZ2JVYUJWM1ZieVdRTHFaT0k?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-23-919c677b92",
       "date": "2026-08-23",
       "topic": "Infrastructure",
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-24T03:01:04+07:00",
+    "generatedAt": "2026-08-24T04:01:05+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

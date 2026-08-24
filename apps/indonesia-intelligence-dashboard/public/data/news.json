@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T23:01:05+07:00",
-  "briefingTitle": "Indonesia Hot News Intelligence Briefing — 24 August 2026",
+  "generatedAt": "2026-08-25T00:00:06+07:00",
+  "briefingTitle": "Indonesia Hot News Intelligence Briefing — 25 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
     {
@@ -259,17 +259,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-24-cf19f50c5a",
+      "id": "2026-08-24-e7456f4575",
       "date": "2026-08-24",
       "topic": "Markets",
-      "title": "MSCI Diprediksi Freeze Saham RI Lagi, IHSG Berpeluang ke 7.500",
-      "summary": "Bisnis.com - Market surfaced this fresh item: MSCI Diprediksi Freeze Saham RI Lagi, IHSG Berpeluang ke 7.500. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Investor Asing Borong Saham Bank dan Komoditas Dorong IHSG Rebound",
+      "summary": "SuaraGarut.ID surfaced this fresh item: Investor Asing Borong Saham Bank dan Komoditas Dorong IHSG Rebound. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Bisnis.com - Market via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQODh0OG9qUlJIOVlCQjhqNzBYRkIwZ3lZQjFlUUlmVnNmU2kyd2k4Vk5ET1pnWXIwTVJPUnFleS1PSGR5bzdtb0hDODRLWFl3MEdGZlZHRVAzVWdBaTkyXzI5U0RHSlRRQ09BWlE2OHJRRGVVR1gtZ2lRb2xqWWN5a1RXUVRYTjlpWFh4TzBvRWtqVWRldGVQX0NmYW02cUpwWENRYnltMHgtd3VHbEtB?oc=5",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82SWFPZ0trQ0xScUxNbldfQTB1bGx3SjJKanEzVEtlSHhtR3piYzZOR1dLajdNUEUtODFuakY4cDY2bTBtckhzX25EcTJPQlJrd1F0SjFNS2FDM0JBX08xTGQ0Rnk?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-24T23:01:05+07:00",
+    "generatedAt": "2026-08-25T00:00:06+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,12 +374,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12663.7998,
+        "last": 12662.5996,
         "date": "2026-08-24",
         "return1m": 1.16,
-        "return3m": -0.0,
-        "return6m": 6.22,
-        "return1y": 6.37,
+        "return3m": -0.01,
+        "return6m": 6.21,
+        "return1y": 6.36,
         "volatility": 9.81,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -664,7 +664,7 @@
             "value": 12639.873
           }
         ],
-        "profitScore": 2.25,
+        "profitScore": 2.24,
         "view": "strongest IDR return screen"
       },
       {
@@ -672,12 +672,12 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20644.0,
+        "last": 20645.0,
         "date": "2026-08-24",
         "return1m": 3.8,
-        "return3m": 1.73,
+        "return3m": 1.74,
         "return6m": 3.99,
-        "return1y": 3.79,
+        "return1y": 3.8,
         "volatility": 17.69,
         "maxDrawdown": -5.62,
         "sparkline": [
@@ -970,12 +970,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13934.4922,
+        "last": 13937.5342,
         "date": "2026-08-24",
-        "return1m": 0.27,
-        "return3m": 0.61,
-        "return6m": 4.6,
-        "return1y": 5.0,
+        "return1m": 0.29,
+        "return3m": 0.63,
+        "return6m": 4.62,
+        "return1y": 5.02,
         "volatility": 7.69,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 13963.7676
           }
         ],
-        "profitScore": 1.72,
+        "profitScore": 1.74,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,14 +1268,14 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 17698.0,
+        "last": 17705.0,
         "date": "2026-08-24",
-        "return1m": -1.5,
-        "return3m": 0.03,
-        "return6m": 4.8,
-        "return1y": 5.37,
+        "return1m": -1.46,
+        "return3m": 0.07,
+        "return6m": 4.84,
+        "return1y": 5.41,
         "volatility": 6.26,
-        "maxDrawdown": -2.71,
+        "maxDrawdown": -2.67,
         "sparkline": [
           {
             "date": "2026-02-10",
@@ -1558,7 +1558,7 @@
             "value": 17755.0
           }
         ],
-        "profitScore": 1.37,
+        "profitScore": 1.41,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,12 +1566,12 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 111.2,
+        "last": 111.26,
         "date": "2026-08-24",
-        "return1m": 1.41,
-        "return3m": -0.14,
-        "return6m": 1.99,
-        "return1y": 3.27,
+        "return1m": 1.46,
+        "return3m": -0.09,
+        "return6m": 2.04,
+        "return1y": 3.32,
         "volatility": 9.6,
         "maxDrawdown": -6.3,
         "sparkline": [
@@ -1856,7 +1856,7 @@
             "value": 111.7296
           }
         ],
-        "profitScore": 0.36,
+        "profitScore": 0.41,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2632.8999,
+        "last": 2633.3,
         "date": "2026-08-24",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-08-24",
-            "value": 2632.8999
+            "value": 2633.3
           }
         ],
         "profitScore": 0.0,
@@ -1887,12 +1887,12 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12663.7998,
+      "last": 12662.5996,
       "date": "2026-08-24",
       "return1m": 1.16,
-      "return3m": -0.0,
-      "return6m": 6.22,
-      "return1y": 6.37,
+      "return3m": -0.01,
+      "return6m": 6.21,
+      "return1y": 6.36,
       "volatility": 9.81,
       "maxDrawdown": -5.12,
       "sparkline": [
@@ -2177,7 +2177,7 @@
           "value": 12639.873
         }
       ],
-      "profitScore": 2.25,
+      "profitScore": 2.24,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2238,15 +2238,15 @@
         "name": "Eli Lilly",
         "sector": "Healthcare",
         "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-        "last": 1244.0,
+        "last": 1245.77,
         "date": "2026-08-24",
-        "return1m": 4.01,
-        "return3m": 22.1,
-        "return6m": 19.62,
-        "return1y": 76.9,
-        "volatility": 35.86,
+        "return1m": 4.16,
+        "return3m": 22.27,
+        "return6m": 19.79,
+        "return1y": 77.15,
+        "volatility": 35.85,
         "maxDrawdown": -23.31,
-        "opportunityScore": 81.2,
+        "opportunityScore": 81.4,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -2647,7 +2647,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 1244.0
+            "value": 1245.77
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"
@@ -2657,15 +2657,15 @@
         "name": "Alphabet",
         "sector": "Digital ads / cloud",
         "thesis": "Search cash flow, cloud growth, and AI product distribution.",
-        "last": 350.98,
+        "last": 351.04,
         "date": "2026-08-24",
-        "return1m": 9.77,
-        "return3m": -9.75,
-        "return6m": 14.81,
-        "return1y": 74.13,
+        "return1m": 9.79,
+        "return3m": -9.74,
+        "return6m": 14.82,
+        "return1y": 74.15,
         "volatility": 32.57,
         "maxDrawdown": -21.09,
-        "opportunityScore": 67.2,
+        "opportunityScore": 67.3,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -3066,7 +3066,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 350.98
+            "value": 351.04
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-GOOGL/"
@@ -3076,15 +3076,15 @@
         "name": "JPMorgan Chase",
         "sector": "Financials",
         "thesis": "Scale, diversified earnings, and strong balance-sheet execution.",
-        "last": 356.76,
+        "last": 355.5,
         "date": "2026-08-24",
-        "return1m": 1.01,
-        "return3m": 18.14,
-        "return6m": 17.92,
-        "return1y": 22.74,
-        "volatility": 22.19,
+        "return1m": 0.65,
+        "return3m": 17.72,
+        "return6m": 17.5,
+        "return1y": 22.31,
+        "volatility": 22.17,
         "maxDrawdown": -15.47,
-        "opportunityScore": 66.7,
+        "opportunityScore": 66.1,
         "risk": "Lower",
         "sparkline": [
           {
@@ -3485,444 +3485,25 @@
           },
           {
             "date": "2026-08-24",
-            "value": 356.76
+            "value": 355.5
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-JPM/"
-      },
-      {
-        "symbol": "V",
-        "name": "Visa",
-        "sector": "Payments",
-        "thesis": "Global electronic-payment volume and high-margin network economics.",
-        "last": 381.39,
-        "date": "2026-08-24",
-        "return1m": 7.21,
-        "return3m": 15.31,
-        "return6m": 21.43,
-        "return1y": 11.37,
-        "volatility": 21.99,
-        "maxDrawdown": -17.35,
-        "opportunityScore": 65.1,
-        "risk": "Lower",
-        "sparkline": [
-          {
-            "date": "2025-11-06",
-            "value": 336.96
-          },
-          {
-            "date": "2025-11-10",
-            "value": 334.85
-          },
-          {
-            "date": "2025-11-12",
-            "value": 338.88
-          },
-          {
-            "date": "2025-11-14",
-            "value": 330.02
-          },
-          {
-            "date": "2025-11-18",
-            "value": 321.18
-          },
-          {
-            "date": "2025-11-20",
-            "value": 323.77
-          },
-          {
-            "date": "2025-11-24",
-            "value": 329.3
-          },
-          {
-            "date": "2025-11-26",
-            "value": 333.79
-          },
-          {
-            "date": "2025-12-01",
-            "value": 330.39
-          },
-          {
-            "date": "2025-12-03",
-            "value": 329.61
-          },
-          {
-            "date": "2025-12-05",
-            "value": 331.24
-          },
-          {
-            "date": "2025-12-09",
-            "value": 326.5
-          },
-          {
-            "date": "2025-12-11",
-            "value": 345.63
-          },
-          {
-            "date": "2025-12-15",
-            "value": 346.89
-          },
-          {
-            "date": "2025-12-17",
-            "value": 344.41
-          },
-          {
-            "date": "2025-12-19",
-            "value": 349.25
-          },
-          {
-            "date": "2025-12-23",
-            "value": 353.38
-          },
-          {
-            "date": "2025-12-26",
-            "value": 355.0
-          },
-          {
-            "date": "2025-12-30",
-            "value": 353.62
-          },
-          {
-            "date": "2026-01-02",
-            "value": 346.48
-          },
-          {
-            "date": "2026-01-06",
-            "value": 357.56
-          },
-          {
-            "date": "2026-01-08",
-            "value": 352.23
-          },
-          {
-            "date": "2026-01-12",
-            "value": 343.2
-          },
-          {
-            "date": "2026-01-14",
-            "value": 329.17
-          },
-          {
-            "date": "2026-01-16",
-            "value": 328.3
-          },
-          {
-            "date": "2026-01-21",
-            "value": 325.28
-          },
-          {
-            "date": "2026-01-23",
-            "value": 326.18
-          },
-          {
-            "date": "2026-01-27",
-            "value": 325.26
-          },
-          {
-            "date": "2026-01-29",
-            "value": 331.8
-          },
-          {
-            "date": "2026-02-02",
-            "value": 333.84
-          },
-          {
-            "date": "2026-02-04",
-            "value": 329.95
-          },
-          {
-            "date": "2026-02-06",
-            "value": 331.58
-          },
-          {
-            "date": "2026-02-10",
-            "value": 328.17
-          },
-          {
-            "date": "2026-02-12",
-            "value": 324.18
-          },
-          {
-            "date": "2026-02-17",
-            "value": 319.5
-          },
-          {
-            "date": "2026-02-19",
-            "value": 318.93
-          },
-          {
-            "date": "2026-02-23",
-            "value": 306.52
-          },
-          {
-            "date": "2026-02-25",
-            "value": 312.99
-          },
-          {
-            "date": "2026-02-27",
-            "value": 320.14
-          },
-          {
-            "date": "2026-03-03",
-            "value": 320.83
-          },
-          {
-            "date": "2026-03-05",
-            "value": 319.8
-          },
-          {
-            "date": "2026-03-09",
-            "value": 315.97
-          },
-          {
-            "date": "2026-03-11",
-            "value": 308.96
-          },
-          {
-            "date": "2026-03-13",
-            "value": 307.14
-          },
-          {
-            "date": "2026-03-17",
-            "value": 308.46
-          },
-          {
-            "date": "2026-03-19",
-            "value": 299.71
-          },
-          {
-            "date": "2026-03-23",
-            "value": 304.44
-          },
-          {
-            "date": "2026-03-25",
-            "value": 304.91
-          },
-          {
-            "date": "2026-03-27",
-            "value": 295.52
-          },
-          {
-            "date": "2026-03-31",
-            "value": 302.24
-          },
-          {
-            "date": "2026-04-02",
-            "value": 300.8
-          },
-          {
-            "date": "2026-04-07",
-            "value": 302.55
-          },
-          {
-            "date": "2026-04-09",
-            "value": 308.29
-          },
-          {
-            "date": "2026-04-13",
-            "value": 309.39
-          },
-          {
-            "date": "2026-04-15",
-            "value": 315.91
-          },
-          {
-            "date": "2026-04-17",
-            "value": 317.02
-          },
-          {
-            "date": "2026-04-21",
-            "value": 309.94
-          },
-          {
-            "date": "2026-04-23",
-            "value": 308.88
-          },
-          {
-            "date": "2026-04-27",
-            "value": 309.65
-          },
-          {
-            "date": "2026-04-29",
-            "value": 334.86
-          },
-          {
-            "date": "2026-05-01",
-            "value": 328.03
-          },
-          {
-            "date": "2026-05-05",
-            "value": 322.03
-          },
-          {
-            "date": "2026-05-07",
-            "value": 321.28
-          },
-          {
-            "date": "2026-05-11",
-            "value": 323.86
-          },
-          {
-            "date": "2026-05-13",
-            "value": 320.31
-          },
-          {
-            "date": "2026-05-15",
-            "value": 325.75
-          },
-          {
-            "date": "2026-05-19",
-            "value": 329.91
-          },
-          {
-            "date": "2026-05-21",
-            "value": 331.12
-          },
-          {
-            "date": "2026-05-26",
-            "value": 326.48
-          },
-          {
-            "date": "2026-05-28",
-            "value": 324.95
-          },
-          {
-            "date": "2026-06-01",
-            "value": 322.77
-          },
-          {
-            "date": "2026-06-03",
-            "value": 312.4
-          },
-          {
-            "date": "2026-06-05",
-            "value": 323.57
-          },
-          {
-            "date": "2026-06-09",
-            "value": 325.05
-          },
-          {
-            "date": "2026-06-11",
-            "value": 319.05
-          },
-          {
-            "date": "2026-06-15",
-            "value": 323.82
-          },
-          {
-            "date": "2026-06-17",
-            "value": 330.38
-          },
-          {
-            "date": "2026-06-22",
-            "value": 326.6
-          },
-          {
-            "date": "2026-06-24",
-            "value": 332.23
-          },
-          {
-            "date": "2026-06-26",
-            "value": 336.23
-          },
-          {
-            "date": "2026-06-30",
-            "value": 343.09
-          },
-          {
-            "date": "2026-07-02",
-            "value": 362.13
-          },
-          {
-            "date": "2026-07-07",
-            "value": 352.2
-          },
-          {
-            "date": "2026-07-09",
-            "value": 348.2
-          },
-          {
-            "date": "2026-07-13",
-            "value": 357.75
-          },
-          {
-            "date": "2026-07-15",
-            "value": 355.14
-          },
-          {
-            "date": "2026-07-17",
-            "value": 358.56
-          },
-          {
-            "date": "2026-07-21",
-            "value": 355.82
-          },
-          {
-            "date": "2026-07-23",
-            "value": 351.6
-          },
-          {
-            "date": "2026-07-27",
-            "value": 362.53
-          },
-          {
-            "date": "2026-07-29",
-            "value": 368.73
-          },
-          {
-            "date": "2026-07-31",
-            "value": 366.13
-          },
-          {
-            "date": "2026-08-04",
-            "value": 369.59
-          },
-          {
-            "date": "2026-08-06",
-            "value": 370.47
-          },
-          {
-            "date": "2026-08-10",
-            "value": 361.32
-          },
-          {
-            "date": "2026-08-12",
-            "value": 359.42
-          },
-          {
-            "date": "2026-08-14",
-            "value": 364.15
-          },
-          {
-            "date": "2026-08-18",
-            "value": 364.25
-          },
-          {
-            "date": "2026-08-20",
-            "value": 365.73
-          },
-          {
-            "date": "2026-08-24",
-            "value": 381.39
-          }
-        ],
-        "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-V/"
       },
       {
         "symbol": "AAPL",
         "name": "Apple",
         "sector": "Consumer technology",
         "thesis": "Installed-base monetization, services, and premium-device ecosystem.",
-        "last": 311.73,
+        "last": 312.91,
         "date": "2026-08-24",
-        "return1m": -6.39,
-        "return3m": 3.14,
-        "return6m": 21.87,
-        "return1y": 35.21,
-        "volatility": 25.0,
+        "return1m": -6.04,
+        "return3m": 3.53,
+        "return6m": 22.34,
+        "return1y": 35.72,
+        "volatility": 25.01,
         "maxDrawdown": -13.82,
-        "opportunityScore": 64.2,
+        "opportunityScore": 64.8,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -4323,22 +3904,441 @@
           },
           {
             "date": "2026-08-24",
-            "value": 311.73
+            "value": 312.91
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AAPL/"
+      },
+      {
+        "symbol": "V",
+        "name": "Visa",
+        "sector": "Payments",
+        "thesis": "Global electronic-payment volume and high-margin network economics.",
+        "last": 380.57,
+        "date": "2026-08-24",
+        "return1m": 6.98,
+        "return3m": 15.06,
+        "return6m": 21.17,
+        "return1y": 11.13,
+        "volatility": 21.97,
+        "maxDrawdown": -17.35,
+        "opportunityScore": 64.7,
+        "risk": "Lower",
+        "sparkline": [
+          {
+            "date": "2025-11-06",
+            "value": 336.96
+          },
+          {
+            "date": "2025-11-10",
+            "value": 334.85
+          },
+          {
+            "date": "2025-11-12",
+            "value": 338.88
+          },
+          {
+            "date": "2025-11-14",
+            "value": 330.02
+          },
+          {
+            "date": "2025-11-18",
+            "value": 321.18
+          },
+          {
+            "date": "2025-11-20",
+            "value": 323.77
+          },
+          {
+            "date": "2025-11-24",
+            "value": 329.3
+          },
+          {
+            "date": "2025-11-26",
+            "value": 333.79
+          },
+          {
+            "date": "2025-12-01",
+            "value": 330.39
+          },
+          {
+            "date": "2025-12-03",
+            "value": 329.61
+          },
+          {
+            "date": "2025-12-05",
+            "value": 331.24
+          },
+          {
+            "date": "2025-12-09",
+            "value": 326.5
+          },
+          {
+            "date": "2025-12-11",
+            "value": 345.63
+          },
+          {
+            "date": "2025-12-15",
+            "value": 346.89
+          },
+          {
+            "date": "2025-12-17",
+            "value": 344.41
+          },
+          {
+            "date": "2025-12-19",
+            "value": 349.25
+          },
+          {
+            "date": "2025-12-23",
+            "value": 353.38
+          },
+          {
+            "date": "2025-12-26",
+            "value": 355.0
+          },
+          {
+            "date": "2025-12-30",
+            "value": 353.62
+          },
+          {
+            "date": "2026-01-02",
+            "value": 346.48
+          },
+          {
+            "date": "2026-01-06",
+            "value": 357.56
+          },
+          {
+            "date": "2026-01-08",
+            "value": 352.23
+          },
+          {
+            "date": "2026-01-12",
+            "value": 343.2
+          },
+          {
+            "date": "2026-01-14",
+            "value": 329.17
+          },
+          {
+            "date": "2026-01-16",
+            "value": 328.3
+          },
+          {
+            "date": "2026-01-21",
+            "value": 325.28
+          },
+          {
+            "date": "2026-01-23",
+            "value": 326.18
+          },
+          {
+            "date": "2026-01-27",
+            "value": 325.26
+          },
+          {
+            "date": "2026-01-29",
+            "value": 331.8
+          },
+          {
+            "date": "2026-02-02",
+            "value": 333.84
+          },
+          {
+            "date": "2026-02-04",
+            "value": 329.95
+          },
+          {
+            "date": "2026-02-06",
+            "value": 331.58
+          },
+          {
+            "date": "2026-02-10",
+            "value": 328.17
+          },
+          {
+            "date": "2026-02-12",
+            "value": 324.18
+          },
+          {
+            "date": "2026-02-17",
+            "value": 319.5
+          },
+          {
+            "date": "2026-02-19",
+            "value": 318.93
+          },
+          {
+            "date": "2026-02-23",
+            "value": 306.52
+          },
+          {
+            "date": "2026-02-25",
+            "value": 312.99
+          },
+          {
+            "date": "2026-02-27",
+            "value": 320.14
+          },
+          {
+            "date": "2026-03-03",
+            "value": 320.83
+          },
+          {
+            "date": "2026-03-05",
+            "value": 319.8
+          },
+          {
+            "date": "2026-03-09",
+            "value": 315.97
+          },
+          {
+            "date": "2026-03-11",
+            "value": 308.96
+          },
+          {
+            "date": "2026-03-13",
+            "value": 307.14
+          },
+          {
+            "date": "2026-03-17",
+            "value": 308.46
+          },
+          {
+            "date": "2026-03-19",
+            "value": 299.71
+          },
+          {
+            "date": "2026-03-23",
+            "value": 304.44
+          },
+          {
+            "date": "2026-03-25",
+            "value": 304.91
+          },
+          {
+            "date": "2026-03-27",
+            "value": 295.52
+          },
+          {
+            "date": "2026-03-31",
+            "value": 302.24
+          },
+          {
+            "date": "2026-04-02",
+            "value": 300.8
+          },
+          {
+            "date": "2026-04-07",
+            "value": 302.55
+          },
+          {
+            "date": "2026-04-09",
+            "value": 308.29
+          },
+          {
+            "date": "2026-04-13",
+            "value": 309.39
+          },
+          {
+            "date": "2026-04-15",
+            "value": 315.91
+          },
+          {
+            "date": "2026-04-17",
+            "value": 317.02
+          },
+          {
+            "date": "2026-04-21",
+            "value": 309.94
+          },
+          {
+            "date": "2026-04-23",
+            "value": 308.88
+          },
+          {
+            "date": "2026-04-27",
+            "value": 309.65
+          },
+          {
+            "date": "2026-04-29",
+            "value": 334.86
+          },
+          {
+            "date": "2026-05-01",
+            "value": 328.03
+          },
+          {
+            "date": "2026-05-05",
+            "value": 322.03
+          },
+          {
+            "date": "2026-05-07",
+            "value": 321.28
+          },
+          {
+            "date": "2026-05-11",
+            "value": 323.86
+          },
+          {
+            "date": "2026-05-13",
+            "value": 320.31
+          },
+          {
+            "date": "2026-05-15",
+            "value": 325.75
+          },
+          {
+            "date": "2026-05-19",
+            "value": 329.91
+          },
+          {
+            "date": "2026-05-21",
+            "value": 331.12
+          },
+          {
+            "date": "2026-05-26",
+            "value": 326.48
+          },
+          {
+            "date": "2026-05-28",
+            "value": 324.95
+          },
+          {
+            "date": "2026-06-01",
+            "value": 322.77
+          },
+          {
+            "date": "2026-06-03",
+            "value": 312.4
+          },
+          {
+            "date": "2026-06-05",
+            "value": 323.57
+          },
+          {
+            "date": "2026-06-09",
+            "value": 325.05
+          },
+          {
+            "date": "2026-06-11",
+            "value": 319.05
+          },
+          {
+            "date": "2026-06-15",
+            "value": 323.82
+          },
+          {
+            "date": "2026-06-17",
+            "value": 330.38
+          },
+          {
+            "date": "2026-06-22",
+            "value": 326.6
+          },
+          {
+            "date": "2026-06-24",
+            "value": 332.23
+          },
+          {
+            "date": "2026-06-26",
+            "value": 336.23
+          },
+          {
+            "date": "2026-06-30",
+            "value": 343.09
+          },
+          {
+            "date": "2026-07-02",
+            "value": 362.13
+          },
+          {
+            "date": "2026-07-07",
+            "value": 352.2
+          },
+          {
+            "date": "2026-07-09",
+            "value": 348.2
+          },
+          {
+            "date": "2026-07-13",
+            "value": 357.75
+          },
+          {
+            "date": "2026-07-15",
+            "value": 355.14
+          },
+          {
+            "date": "2026-07-17",
+            "value": 358.56
+          },
+          {
+            "date": "2026-07-21",
+            "value": 355.82
+          },
+          {
+            "date": "2026-07-23",
+            "value": 351.6
+          },
+          {
+            "date": "2026-07-27",
+            "value": 362.53
+          },
+          {
+            "date": "2026-07-29",
+            "value": 368.73
+          },
+          {
+            "date": "2026-07-31",
+            "value": 366.13
+          },
+          {
+            "date": "2026-08-04",
+            "value": 369.59
+          },
+          {
+            "date": "2026-08-06",
+            "value": 370.47
+          },
+          {
+            "date": "2026-08-10",
+            "value": 361.32
+          },
+          {
+            "date": "2026-08-12",
+            "value": 359.42
+          },
+          {
+            "date": "2026-08-14",
+            "value": 364.15
+          },
+          {
+            "date": "2026-08-18",
+            "value": 364.25
+          },
+          {
+            "date": "2026-08-20",
+            "value": 365.73
+          },
+          {
+            "date": "2026-08-24",
+            "value": 380.57
+          }
+        ],
+        "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-V/"
       },
       {
         "symbol": "XOM",
         "name": "Exxon Mobil",
         "sector": "Energy",
         "thesis": "Cash generation and diversification when energy prices support the cycle.",
-        "last": 162.71,
+        "last": 162.75,
         "date": "2026-08-24",
-        "return1m": 3.68,
-        "return3m": 4.11,
-        "return6m": 9.61,
-        "return1y": 51.47,
+        "return1m": 3.7,
+        "return3m": 4.14,
+        "return6m": 9.63,
+        "return1y": 51.51,
         "volatility": 25.33,
         "maxDrawdown": -20.65,
         "opportunityScore": 64.1,
@@ -4742,7 +4742,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 162.71
+            "value": 162.75
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-XOM/"
@@ -4752,15 +4752,15 @@
         "name": "Amazon",
         "sector": "Cloud / commerce",
         "thesis": "AWS margin expansion and global commerce operating leverage.",
-        "last": 262.71,
+        "last": 263.02,
         "date": "2026-08-24",
-        "return1m": 13.18,
-        "return3m": -0.87,
-        "return6m": 32.15,
-        "return1y": 15.22,
-        "volatility": 34.3,
+        "return1m": 13.32,
+        "return3m": -0.75,
+        "return6m": 32.31,
+        "return1y": 15.36,
+        "volatility": 34.31,
         "maxDrawdown": -21.74,
-        "opportunityScore": 63.5,
+        "opportunityScore": 63.7,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -5161,7 +5161,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 262.71
+            "value": 263.02
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AMZN/"
@@ -5171,15 +5171,15 @@
         "name": "Microsoft",
         "sector": "Software / cloud",
         "thesis": "Azure, enterprise software, and AI monetization exposure.",
-        "last": 489.6,
+        "last": 488.95,
         "date": "2026-08-24",
-        "return1m": 28.27,
-        "return3m": 16.28,
-        "return6m": 22.0,
-        "return1y": -3.96,
+        "return1m": 28.1,
+        "return3m": 16.12,
+        "return6m": 21.84,
+        "return1y": -4.08,
         "volatility": 32.04,
         "maxDrawdown": -34.91,
-        "opportunityScore": 61.7,
+        "opportunityScore": 61.5,
         "risk": "High",
         "sparkline": [
           {
@@ -5580,7 +5580,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 489.6
+            "value": 488.95
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-MSFT/"
@@ -5590,15 +5590,15 @@
         "name": "NVIDIA",
         "sector": "Semiconductors / AI",
         "thesis": "AI accelerator leadership with high growth and valuation sensitivity.",
-        "last": 210.08,
+        "last": 209.7,
         "date": "2026-08-24",
-        "return1m": 1.57,
-        "return3m": -5.99,
-        "return6m": 14.92,
-        "return1y": 19.61,
-        "volatility": 36.51,
+        "return1m": 1.38,
+        "return3m": -6.16,
+        "return6m": 14.71,
+        "return1y": 19.39,
+        "volatility": 36.52,
         "maxDrawdown": -20.22,
-        "opportunityScore": 52.0,
+        "opportunityScore": 51.8,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -5999,7 +5999,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 210.08
+            "value": 209.7
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
@@ -6009,15 +6009,15 @@
         "name": "Broadcom",
         "sector": "Semiconductors / infrastructure",
         "thesis": "AI networking, custom silicon, and infrastructure software cash flow.",
-        "last": 361.65,
+        "last": 360.68,
         "date": "2026-08-24",
-        "return1m": -5.31,
-        "return3m": -13.43,
-        "return6m": 11.22,
-        "return1y": 22.63,
-        "volatility": 47.88,
+        "return1m": -5.56,
+        "return3m": -13.66,
+        "return6m": 10.92,
+        "return1y": 22.3,
+        "volatility": 47.89,
         "maxDrawdown": -28.95,
-        "opportunityScore": 43.7,
+        "opportunityScore": 43.4,
         "risk": "High",
         "sparkline": [
           {
@@ -6418,7 +6418,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 361.65
+            "value": 360.68
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AVGO/"
@@ -6428,15 +6428,15 @@
         "name": "Costco",
         "sector": "Consumer staples",
         "thesis": "Membership economics and resilient high-frequency consumer demand.",
-        "last": 966.97,
+        "last": 969.19,
         "date": "2026-08-24",
-        "return1m": 3.42,
-        "return3m": -9.97,
-        "return6m": -5.06,
-        "return1y": -1.42,
-        "volatility": 19.9,
+        "return1m": 3.65,
+        "return3m": -9.76,
+        "return6m": -4.84,
+        "return1y": -1.19,
+        "volatility": 19.93,
         "maxDrawdown": -16.57,
-        "opportunityScore": 38.5,
+        "opportunityScore": 38.8,
         "risk": "Lower",
         "sparkline": [
           {
@@ -6837,7 +6837,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 966.97
+            "value": 969.19
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-COST/"
@@ -6847,15 +6847,15 @@
         "name": "Meta Platforms",
         "sector": "Digital ads / AI",
         "thesis": "Advertising efficiency, engagement, and AI-driven recommendation gains.",
-        "last": 555.45,
+        "last": 557.74,
         "date": "2026-08-24",
-        "return1m": -6.68,
-        "return3m": -8.2,
-        "return6m": -13.18,
-        "return1y": -26.09,
-        "volatility": 38.43,
+        "return1m": -6.29,
+        "return3m": -7.82,
+        "return6m": -12.82,
+        "return1y": -25.78,
+        "volatility": 38.45,
         "maxDrawdown": -32.62,
-        "opportunityScore": 21.6,
+        "opportunityScore": 22.1,
         "risk": "High",
         "sparkline": [
           {
@@ -7256,7 +7256,7 @@
           },
           {
             "date": "2026-08-24",
-            "value": 555.45
+            "value": 557.74
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-META/"
@@ -7267,15 +7267,15 @@
       "name": "Eli Lilly",
       "sector": "Healthcare",
       "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-      "last": 1244.0,
+      "last": 1245.77,
       "date": "2026-08-24",
-      "return1m": 4.01,
-      "return3m": 22.1,
-      "return6m": 19.62,
-      "return1y": 76.9,
-      "volatility": 35.86,
+      "return1m": 4.16,
+      "return3m": 22.27,
+      "return6m": 19.79,
+      "return1y": 77.15,
+      "volatility": 35.85,
       "maxDrawdown": -23.31,
-      "opportunityScore": 81.2,
+      "opportunityScore": 81.4,
       "risk": "Moderate",
       "sparkline": [
         {
@@ -7676,7 +7676,7 @@
         },
         {
           "date": "2026-08-24",
-          "value": 1244.0
+          "value": 1245.77
         }
       ],
       "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"

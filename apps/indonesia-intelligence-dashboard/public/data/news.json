@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-24T10:01:02+07:00",
+  "generatedAt": "2026-08-24T11:01:04+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 24 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-24-db87883a8f",
+      "date": "2026-08-24",
+      "topic": "Business / Investment",
+      "title": "Pupuk Indonesia Siapkan Investasi Rp118 Triliun guna Meremajakan Pabrik",
+      "summary": "achmadnurhidayat.id surfaced this fresh item: Pupuk Indonesia Siapkan Investasi Rp118 Triliun guna Meremajakan Pabrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "achmadnurhidayat.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBocnlGUmJocjhOaXY4cl9zdGVuWUJQMHNqZXllS1l0cUJ0LXNwZkplcmF4bUFfRm15RFNGaWw4STFuLW1ybXEtY2NZN3Z1Rzhpbl9sQXdIRFdCeW1HOEpWWHlwRlVZc1l1NE1teE12ZHNUd1BqdEx3?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-24-7c0468fabd",
       "date": "2026-08-24",
@@ -29,7 +44,7 @@
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNalpIQ1dWVjJMMzg1TVFzTXlLNS1jcVBHRUo4Q2ZBcUVXUS1ndGRHWHNDRFI2MWhGV2FyOUU0TmdrOHBDbldsWU15NWExQUdyWWJCRnFZQ1lkd1NuT2tQYnBESUp1SG4zLU1MV1dKVllmZ24xVktSY1ZtM3pKQVNyc0Y5SEhxeHpQUURBYzdiWnhLUGd6Y0llalF3dmpPWGtvN1BLTjJFWldlNHZV?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZXg3WHI3dEY4N3htMVlONVJrY09RRDNNY25xSVE4Q283Y1BUQTB0RGR4MmdyRFZSTDVHT3Q4bTVWeDdmUDV2T1BKeDViWHNqU3dDelphQmpsSDVJUWk1b3lYcnJ3MlgzdjlLSzg1Z2RWR3UzUWdJSW5IYXZ4aW1DTGs1UWhjMHp0dV8xZTZQZnJMQmFCY241QXdoRU1obXdlcEJ1RzRJejJBbDdNeWwzMGY0NVQ5NzVTUG91aUxhd1M1ZU5xODM5X1hZRQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -44,22 +59,37 @@
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Riau Pos via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWjVzUE9LR1daT1k3VkVZa2lNTEpjTVFHMDFOZnNTbjZsWTlMR0FvRFZTTGNOandKT3dWTmROaXJValIxbjRLRkR4cktTR0ZMTk1pMWswSHEtc2w1aHMza0VDUnhXLWFmaXlfSzN1YzVDOGdsR2l6d2x0UFQzd1NiUUY0R0gwUTZYd1pGQndkS0dHM1VacW8zNTBCeVdCUUd6aEk2V1ZhOUx4YVFIeTJRZ2hCdWw3VlFWdU1KS1Rna0MwVHRNOGdDMjZWTE1FU0ZIaEtPaFdsRdIB1wFBVV95cUxPWjVzUE9LR1daT1k3VkVZa2lNTEpjTVFHMDFOZnNTbjZsWTlMR0FvRFZTTGNOandKT3dWTmROaXJValIxbjRLRkR4cktTR0ZMTk1pMWswSHEtc2w1aHMza0VDUnhXLWFmaXlfSzN1YzVDOGdsR2l6d2x0UFQzd1NiUUY0R0gwUTZYd1pGQndkS0dHM1VacW8zNTBCeVdCUUd6aEk2V1ZhOUx4YVFIeTJRZ2hCdWw3VlFWdU1KS1Rna0MwVHRNOGdDMjZWTE1FU0ZIaEtPaFdsRQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV0Zac1NrRnh0OWZxaUZWSUJrM1lFeHV6d29vNWhhWnBsNjhIYm5tWmtpSGpVLUdhOElRcEtsaXBrZXV4dWFGUXlLcng1QUdLdmZ0LWplNGd1N3NuMXY5dHY2YXNfeUFScEVKMkE4U3BuVHRRMmg2czE0dHFmNlliUTBsM0MtejZJMTVOUzhYNl81T1F0bmZ3SnBsODRXOXN5ei1sc1VqTFRGaVlra2VOUXNqaGQ5NnpPcjJYS2VNdmlnQm1yVnNENWp4WHkxakpRTXfSAdcBQVVfeXFMT1o1c1BPS0dXWk9ZN1ZFWWtpTUxKY01RRzAxTmZzU242bFk5TEdBb0RWU0xjTmp3Sk93Vk5kTmlyVWpSMW40S0ZEeHJLU0dGTE5NaTFrMEhxLXNsNWhzM2tFQ1J4Vy1hZml5X0szdWM1QzhnbEdpendsdFBUM3dTYlFGNEdIMFE2WHdaRkJ3ZEtHRzNVWnFvMzUwQnlXQlFHemhJNldWYTlMeGFRSHkyUWdoQnVsN1ZRVnVNSktUZ2tDMFR0TThnQzI2VkxNRVNGSGhLT2hXbEU?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-08-24-be0ff6ebf8",
+      "id": "2026-08-24-c844f2a304",
       "date": "2026-08-24",
       "topic": "Business / Investment",
-      "title": "Live Now! COO Danantara Buka-Bukaan Arah Investasi Genjot Ekonomi RI",
-      "summary": "CNBC Indonesia surfaced this fresh item: Live Now! COO Danantara Buka-Bukaan Arah Investasi Genjot Ekonomi RI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "China gandeng Indonesia, perkuat kerja sama pertahanan",
+      "summary": "idnfinancials.com surfaced this fresh item: China gandeng Indonesia, perkuat kerja sama pertahanan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT1NJcVlycE5Bd3R3R01ZYk92X0ZjdjBGNmlfcGFJc1JSeGRhT2d1WkFfRFVRaGpKdTVXcTkxLWlMeXV2MElsalpqUF9DRlY2SUtOb1BFTC1nMEVhbXVCTjdPd295WWNFc0lBRHhDQnItaTVsUW8xcXV5X19YOC1tQ0psRUR5MWFRODUwVmU3a0dJM242VGcwU05SUzdNRlBqSmpsQzVFNHJRM1g3dGZPZU5yNUtJQ3RLS05pSzIwdkc3cDVC0gHKAUFVX3lxTE5hcnJqZDNTUEFpSk1yNUxxZ3RDUlNvaUFfVTgzWUR2UkVMd0thYVlHczgyUkY0NV9GdmRlUmtjajZFT2VLMVVOaV81Z2RoLVpzRGhnczN1cE13dGdJMm5GaTVZWXJVdjU0SHhpSE44SmZGUjVOc1RoVHpKaGtuaV9leHZVWVBsUWJzczBmZ1Jyby13ckVlVUhicldWTkJrdVhKRU1ULTFuQVV5ZXZwcXdDOFA4TFBHcEI5ZzE3QnNSM0FjMWVXQWxTNnc?oc=5",
+      "source": "idnfinancials.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxONm9TSzB2UEgxWXVIZ3ZvN0JNM1V1Z3FBektGekFMMnJETXpUc1NvR1BPQ0otUEdLQUxJV05LTlhxeGFoWnRWQl9JbmNGTmNBcUJPbE1FVm9HX09PNnpLRU5fYTFJejhwR1VJU25uSjQzbWNnRWpFeWZZMjZXYjRtdnFIdVlzY18zYTBMekRHRy00X2c2MmxTRndCYWgwZw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-24-74022ccb64",
+      "date": "2026-08-24",
+      "topic": "Business / Investment",
+      "title": "Investasi Syariah di Pasar Modal Indonesia melalui SR025",
+      "summary": "Kompas.com surfaced this fresh item: Investasi Syariah di Pasar Modal Indonesia melalui SR025. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYjlCWEZ2R0lpN19zN1Ryc2IzWTk0NlR0ZHVVYTFqNlBnMXdISlIxRE5BbTJpclpTc1N3YjgtMnFuUzZPWS02cTYwaFJpTHdpbEJMU1pUUzREbTZQek5BQjlBRlJnU1dFOERrRkVNWnRUczFvWDBOSHFmcEhWdVJwMzctaUplYy1kVUJ5N0dVMDlYZ3ZaTDlsYjRBdC1Ucmloa3UwMVhZUlppNGs?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -75,6 +105,21 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "olenka.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU2Y5UTFHZS1tcnNZaTNiRlI3ZUNRZUpzLWppMkJqUk52N2todUoyZHVqTWpnSmJhTmlTVWFBSmcwQ1h5YWNhZlZlVVdKNFMxbjlUUzl5Wks3S0R2SjZVeGtUTVhpRlVIUUhfUmJaWWh6emlrWl9DQW4xNnlaUEpvZHlBaVJYRnIzanI1cXlhZlNzR1hEQUZVN2ZoZnhYOEFza2fSAacBQVVfeXFMT2tudkNlSGRfVzhPNlJyOHBzdW02WDBrNnFzUUlsNS1GclBLMVZFVmlFaUY3bjUwbFVRR3IycHowamxkVVRZdHJuR3c3YWdlemxCTms0WEQyc3NjYmJpV3pHSjUySEEyTUYtRlRhWjU3NU5nX0s0dEdiMDZEbmtsa3Raa29rS0RrOFBrRXRtSUtidXdSc0dLdUlkbjdqZ255STZ3a3Q1Sm8?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-24-98c5cbb3b7",
+      "date": "2026-08-24",
+      "topic": "Business / Investment",
+      "title": "Tak Cuma Listrik, Bahlil Dorong Geothermal Buat Industri",
+      "summary": "Emitennews.com surfaced this fresh item: Tak Cuma Listrik, Bahlil Dorong Geothermal Buat Industri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Emitennews.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObTJXTFFJQkdiN2RNbGlqVVZGdGhDNnpma2QxeXlqd043SThONi1FX1lYMHNVREFwaFFWa3ZVWlhzVTZla0xDdjFfejNvcThBZmdDMnVpX0R4a2JOV0VDZnhnTlllUUtOaEsyQ2NQNnVFY3gzU09sNWNhX3VfbzdnY3ZJbzZxSzR4dl9qZFlnc2Q?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -139,6 +184,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-24-00885a51ae",
+      "date": "2026-08-24",
+      "topic": "Automotive / EV",
+      "title": "SparkGo, Portable Power Station dari Baterai Bekas Mobil Listrik Buatan Mahasiswa ITB",
+      "summary": "Validnews surfaced this fresh item: SparkGo, Portable Power Station dari Baterai Bekas Mobil Listrik Buatan Mahasiswa ITB. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Validnews via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaGw5dmxyYmh3MkNZc0pwZ2E1dnI3ZV9IUjU0M1dOTU1abVg4Um9xNzBTVU4zZF80NjhWMFg5bHQyZnZLZ0VXc0xSdy1RMDRnbmFYS0Y1ZmlPTGtjUzV4aWc4MW1YTTVPVnc2bTAxd2J1TWdncXV6VGZzb3ZQOGVpdXI3bGtUaWNCSk0yQndEMFo0RlhfejVaS3ZmcFRXM21KSW45OERXQS1rZW9FYmtJNHJuMUFtWVkzaVlRU1g1WTZrLTdTSjUtWjZIVFVoZHlfVVE1eg?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-24-cc3589069b",
       "date": "2026-08-24",
       "topic": "Automotive / EV",
@@ -165,66 +225,6 @@
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Lampungpro via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObXhyaWhrY2J4YWQ0VFlRQnI5TFpCem1ob3RnM3JmTUU0dUxtaVNIVnFBdW94b05sZDJQV2xBa3g5eld6UW1LRlRPV2NiNVNaMmFuWXFqaWRTb2todkFXeTBFUXBHamcybXBFcWJmYjNxMVNCTEhGeWR1SVY0c01TNDZjbEhfMk5XZjAzMW5TMktMcklQS1FkSjFRM012eUdqRXJrenBLTFo1QXNzRUpSVHF5TDhyXzl1N1doYWExM2RKSGJyRy0wSFlkdk1rcHdNeTdyM1VaSk5adw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-24-f5fb9187cb",
-      "date": "2026-08-24",
-      "topic": "Automotive / EV",
-      "title": "Kepentingan Bersama RI-China",
-      "summary": "Kompas.id surfaced this fresh item: Kepentingan Bersama RI-China. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmWk1tT1JPVzJBbm93WHp2X2pmcDUzaTYzVmppYmliTnNZV0YxTGtONnBHMGljdjUydWVZLVp6NU43R1Q1NzllcEYtR0lkQmlUbTFGbE01NDBHZ3gwT01MYUxCZE1HY0ZqNnc?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-24-18360773d1",
-      "date": "2026-08-24",
-      "topic": "Business / Investment",
-      "title": "SAPA UMKM Menuju Sistem Terpadu, Menteri Maman: Bertahap dan Tepat Sasaran",
-      "summary": "Jabarprov surfaced this fresh item: SAPA UMKM Menuju Sistem Terpadu, Menteri Maman: Bertahap dan Tepat Sasaran. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Jabarprov via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWGZEX2pab2x2MUMwT2lvQ2Qxb0tXZWtoeGVER1FMNkpRZ2ZNWXI0V2pROTBEX3VROThtRnNacF82eDVodTIxVHRFUm01cU10c094SFZrbFJrcV91cTVjbTNMTDVod0ZJX2djYU1lVk9aNWswNkNxYjhpeDNEUVBHbzQzMzZXWG84eWhMZHoxTDE2Z1hRdnRHRGVJTU53bTdHU1ZnQ2tVVTZvQ0pHdGc?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-24-4f1b6ce6ab",
-      "date": "2026-08-24",
-      "topic": "Business / Investment",
-      "title": "Mengapa UNIZAR Menyiapkan Magister Manajemen Bisnis Syariah?",
-      "summary": "Universitas Islam Al Azhar Mataram surfaced this fresh item: Mengapa UNIZAR Menyiapkan Magister Manajemen Bisnis Syariah?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Universitas Islam Al Azhar Mataram via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSnRPdHM1LTdrd1lQcVhONm9NOWVuN3dRQWt0ZGdGQm1Fc0lBS1E2NndjbWxKUlNucnJJYVpkdHBHeGREc0RyeDdoQ2JpYWRmSno0SExwU1l3YXpERUhEb1pkT0xWck9uY1JqMWtUX19tMGxQVUw1X1FPVjJkX0FNNTBmOU8xQVFt?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-24-9f84d22701",
-      "date": "2026-08-24",
-      "topic": "Business / Investment",
-      "title": "Bank Indonesia catat 54 UMKM Papua masuk \"platform e-commerce\"",
-      "summary": "ANTARA News Papua surfaced this fresh item: Bank Indonesia catat 54 UMKM Papua masuk \"platform e-commerce\". Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "ANTARA News Papua via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbWpEcEhkd1dXTDk1aE0yOGVJTU51QWhiS3B2ZU5PRDRNaTd5RUM2UndUTktBbXh5bDYzVU9DUl9RZVR4N1BGOEZqNThJdU8zOWFUTTdLNXJRRjNTamM5UjdRVThmVDdjaUpNM0RwLWhKeFRRWG1QN0dWaU1vblJzNDBETjRXWHZHdU1XT20wN2JNNFBiX3hPMkpNTm9HTW9aRWpyTHpB?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -289,6 +289,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-24-2f13722955",
+      "date": "2026-08-24",
+      "topic": "Regulation",
+      "title": "Kebakaran hutan, Indonesia ancam cabut izin 4 perusahaan",
+      "summary": "idnfinancials.com surfaced this fresh item: Kebakaran hutan, Indonesia ancam cabut izin 4 perusahaan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": -0.07,
+      "confidence": 0.68,
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "idnfinancials.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOczZhV3Vibld6czJNalh4ckVyZzFCYmdTYy1BUEFnaGNRMjZpOGxDQ0c5X1F1a1pQcEpSS1dPYldXUFZDOVRSbExlRjNwNTloWEFwYVZDNklzNEVoa18tUE1GeFV4YkU1QkFCX3pUbXdBSE9PRTBGN3ROenBKRE12dGRjV213aWxkVDcwdGkyU2J5MjVmUkRPLUxPZXRHQ2h6?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-24-c5e0bc52ee",
       "date": "2026-08-24",
       "topic": "Markets",
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkpLamVibkZPanBfdmhIa0hRMUVLRC1ENGFxakhBdWt5Y2UyS3dtNExFV2VtN21IWWNkRk5xcTRNRHpoRnF6Mm1tSS1LcDhERlNyUGpsNGhidU41ZW9SdlBYUVcyeEk1cThjclB1V0c1R09uNmNCLUJacWE3Z25IM09pem5iRnVva2xubVV3M09MS0txRW5ubmd1eW5VTHNa?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-23-932e844689",
-      "date": "2026-08-23",
-      "topic": "Tech / AI",
-      "title": "Indonesia dan Tiongkok Bentuk Kelompok Kerja Kerja Sama AI",
-      "summary": "achmadnurhidayat.id surfaced this fresh item: Indonesia dan Tiongkok Bentuk Kelompok Kerja Kerja Sama AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "achmadnurhidayat.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tRTJUcXVIMVQ0QXMxOHFLOXhDWW9ESG4ySUpPUGZHVGNyOGY3QmRQS3hTT1pITmxRRzRvbEItLXMyVHJzWDB6UEJQM1VYWkRHMTRlY3RiRzVQUEwtOURvdXljTXpoM2JpQm93dk9Ta2hKTXdDaHA3RGdGZw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-24T10:01:02+07:00",
+    "generatedAt": "2026-08-24T11:01:04+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,13 +374,13 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12688.0,
+        "last": 12676.2002,
         "date": "2026-08-24",
-        "return1m": 1.36,
-        "return3m": 0.19,
-        "return6m": 6.42,
-        "return1y": 6.58,
-        "volatility": 9.82,
+        "return1m": 1.26,
+        "return3m": 0.09,
+        "return6m": 6.32,
+        "return1y": 6.48,
+        "volatility": 9.81,
         "maxDrawdown": -5.12,
         "sparkline": [
           {
@@ -664,7 +664,7 @@
             "value": 12639.873
           }
         ],
-        "profitScore": 2.44,
+        "profitScore": 2.35,
         "view": "strongest IDR return screen"
       },
       {
@@ -672,13 +672,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20672.0,
+        "last": 20654.0,
         "date": "2026-08-24",
-        "return1m": 3.94,
-        "return3m": 1.87,
-        "return6m": 4.13,
-        "return1y": 3.93,
-        "volatility": 17.72,
+        "return1m": 3.85,
+        "return3m": 1.78,
+        "return6m": 4.04,
+        "return1y": 3.84,
+        "volatility": 17.7,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -962,7 +962,7 @@
             "value": 20197.0
           }
         ],
-        "profitScore": 1.88,
+        "profitScore": 1.8,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +970,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13949.957,
+        "last": 13939.248,
         "date": "2026-08-24",
-        "return1m": 0.38,
-        "return3m": 0.72,
-        "return6m": 4.71,
-        "return1y": 5.12,
+        "return1m": 0.3,
+        "return3m": 0.64,
+        "return6m": 4.63,
+        "return1y": 5.04,
         "volatility": 7.69,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 13963.7676
           }
         ],
-        "profitScore": 1.83,
+        "profitScore": 1.75,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,14 +1268,14 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 17700.0,
+        "last": 17690.0,
         "date": "2026-08-24",
-        "return1m": -1.49,
-        "return3m": 0.05,
-        "return6m": 4.81,
-        "return1y": 5.38,
-        "volatility": 6.26,
-        "maxDrawdown": -2.7,
+        "return1m": -1.54,
+        "return3m": -0.01,
+        "return6m": 4.75,
+        "return1y": 5.32,
+        "volatility": 6.27,
+        "maxDrawdown": -2.75,
         "sparkline": [
           {
             "date": "2026-02-10",
@@ -1558,7 +1558,7 @@
             "value": 17755.0
           }
         ],
-        "profitScore": 1.38,
+        "profitScore": 1.33,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,13 +1566,13 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 111.38,
+        "last": 111.29,
         "date": "2026-08-24",
-        "return1m": 1.57,
-        "return3m": 0.02,
-        "return6m": 2.15,
-        "return1y": 3.44,
-        "volatility": 9.59,
+        "return1m": 1.49,
+        "return3m": -0.06,
+        "return6m": 2.07,
+        "return1y": 3.35,
+        "volatility": 9.6,
         "maxDrawdown": -6.3,
         "sparkline": [
           {
@@ -1856,7 +1856,7 @@
             "value": 111.7296
           }
         ],
-        "profitScore": 0.52,
+        "profitScore": 0.44,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2632.7,
+        "last": 2631.3,
         "date": "2026-08-24",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-08-24",
-            "value": 2632.7
+            "value": 2631.3
           }
         ],
         "profitScore": 0.0,
@@ -1887,13 +1887,13 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12688.0,
+      "last": 12676.2002,
       "date": "2026-08-24",
-      "return1m": 1.36,
-      "return3m": 0.19,
-      "return6m": 6.42,
-      "return1y": 6.58,
-      "volatility": 9.82,
+      "return1m": 1.26,
+      "return3m": 0.09,
+      "return6m": 6.32,
+      "return1y": 6.48,
+      "volatility": 9.81,
       "maxDrawdown": -5.12,
       "sparkline": [
         {
@@ -2177,7 +2177,7 @@
           "value": 12639.873
         }
       ],
-      "profitScore": 2.44,
+      "profitScore": 2.35,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2226,7 +2226,7 @@
         "ticker": "TLKM",
         "name": "Telkom Indonesia",
         "theme": "Digital infrastructure",
-        "opportunityScore": 63,
+        "opportunityScore": 59,
         "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

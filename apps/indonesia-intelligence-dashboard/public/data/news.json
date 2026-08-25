@@ -1,8 +1,38 @@
 {
-  "generatedAt": "2026-08-25T18:00:45+07:00",
+  "generatedAt": "2026-08-25T19:00:46+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 25 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-25-905dd31653",
+      "date": "2026-08-25",
+      "topic": "Markets",
+      "title": "Yield SRBI dan SBN Melandai, Asing Masih Masuk dan Rupiah Berpeluang Menguat",
+      "summary": "kontan.co.id surfaced this fresh item: Yield SRBI dan SBN Melandai, Asing Masih Masuk dan Rupiah Berpeluang Menguat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.21,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "kontan.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMTJxS2NueVM3cWpKaUlzakxteEtYMlBESHl0QlV0M2o5ZjNKYlplU3ExOFQ1enRqZFVqUjdjbnZuUm5aUWxBNlYySUE1TEVqWElZRUJyamkySkR3SGliem9acGFFQXFyVTNxR3BiN1NYTjdYU1MtRy1rMVBaS2pTQ1dGb0ZDRGQ2MFBuQVBCRG5aZDlpVDRka2hBNDhkb09wZGE2MDhVTUtvWUtnTVNR0gGoAUFVX3lxTE5hRVppSS0xM1ZRaVYyWTJ0bjJSM2tZZllFY0c1b0s3Q05zc2dKTncxVFcxV3JIb0E0RlFNamtqdXMzZHRpYklybVVCSWlzRFNFZC1Qb2ctSGlxa3NaSkRpaEJNd1A3di1RYWxOMXVkSlMwUUxLd2tRbWozdUZWdmRQU3I4LWpLS0k1dDhNYUpGWWNkVHlralNkajIxVFRrWU5hZWlETUhMdA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-25-3f10c32a74",
+      "date": "2026-08-25",
+      "topic": "Tech / AI",
+      "title": "PT Kencana Satu Nuswapada Meluncurkan Platform AI Pemuda.ai",
+      "summary": "SuaraGarut.ID surfaced this fresh item: PT Kencana Satu Nuswapada Meluncurkan Platform AI Pemuda.ai. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GanZabkRrY0NIdGUxQmxPSHdCdTBUcmx2VU9FNncxUFFIc2x5Q2pWS19GcGJsTlNsazQyeGFXcWtSUmFlYUpRbGlQMndVVGtYdXFoNmNiX1paUC1TN0hjcEt1YnVaSDI3VER1dGJxc1ZqUQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-25-b2b2770742",
       "date": "2026-08-25",
@@ -34,6 +64,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-25-e5b88434ce",
+      "date": "2026-08-25",
+      "topic": "Tech / AI",
+      "title": "RI-India Perluas Kerja Sama Industri, Mulai Semikonduktor, EV hingga Data Center",
+      "summary": "Industry.co.id surfaced this fresh item: RI-India Perluas Kerja Sama Industri, Mulai Semikonduktor, EV hingga Data Center. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Industry.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU3FULVN1ZjdKNHJiUDFEMTdpYUhYT2JRdkk0a09WbEE4STJoQk40WDdoSktaTldiRHVibGhyTkwtVkJVV1AzOU12MmtnQnpHb0JwZTgtRkZ4Zkd3MlA3RDFkRjdmWEFGVXlxRnFyai1PekFQUEZhYVI3RVNONldzRzhjY0NCbFRLWlhGdUJ5RW1ScGhnSTVDQUhvcjJIVWVnU2tqSU5veVdWN0ZFOURyNUR6Nk9PNTBE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-25-b29a7ddfe4",
       "date": "2026-08-25",
       "topic": "Automotive / EV",
@@ -44,7 +89,7 @@
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "okinews via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVXg1X3BWbElVVmxwS0Q4UWd5ZFVGcHAybkRoVDlxdU04SGtncGRpcTZSMkxpRDdJaDZxaW1pUzJlOW1vTWI3MEVqMkVYbGh6Z3NPRXZ4dXZZRlcwS1ROX2hYODcyV1h4MG9uRFUzZUJxRVlnaFRhTHpwb1NQNnhkWXF3U1dWMm9jMmJ1cHM5VEFQaFhLUURkRWhfeFhCZDQxYkVFaXh2WUlsYkpVVWh5UmhWX2lDb2_SAbcBQVVfeXFMTlV4NV9wVmxJVVZscEtEOFFneWRVRnBwMm5EaFQ5cXVNOEhrZ3BkaXE2UjJMaUQ3SWg2cWltaVMyZTltb01iNzBFajJFWGxoemdzT0V2eHV2WUZXMEtUTl9oWDg3MldYeDBvbkRVM2VCcUVZZ2hUYUx6cG9TUDZ4ZFlxd1NXVjJvYzJidXBzOVRBUGhYS1FEZEVoX3hYQmQ0MWJFRWl4dllJbGJKVVVoeVJoVl9pQ29v?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU0FYZ3ZyTllUWTZqdmhfdVBhR2VkNjA2VEdQdGQ0M0RJZnh4UGZQZTN5UlFPRDNfWjY2eUpEQWl0bmN2cjhCSXNrS0hBZ0JXeTU2Vk4tOXozdFNOdlNCeTljWnBMRGp6UDFLQTJBRC1kcFBLSURSZk1LOHFWUndwWFd3UGtldkoxY0ZBN2dGeFlGaWNwNTMtdjhUWnlFUUdGRmVPYTcyUWlobGV5alU5TVJFcVZKZDE5UFpQT19vdVRoVzA2cFhsatIBtwFBVV95cUxOVXg1X3BWbElVVmxwS0Q4UWd5ZFVGcHAybkRoVDlxdU04SGtncGRpcTZSMkxpRDdJaDZxaW1pUzJlOW1vTWI3MEVqMkVYbGh6Z3NPRXZ4dXZZRlcwS1ROX2hYODcyV1h4MG9uRFUzZUJxRVlnaFRhTHpwb1NQNnhkWXF3U1dWMm9jMmJ1cHM5VEFQaFhLUURkRWhfeFhCZDQxYkVFaXh2WUlsYkpVVWh5UmhWX2lDb28?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -94,32 +139,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-25-5fc940974b",
-      "date": "2026-08-25",
-      "topic": "Tech / AI",
-      "title": "Adu Canggih Teknologi Pemadam Karhutla BRIN vs Dunia",
-      "summary": "CNBC Indonesia surfaced this fresh item: Adu Canggih Teknologi Pemadam Karhutla BRIN vs Dunia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkxmUGJONEEzQnZKbEpWNFRBV2F1SzhTcWZVYTQ2WTBvRGItRjN0SnNrQnd3ekh4djdtQTc5UDBZZG1nX3p2cjJLUDgxYnBMa1ltMTJZeEdiUk9iaHY1bzN3LXNTQVJhbEtLbVRoRWJHbWVtRU9qZTl6Rm54ZHJpb3RNUVlhRUtiVXI2eDJLVmtveG5hSjY4d0xjMTg4M0c1OUQwRlk0RHJweEg4bGxXRWFva1RrNGtt?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-25-7076e2cc4c",
+      "id": "2026-08-25-217c1ab960",
       "date": "2026-08-25",
       "topic": "Automotive / EV",
-      "title": "Suzuki e Sky: Mobil Listrik Terbaru Jarak Tempuh 310 Km",
-      "summary": "Kompas.com surfaced this fresh item: Suzuki e Sky: Mobil Listrik Terbaru Jarak Tempuh 310 Km. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "VinFast Beri Jaminan Baterai & Nilai Jual Mobil Listrik",
+      "summary": "Kompas.com surfaced this fresh item: VinFast Beri Jaminan Baterai & Nilai Jual Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSV9JRUVvZHdka2pybEZyLXpsS05oaFNEOTQxTEphd1hjQmwydm5FSzdOUVR0em9qb3RZRDM2M0hQRXpYSG9lcWZzd0p4dDVKWU9nMEdtZTVRekhNMXNIMlhHS3pMZ09JZlV1QzZ2THZhRVY1RmpkbTN4a056bXVvb3A4VGg5VzJtV3B1WklJa2drbXNsM3dScnJ0M0VYU0MxNkc4Ukt6Sy1vWHl4Q1ZZMXB2UlN3d3lOX1E?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdWVjZWFBSUFUSHJBdzZoZk1nVzJabV93M1NiaGcteVJKb3pSSVUzaW5wQmkybHNiLTF0NHQza3NNZS1Wb2k5NFNjOTQ0Y2xDNU9RbV9VcVA1UkJnY3J3d05SN1JNMUUtUHg3RnBnY3JtQ2JZcFhTNTl3QzJkaWEzMFYzczVWUmZoQ1Mydmg4cEZyTzNfbTZPRDR0NGxSVEJfd3RVNWFjUTV4bDA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -169,21 +199,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-25-bec1c5a305",
-      "date": "2026-08-25",
-      "topic": "Business / Investment",
-      "title": "Barantin Hadiri Rakernas GPEI, Tegaskan Transformasi Peran dari Pengawas Menjadi Akselerator Ekonomi",
-      "summary": "Badan Karantina Indonesia surfaced this fresh item: Barantin Hadiri Rakernas GPEI, Tegaskan Transformasi Peran dari Pengawas Menjadi Akselerator Ekonomi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Badan Karantina Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNalN4NVdpMnFyU3QzWHFnZlVSVElmRkpUcXRqQnlUdzlCOGlIZHFKT3Bua2ZSTWFGTWtkaDdJMmhVMi0yNWpjeUxNTlVsZDUweGltTnBIbGM0TVViNG41LTdVTFB3TzZQSldMSDRLclJrZlF6SnNJV1BuNXJ1VmtBczZZMkV2RFZvWlFsbGhYR3QwV2gycHNtdDc5elRtM3d4WWZkenBmWEhCdUtIVjJ3eVc3OU1melhFdVhDQkRJM0tEcUJhZXhveUtDU0dJeG5pZ2lPOE1aYWR2elZUOUR4Y3d2dHdoVkFFYmZDTQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-25-c94641efbf",
       "date": "2026-08-25",
       "topic": "Business / Investment",
@@ -210,6 +225,21 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "bpjph via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTN0X21pSGVTX2FjNlBpUmJJOE01OWpmcGVESUJhRm5INVZxcUp5NlB2cU5UWkhzc21McmU0R3FwUmZ1WDRSc3FsYS1yVk1SeVRhQW91MWl5WWdhM2NqbmFoQzNtMWlOZ1ZLdjdiMHpmamQwUUNSQktNTHlXVmtwdHJJdVhramxJZHE4cWRNUzFNQnQxcFlSUUJ6TGdzOHRpbUxsQ0hGRUFrOFFoNF9RX3Zn?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-25-f814d3bf43",
+      "date": "2026-08-25",
+      "topic": "Business / Investment",
+      "title": "IEU CEPA Segera Diteken, Produk Indonesia Bakal Dapat Tarif 0% ke Eropa",
+      "summary": "Ikatan Konsultan Pajak Indonesia surfaced this fresh item: IEU CEPA Segera Diteken, Produk Indonesia Bakal Dapat Tarif 0% ke Eropa. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Ikatan Konsultan Pajak Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZE9EeGxtVkRUYmRNUW40dlpqVUpjNEtlbFZFWDRsSTFtbFA1bm95LUc2eTd6MkNrU3ZuQ2dRMnd6MW9KQUJnUjIxeUQtMDlQZjZFTEJwZFRBc2hTTEZmcUdpLVA3ckJYSjBZZGZHRU53UXhsTE0za0ZPMGxfRmI3MF9WSVJQMzBxWnZfWXVUMGpXbzA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -319,21 +349,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-24-5d59ed3c34",
-      "date": "2026-08-24",
-      "topic": "Markets",
-      "title": "IHSG Tertekan, Bursa Asia Kompak Melemah",
-      "summary": "TIMES Indonesia surfaced this fresh item: IHSG Tertekan, Bursa Asia Kompak Melemah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": -0.19,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "TIMES Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ2RENEtOdkRLNXR3OFFIY1pJTXlPbWY3UTBkMzZPYVplaElpV25rV3dNeUxMcGhlbU95QVBHbUd2U2Job181ZkJvZ2NhcGwwY2w1WjZQbEpuMlVINU8tVWV5LWlaSjh0RjFkcDB5ZmpfZ1lyVkNmNjBZRmJlV3dNcnNoUGdlRDFoSGZURVV3?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-24-aef3176c7c",
       "date": "2026-08-24",
       "topic": "Markets",
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaHR5TGVlQTFmVE5RR29FUW4wNFpnN1lGamN5ZkZBOUQ4Y2hKU2JGcWo4WFlWcDBDNWtIWTZNelZKWUVjNzlvZldrelkzQmFCbFJqMVdWeXhyRVlpeWNmMm00Z3R6VTRyRzdPUlFGVjVvMmVubVk4dF95TjR5ckxWQndhaU5ndFEwMjhxZkxmM2dqY2xsa1pDb0ZpS0dEUE5sRThVeDgyV1RMMHlH0gGyAUFVX3lxTE5QVGxPejZKRHN4c3NfekJvMTB0dFZHWGxkRTB4ay1FcVB4b0JKT09rT0h2a0VLTm56bjhpZ2QxdWxXLV9nR3ZzekRoTWpKb3dEbUE2LW0yNzBieEtJMzFOQ2VmRXJCUzRsaUl6Vi0zTzR1UUhneGlXdVM1a21ud0ZSZHotM0ljQUsxelQ4S005Zjdoa29PNkdkRlNyQWlMVjdJaWtvNXRUbTFYU0cxZzYxR2c?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-24-504afbff49",
-      "date": "2026-08-24",
-      "topic": "Tech / AI",
-      "title": "Tantangan dan Kebutuhan SDM di Tengah Pertumbuhan Industri Pusat Data Indonesia",
-      "summary": "SuaraGarut.ID surfaced this fresh item: Tantangan dan Kebutuhan SDM di Tengah Pertumbuhan Industri Pusat Data Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "SuaraGarut.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oazJSR2JEY2xtWkU0amIxVEhsZGQxWDZ0RG1rYk0yS0QyaGxnQWE2VlAyMXAtV2UwT3RUMkh5MU00cGdIQzhRcmlNMXM0MXRSZWdpb2w2am9nLXlxM3FFaXJsY3NuWXM?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-25T18:00:45+07:00",
+    "generatedAt": "2026-08-25T19:00:46+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

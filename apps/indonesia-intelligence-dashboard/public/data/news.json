@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-25T09:00:23+07:00",
+  "generatedAt": "2026-08-25T10:00:24+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 25 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-25-a8e3c8d792",
+      "date": "2026-08-25",
+      "topic": "Automotive / EV",
+      "title": "Suzuki Resmi Memperkenalkan Mobil Listrik Mungil e Sky",
+      "summary": "SuaraGarut.ID surfaced this fresh item: Suzuki Resmi Memperkenalkan Mobil Listrik Mungil e Sky. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sUmw5eVR1Qk02c0RDcmtTUlZ4MHZ0azc0QmZIbFl5aS1SNkhSSEFfNm9DeG00QkVGS3FEQnF5OEEwM0lEenozZWFjQWlrb2x2M0FpQi1WZWtRTVp1V1NWWVRHMW16SEVLSzhkandEbm93OGZiclU2bw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-25-96f99e3748",
       "date": "2026-08-25",
@@ -19,17 +34,32 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-25-566a6f0516",
+      "id": "2026-08-25-0d46fbd2ae",
       "date": "2026-08-25",
       "topic": "Business / Investment",
-      "title": "Flip dan Paytm Luncurkan Flip Kasir untuk UMKM Indonesia",
-      "summary": "SuaraGarut.ID surfaced this fresh item: Flip dan Paytm Luncurkan Flip Kasir untuk UMKM Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "3 Investasi yang Dilakukan Nabi Muhammad, Bisa Jadi Contoh..",
+      "summary": "CNBC Indonesia surfaced this fresh item: 3 Investasi yang Dilakukan Nabi Muhammad, Bisa Jadi Contoh... Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "SuaraGarut.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUamdNU19yTVdhaGlacG82TUt2bDcwX2NLckcycGhRbWhJQ0p1T0RtMDdqQmFEVWVzTFpReW43VU81NGdGR09aOTB1bThXcmtkQjhCOVpmSGw1M2ppUTVhQVkzUQ?oc=5",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGZQVnRfSFlITTk3MVNWSGpWNHVqSGxRWkVkMlBmUVpjbnp3R21jTV9PZElSMllVQnNmVmF4bXBvZi04amdEcGdSdEJkdDJ4YkRMVVNVck1fRHVmWVB2N1BCMTc2eUxUUFEyUzVLbmlxMGpjUXprQkxmVlE5SWJPSGtDMkZLRmtPdlo4U1VkR29BYzZmVWQ4RzV0SEtIUHFxck9pX2NTWVV0MkVkc1o4aUhBY1d5Tm_SAbwBQVVfeXFMT25WdkJVNHItenNLSGdETnhVY2l5NWtLTERtdjZzd2tFbnVwbWc0eDBjUU5Mc0RmZU43MkREbTdIQktfb1dMWXRrRDRYaXczQ29Gbks4Unc3Wk95ZFRJTVhvNTNOLS1IaVR2OHRKRy1fdVpSVnRRMzZHTWkyeVI2R0tpWHFVdDZEV2hVRWJWdXRyRFJCMUUzWExLUkhTSWV1ZWFwbEZOdzZBWkkyZVBndjlJNV9paHJtMTh4dUU?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-25-b6bd70c534",
+      "date": "2026-08-25",
+      "topic": "Automotive / EV",
+      "title": "Cek Harga Mobil Listrik Bekas Agustus 2026, Mulai Rp 100 Jutaan",
+      "summary": "Kompas.com surfaced this fresh item: Cek Harga Mobil Listrik Bekas Agustus 2026, Mulai Rp 100 Jutaan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejQyNkFfLU1BWUMxRzJ3VXlycEpWa3F4RWlHOUxmd29IS0MxYVZBVmgyVXBNN1NIZnY4V0VYeDhtYjlYXzh6Nl8tZ0xVSzhTWWVnSFo5QVFRWnpGaUxvdXJDOURjb3dJbEZmalJRRVdRdWZmd0lZNl9EU08xQWx2cFFfSjY2S3F4ckEtTGM1ekJnUVlyeUFmU21hd1Y3dm0xRHpFRlZVYjF4aUFEV1BTeWFQOGU1MjQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -79,21 +109,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-25-2e402c6d1d",
-      "date": "2026-08-25",
-      "topic": "Automotive / EV",
-      "title": "IESR: Insentif Motor Listrik Rp3 Juta Terlalu Kecil",
-      "summary": "Media Indonesia surfaced this fresh item: IESR: Insentif Motor Listrik Rp3 Juta Terlalu Kecil. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Media Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcm90RzlWTWhOMzVFeFZiM0FwdTVfUXl4UkI3cEtrRUdJc2FsaUZDaVFzSW9fLU11NGxwbVp3c0d1c2FackRKU3BwQng2ZjgyT0Z3RklWVERuYmV3OVFmS0VqZ0tsS0gwWlZlZTd6SDFBUHJONEN4YUNLT0JtY3V6UURIdWhnVW1kbUZtMmhXdGRVNDlCcnow?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-25-b79fa70b38",
       "date": "2026-08-25",
       "topic": "Business / Investment",
@@ -124,6 +139,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-25-a8cf8aefcf",
+      "date": "2026-08-25",
+      "topic": "Business / Investment",
+      "title": "Indonesia ekspor komoditas sarang burung walet senilai 172,15 juta Dolar AS ke China pada H1 tahun 2026",
+      "summary": "ANTARA News surfaced this fresh item: Indonesia ekspor komoditas sarang burung walet senilai 172,15 juta Dolar AS ke China pada H1 tahun 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "ANTARA News via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQLTN4OXE1aDVKbE40cUV6SVYwa3VxNUhrdk1Iay1QcTJRV0MtM1RmV0cyOU56YU1pUkh6ekhlUTk0eWJlSEFmd3NtR20xWDZjaHZNTGJRRkdGcGFCZXk2NFk1dkFta2RpRklWMzZFX0NsUHN6WUVmc212YVBkQXh3aHo4dnZvOHpVLTdEdTNoajBDdkxpTDJJblg3WWp4R01TbWdXbEdjTDRRZDFQcWt5N3hIcjhlM0pLM1NpWVphZTJLaVRTV181T1c4dk41Vi1oMHBRSzVMbEJIcDJW0gHfAUFVX3lxTFBCMVBERlZhay1aYnp2ZXI0NWVtcTdwLXc0a2xUY1VwRlk0Wldfa0hyM244Mm04NmlTX2lHcUx3UXFiVlkxTERDNU1MczZOMW9YUTc3MGZQRjh6aVQzNG9HOEcyX1JZR0F2Zjh2UkhBalFFbnJGWTk4QV9nTkNXN3l4dWxORm1GNC1CSWJ3dTRBak9QLUpxb3d0a214a2Rtd2RrQkZPTVBzRi05NkJfeFVwOWFoMENIRUZqQmh3RjdTOWZhdWFSWEVEMmJBTlMycEVBUlIxX083VVVKa3lERXc?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-25-6c0d8a7ce5",
       "date": "2026-08-25",
       "topic": "Infrastructure",
@@ -150,36 +180,6 @@
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "IDX Channel via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRGVPTnhsZUMxOEJySVlXOHhtNlVsdTFKblYtcWRfS3JNOGNFeHZMdThiU00yNEhRYnEwQ3JPQ2NFamRkX0VKUUZWSXFWQW9UT1pCSUR1WTNEaDRGbURqYUY1LVZHcDdyYXkyaWJ2S2E4alVfSFo1eFE4eVkzakt6UDJfTGdqZS1DVFhyWkZBODNxeVpoanYwbmg1eW1QZnJtY1BSb0d30gGmAUFVX3lxTE1EZU9OeGxlQzE4QnJJWVc4eG02VWx1MUpuVi1xZF9Lck04Y0V4dkx1OGJTTTI0SFFicTBDck9DY0VqZGRfRUpRRlZJcVZBb1RPWkJJRHVZM0RoNEZtRGphRjUtVkdwN3JheTJpYnZLYThqVV9IWjV4UTh5WTNqS3pQMl9MZ2plLUNUWHJaRkE4M3F5WmhqdjBuaDV5bVBmcm1jUFJvR3c?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-25-98542077fd",
-      "date": "2026-08-25",
-      "topic": "Automotive / EV",
-      "title": "Wacana DP 0 Persen Motor Listrik: Risiko Lembaga Pembiayaan",
-      "summary": "Kompas.com surfaced this fresh item: Wacana DP 0 Persen Motor Listrik: Risiko Lembaga Pembiayaan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": -0.04,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVTJBTTlQU1dfR3pFY3Z5bnM0cUs5Y3JfSkN4T1Z1SnVsd1BfVjBJU2JoWEU2VHFfRWJFdlY3NVB1UEgxSHNkUXVQZGZZd1Bra3BvUlh3dVBqaHRUa3BYODFiejlycFkzZlh0ZU5yemM3U0FuY2pteVYxY09lQUZrWnVZdUxDZ01oZmd5cG9CNlcxdkMzVWlJaW9aa3pBWkpKVl82akpGdzAzUTJWWnVKLVJvdw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-24-8c15fafa0f",
-      "date": "2026-08-24",
-      "topic": "Business / Investment",
-      "title": "Prabowo dorong China tambah investasi di Indonesia",
-      "summary": "idnfinancials.com surfaced this fresh item: Prabowo dorong China tambah investasi di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.24,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "idnfinancials.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZmJUcmI4a2NaTW5CWDg3SzNRNGVIbnRic3NuUFZWbm1zXzJBeHNzT19TMW5jdXV4eS1DUllxbm1IX3ZFNlFEamtId3locHdrT2tSdkxIVUR2ZGh3ZE91SG16R0Z6WHF4NHowZWN2Tnp3aExaUjBwbUlpMEZQQXNRUFVOTURpa3prRlp6ZzJDTmxPUjZ3ZTh2aGh3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-25T09:00:23+07:00",
+    "generatedAt": "2026-08-25T10:00:24+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,13 +374,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20636.0,
+        "last": 20628.0,
         "date": "2026-08-25",
-        "return1m": 3.94,
-        "return3m": 1.02,
-        "return6m": 5.04,
-        "return1y": 3.29,
-        "volatility": 17.81,
+        "return1m": 3.9,
+        "return3m": 0.98,
+        "return6m": 5.0,
+        "return1y": 3.25,
+        "volatility": 17.8,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -664,7 +664,7 @@
             "value": 20099.0
           }
         ],
-        "profitScore": 1.99,
+        "profitScore": 1.95,
         "view": "strongest IDR return screen"
       },
       {
@@ -672,12 +672,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12663.7998,
+        "last": 12661.7002,
         "date": "2026-08-25",
-        "return1m": 0.8,
-        "return3m": -0.54,
-        "return6m": 6.08,
-        "return1y": 6.71,
+        "return1m": 0.78,
+        "return3m": -0.56,
+        "return6m": 6.06,
+        "return1y": 6.69,
         "volatility": 9.8,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 12658.1934
           }
         ],
-        "profitScore": 1.92,
+        "profitScore": 1.91,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +970,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13935.4248,
+        "last": 13930.1064,
         "date": "2026-08-25",
-        "return1m": 0.05,
-        "return3m": 0.23,
-        "return6m": 4.78,
-        "return1y": 5.08,
+        "return1m": 0.01,
+        "return3m": 0.19,
+        "return6m": 4.74,
+        "return1y": 5.04,
         "volatility": 7.71,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 13908.2002
           }
         ],
-        "profitScore": 1.63,
+        "profitScore": 1.59,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,12 +1566,12 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 111.13,
+        "last": 111.02,
         "date": "2026-08-25",
-        "return1m": 1.28,
-        "return3m": -0.55,
-        "return6m": 2.3,
-        "return1y": 2.32,
+        "return1m": 1.18,
+        "return3m": -0.64,
+        "return6m": 2.2,
+        "return1y": 2.22,
         "volatility": 9.55,
         "maxDrawdown": -6.3,
         "sparkline": [
@@ -1856,7 +1856,7 @@
             "value": 111.081
           }
         ],
-        "profitScore": 0.34,
+        "profitScore": 0.24,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2631.8999,
+        "last": 2632.2,
         "date": "2026-08-25",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-08-25",
-            "value": 2631.8999
+            "value": 2632.2
           }
         ],
         "profitScore": 0.0,
@@ -1887,13 +1887,13 @@
       "label": "Euro",
       "useCase": "Europe trade and portfolio diversification exposure",
       "pair": "EUR",
-      "last": 20636.0,
+      "last": 20628.0,
       "date": "2026-08-25",
-      "return1m": 3.94,
-      "return3m": 1.02,
-      "return6m": 5.04,
-      "return1y": 3.29,
-      "volatility": 17.81,
+      "return1m": 3.9,
+      "return3m": 0.98,
+      "return6m": 5.0,
+      "return1y": 3.25,
+      "volatility": 17.8,
       "maxDrawdown": -5.62,
       "sparkline": [
         {
@@ -2177,7 +2177,7 @@
           "value": 20099.0
         }
       ],
-      "profitScore": 1.99,
+      "profitScore": 1.95,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",

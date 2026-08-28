@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T02:00:33+07:00",
+  "generatedAt": "2026-08-29T03:00:33+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 29 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -244,17 +244,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-28-f93bc13457",
+      "id": "2026-08-28-18a4940340",
       "date": "2026-08-28",
       "topic": "Automotive / EV",
-      "title": "Daftar Motor Listrik di Indonesia dan Jenis Baterai yang Digunakan",
-      "summary": "Kompas.com surfaced this fresh item: Daftar Motor Listrik di Indonesia dan Jenis Baterai yang Digunakan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "TKDN Mobil Listrik 2027 Ditargetkan 60 Persen, Gaikindo Minta Dikawal",
+      "summary": "Kompas.com surfaced this fresh item: TKDN Mobil Listrik 2027 Ditargetkan 60 Persen, Gaikindo Minta Dikawal. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQkRMZ3Y1U29jUzRrSUl4M19nQVFCWlgyT1M1V0lMZ3BCcEdpcGtEcmxDd0VUQkRpeVNyS1RQdWNDMV9uV1FZaVE0MjZMeW9STWdCbWNqZThBTmhNb2J4Y1l3dWhGbzFuOFBpOG9KeHFNTV9PVXR4TTRub29JdmNsQmVHNFNWanA5b25kZlctTDRzQXZOajlJUlc3eWJXU29tWDI5VEpEVVhRSWwtcV9sYkFNcW5RTmxwVkViZXppMkZLd05TRTlyTQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZGpTWVE0Ni11M01SMDhCSE5QRFFjZWM1cm5wVnA1WjN3cnptR1RBQXhFZ2J5RXhJTkNnLXNvanhtRkNMOENQX3RYWVZZT3h5OU5HbmVWeU1IYndlX1ZMZm1kMlpMWDhnNHJGWkFXWjg2cWk3V05OcmFqay1OLUYtNVBqRGxia0xKUExmTjg5N3Q2VGxMWVk3X3d1WjJ3ZWM4VV9iTjF4SU5YTkxWdklic0s0dVFEZ2JVR2lleDc4Zw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-29T02:00:33+07:00",
+    "generatedAt": "2026-08-29T03:00:33+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,13 +374,13 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12669.7998,
+        "last": 12681.0996,
         "date": "2026-08-28",
-        "return1m": 0.72,
-        "return3m": -0.86,
-        "return6m": 6.16,
-        "return1y": 6.57,
-        "volatility": 9.81,
+        "return1m": 0.81,
+        "return3m": -0.77,
+        "return6m": 6.26,
+        "return1y": 6.66,
+        "volatility": 9.79,
         "maxDrawdown": -5.12,
         "sparkline": [
           {
@@ -664,7 +664,7 @@
             "value": 12766.4707
           }
         ],
-        "profitScore": 1.83,
+        "profitScore": 1.92,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,13 +970,13 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13881.5527,
+        "last": 13886.998,
         "date": "2026-08-28",
-        "return1m": -1.04,
-        "return3m": -0.7,
-        "return6m": 4.59,
-        "return1y": 4.09,
-        "volatility": 7.77,
+        "return1m": -1.0,
+        "return3m": -0.66,
+        "return6m": 4.63,
+        "return1y": 4.14,
+        "volatility": 7.76,
         "maxDrawdown": -3.8,
         "sparkline": [
           {
@@ -1260,7 +1260,7 @@
             "value": 13981.5264
           }
         ],
-        "profitScore": 0.99,
+        "profitScore": 1.03,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,13 +1268,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20486.0,
+        "last": 20499.0,
         "date": "2026-08-28",
-        "return1m": 2.52,
-        "return3m": -1.06,
-        "return6m": 4.7,
-        "return1y": 3.87,
-        "volatility": 18.53,
+        "return1m": 2.58,
+        "return3m": -0.99,
+        "return6m": 4.77,
+        "return1y": 3.93,
+        "volatility": 18.54,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -1558,7 +1558,7 @@
             "value": 20072.0
           }
         ],
-        "profitScore": 0.77,
+        "profitScore": 0.83,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,13 +1566,13 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 110.48,
+        "last": 110.54,
         "date": "2026-08-28",
-        "return1m": -0.16,
-        "return3m": -1.37,
-        "return6m": 2.97,
-        "return1y": 0.26,
-        "volatility": 9.57,
+        "return1m": -0.11,
+        "return3m": -1.31,
+        "return6m": 3.03,
+        "return1y": 0.32,
+        "volatility": 9.56,
         "maxDrawdown": -6.3,
         "sparkline": [
           {
@@ -1856,7 +1856,7 @@
             "value": 111.6302
           }
         ],
-        "profitScore": 0.06,
+        "profitScore": 0.12,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2628.7,
+        "last": 2631.5,
         "date": "2026-08-28",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-08-28",
-            "value": 2628.7
+            "value": 2631.5
           }
         ],
         "profitScore": 0.0,
@@ -1887,13 +1887,13 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12669.7998,
+      "last": 12681.0996,
       "date": "2026-08-28",
-      "return1m": 0.72,
-      "return3m": -0.86,
-      "return6m": 6.16,
-      "return1y": 6.57,
-      "volatility": 9.81,
+      "return1m": 0.81,
+      "return3m": -0.77,
+      "return6m": 6.26,
+      "return1y": 6.66,
+      "volatility": 9.79,
       "maxDrawdown": -5.12,
       "sparkline": [
         {
@@ -2177,7 +2177,7 @@
           "value": 12766.4707
         }
       ],
-      "profitScore": 1.83,
+      "profitScore": 1.92,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2238,15 +2238,15 @@
         "name": "Eli Lilly",
         "sector": "Healthcare",
         "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-        "last": 1165.04,
+        "last": 1173.83,
         "date": "2026-08-28",
-        "return1m": 0.87,
-        "return3m": 7.58,
-        "return6m": 15.41,
-        "return1y": 67.55,
-        "volatility": 36.03,
+        "return1m": 1.63,
+        "return3m": 8.39,
+        "return6m": 16.28,
+        "return1y": 68.82,
+        "volatility": 36.01,
         "maxDrawdown": -23.31,
-        "opportunityScore": 70.1,
+        "opportunityScore": 71.4,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -2647,7 +2647,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 1165.04
+            "value": 1173.83
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"
@@ -2657,15 +2657,15 @@
         "name": "Microsoft",
         "sector": "Software / cloud",
         "thesis": "Azure, enterprise software, and AI monetization exposure.",
-        "last": 513.87,
+        "last": 513.53,
         "date": "2026-08-28",
-        "return1m": 13.91,
-        "return3m": 24.52,
-        "return6m": 29.36,
-        "return1y": 1.91,
+        "return1m": 13.84,
+        "return3m": 24.44,
+        "return6m": 29.28,
+        "return1y": 1.84,
         "volatility": 32.12,
         "maxDrawdown": -34.91,
-        "opportunityScore": 67.1,
+        "opportunityScore": 67.0,
         "risk": "High",
         "sparkline": [
           {
@@ -3066,7 +3066,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 513.87
+            "value": 513.53
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-MSFT/"
@@ -3076,15 +3076,15 @@
         "name": "Apple",
         "sector": "Consumer technology",
         "thesis": "Installed-base monetization, services, and premium-device ecosystem.",
-        "last": 319.62,
+        "last": 319.7,
         "date": "2026-08-28",
-        "return1m": -4.14,
-        "return3m": 2.82,
-        "return6m": 20.8,
-        "return1y": 40.7,
+        "return1m": -4.12,
+        "return3m": 2.85,
+        "return6m": 20.83,
+        "return1y": 40.74,
         "volatility": 24.93,
         "maxDrawdown": -13.82,
-        "opportunityScore": 65.5,
+        "opportunityScore": 65.6,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -3485,7 +3485,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 319.62
+            "value": 319.7
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AAPL/"
@@ -3495,15 +3495,15 @@
         "name": "JPMorgan Chase",
         "sector": "Financials",
         "thesis": "Scale, diversified earnings, and strong balance-sheet execution.",
-        "last": 356.76,
+        "last": 357.55,
         "date": "2026-08-28",
-        "return1m": 1.68,
-        "return3m": 19.2,
-        "return6m": 14.79,
-        "return1y": 20.97,
-        "volatility": 22.14,
+        "return1m": 1.91,
+        "return3m": 19.47,
+        "return6m": 15.05,
+        "return1y": 21.24,
+        "volatility": 22.15,
         "maxDrawdown": -15.47,
-        "opportunityScore": 65.3,
+        "opportunityScore": 65.6,
         "risk": "Lower",
         "sparkline": [
           {
@@ -3904,7 +3904,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 356.76
+            "value": 357.55
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-JPM/"
@@ -3914,15 +3914,15 @@
         "name": "Visa",
         "sector": "Payments",
         "thesis": "Global electronic-payment volume and high-margin network economics.",
-        "last": 381.93,
+        "last": 381.54,
         "date": "2026-08-28",
-        "return1m": 4.28,
-        "return3m": 16.58,
-        "return6m": 19.0,
-        "return1y": 9.49,
+        "return1m": 4.17,
+        "return3m": 16.46,
+        "return6m": 18.88,
+        "return1y": 9.38,
         "volatility": 21.99,
         "maxDrawdown": -17.35,
-        "opportunityScore": 63.3,
+        "opportunityScore": 63.2,
         "risk": "Lower",
         "sparkline": [
           {
@@ -4323,7 +4323,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 381.93
+            "value": 381.54
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-V/"
@@ -4333,15 +4333,15 @@
         "name": "Alphabet",
         "sector": "Digital ads / cloud",
         "thesis": "Search cash flow, cloud growth, and AI product distribution.",
-        "last": 346.9,
+        "last": 346.45,
         "date": "2026-08-28",
-        "return1m": 3.97,
-        "return3m": -10.78,
-        "return6m": 10.14,
-        "return1y": 66.39,
-        "volatility": 32.46,
+        "return1m": 3.83,
+        "return3m": -10.9,
+        "return6m": 9.99,
+        "return1y": 66.17,
+        "volatility": 32.45,
         "maxDrawdown": -21.09,
-        "opportunityScore": 61.4,
+        "opportunityScore": 61.2,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -4742,7 +4742,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 346.9
+            "value": 346.45
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-GOOGL/"
@@ -4752,15 +4752,15 @@
         "name": "Amazon",
         "sector": "Cloud / commerce",
         "thesis": "AWS margin expansion and global commerce operating leverage.",
-        "last": 265.02,
+        "last": 266.43,
         "date": "2026-08-28",
-        "return1m": 12.53,
-        "return3m": -2.51,
-        "return6m": 26.13,
-        "return1y": 16.27,
-        "volatility": 34.3,
+        "return1m": 13.13,
+        "return3m": -1.99,
+        "return6m": 26.81,
+        "return1y": 16.89,
+        "volatility": 34.36,
         "maxDrawdown": -21.74,
-        "opportunityScore": 60.1,
+        "opportunityScore": 60.9,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -5161,7 +5161,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 265.02
+            "value": 266.43
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AMZN/"
@@ -5171,15 +5171,15 @@
         "name": "Exxon Mobil",
         "sector": "Energy",
         "thesis": "Cash generation and diversification when energy prices support the cycle.",
-        "last": 155.8,
+        "last": 156.69,
         "date": "2026-08-28",
-        "return1m": -0.75,
-        "return3m": 5.34,
-        "return6m": 5.78,
-        "return1y": 39.43,
-        "volatility": 25.41,
+        "return1m": -0.18,
+        "return3m": 5.94,
+        "return6m": 6.39,
+        "return1y": 40.23,
+        "volatility": 25.4,
         "maxDrawdown": -20.65,
-        "opportunityScore": 58.6,
+        "opportunityScore": 59.5,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -5580,7 +5580,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 155.8
+            "value": 156.69
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-XOM/"
@@ -5590,15 +5590,15 @@
         "name": "NVIDIA",
         "sector": "Semiconductors / AI",
         "thesis": "AI accelerator leadership with high growth and valuation sensitivity.",
-        "last": 217.32,
+        "last": 217.55,
         "date": "2026-08-28",
-        "return1m": 11.43,
-        "return3m": 2.22,
-        "return6m": 14.49,
-        "return1y": 20.86,
-        "volatility": 37.91,
+        "return1m": 11.54,
+        "return3m": 2.33,
+        "return6m": 14.61,
+        "return1y": 20.99,
+        "volatility": 37.9,
         "maxDrawdown": -20.22,
-        "opportunityScore": 57.3,
+        "opportunityScore": 57.5,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -5999,7 +5999,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 217.32
+            "value": 217.55
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
@@ -6009,15 +6009,15 @@
         "name": "Broadcom",
         "sector": "Semiconductors / infrastructure",
         "thesis": "AI networking, custom silicon, and infrastructure software cash flow.",
-        "last": 367.08,
+        "last": 368.79,
         "date": "2026-08-28",
-        "return1m": -5.35,
-        "return3m": -12.99,
-        "return6m": 10.35,
-        "return1y": 24.76,
-        "volatility": 48.09,
+        "return1m": -4.91,
+        "return3m": -12.58,
+        "return6m": 10.86,
+        "return1y": 25.34,
+        "volatility": 48.08,
         "maxDrawdown": -28.95,
-        "opportunityScore": 44.0,
+        "opportunityScore": 44.7,
         "risk": "High",
         "sparkline": [
           {
@@ -6418,7 +6418,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 367.08
+            "value": 368.79
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AVGO/"
@@ -6428,12 +6428,12 @@
         "name": "Costco",
         "sector": "Consumer staples",
         "thesis": "Membership economics and resilient high-frequency consumer demand.",
-        "last": 945.1,
+        "last": 945.47,
         "date": "2026-08-28",
-        "return1m": -0.95,
-        "return3m": -5.84,
-        "return6m": -4.08,
-        "return1y": 0.37,
+        "return1m": -0.91,
+        "return3m": -5.8,
+        "return6m": -4.04,
+        "return1y": 0.41,
         "volatility": 19.83,
         "maxDrawdown": -16.57,
         "opportunityScore": 40.3,
@@ -6837,7 +6837,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 945.1
+            "value": 945.47
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-COST/"
@@ -6847,15 +6847,15 @@
         "name": "Meta Platforms",
         "sector": "Digital ads / AI",
         "thesis": "Advertising efficiency, engagement, and AI-driven recommendation gains.",
-        "last": 574.22,
+        "last": 578.02,
         "date": "2026-08-28",
-        "return1m": 6.53,
-        "return3m": -9.61,
-        "return6m": -12.42,
-        "return1y": -23.77,
-        "volatility": 38.46,
+        "return1m": 7.23,
+        "return3m": -9.01,
+        "return6m": -11.84,
+        "return1y": -23.27,
+        "volatility": 38.48,
         "maxDrawdown": -32.62,
-        "opportunityScore": 24.7,
+        "opportunityScore": 25.5,
         "risk": "High",
         "sparkline": [
           {
@@ -7256,7 +7256,7 @@
           },
           {
             "date": "2026-08-28",
-            "value": 574.22
+            "value": 578.02
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-META/"
@@ -7267,15 +7267,15 @@
       "name": "Eli Lilly",
       "sector": "Healthcare",
       "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-      "last": 1165.04,
+      "last": 1173.83,
       "date": "2026-08-28",
-      "return1m": 0.87,
-      "return3m": 7.58,
-      "return6m": 15.41,
-      "return1y": 67.55,
-      "volatility": 36.03,
+      "return1m": 1.63,
+      "return3m": 8.39,
+      "return6m": 16.28,
+      "return1y": 68.82,
+      "volatility": 36.01,
       "maxDrawdown": -23.31,
-      "opportunityScore": 70.1,
+      "opportunityScore": 71.4,
       "risk": "Moderate",
       "sparkline": [
         {
@@ -7676,7 +7676,7 @@
         },
         {
           "date": "2026-08-28",
-          "value": 1165.04
+          "value": 1173.83
         }
       ],
       "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"

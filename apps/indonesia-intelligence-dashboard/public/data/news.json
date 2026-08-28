@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-28T18:01:04+07:00",
+  "generatedAt": "2026-08-28T19:01:05+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 28 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-28-9985948f5c",
+      "date": "2026-08-28",
+      "topic": "Business / Investment",
+      "title": "Ekspor Garmen Indonesia Berpeluang Naik 2 Miliar Dollar AS, Rantai Pasok Jadi Kunci",
+      "summary": "Kompas.id surfaced this fresh item: Ekspor Garmen Indonesia Berpeluang Naik 2 Miliar Dollar AS, Rantai Pasok Jadi Kunci. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Kompas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSEwyYmU4MV83X0JXZWlBTzhBRHFSZlYySmtabjluZmVMTUY2UmJVQWhoSnlJUFlPVGhUOWRCTG5CQmtIdkpybDVvZzFZN2Y5WE5lanhJYVJPM29DeThBd2Nmbkk0cnpjeW1abHRvVXhzaUZEblluQ2pzT3pic1hHN1lpLUtNYzdjVTBKX3p0V1Fvd01zMUVadF9qcVpwcFNyY0VXQjBLMHFKc2JxSXk0ZkNjb1lpNy1NTGc?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-28-fca0fcc497",
       "date": "2026-08-28",
@@ -59,7 +74,7 @@
       "confidence": 0.68,
       "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
       "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSFFIOHNQNjFyZDBfNGJxSENKcElRWXZXSDJwWVFCTHBoMW96LUlZY2JFNmFOSVRMb25JQjVGOU1BekEteWtQY1BiZS1HYWJTQTdTNngzUUczNjJRU2lGdzF0QUJ5RV8yY01hYkNkeXVmZFR6VnBGUjEzZWlFRWs4QWluSTMxVlFsVlkwSjdDM0pndFd0M2tmMUduVGdTNjBwOW1DVzM4dzR6Qkhack5xM2lDRnJyLTI2aXdrYS1SOU5hOU1YeWRuVFl5UmJrd9IBzgFBVV95cUxPSFFIOHNQNjFyZDBfNGJxSENKcElRWXZXSDJwWVFCTHBoMW96LUlZY2JFNmFOSVRMb25JQjVGOU1BekEteWtQY1BiZS1HYWJTQTdTNngzUUczNjJRU2lGdzF0QUJ5RV8yY01hYkNkeXVmZFR6VnBGUjEzZWlFRWs4QWluSTMxVlFsVlkwSjdDM0pndFd0M2tmMUduVGdTNjBwOW1DVzM4dzR6Qkhack5xM2lDRnJyLTI2aXdrYS1SOU5hOU1YeWRuVFl5UmJrdw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSUxxSzd4bnV4ZEpLamE4WjhBMjdGRkxNSzlDNFctTmxOWG0wYlFoeUZGMGdzTkJqakFPLWRtdmttZXRucklGYzJZUC0wWVVnaURCMVlyZGhaQ2VkdXpOVkd4U1Z3UUh5UVl5OTZBcHhZWjhPZWNicDFuUTZDQWl3MU1WY240dkIxUFBIa3VWc1hQSFN1QjAycXE1ODRFblRXeEdKWUdmUDhrUjVfRExLSjVOT0JnbmtuMW91V1pMd0lUTy1TUGxJM9IBzgFBVV95cUxPSFFIOHNQNjFyZDBfNGJxSENKcElRWXZXSDJwWVFCTHBoMW96LUlZY2JFNmFOSVRMb25JQjVGOU1BekEteWtQY1BiZS1HYWJTQTdTNngzUUczNjJRU2lGdzF0QUJ5RV8yY01hYkNkeXVmZFR6VnBGUjEzZWlFRWs4QWluSTMxVlFsVlkwSjdDM0pndFd0M2tmMUduVGdTNjBwOW1DVzM4dzR6Qkhack5xM2lDRnJyLTI2aXdrYS1SOU5hOU1YeWRuVFl5UmJrdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -75,21 +90,6 @@
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "MetroTVNews.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPblE4c1FDOW5tUEEwMFM3azBZdkxOajdjY0dQV1pqdU53N2xySFQxY0NqUWl3VDN1emtJc1FWcVFBblp0VVFfSWdxRThDRkxRR3U0TXIwOHl3LUlWNDBQb3dDY1o0NXRMLVQ5RGEzQjFHVnl2emtPVU1NWmVrX1ZWXzdJRTBVdEdq?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-28-e09c78e2dc",
-      "date": "2026-08-28",
-      "topic": "Regulation",
-      "title": "BI Ungkap Kredit Bank Belum Optimal, Dunia Usaha Masih Tahan Ekspansi",
-      "summary": "kontan.co.id surfaced this fresh item: BI Ungkap Kredit Bank Belum Optimal, Dunia Usaha Masih Tahan Ekspansi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "kontan.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTlB5NXY5amlvRTBEcHdIalh6WEJENFQxeDlnOUtvcVl6N3JibHRnNXIwVzdpMURVMUxyTjZONFZLRVZxcWtBSFlRN3JfTERNUVNNVnppdHhyQ2MxeWJYdTdrQVEtanRUcjQzdUVYSnk0cFZ2bXRYVUdTYjE5R2lNNmp0ZE9ic1ZOTVhCdHBEMXVOYUVDSkc4cjdYTUZsLXpTM0tJM3lR0gGfAUFVX3lxTE5QUEhfc1FCWU5YdjdlVm9qYjh3TXhmTVBlLTlmaEM1b24xalJueUJyRXBMT2pkU3M5SUdjRXlPdWxWOGZGbFRzTzl0dzlDRjFPSzJleHlkTjNLdGttQnB3LU1ISzhQNXoyQkttRy1JNnZiUmxISm1wd0lfc29PWERxVy1SMGh3OWQwdC14U2M1bk1Ma2tqYmxfbXhIS1lZaw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -169,6 +169,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-28-067f561c96",
+      "date": "2026-08-28",
+      "topic": "Automotive / EV",
+      "title": "Rekomendasi Mobil Listrik Rp 250 Jutaan Untuk Harian",
+      "summary": "Motomobi News surfaced this fresh item: Rekomendasi Mobil Listrik Rp 250 Jutaan Untuk Harian. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Motomobi News via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMk5WaF9yRFN6SjhIQ1lDQWVsTm91R21vMU80eTlxS056emNGN1dPbVZxbEtIZ1AxakNuQU5kRDA0SU5ta2dTbGlfb3c1RkJCNTBBN3BHX01WdWg2TWE2dV9kbGd3aFdmLWRpM1FUQ3dXLWhlYThteTlzT2Y1NF9ZTW83SDkzU1NVQTZHV1VYSk4tNXJCTTZSVHNPTQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-28-18a4940340",
       "date": "2026-08-28",
       "topic": "Automotive / EV",
@@ -180,36 +195,6 @@
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "Kompas.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZGpTWVE0Ni11M01SMDhCSE5QRFFjZWM1cm5wVnA1WjN3cnptR1RBQXhFZ2J5RXhJTkNnLXNvanhtRkNMOENQX3RYWVZZT3h5OU5HbmVWeU1IYndlX1ZMZm1kMlpMWDhnNHJGWkFXWjg2cWk3V05OcmFqay1OLUYtNVBqRGxia0xKUExmTjg5N3Q2VGxMWVk3X3d1WjJ3ZWM4VV9iTjF4SU5YTkxWdklic0s0dVFEZ2JVR2lleDc4Zw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-28-a4ac4a0730",
-      "date": "2026-08-28",
-      "topic": "Automotive / EV",
-      "title": "Pilihan 3 Mobil Listrik Harga di Bawah Rp 200 Juta",
-      "summary": "detikoto surfaced this fresh item: Pilihan 3 Mobil Listrik Harga di Bawah Rp 200 Juta. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "detikoto via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEFNeTVtaldRUzdLczhXX2w2YU80QlZNUWRHRzVpazhHUU1JVExNMFI2dmt3S0ZybjUtbExuR04waDhDNEZSV3hxX3JzdDBxMV96ZjFwTEtYRkY3QllnQWxLTzhvbzdmQlJxREVWRTZwZnNmaHgtaFNJSjhXTGEwT3d6S2RhOUZyZXI0NlBHeF9qUdIBlwFBVV95cUxNMkJVdFVNSVNaRW5EeVV3Z2VNY0x4bjRzRHYtUUFHakM5emdydk0tZThsQjUwWUwwS3IxY2F5N2Y0SFZwc3Z4bDRSbDlsLXlsbHZyRUF3cGpEeWRVNmR0ME1TbjN1VUVEZXlIbWZOTFd3LXFVYWRKbzhiRWstR0VNUUkzaURZZkNneVJnRVQzQ1dEa05Eaks4?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-28-d2b9dbbadc",
-      "date": "2026-08-28",
-      "topic": "Automotive / EV",
-      "title": "Mobil Listrik Terbaru ICAR V27, SUV Offroad Premium untuk Kota dan Liburan",
-      "summary": "SUARANTB.com surfaced this fresh item: Mobil Listrik Terbaru ICAR V27, SUV Offroad Premium untuk Kota dan Liburan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "SUARANTB.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUN5bE1tSXUyTzV1STBuWFBkWkVJN2lxVFFZaDNabW1uRUdGN3JMTl9jWW9wRUswaDRJNmlmSXlrWWxiMkhhMHFxY1Ewd0pRaEEzWDh5bFNuZlkwMGRNMDBBdldyZ0hBcmVoeEYyS2NVZERZemo0Xy1vRWNhb2tveENXLXhFdXhuVm5VSDNzMmhKZHpxWHFqNFJqZzhJM0dOa0FheHIxQi1Tdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -229,17 +214,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-28-37c37a7811",
+      "id": "2026-08-28-d2b9dbbadc",
       "date": "2026-08-28",
-      "topic": "Business / Investment",
-      "title": "Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
-      "summary": "- Kementerian Koordinator Bidang Perekonomian Republik Indonesia surfaced this fresh item: Kementerian Koordinator Bidang Perekonomian Republik Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Automotive / EV",
+      "title": "Mobil Listrik Terbaru ICAR V27, SUV Offroad Premium untuk Kota dan Liburan",
+      "summary": "SUARANTB.com surfaced this fresh item: Mobil Listrik Terbaru ICAR V27, SUV Offroad Premium untuk Kota dan Liburan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "- Kementerian Koordinator Bidang Perekonomian Republik Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRm1FOFlsT3lUUVR3aWFxNHpLVDBRVHZGSDBNVm9MZl9XNF9PS2lyaXpRSHdaTEU2UVExbTZzS3YwdzJCSnM5WUFrUlVudF9uV3g0Ni1jelNxS3dKR05aQWdYMTVaUFRFdENJMnVmZUdsNzB2c1JpZWw4b1FtaDZmcWdHQkdQS0dWZFNfNFN3OVctMU1EclgtQWVySm5ndlZ0V3hZZ2ZXUnU0cG11aGpKQW1Cdmk2YjhfVDNEdXNWUGVKMmFBV0ZsRnA5Wl9sSmNRSEFFaG1Ua19CZw?oc=5",
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "SUARANTB.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUN5bE1tSXUyTzV1STBuWFBkWkVJN2lxVFFZaDNabW1uRUdGN3JMTl9jWW9wRUswaDRJNmlmSXlrWWxiMkhhMHFxY1Ewd0pRaEEzWDh5bFNuZlkwMGRNMDBBdldyZ0hBcmVoeEYyS2NVZERZemo0Xy1vRWNhb2tveENXLXhFdXhuVm5VSDNzMmhKZHpxWHFqNFJqZzhJM0dOa0FheHIxQi1Tdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -259,6 +244,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-28-37c37a7811",
+      "date": "2026-08-28",
+      "topic": "Business / Investment",
+      "title": "Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
+      "summary": "- Kementerian Koordinator Bidang Perekonomian Republik Indonesia surfaced this fresh item: Kementerian Koordinator Bidang Perekonomian Republik Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "- Kementerian Koordinator Bidang Perekonomian Republik Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRm1FOFlsT3lUUVR3aWFxNHpLVDBRVHZGSDBNVm9MZl9XNF9PS2lyaXpRSHdaTEU2UVExbTZzS3YwdzJCSnM5WUFrUlVudF9uV3g0Ni1jelNxS3dKR05aQWdYMTVaUFRFdENJMnVmZUdsNzB2c1JpZWw4b1FtaDZmcWdHQkdQS0dWZFNfNFN3OVctMU1EclgtQWVySm5ndlZ0V3hZZ2ZXUnU0cG11aGpKQW1Cdmk2YjhfVDNEdXNWUGVKMmFBV0ZsRnA5Wl9sSmNRSEFFaG1Ua19CZw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-28-43a3f694fb",
       "date": "2026-08-28",
       "topic": "Business / Investment",
@@ -274,21 +274,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-28-0a2f3f9f3c",
-      "date": "2026-08-28",
-      "topic": "Business / Investment",
-      "title": "Program 'Perempuan Berdaya' 2026 Perkuat Kapasitas dan Daya Saing UMKM Perempuan Jabar",
-      "summary": "Jabarprov surfaced this fresh item: Program 'Perempuan Berdaya' 2026 Perkuat Kapasitas dan Daya Saing UMKM Perempuan Jabar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Jabarprov via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQm10Nkw0cDdYMnpHNlVjZFU2TGUtUGtRN2UxOU02VEVFZXltTjc0S3ZHUER6NWlkYUpRcFJybW9ISmJxMFA2NFJwNE9JWGdjU2ZieXprWUQySVpOOXFBRlhZUmYwVkRuVU5LZUFlN2pLNWRLX19aTmQxMWN0LXBrY0I4aEZxUXo2TG56QWdLeTRvWlZZcllhcTVDYlNaaWVxa29fOGNWRUFVc1BXSmt6YUE4bHJKOU00U3kwZmdB?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-28-2dc6695b3d",
       "date": "2026-08-28",
       "topic": "Business / Investment",
@@ -300,6 +285,21 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "Databoks Katadata via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOazIwNW1oVGpTeTdFdE5HMm40VUZyMmpCcWE5R1h4R29nUzl1b3FlbFlXenYtMGo2NkRBOW9VSzlvaFFzaXFVN29FbW0tbHFMVzE3S2l0YkVkUHdCdmc2aVNvTTdoSjRSWVFsbERySGE1Xy10UzRudkpsa3d5UTdUUnIxSXdBQi1LdGwtWWUwY0UzdFVrbHpkSFU5N0RkM2RSRjFyLTBPa09xREcyYUdyNHV1dHNFVG5CdHJnTU9B?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-28-5fa57daca0",
+      "date": "2026-08-28",
+      "topic": "Infrastructure",
+      "title": "Lasarus Evaluasi Standar Pelayanan Minimum Jalan Tol",
+      "summary": "gesuri.id surfaced this fresh item: Lasarus Evaluasi Standar Pelayanan Minimum Jalan Tol. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "gesuri.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObVF5N2E4QWRDU0dXRi1VUl90dXhoMlR6WDVBcXp4dzhDS3d3X1dwcUhULUNjUEZyVHR4cjhLRExSbDBtSVI3NkVldktOTGtsX0VITXNmeWotWk9Yc2w3REoxWHVFdlEwd1g2bmxxUUhmeHlGaTFLLW5iOGl1MDJuSlhTbllicVBxSWpzWWpLYnBwdzFfVVZwYk9veEJGdzTSAaQBQVVfeXFMTlgySFV6dlF6S3VBNWY4T3U5Sks2Z2tUZHQ5N0c1ZzAwbjF2Y2RWRmNZRHRXdU12ZnpVcHJTenk2OGt0YTMwZVlVVFBjN3FNTTJZNGYtcV9BQUFIcHFmbVdkZWlUM1hzOVFFSzZyUUVxcmVKNHRjZTBuZTh2T1JreXJoRHg1QS1iVmhFV2RQR29jeGtNZnZrU1VUQm42Q1lLTWpJckw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -349,23 +349,23 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-28-0a7fb8e6e9",
+      "id": "2026-08-28-f5e253381f",
       "date": "2026-08-28",
       "topic": "Infrastructure",
-      "title": "B50 hingga Bioenergi, Prof. Arif Satria dan Anggawira Bicara Jalan Indonesia Menuju Kemandirian Energi",
-      "summary": "Diskursus Network surfaced this fresh item: B50 hingga Bioenergi, Prof. Arif Satria dan Anggawira Bicara Jalan Indonesia Menuju Kemandirian Energi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Video: Melesat Lewat Tol Trans Sumatra, Menggerakkan Ekonomi",
+      "summary": "CNBC Indonesia surfaced this fresh item: Video: Melesat Lewat Tol Trans Sumatra, Menggerakkan Ekonomi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Diskursus Network via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lWXJ0TUVmS0JwQkFnaUlya0RHSmJ6WGpvVGFpSU1WS0tnbnJuS2pfVkpMUlJBYlpkR01JdGtPT3ZkdmhPY3hhRGN3Nl9YZDlzVUpzT1pHdGR0ekZmSV9XV0hRQlNrWmZr?oc=5",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYURoZVFlbFJVNk9tY0FhSFRUZmtGXzVzTm1lQXFSLTJmY2JENUhjNnU2dkZaMUtHbWE0NHJIanptTnJFZTIwcVRtdmlUTV9HeXdEYURSSlN0ZTNJY050WlRWME8xdnIzSGRST0hHeGFvTmw0T0k2YXpleVVJZGtJR2JIQWRYZXZ6aHVPdXRCeHl6S09DcW9oalRvMk51M2FpN1BjUm0wRlRxbG9jRTF6NFNhSlRXaVM4?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-28T18:01:04+07:00",
+    "generatedAt": "2026-08-28T19:01:05+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,12 +374,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12737.0996,
+        "last": 12735.2002,
         "date": "2026-08-28",
-        "return1m": 1.25,
-        "return3m": -0.33,
-        "return6m": 6.73,
-        "return1y": 7.13,
+        "return1m": 1.24,
+        "return3m": -0.35,
+        "return6m": 6.71,
+        "return1y": 7.12,
         "volatility": 9.75,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -664,7 +664,7 @@
             "value": 12766.4707
           }
         ],
-        "profitScore": 2.38,
+        "profitScore": 2.37,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +970,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13920.7832,
+        "last": 13918.7031,
         "date": "2026-08-28",
-        "return1m": -0.76,
-        "return3m": -0.42,
-        "return6m": 4.89,
-        "return1y": 4.39,
+        "return1m": -0.77,
+        "return3m": -0.43,
+        "return6m": 4.87,
+        "return1y": 4.37,
         "volatility": 7.73,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 13981.5264
           }
         ],
-        "profitScore": 1.28,
+        "profitScore": 1.27,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,12 +1566,12 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 110.75,
+        "last": 110.76,
         "date": "2026-08-28",
-        "return1m": 0.08,
-        "return3m": -1.13,
-        "return6m": 3.22,
-        "return1y": 0.51,
+        "return1m": 0.09,
+        "return3m": -1.12,
+        "return6m": 3.23,
+        "return1y": 0.52,
         "volatility": 9.53,
         "maxDrawdown": -6.3,
         "sparkline": [
@@ -1856,7 +1856,7 @@
             "value": 111.6302
           }
         ],
-        "profitScore": 0.31,
+        "profitScore": 0.32,
         "view": "strongest IDR return screen"
       },
       {
@@ -1887,12 +1887,12 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12737.0996,
+      "last": 12735.2002,
       "date": "2026-08-28",
-      "return1m": 1.25,
-      "return3m": -0.33,
-      "return6m": 6.73,
-      "return1y": 7.13,
+      "return1m": 1.24,
+      "return3m": -0.35,
+      "return6m": 6.71,
+      "return1y": 7.12,
       "volatility": 9.75,
       "maxDrawdown": -5.12,
       "sparkline": [
@@ -2177,7 +2177,7 @@
           "value": 12766.4707
         }
       ],
-      "profitScore": 2.38,
+      "profitScore": 2.37,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2226,7 +2226,7 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 71,
+        "opportunityScore": 75,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

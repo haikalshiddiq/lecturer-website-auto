@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-29T22:00:55+07:00",
+  "generatedAt": "2026-08-29T23:00:06+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 29 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-29-b8200791f2",
+      "date": "2026-08-29",
+      "topic": "Business / Investment",
+      "title": "Kadin Jatim: OECD-BRICS buka peluang RI perkuat ekspor dan investasi",
+      "summary": "Antara News jatim surfaced this fresh item: Kadin Jatim: OECD-BRICS buka peluang RI perkuat ekspor dan investasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Antara News jatim via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTEtUNUV0MkxKSzdjNldCN1NLaUtWbi0tRU80UnRZdGUtSGFBaUhNUFNwRHBib1VZTjc3OGdPd0wwazNnTDZtOVBCME9SOHVnenBCVy14LW9TM0ZCaVNHUVUxMGJtVzdaRE1vQUVZYkFvU2ZWQTRGZkdSYlhSWS12cVJ6UGJubEUtODJrWjd6OEozbGRqS1hWWUtlNzVya2taWEREOUlBNFUyczJCbGZnONIBtgFBVV95cUxPelkwRVpyMVl4SzltMURTLUtqQmlteGNTR25kWHNRSkx0VWhaajhRT3Fvay1zdzV0bnBVSGRkZTF5dkNVR3VjMW4yMU1pUmJ6X0hvM1FrNnU5V3FSNTRFU1poZjBJa1NweExlTEVBQlR5V1lZWUlYdzlmUnB2QUNaWFJaNWJvTmpSLUMtNXhUdUFfS1BfOXlUNzNBTnp3RTFoNXNMay1wbTNFTjZWcWM1Z1ROdml4UQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-29-d857710b16",
       "date": "2026-08-29",
@@ -124,21 +139,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-29-f564f28683",
-      "date": "2026-08-29",
-      "topic": "Business / Investment",
-      "title": "BROMINE 2026 Dorong Teknik Kimia Menuju Industri Hijau dan Berkelanjutan",
-      "summary": "Prasetya UB surfaced this fresh item: BROMINE 2026 Dorong Teknik Kimia Menuju Industri Hijau dan Berkelanjutan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Prasetya UB via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWHdwOEN1ZWdpWXBVSXpjY1JEMlhBWHBPVndpWElzN3dBSFBkcXc2WWtWLTN2ejd3S0dCTTZfNEpMa2p4bTRmRWktdzVsRTBYOG9mSFNDQTItWFB6VWhPVHlFMUp1aXVpNURodFhIZTJjT2NpMkpUREJQZlNpVkZFcnduWTV3akdTY1I4LUtTWjBTdDZ6MUV5R21teDZNVzcw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-29-ab12d3d4cb",
       "date": "2026-08-29",
       "topic": "Regulation",
@@ -199,17 +199,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-29-9c97f92477",
+      "id": "2026-08-29-b54523c2bd",
       "date": "2026-08-29",
       "topic": "Automotive / EV",
-      "title": "Mobil Listrik di Masa Depan Bisa Ngecas Tanpa Harus Dicolok",
-      "summary": "detikoto surfaced this fresh item: Mobil Listrik di Masa Depan Bisa Ngecas Tanpa Harus Dicolok. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Kolaborasi Indonesia-Malaysia Kembangkan Baterai Kendaraan Listrik",
+      "summary": "CNN Indonesia surfaced this fresh item: Kolaborasi Indonesia-Malaysia Kembangkan Baterai Kendaraan Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "detikoto via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUw1UHhRWUVDbVBTZTRoNzNwZ21KY3IwOFNoeVN4WGV5aHhVaXlDclZBUTVRMTFNMjBudGt6UnZ4c0pHZ2tfUkcwU29MTlFtZVEzZ1ZPdlVIN1BoYWJHek1GMnJVb0xqWUZESU1aRFk0elBvT0JxcHlOOXJGQXIybDVEcklLT1h2NUNiYUlzOU1XNDA0SERSdTRVcUpKSW_SAaQBQVVfeXFMUEhxd05PdEpUWldsbXJiMDFSTGp4UTJrRlhMZEV6SDV5cWtEVHlyRFlGQ19qN3NVaFQ5YnpPYnNtZE5XYzZPSXdMUEp0MUNDak9mWk04NHFlRFBMTnZXOU82YXJwN1hrUjl1WElReXF5MkJJS0tCZ1k4LXlRM0FuMVpxRUJSQ2p4Y0xJMFZJSnN5NHJwRFBEQ2xMMG53dW8td19Ga2E?oc=5",
+      "source": "CNN Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMTY2eHA2b3RhWFk1MEpxZmV3SWI4dnowc2J6b1RaWmEzOVJtRUxscF95cVd3dks3VmtwSEh6MFZJS0I4a1NmNWk5dTFQM1o3dnB3a0VQMk5DWVplSnA2OXdUeFRmVmdTUVZFTnN2SXZCam1IQVZJR2laeFVQcmg2LWxQc2d2V1lxYnp0QWVfQy1CbnJHSXRUbjZIMVZkZkZMRmM1UndxOEprNXg1dUR3MmZvNzNQbFN6RXlPdG9rOXQwMmlKcWcwb3gzWdIB0AFBVV95cUxNSmdjMU11SUpwUmt6V0Rvb1VMbFgtT2VBcHFGdU5NTk9aZGgzU3VOUm5Iak9tN3FPWWJUUjczVDR5YV9kSDUxTDloa0VTZ1F5WGp1NjNYMUtRNGNmeTMtYU9BdjV4Y3hXOG9rNXR5TnphOWFhR01QTzBHZTlWZno0ZmtrWVJUUDV0dE95VjhTUEZjUFdHUjRvYVBGdDNndkNRR1F2SHRmMmNsX3lkYWdBSmxlQ090ZHJ2NnZITHpEZWtWYkZsYU0xWWVMQ1JHbjg1?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -229,17 +229,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-29-3b1370afc4",
+      "id": "2026-08-29-81337d519e",
       "date": "2026-08-29",
       "topic": "Business / Investment",
-      "title": "Konglomerat RI Kuasai Bisnis Avtur di Singapura, Sasar Bandara Changi",
-      "summary": "CNBC Indonesia surfaced this fresh item: Konglomerat RI Kuasai Bisnis Avtur di Singapura, Sasar Bandara Changi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Industri Crypto Indonesia Dinilai Punya Prospek Besar",
+      "summary": "MetroTVNews.com surfaced this fresh item: Industri Crypto Indonesia Dinilai Punya Prospek Besar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNDVoZ0psNTBYcTdKTm5lZmFxanJremRoM3Z0dDdURVpMdzBJcnBfRXRSSFEtb0QwQ2dnbFA0UHVqX3pXdTBGNHBpcWhuNTVUalJPaUFlNEZxNERvVGNXVDY1RlRhdTNNNUM3RWpCTUI1SlpaeDBtRkwtQ1pTcExIT050TmlDX1A5emFNVllxRjJDY3A0WEtDdjZ6TkxuMFV3ZmZyVERIQnhhT21OdHBmaVpITVRkNExBc2xEeTlTZko1ZlhzSXNIZy130gHPAUFVX3lxTE9wbEFfa1h6cTdLS2NyQkM5S0JobkxkRHo1ZVRYb0lKVEpxaXRENWEwODlJMkhWM19fUXdWaWcxTE14MVB0SW4yQzVWNGxfWXJyeFVjUlkzRHhhMFBNSWxRalpCb0FSOE42Z19uM2tVMFVWczRHSF81VXpwV3NmN0JoLUV3YlpUREd0c0pIN3ZoaEN3Y1Q4T0NacTNzVWhadERuVGY4UDdiY0N2Rm5wXzQ2cDhiTlI0ZllScVZTTU9TZi1PZTNVeHZRQXFFUUNYNA?oc=5",
+      "source": "MetroTVNews.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeXdtWTNJblhpN19xejh0UVdBcncxclBKQ0s4ZEowWDc2N2wzemlFV2kwdzJXdlNIREFzeHlJSFNuM18zdHRmUGFFVEpXVlg0TXlmamhUQ0o5YWYteWJ2Y1FEZ0RUenRhME9zLVdBSndqWUZuZnFBQ2xwOXlDNWdkcU9qVkVwT1Vsc2tBc0RHZzk5QlpsQzBldFFvSQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -259,6 +259,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-29-050a1b0ed2",
+      "date": "2026-08-29",
+      "topic": "Infrastructure",
+      "title": "Transformasi Layanan Berbasis Digital untuk Tingkatkan Kepuasan Pengguna Jalan Tol",
+      "summary": "Media Indonesia surfaced this fresh item: Transformasi Layanan Berbasis Digital untuk Tingkatkan Kepuasan Pengguna Jalan Tol. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Media Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYU1zREJ2dm1yVnh2Y1l4cFlhNDJGRzJtWU5XMkxfVW9GSlJVcHJ1bzNBVEFuaTRldXN1RnpUTGVSNU80YmRrS0JPOWFzeWdteXNNY01LXy0xWGRjWjVFWlhPd01rQ0R1WG1kdWhxV0lGRE9fc3dEa2RBdUFVSnRyXzV0YlZRU1l3VzFMaGdRUmJCcnpxNm52cjNSeVNpMWxnRWl5WEFObldDOXF5RzF0WDJPSUdldnhxeEs0Q2pfVFEwdw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-29-8bf1e33c4a",
       "date": "2026-08-29",
       "topic": "Infrastructure",
@@ -274,6 +289,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-29-77e50d163e",
+      "date": "2026-08-29",
+      "topic": "Infrastructure",
+      "title": "Dirut KAI: Penguatan keselamatan perlintasan kereta terus berjalan",
+      "summary": "ANTARA News Yogyakarta surfaced this fresh item: Dirut KAI: Penguatan keselamatan perlintasan kereta terus berjalan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "ANTARA News Yogyakarta via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMjRKOHVjR050WGpLWFBxSGtmNDRQTHRpNkNVQUNFQktpVjE2WHBEQ2tFa2o2QUhua2w2TlAzYy1xdXJ1RHAzM1FqWU5iQ283M2NBZFAzOWFaOGh4ZVpmTmQ2eWhlRGpCMmlSSk9zRjR4NzJXMnVqd1RCQ1lPQ21iUDhxRFJGcDVGU2o2TmUxS3A3dlhuRk5pc0FRdUV0Vk5FbGNwZlJ0d0RrVjlZ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-29-0d35a23f89",
       "date": "2026-08-29",
       "topic": "Infrastructure",
@@ -285,36 +315,6 @@
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
       "source": "investor.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNanJjdjNMR0J2N3NZZFJ5cjJidVRMeWJuTHJOd1JrV0VuLWw4UzVYTEtiNWJTVXZJRUw0RW9sZUllbkIwRmt6MW9aVEtORC1JLXpuVXhReW94ZGVkcUdqVkFSWHBKUEIzX0EtbjIxNmlZTVBubjBfSmdpVVJicmJ4OWNvcWRWeGtyRXlmbV9IWFJubDhqMmVoN1diVHdVaG9vb1NHMXpoeW5BS0hJejFFbWp4TUdkQWJJUFdhT0ZwYVNtVEJEcUVnUHNxaU1XRzRNQmRNeGhB?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-29-aa1054c756",
-      "date": "2026-08-29",
-      "topic": "Infrastructure",
-      "title": "Jasa Marga Perkuat Layanan Integrasi Jalan Tol untuk Pengalaman Pengguna",
-      "summary": "achmadnurhidayat.id surfaced this fresh item: Jasa Marga Perkuat Layanan Integrasi Jalan Tol untuk Pengalaman Pengguna. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "achmadnurhidayat.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ORXJYZTgyYlVMalFWbUljT25kcnFES21oSWhGX281YnpQVzFOWXVLQzZtcWt5T0d6N3JIemFKYXdiU2ZIN3FlSHM1SFNHb0RCdThWaUtNNUI0S3gzTklxc3J1WWJxMGJ4RjMtck9GLW5Cdw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-29-c2afa8ab87",
-      "date": "2026-08-29",
-      "topic": "Infrastructure",
-      "title": "Jasa Marga Integrasikan Tiga Pilar Layanan Tingkatkan Pengalaman Pengguna",
-      "summary": "RM.ID surfaced this fresh item: Jasa Marga Integrasikan Tiga Pilar Layanan Tingkatkan Pengalaman Pengguna. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "RM.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVV9TTXJvMG5SOVlCcjYyV2t3aVA1cUtZOTJRZDdxZks4VzFWaGRVdDIxckNjdDI5UzFFcWg5SV8wZDVRSGVTWFBsVTJfRF9XWWh3SERpRWVTTG1sdEJ5TWNwOXgxNWh5V3BwekQ2TnhiV1lOT2V0cmdrMHdHX3pPMncyaHlkaUYtaE1UMGtYTnFBQnFobGNCV2hoYkw4M1prQW1nWDZwbTZkY1lDQm9keFdPaTRoUlFmMGFNUGNB?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-29T22:00:55+07:00",
+    "generatedAt": "2026-08-29T23:00:06+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T13:00:15+07:00",
+  "generatedAt": "2026-08-29T14:00:26+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 29 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -154,21 +154,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-29-9c97f92477",
-      "date": "2026-08-29",
-      "topic": "Automotive / EV",
-      "title": "Mobil Listrik di Masa Depan Bisa Ngecas Tanpa Harus Dicolok",
-      "summary": "detikoto surfaced this fresh item: Mobil Listrik di Masa Depan Bisa Ngecas Tanpa Harus Dicolok. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "detikoto via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUw1UHhRWUVDbVBTZTRoNzNwZ21KY3IwOFNoeVN4WGV5aHhVaXlDclZBUTVRMTFNMjBudGt6UnZ4c0pHZ2tfUkcwU29MTlFtZVEzZ1ZPdlVIN1BoYWJHek1GMnJVb0xqWUZESU1aRFk0elBvT0JxcHlOOXJGQXIybDVEcklLT1h2NUNiYUlzOU1XNDA0SERSdTRVcUpKSW_SAaQBQVVfeXFMUEhxd05PdEpUWldsbXJiMDFSTGp4UTJrRlhMZEV6SDV5cWtEVHlyRFlGQ19qN3NVaFQ5YnpPYnNtZE5XYzZPSXdMUEp0MUNDak9mWk04NHFlRFBMTnZXOU82YXJwN1hrUjl1WElReXF5MkJJS0tCZ1k4LXlRM0FuMVpxRUJSQ2p4Y0xJMFZJSnN5NHJwRFBEQ2xMMG53dW8td19Ga2E?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-29-ead3544257",
       "date": "2026-08-29",
       "topic": "Automotive / EV",
@@ -184,6 +169,51 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-29-9c97f92477",
+      "date": "2026-08-29",
+      "topic": "Automotive / EV",
+      "title": "Mobil Listrik di Masa Depan Bisa Ngecas Tanpa Harus Dicolok",
+      "summary": "detikoto surfaced this fresh item: Mobil Listrik di Masa Depan Bisa Ngecas Tanpa Harus Dicolok. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "detikoto via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUw1UHhRWUVDbVBTZTRoNzNwZ21KY3IwOFNoeVN4WGV5aHhVaXlDclZBUTVRMTFNMjBudGt6UnZ4c0pHZ2tfUkcwU29MTlFtZVEzZ1ZPdlVIN1BoYWJHek1GMnJVb0xqWUZESU1aRFk0elBvT0JxcHlOOXJGQXIybDVEcklLT1h2NUNiYUlzOU1XNDA0SERSdTRVcUpKSW_SAaQBQVVfeXFMUEhxd05PdEpUWldsbXJiMDFSTGp4UTJrRlhMZEV6SDV5cWtEVHlyRFlGQ19qN3NVaFQ5YnpPYnNtZE5XYzZPSXdMUEp0MUNDak9mWk04NHFlRFBMTnZXOU82YXJwN1hrUjl1WElReXF5MkJJS0tCZ1k4LXlRM0FuMVpxRUJSQ2p4Y0xJMFZJSnN5NHJwRFBEQ2xMMG53dW8td19Ga2E?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-29-ba01d086d1",
+      "date": "2026-08-29",
+      "topic": "Infrastructure",
+      "title": "Jasa Marga Integrasikan Tiga Pilar Layanan Jalan Tol",
+      "summary": "SuaraGarut.ID surfaced this fresh item: Jasa Marga Integrasikan Tiga Pilar Layanan Jalan Tol. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfdFI2WVVSemlRVWZQeHpVcjhJQlJHUWVMb2dTM1BQWW1IeUVCYjlOb0MxbDFuTzVOXzJZQ0lTUHAzb2FqVHZHcGxkb2pYNE1XYlBQSUNIY1h1ZFNNc0JYWVpma1ZHSlpWdUpIUHVfM1JXZw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-29-aa1054c756",
+      "date": "2026-08-29",
+      "topic": "Infrastructure",
+      "title": "Jasa Marga Perkuat Layanan Integrasi Jalan Tol untuk Pengalaman Pengguna",
+      "summary": "achmadnurhidayat.id surfaced this fresh item: Jasa Marga Perkuat Layanan Integrasi Jalan Tol untuk Pengalaman Pengguna. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "achmadnurhidayat.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ORXJYZTgyYlVMalFWbUljT25kcnFES21oSWhGX281YnpQVzFOWXVLQzZtcWt5T0d6N3JIemFKYXdiU2ZIN3FlSHM1SFNHb0RCdThWaUtNNUI0S3gzTklxc3J1WWJxMGJ4RjMtck9GLW5Cdw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-29-0d35a23f89",
       "date": "2026-08-29",
       "topic": "Infrastructure",
@@ -195,6 +225,21 @@
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
       "source": "MONITOR.CO.ID via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRmpkTEJjckxON0N3Ul9FTEhpYTZOU1JOSENBanFSVEk3bWc2ZHZwVDk1MHNCaXB5akdvbHE5cnI4dlNjazRYYkQ1U2pNWVJCbDZzM0FVZDdaLUYwMWdoVlctM1BTMjdYbXdJN2Z4MTBXY3ZJaVNGa1B1bENCQmRVbklPdi02Ry1UaTBCRkZBS2NCVDMtaC1qN1FyZFlKSkh6YURudkRJTlI1bWxhX1JyaUhoVXZxN3MtTEU0UzNyUFNadm5Pa2t6a0NCNHVGN0s5blVVaGV4Y2XSAdgBQVVfeXFMTUZqZExCY3JMTjdDd1JfRUxIaWE2TlNSTkhDQWpxUlRJN21nNmR2cFQ5NTBzQmlweWpHb2xxOXJyOHZTY2s0WGJENVNqTVlSQmw2czNBVWQ3Wi1GMDFnaFZXLTNQUzI3WG13STdmeDEwV2N2SWlTRmtQdWxDQkJkVW5JT3YtNkctVGkwQkZGQUtjQlQzLWgtajdRcmRZSkpIemFEbnZESU5SNW1sYV9ScmlIaFV2cTdzLUxFNFMzclBTWnZuT2tremtDQjR1RjdLOW5VVWhleGNl?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-29-146675451f",
+      "date": "2026-08-29",
+      "topic": "Infrastructure",
+      "title": "Sejarah Tol Layang MBZ: Dari Tol Jakarta-Cikampek Elevated hingga Pergantian Nama",
+      "summary": "Universitas Teknokrat Indonesia surfaced this fresh item: Sejarah Tol Layang MBZ: Dari Tol Jakarta-Cikampek Elevated hingga Pergantian Nama. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Universitas Teknokrat Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOUduZHVyTXBPS0Y0c2o1RGNFMFJ5dEd1RDFhQ2x1cDdmd0tZcEVpcjRQcVIzTll6MUtCUjNJcV9COXV6blZnZk53cHNNOENCVlByR19TWVhNX0c0bE1Td1hZaDRJZnp0emw0SE1EZXdGZ2lCUVAtMHNYVEY3NGNDaWVWbXBmV1R1RlhJUzJYb0pkTkxTd3MxYkxwd21MVXU5YTNjRlk4V1d4UjVFY3hiOGlveG9IUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -254,7 +299,7 @@
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "BERNAS.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdC1kcTZiNWZJazBKNkxPNk9WWUtzcXJyUC1GNmhIdjJVcUFmV05GTHhOWThrV1NwQnNnZnZPYmhGOHM0Q0JKaExSOC0yY21hS055QUZPZHkwTlluak1hcVpucjN2OHYxWFpfX29rUlBxU1E4NUFGQUFlSEZlUGs1YVBwZmh2RnEtTDBxdTNKcHByTnhkejVSQUk5WFZHaVAyN1ZBdWl3?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTFd0UWg3UHBBeXNnV3JHTU5zT1lMekpYdkVKN19vYi1La0RXM3B0ZXhFM0w4V0xWVkZ6RXR2b1RGY0c4N3NLeUxyVjltYm4tRTVDQThpRkQtWWI1QUg5TTdqUXZ5Y05NM3RpbzdOcXNuX3Eta3RjNlh4NkMzUHdGU0pOZUw4akZ5Z0FwWkl3Qy1WT24xQjFITFNUblZRVTMzbVpfeWt2d2VjTkU?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -317,55 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdEFWek5sX0R4ckN0ZW1iYVhqcTh2UjB5WEEwZm1JOWxBZUVXU1hwX0lqRDFHMjlxVGlEcUlYNVgzUDhmRGdwZlYyY0cwQ1cyQkR4RDkzWUVaTlFyNFBCVnNWRWl2VlhtVk5YMzhRd0wyblFOUUhlYlBNMkhVNGNQSmVoeDRoOG1abW9POEgyYTBQN0o4MkgzMG96c2o?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-28-2e572e52b5",
-      "date": "2026-08-28",
-      "topic": "Tech / AI",
-      "title": "Dorong Jakarta Jadi Hub Data Center, Rosan Ajak Investor Bangun Infrastruktur Berbasis AI",
-      "summary": "InvestorTrust surfaced this fresh item: Dorong Jakarta Jadi Hub Data Center, Rosan Ajak Investor Bangun Infrastruktur Berbasis AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "InvestorTrust via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQzFqbFpTNjNGSTBpNlJGd21GWlVmSmtOSzl0SWJvR2xxbW9RT19QeEt0WWpiblM0TkZNNUJ2dVRidGlUdHRoeDRNWHM3bmxLeEJvbHRubWZnY19HWHpvRVU1NW9wTlVfWGF6U3VKUTZaZnhJRnBxdHl0TmVMUXlXUmZidDdfdHY0NjgteXA2NXVmQU9xRV9HZ0gyLWJXVHVTbmJsSUJRVUVKa3l4ZXJkZHNVNFZOenh5dFNGelQ4TlpzUnpCZWdEdQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-28-52ce739bc3",
-      "date": "2026-08-28",
-      "topic": "Startups",
-      "title": "Ajaib Dapat Rp4,8 Triliun dari Jepang Saat Startup RI Kering Investasi",
-      "summary": "CNBC Indonesia surfaced this fresh item: Ajaib Dapat Rp4,8 Triliun dari Jepang Saat Startup RI Kering Investasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSFFIOHNQNjFyZDBfNGJxSENKcElRWXZXSDJwWVFCTHBoMW96LUlZY2JFNmFOSVRMb25JQjVGOU1BekEteWtQY1BiZS1HYWJTQTdTNngzUUczNjJRU2lGdzF0QUJ5RV8yY01hYkNkeXVmZFR6VnBGUjEzZWlFRWs4QWluSTMxVlFsVlkwSjdDM0pndFd0M2tmMUduVGdTNjBwOW1DVzM4dzR6Qkhack5xM2lDRnJyLTI2aXdrYS1SOU5hOU1YeWRuVFl5UmJrd9IBzgFBVV95cUxPSFFIOHNQNjFyZDBfNGJxSENKcElRWXZXSDJwWVFCTHBoMW96LUlZY2JFNmFOSVRMb25JQjVGOU1BekEteWtQY1BiZS1HYWJTQTdTNngzUUczNjJRU2lGdzF0QUJ5RV8yY01hYkNkeXVmZFR6VnBGUjEzZWlFRWs4QWluSTMxVlFsVlkwSjdDM0pndFd0M2tmMUduVGdTNjBwOW1DVzM4dzR6Qkhack5xM2lDRnJyLTI2aXdrYS1SOU5hOU1YeWRuVFl5UmJrdw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-28-e09c78e2dc",
-      "date": "2026-08-28",
-      "topic": "Regulation",
-      "title": "BI Ungkap Kredit Bank Belum Optimal, Dunia Usaha Masih Tahan Ekspansi",
-      "summary": "TradingView surfaced this fresh item: BI Ungkap Kredit Bank Belum Optimal, Dunia Usaha Masih Tahan Ekspansi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "TradingView via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xQ1hMd2hDSGRXZ2RaMFhlY24tZ0k0RnJEUVczd284dXhHM2NaM1BWVU9pTkJZaVhUcDNMZDJjREFXMmdNR19heVJzem03TlQweWM0bzFBZlYyOGk4QktnV3hhY2R5UQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-29T13:00:15+07:00",
+    "generatedAt": "2026-08-29T14:00:26+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2215,19 +2215,19 @@
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 67,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 63,
+        "opportunityScore": 75,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
+        "opportunityScore": 63,
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }
     ],

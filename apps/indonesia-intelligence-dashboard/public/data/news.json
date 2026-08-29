@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-08-30T00:00:43+07:00",
+  "generatedAt": "2026-08-30T01:00:46+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 30 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-08-30-558f6ee775",
+      "date": "2026-08-30",
+      "topic": "Infrastructure",
+      "title": "Jasa Marga Perkuat Integrasi 3 Pilar Layanan Jalan Tol Sesuai Kebutuhan Pengguna",
+      "summary": "Iconomics surfaced this fresh item: Jasa Marga Perkuat Integrasi 3 Pilar Layanan Jalan Tol Sesuai Kebutuhan Pengguna. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Iconomics via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbUpBcFZwY0tSeUMwT0h0czdXWmlGZEZONGdBdlNUaTF4WWxKbEpjQVRTMlJYUFFXc0IzRGJhWE5ZZHZQUE1NUzlDT1R3VzBjMUFvdWNya0VMX3NLUHpnZTRJSGVtSmYxN3dxVEhCWjU2N21iNHMteThidFhRcXBpSFo2eldVV25BSmtQSlVjdVJpWHBQZnlmR3RmcWRyME1BSS0tNWF0aFBkUWJiclN6d05sS01Tc09wTXBpd3JTYnhjYmNyZ0E?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-08-29-b8200791f2",
       "date": "2026-08-29",
@@ -304,21 +319,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-29-aa1054c756",
-      "date": "2026-08-29",
-      "topic": "Infrastructure",
-      "title": "Jasa Marga Perkuat Layanan Integrasi Jalan Tol untuk Pengalaman Pengguna",
-      "summary": "achmadnurhidayat.id surfaced this fresh item: Jasa Marga Perkuat Layanan Integrasi Jalan Tol untuk Pengalaman Pengguna. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "achmadnurhidayat.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ORXJYZTgyYlVMalFWbUljT25kcnFES21oSWhGX281YnpQVzFOWXVLQzZtcWt5T0d6N3JIemFKYXdiU2ZIN3FlSHM1SFNHb0RCdThWaUtNNUI0S3gzTklxc3J1WWJxMGJ4RjMtck9GLW5Cdw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-29-65692265df",
       "date": "2026-08-29",
       "topic": "Startups",
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-30T00:00:43+07:00",
+    "generatedAt": "2026-08-30T01:00:46+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

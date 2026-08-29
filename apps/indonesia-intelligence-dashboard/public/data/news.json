@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T14:00:26+07:00",
+  "generatedAt": "2026-08-29T15:00:37+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 29 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -94,6 +94,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-29-3a472ea5f3",
+      "date": "2026-08-29",
+      "topic": "Business / Investment",
+      "title": "Video: Ekspansi Bisnis Emiten Properti, Incar Ekosistem Pendidikan",
+      "summary": "CNBC Indonesia surfaced this fresh item: Video: Ekspansi Bisnis Emiten Properti, Incar Ekosistem Pendidikan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWXlYb0ZGbC05dlcwU1Z4MjNPdjlBWk05RzFhV2VYSUtxeTRNaERiOE5INDJSRXRoa0NHc1FSQ1FSWERLWm5kblNvcWFUdjVPS3k5WDFkeW1pSXVkTGdZSEJHa3RjelBUdDh4aFlWVFIycmpQV0x0MW1kcVotTVVaSHlNNUxwRFk3bXZMM3dLZnRNbXJiOTR2Q0ZmcEJQYklvWHhkbFhSQWJyTDFqN19WUFlyVlAxNmFyZUQ5LUhWOW9MRjZI?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-29-e95c8bb0dc",
       "date": "2026-08-29",
       "topic": "Business / Investment",
@@ -124,17 +139,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-29-8d4a535ab1",
+      "id": "2026-08-29-8fdcdb9d44",
       "date": "2026-08-29",
-      "topic": "Business / Investment",
-      "title": "Kadin Indonesia Dorong Kolaborasi Industri dan Inovasi Bisnis melalui ‘Go-See and Pitch’ di Fasilitas VKTR",
-      "summary": "InvestorTrust surfaced this fresh item: Kadin Indonesia Dorong Kolaborasi Industri dan Inovasi Bisnis melalui ‘Go-See and Pitch’ di Fasilitas VKTR. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Tech / AI",
+      "title": "Rosan Bocorkan Arah Baru Proyek Hilirisasi, Incar AI dan Teknologi Digital",
+      "summary": "KabarBursa.com surfaced this fresh item: Rosan Bocorkan Arah Baru Proyek Hilirisasi, Incar AI dan Teknologi Digital. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.16,
+      "score": 0.08,
       "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "InvestorTrust via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZ09YdWw0SlFFSTl2dW1DNk9fT3V3MzZCclhyVWktQmFfbHlnemZlWDhNSnBVWjFHcFFpckRpRXNGQk9SRzNVR1IwWENOVzI2azFwT3RXZ28xVEEwN1FXUUxyc0VEUllXeWhJWFFCTFN6bnU3UmlBWnl3VXdHaXh2SVVuakI2TUdoWXB6T1FSVnRkSkVHS095dWgtWk93Yi1QTlNHVFhTeVV5NGFHNEVRREI1aEJCSm9HMWFWSFRzUzdlZE8zSHl5aVBMNWg3SWpYRGJpbGhUN0pTZGhybUE?oc=5",
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "KabarBursa.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTC1rN1lrdDRIX3hWOEVBZ1pyQ2lNUWlKWDE1cXZQaFUyYzlfay1BTjhxbHVhT1hCZVdLMVk1VlhpRUl2R1A2d0pfaGc3RE8tRl8wVktmSEd4bFJHMU54SjlPT0FKd0FJOWFHLU15RzNEV09ncVNhTUlGWUtCR3dseXI2dTNkX1hjQU9fSXdRRktWaE16RWV1cW1PTTJKYkJPLUxRSGZNaVJNdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -154,21 +169,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-29-ead3544257",
-      "date": "2026-08-29",
-      "topic": "Automotive / EV",
-      "title": "Daihatsu Mau Gandeng Perodua Garap Mobil Listrik Murah",
-      "summary": "Kompas.com surfaced this fresh item: Daihatsu Mau Gandeng Perodua Garap Mobil Listrik Murah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1pWUzFPWWFjNlpEeVllME9IUzgtWGswZktIeGxZZ1JjSUdfczNSQWNfRXZUa0doQm5vVjBCcmRBb1lDaDVTNURKenhfdEY4YzNzMjdSV2prR2xmcl9Nc3hCZkU2VUtPeDRRSUlISHl2aFFvN2tsd01heGljMWstUGdzZU9XWVdoamdfYXRLdi0zVnZ1XzBxZjhnMHYtZ3JwREdaTXhjOUFtX2tE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-29-9c97f92477",
       "date": "2026-08-29",
       "topic": "Automotive / EV",
@@ -184,6 +184,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-29-ead3544257",
+      "date": "2026-08-29",
+      "topic": "Automotive / EV",
+      "title": "Daihatsu Mau Gandeng Perodua Garap Mobil Listrik Murah",
+      "summary": "Kompas.com surfaced this fresh item: Daihatsu Mau Gandeng Perodua Garap Mobil Listrik Murah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1pWUzFPWWFjNlpEeVllME9IUzgtWGswZktIeGxZZ1JjSUdfczNSQWNfRXZUa0doQm5vVjBCcmRBb1lDaDVTNURKenhfdEY4YzNzMjdSV2prR2xmcl9Nc3hCZkU2VUtPeDRRSUlISHl2aFFvN2tsd01heGljMWstUGdzZU9XWVdoamdfYXRLdi0zVnZ1XzBxZjhnMHYtZ3JwREdaTXhjOUFtX2tE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-29-ba01d086d1",
       "date": "2026-08-29",
       "topic": "Infrastructure",
@@ -195,6 +210,21 @@
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
       "source": "SuaraGarut.ID via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfdFI2WVVSemlRVWZQeHpVcjhJQlJHUWVMb2dTM1BQWW1IeUVCYjlOb0MxbDFuTzVOXzJZQ0lTUHAzb2FqVHZHcGxkb2pYNE1XYlBQSUNIY1h1ZFNNc0JYWVpma1ZHSlpWdUpIUHVfM1JXZw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-29-8bf1e33c4a",
+      "date": "2026-08-29",
+      "topic": "Infrastructure",
+      "title": "Penyebab HK Alihkan Akses Masuk Tol Pekanbaru melalui Pintu Tol Bypass",
+      "summary": "Bisnis.com surfaced this fresh item: Penyebab HK Alihkan Akses Masuk Tol Pekanbaru melalui Pintu Tol Bypass. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Bisnis.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV3VwQ0xIVjM0SmRlYTYzSi1RaGhGR2l5Z216b0ZQY28xZjlnMGJZUW1za3ZZaHg2SDFtWThvNURPWmpxbkZ4eTFhVXh5WFJ3REN5Tlh6dnk0RW5mRl8zTkxHN2hoeFRDZVJiSklVSHJMV3BLQVRoZkJscTlMSkFTb1lBMjVBYUtXV2FLMlgyMl9rYkJfS1R1V0xnLUxXU1RqSnFCdEtsQlFrVXZxX0FzalJkMGY3THFUUXVWN2pqUHQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -240,21 +270,6 @@
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
       "source": "Universitas Teknokrat Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOUduZHVyTXBPS0Y0c2o1RGNFMFJ5dEd1RDFhQ2x1cDdmd0tZcEVpcjRQcVIzTll6MUtCUjNJcV9COXV6blZnZk53cHNNOENCVlByR19TWVhNX0c0bE1Td1hZaDRJZnp0emw0SE1EZXdGZ2lCUVAtMHNYVEY3NGNDaWVWbXBmV1R1RlhJUzJYb0pkTkxTd3MxYkxwd21MVXU5YTNjRlk4V1d4UjVFY3hiOGlveG9IUQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-29-da4b8a19eb",
-      "date": "2026-08-29",
-      "topic": "Infrastructure",
-      "title": "GOSONG Sisi Jalan Arah Bandara, Gubernur Pimpin Pembasahan",
-      "summary": "Suar Indonesia surfaced this fresh item: GOSONG Sisi Jalan Arah Bandara, Gubernur Pimpin Pembasahan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Suar Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSTRiTk9CUkpJdGpEbnJhMHlMX2tUOGl3RVBNQ0w3WkE5UksxVXNyQndjRTRBTmkyd2pVaHVhcldla3JPaG9kRVRqTVdSM3dXZUFRa2Z2QXlLMjZoTmJseXhVS1NzMHhiOWlXSDFIbTBJbEN2dlk5Q3BwYmlFU2Z0SmVtbFNkeW1FOUdkdg?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcU83WXhtR0VsTWpMZE9QbUdwZnlzRkNlVDBZckhqa09tMUVrYTA4QjJOUThyTG1hNlBQQWpsQXM2WlJwXzdmMlM2MkJFcTdvbjFyTnM3X0hEcU9Bdy1IbEJ0ak1ZYlhCdF9wRXowTFhoYmdFb2pSQjZTaGR6aUJsRzlPdEtJaDhpVlc0TmxFVUttNkJUMUNBMldldmJrXzN0OVNib01pdks5dkdVdzFPZTJNREdBT3RKdzY2RGR4UGk?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-28-fca78f9396",
-      "date": "2026-08-28",
-      "topic": "Regulation",
-      "title": "BI Sumbar Dorong UMKM Naik Kelas, Bidik Pasar Jepang, Prancis dan Amerika",
-      "summary": "KlikPositif.com surfaced this fresh item: BI Sumbar Dorong UMKM Naik Kelas, Bidik Pasar Jepang, Prancis dan Amerika. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.21,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "KlikPositif.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdEFWek5sX0R4ckN0ZW1iYVhqcTh2UjB5WEEwZm1JOWxBZUVXU1hwX0lqRDFHMjlxVGlEcUlYNVgzUDhmRGdwZlYyY0cwQ1cyQkR4RDkzWUVaTlFyNFBCVnNWRWl2VlhtVk5YMzhRd0wyblFOUUhlYlBNMkhVNGNQSmVoeDRoOG1abW9POEgyYTBQN0o4MkgzMG96c2o?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-29T14:00:26+07:00",
+    "generatedAt": "2026-08-29T15:00:37+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2226,7 +2226,7 @@
         "ticker": "TLKM",
         "name": "Telkom Indonesia",
         "theme": "Digital infrastructure",
-        "opportunityScore": 63,
+        "opportunityScore": 67,
         "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

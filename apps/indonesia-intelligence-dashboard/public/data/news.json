@@ -1,35 +1,50 @@
 {
-  "generatedAt": "2026-08-31T09:00:11+07:00",
+  "generatedAt": "2026-08-31T10:00:11+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 31 August 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
     {
-      "id": "2026-08-31-f8134a041b",
-      "date": "2026-08-31",
-      "topic": "Markets",
-      "title": "IHSG Senin Berpeluang Menguat Terbatas, Tiga Saham Ini Jadi Pilihan Analis",
-      "summary": "VOI.ID surfaced this fresh item: IHSG Senin Berpeluang Menguat Terbatas, Tiga Saham Ini Jadi Pilihan Analis. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.21,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "VOI.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVWRGb2xoVmN3TGtGazhPUGpCUUlTX0tBclRabnJCTTNQWFFRU1Z0MjhabVZlLUotZDVrbTVZdTF3di10QklnTDNfc291V01XZVZUQk55ZF8wYmZIMXdaaWFZd0hBUzJxWGkzd1paRE1hSXlIMF95MWhGWDN0SUctM01UaW5RWVpmRzVUYzgyZXZMVks1WW8yTW9JaUx2VDR5QlF0N09B0gGgAUFVX3lxTE96T3FuU0VKMXBGTFVMQVprVDNiaVEzNWdaX0Nzamp4VDBiamlyRl9zc0llNU9veHNQckJWdkstUWx4X280Nzc0c0staUptYmpNbklpWU9EMGF5NTZSd1NJT3hzZi0xQlZ4eUlIVTJ2MEdTN1A2dm1uYy02V2lGM1JqY01HallWamhQdGxfOHIxV3V3LUZQZG1wVThHbDVDbFM?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-31-ab554bd175",
+      "id": "2026-08-31-a28e31058f",
       "date": "2026-08-31",
       "topic": "Automotive / EV",
-      "title": "Menelusuri Perkembangan Mobil Listrik dan Teknologi Canggih yang Mendukung Transportasi Masa Depan",
-      "summary": "Universitas Teknokrat Indonesia surfaced this fresh item: Menelusuri Perkembangan Mobil Listrik dan Teknologi Canggih yang Mendukung Transportasi Masa Depan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Minat Mobil Hybrid Naik 40 Persen, Pemerintah Sebut Tren Positif",
+      "summary": "Motoresto.id surfaced this fresh item: Minat Mobil Hybrid Naik 40 Persen, Pemerintah Sebut Tren Positif. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Universitas Teknokrat Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNREhBN1Jud0xGeXplM2xTaGZ2S3M0ZVVDWnQydl9aS0tmLWx5Y0NVV216U0M4TVlrUFVmR0RFeE1vdkxLUTlMTklUalZERFFKcnVMZHR3Rk4xMW1IR0lkYWFrV2IzZHczMGxGLWJMZi0xNHMyRFlNcTh2TnBHYnYtRWxLM2Rlb3pWWkM2akphUlFqZjdzbEpxVFZHcGs4a2Q5TXhvcC1rYXI1a0tvRjVXX3cxa2o2YlBhOHh6Q2VaUWxRQmlwejY1WU5pZFg0UQ?oc=5",
+      "source": "Motoresto.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZmhtTTVSV3JQVW5wdWRZd29Ic2F3Q1VyLWo5SjJnWkowdG9sV2hObktPaVpQRTc2ZmVzRzU2X0JBWTJxTldOX3VQZFdVZWRtZmp0NENGX0hUTmNCT005eTNKZExhT0NxN05sN0JtRjBUTExQS1lYTERSZFlabWgxbkd4Q2xVOENQcF9CUXZB?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-31-60e4ba541b",
+      "date": "2026-08-31",
+      "topic": "Business / Investment",
+      "title": "Pemprov Kembali Gelar CJIBF, Tawarkan Proyek dengan Total Investasi Rp14,9 Triliun Lebih",
+      "summary": "PPID Jateng surfaced this fresh item: Pemprov Kembali Gelar CJIBF, Tawarkan Proyek dengan Total Investasi Rp14,9 Triliun Lebih. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "PPID Jateng via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONE9tRWo0X0pLcG03MDlpWXdqZkMzQnE4c0VNREdfSnJUOTFXTXU1OUdHOGpkLVFLdW5LVW05U3RrYW1nSkQxY2NycWNKVHE0RzJHVmdjSmowRFQ3MVhEWFJXLWFiZ3lJenJVQWthM21Obk9WUGF1SFJJNk1wSjVIWUpLbUItVjhGTnNvWEtCVFZDaUp1RWxFemY1NEZjbHMya0p2QVFEZHlDZ2VzMkhQQWc4S0pfMjlr?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-31-482155359f",
+      "date": "2026-08-31",
+      "topic": "Business / Investment",
+      "title": "BKPM: Jakarta Motor Investasi RI, Tembus Rp173 T Semester I-2026",
+      "summary": "Bloomberg Technoz surfaced this fresh item: BKPM: Jakarta Motor Investasi RI, Tembus Rp173 T Semester I-2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Bloomberg Technoz via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXoyM05CMEdVaU9TZWh1NEFYYlU0OFdWd3RzcW5JMkFPQm00R1oxMjRTVHBFclpsenZxMTViMG1yOTl1S2cwMTFaeVUxM0xSZFB2ZlpiSVNJdDVSS29oUUhic1hWdDJEN2g2VFhFY0Z2UWJsLU9ZcTJTTWJBRE1jTWtzeFl1OFByNjNqMWh0Y2piWlFlbDE4cDRSTnplZGpHUElsTGZ1dVhGN0gxTUhQYk5Md1Y?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -49,21 +64,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-31-4ba6b9e022",
-      "date": "2026-08-31",
-      "topic": "Business / Investment",
-      "title": "Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
-      "summary": "Berita Cilegon surfaced this fresh item: Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Berita Cilegon via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWHNYYWp6SnkxTkZsQzVxanhoVmY4MWpRMFQycUY3TWVmN0ZOOTZCZE5MY0diVDZDQ3QzUVY4T1lEUVU1MzhxNzNVNXZjY0x0MWEyNnpMOHlNdmxUN0JPM09XRkZqSHZ5cTh0X0FHTjJvT2VUMG9qcmtvTVkwLUdHYlFwc0EtYTc1OWE4LXloWHoyNEF0YVYtODVlemFBX0tpOFVrMkNyMHhQRjlJSTBrMWJVTG5tYlc1eU1XaVB4d0Zab2MxQ215Z2Jpa29SbE9M?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-31-578c2098db",
       "date": "2026-08-31",
       "topic": "Business / Investment",
@@ -79,32 +79,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-31-75a873c6ee",
+      "id": "2026-08-31-4ba6b9e022",
       "date": "2026-08-31",
       "topic": "Business / Investment",
-      "title": "Pertumbuhan Semu",
-      "summary": "KONTAN surfaced this fresh item: Pertumbuhan Semu. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
+      "summary": "Berita Cilegon surfaced this fresh item: Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "KONTAN via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0VHlmTWRnV2JoOS1zWEhPQmdXY1J2QUh6d3JHTXFlMzNHVW1UMUV5Mkw0Rmg0Y2xHTW81V1RRTWhLbmxHbTlabDJoZC1WVmJ2RUItS2F2OHRVTUdjTnlj?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-31-08cf0cedbc",
-      "date": "2026-08-31",
-      "topic": "Business / Investment",
-      "title": "Didik Rachbini: Rupiah Sulit Menguat Jika Ekonomi Indonesia Terlalu Bergantung pada Pasar Domestik",
-      "summary": "VOI.ID surfaced this fresh item: Didik Rachbini: Rupiah Sulit Menguat Jika Ekonomi Indonesia Terlalu Bergantung pada Pasar Domestik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "VOI.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONnNNQWl3R0tDemtQcHROSXlyUnE1MFpNMFV3bUlWcVN0WTVhaGJrc1M3bmhHTDhwOGpEODYwc3hKVXRsbUpYbEo1RDdrYWZHSFMtTlBmZklWYTFrREpoemU4QVczMXFvN2tCQkZoM2Q5djVCMUJ4N1FtRklSUTlObW5JUFh6Si02ekI2amhPdmt1UHZNUFE2S2lYRGEtTldScktKY0tsT0tERHYwRUdOc3hrb0JZZVdNSi1vVUIyMmdIRGtrTmfSAcABQVVfeXFMT3FfMU16d0NFYXN2cVZnQkJneHZsQUtjZy1acFRuSEgzc0xXSEtNeDJlLTdNVl9MQ0hMWGtqYzdLbm42Wnd3OVdJQzVuZC1tVzNLTXB3dDY3QTQ5RUhza3gwWmRkMzlPWmdPaTlDRUxnaWlZdGhZSGRkXzQxT0x1eHB4VHNMaURBT2JmU01OU3pmdVRPUG1vX2VldktaazhxS3VIODlFaUFqVVpRVU5PVldna25DOGhpUldHempPTHRQ?oc=5",
+      "source": "Berita Cilegon via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWHNYYWp6SnkxTkZsQzVxanhoVmY4MWpRMFQycUY3TWVmN0ZOOTZCZE5MY0diVDZDQ3QzUVY4T1lEUVU1MzhxNzNVNXZjY0x0MWEyNnpMOHlNdmxUN0JPM09XRkZqSHZ5cTh0X0FHTjJvT2VUMG9qcmtvTVkwLUdHYlFwc0EtYTc1OWE4LXloWHoyNEF0YVYtODVlemFBX0tpOFVrMkNyMHhQRjlJSTBrMWJVTG5tYlc1eU1XaVB4d0Zab2MxQ215Z2Jpa29SbE9M?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -199,6 +184,51 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-31-c940f8263f",
+      "date": "2026-08-31",
+      "topic": "Markets",
+      "title": "IHSG Dibuka Lesu Pagi Ini, Turun 0,2%",
+      "summary": "CNBC Indonesia surfaced this fresh item: IHSG Dibuka Lesu Pagi Ini, Turun 0,2%. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": -0.07,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWN0Um5EMlpIWmZjY3dWZm5kTDhHQjNuUzh4dmRBdC1jSFZLSnREUFpDdGtOd1J2MEszSkhHZGt1dkRzb0pzNjZXcVlGVXJlT3pjeUgxUjE0dkRFTTYwX21MNHdJRzJ6SzUtWm5ROFhnY0s2anFRTmdJcFhibmEyOXFIQ1E4QUdrbC1OOXFkdkIwbkxaOFg1RDB3cEXSAaIBQVVfeXFMUHdfS2xoSFQ3UVIyZ2VTdzdMUHBwNGF0dEF5elFxMlE0cl9Mbm5zeUh4S2ZEZnNtT1ZidW9JbEpyZlhvYlF2eGZaSVZVN245TFZHaHFlRFVqdDFlU29oMFplZWhpZW5Fb2FLVEVxR2RwanU3RENsUUZkb24tbkNOdjJkSEs3MFRWNDJNNG1TcW5MdWZwRUJtRkhMZnBDQkFUNWNn?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-31-516d0e5c4d",
+      "date": "2026-08-31",
+      "topic": "Markets",
+      "title": "IHSG Dibuka Melemah, Investor Cermati Rebalancing MSCI",
+      "summary": "TopBusiness.id surfaced this fresh item: IHSG Dibuka Melemah, Investor Cermati Rebalancing MSCI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": -0.07,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "TopBusiness.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaXZHVGFFdFU0UUttdm11SWt0WWV5NWdmaVByRXJEbVVxU3hBMkM4ektGNnduUU5vQnp6bEVnaXRhM2l4enJSaXR6d1FOREdfVFRKV0REeTZNYk9YNzJhTndCSWh2U0NpVGRuYjZfb1RJbXVYcmlBZmE5TjZVVzl4R0RRUmlIdWRuUFhWZTlST3ZoMDhDQVIw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-31-9eb8be4c8d",
+      "date": "2026-08-31",
+      "topic": "Markets",
+      "title": "IHSG Tertekan di Awal Pekan, Investor Dibayangi The Fed dan Rebalancing MSCI – Kalimantan Kita",
+      "summary": "kakinews.id surfaced this fresh item: IHSG Tertekan di Awal Pekan, Investor Dibayangi The Fed dan Rebalancing MSCI – Kalimantan Kita. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": -0.07,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "kakinews.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVmZZeVp1dF9VeHBURVNCYkVMUDRWX0hDVFpKTW1UbTdKMUctWkR2cXlnemtVYkNDX3c4MENpOUNWOHlCT1dkMGtFM3NaekRidzY1VG9LRE9uX3lGejFHTjl6QjNmN1k4bHFVZk9KQVdob29rM1RDUlhqSi1KSHVXT256QVJOQ0pQcmMzT2dDa0I2Qko5NDBBRDdVR0E?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-31-a46ebc87ab",
       "date": "2026-08-31",
       "topic": "Markets",
@@ -214,36 +244,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-31-3f69b1abcc",
-      "date": "2026-08-31",
-      "topic": "Markets",
-      "title": "IHSG berpotensi uji level ini jelang perubahan indeks MSCI",
-      "summary": "idnfinancials.com surfaced this fresh item: IHSG berpotensi uji level ini jelang perubahan indeks MSCI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "idnfinancials.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX3VsTkNQNWY1NWhRXy1fQWc0ZlpqTHBiSVlLRmFnWUtCaUxHbUc5bWdwb21nTFNNRjVCVGMxcHRmV21rWHh3VVNncG51aExXQ2VabWZ3M29lTWlyT1MwX1k3dEpncFVOYWY2dmdPQVFZcWdTRHdWcDQxMXNqbDh2X2phbEVoVTREUVJ6bnBqWF80aWFTcG83SGxqM2N4dkVESFhRNw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-31-82e5636328",
-      "date": "2026-08-31",
-      "topic": "Markets",
-      "title": "Dibayangi Rebalancing MSCI, IHSG Diproyeksi Volatil di Awal Pekan",
-      "summary": "Bloomberg Technoz surfaced this fresh item: Dibayangi Rebalancing MSCI, IHSG Diproyeksi Volatil di Awal Pekan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Bloomberg Technoz via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSlpLZ211dXU3OU5VaU4xM3RsMzk0RnRXbmpJS2hIMHdKeXBnTXFvTlg1ckxHNG1JRFFrekFnMUdlVFRvVHpwSVNmcXFJQUlyVmk4bW9UWlhaYWJqMDI0ZmtVNEtNeGRmVV80N1B6TkFYakZWMF9Mb25rT2hXVVNMMGMwcUhGM2JYdTM4aUJpaTBKZzc5LXpNT0pLeVFPenFuaFJidElMRW5KNFQwTUtHUGQ0dlN0X0k?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-31-8d38f724da",
       "date": "2026-08-31",
       "topic": "Regulation",
@@ -255,6 +255,21 @@
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
       "source": "Epaper Media Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nbExqb0VXd3RyOTNCT0l0SjM0LWxYWGs4MVBOZURxRWFMVDNSaFRvb3ZmcXo1VE1Cb0RlYk5Ya2t4c0o4S2VORU94amdQSVVyT1J5Q3dJZjNzMlpE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-31-087d626d90",
+      "date": "2026-08-31",
+      "topic": "Regulation",
+      "title": "BI Catat Transaksi dan Komitmen Usaha Capai Angka Rp 2,75 Miliar di SCF 2026",
+      "summary": "KlikPositif.com surfaced this fresh item: BI Catat Transaksi dan Komitmen Usaha Capai Angka Rp 2,75 Miliar di SCF 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.05,
+      "confidence": 0.68,
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "KlikPositif.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTE1YaHc1UEJPa2ZMU2xGTkxURlJHdF9zS1NublpEbi13X2txenJNcFNIYUlMakFPMzJYZEt2c1ItbGktSFFtTlJsZDEyMVFpSWl0ZlJQSVJtOGtNbnpleEg2MnZrTGQ3eFdTVDZROUdVQmliWWN3VVgtcXpDNlB6Y1hSSjExVGJRMFdmLTRWZWZwdHdLX0FfR2xETjg5aUVFaGc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbUpBcFZwY0tSeUMwT0h0czdXWmlGZEZONGdBdlNUaTF4WWxKbEpjQVRTMlJYUFFXc0IzRGJhWE5ZZHZQUE1NUzlDT1R3VzBjMUFvdWNya0VMX3NLUHpnZTRJSGVtSmYxN3dxVEhCWjU2N21iNHMteThidFhRcXBpSFo2eldVV25BSmtQSlVjdVJpWHBQZnlmR3RmcWRyME1BSS0tNWF0aFBkUWJiclN6d05sS01Tc09wTXBpd3JTYnhjYmNyZ0E?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-30-c4a2d214f8",
-      "date": "2026-08-30",
-      "topic": "Regulation",
-      "title": "Restitusi Pajak Turun, Apindo Khawatir Ganggu Likuiditas dan Kepercayaan Dunia Usaha",
-      "summary": "KONTAN surfaced this fresh item: Restitusi Pajak Turun, Apindo Khawatir Ganggu Likuiditas dan Kepercayaan Dunia Usaha. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": -0.07,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "KONTAN via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQellsTFZWUHAzUC1vaWdDUzNuaVlhbzgwUFd3cUhqUnFtbV9JMTZnX3NfME5KZ1o1UnhicUlsMnU3SjlaLVZLbUxDZ0RiOG5oTFRYdUg1UFJuUFJ1OVFGTzhEZ2V6b0xDQXprODFzUHJvY2hjRTMyTmduaVo2V3ZyQWZGbEd2ZU45RUtSdnhpQXdNNkF4TE9uTjhFa3lGNWpibkhDTUJVZk0yQkdvRVF0ZzY0ZXZfZWhJ0gGzAUFVX3lxTFBnblVoQkx5WW1HT0x3U3BtT1FLZ2R3aUR6OTJVZHV1em1zWkJaWVRxZll2UENPcFZ5cjZFeHJ0VmJOQWg2SjRjXzNJWXFWZVV0N0p2QlpCXy0xeWRLVFAwS2xZaFdfd1ktSExwdnY2QWxQVzJEb3Y3cWk5d01oNUpsdjRRenBxbXRBTTZmYkU2b2lZNHRyYWh6UjRrZUx0WW9BU1BoZFpuUVFZZ1lRWkhlRmJz?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-31T09:00:11+07:00",
+    "generatedAt": "2026-08-31T10:00:11+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,13 +374,13 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12676.9004,
-        "date": "2026-08-30",
-        "return1m": 0.0,
-        "return3m": -0.94,
-        "return6m": 6.54,
-        "return1y": 6.67,
-        "volatility": 9.8,
+        "last": 12684.5,
+        "date": "2026-08-31",
+        "return1m": 0.06,
+        "return3m": -0.88,
+        "return6m": 6.61,
+        "return1y": 6.73,
+        "volatility": 9.79,
         "maxDrawdown": -5.12,
         "sparkline": [
           {
@@ -664,7 +664,7 @@
             "value": 12770.4043
           }
         ],
-        "profitScore": 1.83,
+        "profitScore": 1.89,
         "view": "strongest IDR return screen"
       },
       {
@@ -673,7 +673,7 @@
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
         "last": 17698.0,
-        "date": "2026-08-30",
+        "date": "2026-08-31",
         "return1m": -1.9,
         "return3m": -0.67,
         "return6m": 5.67,
@@ -970,13 +970,13 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13884.3506,
-        "date": "2026-08-30",
-        "return1m": -1.34,
-        "return3m": -0.5,
-        "return6m": 4.76,
-        "return1y": 4.14,
-        "volatility": 7.75,
+        "last": 13901.6328,
+        "date": "2026-08-31",
+        "return1m": -1.22,
+        "return3m": -0.38,
+        "return6m": 4.89,
+        "return1y": 4.27,
+        "volatility": 7.74,
         "maxDrawdown": -3.8,
         "sparkline": [
           {
@@ -1260,7 +1260,7 @@
             "value": 13965.4189
           }
         ],
-        "profitScore": 1.08,
+        "profitScore": 1.2,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,13 +1268,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20493.0,
-        "date": "2026-08-30",
-        "return1m": 1.68,
-        "return3m": -1.02,
-        "return6m": 4.79,
-        "return1y": 3.91,
-        "volatility": 18.54,
+        "last": 20508.0,
+        "date": "2026-08-31",
+        "return1m": 1.75,
+        "return3m": -0.95,
+        "return6m": 4.86,
+        "return1y": 3.99,
+        "volatility": 18.55,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -1558,7 +1558,7 @@
             "value": 20073.0
           }
         ],
-        "profitScore": 0.65,
+        "profitScore": 0.72,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,8 +1566,8 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2631.3,
-        "date": "2026-08-30",
+        "last": 2632.8999,
+        "date": "2026-08-31",
         "return1m": 0.0,
         "return3m": 0.0,
         "return6m": 0.0,
@@ -1576,8 +1576,8 @@
         "maxDrawdown": 0,
         "sparkline": [
           {
-            "date": "2026-08-30",
-            "value": 2631.3
+            "date": "2026-08-31",
+            "value": 2632.8999
           }
         ],
         "profitScore": 0.0,
@@ -1588,13 +1588,13 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 110.51,
-        "date": "2026-08-30",
-        "return1m": -1.99,
-        "return3m": -1.15,
-        "return6m": 2.9,
-        "return1y": 0.81,
-        "volatility": 9.51,
+        "last": 110.73,
+        "date": "2026-08-31",
+        "return1m": -1.79,
+        "return3m": -0.95,
+        "return6m": 3.1,
+        "return1y": 1.01,
+        "volatility": 9.49,
         "maxDrawdown": -6.03,
         "sparkline": [
           {
@@ -1878,7 +1878,7 @@
             "value": 111.403
           }
         ],
-        "profitScore": -0.26,
+        "profitScore": -0.05,
         "view": "defensive/watchlist screen"
       }
     ],
@@ -1887,13 +1887,13 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12676.9004,
-      "date": "2026-08-30",
-      "return1m": 0.0,
-      "return3m": -0.94,
-      "return6m": 6.54,
-      "return1y": 6.67,
-      "volatility": 9.8,
+      "last": 12684.5,
+      "date": "2026-08-31",
+      "return1m": 0.06,
+      "return3m": -0.88,
+      "return6m": 6.61,
+      "return1y": 6.73,
+      "volatility": 9.79,
       "maxDrawdown": -5.12,
       "sparkline": [
         {
@@ -2177,7 +2177,7 @@
           "value": 12770.4043
         }
       ],
-      "profitScore": 1.83,
+      "profitScore": 1.89,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",

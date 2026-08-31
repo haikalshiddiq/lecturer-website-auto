@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T23:01:00+07:00",
-  "briefingTitle": "Indonesia Hot News Intelligence Briefing — 31 August 2026",
+  "generatedAt": "2026-09-01T00:01:03+07:00",
+  "briefingTitle": "Indonesia Hot News Intelligence Briefing — 01 September 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
     {
@@ -64,6 +64,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-31-9756580127",
+      "date": "2026-08-31",
+      "topic": "Tech / AI",
+      "title": "Telkom AI Center Makassar Dorong UMKM Optimalkan Konten Instagram dengan AI",
+      "summary": "newshanter.com surfaced this fresh item: Telkom AI Center Makassar Dorong UMKM Optimalkan Konten Instagram dengan AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "newshanter.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVVBzdnFyTk9oYXg5S1dxQ214N3l4SFJsNlgzTWYxUzNEQjdHclRhdHRDb0U5OUJTZTJGcWRFcFV3aF8yeWRzcWMwNFV0ZDFBTkpvVmNSNHN5djc1MzYxYzNuWTd6a3pILXc3aXB0bl9hZXJwX3lCZnA4S3dsRV9CUHN3aVBWTmpPb1o1VFhQeUZObXkzQ0FqN2tqNTl5WTdY?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-31-a6e07ba2e7",
       "date": "2026-08-31",
       "topic": "Automotive / EV",
@@ -109,6 +124,36 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-08-31-ccfa82a96b",
+      "date": "2026-08-31",
+      "topic": "Business / Investment",
+      "title": "Unilever tambah investasi Rp2,59 triliun di Sei Mangkei",
+      "summary": "idnfinancials.com surfaced this fresh item: Unilever tambah investasi Rp2,59 triliun di Sei Mangkei. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "idnfinancials.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV0Y4MVVfUzFWVEJMaFUwdHF4VXpsWk11ZUxCV1dpN0kxczJBcC1ONGVRQXhFSW85ZDlBVThaelJKUWhZUzhjUG5XVHgzZHdHQlRqUGgxci1nUm1Bay0tOVBfWDNscFBtUy1QeFRoVlhUUlBXd1prbXMtSEtVUENfblNuMC1DZ0NoYTR5b2NydkdHMDhIS2JFOWFNT3pQdTlW?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-31-d0a4cb6e8c",
+      "date": "2026-08-31",
+      "topic": "Infrastructure",
+      "title": "Investasi Jalan Tol Masih Berat, Target Ekonomi 8% Bisa Ikut Tersendat",
+      "summary": "Bisnis.com - Ekonomi surfaced this fresh item: Investasi Jalan Tol Masih Berat, Target Ekonomi 8% Bisa Ikut Tersendat. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Bisnis.com - Ekonomi via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTi1DT2dpVmVPNUY4cHFSNDBmT2xucEdaNnhFeDF5bl9rNjl2Y2dlV1NjNXA3bFJ5RTRnbnZSUEVhXzlUUS03NkFWdWxPY0FMcUJob3FIOUh6cjJuekREdGFiXzg5UXR0WlMzSUlMeHA0Vi1wRlhnZTN6TlFPektNU1RTeEpSSG11RXV6djk1NVJPVjYyM0RqZFQ3NF9wWklUU2FhdGZOdzNaeDE5ei1vRFlzR05DbTgtdkN4QQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-08-31-84c812a591",
       "date": "2026-08-31",
       "topic": "Infrastructure",
@@ -139,21 +184,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-31-b34c9add58",
-      "date": "2026-08-31",
-      "topic": "Infrastructure",
-      "title": "Bukan Cuma Soal Trafic, Danantara Dorong ini ke BUMN Tol",
-      "summary": "CNBC Indonesia surfaced this fresh item: Bukan Cuma Soal Trafic, Danantara Dorong ini ke BUMN Tol. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "CNBC Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ0V4d1FlbnUzNnJtUXo4N2I4RkpBOHhzemRqQmU0ZW9rdVhlUF9EUHpSRnNYcWhLbzZiM0RSQTY4VTNhR0I3OG1LejA5OVlXN09VSndpRjRVRU9nM1lndmxyUklTVFMyZDhXb0pzanBHUjMzandUVDdEWXk3X2hCcXk0MGxZM2hHZGtBaHctbDM3UjY5X3liWTRwTXB2c0REXzdOUXpiNjFueG5fcHJaRk5SVzdGcEIx0gG-AUFVX3lxTFB1VVU5Z0tFcHRTazNTZzdZUS1SMXNwVGhOREpZM2lLR3hyZHVpNk4yQ1Qyc1l6UUNtTnh2SUxROXdwMlR6R0RJN1Ixd3ItMXQxcVBwZlNaOTRvdm1UWi1jTDBxNUJGZXAwNlU5Z3pZcnIxanY1U19XMkRHcjkwd2JmRkRuaG9BQllfczdnZTEtNTQ5Z29TQXQ3U2I1UnRTNW1uYll4QUs5UnhnckVmYjdiZ2traEEwajYwaHFIVEE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-31-8e3baa40d1",
       "date": "2026-08-31",
       "topic": "Infrastructure",
@@ -169,17 +199,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-31-a79e5c982a",
+      "id": "2026-08-31-b34c9add58",
       "date": "2026-08-31",
       "topic": "Infrastructure",
-      "title": "Pembangunan Jalan Tol Terlambat, Pengamat: Bisa Hambat Target Pertumbuhan Ekonomi 8%",
-      "summary": "SINDOnews Ekbis surfaced this fresh item: Pembangunan Jalan Tol Terlambat, Pengamat: Bisa Hambat Target Pertumbuhan Ekonomi 8%. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Bukan Cuma Soal Trafic, Danantara Dorong ini ke BUMN Tol",
+      "summary": "CNBC Indonesia surfaced this fresh item: Bukan Cuma Soal Trafic, Danantara Dorong ini ke BUMN Tol. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "SINDOnews Ekbis via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYjRjVlVUTldFWUtkSjhiWW5ma1Z0QTQ3TmowOWpXVmtZYnQ1MTZJOW1pSHZKckZCeDZZWGFYUF9EdURWOUZjc2swSVZob2dKZ2F5a1lxLWlGQjFUZmpFY0Mxd0lJbzhFQnkxWFpxdm1helplSE1CMmtwZjBNeTJ6V25rUW51OGF1ZTJuNnlIXzE5VGN0YUlfUmcyQzJJUnF6UVUyV3UyS1lOZ1J5RGdNaVpKT1ZwUjgxVWlKQVpNcU4tZmdIYU5lM0JYdnBUTXp0d0HSAdcBQVVfeXFMT0VIdXVpd0pXOVJCUnAyNldsY2VtOU5HZXl3Umw5eTRmaVh3X0prcUc2Ni1hU283MmMzNGNxdFNjZmxtVENVVDVINFF1RW9XaE1Uamo4LXlnRzdCWVF4WUFHb3VfZDJYME1ySXpXVnJ2enB0ZEo1bXJyV0hkMXpzODBuT0NnR3ZhNExUR2E2c2lBSWhfb3ljWTNzNTRXZzd2dWdMUGlMVVNHaDRVNmdYeE9RRkY0VGpCS1RDN3Z4d1ZkYmJNUXA4UUNHZzRFZVlvSmJOdk5rcEU?oc=5",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ0V4d1FlbnUzNnJtUXo4N2I4RkpBOHhzemRqQmU0ZW9rdVhlUF9EUHpSRnNYcWhLbzZiM0RSQTY4VTNhR0I3OG1LejA5OVlXN09VSndpRjRVRU9nM1lndmxyUklTVFMyZDhXb0pzanBHUjMzandUVDdEWXk3X2hCcXk0MGxZM2hHZGtBaHctbDM3UjY5X3liWTRwTXB2c0REXzdOUXpiNjFueG5fcHJaRk5SVzdGcEIx0gG-AUFVX3lxTFB1VVU5Z0tFcHRTazNTZzdZUS1SMXNwVGhOREpZM2lLR3hyZHVpNk4yQ1Qyc1l6UUNtTnh2SUxROXdwMlR6R0RJN1Ixd3ItMXQxcVBwZlNaOTRvdm1UWi1jTDBxNUJGZXAwNlU5Z3pZcnIxanY1U19XMkRHcjkwd2JmRkRuaG9BQllfczdnZTEtNTQ5Z29TQXQ3U2I1UnRTNW1uYll4QUs5UnhnckVmYjdiZ2traEEwajYwaHFIVEE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -188,12 +218,12 @@
       "date": "2026-08-31",
       "topic": "Markets",
       "title": "IHSG naik tipis 0,11% meski dibayangi sentimen MSCI",
-      "summary": "IDNFinancials surfaced this fresh item: IHSG naik tipis 0,11% meski dibayangi sentimen MSCI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "idnfinancials.com surfaced this fresh item: IHSG naik tipis 0,11% meski dibayangi sentimen MSCI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "IDNFinancials via Google News RSS discovery",
+      "source": "idnfinancials.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdlpaYVVlX1RpLW81UXBMZVpsVFF3M2VmWjJyQTFvUE1PTnNfd0V1SFlMdmV1dGVlYmwwUUk1X3ZBd3NhaGh5VDI5WHp6ZjlEUlVySkMxZE9sQ3hLX18yMXNzZzNRaWNKMklMRHZBcl9OaGktSHJPcGlvUlM1YlJzOGtRdnk3a2RBTjdxUGZTS0xnVmNIcm9QZ3d3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -259,21 +289,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-08-31-ef3629cf3c",
-      "date": "2026-08-31",
-      "topic": "Regulation",
-      "title": "BI dorong UMKM Hijau di Sulut",
-      "summary": "ANTARA News Manado surfaced this fresh item: BI dorong UMKM Hijau di Sulut. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "ANTARA News Manado via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MR2lpbGo0Z0c0SW5jek4weU5lck5aOVRBZElKd0VLaGg0ck5BWGdqUGxuSzNNd1Z4dFFmUGlGcTVWWXNrWWR2UFdmVEN5TDhPbWtiQWdQaW1VWlJKejRUNVhka3gzU3VkUkFiQm1MQUdSR0dQcndwa0JwaHI0UQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-08-31-f06f7b5a98",
       "date": "2026-08-31",
       "topic": "Regulation",
@@ -285,6 +300,21 @@
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
       "source": "kontan.co.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOM1N0d25ua1VzVHozUEFtR0J1dnNwcnl4Z25qRTRNSEsyYV9JQkNEZnFhcUVidEp1ZlBWT2ZwQm9YalB0Y2hqNUUtVmtfbDU5UHJEWXJ4bHM1TzQ5cXJ2dHNvaDNDYS1ydnFtVmI2YU1fMzVRdGwzYVVNLVNESVd0Szd4MVlrc3JIR3VYNXN2N3dCOWdpQjhEekdTdV80dk1yd2l6YjN3NULSAaIBQVVfeXFMTmZsYl9uYnkxeVRKSHZBWUZrc3g5VlNXSE9JN0dxWXl6dXdRVTVuLUVJdVF5bU1wNTM1QVhlajNPMU1FeTVuRGotNUVUQ3EzY1lIbjdNNWxJOHYtb0k2eDh5a0s0aVZXdE5CS2xULUxYZWVHQnA1MVNsY3doQ1pfRGZPZkxIZU5pVHZvRllvdzlRYW96YTlrSExBOXRPOTBqeUFn?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-08-31-0cdba330a8",
+      "date": "2026-08-31",
+      "topic": "Regulation",
+      "title": "Kemenperin Dukung Menkeu Tagih Pajak 40 Perusahaan Baja",
+      "summary": "SuaraGarut.ID surfaced this fresh item: Kemenperin Dukung Menkeu Tagih Pajak 40 Perusahaan Baja. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SQmRCOW9KdnhwbGJublJuelNBUGs5MVZJMVV4eGxSRk9HZ1I1SldMeVVoZU9ZUENWQnNhRjJwTzZOb0t2UjIxNlh1emxFNTh6NFRWS2J0UmxPU2JZQzFJTlZnaWQzY29jR0NqQXF2b1M?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -332,40 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM2RYdGRMdmhzTksyQ3hvVkFpNGZmd1k1RVk3aC1rY3ZwUzYwSW5FRzBDTndlUC1DZmpqZDFsYzkxYm1qU2k0MXJjdjJWdnJuQW5ELWR4dGV2WTYxMzN4cE1hdzUwMEd0NjhhZWRrUXpLVFN0SlRKZEZMZ2UyZTgtaDNjZXpSbmR2djNSZTctRUk2SmJKZFdDOEJiUTd2dEs4UzlIZlZTcmFJcnJQNElQTEtLR1JKM3MzVlNrc0tJZmZKYWhHakhlb3lQMzBXcUpJS1VQQ2NGMVRNMm8?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-08-31-d760c09895",
-      "date": "2026-08-31",
-      "topic": "Automotive / EV",
-      "title": "Pengalaman Pakai Mitsubishi Xforce Dikira Pakai Mobil Listrik",
-      "summary": "Mitsubishi Motors Indonesia surfaced this fresh item: Pengalaman Pakai Mitsubishi Xforce Dikira Pakai Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Mitsubishi Motors Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ1pBRlF2TkFibktJaEtVWDN0OWlfajd0d21pQWNjSW5tNndDcVVzVHBKRlUxUWxvcVlqc1o3WlhsU3ZVRVpUSGloVmplTjl6TDlGNWhnQXEyX1ZrOHRNWTdQTEJLRWgxMHFvcHZsYm9KYnpESXVGaFVKSWpxbTBhR2hhRld3SWsyZUpCXzV4eHBUeF9aLXhxSWRIUmFzV3NUZzhIY2RaUE0zWXA2VUE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-08-31-32eaae43a2",
-      "date": "2026-08-31",
-      "topic": "Automotive / EV",
-      "title": "Daihatsu Disebut Mau Garap Mobil Listrik Murah Bareng Mobnas Malaysia",
-      "summary": "detikoto surfaced this fresh item: Daihatsu Disebut Mau Garap Mobil Listrik Murah Bareng Mobnas Malaysia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "detikoto via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ285aEdhWW9pT0JnUHowRjhmQlJPUjNjamhRRmdra2hjOEx4eFEzOTZjdVlrLXliSjQ2cDVHdndDSFhhUVRNcGRTMDdoSGF1eUdoM2xXRFQyeUtRR1dVLTJpUS1Yd1FrcnIzcExweEhJRmR2eGxCMS1vWXpWeFJEZm80NW5sUFV3TDRjazJOWGR0bkE0N3Jwc2xjdlBYN19BNlBwVkdIUjkxd2RUZklzRVJxNF9wUdIBuwFBVV95cUxNTHF0cU8wSzJZRXlicVljT21WNDE4eEoza3daYUlpRHdZWVcwOTAtRzlnbXh4LW44TWxQeXhKVmRwakpwMmVrYTdqc2s2M0V5dWVNTDBJTGJuN29EVUtrVjZBRTM3LUZTbXQ2Y0pKdmVBSnZjM3FWVGt5OG5KUGdINExtdnBxR216YjJYYUJ1dkxrMzhSUkJwZTBfNElldVpkVlBHZDR5S0R1WkVSc0VrOWtxeUt4cms5dlI4?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-08-31T23:01:00+07:00",
+    "generatedAt": "2026-09-01T00:01:03+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 87,
+        "opportunityScore": 91,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,24 +2194,16 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 87,
+        "opportunityScore": 91,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
-        "ticker": "ANTM",
-        "name": "Aneka Tambang",
-        "theme": "Nickel / EV supply chain",
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
         "opportunityScore": 75,
-        "rationale": "Linked to battery metals and EV headlines; commodity and policy volatility can be high.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
-        "ticker": "ASII",
-        "name": "Astra International",
-        "theme": "Automotive / diversified consumer",
-        "opportunityScore": 75,
-        "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
@@ -2223,11 +2215,19 @@
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 71,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
+        "ticker": "ANTM",
+        "name": "Aneka Tambang",
+        "theme": "Nickel / EV supply chain",
+        "opportunityScore": 67,
+        "rationale": "Linked to battery metals and EV headlines; commodity and policy volatility can be high.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
+        "ticker": "ASII",
+        "name": "Astra International",
+        "theme": "Automotive / diversified consumer",
+        "opportunityScore": 67,
+        "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }
     ],
@@ -2238,15 +2238,15 @@
         "name": "Eli Lilly",
         "sector": "Healthcare",
         "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-        "last": 1157.9,
+        "last": 1157.34,
         "date": "2026-08-31",
-        "return1m": 0.25,
-        "return3m": 6.92,
-        "return6m": 14.7,
-        "return1y": 57.32,
+        "return1m": 0.21,
+        "return3m": 6.87,
+        "return6m": 14.64,
+        "return1y": 57.24,
         "volatility": 35.69,
         "maxDrawdown": -23.31,
-        "opportunityScore": 66.7,
+        "opportunityScore": 66.6,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -2657,15 +2657,15 @@
         "name": "Microsoft",
         "sector": "Software / cloud",
         "thesis": "Azure, enterprise software, and AI monetization exposure.",
-        "last": 509.96,
+        "last": 511.18,
         "date": "2026-08-31",
-        "return1m": 13.05,
-        "return3m": 23.58,
-        "return6m": 28.38,
-        "return1y": 1.58,
-        "volatility": 32.15,
+        "return1m": 13.32,
+        "return3m": 23.87,
+        "return6m": 28.69,
+        "return1y": 1.82,
+        "volatility": 32.16,
         "maxDrawdown": -34.91,
-        "opportunityScore": 66.0,
+        "opportunityScore": 66.4,
         "risk": "High",
         "sparkline": [
           {
@@ -3076,12 +3076,12 @@
         "name": "JPMorgan Chase",
         "sector": "Financials",
         "thesis": "Scale, diversified earnings, and strong balance-sheet execution.",
-        "last": 355.87,
+        "last": 355.83,
         "date": "2026-08-31",
-        "return1m": 1.43,
-        "return3m": 18.91,
-        "return6m": 14.5,
-        "return1y": 19.19,
+        "return1m": 1.42,
+        "return3m": 18.9,
+        "return6m": 14.49,
+        "return1y": 19.18,
         "volatility": 22.15,
         "maxDrawdown": -15.47,
         "opportunityScore": 64.5,
@@ -3495,15 +3495,15 @@
         "name": "Visa",
         "sector": "Payments",
         "thesis": "Global electronic-payment volume and high-margin network economics.",
-        "last": 381.01,
+        "last": 380.5,
         "date": "2026-08-31",
-        "return1m": 4.02,
-        "return3m": 16.3,
-        "return6m": 18.71,
-        "return1y": 8.49,
+        "return1m": 3.89,
+        "return3m": 16.14,
+        "return6m": 18.55,
+        "return1y": 8.35,
         "volatility": 22.02,
         "maxDrawdown": -17.35,
-        "opportunityScore": 62.8,
+        "opportunityScore": 62.6,
         "risk": "Lower",
         "sparkline": [
           {
@@ -3914,15 +3914,15 @@
         "name": "Apple",
         "sector": "Consumer technology",
         "thesis": "Installed-base monetization, services, and premium-device ecosystem.",
-        "last": 314.65,
+        "last": 313.68,
         "date": "2026-08-31",
-        "return1m": -5.63,
-        "return3m": 1.22,
-        "return6m": 18.92,
-        "return1y": 37.22,
-        "volatility": 24.92,
+        "return1m": -5.92,
+        "return3m": 0.91,
+        "return6m": 18.56,
+        "return1y": 36.8,
+        "volatility": 24.93,
         "maxDrawdown": -13.82,
-        "opportunityScore": 62.7,
+        "opportunityScore": 62.3,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -4333,15 +4333,15 @@
         "name": "Exxon Mobil",
         "sector": "Energy",
         "thesis": "Cash generation and diversification when energy prices support the cycle.",
-        "last": 159.08,
+        "last": 158.98,
         "date": "2026-08-31",
-        "return1m": 1.34,
-        "return3m": 7.56,
-        "return6m": 8.01,
-        "return1y": 42.69,
-        "volatility": 25.5,
+        "return1m": 1.28,
+        "return3m": 7.49,
+        "return6m": 7.94,
+        "return1y": 42.59,
+        "volatility": 25.49,
         "maxDrawdown": -20.65,
-        "opportunityScore": 61.9,
+        "opportunityScore": 61.8,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -4752,15 +4752,15 @@
         "name": "NVIDIA",
         "sector": "Semiconductors / AI",
         "thesis": "AI accelerator leadership with high growth and valuation sensitivity.",
-        "last": 219.31,
+        "last": 220.1,
         "date": "2026-08-31",
-        "return1m": 12.44,
-        "return3m": 3.16,
-        "return6m": 15.54,
-        "return1y": 20.65,
-        "volatility": 37.87,
+        "return1m": 12.85,
+        "return3m": 3.53,
+        "return6m": 15.95,
+        "return1y": 21.09,
+        "volatility": 37.84,
         "maxDrawdown": -20.22,
-        "opportunityScore": 58.3,
+        "opportunityScore": 58.9,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -5167,438 +5167,19 @@
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
       },
       {
-        "symbol": "GOOGL",
-        "name": "Alphabet",
-        "sector": "Digital ads / cloud",
-        "thesis": "Search cash flow, cloud growth, and AI product distribution.",
-        "last": 338.06,
-        "date": "2026-08-31",
-        "return1m": 1.32,
-        "return3m": -13.06,
-        "return6m": 7.33,
-        "return1y": 63.2,
-        "volatility": 32.48,
-        "maxDrawdown": -21.09,
-        "opportunityScore": 57.7,
-        "risk": "Moderate",
-        "sparkline": [
-          {
-            "date": "2025-11-11",
-            "value": 291.31
-          },
-          {
-            "date": "2025-11-13",
-            "value": 278.57
-          },
-          {
-            "date": "2025-11-17",
-            "value": 285.02
-          },
-          {
-            "date": "2025-11-19",
-            "value": 292.81
-          },
-          {
-            "date": "2025-11-21",
-            "value": 299.66
-          },
-          {
-            "date": "2025-11-25",
-            "value": 323.44
-          },
-          {
-            "date": "2025-11-28",
-            "value": 320.18
-          },
-          {
-            "date": "2025-12-02",
-            "value": 315.81
-          },
-          {
-            "date": "2025-12-04",
-            "value": 317.62
-          },
-          {
-            "date": "2025-12-08",
-            "value": 313.72
-          },
-          {
-            "date": "2025-12-10",
-            "value": 320.21
-          },
-          {
-            "date": "2025-12-12",
-            "value": 309.29
-          },
-          {
-            "date": "2025-12-16",
-            "value": 306.57
-          },
-          {
-            "date": "2025-12-18",
-            "value": 302.46
-          },
-          {
-            "date": "2025-12-22",
-            "value": 309.78
-          },
-          {
-            "date": "2025-12-24",
-            "value": 314.09
-          },
-          {
-            "date": "2025-12-29",
-            "value": 313.56
-          },
-          {
-            "date": "2025-12-31",
-            "value": 313.0
-          },
-          {
-            "date": "2026-01-05",
-            "value": 316.54
-          },
-          {
-            "date": "2026-01-07",
-            "value": 321.98
-          },
-          {
-            "date": "2026-01-09",
-            "value": 328.57
-          },
-          {
-            "date": "2026-01-13",
-            "value": 335.97
-          },
-          {
-            "date": "2026-01-15",
-            "value": 332.78
-          },
-          {
-            "date": "2026-01-20",
-            "value": 322.0
-          },
-          {
-            "date": "2026-01-22",
-            "value": 330.54
-          },
-          {
-            "date": "2026-01-26",
-            "value": 333.26
-          },
-          {
-            "date": "2026-01-28",
-            "value": 336.01
-          },
-          {
-            "date": "2026-01-30",
-            "value": 338.0
-          },
-          {
-            "date": "2026-02-03",
-            "value": 339.71
-          },
-          {
-            "date": "2026-02-05",
-            "value": 331.25
-          },
-          {
-            "date": "2026-02-09",
-            "value": 324.32
-          },
-          {
-            "date": "2026-02-11",
-            "value": 310.96
-          },
-          {
-            "date": "2026-02-13",
-            "value": 305.72
-          },
-          {
-            "date": "2026-02-18",
-            "value": 303.33
-          },
-          {
-            "date": "2026-02-20",
-            "value": 314.98
-          },
-          {
-            "date": "2026-02-24",
-            "value": 310.9
-          },
-          {
-            "date": "2026-02-26",
-            "value": 307.38
-          },
-          {
-            "date": "2026-03-02",
-            "value": 306.52
-          },
-          {
-            "date": "2026-03-04",
-            "value": 303.13
-          },
-          {
-            "date": "2026-03-06",
-            "value": 298.52
-          },
-          {
-            "date": "2026-03-10",
-            "value": 307.04
-          },
-          {
-            "date": "2026-03-12",
-            "value": 303.55
-          },
-          {
-            "date": "2026-03-16",
-            "value": 305.56
-          },
-          {
-            "date": "2026-03-18",
-            "value": 307.69
-          },
-          {
-            "date": "2026-03-20",
-            "value": 301.0
-          },
-          {
-            "date": "2026-03-24",
-            "value": 290.44
-          },
-          {
-            "date": "2026-03-26",
-            "value": 280.92
-          },
-          {
-            "date": "2026-03-30",
-            "value": 273.5
-          },
-          {
-            "date": "2026-04-01",
-            "value": 297.39
-          },
-          {
-            "date": "2026-04-06",
-            "value": 299.99
-          },
-          {
-            "date": "2026-04-08",
-            "value": 317.32
-          },
-          {
-            "date": "2026-04-10",
-            "value": 317.24
-          },
-          {
-            "date": "2026-04-14",
-            "value": 332.91
-          },
-          {
-            "date": "2026-04-16",
-            "value": 336.02
-          },
-          {
-            "date": "2026-04-20",
-            "value": 337.42
-          },
-          {
-            "date": "2026-04-22",
-            "value": 339.32
-          },
-          {
-            "date": "2026-04-24",
-            "value": 344.4
-          },
-          {
-            "date": "2026-04-28",
-            "value": 349.78
-          },
-          {
-            "date": "2026-04-30",
-            "value": 384.8
-          },
-          {
-            "date": "2026-05-04",
-            "value": 383.25
-          },
-          {
-            "date": "2026-05-06",
-            "value": 398.04
-          },
-          {
-            "date": "2026-05-08",
-            "value": 400.8
-          },
-          {
-            "date": "2026-05-12",
-            "value": 387.35
-          },
-          {
-            "date": "2026-05-14",
-            "value": 401.07
-          },
-          {
-            "date": "2026-05-18",
-            "value": 396.94
-          },
-          {
-            "date": "2026-05-20",
-            "value": 388.91
-          },
-          {
-            "date": "2026-05-22",
-            "value": 382.97
-          },
-          {
-            "date": "2026-05-27",
-            "value": 388.83
-          },
-          {
-            "date": "2026-05-29",
-            "value": 380.34
-          },
-          {
-            "date": "2026-06-02",
-            "value": 361.85
-          },
-          {
-            "date": "2026-06-04",
-            "value": 372.19
-          },
-          {
-            "date": "2026-06-08",
-            "value": 363.31
-          },
-          {
-            "date": "2026-06-10",
-            "value": 356.38
-          },
-          {
-            "date": "2026-06-12",
-            "value": 359.68
-          },
-          {
-            "date": "2026-06-16",
-            "value": 373.25
-          },
-          {
-            "date": "2026-06-18",
-            "value": 368.03
-          },
-          {
-            "date": "2026-06-23",
-            "value": 346.13
-          },
-          {
-            "date": "2026-06-25",
-            "value": 343.71
-          },
-          {
-            "date": "2026-06-29",
-            "value": 353.65
-          },
-          {
-            "date": "2026-07-01",
-            "value": 361.21
-          },
-          {
-            "date": "2026-07-06",
-            "value": 366.46
-          },
-          {
-            "date": "2026-07-08",
-            "value": 361.92
-          },
-          {
-            "date": "2026-07-10",
-            "value": 357.18
-          },
-          {
-            "date": "2026-07-14",
-            "value": 359.51
-          },
-          {
-            "date": "2026-07-16",
-            "value": 354.46
-          },
-          {
-            "date": "2026-07-20",
-            "value": 351.99
-          },
-          {
-            "date": "2026-07-22",
-            "value": 342.09
-          },
-          {
-            "date": "2026-07-24",
-            "value": 319.74
-          },
-          {
-            "date": "2026-07-28",
-            "value": 333.71
-          },
-          {
-            "date": "2026-07-30",
-            "value": 333.66
-          },
-          {
-            "date": "2026-08-03",
-            "value": 373.51
-          },
-          {
-            "date": "2026-08-05",
-            "value": 362.43
-          },
-          {
-            "date": "2026-08-07",
-            "value": 354.3
-          },
-          {
-            "date": "2026-08-11",
-            "value": 343.8
-          },
-          {
-            "date": "2026-08-13",
-            "value": 346.36
-          },
-          {
-            "date": "2026-08-17",
-            "value": 344.0
-          },
-          {
-            "date": "2026-08-19",
-            "value": 344.72
-          },
-          {
-            "date": "2026-08-21",
-            "value": 344.82
-          },
-          {
-            "date": "2026-08-25",
-            "value": 346.96
-          },
-          {
-            "date": "2026-08-27",
-            "value": 340.65
-          }
-        ],
-        "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-GOOGL/"
-      },
-      {
         "symbol": "AMZN",
         "name": "Amazon",
         "sector": "Cloud / commerce",
         "thesis": "AWS margin expansion and global commerce operating leverage.",
-        "last": 260.9,
+        "last": 261.46,
         "date": "2026-08-31",
-        "return1m": 10.79,
-        "return3m": -4.03,
-        "return6m": 24.17,
-        "return1y": 14.07,
-        "volatility": 34.25,
+        "return1m": 11.02,
+        "return3m": -3.82,
+        "return6m": 24.44,
+        "return1y": 14.32,
+        "volatility": 34.26,
         "maxDrawdown": -21.74,
-        "opportunityScore": 57.6,
+        "opportunityScore": 58.0,
         "risk": "Moderate",
         "sparkline": [
           {
@@ -6005,19 +5586,438 @@
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AMZN/"
       },
       {
+        "symbol": "GOOGL",
+        "name": "Alphabet",
+        "sector": "Digital ads / cloud",
+        "thesis": "Search cash flow, cloud growth, and AI product distribution.",
+        "last": 338.41,
+        "date": "2026-08-31",
+        "return1m": 1.42,
+        "return3m": -12.97,
+        "return6m": 7.44,
+        "return1y": 63.37,
+        "volatility": 32.48,
+        "maxDrawdown": -21.09,
+        "opportunityScore": 57.9,
+        "risk": "Moderate",
+        "sparkline": [
+          {
+            "date": "2025-11-11",
+            "value": 291.31
+          },
+          {
+            "date": "2025-11-13",
+            "value": 278.57
+          },
+          {
+            "date": "2025-11-17",
+            "value": 285.02
+          },
+          {
+            "date": "2025-11-19",
+            "value": 292.81
+          },
+          {
+            "date": "2025-11-21",
+            "value": 299.66
+          },
+          {
+            "date": "2025-11-25",
+            "value": 323.44
+          },
+          {
+            "date": "2025-11-28",
+            "value": 320.18
+          },
+          {
+            "date": "2025-12-02",
+            "value": 315.81
+          },
+          {
+            "date": "2025-12-04",
+            "value": 317.62
+          },
+          {
+            "date": "2025-12-08",
+            "value": 313.72
+          },
+          {
+            "date": "2025-12-10",
+            "value": 320.21
+          },
+          {
+            "date": "2025-12-12",
+            "value": 309.29
+          },
+          {
+            "date": "2025-12-16",
+            "value": 306.57
+          },
+          {
+            "date": "2025-12-18",
+            "value": 302.46
+          },
+          {
+            "date": "2025-12-22",
+            "value": 309.78
+          },
+          {
+            "date": "2025-12-24",
+            "value": 314.09
+          },
+          {
+            "date": "2025-12-29",
+            "value": 313.56
+          },
+          {
+            "date": "2025-12-31",
+            "value": 313.0
+          },
+          {
+            "date": "2026-01-05",
+            "value": 316.54
+          },
+          {
+            "date": "2026-01-07",
+            "value": 321.98
+          },
+          {
+            "date": "2026-01-09",
+            "value": 328.57
+          },
+          {
+            "date": "2026-01-13",
+            "value": 335.97
+          },
+          {
+            "date": "2026-01-15",
+            "value": 332.78
+          },
+          {
+            "date": "2026-01-20",
+            "value": 322.0
+          },
+          {
+            "date": "2026-01-22",
+            "value": 330.54
+          },
+          {
+            "date": "2026-01-26",
+            "value": 333.26
+          },
+          {
+            "date": "2026-01-28",
+            "value": 336.01
+          },
+          {
+            "date": "2026-01-30",
+            "value": 338.0
+          },
+          {
+            "date": "2026-02-03",
+            "value": 339.71
+          },
+          {
+            "date": "2026-02-05",
+            "value": 331.25
+          },
+          {
+            "date": "2026-02-09",
+            "value": 324.32
+          },
+          {
+            "date": "2026-02-11",
+            "value": 310.96
+          },
+          {
+            "date": "2026-02-13",
+            "value": 305.72
+          },
+          {
+            "date": "2026-02-18",
+            "value": 303.33
+          },
+          {
+            "date": "2026-02-20",
+            "value": 314.98
+          },
+          {
+            "date": "2026-02-24",
+            "value": 310.9
+          },
+          {
+            "date": "2026-02-26",
+            "value": 307.38
+          },
+          {
+            "date": "2026-03-02",
+            "value": 306.52
+          },
+          {
+            "date": "2026-03-04",
+            "value": 303.13
+          },
+          {
+            "date": "2026-03-06",
+            "value": 298.52
+          },
+          {
+            "date": "2026-03-10",
+            "value": 307.04
+          },
+          {
+            "date": "2026-03-12",
+            "value": 303.55
+          },
+          {
+            "date": "2026-03-16",
+            "value": 305.56
+          },
+          {
+            "date": "2026-03-18",
+            "value": 307.69
+          },
+          {
+            "date": "2026-03-20",
+            "value": 301.0
+          },
+          {
+            "date": "2026-03-24",
+            "value": 290.44
+          },
+          {
+            "date": "2026-03-26",
+            "value": 280.92
+          },
+          {
+            "date": "2026-03-30",
+            "value": 273.5
+          },
+          {
+            "date": "2026-04-01",
+            "value": 297.39
+          },
+          {
+            "date": "2026-04-06",
+            "value": 299.99
+          },
+          {
+            "date": "2026-04-08",
+            "value": 317.32
+          },
+          {
+            "date": "2026-04-10",
+            "value": 317.24
+          },
+          {
+            "date": "2026-04-14",
+            "value": 332.91
+          },
+          {
+            "date": "2026-04-16",
+            "value": 336.02
+          },
+          {
+            "date": "2026-04-20",
+            "value": 337.42
+          },
+          {
+            "date": "2026-04-22",
+            "value": 339.32
+          },
+          {
+            "date": "2026-04-24",
+            "value": 344.4
+          },
+          {
+            "date": "2026-04-28",
+            "value": 349.78
+          },
+          {
+            "date": "2026-04-30",
+            "value": 384.8
+          },
+          {
+            "date": "2026-05-04",
+            "value": 383.25
+          },
+          {
+            "date": "2026-05-06",
+            "value": 398.04
+          },
+          {
+            "date": "2026-05-08",
+            "value": 400.8
+          },
+          {
+            "date": "2026-05-12",
+            "value": 387.35
+          },
+          {
+            "date": "2026-05-14",
+            "value": 401.07
+          },
+          {
+            "date": "2026-05-18",
+            "value": 396.94
+          },
+          {
+            "date": "2026-05-20",
+            "value": 388.91
+          },
+          {
+            "date": "2026-05-22",
+            "value": 382.97
+          },
+          {
+            "date": "2026-05-27",
+            "value": 388.83
+          },
+          {
+            "date": "2026-05-29",
+            "value": 380.34
+          },
+          {
+            "date": "2026-06-02",
+            "value": 361.85
+          },
+          {
+            "date": "2026-06-04",
+            "value": 372.19
+          },
+          {
+            "date": "2026-06-08",
+            "value": 363.31
+          },
+          {
+            "date": "2026-06-10",
+            "value": 356.38
+          },
+          {
+            "date": "2026-06-12",
+            "value": 359.68
+          },
+          {
+            "date": "2026-06-16",
+            "value": 373.25
+          },
+          {
+            "date": "2026-06-18",
+            "value": 368.03
+          },
+          {
+            "date": "2026-06-23",
+            "value": 346.13
+          },
+          {
+            "date": "2026-06-25",
+            "value": 343.71
+          },
+          {
+            "date": "2026-06-29",
+            "value": 353.65
+          },
+          {
+            "date": "2026-07-01",
+            "value": 361.21
+          },
+          {
+            "date": "2026-07-06",
+            "value": 366.46
+          },
+          {
+            "date": "2026-07-08",
+            "value": 361.92
+          },
+          {
+            "date": "2026-07-10",
+            "value": 357.18
+          },
+          {
+            "date": "2026-07-14",
+            "value": 359.51
+          },
+          {
+            "date": "2026-07-16",
+            "value": 354.46
+          },
+          {
+            "date": "2026-07-20",
+            "value": 351.99
+          },
+          {
+            "date": "2026-07-22",
+            "value": 342.09
+          },
+          {
+            "date": "2026-07-24",
+            "value": 319.74
+          },
+          {
+            "date": "2026-07-28",
+            "value": 333.71
+          },
+          {
+            "date": "2026-07-30",
+            "value": 333.66
+          },
+          {
+            "date": "2026-08-03",
+            "value": 373.51
+          },
+          {
+            "date": "2026-08-05",
+            "value": 362.43
+          },
+          {
+            "date": "2026-08-07",
+            "value": 354.3
+          },
+          {
+            "date": "2026-08-11",
+            "value": 343.8
+          },
+          {
+            "date": "2026-08-13",
+            "value": 346.36
+          },
+          {
+            "date": "2026-08-17",
+            "value": 344.0
+          },
+          {
+            "date": "2026-08-19",
+            "value": 344.72
+          },
+          {
+            "date": "2026-08-21",
+            "value": 344.82
+          },
+          {
+            "date": "2026-08-25",
+            "value": 346.96
+          },
+          {
+            "date": "2026-08-27",
+            "value": 340.65
+          }
+        ],
+        "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-GOOGL/"
+      },
+      {
         "symbol": "AVGO",
         "name": "Broadcom",
         "sector": "Semiconductors / infrastructure",
         "thesis": "AI networking, custom silicon, and infrastructure software cash flow.",
-        "last": 367.95,
+        "last": 370.57,
         "date": "2026-08-31",
-        "return1m": -5.13,
-        "return3m": -12.78,
-        "return6m": 10.61,
-        "return1y": 23.47,
-        "volatility": 48.17,
+        "return1m": -4.45,
+        "return3m": -12.16,
+        "return6m": 11.4,
+        "return1y": 24.35,
+        "volatility": 48.16,
         "maxDrawdown": -28.95,
-        "opportunityScore": 43.9,
+        "opportunityScore": 44.9,
         "risk": "High",
         "sparkline": [
           {
@@ -6428,15 +6428,15 @@
         "name": "Costco",
         "sector": "Consumer staples",
         "thesis": "Membership economics and resilient high-frequency consumer demand.",
-        "last": 947.14,
+        "last": 943.3,
         "date": "2026-08-31",
-        "return1m": -0.74,
-        "return3m": -5.63,
-        "return6m": -3.87,
-        "return1y": 0.62,
-        "volatility": 19.88,
+        "return1m": -1.14,
+        "return3m": -6.02,
+        "return6m": -4.26,
+        "return1y": 0.21,
+        "volatility": 19.86,
         "maxDrawdown": -16.57,
-        "opportunityScore": 40.5,
+        "opportunityScore": 40.0,
         "risk": "Lower",
         "sparkline": [
           {
@@ -6847,15 +6847,15 @@
         "name": "Meta Platforms",
         "sector": "Digital ads / AI",
         "thesis": "Advertising efficiency, engagement, and AI-driven recommendation gains.",
-        "last": 570.73,
+        "last": 571.34,
         "date": "2026-08-31",
-        "return1m": 5.88,
-        "return3m": -10.16,
-        "return6m": -12.95,
-        "return1y": -24.32,
+        "return1m": 5.99,
+        "return3m": -10.06,
+        "return6m": -12.86,
+        "return1y": -24.24,
         "volatility": 38.53,
         "maxDrawdown": -32.62,
-        "opportunityScore": 23.9,
+        "opportunityScore": 24.0,
         "risk": "High",
         "sparkline": [
           {
@@ -7267,15 +7267,15 @@
       "name": "Eli Lilly",
       "sector": "Healthcare",
       "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-      "last": 1157.9,
+      "last": 1157.34,
       "date": "2026-08-31",
-      "return1m": 0.25,
-      "return3m": 6.92,
-      "return6m": 14.7,
-      "return1y": 57.32,
+      "return1m": 0.21,
+      "return3m": 6.87,
+      "return6m": 14.64,
+      "return1y": 57.24,
       "volatility": 35.69,
       "maxDrawdown": -23.31,
-      "opportunityScore": 66.7,
+      "opportunityScore": 66.6,
       "risk": "Moderate",
       "sparkline": [
         {

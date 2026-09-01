@@ -1,8 +1,38 @@
 {
-  "generatedAt": "2026-09-01T13:00:41+07:00",
+  "generatedAt": "2026-09-01T14:00:51+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 01 September 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-09-01-0442d2073a",
+      "date": "2026-09-01",
+      "topic": "Business / Investment",
+      "title": "Peluang Hadiah US$3.000: FedEx Luncurkan ‘Export Challenge’ Perdana bagi UMKM Indonesia",
+      "summary": "pasardana.id surfaced this fresh item: Peluang Hadiah US$3.000: FedEx Luncurkan ‘Export Challenge’ Perdana bagi UMKM Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "pasardana.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQWNDZFlNaW5LbW94RFVNZF9EZG5OQUo2X1I1LUpKX3pHc2FidFk0SGxleXl3Q0Jnc0dIdUVIMTZEWWR1ZTRIOE1oZzduOW1XaUZWd3pHcjdZaEJDT040MGF3Vl9iT3dXLXdtQlJwOW0wcjFNam9BRTNyVVNiNlJ3N216WjZYdHZ1ZmpMMV9TYzBYT0pXLVJMNkM2UzZ5LWJrQWU3UlJVTXBRbVd0a3E1RUExRjJncXg2Q21EbQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-01-f34db684c7",
+      "date": "2026-09-01",
+      "topic": "Tech / AI",
+      "title": "Narasi AI Bukan Cuma Data Center dan Lahan Industri, Analis Soroti Peluang di Bisnis Pipa",
+      "summary": "IDX Channel surfaced this fresh item: Narasi AI Bukan Cuma Data Center dan Lahan Industri, Analis Soroti Peluang di Bisnis Pipa. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "IDX Channel via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPenNNazFnMHhsMmpsczN1WlVWTmc1bjRtQU4xLW1sNlI4TUJ4empHSE55T2VoSDlnTGNqYnR6Tzcwc2lDd21lSUhfUXd0TGc3UW96M2txUWZYN2JRd3c0RW1RYmx0ZDZNaWRVejg5V19FV3REQTYwWi0zcmstb0Y3LVdXYjBTR1NxdzlfZGFXX2l3WThZQmw0dUFjbWRTV2I0N29IdXR0X0NoR1BabUlNYmN2NVZkRHhYRE5EZkY5SDE4N2xkTGlvcGl2c9IBywFBVV95cUxPenNNazFnMHhsMmpsczN1WlVWTmc1bjRtQU4xLW1sNlI4TUJ4empHSE55T2VoSDlnTGNqYnR6Tzcwc2lDd21lSUhfUXd0TGc3UW96M2txUWZYN2JRd3c0RW1RYmx0ZDZNaWRVejg5V19FV3REQTYwWi0zcmstb0Y3LVdXYjBTR1NxdzlfZGFXX2l3WThZQmw0dUFjbWRTV2I0N29IdXR0X0NoR1BabUlNYmN2NVZkRHhYRE5EZkY5SDE4N2xkTGlvcGl2cw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-09-01-90da75f5a4",
       "date": "2026-09-01",
@@ -38,43 +68,13 @@
       "date": "2026-09-01",
       "topic": "Business / Investment",
       "title": "BPS: Ekspor Indonesia Juli 2026 Tumbuh 6,05% Jadi US$26,2 Miliar",
-      "summary": "cnbcindonesia.com surfaced this fresh item: BPS: Ekspor Indonesia Juli 2026 Tumbuh 6,05% Jadi US$26,2 Miliar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "CNBC Indonesia surfaced this fresh item: BPS: Ekspor Indonesia Juli 2026 Tumbuh 6,05% Jadi US$26,2 Miliar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "cnbcindonesia.com via Google News RSS discovery",
+      "source": "CNBC Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkFsdXY3aXcwU1Nfek1nMzhBTzhFV0VuM0FrX0JJZW80eDIxSENYc3NIb1l3R3hVc0hmWmRPNEtwbUMxMVBEaFROZ2JVc29rcVIxekhRTTZuTTFsZ2kySlJoN0c0b0N4M2NoQlVSRFNPakN3ZTdiMmp1VU1WWUJ1SDd5RFV6ME0xS1dDTDJtaUVjc3JJdnZsbzNjMGJkSTdNQU9qOW5EbE9YZ3QyOUNObV9mNG40WEJ1UjM00gHAAUFVX3lxTE9pYlUzSmdaeU5uNXU5X0tfRXFELXpRRjV3WktyQ3o0MlM0MmNkMzZCdEZuZ1ZERi0xT3dQUWxGd29UOWF0djBIOHQzbV9Pd01PN3Y0NUZHQnZIal9TQmQ3d2JPZ3R3UzRiOFRVaWkwVzZST1RycEszRV92amRGYU5uMWlNVjU4ZlpwVHI1ZVBmenYzb1d3T3RkY0lON0RrZlAxSGxIbDFOeEY0MzNHU3VLN3NmWTlPbVcxQkw2TlFIaw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-01-dc88b1bbb2",
-      "date": "2026-09-01",
-      "topic": "Business / Investment",
-      "title": "Tumbuh 7,16%, Industri Pengolahan Topang Ekspor Nonmigas RI Januari–Juli 2026",
-      "summary": "Bisnis.com - Ekonomi surfaced this fresh item: Tumbuh 7,16%, Industri Pengolahan Topang Ekspor Nonmigas RI Januari–Juli 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Bisnis.com - Ekonomi via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb0dHaVNOM1EyV1FsbTR2UUpLNU1rd0xlY242eExpY1cwekVBbVZEblo3bm51R19jZTNyOHU2R1BJRVBfdFpPYTVaMVZrMGplUS00Z0lKalBpWWVMeTdxek93WU12VncwaGRPUm1nOWVLS01KbUxUaEFqODdUejNnUzZucVNxaW9yelptNFdqZDZobUxpVG0yTS1XNjQzWC1ZbjZ2WndwZFd2czA2VkNaaXp6cVdtMll6YndQVDJkcDhlN2k4?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-01-c614246479",
-      "date": "2026-09-01",
-      "topic": "Business / Investment",
-      "title": "BPS Catat Ekspor Juli 2026 Mencapai US$ 26,22 Miliar, Naik 6,05% Secara Tahunan",
-      "summary": "InvestorTrust surfaced this fresh item: BPS Catat Ekspor Juli 2026 Mencapai US$ 26,22 Miliar, Naik 6,05% Secara Tahunan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "InvestorTrust via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVWxPVXpmbnFmams3aWJ0QU9sQkhDZmRLWUdlcHVDblE4U1JjZURiaVBnS0dKTjRQZFRYeVJMMFJuRy1pWXZMN25YLUhEREI5SmFIUGh0MTJBc2hNcER3VjFpRDZUZnI3V0RGR0lPTzR1YzRjSF9CM0Jndjh1eGtBdF9rMDJDTW9iWFlYR2haTEhsdWhJcFJ0TmdUdkFXVTIzYW9HQ1ZkajRQbmxTUS01TWxsY0U?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -184,6 +184,36 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-09-01-6b20f0cdf7",
+      "date": "2026-09-01",
+      "topic": "Tech / AI",
+      "title": "Data Center dan BYD Kerek Emiten Kawasan Industri",
+      "summary": "investor.id surfaced this fresh item: Data Center dan BYD Kerek Emiten Kawasan Industri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "investor.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeUQzNEVmbEtnbDl3SzZjWHhuNkREaTlDQWRjbnQ5MXZuWHNUTlFNZVg1LWJncHQ3UGhwbjBtaWNaVmlhNjNTcGE3N25LcnJUS3FhdUxrcF96NG5XUGVySng5NHNEQjBFdXBkeE5pcEVEU0JOdnlpU0EwUXd2VGFhaXUzYXUzZkY5X0RR?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-01-5d4f917e22",
+      "date": "2026-09-01",
+      "topic": "Automotive / EV",
+      "title": "Baterai Motor Listrik Bekas Mau Dikemanakan?",
+      "summary": "Kompas.com surfaced this fresh item: Baterai Motor Listrik Bekas Mau Dikemanakan?. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Kompas.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLVIwUkpEUDFEWExyVHBQS1I4cmdVbm5UYWMya0w1eVU5TF91SFd6ckMyVG1yQ01iS3ktNl84cE1ZaUNpZEpZaFFudElvWHBwVl9CTUx2OGhVYk9kM1JWcWtTY29HY0xyQnMyNG95NUt2ZVhXSTZxVVhlVGc1dDRmWFhLSUhHUlNIZGxZQ0RtcUpYRzhOVGlkc3ZPT3NlUDJUdy1WcFB6ZWhOUQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-09-01-cac1516dc2",
       "date": "2026-09-01",
       "topic": "Automotive / EV",
@@ -203,28 +233,13 @@
       "date": "2026-09-01",
       "topic": "Automotive / EV",
       "title": "Deretan Emiten Ini Menopang Mimpi RI Jadi Pemain EV Global: INCO-VKTR",
-      "summary": "cnbcindonesia.com surfaced this fresh item: Deretan Emiten Ini Menopang Mimpi RI Jadi Pemain EV Global: INCO-VKTR. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "CNBC Indonesia surfaced this fresh item: Deretan Emiten Ini Menopang Mimpi RI Jadi Pemain EV Global: INCO-VKTR. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "cnbcindonesia.com via Google News RSS discovery",
+      "source": "CNBC Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOEYzR1NHQWFEcnoyU2R6RU85TTJNNUo4TlVqaGVuYURDbXNuTGprMmdnZ3V0RHZOeU5FWXliWnpEUDdQOTBxMHgtaER5Tk5Sc3ZValEwaWs4NVVlejZVWUhJRjE5SXZ6YzJVUGpXQjVTOHFRcVdoN0I3Yl9yU3NNM0pBMnVFenlERGVQMGN5YWxTRl83bnBSMHdNdnA2eGdZQnVlekZJZF9weTRTUVFEUTEyMFV1eTByVmZyV1MyaHFWQmJrVElwZDg3b1VWZw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-01-df8d885ebf",
-      "date": "2026-09-01",
-      "topic": "Automotive / EV",
-      "title": "[POPULER OTOMOTIF] Pilih Beli, Sewa atau Tukar Baterai Motor Listrik",
-      "summary": "Kompas.com surfaced this fresh item: [POPULER OTOMOTIF] Pilih Beli, Sewa atau Tukar Baterai Motor Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdFlNUm10azNhak05X2trMXVLU2lub3c1VDlzZnZaQUJXa0xWYXZPNE9ZU2o1WnBYTEl3dTJ6T2xPVWFJMWJROUJNajByZTJ3QkdvZjlfNGFDMU9VdmZ0UldNX2JpTWRiS3gycW1OR0lVT0NPcHBIWEFyYUNDNVNpdEJfT0Z5aFRUejFORnM3dWl0YV9oMU4yZDdKMzY0aTdkaG03UTZNaTM2Qkgtb3BhM3VpWGZ1VDJjME1kWA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -244,17 +259,32 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-01-9004cb0672",
+      "id": "2026-09-01-3c17aee308",
       "date": "2026-09-01",
       "topic": "Automotive / EV",
-      "title": "BMW Diam-diam Sudah Jual 2 Juta Unit Mobil Listrik",
-      "summary": "detikoto surfaced this fresh item: BMW Diam-diam Sudah Jual 2 Juta Unit Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Menjajal XPENG New X9, MPV Listrik Premium dengan Kabin Luas dan Layar 21,4 Inci",
+      "summary": "kontan.co.id surfaced this fresh item: Menjajal XPENG New X9, MPV Listrik Premium dengan Kabin Luas dan Layar 21,4 Inci. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "detikoto via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcXBWazFLVGZKZjRTRXNvNFY4OWxNcVlJbVBqR0w1S1JGd0tUdXlEQWx2eFgzY0J4WkJUUlNuZ29PVHJVaUI0UzYzbk9KZmt6MnNhSEVBSEcybWZzdVRIVHJuV0d4eEpZWm9FcEl6aTR1eEVSWWFualpOcDQ0RUhCc0dTSzI4Qkt1WWM5bVZKU0Vtc2lLdmU5MEp0ZU41LV80QkHSAaIBQVVfeXFMTXFwVmsxS1RmSmY0U0VzbzRWODlsTXFZSW1QakdMNUtSRndLVHV5REFsdnhYM2NCeFpCVFJTbmdvT1RyVWlCNFM2M25PSmZrejJzYUhFQUhHMm1mc3VUSFRybldHeHhKWVpvRXBJemk0dXhFUllhbmpaTnA0NEVIQnNHU0syOEJLdVljOW1WSlNFbXNpS3ZlOTBKdGVONS1fNEJB?oc=5",
+      "source": "kontan.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONkNFLWVsYVJyZUNTTXladVZKOGpiem5tLUtWdWhaUmxPaFc4Q3FzR1ItOUkwdjR1aUxyRHlvNlZ1WkhEdWM5X29mYlRyZS1zNUE2Q09nY2tYUEdHbXNWcUxLeTVFdzJ4NVVaUmVrSU1FajJVWHBrVWhudlVaREtsQTlBMU5HSWJaS2xmdTBNVm96czlDbU9ESEFSd1NHTUxmbTNXRmJQRmdyUUZXU3MtOEw5Y9IBrAFBVV95cUxPeHB4ODRveG9XNW0zWlhqSHdzenZ0T21OZ0pBUWVfMDB1MHd2STN6ZExGWEk1UUc3VHlHanNPSmpQcjE4XzBKNW1HRVowRVVobFE5bFNuam8wYmc2X2Fhc0pWYUp2TFE1blB2a0hTam56TnhaeVR1dEFBOExsdmFwXy1iVmhFTWxjU1RUMlp3akpQcjgyQkFYMTFFaFJWMTJRZkRWWnBjUXFlY3da?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-01-18a205ffb2",
+      "date": "2026-09-01",
+      "topic": "Business / Investment",
+      "title": "Indonesia sulit bangun industri hijau jika kebijakan masih tak selaras",
+      "summary": "The Conversation surfaced this fresh item: Indonesia sulit bangun industri hijau jika kebijakan masih tak selaras. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "The Conversation via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdENXa3U0al9Gb3MzU3pYZldzWUdfQUIzaWJheXdHaFc3NDhoMkRKM08weTBNeWgxbWI1c3J3Y2JUQVZ2NU9ueE5CbXlOejBlTmNyMHRRMWRiVG90cE1NUnVNTlY1MFRmbHd0a0hIeUs2dVBNLTFZTk9Xc0RwaHRnRjRWNVJ4VjNURHVIajBvTGJoQVFpX3FJYXZ0N1hvTnc2ZnNncE8xM2g?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -332,40 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPV1ZfY01IUWlSSEpzOHpGM0hTU2phZEZCVjRiVlpTcEJpRUZGeVBWRjU5RFVIVVh3cG1YcDZLRXhvQVRMSy1SRXA1ZWlEYTg2eGs4aEVvbUhHb2xPUm83emJpT0lOU3JwMDhrcWpTTlFRVTVWSjZOWElrYzRoVXplckxBaDZBZkhISUUxYjhDcDg2RjFsZVU2eXlKbk9ISnl1SDVubk9iaHljbFJ4el9XUHZyQ2lTbDc1blFhdGdod0dJNHhJdm01UzYyR3psYzdacjF4THd5MmFHd09qdHVicG1rX2w1a3N6enFJNXEzUUdEb3pmOEotWG55NHhDVDA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-09-01-94a83900f0",
-      "date": "2026-09-01",
-      "topic": "Regulation",
-      "title": "OJK Cabut Izin Usaha 12 BPR Hingga Agustus 2026",
-      "summary": "SuaraGarut.ID surfaced this fresh item: OJK Cabut Izin Usaha 12 BPR Hingga Agustus 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "SuaraGarut.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pNmtIeFRPOERBX01aeURSd2RBbVFUYkg2YTlSck02NllRNFF2SEJEVXVoUVZZelZNal9aenpyd2J6aEg0SDM0WDkteUN6T3NDTm93MGZtdTYydmFjZ3JTem9TellkcUU?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-01-be6a0a7fbf",
-      "date": "2026-09-01",
-      "topic": "Regulation",
-      "title": "Daftar 12 Bank Tutup per Agustus, Ada Perbankan Syariah",
-      "summary": "CNN Indonesia surfaced this fresh item: Daftar 12 Bank Tutup per Agustus, Ada Perbankan Syariah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.05,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "CNN Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmNKVVQyNEhzeUcwZWR5SDNFQWVQQ0wtM2FOTVZnM0tucF9EeTlwLVlYRUc3M09fRFNiMFdoLXRUajdDOFA1QWRCbVZqN1ZvMUxMUDQ0c3E1UVV0TURNcDZ1LUE3UFoweEJvZEFuaVJFX0lvLWQ0dk5tM3VweEFNUXVXa3YzRXRFYkQwR3BUZU5fT21jSlZ2R01nbzgxd29JUGQ3Tm82R2RpbldmbnBpd0xzWjZmN1BY0gG-AUFVX3lxTE9jLWtWamc5bWFreElpOElVUXBreHgxcm5DNXBVMEdWTlNZMUMxTEszX0lfNmdlX3FkZmUyZ0k2ZlJJc0dwUmRFd19FZW5EZVNra0Zldm5VM0pHckJWbDJTQV80UXVEakx0T1QwNVRCSG5rVHFQeXEzYUZSRlBlTmlzYjBjc25UcEVzbUIwcl9OVEw5ZXpJQkE0NWhtZjFPVG1CVGxxQXd1bEpvcU5sRkFXanBXaElOekVZdTRNYUE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-09-01T13:00:41+07:00",
+    "generatedAt": "2026-09-01T14:00:51+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,12 +374,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12709.2002,
+        "last": 12701.9004,
         "date": "2026-09-01",
-        "return1m": 0.04,
-        "return3m": -0.69,
-        "return6m": 6.34,
-        "return1y": 6.53,
+        "return1m": -0.02,
+        "return3m": -0.75,
+        "return6m": 6.28,
+        "return1y": 6.47,
         "volatility": 9.77,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -664,7 +664,7 @@
             "value": 12696.4697
           }
         ],
-        "profitScore": 1.84,
+        "profitScore": 1.78,
         "view": "strongest IDR return screen"
       },
       {
@@ -672,12 +672,12 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 17720.0,
+        "last": 17725.0,
         "date": "2026-09-01",
-        "return1m": -1.72,
-        "return3m": -0.81,
-        "return6m": 5.51,
-        "return1y": 5.23,
+        "return1m": -1.69,
+        "return3m": -0.78,
+        "return6m": 5.54,
+        "return1y": 5.26,
         "volatility": 6.34,
         "maxDrawdown": -2.94,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 17749.0
           }
         ],
-        "profitScore": 1.35,
+        "profitScore": 1.37,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +970,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13939.6299,
+        "last": 13941.5342,
         "date": "2026-09-01",
-        "return1m": -0.94,
-        "return3m": -0.24,
-        "return6m": 4.95,
-        "return1y": 4.5,
+        "return1m": -0.93,
+        "return3m": -0.23,
+        "return6m": 4.96,
+        "return1y": 4.52,
         "volatility": 7.72,
         "maxDrawdown": -3.8,
         "sparkline": [
@@ -1260,7 +1260,7 @@
             "value": 13927.1699
           }
         ],
-        "profitScore": 1.33,
+        "profitScore": 1.35,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,12 +1268,12 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20565.0,
+        "last": 20562.0,
         "date": "2026-09-01",
-        "return1m": 1.97,
-        "return3m": 0.27,
-        "return6m": 4.98,
-        "return1y": 4.53,
+        "return1m": 1.95,
+        "return3m": 0.26,
+        "return6m": 4.96,
+        "return1y": 4.51,
         "volatility": 18.66,
         "maxDrawdown": -5.62,
         "sparkline": [
@@ -1558,7 +1558,7 @@
             "value": 20033.0
           }
         ],
-        "profitScore": 1.24,
+        "profitScore": 1.22,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,7 +1566,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2637.2,
+        "last": 2637.7,
         "date": "2026-09-01",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1577,7 +1577,7 @@
         "sparkline": [
           {
             "date": "2026-09-01",
-            "value": 2637.2
+            "value": 2637.7
           }
         ],
         "profitScore": 0.0,
@@ -1588,12 +1588,12 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 110.83,
+        "last": 110.8,
         "date": "2026-09-01",
-        "return1m": -3.06,
-        "return3m": -0.95,
-        "return6m": 2.97,
-        "return1y": 0.87,
+        "return1m": -3.09,
+        "return3m": -0.98,
+        "return6m": 2.94,
+        "return1y": 0.84,
         "volatility": 9.47,
         "maxDrawdown": -6.03,
         "sparkline": [
@@ -1878,7 +1878,7 @@
             "value": 110.8536
           }
         ],
-        "profitScore": -0.37,
+        "profitScore": -0.39,
         "view": "defensive/watchlist screen"
       }
     ],
@@ -1887,12 +1887,12 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12709.2002,
+      "last": 12701.9004,
       "date": "2026-09-01",
-      "return1m": 0.04,
-      "return3m": -0.69,
-      "return6m": 6.34,
-      "return1y": 6.53,
+      "return1m": -0.02,
+      "return3m": -0.75,
+      "return6m": 6.28,
+      "return1y": 6.47,
       "volatility": 9.77,
       "maxDrawdown": -5.12,
       "sparkline": [
@@ -2177,7 +2177,7 @@
           "value": 12696.4697
         }
       ],
-      "profitScore": 1.84,
+      "profitScore": 1.78,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2226,7 +2226,7 @@
         "ticker": "TLKM",
         "name": "Telkom Indonesia",
         "theme": "Digital infrastructure",
-        "opportunityScore": 59,
+        "opportunityScore": 67,
         "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

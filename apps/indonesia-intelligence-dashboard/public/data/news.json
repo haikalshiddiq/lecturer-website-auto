@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-09-01T18:00:55+07:00",
+  "generatedAt": "2026-09-01T19:00:57+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 01 September 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-09-01-b4e88e4500",
+      "date": "2026-09-01",
+      "topic": "Automotive / EV",
+      "title": "Xpeng Indonesia Siapkan Peluncuran Mobil Electric Vehicle Baru Tahun Ini",
+      "summary": "SuaraGarut.ID surfaced this fresh item: Xpeng Indonesia Siapkan Peluncuran Mobil Electric Vehicle Baru Tahun Ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbGRXVFFzaGVpN1hwUGl2LUwxZUNjLXk5TUZXTTZMV1FhS29YVFZmcHpSUTBlRHh4SDNQQVlFZlREUHdKQ2txNlZjWUhRbnh5X19ELTdmSWVaZk1yaU5GQlRqOFNiLVpSM3VpY0lXTTB3VjNiMVQ2M1YwZzlwTVNTRA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-09-01-df454bd3d1",
       "date": "2026-09-01",
@@ -49,16 +64,31 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-01-ccae6b2fbc",
+      "id": "2026-09-01-edd124e760",
       "date": "2026-09-01",
       "topic": "Automotive / EV",
-      "title": "Pasar Mobil Listrik Tumbuh Pesat, BYD-VinFast Perkuat Basis Manufaktur",
-      "summary": "Bisnis.com - Otomotif surfaced this fresh item: Pasar Mobil Listrik Tumbuh Pesat, BYD-VinFast Perkuat Basis Manufaktur. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Kenaikan Penjualan Mobil Hybrid Tidak Sebesar Mobil Listrik, Ini Datanya",
+      "summary": "oto.detik.com surfaced this fresh item: Kenaikan Penjualan Mobil Hybrid Tidak Sebesar Mobil Listrik, Ini Datanya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Bisnis.com - Otomotif via Google News RSS discovery",
+      "source": "oto.detik.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNazQ0QWh1c2dmd0xaT1l1bWNjYTJrVlhFMjVpWVFmaVUxWkN1d1REUTdmdTlUeHRZWWotZ1hrUHNNOWNlQk92RXVPUWpzSmJiWlJIejZUWGFPM0tZc2tMRlpQWEs4cFZ4SDczZGdBTmZ0TVVDZTBqN1ZqaUVTQnVXRlBhOG1tVFVna0FPeHBUX0VIS0s3SFN6WlBqUmNuWVhUaS16RFRYdzUxQ0pHN3fSAbMBQVVfeXFMT2doemFhU093SkVhaVI3c20zWHdPTllPTFVya1RZN3lUYjhwc1M4T2lLZkEwNmdTazdHVUtnbEx6QWgtcTB3ZXhkeGl4NDdtRFB1VFhGM1ljUkxfeVRXdU9ZNnR5Qm1fWm9EaHotNE9CLXM1dGVwZTJzY3RRWTB0SDhJdkgwYkxsbGNCWHJFcmJxNTl0eWFpRGM2SmdIVkhIX3c0Y0hQYlJyV3ROV1M0MFhhYk0?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-01-ccae6b2fbc",
+      "date": "2026-09-01",
+      "topic": "Automotive / EV",
+      "title": "Pasar Mobil Listrik Tumbuh Pesat, BYD-VinFast Perkuat Basis Manufaktur",
+      "summary": "otomotif.bisnis.com surfaced this fresh item: Pasar Mobil Listrik Tumbuh Pesat, BYD-VinFast Perkuat Basis Manufaktur. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "otomotif.bisnis.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVBrMGZrVng2cHc1VjYwZ0dmR1RFRlpGTUQ3dVR6YWQ0ZWEwOG5HUTlWbG92RExuUGhWTzRBa25VYm1XWmN4S1ZvajVDdzA4WHFtV19vcUlWcldxWmx6OGxZeElHeExmd1RWcWhZbzVaREJqV3pLTFBSYjduZ2UtS2FCYUVDNl9fbExuSXFybmY5dm1QcEExQ2xqTWRPcDI3b1RkSXhHTWlZLVlQNzRoUVFmWDItRGZXVERsQzJ5MA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -68,12 +98,12 @@
       "date": "2026-09-01",
       "topic": "Business / Investment",
       "title": "Indeks Harga Ekspor dan Indeks Harga Impor Indonesia Triwulan II-2026 Masing-masing Naik Sebesar 10,92% dan 14,19% Dibandingkan Triwulan Sebelumnya",
-      "summary": "Badan Pusat Statistik Indonesia surfaced this fresh item: Indeks Harga Ekspor dan Indeks Harga Impor Indonesia Triwulan II-2026 Masing-masing Naik Sebesar 10,92% dan 14,19% Dibandingkan Triwulan Sebelumnya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "bps.go.id surfaced this fresh item: Indeks Harga Ekspor dan Indeks Harga Impor Indonesia Triwulan II-2026 Masing-masing Naik Sebesar 10,92% dan 14,19% Dibandingkan Triwulan Sebelumnya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Badan Pusat Statistik Indonesia via Google News RSS discovery",
+      "source": "bps.go.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNWnI5bExqTEpuTVJ1Sk1WbGFWR3lSZURHdlh2ajNNenM0dXloTkE0bk12MWd2bXpsTl92TDI1VE1JcHU1dndwOXpaaUZrb2hDZ3VCcTZXMVlSTkJ5Yy1CV2VFN3M5SFNCOExMa0lWX1luWkxRUllDTDdGX3hIQWNBczVMM1k2WFRmb1h6MmQtbDNLZ25vQktJRGF4ZGJvUGktSzFVbU05ZllLaDEybWVGY0Y5X3MxT2RFMkctQUFwekVpZE4tV2RRalJleWtMamhuTllwaFB5TWNNSlNrSGZiODZQQ1lWUUNwcGdnT2licjZWRlpGMHBBWlNmSmRNaGIxaHU1OGhva1JXMDRRUnkzMHFwZVpmMDRsdUlqMGgwRnR1X3dVQmJCeDhDZ2R2OThrQ1FFQkhFbDFMdmg0QnA4?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -94,17 +124,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-01-c79fcb3393",
+      "id": "2026-09-01-9dc3829fbc",
       "date": "2026-09-01",
       "topic": "Business / Investment",
-      "title": "Pemprov Jakarta Targetkan Investasi Rp.16 T di JITEX 2026",
-      "summary": "Sonora.co.id surfaced this fresh item: Pemprov Jakarta Targetkan Investasi Rp.16 T di JITEX 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "BEI Siapkan Jembatan untuk Akses Broker Indonesia ke Pasar Global",
+      "summary": "Kompas.id surfaced this fresh item: BEI Siapkan Jembatan untuk Akses Broker Indonesia ke Pasar Global. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Sonora.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbFAweVlMemgydFFaU0hoYUVQTTA0ZXVmX1JQbml3YmNiV3BzQnppbUhrX1dxQlFENU4wWWw4WGgzVFNMOE1jWXhnbkdsY0Y0NFFGVE5vVEp4c2FfX1BJWHZnYVJ2YjNmbjZFdlRXcTRROFVMUmUybVRDWGdzS1NOTk1FUmtsbzBxaWhZQzZHNmtJcjYzYmZpXw?oc=5",
+      "source": "Kompas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa3V5V04zOGVsOUFTRU5kQXplUUxzQVF0RmVlTXpwcEc1ZktDU1JiSWNzVk10X1RZZFVMTnpkZXRYQzBINkdwTG1PeGsxV1Utclo3UUF4cTV2Unh0c2d6dkVPT0NJR3U1UWhqcmxPUTM1RDYtaVlzR0VZWG5FV0ZSY1g4RkV2VHVzME5VLTVMbnNCMWFPdkFZS2JrN3pfS1Y0cVdSMzZn?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -154,17 +184,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-01-4ee10fdc46",
+      "id": "2026-09-01-6887bf0dfe",
       "date": "2026-09-01",
       "topic": "Markets",
-      "title": "Saham-saham Perbankan Dorong IHSG Melonjak 1,14%",
-      "summary": "Bloomberg Technoz surfaced this fresh item: Saham-saham Perbankan Dorong IHSG Melonjak 1,14%. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "IHSG Naik 1,14 Persen, Pasar Sambut Positif Pengesahan Destry sebagai Gubernur BI",
+      "summary": "suarasurabaya.net surfaced this fresh item: IHSG Naik 1,14 Persen, Pasar Sambut Positif Pengesahan Destry sebagai Gubernur BI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Bloomberg Technoz via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbmpWTWNERWZVLXdMNDlJMFRhVFFKVlZLUXZzQm1ZeGNCcjIxLXQ3dXF4OWpIOTBISlJQTFhOdlVUYTNaODVOWnRKX2JYTEpQckVOdUtJdlJrRkNVT3lORTkxUGJRc1VTM0Rma2tlYkhjN3VJUV8yNWRhUV9XNlA3ckk5WE4xZ0RhX0dkelhSN0lBdkFSQTdyWVNJSk5ZelF6?oc=5",
+      "source": "suarasurabaya.net via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcGxfVUhlcTBIQl85ejFZQkRLWGNjR1dXTXNoX09GSUdvR1FhOHF2aHctcmpNX2xDZzZqbVp2X1k5MnhSLXdRTktmNEF2Tk5rQ0lwd3VXTkc5YjEwU3hOZ1ktbzI1R0xvUHVPeUxrOVdiQk85aWQzSXNkd1U5ZUVwRmZ4bTJxWUFuc09DLWJyNHdTdFYxQjlySDNDQXFDS2MzLUNiM3hfWlZ0UjdRYkhpWi1NRHpGM2pMME5oMjFFQkwxamdyXzlUd9IBzgFBVV95cUxQVGRvcEtOTl9VSjN3V1FadjdGMmxSWGVRRjRnQjVkYzEwV3hONWRTbEp0cmR6QTZBc2FEclQ5WFNCVjhSb2E1SmlMdjZSOFJyRklfbWVWRzdYcVJKV2EtVG0zcXN3WTdhTzlhaFNPWXNYMnJMbUp0SDktc0E0WWV6cm93aFluVkdxS1dIXzlZaU1rampSbGdKMGRhVkFKbjFPXzZMbnVZWkZLOWRrRFpwZ2xROHdwbjJhWWdpS3RMVFllb084Z0d2R1hMWnd2dw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -244,21 +274,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-01-9004cb0672",
-      "date": "2026-09-01",
-      "topic": "Automotive / EV",
-      "title": "BMW Diam-diam Sudah Jual 2 Juta Unit Mobil Listrik",
-      "summary": "oto.detik.com surfaced this fresh item: BMW Diam-diam Sudah Jual 2 Juta Unit Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "oto.detik.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU09yamdDa2hIbTdFXzh0TkFEWDB1aDdFbXBTSU1Sdm1XV3BBcUFsYWl0MzRkaTdUeUU1NHc3dml6V1JxQlZ2WUlsVzdjcFhuTHc2VUlCZHhaQ3JOYW9oR0VlY1lNRVRTVmxHRXpiSUpJcEtYbWJIWEVHNTR6NHMyTGFWT3NyMWxrWjhrZ2tDdHN1Q1ZfYlRkcnBRZnjSAaIBQVVfeXFMTXFwVmsxS1RmSmY0U0VzbzRWODlsTXFZSW1QakdMNUtSRndLVHV5REFsdnhYM2NCeFpCVFJTbmdvT1RyVWlCNFM2M25PSmZrejJzYUhFQUhHMm1mc3VUSFRybldHeHhKWVpvRXBJemk0dXhFUllhbmpaTnA0NEVIQnNHU0syOEJLdVljOW1WSlNFbXNpS3ZlOTBKdGVONS1fNEJB?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-09-01-ab5f802186",
       "date": "2026-09-01",
       "topic": "Automotive / EV",
@@ -289,31 +304,16 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-01-08b9adeb4c",
-      "date": "2026-09-01",
-      "topic": "Automotive / EV",
-      "title": "Gubernur BI Terpilih Ternyata Doyan Mobil Listrik",
-      "summary": "VIVA.co.id surfaced this fresh item: Gubernur BI Terpilih Ternyata Doyan Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "VIVA.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUXZsZHV6eXFRamk3ZExsQ0dyNVJrSVY3M190NkFRNHpQZ3JZbEI2dm1ENkhUMVVfMFREQmVjbHNJSEdaZ0g3T0ZiX2N1V19QYVlBM1FhWjk1N1VMMktxQXdMdDAzeVlMcHZ4X0RLd2Q0ZHI2eXhxbXJYWlpmVzl4Ni1VakNKb19nY01CX1J3M0Y5VkXSAZgBQVVfeXFMTTJ1SHhQbkRlc05vakIxUUhUUWRpR2tja2FYelBnVFRQTmdkTVZQcXpfZEVzVFIzY1dlbGp2OHVObXV6MFd0a3NnQURXZFBnLV95eWsxb2hRTDZZRXoxb3VDclEzd083R1RWTGRmd25kdlRFVW00UkdwTUV3RGpLaWpFUmNrOTVPUHVvd0FST0MyWlJ2d2wwako?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-09-01-18a205ffb2",
       "date": "2026-09-01",
       "topic": "Business / Investment",
       "title": "Indonesia sulit bangun industri hijau jika kebijakan masih tak selaras",
-      "summary": "theconversation.com surfaced this fresh item: Indonesia sulit bangun industri hijau jika kebijakan masih tak selaras. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "The Conversation surfaced this fresh item: Indonesia sulit bangun industri hijau jika kebijakan masih tak selaras. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "theconversation.com via Google News RSS discovery",
+      "source": "The Conversation via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdENXa3U0al9Gb3MzU3pYZldzWUdfQUIzaWJheXdHaFc3NDhoMkRKM08weTBNeWgxbWI1c3J3Y2JUQVZ2NU9ueE5CbXlOejBlTmNyMHRRMWRiVG90cE1NUnVNTlY1MFRmbHd0a0hIeUs2dVBNLTFZTk9Xc0RwaHRnRjRWNVJ4VjNURHVIajBvTGJoQVFpX3FJYXZ0N1hvTnc2ZnNncE8xM2g?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-09-01T18:00:55+07:00",
+    "generatedAt": "2026-09-01T19:00:57+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [

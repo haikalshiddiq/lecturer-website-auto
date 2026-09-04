@@ -1,23 +1,8 @@
 {
-  "generatedAt": "2026-09-04T17:00:49+07:00",
+  "generatedAt": "2026-09-04T18:00:51+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 04 September 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
-    {
-      "id": "2026-09-04-b4d778977c",
-      "date": "2026-09-04",
-      "topic": "Business / Investment",
-      "title": "Utusan Khusus Presiden Bidang UMKM Dorong Investasi Tiongkok Bawa Transfer Teknologi",
-      "summary": "TVRI News surfaced this fresh item: Utusan Khusus Presiden Bidang UMKM Dorong Investasi Tiongkok Bawa Transfer Teknologi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.24,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "TVRI News via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjhUdUxTekJQZ2gzdExOYmNSbTMzSUl2cU4zbndnaDJCNXFGZWk2RUg1V3kyRzBrMkVfOENLSGdpLXV1OUdOUXV1a0FJOUh4VlZnQ2dHdm1SQXVicUpLem9LVERyNEdPQ0dZM2JWODlDN3BxZUxjdnJXS2ZiTm9yVkN3ZVdJbXJERFhkOVdVR0NrYzlrNThjWGQ5ZlZxQXZjc3QwYmJPVjV5WUpWTGY4OUNvaUVkZkF6eVdBaTdHa3JUZ2VVQi1fVg?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
     {
       "id": "2026-09-04-c79c7b9768",
       "date": "2026-09-04",
@@ -64,6 +49,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-09-04-d636351bae",
+      "date": "2026-09-04",
+      "topic": "Automotive / EV",
+      "title": "Mobil Listrik Australia Cetak Rekor, Merek China Mulai Kuasai Pasar",
+      "summary": "TIMES Indonesia surfaced this fresh item: Mobil Listrik Australia Cetak Rekor, Merek China Mulai Kuasai Pasar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "TIMES Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSjgwVHZjUFlpOGhOd3FWM0JvN0NRR3owRTFBZkFYbUVVend6LXFZc1Q2amlaRkpnSjRZZTFmektXeHJYdGRwWTkxejV6d042eDZOb2xxWm9HQXY4ZjNjLVp5VUFxVjREdThzWEo1TnVGV2tEWlRBRU9DaFJFUU9Rak50R0czT2N6LThjbjBkYXgwbEZLckc5cjU3em5BbVRhSk11X0prTUVVU0VBdjI4M2tn?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-09-04-1b960fc985",
       "date": "2026-09-04",
       "topic": "Automotive / EV",
@@ -79,47 +79,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-f6f27f6c56",
-      "date": "2026-09-04",
-      "topic": "Automotive / EV",
-      "title": "BYD Pelajari Potensi Peluncuran Mobil Listrik Racco di Indonesia",
-      "summary": "SuaraGarut.ID surfaced this fresh item: BYD Pelajari Potensi Peluncuran Mobil Listrik Racco di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "SuaraGarut.ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oeVlYVk1BMGlydHA5WGhidVJWV2hyVWJwbkFUT0VKd3o2b2tLRjZWbGlFcWNCSmZJcnpZZXdYZVVTRzFCVF9OMmh4WnlwYjU0NXBQNHBYUXdVc0RZd2VHTHhfWFFfcDZzTTlib3J3bXRQTGJod0xVVw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-04-0de4896ddb",
-      "date": "2026-09-04",
-      "topic": "Automotive / EV",
-      "title": "Siap-siap Mobil Listrik Murah, Pemerintah Siapkan Skema Subsidi Sesuai TKDN",
-      "summary": "GridOto.com surfaced this fresh item: Siap-siap Mobil Listrik Murah, Pemerintah Siapkan Skema Subsidi Sesuai TKDN. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "GridOto.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcHo2c2JyU3dTLWtPRkpJTENsc0JHUjJsVkhHUHFrLUVxSm1kczNjNUxHZzVESWtveDlPbl9FMG5US202dlJzYWtQWUlYZTRSaERzdGl0MVNmX0NxblNUYkptM1JYdVpCU3F3djU2eTdpcGkyZVlDSVFOVXJONVIwdWIxWWVKdUJyVndzanc0amtma2RSdkgtSGFjdy1PTk82NHhXakdmdF93ck9fUk54bG50ZmFCS0VXUFNORVgza3Mtdlo3OC05dUt1QXlBbUZuQkZzY0hzVl93a2tHWFpPSDM4LWoyS3B6S2k4VC1PaF8zOWs2cFY1S25ZN3ZQTE91NHfSAYACQVVfeXFMT2RHOWJqY3pzc0I5ZV9RTURseng1SDNCZy05aHFUTkxScWxQaUdvc2RPRE5oa21tUFMwNExuWFNiS1JhQ2k2YTVveS13TGdwWVpyWjE0SlU2Ml9Nd1RVeUJKczE3cWd0ZEgyWGZtUmw3NWFYNXpud3RJX1ZnNno4aS00WDhMZF9nbnFCcjItdjRjMkw4YWNkNmtEdkY2dnMzNVl1a095WEJmMi12dnpCbk9Gd2FBaHpyUi12a1RJWnFMZEtEZmJEamI4c0s2d3Itc05kdm80czlIUWxzQ3lnQXdJUEhPYUUtc2pFR2IxT3BIa2N1OWF5a2ZoV2U2Nm5mbQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-09-04-6a583862b0",
       "date": "2026-09-04",
       "topic": "Business / Investment",
       "title": "Indonesia–Rusia Perkuat Kemitraan Strategis, dari Investasi Pupuk hingga Perkapalan Mutakhir",
-      "summary": "Kementerian Sekretariat Negara surfaced this fresh item: Indonesia–Rusia Perkuat Kemitraan Strategis, dari Investasi Pupuk hingga Perkapalan Mutakhir. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Presiden RI surfaced this fresh item: Indonesia–Rusia Perkuat Kemitraan Strategis, dari Investasi Pupuk hingga Perkapalan Mutakhir. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Kementerian Sekretariat Negara via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdDJYcy1WZ2pZTGlqX3p4MkMzcnhhU2dFV1FYZ29WMFZUMlM4RjZVUmxYOHZlSlgzV093V0dNVURyYjJIMzZUWUFEVkZyN1V2S2VzenVieldhS3FXREs0a0J4NVRnYUxFRWVUREg5d2VYWnJNREFhOUlxXzc5N0lVak5iRFJCSmNUT3lfYmJVa0ZzRV8xckJnZ1p3WlNSWV94Q1J1aUdscERRX2NaX1oweVpBU0dFREZvTzRtWENreEI?oc=5",
+      "source": "Presiden RI via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcGhPaGZQVWI0LUxRSDhTNFIwcnVRS0c2OHd1YWUweFF2eE9Ta3BHMDU4aG1XdVZFSjdVZGFkS1BTYWVpUmR1TjlwZFg0cUxSYXA2TFd0eVIxSXAwbV9NTWo4VjVVU0RnNkR2blFSemZxSWZDUjAtcUlhTVZTQ192S2YxQzUxcXF4elVEeDNIWDFuWWlmU3FfWFd2dlpmamt0T1RITkU3M1VIWFNtclJWNElUNnVhUl9yRkVuNi1NekJBcEpWQ0U2WXBsY3PSAcwBQVVfeXFMTXBoT2hmUFViNC1MUUg4UzRSMHJ1UUtHNjh3dWFlMHhRdnhPU2twRzA1OGhtV3VWRUo3VWRhZEtQU2FlaVJkdU45cGRYNHFMUmFwNkxXdHlSMUlwMG1fTU1qOFY1VVNEZzZEdm5RUnpmcUlmQ1IwLXFJYU1WU0NfdktmMUM1MXFxeHpVRHgzSFgxbllpZlNxX1hXdnZaZmprdE9USE5FNzNVSFhTbXJSVjRJVDZ1YVJfckZFbjYtTXpCQXBKVkNFNllwbGNz?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -135,6 +105,21 @@
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "IDNFinancials via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdVRFd0hmeFVVZDg0RWFyNS1VRFI0UkItRVh4VGN3djdwcUJGMFVLUFlPT1M4dS1Xd1ljYnc3UjdPbXpxX0VlSHRCTHV6VWtaWUg0RFNESDZFY2hueEFsN1pab1lld2FWaFlnSkdjYXFnX1JMbHNtTDBjM3VMbHRieUZad3g2QXhDa3huYWViY3lmTEtrNUJtS25oU0pzaExlOGhvY0ItSFNhLXhEeDNn?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-04-b5b241009b",
+      "date": "2026-09-04",
+      "topic": "Business / Investment",
+      "title": "Investasi Emas Kini Bisa Lewat Bursa Efek Indonesia, Ini 5 Produknya",
+      "summary": "detikFinance surfaced this fresh item: Investasi Emas Kini Bisa Lewat Bursa Efek Indonesia, Ini 5 Produknya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "detikFinance via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRll3UHJjd3p4dUMxMGM3X1Y1bFREdjk1UTBtUEc3MVE2SGR0RUoxZ2lCM0RTbkppMDVMMzBIV2o2SDQ5ZEZyRkVaVEtnTFJsZ21tRnozRk5NczBoSVJjaTduWkhkV1RnLVVpWXQ1eVNYMkpZaUdPaXJuU25sdzRJNjA1cXBTVU9SQ2p1STlXX0I1WEtEQy1oamdhWmZSUzFZN01NOTNpTmd5SHkybUZFVmFtVHRsMW9uSTRj0gHAAUFVX3lxTE9hSmNwaC1LQUI3NVJUVTFwX0xxUUExN2swdHZBMERzSUNuY1UyanlNcGRHSlZEXzRjWFhBOEFjbV94Qm1zdlJNcVZMNlFWSkVuT2pmV3ozNGdhUlFaWWF3MlJrSW1nQUJBYnRLYmpod2Y3S3NLSkJSQjdmWkNpckRPR0Z4ODUzWDZEamZfSW9zakRyYy1QQm5YZzRwR0h5RTNMWEZ0Y2tBVDZ1ZXo3bjV1MUo4a1otYzhWOThKVlhySA?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -164,7 +149,7 @@
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
       "source": "RRI.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaEwzMDF4enRjWFhBaXZYcEpoRUg4aTA5Qi0tbmxpc0p5TTJPcXdxbFRTV0Nndzl5MzJVY0pfMFdyVXZ2XzJyMjdCWFRuZGxiMmx2MDVqQkszUWpfaFo3bEJ0emtYVzBzUVNxMVdNdl81bFAwN2dITU9kTm9Dam5OSGM4QWFMNzMzOGRMMW1wanM2ZG8yOTB2M1I2eDdkYjk0OWxtNU9VcXVFdEw4cGxGblAzWVRUaHc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcmlDQjV5X3o5WjJKVWVwQjdKdkpWYllWVmJYS2tnWXVnUFk1UnMyaVc1anZHVGhiOVZLMEtNMHBlcmwwQlNuaDhKdHY0UmtlZ1VrRUZaT204WHVMVEFOd0lMeFpvVGw3MHlWbTF4c2ZzUlk0Q0JyMDN0X00zLUpnVzBjYnAyS2dEY2NSWU9xdXZwU0tMc0t6YVZHTWF4TEd3TTY2S1ZrWFlxXzU2?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -180,21 +165,6 @@
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "SuaraGarut.ID via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlUlBrZEZST0lWdjFlak1BcjJTRXFxdHlzQWRCRUJsb3BYcnBRSkFFS1UwTjM1ZXBpRXRZckh4UFZVZEtLSzVCRHRVdHlfdl8wM1otQmp5ZU90M0VRLXRUTEROUEtHdGp2SURhNU9rMGowdXpVOEE?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-04-cb644ea778",
-      "date": "2026-09-04",
-      "topic": "Markets",
-      "title": "Lanjutkan Tren Penguatan, IHSG Dibuka Naik 0,42 Persen pada Sesi I Perdagangan",
-      "summary": "RRI.co.id surfaced this fresh item: Lanjutkan Tren Penguatan, IHSG Dibuka Naik 0,42 Persen pada Sesi I Perdagangan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "RRI.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVVUyLTNOVUdjdDRFV1VRdHJXOW9SRWJReXZZUUNGeTFHXzU3aEQyc00zMURTbExsRWZBMXRybV83OGZXeWVRZk1GbnRTeDdmQ0ZGamxucEEya0hvVlNjQTJtUDlVN2stdkRzWEg0SG5YXzhwcDJjY0R3bk04MVJYaldyUXJZYzdBb3hVRm1iRUpfUWRiLVBocEF6dXd5VDFMX3FRRFkyeURzaG1tWlBOQmprZEVqVDE1d0hN?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -289,6 +259,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-09-04-73bc7a44eb",
+      "date": "2026-09-04",
+      "topic": "Automotive / EV",
+      "title": "GIIAS 2026 Hadirkan Beragam Mobil Listrik Baru di Indonesia",
+      "summary": "SuaraGarut.ID surfaced this fresh item: GIIAS 2026 Hadirkan Beragam Mobil Listrik Baru di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nd1N6Qlp2a181dExxM2g4STNUTVNmWE9waFdQUzQ2R0Rrc0txaE1iWWVKbjJsUWFFLWE4WmQtN0ZxYzVlbXZZZXluLWNlXzBaSjZBOGFaV3NvUQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-09-04-ed7d8c2e38",
       "date": "2026-09-04",
       "topic": "Automotive / EV",
@@ -323,12 +308,12 @@
       "date": "2026-09-04",
       "topic": "Business / Investment",
       "title": "Portal Kemlu",
-      "summary": "Portal Kemlu surfaced this fresh item: Portal Kemlu. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "kemlu.go.id surfaced this fresh item: Portal Kemlu. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Portal Kemlu via Google News RSS discovery",
+      "source": "kemlu.go.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd2g5aTB3anBtUFJGM1FEakZ6YkxEYmo1X0R3M3VMQTRwbE0ya0NiQlNnQUpfbmRzV2NQUXpYalRrN3FHQ1c0ZHBxYWtvUklJdVRiNTgya3pqOUVRa2g2ZnFRSThxTUcxSjRJTENNRFVUUFNuNk9Hd01JTldCaE9rX1VEdmkwNVJnLVFCWkRFd1prM0ltSktyTERVMXFmMFl4enptWUl3RlV1d1c3UXV1Y25DMjdZSHVKdkRMV1o4aVpreS1Wc3VDcVVR?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -338,12 +323,12 @@
       "date": "2026-09-04",
       "topic": "Business / Investment",
       "title": "UNDIP–IWIP Buka Akses Magang Industri, Perkuat Talenta Siap Kerja untuk Sektor Hilirisasi Nikel",
-      "summary": "undip.ac.id surfaced this fresh item: UNDIP–IWIP Buka Akses Magang Industri, Perkuat Talenta Siap Kerja untuk Sektor Hilirisasi Nikel. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Universitas Diponegoro surfaced this fresh item: UNDIP–IWIP Buka Akses Magang Industri, Perkuat Talenta Siap Kerja untuk Sektor Hilirisasi Nikel. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "undip.ac.id via Google News RSS discovery",
+      "source": "Universitas Diponegoro via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY1luV21kaUZOZTR2VkxmMVZWaVR3UVJyV0trTXRNNm54bGstQlNxZ1ktRDR1N0xJLU85NjFpSEVPX0pvUnV1UTJoR1lFM0E2VmFYOWw5WkRSdXlvMUxPOXpLcklZZ3J3R0xnTTZsVXBCU2h5NjdOekxwQzZuZm5Sdk1NTHZjUVFOcnZPTzYtRk9sUDB3cGR5TDBwVDE5RDgzcWRjYkRCcHJWNWM2TkdCbEpkRDFkVHhsall2dk8wRDMzSDZmcDJQVVNB?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -362,10 +347,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbklzS1k2MmlPOEw0RGIyLUxTTHk4aGdvaVRQTmhJcnRHaXN3eGRpRjZtV0RUc2M0Y0hQRmVKWWExb3BQbHlPc09DTjNtbnJtdEJ1NGFRWi1ma2toYVNyLXJITGtXdThTeDdBa0p2Rkx5Si1OZUNJM1h4LVlVdnpIY05tYjhfMUcxLXRFTk1FNEk4WFlIZkxYTUNuNEZWLUZuc1E4czZ1cFJOSE5ST01CeHlGNk44RjdrWmltcUR5Nmhtc3oy0gHKAUFVX3lxTE52cFFWaFo3M3U1RnVVOEhkLWlHR3EydTk5R1BVdE55MUNTTkdDbHNlN1BibWkxUjdJZzRrbGtLZzNJZDRFTFdYRkpPQ1RScHBuMXpGaTdEWllRRC1EWWZkU0lUVjNvVDdrZG9ITWpSMUhkcEdmSWtERDBBM3N1Sjg0TXI4a0JLRmpRZnF4aDhiZWs4NUNtZ0xPTTJMT0lmRHNtRS1yd3kwMnlhd251a3diaGczZnhYWkJiNW1sT1BBdkJPV0RBWHJ4MEE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
+    },
+    {
+      "id": "2026-09-04-8af5b60946",
+      "date": "2026-09-04",
+      "topic": "Infrastructure",
+      "title": "Anak Muda Asal Lampung Pimpin Forum Ekosistem Jaringan Jalan Tol MTI",
+      "summary": "LIDIK ID surfaced this fresh item: Anak Muda Asal Lampung Pimpin Forum Ekosistem Jaringan Jalan Tol MTI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "LIDIK ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa3Y4X3ZSbG1tQUU4QzFUbGdnZ05yMGRrMDRHUDFTNVNLaC1PQzVxSU5sRl9RNXZTdjJKZm5jS0g3OUFyRVl0cUtmZzJrUEVBSlNYb1R3d2dFVEpzRGNzWjhmTExoMjJlOFJGZXBXRkd0NU5ycmVGSUtpeXlNYlBYQ3BaalFfN1hGWllDRDBmWUpUZ2JobFNmNA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-09-04T17:00:49+07:00",
+    "generatedAt": "2026-09-04T18:00:51+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,12 +374,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12699.0,
+        "last": 12700.7002,
         "date": "2026-09-04",
-        "return1m": 0.68,
-        "return3m": -0.81,
-        "return6m": 6.42,
-        "return1y": 6.38,
+        "return1m": 0.69,
+        "return3m": -0.8,
+        "return6m": 6.44,
+        "return1y": 6.39,
         "volatility": 9.79,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -664,7 +664,7 @@
             "value": 12698.0596
           }
         ],
-        "profitScore": 1.96,
+        "profitScore": 1.97,
         "view": "strongest IDR return screen"
       },
       {
@@ -672,12 +672,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13913.9092,
+        "last": 13916.8193,
         "date": "2026-09-04",
-        "return1m": -0.29,
-        "return3m": -0.46,
-        "return6m": 5.2,
-        "return1y": 4.62,
+        "return1m": -0.27,
+        "return3m": -0.44,
+        "return6m": 5.22,
+        "return1y": 4.64,
         "volatility": 7.73,
         "maxDrawdown": -3.45,
         "sparkline": [
@@ -962,7 +962,7 @@
             "value": 13943.041
           }
         ],
-        "profitScore": 1.5,
+        "profitScore": 1.52,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,13 +970,13 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 112.67,
+        "last": 112.74,
         "date": "2026-09-04",
-        "return1m": -0.64,
-        "return3m": 0.39,
-        "return6m": 4.93,
-        "return1y": 3.72,
-        "volatility": 9.61,
+        "return1m": -0.58,
+        "return3m": 0.46,
+        "return6m": 4.99,
+        "return1y": 3.78,
+        "volatility": 9.62,
         "maxDrawdown": -5.14,
         "sparkline": [
           {
@@ -1260,7 +1260,7 @@
             "value": 111.59
           }
         ],
-        "profitScore": 1.46,
+        "profitScore": 1.52,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,12 +1566,12 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20481.0,
+        "last": 20480.0,
         "date": "2026-09-04",
-        "return1m": 2.08,
-        "return3m": -1.22,
-        "return6m": 4.59,
-        "return1y": 4.26,
+        "return1m": 2.07,
+        "return3m": -1.23,
+        "return6m": 4.58,
+        "return1y": 4.25,
         "volatility": 18.6,
         "maxDrawdown": -5.62,
         "sparkline": [
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2627.6001,
+        "last": 2626.3999,
         "date": "2026-09-04",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-09-04",
-            "value": 2627.6001
+            "value": 2626.3999
           }
         ],
         "profitScore": 0.0,
@@ -1887,12 +1887,12 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12699.0,
+      "last": 12700.7002,
       "date": "2026-09-04",
-      "return1m": 0.68,
-      "return3m": -0.81,
-      "return6m": 6.42,
-      "return1y": 6.38,
+      "return1m": 0.69,
+      "return3m": -0.8,
+      "return6m": 6.44,
+      "return1y": 6.39,
       "volatility": 9.79,
       "maxDrawdown": -5.12,
       "sparkline": [
@@ -2177,7 +2177,7 @@
           "value": 12698.0596
         }
       ],
-      "profitScore": 1.96,
+      "profitScore": 1.97,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 83,
+        "opportunityScore": 79,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,7 +2194,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 83,
+        "opportunityScore": 79,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2226,7 +2226,7 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 67,
+        "opportunityScore": 71,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T15:00:46+07:00",
+  "generatedAt": "2026-09-04T16:00:48+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 04 September 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -34,16 +34,61 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-f6f27f6c56",
+      "id": "2026-09-04-921f684e04",
+      "date": "2026-09-04",
+      "topic": "Tech / AI",
+      "title": "PGE (PGEO) Dorong Panas Bumi untuk Pasok 'Green Data Center' dan AI",
+      "summary": "InvestorTrust surfaced this fresh item: PGE (PGEO) Dorong Panas Bumi untuk Pasok 'Green Data Center' dan AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "InvestorTrust via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeFBMT2R4TkNLVjdHQS1YR2szREFaeXZySDA0bGU5MGJHcElidmRvb19xamhfeWx5aF9sY2g4QUhSUEltdWw0TnFMeXA5ZjlzZExPaUgwTmVzRW9hS3laTTFCSGdZdjBZaGtQMUVEeE56b1pwdmF5LUNwa2owNkN6eFRXQ0h0X1l1eDdMYlNURkVmZ3FOUzFPOWhfRE5YSlMwdkJTYXdtOA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-04-31352a59b5",
+      "date": "2026-09-04",
+      "topic": "Tech / AI",
+      "title": "PGE Siapkan Energi Panas Bumi Pasok Listrik Data Center AI",
+      "summary": "achmadnurhidayat.id surfaced this fresh item: PGE Siapkan Energi Panas Bumi Pasok Listrik Data Center AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "achmadnurhidayat.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PSWdYZ0VhNElEdHpuNTZyeE5OOVlyR1BUR1hpZTg3R1Z3WnRrajhjRF84dFlNMm5kVG55NVFxUEJHVW9DUFB0SW9hZy1CMTJHYVRydWR5SElaLV9wZThUUE5UY0o0cUlXWGtWWlo1TQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-04-1b960fc985",
       "date": "2026-09-04",
       "topic": "Automotive / EV",
-      "title": "BYD Pelajari Potensi Peluncuran Mobil Listrik Racco di Indonesia",
-      "summary": "suaragarut.id surfaced this fresh item: BYD Pelajari Potensi Peluncuran Mobil Listrik Racco di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "BYD Resmi Produksi Mobil Listrik di Subang, Pemerintah Bidik Penguatan Industri dari Hulu ke Hilir",
+      "summary": "suarapemerintah.id surfaced this fresh item: BYD Resmi Produksi Mobil Listrik di Subang, Pemerintah Bidik Penguatan Industri dari Hulu ke Hilir. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "suaragarut.id via Google News RSS discovery",
+      "source": "suarapemerintah.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLUJRa2ZCMDhrSmgtdVcyZ19MUWdaWjlRV3JBMFpxMnpUa0htNmcza3g0MVlJM3hJcm54QlFRZWRYaEVfUi1jR1M3ZF9KbnA5dUFkX09DSDg0cWEzekdzb0U1YUU4U29nc3lBTVRUN1BmaFlJV01VMzFBaGVpeVRxLU1uSWhaMFl0c0VFcTdGRHZKMXpubU1EQ0tlSzJhQXBsZXpZZlp0blVQYW8zUGxkNkFaZUlCWFpuTTh4YlJyQUtfZHdOLWlxQ3h0NHhPZw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-04-f6f27f6c56",
+      "date": "2026-09-04",
+      "topic": "Automotive / EV",
+      "title": "BYD Pelajari Potensi Peluncuran Mobil Listrik Racco di Indonesia",
+      "summary": "SuaraGarut.ID surfaced this fresh item: BYD Pelajari Potensi Peluncuran Mobil Listrik Racco di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oeVlYVk1BMGlydHA5WGhidVJWV2hyVWJwbkFUT0VKd3o2b2tLRjZWbGlFcWNCSmZJcnpZZXdYZVVTRzFCVF9OMmh4WnlwYjU0NXBQNHBYUXdVc0RZd2VHTHhfWFFfcDZzTTlib3J3bXRQTGJod0xVVw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -79,32 +124,47 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-e6d4e09bed",
-      "date": "2026-09-04",
-      "topic": "Business / Investment",
-      "title": "BYD Resmi Beroperasi, Bupati Subang Hadiri Peresmian Pabrik BYD di Subang Smartpolitan",
-      "summary": "Pemerintah Kabupaten Subang surfaced this fresh item: BYD Resmi Beroperasi, Bupati Subang Hadiri Peresmian Pabrik BYD di Subang Smartpolitan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Pemerintah Kabupaten Subang via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObXItS1BkaHZXU0Y5c2NPNVVPZ3VibVIwYUpGNkwtQzBXbURaT1RsUmdEYzg4bWV0Qno4THVGa29NTUVSNmJJT1BmZUhTbFV5czJYc1dKR2FXM0puZ3IwT2Iwc0NWVjVYenZrX1NORjEyMXg0Z2pVLTB1aEI3YzVuelE3SG5HNzg3dUNZcEVMd3NsU3haLXlBcmdnNUhuYzNMRlB0Nm9vWl85YjBoSW13R0p2SVhUa2hNdzVYLWpkNXNkbkxwaXpDZFNR?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-09-04-99db2325d8",
       "date": "2026-09-04",
       "topic": "Business / Investment",
       "title": "Indonesia tawarkan 32 proyek investasi strategis ke investor Jepang",
-      "summary": "Antara News jatim surfaced this fresh item: Indonesia tawarkan 32 proyek investasi strategis ke investor Jepang. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "jatim.antaranews.com surfaced this fresh item: Indonesia tawarkan 32 proyek investasi strategis ke investor Jepang. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Antara News jatim via Google News RSS discovery",
+      "source": "jatim.antaranews.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlJrR3hWRE90Y1Z4ZEVNN0l3Q1k2bE5LMTlIelhqalRzTFllVVJ5dzZkc1BJV05yZktfTGFyM3B3WFFKSjdPMngxdERNYkVKTU5fODlvR1JPTzRGY2VCQjRiSzNrbE80bzhoRUdlR2FpQ3VLNlI5MVBHV2VLeXVVcE42NG11d0VpSEJqc3UxbVNmVzEtN0lObmg0NEUySXRyQUZ0NDFYMUswUlExalRfUWtfSm5jd9IBtgFBVV95cUxNMlJrR3hWRE90Y1Z4ZEVNN0l3Q1k2bE5LMTlIelhqalRzTFllVVJ5dzZkc1BJV05yZktfTGFyM3B3WFFKSjdPMngxdERNYkVKTU5fODlvR1JPTzRGY2VCQjRiSzNrbE80bzhoRUdlR2FpQ3VLNlI5MVBHV2VLeXVVcE42NG11d0VpSEJqc3UxbVNmVzEtN0lObmg0NEUySXRyQUZ0NDFYMUswUlExalRfUWtfSm5jdw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-04-4202007c86",
+      "date": "2026-09-04",
+      "topic": "Business / Investment",
+      "title": "Jakarta Didorong Jadi Pusat Industri Kopi Nasional",
+      "summary": "Beritajakarta.id surfaced this fresh item: Jakarta Didorong Jadi Pusat Industri Kopi Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Beritajakarta.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOTNmN1lTVWlYbkpKRnFmRmhZTXBVYS1xRUNUeWxGSWtSQUtVcjNMYjgtU0laWnBZVDlrRTYxZm5uMWFYU1B4Nm9jU3Bnd3A0WlZYd0xtTTNseDRBV3ExZ0VSM2FQWW9waVFZR2ZhdDlEZnY4U2d4cnNKVG84c1hTOGFnVmR1S1ZtLXZGMEhfVGFLZFk?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-04-efcabc36a5",
+      "date": "2026-09-04",
+      "topic": "Infrastructure",
+      "title": "Indonesia-Jepang Perkuat Investasi Infrastruktur, 32 Proyek Strategis Ditawarkan ke Investor",
+      "summary": "suarapemerintah.id surfaced this fresh item: Indonesia-Jepang Perkuat Investasi Infrastruktur, 32 Proyek Strategis Ditawarkan ke Investor. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "suarapemerintah.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRVNWVG5HbXBWYk90d3JPQzNrVk5zZkFyaTFKajBXX2dkMlJuUlBpV0pQTjFBTWFRaWR4d0MxQzFlVlNkLVlva2VsSm12UmVzMlQyWFdlRXVMbFU2OFFTWk5WUHBhNlJMU25hYVk5a2FNOWY0NDBkVkxZaW91UGNWVHFXQmhVVEZtWUlkZFpKcWFkeV9MT2NybFlhaTZrZ0RmRkNWNVE2RlZiQ3ZjRHBwVl9LMWJ0TnhlN0JpVWxkMXI4R1FsSGc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -128,12 +188,12 @@
       "date": "2026-09-04",
       "topic": "Markets",
       "title": "IHSG Menguat ke Level 6.667 dan Investor Asing Borong Saham BMRI",
-      "summary": "suaragarut.id surfaced this fresh item: IHSG Menguat ke Level 6.667 dan Investor Asing Borong Saham BMRI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "SuaraGarut.ID surfaced this fresh item: IHSG Menguat ke Level 6.667 dan Investor Asing Borong Saham BMRI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "suaragarut.id via Google News RSS discovery",
+      "source": "SuaraGarut.ID via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlUlBrZEZST0lWdjFlak1BcjJTRXFxdHlzQWRCRUJsb3BYcnBRSkFFS1UwTjM1ZXBpRXRZckh4UFZVZEtLSzVCRHRVdHlfdl8wM1otQmp5ZU90M0VRLXRUTEROUEtHdGp2SURhNU9rMGowdXpVOEE?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -173,12 +233,12 @@
       "date": "2026-09-04",
       "topic": "Regulation",
       "title": "Ekspansi Usaha Butuh Kerja Keroyokan",
-      "summary": "epaper.mediaindonesia.com surfaced this fresh item: Ekspansi Usaha Butuh Kerja Keroyokan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Epaper Media Indonesia surfaced this fresh item: Ekspansi Usaha Butuh Kerja Keroyokan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "epaper.mediaindonesia.com via Google News RSS discovery",
+      "source": "Epaper Media Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLXhxOEUzT29xTXBJMUNPWnh6QVllanpjR0dnbXNOc2JDTzRnZ0VnUE5iRnI1bkdXVzI5TGxMSU5QaTFrTTBzM2hlQlZWaF9ucjhDSDB2UmxKWTdRanVweHBJMS1PVmRSa1VwN0pkWEtIem8zaWgwb0xFY094eG92UFE0bw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -214,36 +274,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-1a065b1b0e",
-      "date": "2026-09-04",
-      "topic": "Tech / AI",
-      "title": "PGEO Siap Pasok Listrik Baseload dari Panas Bumi untuk Green Data Center",
-      "summary": "investor.id surfaced this fresh item: PGEO Siap Pasok Listrik Baseload dari Panas Bumi untuk Green Data Center. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "investor.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0VvckpUZ3ItejhocWpWVkV6dXBBZjVoR2dGRkRMdTV6amswTXN4cDc3bzhjWkRmbmtHamwzelZjdGdpUWdEX2ljbW95Y3JuSVRkQlJnN085U2NXQ0loRlByS3Z4emhQVnF1aHZpejdmT19jUjQ3Zzc1am1ad20wT0t3VmlzdTdoVWVxQ01vdW9QUk9VV3o0QXNCOEVBTE4xTFB4TXFlODBZUQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-04-fe84fbcb2a",
-      "date": "2026-09-04",
-      "topic": "Tech / AI",
-      "title": "Energy Week 2026 Soroti Peran Kolaborasi dalam Membangun Ekosistem Industri Masa Depan",
-      "summary": "Xpose Indonesia surfaced this fresh item: Energy Week 2026 Soroti Peran Kolaborasi dalam Membangun Ekosistem Industri Masa Depan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Xpose Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWUxIZi1GUTdPNHNrYUlqUnpjZlFOZkJDV0xLVXlpQkJDSFFMS1BvX3ByNnlpakM0Y1lRN0x1RGxhd0lLaGRFbmRXTXFoZUwzQUJtcXA2UjVQa0Zzdm9WbUdGTkNkQ2pKZ3I3Y0liek1WOURBN1Vfd3ZGUU9UWWpnZmd5dlZ3RkdkTjhZRnlJMFNveGlWeDZIQ0hZbUVyVlZkZUpkTVMwNnp6bEVIaWJBMHhYUVQ2bjVmcmZ0WndSV1BnQQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-09-04-cdccb53d03",
       "date": "2026-09-04",
       "topic": "Automotive / EV",
@@ -274,32 +304,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-8b04127c88",
-      "date": "2026-09-04",
-      "topic": "Automotive / EV",
-      "title": "Pemerintah Kaji Insentif Mobil Listrik Sesuai Capaian TKDN",
-      "summary": "Kompas.com surfaced this fresh item: Pemerintah Kaji Insentif Mobil Listrik Sesuai Capaian TKDN. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Kompas.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZjNYU2JSdEh3cWpYYXFwTUxFUkFHWVU1Y3lPNWdnQ2FOSHREdHc1Tmswbi11ai1hV2U0SFBpWDBXVU1hTERJSGIxMkhpcXZyMU5faDJXYTR2VXJPTlBJXzZsVm9NRmJ6Wldzd2JEOFZsektJR3d4U3ZnY2t4NjM1Njh4cFpYS0E1bEgtRjRlS05xZTlyc0Nna1BwUnp1eUtieHVFUlVWTGxLaGRsOHMwQjBmRnpuUHlaek9QeXBZdnl6Ty1UNllmX2l3dlZscWs?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-04-efb58e9a75",
+      "id": "2026-09-04-c36295f3cb",
       "date": "2026-09-04",
       "topic": "Business / Investment",
-      "title": "Barantin Kawal Ekspor 2,9 Ton Tuna Segar Maluku ke Jepang dan AS",
-      "summary": "Badan Karantina Indonesia surfaced this fresh item: Barantin Kawal Ekspor 2,9 Ton Tuna Segar Maluku ke Jepang dan AS. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Portal Kemlu",
+      "summary": "Portal Kemlu surfaced this fresh item: Portal Kemlu. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Badan Karantina Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR0ItbGdGQXRoNG5pN2ROVXBvMk9EU3c5bHJDbEh3Zkx6TE5HdXQwRFBsNWh4THhweXV0LU41RGFKVldsTHd1MGxWUEdSYVFBbWdEYjRmRGQ5Qm1JbHljZjhkTnpIWDc0VUNvbnQwa21GN3I5XzNXd1NzLVdIZUJTTzl5YUM4QjB6S2I0Zl9QVWxTR1hsMkRKVG9PUHdNeXlMcUZiazFn?oc=5",
+      "source": "Portal Kemlu via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd2g5aTB3anBtUFJGM1FEakZ6YkxEYmo1X0R3M3VMQTRwbE0ya0NiQlNnQUpfbmRzV2NQUXpYalRrN3FHQ1c0ZHBxYWtvUklJdVRiNTgya3pqOUVRa2g2ZnFRSThxTUcxSjRJTENNRFVUUFNuNk9Hd01JTldCaE9rX1VEdmkwNVJnLVFCWkRFd1prM0ltSktyTERVMXFmMFl4enptWUl3RlV1d1c3UXV1Y25DMjdZSHVKdkRMV1o4aVpreS1Wc3VDcVVR?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -347,25 +362,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOVZGUVVOR3ZtNzAxTFdGNlRMMTJpM2tYcmc2WHVZcDctRndGR2VQb1JvVEh1cVpQQ05VX0szbG90NWRLV1FKcmJEMzBfaThybG83QVVjb3R4WmZvRDJDU3J0OFRldDNTY2N5YUhsdzVFbkdCQXFXVC1adFZGWGZXR0RxSmI4SjZ6Wl9wdlFHdzVBZk1mY2E0REtEWDlIcVViQVFZbklma2tTRThYa2c?oc=5",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "id": "2026-09-04-a97155496a",
-      "date": "2026-09-04",
-      "topic": "Infrastructure",
-      "title": "Fundamental Kokoh, Laba Tembus Rp1,9 Triliun Pada Semester I 2026: Jasa Marga Kian Perkuat Ekosistem Jalan Tol - pontianakinfo.disway.id",
-      "summary": "Pontianak Info surfaced this fresh item: Fundamental Kokoh, Laba Tembus Rp1,9 Triliun Pada Semester I 2026: Jasa Marga Kian Perkuat Ekosistem Jalan Tol - pontianakinfo.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Pontianak Info via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTHA0TUNRS2lKWHh1dUNkbzRTaWVIc3ZrQy1SclJSbUJMbzdob25QYVZQM0tWYTY1SlJkQ1VqbkJzV2pjR3l0NkppT3RNaWh0MDFJWkwzOGZHWG9uc091UnhyR2NoMVNnNGtxUmIxQzVxX2xwSnpNS19MemxpUHVSMmctdUdLOW5SRzZjWGx4dDZTUTE5djhrNnlKeEJDbG5MV2ZaSFJNZE5NbWpUaGtuU2VzNEZSanRWaG5BVUFSbS1RRnZwYnpZYzVSZ1dkQzF4OTAtb05jazFRNGxpbzJtbm1wWdIB4wFBVV95cUxQTHA0TUNRS2lKWHh1dUNkbzRTaWVIc3ZrQy1SclJSbUJMbzdob25QYVZQM0tWYTY1SlJkQ1VqbkJzV2pjR3l0NkppT3RNaWh0MDFJWkwzOGZHWG9uc091UnhyR2NoMVNnNGtxUmIxQzVxX2xwSnpNS19MemxpUHVSMmctdUdLOW5SRzZjWGx4dDZTUTE5djhrNnlKeEJDbG5MV2ZaSFJNZE5NbWpUaGtuU2VzNEZSanRWaG5BVUFSbS1RRnZwYnpZYzVSZ1dkQzF4OTAtb05jazFRNGxpbzJtbm1wWQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-09-04T15:00:46+07:00",
+    "generatedAt": "2026-09-04T16:00:48+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,12 +374,12 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12700.7998,
+        "last": 12701.9004,
         "date": "2026-09-04",
         "return1m": 0.7,
-        "return3m": -0.8,
-        "return6m": 6.44,
-        "return1y": 6.39,
+        "return3m": -0.79,
+        "return6m": 6.45,
+        "return1y": 6.4,
         "volatility": 9.79,
         "maxDrawdown": -5.12,
         "sparkline": [
@@ -664,305 +664,7 @@
             "value": 12698.0596
           }
         ],
-        "profitScore": 1.97,
-        "view": "strongest IDR return screen"
-      },
-      {
-        "symbol": "JPYIDR=X",
-        "label": "Japanese Yen",
-        "useCase": "Japan travel, imported machinery, and defensive FX exposure",
-        "pair": "JPY",
-        "last": 112.79,
-        "date": "2026-09-04",
-        "return1m": -0.54,
-        "return3m": 0.5,
-        "return6m": 5.04,
-        "return1y": 3.83,
-        "volatility": 9.63,
-        "maxDrawdown": -5.14,
-        "sparkline": [
-          {
-            "date": "2026-02-23",
-            "value": 108.6314
-          },
-          {
-            "date": "2026-02-25",
-            "value": 107.9391
-          },
-          {
-            "date": "2026-02-27",
-            "value": 107.3995
-          },
-          {
-            "date": "2026-03-03",
-            "value": 107.2328
-          },
-          {
-            "date": "2026-03-05",
-            "value": 107.3773
-          },
-          {
-            "date": "2026-03-09",
-            "value": 107.3372
-          },
-          {
-            "date": "2026-03-11",
-            "value": 106.5807
-          },
-          {
-            "date": "2026-03-13",
-            "value": 106.1203
-          },
-          {
-            "date": "2026-03-17",
-            "value": 106.5574
-          },
-          {
-            "date": "2026-03-19",
-            "value": 106.6497
-          },
-          {
-            "date": "2026-03-23",
-            "value": 106.5155
-          },
-          {
-            "date": "2026-03-25",
-            "value": 106.3738
-          },
-          {
-            "date": "2026-03-27",
-            "value": 106.0105
-          },
-          {
-            "date": "2026-03-30",
-            "value": 106.298
-          },
-          {
-            "date": "2026-04-01",
-            "value": 106.7704
-          },
-          {
-            "date": "2026-04-05",
-            "value": 106.3072
-          },
-          {
-            "date": "2026-04-07",
-            "value": 106.7404
-          },
-          {
-            "date": "2026-04-09",
-            "value": 107.2605
-          },
-          {
-            "date": "2026-04-13",
-            "value": 107.4825
-          },
-          {
-            "date": "2026-04-15",
-            "value": 107.9526
-          },
-          {
-            "date": "2026-04-19",
-            "value": 107.6853
-          },
-          {
-            "date": "2026-04-21",
-            "value": 107.4533
-          },
-          {
-            "date": "2026-04-23",
-            "value": 108.4785
-          },
-          {
-            "date": "2026-04-27",
-            "value": 108.0003
-          },
-          {
-            "date": "2026-04-29",
-            "value": 108.1929
-          },
-          {
-            "date": "2026-05-03",
-            "value": 110.0912
-          },
-          {
-            "date": "2026-05-05",
-            "value": 110.1429
-          },
-          {
-            "date": "2026-05-07",
-            "value": 110.2218
-          },
-          {
-            "date": "2026-05-11",
-            "value": 110.763
-          },
-          {
-            "date": "2026-05-13",
-            "value": 110.8574
-          },
-          {
-            "date": "2026-05-17",
-            "value": 110.7026
-          },
-          {
-            "date": "2026-05-19",
-            "value": 111.7727
-          },
-          {
-            "date": "2026-05-21",
-            "value": 111.2498
-          },
-          {
-            "date": "2026-05-25",
-            "value": 111.7406
-          },
-          {
-            "date": "2026-05-27",
-            "value": 111.5731
-          },
-          {
-            "date": "2026-05-31",
-            "value": 111.7908
-          },
-          {
-            "date": "2026-06-02",
-            "value": 111.6306
-          },
-          {
-            "date": "2026-06-04",
-            "value": 112.2289
-          },
-          {
-            "date": "2026-06-08",
-            "value": 113.5598
-          },
-          {
-            "date": "2026-06-10",
-            "value": 111.3065
-          },
-          {
-            "date": "2026-06-14",
-            "value": 111.1139
-          },
-          {
-            "date": "2026-06-16",
-            "value": 110.5155
-          },
-          {
-            "date": "2026-06-18",
-            "value": 110.3197
-          },
-          {
-            "date": "2026-06-22",
-            "value": 110.5544
-          },
-          {
-            "date": "2026-06-24",
-            "value": 111.2066
-          },
-          {
-            "date": "2026-06-28",
-            "value": 110.2022
-          },
-          {
-            "date": "2026-06-30",
-            "value": 110.2766
-          },
-          {
-            "date": "2026-07-02",
-            "value": 110.1687
-          },
-          {
-            "date": "2026-07-06",
-            "value": 111.3298
-          },
-          {
-            "date": "2026-07-08",
-            "value": 111.5103
-          },
-          {
-            "date": "2026-07-12",
-            "value": 111.5082
-          },
-          {
-            "date": "2026-07-14",
-            "value": 111.9479
-          },
-          {
-            "date": "2026-07-16",
-            "value": 110.7563
-          },
-          {
-            "date": "2026-07-20",
-            "value": 110.3484
-          },
-          {
-            "date": "2026-07-22",
-            "value": 109.8532
-          },
-          {
-            "date": "2026-07-26",
-            "value": 109.7265
-          },
-          {
-            "date": "2026-07-28",
-            "value": 110.1673
-          },
-          {
-            "date": "2026-07-30",
-            "value": 112.7481
-          },
-          {
-            "date": "2026-08-03",
-            "value": 114.0078
-          },
-          {
-            "date": "2026-08-05",
-            "value": 113.3987
-          },
-          {
-            "date": "2026-08-09",
-            "value": 112.7319
-          },
-          {
-            "date": "2026-08-11",
-            "value": 111.8945
-          },
-          {
-            "date": "2026-08-13",
-            "value": 112.0387
-          },
-          {
-            "date": "2026-08-17",
-            "value": 111.8316
-          },
-          {
-            "date": "2026-08-19",
-            "value": 112.5202
-          },
-          {
-            "date": "2026-08-23",
-            "value": 111.081
-          },
-          {
-            "date": "2026-08-25",
-            "value": 111.1272
-          },
-          {
-            "date": "2026-08-27",
-            "value": 111.403
-          },
-          {
-            "date": "2026-08-31",
-            "value": 110.7287
-          },
-          {
-            "date": "2026-09-02",
-            "value": 111.59
-          }
-        ],
-        "profitScore": 1.57,
+        "profitScore": 1.98,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,12 +672,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13919.4805,
+        "last": 13920.3887,
         "date": "2026-09-04",
         "return1m": -0.25,
         "return3m": -0.42,
-        "return6m": 5.24,
-        "return1y": 4.66,
+        "return6m": 5.25,
+        "return1y": 4.67,
         "volatility": 7.73,
         "maxDrawdown": -3.45,
         "sparkline": [
@@ -1260,7 +962,305 @@
             "value": 13943.041
           }
         ],
-        "profitScore": 1.54,
+        "profitScore": 1.55,
+        "view": "strongest IDR return screen"
+      },
+      {
+        "symbol": "JPYIDR=X",
+        "label": "Japanese Yen",
+        "useCase": "Japan travel, imported machinery, and defensive FX exposure",
+        "pair": "JPY",
+        "last": 112.73,
+        "date": "2026-09-04",
+        "return1m": -0.59,
+        "return3m": 0.45,
+        "return6m": 4.98,
+        "return1y": 3.77,
+        "volatility": 9.62,
+        "maxDrawdown": -5.14,
+        "sparkline": [
+          {
+            "date": "2026-02-23",
+            "value": 108.6314
+          },
+          {
+            "date": "2026-02-25",
+            "value": 107.9391
+          },
+          {
+            "date": "2026-02-27",
+            "value": 107.3995
+          },
+          {
+            "date": "2026-03-03",
+            "value": 107.2328
+          },
+          {
+            "date": "2026-03-05",
+            "value": 107.3773
+          },
+          {
+            "date": "2026-03-09",
+            "value": 107.3372
+          },
+          {
+            "date": "2026-03-11",
+            "value": 106.5807
+          },
+          {
+            "date": "2026-03-13",
+            "value": 106.1203
+          },
+          {
+            "date": "2026-03-17",
+            "value": 106.5574
+          },
+          {
+            "date": "2026-03-19",
+            "value": 106.6497
+          },
+          {
+            "date": "2026-03-23",
+            "value": 106.5155
+          },
+          {
+            "date": "2026-03-25",
+            "value": 106.3738
+          },
+          {
+            "date": "2026-03-27",
+            "value": 106.0105
+          },
+          {
+            "date": "2026-03-30",
+            "value": 106.298
+          },
+          {
+            "date": "2026-04-01",
+            "value": 106.7704
+          },
+          {
+            "date": "2026-04-05",
+            "value": 106.3072
+          },
+          {
+            "date": "2026-04-07",
+            "value": 106.7404
+          },
+          {
+            "date": "2026-04-09",
+            "value": 107.2605
+          },
+          {
+            "date": "2026-04-13",
+            "value": 107.4825
+          },
+          {
+            "date": "2026-04-15",
+            "value": 107.9526
+          },
+          {
+            "date": "2026-04-19",
+            "value": 107.6853
+          },
+          {
+            "date": "2026-04-21",
+            "value": 107.4533
+          },
+          {
+            "date": "2026-04-23",
+            "value": 108.4785
+          },
+          {
+            "date": "2026-04-27",
+            "value": 108.0003
+          },
+          {
+            "date": "2026-04-29",
+            "value": 108.1929
+          },
+          {
+            "date": "2026-05-03",
+            "value": 110.0912
+          },
+          {
+            "date": "2026-05-05",
+            "value": 110.1429
+          },
+          {
+            "date": "2026-05-07",
+            "value": 110.2218
+          },
+          {
+            "date": "2026-05-11",
+            "value": 110.763
+          },
+          {
+            "date": "2026-05-13",
+            "value": 110.8574
+          },
+          {
+            "date": "2026-05-17",
+            "value": 110.7026
+          },
+          {
+            "date": "2026-05-19",
+            "value": 111.7727
+          },
+          {
+            "date": "2026-05-21",
+            "value": 111.2498
+          },
+          {
+            "date": "2026-05-25",
+            "value": 111.7406
+          },
+          {
+            "date": "2026-05-27",
+            "value": 111.5731
+          },
+          {
+            "date": "2026-05-31",
+            "value": 111.7908
+          },
+          {
+            "date": "2026-06-02",
+            "value": 111.6306
+          },
+          {
+            "date": "2026-06-04",
+            "value": 112.2289
+          },
+          {
+            "date": "2026-06-08",
+            "value": 113.5598
+          },
+          {
+            "date": "2026-06-10",
+            "value": 111.3065
+          },
+          {
+            "date": "2026-06-14",
+            "value": 111.1139
+          },
+          {
+            "date": "2026-06-16",
+            "value": 110.5155
+          },
+          {
+            "date": "2026-06-18",
+            "value": 110.3197
+          },
+          {
+            "date": "2026-06-22",
+            "value": 110.5544
+          },
+          {
+            "date": "2026-06-24",
+            "value": 111.2066
+          },
+          {
+            "date": "2026-06-28",
+            "value": 110.2022
+          },
+          {
+            "date": "2026-06-30",
+            "value": 110.2766
+          },
+          {
+            "date": "2026-07-02",
+            "value": 110.1687
+          },
+          {
+            "date": "2026-07-06",
+            "value": 111.3298
+          },
+          {
+            "date": "2026-07-08",
+            "value": 111.5103
+          },
+          {
+            "date": "2026-07-12",
+            "value": 111.5082
+          },
+          {
+            "date": "2026-07-14",
+            "value": 111.9479
+          },
+          {
+            "date": "2026-07-16",
+            "value": 110.7563
+          },
+          {
+            "date": "2026-07-20",
+            "value": 110.3484
+          },
+          {
+            "date": "2026-07-22",
+            "value": 109.8532
+          },
+          {
+            "date": "2026-07-26",
+            "value": 109.7265
+          },
+          {
+            "date": "2026-07-28",
+            "value": 110.1673
+          },
+          {
+            "date": "2026-07-30",
+            "value": 112.7481
+          },
+          {
+            "date": "2026-08-03",
+            "value": 114.0078
+          },
+          {
+            "date": "2026-08-05",
+            "value": 113.3987
+          },
+          {
+            "date": "2026-08-09",
+            "value": 112.7319
+          },
+          {
+            "date": "2026-08-11",
+            "value": 111.8945
+          },
+          {
+            "date": "2026-08-13",
+            "value": 112.0387
+          },
+          {
+            "date": "2026-08-17",
+            "value": 111.8316
+          },
+          {
+            "date": "2026-08-19",
+            "value": 112.5202
+          },
+          {
+            "date": "2026-08-23",
+            "value": 111.081
+          },
+          {
+            "date": "2026-08-25",
+            "value": 111.1272
+          },
+          {
+            "date": "2026-08-27",
+            "value": 111.403
+          },
+          {
+            "date": "2026-08-31",
+            "value": 110.7287
+          },
+          {
+            "date": "2026-09-02",
+            "value": 111.59
+          }
+        ],
+        "profitScore": 1.51,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,14 +1268,14 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 17630.0,
+        "last": 17633.0,
         "date": "2026-09-04",
-        "return1m": -1.36,
-        "return3m": -1.81,
-        "return6m": 4.54,
-        "return1y": 4.67,
-        "volatility": 6.36,
-        "maxDrawdown": -3.08,
+        "return1m": -1.34,
+        "return3m": -1.8,
+        "return6m": 4.55,
+        "return1y": 4.69,
+        "volatility": 6.35,
+        "maxDrawdown": -3.06,
         "sparkline": [
           {
             "date": "2026-02-23",
@@ -1558,7 +1558,7 @@
             "value": 17723.0
           }
         ],
-        "profitScore": 0.63,
+        "profitScore": 0.64,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,12 +1566,12 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20486.0,
+        "last": 20490.0,
         "date": "2026-09-04",
-        "return1m": 2.1,
-        "return3m": -1.2,
-        "return6m": 4.61,
-        "return1y": 4.28,
+        "return1m": 2.12,
+        "return3m": -1.18,
+        "return6m": 4.63,
+        "return1y": 4.3,
         "volatility": 18.61,
         "maxDrawdown": -5.62,
         "sparkline": [
@@ -1856,7 +1856,7 @@
             "value": 19946.0
           }
         ],
-        "profitScore": 0.59,
+        "profitScore": 0.61,
         "view": "strongest IDR return screen"
       },
       {
@@ -1864,7 +1864,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2626.2,
+        "last": 2627.6001,
         "date": "2026-09-04",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1875,7 +1875,7 @@
         "sparkline": [
           {
             "date": "2026-09-04",
-            "value": 2626.2
+            "value": 2627.6001
           }
         ],
         "profitScore": 0.0,
@@ -1887,12 +1887,12 @@
       "label": "Australian Dollar",
       "useCase": "Commodity-cycle proxy and education/travel exposure",
       "pair": "AUD",
-      "last": 12700.7998,
+      "last": 12701.9004,
       "date": "2026-09-04",
       "return1m": 0.7,
-      "return3m": -0.8,
-      "return6m": 6.44,
-      "return1y": 6.39,
+      "return3m": -0.79,
+      "return6m": 6.45,
+      "return1y": 6.4,
       "volatility": 9.79,
       "maxDrawdown": -5.12,
       "sparkline": [
@@ -2177,7 +2177,7 @@
           "value": 12698.0596
         }
       ],
-      "profitScore": 1.97,
+      "profitScore": 1.98,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",

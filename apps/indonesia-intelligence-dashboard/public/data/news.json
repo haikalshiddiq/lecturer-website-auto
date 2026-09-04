@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T18:00:51+07:00",
+  "generatedAt": "2026-09-04T19:00:52+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 04 September 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -19,6 +19,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-09-04-a4f5e59f2e",
+      "date": "2026-09-04",
+      "topic": "Tech / AI",
+      "title": "Bukan Sekedar Canggih, Menkomdigi Meutya Dorong Meaningful AI",
+      "summary": "VOI.ID surfaced this fresh item: Bukan Sekedar Canggih, Menkomdigi Meutya Dorong Meaningful AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "VOI.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdkNCbGFnTDFVcm51cWp6LWVLTi1JVlprSEhqWl90aGM0Q1FROWlObl9DNEVBU2R3N0ZaWTVFem44WFFfaV9hMERkSE1xZVZQdzdFSGtRTXV5bDJRVGdmazdXVDhsaTdnRFhDMmFnMHU0RWFDVEVrZENSc3c3ZEFPMk5kaUtVMU5IcFNHSkJnUdIBjwFBVV95cUxOdkNCbGFnTDFVcm51cWp6LWVLTi1JVlprSEhqWl90aGM0Q1FROWlObl9DNEVBU2R3N0ZaWTVFem44WFFfaV9hMERkSE1xZVZQdzdFSGtRTXV5bDJRVGdmazdXVDhsaTdnRFhDMmFnMHU0RWFDVEVrZENSc3c3ZEFPMk5kaUtVMU5IcFNHSkJnUQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-09-04-921f684e04",
       "date": "2026-09-04",
       "topic": "Tech / AI",
@@ -34,17 +49,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-31352a59b5",
+      "id": "2026-09-04-1b960fc985",
       "date": "2026-09-04",
-      "topic": "Tech / AI",
-      "title": "PGE Siapkan Energi Panas Bumi Pasok Listrik Data Center AI",
-      "summary": "achmadnurhidayat.id surfaced this fresh item: PGE Siapkan Energi Panas Bumi Pasok Listrik Data Center AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Automotive / EV",
+      "title": "BYD Resmi Produksi Mobil Listrik di Subang, Pemerintah Bidik Penguatan Industri dari Hulu ke Hilir",
+      "summary": "Suara Pemerintah surfaced this fresh item: BYD Resmi Produksi Mobil Listrik di Subang, Pemerintah Bidik Penguatan Industri dari Hulu ke Hilir. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "achmadnurhidayat.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PSWdYZ0VhNElEdHpuNTZyeE5OOVlyR1BUR1hpZTg3R1Z3WnRrajhjRF84dFlNMm5kVG55NVFxUEJHVW9DUFB0SW9hZy1CMTJHYVRydWR5SElaLV9wZThUUE5UY0o0cUlXWGtWWlo1TQ?oc=5",
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Suara Pemerintah via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLUJRa2ZCMDhrSmgtdVcyZ19MUWdaWjlRV3JBMFpxMnpUa0htNmcza3g0MVlJM3hJcm54QlFRZWRYaEVfUi1jR1M3ZF9KbnA5dUFkX09DSDg0cWEzekdzb0U1YUU4U29nc3lBTVRUN1BmaFlJV01VMzFBaGVpeVRxLU1uSWhaMFl0c0VFcTdGRHZKMXpubU1EQ0tlSzJhQXBsZXpZZlp0blVQYW8zUGxkNkFaZUlCWFpuTTh4YlJyQUtfZHdOLWlxQ3h0NHhPZw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -59,22 +74,7 @@
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
       "source": "TIMES Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSjgwVHZjUFlpOGhOd3FWM0JvN0NRR3owRTFBZkFYbUVVend6LXFZc1Q2amlaRkpnSjRZZTFmektXeHJYdGRwWTkxejV6d042eDZOb2xxWm9HQXY4ZjNjLVp5VUFxVjREdThzWEo1TnVGV2tEWlRBRU9DaFJFUU9Rak50R0czT2N6LThjbjBkYXgwbEZLckc5cjU3em5BbVRhSk11X0prTUVVU0VBdjI4M2tn?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-04-1b960fc985",
-      "date": "2026-09-04",
-      "topic": "Automotive / EV",
-      "title": "BYD Resmi Produksi Mobil Listrik di Subang, Pemerintah Bidik Penguatan Industri dari Hulu ke Hilir",
-      "summary": "suarapemerintah.id surfaced this fresh item: BYD Resmi Produksi Mobil Listrik di Subang, Pemerintah Bidik Penguatan Industri dari Hulu ke Hilir. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "suarapemerintah.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLUJRa2ZCMDhrSmgtdVcyZ19MUWdaWjlRV3JBMFpxMnpUa0htNmcza3g0MVlJM3hJcm54QlFRZWRYaEVfUi1jR1M3ZF9KbnA5dUFkX09DSDg0cWEzekdzb0U1YUU4U29nc3lBTVRUN1BmaFlJV01VMzFBaGVpeVRxLU1uSWhaMFl0c0VFcTdGRHZKMXpubU1EQ0tlSzJhQXBsZXpZZlp0blVQYW8zUGxkNkFaZUlCWFpuTTh4YlJyQUtfZHdOLWlxQ3h0NHhPZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRDVyalRLc1Nvb2xKM0cxb0ZlSmNKWjVJS1IzMzRNSFEzN0szTzdfZUFhcmhYV3F0LWNNZTJxZU1IVTY1TDRkX3NsYVdDX0tyQ2psa3pSVzU2cm5ZUjkweksyMEVtWkdjeHAwbHMtY19wbUY5Xzc5TEVoVTFkQURwa1RKMGMtV2lUTzJiY09ia21mYmp4R29XdzktQWh1QVFqNUx0amRBVV9rMk9zNnpidg?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -94,17 +94,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-a85a9f3b34",
+      "id": "2026-09-04-802f479722",
       "date": "2026-09-04",
       "topic": "Business / Investment",
-      "title": "Prabowo tiba dari Rusia, bawa oleh-oleh investasi pabrik pupuk urea",
-      "summary": "IDNFinancials surfaced this fresh item: Prabowo tiba dari Rusia, bawa oleh-oleh investasi pabrik pupuk urea. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Indonesia Jajaki Potensi Kerja Sama Ekonomi dengan Irlandia",
+      "summary": "investor.id surfaced this fresh item: Indonesia Jajaki Potensi Kerja Sama Ekonomi dengan Irlandia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "IDNFinancials via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdVRFd0hmeFVVZDg0RWFyNS1VRFI0UkItRVh4VGN3djdwcUJGMFVLUFlPT1M4dS1Xd1ljYnc3UjdPbXpxX0VlSHRCTHV6VWtaWUg0RFNESDZFY2hueEFsN1pab1lld2FWaFlnSkdjYXFnX1JMbHNtTDBjM3VMbHRieUZad3g2QXhDa3huYWViY3lmTEtrNUJtS25oU0pzaExlOGhvY0ItSFNhLXhEeDNn?oc=5",
+      "source": "investor.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNWhMLVBILWFwdHREVFl5MlBvdmFSZlFzRW94TTV3c05RaTVwdnZyaThTcW5Md1FmdHRrbnVWT20tVnAwcjM4Mno5MFBFU1JFc29OUHRmc09KTnpLeDdhc2JBOXAxbmZxdklrZEZ5aHZnWmhBRzlEa0NvLTZmbmVRVzB0QmY0NWdlX1BkUlVlYkdtWkU4S2ZxQmd2amZQcHNkMWc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -128,12 +128,12 @@
       "date": "2026-09-04",
       "topic": "Infrastructure",
       "title": "Indonesia-Jepang Perkuat Investasi Infrastruktur, 32 Proyek Strategis Ditawarkan ke Investor",
-      "summary": "suarapemerintah.id surfaced this fresh item: Indonesia-Jepang Perkuat Investasi Infrastruktur, 32 Proyek Strategis Ditawarkan ke Investor. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "Suara Pemerintah surfaced this fresh item: Indonesia-Jepang Perkuat Investasi Infrastruktur, 32 Proyek Strategis Ditawarkan ke Investor. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "suarapemerintah.id via Google News RSS discovery",
+      "source": "Suara Pemerintah via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRVNWVG5HbXBWYk90d3JPQzNrVk5zZkFyaTFKajBXX2dkMlJuUlBpV0pQTjFBTWFRaWR4d0MxQzFlVlNkLVlva2VsSm12UmVzMlQyWFdlRXVMbFU2OFFTWk5WUHBhNlJMU25hYVk5a2FNOWY0NDBkVkxZaW91UGNWVHFXQmhVVEZtWUlkZFpKcWFkeV9MT2NybFlhaTZrZ0RmRkNWNVE2RlZiQ3ZjRHBwVl9LMWJ0TnhlN0JpVWxkMXI4R1FsSGc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -179,22 +179,7 @@
       "confidence": 0.68,
       "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
       "source": "ANTARA News Bali via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1A1ajd6MWNIbnRBQUV3ZDVuTmktWUdoVUY1MEh0QkpvY2FiU1hSaDRMQnBfRW9XdGQ1bGxZYndER2VBdWRWV2N0V3ZGQkwxdERBVXFoeVVwT0pGUWJlMkxfbUJlX1FLYVlPc3JyYm1BN0ZpdEJmNXIwa05WOG4tV1NFT2hsZGpQdWNVUjlaT3pGZklRc0V2ODVkNU1FZ3dSZzlJ0gGoAUFVX3lxTE14NXVsWHl2Q1FNRGtOV1pDc2h4cDJCWUpSek9GVG52dlprVzJqLUdTYnU4WUV0a083eTZCaThBbDRhQmtpVnVzNWg4bXNRZEM4MFp5STRLNUpVQnFJWjVKTDlxU3J5aHZsZm04dUxjYWs4TUJiVGQ5OHdEaVVHeXp3R3c2cFI0U19kY1VQNDUybG80T1FpbjBwMFpwZldRZEZnS0Q5TVQzaA?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-04-ed30caa3be",
-      "date": "2026-09-04",
-      "topic": "Regulation",
-      "title": "Gurindam Pay Diluncurkan, BRK Syariah dan Pemkot Tanjungpinang Digitalisasi Pajak Daerah",
-      "summary": "Batamtoday.com surfaced this fresh item: Gurindam Pay Diluncurkan, BRK Syariah dan Pemkot Tanjungpinang Digitalisasi Pajak Daerah. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "Batamtoday.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1NKekdQNmtTRm5kU3Y5YnF4N09hR3A4ZXNaN1lIanlyeDdFQVpsSXItTjVQZ3lWanJBQVhwUVZzeGVFS29GWldZVHU4Wm50NlZaQ3dlWnJ5Y1hycWhUUHZxcV8xTUhjYlo1YlNxVnhrRjI4R1FUbjFJY2IwcUhkSDFPU1VTTVhIX1AybGtwaW51SUxNYlRQTmE1OUZQWkdtMDJrc3otTGpWYjk2R193M01xd3BCQQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeDV1bFh5dkNRTURrTldaQ3NoeHAyQllKUnpPRlRudnZaa1cyai1HU2J1OFlFdGtPN3k2Qmk4QWw0YUJraVZ1czVoOG1zUWRDODBaeUk0SzVKVUJxSVo1Skw5cVNyeWh2bGZtOHVMY2FrOE1CYlRkOTh3RGlVR3l6d0d3NnBSNFNfZGNVUDQ1MmxvNE9RaW4wcDBacGZXUWRGZ0tEOU1UM2jSAagBQVVfeXFMTXg1dWxYeXZDUU1Ea05XWkNzaHhwMkJZSlJ6T0ZUbnZ2WmtXMmotR1NidThZRXRrTzd5NkJpOEFsNGFCa2lWdXM1aDhtc1FkQzgwWnlJNEs1SlVCcUlaNUpMOXFTcnlodmxmbTh1TGNhazhNQmJUZDk4d0RpVUd5endHdzZwUjRTX2RjVVA0NTJsbzRPUWluMHAwWnBmV1FkRmdLRDlNVDNo?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -244,17 +229,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-298a1f31f8",
+      "id": "2026-09-04-1a065b1b0e",
       "date": "2026-09-04",
       "topic": "Tech / AI",
-      "title": "AI, Data Center, dan energi jadi fokus Energy Week 2026",
-      "summary": "indotelko.com surfaced this fresh item: AI, Data Center, dan energi jadi fokus Energy Week 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "PGEO Siap Pasok Listrik Baseload dari Panas Bumi untuk Green Data Center",
+      "summary": "investor.id surfaced this fresh item: PGEO Siap Pasok Listrik Baseload dari Panas Bumi untuk Green Data Center. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "indotelko.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeE83RE5TZHc4RDNqQ19UM0g1TkV0MzN6aDVhTmFlTlhFSUNibGtlNEdza29jZkthSG5FM1lNaGlWOG9IXzFoVkwxeFE3UWNFWjRsX2pMUlJYcnAxUG9feWVwLThOQUhsb2RlOHdlcUp5eDEtbklndHQ3bUVVZGRTeXJJLWQ3eWk5TVpvN1RXdVVpUlEwM1JhN09oY9IBoAFBVV95cUxOY1NqaUJHQUNiOVdFaGd1bUFaRTljVjIwYkpTSjZOWTVySlV6ZzB4eXRDWHNfSG1NMmdmNFNGNFVNNlM2ZHFaTnZXVkd5TGxiQnBBUVdGVWhTMXB1M1NjaVJmZTdGV3FsLWN0YzBGZUlHZnF2T01MYVNQd2hGOTZ5eDRyN29aV3VwNWZuVnlZaXRPRkI0a3Y4YXUyTGpVRTJY?oc=5",
+      "source": "investor.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0VvckpUZ3ItejhocWpWVkV6dXBBZjVoR2dGRkRMdTV6amswTXN4cDc3bzhjWkRmbmtHamwzelZjdGdpUWdEX2ljbW95Y3JuSVRkQlJnN085U2NXQ0loRlByS3Z4emhQVnF1aHZpejdmT19jUjQ3Zzc1am1ad20wT0t3VmlzdTdoVWVxQ01vdW9QUk9VV3o0QXNCOEVBTE4xTFB4TXFlODBZUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -274,6 +259,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-09-04-367bd296ba",
+      "date": "2026-09-04",
+      "topic": "Automotive / EV",
+      "title": "Penjualan Mobil Listrik Indonesia Tembus 70 Ribu Unit pada Semester I 2026",
+      "summary": "Medcom.id surfaced this fresh item: Penjualan Mobil Listrik Indonesia Tembus 70 Ribu Unit pada Semester I 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Medcom.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb0l6OFdlR0lWVGJnTHJZbVhsTkVJNTc2ZHZWSTdpMTB0aFFkV3FqdnYxMVpFUE9QajNNSjBYQWlFVDE5YzRxLVVpWHVIbU9Mc3EzRGJKTVl2TUtPWmJKamhQWFBoclVIN1NCYkJCaVpWNi1Tc3ZaelhVVlJjamZmRXQ4V3dON0t1NWRScEdueHBPbmNYZmhXbmY3SzBtZmRuSkFGb0pRU1M2RHA2UTZ6aHlkb01tOUNpV0dwOQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-09-04-ed7d8c2e38",
       "date": "2026-09-04",
       "topic": "Automotive / EV",
@@ -289,17 +289,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-367bd296ba",
+      "id": "2026-09-04-b7ecc9dec7",
       "date": "2026-09-04",
-      "topic": "Automotive / EV",
-      "title": "Penjualan Mobil Listrik Indonesia Tembus 70 Ribu Unit pada Semester I 2026",
-      "summary": "medcom.id surfaced this fresh item: Penjualan Mobil Listrik Indonesia Tembus 70 Ribu Unit pada Semester I 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Business / Investment",
+      "title": "Menyusuri Sarinah, Menemukan Wajah UMKM Indonesia",
+      "summary": "DPR RI surfaced this fresh item: Menyusuri Sarinah, Menemukan Wajah UMKM Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "medcom.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb0l6OFdlR0lWVGJnTHJZbVhsTkVJNTc2ZHZWSTdpMTB0aFFkV3FqdnYxMVpFUE9QajNNSjBYQWlFVDE5YzRxLVVpWHVIbU9Mc3EzRGJKTVl2TUtPWmJKamhQWFBoclVIN1NCYkJCaVpWNi1Tc3ZaelhVVlJjamZmRXQ4V3dON0t1NWRScEdueHBPbmNYZmhXbmY3SzBtZmRuSkFGb0pRU1M2RHA2UTZ6aHlkb01tOUNpV0dwOQ?oc=5",
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "DPR RI via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTDQ4OTVCM1I2VGx0aXl2Wlo4NmhsZjluRklhWXJrbU5RRFdSeVVhXzM1RnpFUEhieFViejgxSk9BOG93bEREMlFkenJBbFlJN0FvZVN2MVRkendyQmRFQ29OVW44THhqOUhMeElQNVZRclhFZzF5UVhUeDBaTEZYbWZfbnlPSndBSndGUUtQSlIwd0wydjU2Ml8wblo?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -319,21 +319,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-04-1c89751f6f",
-      "date": "2026-09-04",
-      "topic": "Business / Investment",
-      "title": "UNDIP–IWIP Buka Akses Magang Industri, Perkuat Talenta Siap Kerja untuk Sektor Hilirisasi Nikel",
-      "summary": "Universitas Diponegoro surfaced this fresh item: UNDIP–IWIP Buka Akses Magang Industri, Perkuat Talenta Siap Kerja untuk Sektor Hilirisasi Nikel. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Universitas Diponegoro via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY1luV21kaUZOZTR2VkxmMVZWaVR3UVJyV0trTXRNNm54bGstQlNxZ1ktRDR1N0xJLU85NjFpSEVPX0pvUnV1UTJoR1lFM0E2VmFYOWw5WkRSdXlvMUxPOXpLcklZZ3J3R0xnTTZsVXBCU2h5NjdOekxwQzZuZm5Sdk1NTHZjUVFOcnZPTzYtRk9sUDB3cGR5TDBwVDE5RDgzcWRjYkRCcHJWNWM2TkdCbEpkRDFkVHhsall2dk8wRDMzSDZmcDJQVVNB?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-09-04-5c424dbec0",
       "date": "2026-09-04",
       "topic": "Infrastructure",
@@ -345,6 +330,21 @@
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
       "source": "CNN Indonesia via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbklzS1k2MmlPOEw0RGIyLUxTTHk4aGdvaVRQTmhJcnRHaXN3eGRpRjZtV0RUc2M0Y0hQRmVKWWExb3BQbHlPc09DTjNtbnJtdEJ1NGFRWi1ma2toYVNyLXJITGtXdThTeDdBa0p2Rkx5Si1OZUNJM1h4LVlVdnpIY05tYjhfMUcxLXRFTk1FNEk4WFlIZkxYTUNuNEZWLUZuc1E4czZ1cFJOSE5ST01CeHlGNk44RjdrWmltcUR5Nmhtc3oy0gHKAUFVX3lxTE52cFFWaFo3M3U1RnVVOEhkLWlHR3EydTk5R1BVdE55MUNTTkdDbHNlN1BibWkxUjdJZzRrbGtLZzNJZDRFTFdYRkpPQ1RScHBuMXpGaTdEWllRRC1EWWZkU0lUVjNvVDdrZG9ITWpSMUhkcEdmSWtERDBBM3N1Sjg0TXI4a0JLRmpRZnF4aDhiZWs4NUNtZ0xPTTJMT0lmRHNtRS1yd3kwMnlhd251a3diaGczZnhYWkJiNW1sT1BBdkJPV0RBWHJ4MEE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-04-06ef867a94",
+      "date": "2026-09-04",
+      "topic": "Infrastructure",
+      "title": "Grouting Fast Setting Dinilai Jadi Solusi Efektif Perbaikan Jalan Tol",
+      "summary": "detikcom surfaced this fresh item: Grouting Fast Setting Dinilai Jadi Solusi Efektif Perbaikan Jalan Tol. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "detikcom via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRWlrM21FZnpNVm1HWGliX1NpVmxuRmc2azVOTmRiQ2F1d3VlWWMzNXk1azVvNVRWNFBFSDI2ZW0yZVdRNF94Q1RJak9reWl3dXJ5dy1YRjNCNzdWWlptVzFMNU9pbE0yREo4NEJJOFRyMjR0cnRTYnpxQU02UUVQYVhScERYTll1QUl0SGhYT2VzeXhJR0k5VUllSi1sYm5oVnlxNGRoZXhnZWRHMldaZXhOeUlGSEs20gG-AUFVX3lxTFBXc3l0SWw3amNSTkwxZmN4OG0wcUtjZDg1NnpnQ1Q0bnlhWTVxME5BdS1XUTlaZUZiU0U3MmNGeG1UaWY5QUxNWHhzaWhxZTNEUUZSY0ttNVNmbWJwSXNDMTFKMlBMSXdLaVNSeDZYeEt6WUpZZUFmMWpUOE54dW5GQXZhRXpuVkhGS0lQNS13S01famVmYWtkQzB1SU5OS2VtUFMwMTJfaWx4YXBKRkdwdEJKWk1qSlV0bnBaX0E?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-09-04T18:00:51+07:00",
+    "generatedAt": "2026-09-04T19:00:52+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -2226,7 +2226,7 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 71,
+        "opportunityScore": 75,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

@@ -1,8 +1,10 @@
-const SW_VERSION = 'indonesia-intel-pwa-v7';
+const SW_VERSION = 'indonesia-intel-pwa-v8';
 const RUNTIME_CACHE = `${SW_VERSION}-runtime`;
 const APP_SHELL = [
   '/',
   '/index.html',
+  '/weekly/',
+  '/weekly/index.html',
   '/offline.html',
   '/manifest.webmanifest',
   '/icons/icon.svg',
@@ -10,7 +12,7 @@ const APP_SHELL = [
   '/icons/icon-512.png',
   '/icons/icon-maskable-512.png'
 ];
-const DATA_URL = '/data/news.json';
+const DATA_URLS = ['/data/news.json', '/data/weekly.json', '/data/weekly/index.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -19,19 +21,19 @@ self.addEventListener('install', (event) => {
 
     // Vite emits hashed asset names. Discover and cache them from the built shell
     // during installation so the first visit is already offline-capable.
-    const shellResponse = await shellCache.match('/index.html');
-    const shellHtml = shellResponse ? await shellResponse.text() : '';
-    const assetUrls = [...shellHtml.matchAll(/(?:src|href)="(\/assets\/[^"]+)"/g)].map(match => match[1]);
+    const shellResponses = await Promise.all(['/index.html', '/weekly/index.html'].map(path => shellCache.match(path)));
+    const shellHtml = (await Promise.all(shellResponses.filter(Boolean).map(response => response.text()))).join('\n');
+    const assetUrls = [...new Set([...shellHtml.matchAll(/(?:src|href)="(\/assets\/[^"]+)"/g)].map(match => match[1]))];
     await Promise.all(assetUrls.map(async (assetUrl) => {
       try { await shellCache.add(assetUrl); } catch { /* A single optional asset must not block installation. */ }
     }));
 
     try {
-      const dataResponse = await fetch(DATA_URL, { cache: 'no-store' });
-      if (dataResponse.ok) {
-        const runtimeCache = await caches.open(RUNTIME_CACHE);
-        await runtimeCache.put(DATA_URL, dataResponse);
-      }
+      const runtimeCache = await caches.open(RUNTIME_CACHE);
+      await Promise.all(DATA_URLS.map(async dataUrl => {
+        const dataResponse = await fetch(dataUrl, { cache: 'no-store' });
+        if (dataResponse.ok) await runtimeCache.put(dataUrl, dataResponse);
+      }));
     } catch { /* The app shell remains installable when the live feed is temporarily unavailable. */ }
 
     await self.skipWaiting();
@@ -61,10 +63,10 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  if (url.pathname === DATA_URL) {
+  if (DATA_URLS.includes(url.pathname) || url.pathname.startsWith('/data/weekly/')) {
     // News freshness is more important than an instant stale response. Always
     // try the network first and use the last verified payload only when offline.
-    event.respondWith(networkFirstData(request, RUNTIME_CACHE, DATA_URL));
+    event.respondWith(networkFirstData(request, RUNTIME_CACHE, url.pathname));
     return;
   }
 
@@ -75,9 +77,11 @@ self.addEventListener('fetch', (event) => {
 
 async function networkFirstNavigation(event) {
   const cache = await caches.open(SW_VERSION);
+  const requestPath = new URL(event.request.url).pathname;
+  const cacheKey = requestPath.startsWith('/weekly') ? '/weekly/index.html' : '/index.html';
   try {
     const response = await fetch(event.request);
-    cache.put('/index.html', response.clone());
+    cache.put(cacheKey, response.clone());
     return response;
   } catch (error) {
     const offline = await cache.match('/offline.html');
@@ -87,7 +91,7 @@ async function networkFirstNavigation(event) {
         headers: { 'Content-Type': 'text/html; charset=UTF-8', 'Cache-Control': 'no-store' }
       });
     }
-    return cache.match('/index.html');
+    return cache.match(cacheKey);
   }
 }
 

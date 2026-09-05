@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-05T20:21:28+00:00",
+  "title": "Design System: Indonesia Intelligence",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Analytical Blue", "canonical": "#1d4ed8", "tonalRamp": ["#172554", "#1e3a8a", "#1e40af", "#1d4ed8", "#3b82f6", "#93c5fd", "#dbeafe", "#eff6ff"] },
+      "canvas": { "role": "neutral", "displayName": "Cool Paper", "canonical": "#f6f8fb", "tonalRamp": ["#0f172a", "#334155", "#526174", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#f8fafc"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Editorial Display", "purpose": "Page title and major section statements." },
+      "label": { "displayName": "Evidence Label", "purpose": "Scores, dates, states, and metadata." }
+    },
+    "shadows": [{ "name": "status-soft", "value": "0 16px 48px rgba(15, 23, 42, .08)", "purpose": "Quiet separation for the primary weekly status." }],
+    "motion": [{ "name": "state-standard", "value": "180ms ease", "purpose": "Hover and focus transitions; disabled under reduced motion." }],
+    "breakpoints": [{ "name": "stack", "value": "980px" }, { "name": "mobile", "value": "680px" }]
+  },
+  "components": [
+    {
+      "name": "Evidence Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Bordered analytical surface with restrained tonal depth.",
+      "html": "<article class=\"ds-card\"><strong>19 berita</strong><span>15 sumber berbeda</span></article>",
+      "css": ".ds-card{display:grid;gap:6px;padding:22px;border:1px solid #dfe6ef;border-radius:16px;background:#fff;color:#0f172a;font-family:Geist Sans,sans-serif}.ds-card span{color:#526174;font-size:12px}"
+    },
+    {
+      "name": "Archive Select",
+      "kind": "input",
+      "refersTo": "control",
+      "description": "Accessible period control with a 44px target.",
+      "html": "<select class=\"ds-select\"><option>Laporan terbaru</option></select>",
+      "css": ".ds-select{min-height:44px;padding:0 12px;border:1px solid #cbd5e1;border-radius:10px;background:#fff;color:#0f172a;font:600 13px Geist Sans,sans-serif}.ds-select:focus-visible{outline:3px solid rgba(37,99,235,.3);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Calm Situation Room",
+    "overview": "A restrained analytical workspace for reading imperfect evidence without panic.",
+    "keyCharacteristics": ["Evidence-first hierarchy", "Quiet analytical surfaces", "Responsive chart alternatives"],
+    "rules": [{ "name": "Evidence Color Rule", "body": "Missing evidence uses neutral or blue, never green.", "section": "colors" }, { "name": "One-Headline Rule", "body": "Each route has one page-level heading.", "section": "typography" }],
+    "dos": ["Place uncertainty beside the verdict.", "Keep original source links available."],
+    "donts": ["Do not call uncovered topics stable.", "Do not treat headline sentiment as personal-safety advice."]
+  }
+}

@@ -230,6 +230,7 @@ function App() {
             <a href="#markets">Markets</a>
             <a href="#analytics">Analytics</a>
             <a href="#news">News feed</a>
+            <a href="/weekly/">Weekly insight</a>
           </div>
           <button
             className="themeToggle"

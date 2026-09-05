@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "validate:data": "node scripts/validate-news-data.mjs",
+    "weekly:generate": "python3 scripts/generate-weekly-intelligence.py",
+    "validate:data": "node scripts/validate-news-data.mjs && node scripts/validate-weekly-data.mjs",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "smoke": "node scripts/smoke-dashboard.mjs",
@@ -20,5 +21,9 @@
   },
   "devDependencies": {
     "playwright": "^1.61.1"
+  },
+  "overrides": {
+    "nanoid": "3.3.18",
+    "postcss": "8.5.28"
   }
 }

@@ -47,6 +47,13 @@
       "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
     },
     {
+      "name": "Weekly family decision insight",
+      "short_name": "Weekly Insight",
+      "description": "Open the latest weekly Indonesia condition signal",
+      "url": "/weekly/",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
       "name": "Latest JSON feed",
       "short_name": "JSON Feed",
       "description": "Open the structured dashboard data feed",

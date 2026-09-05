@@ -93,6 +93,39 @@ try {
 
     assert(runtimeErrors.length === 0, `${viewport.name}: runtime errors: ${runtimeErrors.join(' | ')}`);
     await page.screenshot({ path: new URL(`dashboard-${viewport.name}.png`, artifacts).pathname, fullPage: true });
+
+    const weeklyResponse = await page.goto(`${baseURL}/weekly/`, { waitUntil: 'networkidle' });
+    assert(weeklyResponse?.ok(), `${viewport.name}: weekly document request failed`);
+    await page.locator('.weeklyStatus').waitFor({ state: 'visible' });
+    assert(await page.locator('.weeklyStatus h2').count() === 1, `${viewport.name}: weekly status is missing`);
+    assert(await page.locator('.trendPanel svg.recharts-surface').count() === 1, `${viewport.name}: weekly trend chart is missing`);
+    if (viewport.width > 680) {
+      assert(await page.locator('.topicPanel svg.recharts-surface').count() === 1, `${viewport.name}: weekly topic chart is missing`);
+    } else {
+      assert(await page.locator('.topicScoreList > div').count() >= 10, `${viewport.name}: mobile topic score list is incomplete`);
+    }
+    assert(await page.locator('.highlightItem').count() >= 8, `${viewport.name}: too few weekly highlights rendered`);
+    assert(await page.locator('.countryList article').count() === 3, `${viewport.name}: relocation radar must show three countries`);
+    assert(await page.locator('.statusCaveat').isVisible(), `${viewport.name}: weekly safety limitation is not visible`);
+    const weeklyGeometry = await page.evaluate(() => ({
+      scrollWidth: document.documentElement.scrollWidth,
+      clientWidth: document.documentElement.clientWidth,
+      status: document.querySelector('.weeklyStatus h2')?.textContent,
+      conditionIndex: document.querySelector('.conditionIndex strong')?.textContent,
+      dataQualifier: document.querySelector('.statusLabel b')?.textContent,
+    }));
+    assert(weeklyGeometry.scrollWidth <= weeklyGeometry.clientWidth + 1, `${viewport.name}: weekly page horizontal overflow ${weeklyGeometry.scrollWidth}px > ${weeklyGeometry.clientWidth}px`);
+    assert(['Pantau', 'Siapkan Opsi', 'Pertimbangkan Bertindak'].includes(weeklyGeometry.status), `${viewport.name}: invalid weekly status ${weeklyGeometry.status}`);
+    assert(weeklyGeometry.dataQualifier === 'Data belum cukup'
+      ? weeklyGeometry.conditionIndex === '—'
+      : Number(weeklyGeometry.conditionIndex) >= 0 && Number(weeklyGeometry.conditionIndex) <= 100,
+    `${viewport.name}: invalid weekly condition index`);
+    await page.screenshot({ path: new URL(`weekly-${viewport.name}.png`, artifacts).pathname, fullPage: true });
+
+    await page.locator('.themeToggle').click();
+    assert(await page.evaluate(() => document.documentElement.dataset.theme === 'dark'), `${viewport.name}: weekly dark mode did not apply`);
+    await page.screenshot({ path: new URL(`weekly-${viewport.name}-dark.png`, artifacts).pathname, fullPage: true });
+    assert(runtimeErrors.length === 0, `${viewport.name}: weekly runtime errors: ${runtimeErrors.join(' | ')}`);
     await page.close();
   }
 
@@ -128,12 +161,17 @@ try {
     return (await response.json()).items.length;
   });
   assert(cachedItems >= 8, 'PWA: cached intelligence data is unavailable offline');
+  const cachedWeekly = await pwaPage.evaluate(async () => {
+    const response = await fetch(`/data/weekly.json?v=offline-${Date.now()}`);
+    return (await response.json()).status?.label;
+  });
+  assert(['Pantau', 'Siapkan Opsi', 'Pertimbangkan Bertindak'].includes(cachedWeekly), 'PWA: cached weekly intelligence is unavailable offline');
   await pwaPage.goto(`${baseURL}/?offline-smoke=1`, { waitUntil: 'domcontentloaded' });
   assert(await pwaPage.getByRole('heading', { name: 'You are offline.' }).isVisible(), 'PWA: standalone offline navigation fallback did not render');
   await pwaContext.setOffline(false);
   await pwaContext.close();
 
-  console.log('Dashboard smoke passed: desktop/mobile, light/dark persistence, PWA installability/offline shell, navigation, filters, and overflow.');
+  console.log('Dashboard smoke passed: daily and weekly desktop/mobile, light/dark, charts, relocation radar, PWA offline data, navigation, filters, and overflow.');
 } finally {
   if (browser) await browser.close();
   server.kill('SIGTERM');

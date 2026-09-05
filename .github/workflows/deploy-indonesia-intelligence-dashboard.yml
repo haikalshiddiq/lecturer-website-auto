@@ -107,6 +107,8 @@ jobs:
         run: |
           expected="$(node -p "require('./public/data/news.json').generatedAt")"
           expected_count="$(node -p "require('./public/data/news.json').items.length")"
+          expected_weekly_period="$(node -p "require('./public/data/weekly.json').period.end")"
+          live_weekly_period=''
           for attempt in $(seq 1 18); do
             if curl --fail --silent --show-error --location \
               --retry 2 --retry-all-errors \
@@ -116,10 +118,20 @@ jobs:
               live="$(node -p "require('/tmp/live-news.json').generatedAt || ''" 2>/dev/null || true)"
               live_count="$(node -p "require('/tmp/live-news.json').items?.length || 0" 2>/dev/null || true)"
               if [ "$live" = "$expected" ] && [ "$live_count" = "$expected_count" ]; then
-                echo "Live deployment verified: $live, $live_count items"
-                exit 0
+                curl --fail --silent --show-error --location \
+                  --user-agent 'Mozilla/5.0 GitHub-Actions-CI-CD-Verification' \
+                  "https://indonesia-intelligence-dashboard.pages.dev/data/weekly.json?sha=${EXPECTED_SHA}&attempt=${attempt}" \
+                  --output /tmp/live-weekly.json || true
+                live_weekly_period="$(node -p "require('/tmp/live-weekly.json').period?.end || ''" 2>/dev/null || true)"
+                if [ "$live_weekly_period" = "$expected_weekly_period" ] && \
+                  curl --fail --silent --show-error --location \
+                    "https://indonesia-intelligence-dashboard.pages.dev/weekly/?sha=${EXPECTED_SHA}&attempt=${attempt}" | \
+                    grep -q 'Weekly Indonesia Intelligence'; then
+                  echo "Live deployment verified: $live, $live_count daily items, weekly period $live_weekly_period"
+                  exit 0
+                fi
               fi
-              echo "Attempt $attempt: live=$live/$live_count expected=$expected/$expected_count"
+              echo "Attempt $attempt: daily=$live/$live_count expected=$expected/$expected_count weekly=$live_weekly_period expected_weekly=$expected_weekly_period"
             fi
             sleep 10
           done

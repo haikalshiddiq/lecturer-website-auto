@@ -1,0 +1,403 @@
+{
+  "generatedAt": "2026-09-06T03:20:26+07:00",
+  "period": {
+    "start": "2026-08-31",
+    "end": "2026-09-06",
+    "label": "31 Aug - 06 Sep 2026"
+  },
+  "status": {
+    "level": "monitor",
+    "label": "Pantau",
+    "conditionIndex": 46,
+    "confidence": "Low",
+    "dataSufficiency": "Insufficient",
+    "dataQualifier": "Data belum cukup",
+    "missingCriticalTopics": [
+      "Economy & Jobs",
+      "Health & Family",
+      "Public Safety"
+    ],
+    "summary": "Cakupan bidang kritis belum memadai untuk memberi kesimpulan kondisi nasional. Periksa sumber tambahan dan gunakan laporan ini hanya sebagai daftar hal yang perlu dipantau.",
+    "drivers": [
+      {
+        "kind": "pressure",
+        "topic": "Tech & AI",
+        "score": -0.16
+      },
+      {
+        "kind": "pressure",
+        "topic": "Governance",
+        "score": -0.107
+      }
+    ],
+    "caveat": "Data bidang kritis belum lengkap: Economy & Jobs, Health & Family, Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
+  },
+  "metrics": {
+    "articles": 19,
+    "sources": 15,
+    "categoriesCovered": 8,
+    "categoriesTracked": 13,
+    "positive": 2,
+    "neutral": 14,
+    "negative": 3,
+    "averageScore": -0.028,
+    "criticalNegativeSignals": 1
+  },
+  "dailyTrend": [
+    {
+      "date": "2026-08-31",
+      "score": 0.09,
+      "articles": 2
+    },
+    {
+      "date": "2026-09-01",
+      "score": -0.109,
+      "articles": 6
+    },
+    {
+      "date": "2026-09-02",
+      "score": -0.16,
+      "articles": 1
+    },
+    {
+      "date": "2026-09-03",
+      "score": 0.044,
+      "articles": 4
+    },
+    {
+      "date": "2026-09-04",
+      "score": 0.0,
+      "articles": 4
+    },
+    {
+      "date": "2026-09-05",
+      "score": 0.0,
+      "articles": 2
+    },
+    {
+      "date": "2026-09-06",
+      "score": null,
+      "articles": 0
+    }
+  ],
+  "topicScores": [
+    {
+      "topic": "Tech & AI",
+      "count": 2,
+      "score": -0.16,
+      "sentiment": "Negative",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 1,
+      "highlightId": "2026-09-01-275e15f519b0"
+    },
+    {
+      "topic": "Governance",
+      "count": 3,
+      "score": -0.107,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 1,
+      "highlightId": "2026-09-01-b5db6167a7cf"
+    },
+    {
+      "topic": "Public Safety",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Economy & Jobs",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Health & Family",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Energy",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Education & Talent",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Climate & Disaster",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-09-05-f3979244bad3"
+    },
+    {
+      "topic": "Infrastructure",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-09-04-5c424dbec0"
+    },
+    {
+      "topic": "Telecom",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-09-04-17b7b58e5342"
+    },
+    {
+      "topic": "Automotive & EV",
+      "count": 3,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 3,
+      "negative": 0,
+      "highlightId": "2026-09-04-7201b7ce91"
+    },
+    {
+      "topic": "Markets",
+      "count": 4,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 4,
+      "negative": 0,
+      "highlightId": "2026-09-03-7d10d53d2c5e"
+    },
+    {
+      "topic": "Business & Investment",
+      "count": 4,
+      "score": 0.04,
+      "sentiment": "Neutral",
+      "positive": 2,
+      "neutral": 1,
+      "negative": 1,
+      "highlightId": "2026-09-03-ccd4c9c403fa"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "2026-09-01-b5db6167a7cf",
+      "date": "2026-09-01",
+      "topic": "Governance",
+      "title": "Akademisi minta polisi usut kerusuhan usai demonstrasi DPR",
+      "source": "ANTARA News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS08xMGlXV3JqMm0wYlBNRkpqekdYV1RjNDREX1JDcVl3dlh6MlJDTjluSkV4VEc0WF9RSWhKSHo1MXlSaFRmS2tMb1owSUk2QTRQV3NWX2xSd0R5NlVWYkZCeG5JcW9Od3pQSHluRERFU3EwTDBPTkhVR3JXVlBDSXMtc05BT19YNlI1TUMyQ1NQTnpCZC03YnJRWlRfV2VfQjN4R9IBpAFBVV95cUxNS08xMGlXV3JqMm0wYlBNRkpqekdYV1RjNDREX1JDcVl3dlh6MlJDTjluSkV4VEc0WF9RSWhKSHo1MXlSaFRmS2tMb1owSUk2QTRQV3NWX2xSd0R5NlVWYkZCeG5JcW9Od3pQSHluRERFU3EwTDBPTkhVR3JXVlBDSXMtc05BT19YNlI1TUMyQ1NQTnpCZC03YnJRWlRfV2VfQjN4Rw?oc=5",
+      "sentiment": "Negative",
+      "score": -0.32,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-01-275e15f519b0",
+      "date": "2026-09-01",
+      "topic": "Tech & AI",
+      "title": "Booming Data Center Indonesia Dibayangi Krisis Listrik, Air dan SDM",
+      "source": "Katadata.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdmlFZzB6c2FKcGZOTE9jaUNmSngxT2d5US1UVHFHT1hOc2NRNlZGNXREeDZMWFJweTBsR2x3dUZEeENrUkZrN0VYYnkzTVlRUUk5eG1PR2NQb0FVcEFmTHlsTHJpMnMzQmNtTDBiMGVMNzBJVEx2MUctSmRIRlFzY3pjUGNFVjJvOTJNeEZvamQybUpiaUVVSGtCYmk2TVZoT2psZWVPdC0waVZWcXNIRHdab25VUTNHVUxvZExR0gHDAUFVX3lxTFBvODJWS0luOGZCMllHOEtiTHoxSlBkRkR5TjhOdFFMc3JZNHBSYi1VTVY2cHN3OGotWnVIOU4zOWFneXgwLTl3clVXbHNMeVpUQWFRSzNSaGNOaUFWUUN2MWIwd3JYQzd5dTFGcVNuYjdnQk9JRXE1MmdZN3NCTnNsYUdrMlkwZjQtQjg5VnBGVFhlU2lvdGUwUXFxZ3lxcGFJaFZJUktZbWN0cnFLSVpXME5QOGYxLVB2YVkzRTQ5Z1VMTQ?oc=5",
+      "sentiment": "Negative",
+      "score": -0.32,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-03-ccd4c9c403fa",
+      "date": "2026-09-03",
+      "topic": "Business & Investment",
+      "title": "Cyberport Hong Kong Buka Peluang dengan Indonesia, Lirik Fintech dan Smart City",
+      "source": "kontan.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOVZVdWtXZ3dfZnhxel9JbjNNWm0zVUhjbTFLU09CamNKZmNsSjRTYjlmbmlUYy1wODQtTl9ZVmxHdk9KRHZ3X28zczNoLTFWS2RtcGcxbDFnRnFmQUxpXzcyM182ZVRDMTdVaURFZjNETWlqWkRVRkZYWk1vTkM5dHZSYTdHVUwxd3lLemlwVXpvaU5pM3BHNEtxb0Z5SURfdWFzSmtlX3pSd2VVUzFmWkh1bDB0T2dHLXfSAawBQVVfeXFMTU9ZZXRhMTRHN0s1bklmT1E2aFJXR0p0N3plUEZ3eXRCNEsyZGV0cEJGdXNXbGZaRkozeGJCX2RHZWxQRjh6TzAtenJmaU01ZVVGREVOOENkYVRNME1tcE96MDU0WlFaQzRhUVJJX2N1U2ZDT1AzT3VWNDI1VWpBTU95b0c5d0IwX2FlcFdVOXBGU28xX2lmTktRc2c4TEJidXF2TkVwLUxEbFozSw?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-05-f3979244bad3",
+      "date": "2026-09-05",
+      "topic": "Climate & Disaster",
+      "title": "Hujan Guyur Kalbar dan Kalteng, OMC Diperpanjang hingga 14 September",
+      "source": "news.detik.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQTc3SHY2cEQxcl9tOUZ5WndFYl82MkZEdVduOU1YZkU4T1ZyLUlRaENubDhiWTJmN1lJUS1FQnd5M3pWa3gtVkVpNUlaRGVqOXh1Q0JNcmNJZnZQZng0NHhIWTZYZXdoUGpnazR0ekNnS0pKYXVlUW1la180UkYyaXJCTm5yeWU2QUl2NE5CX1BfTXRQT2J6NndBcktzTUlQb19rSnBpQko0azRtTWl0N9IBsAFBVV95cUxPQTc3SHY2cEQxcl9tOUZ5WndFYl82MkZEdVduOU1YZkU4T1ZyLUlRaENubDhiWTJmN1lJUS1FQnd5M3pWa3gtVkVpNUlaRGVqOXh1Q0JNcmNJZnZQZng0NHhIWTZYZXdoUGpnazR0ekNnS0pKYXVlUW1la180UkYyaXJCTm5yeWU2QUl2NE5CX1BfTXRQT2J6NndBcktzTUlQb19rSnBpQko0azRtTWl0Nw?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-04-5c424dbec0",
+      "date": "2026-09-04",
+      "topic": "Infrastructure",
+      "title": "SUV Diduga Mitsubishi Pajero Seliweran di Jalan Tol Indonesia",
+      "source": "CNN Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbklzS1k2MmlPOEw0RGIyLUxTTHk4aGdvaVRQTmhJcnRHaXN3eGRpRjZtV0RUc2M0Y0hQRmVKWWExb3BQbHlPc09DTjNtbnJtdEJ1NGFRWi1ma2toYVNyLXJITGtXdThTeDdBa0p2Rkx5Si1OZUNJM1h4LVlVdnpIY05tYjhfMUcxLXRFTk1FNEk4WFlIZkxYTUNuNEZWLUZuc1E4czZ1cFJOSE5ST01CeHlGNk44RjdrWmltcUR5Nmhtc3oy0gHKAUFVX3lxTE52cFFWaFo3M3U1RnVVOEhkLWlHR3EydTk5R1BVdE55MUNTTkdDbHNlN1BibWkxUjdJZzRrbGtLZzNJZDRFTFdYRkpPQ1RScHBuMXpGaTdEWllRRC1EWWZkU0lUVjNvVDdrZG9ITWpSMUhkcEdmSWtERDBBM3N1Sjg0TXI4a0JLRmpRZnF4aDhiZWs4NUNtZ0xPTTJMT0lmRHNtRS1yd3kwMnlhd251a3diaGczZnhYWkJiNW1sT1BBdkJPV0RBWHJ4MEE?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-03-7d10d53d2c5e",
+      "date": "2026-09-03",
+      "topic": "Markets",
+      "title": "IHSG Berpotensi Sideways di 6.550-6.650, Ini Sentimen Penggeraknya",
+      "source": "infobanknews.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUo2SmJJQl9qRWg3U0NSbGZYLS1SeEluckJNZGdXN0VyRktLalBHQW8zUlpiYzhpMF9XY3NxT25ZU1hrLTNvUlJzelhxTm1heGxFMzNvbEZnV044NHBLSDVoVFN3ZFR1MGhzUWFFZ2VLNjFnSDJZQXF3LW1jX1hxZE5FV1Q3TkVDdEJseEczeXA5X09C?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-04-17b7b58e5342",
+      "date": "2026-09-04",
+      "topic": "Telecom",
+      "title": "Menang Lelang Frekuensi, XLSmart Perluas Jaringan 5G",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdXFQcFBFbjdzbWsxblRyTVFkMEFUd0N6UnBKeG9BZXNMTGFMckdEWWw5VDJJQTlfOVphc1ZxS01ITGFJTWNmU2tBTGhTY2JOaDM0MFZESjBuT1I4Y2pKNlViSlZmM2dtZnozT3htZWtvNUJRRjFaZFQ2RFFXblNJZWVORWxXVDRBZUZhenVJQ3M3WXAycmJQSl92bklybEJ1UkpvaUVwSFpDeUwtc2d5VdIBtgFBVV95cUxQc0dIdkZkLUp5dUlHMEU1bVF3aGJLV3BEWXZMY284V29wdVd1bWxOSzZYR2d1STNpNlJMbWdleUgtN0VMdlM0VUxiSWNUaGpjZ2U3eld5XzRVQmRQbFl2RmR1SU1nT0xERW5rSnkyODZXNTdPUTE1NG41cWNOZmd1eHhqd1NQcHJHNlhNY0xlendYR0M2WUxzb1Z6WlJ3RG1fMTctRGpaeGp1Q1BydGpleDRzRFFQdw?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-04-7201b7ce91",
+      "date": "2026-09-04",
+      "topic": "Automotive & EV",
+      "title": "Touring 23 Mobil Listrik Jakarta-Lampung, SPKLU Sudah Cukup Andal",
+      "source": "Kompas.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd09lYXJzbm9QTUZMUGRRXzhaWDdTN2dlcVZoZjg1X0hTYm5hTVJwM1RmS2Z6T04wbUZ0MmtlWnJpVmx1eTJLWUJJcHdwX2FMMGpEU1JadDM4Wk5EV3RjcFg4MDZGdGhQTS1zUm5aUzJwZUxQRXpEcng0TnNLY09GdGxNT25raWR2Z1VybFB4VmJFMHB2NGhuV3dSVUIxdFIwZkd0NmJieVp0M0E0cFBLQXVXZElFdzEyVTlPZFBUWTJfa2VsUXc?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-02-86b572a577d2",
+      "date": "2026-09-02",
+      "topic": "Business & Investment",
+      "title": "Grab Pilih 5 Startup AI, Sasar Persoalan Risiko Utang Konsumen hingga Logistik",
+      "source": "Katadata.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdWNoU1hCQjRHX2RyaTE5M0Y3Q1FfcHNuZ19QallUVUgxazM5NmEwanpJbFpBdkxlckNDQ2hhSHVhVFE1aWlpZlJONUR0ZGhycTZrLXZQcXNJS3Q3ZVgwVlpManNQeW1zbEQ3Wk8zMXMzYUhmdE5wRTEtczdfV1FXNHRpb0FJS05rUmpYbFMxWHJUVnIyVktWdEFneEhnd0pmVW1DSzRPRzBfTUhxYmd4NnF3ZHFjbW1HclNDbjZuQldrdTUyLU1RUzN30gHPAUFVX3lxTE9EUGxWenFaT1JuZ09mWGxCNmtHLXJuY2lsUVE0T2hsZmtlRGFseGdlYkRNejNsZU5aZjVzcGhWYkhtZEJMYnJucnBuTWNVV0toWEhsN3NKTlVmMlJVTXp0R256eVRmb2FYMl9uSmI4TDJPQWVScG1CMFdzY3lacktjdTVyRW83Nm94T3I5enMwZlZ2VDBEUzdFT2djaTFOaW5iMXJyNVlNc2dOSHM3NHAyeXFZa21CaFhJa1VOZnJVcnliQmJJd2pGRWM5MHl2TQ?oc=5",
+      "sentiment": "Negative",
+      "score": -0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-08-31-688a2b788c84",
+      "date": "2026-08-31",
+      "topic": "Business & Investment",
+      "title": "Ajaib Kantongi Rp 4,8 T dari Jepang, Investasi Startup Terbesar Sejak 5 Tahun",
+      "source": "detikFinance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa05uT19LSndEcmY2VlE0UGJBdk4tSncyc0VzUk1FcWxYUWNEZWtpNUhaTGxIbWp6T3V0WHJTT3hMRFVsQkREVVFLaURRUlhKakxkbDRNYjl4Qm1LeWlGVjdfS3pJSmhsb3l5cVllejVLNEN1Q1BxckNncDRIOExua0RVWDI2WXRWalBmc0Q1NTBhUHo0LWloVTdhNE10UU5pbl9abl84djFMQ2tqM0FSWnRONzVEek9ZZERwLVE4c1pkc1NxLS1NZ1ZuWVNZcVHSAdQBQVVfeXFMTXJ6Rjg2LXFTTU9CQ2ZEM25fVXBrRmx5U1JkeU5zR0gteVk5WFlzS2N3QVpfbGNMenlwcXk5SUk2YlZXVUdNdzFoZTVIcDc1ckZUdVNJRDVRYlVnQkpxeERScXZGdk9hZTd3bzgtTlVZSnJtWGFWV3RHTXlqYjFRNVRYSHpDdmxSWWE5bGFpM1NvREg3ZFNyRi1GZjBjV1RMMDFsTkJfN0QwMkZMX3JGcERCRjRGcXZ6QzZ4LUxuelRfQUtNT3ZpZUhKSkFhTnpkMzZkRXM?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-05-af7441b8855d",
+      "date": "2026-09-05",
+      "topic": "Governance",
+      "title": "Kemunduran Demokrasi dan Potensi Kian Tergerusnya Kepuasan Publik",
+      "source": "Kompas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSUc0WFZWTnpEekdyTzliOHRzSjE3ZjRZSnNfSkFSMlVWdU5tRGUwRm92Q2dBMXZzb0lKRGV4bzNGS2RkUVFKUFhvMURuNVlBejJScW0tVEhvZnM5TmZKYmVIUEpMd3VnM3NLVi0ya1ExYjNKOWN4dmhlSVJiUFg4SlB1VFY0SXNMNFZNRG1nQmlVZzVvVmpoNDdDYw?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-09-01-c55de38b87d3",
+      "date": "2026-09-01",
+      "topic": "Governance",
+      "title": "Demonstrasi 27 Agustus 2026: Dugaan penghilangan berjangka singkat hingga aksi gerombolan berikat putih",
+      "source": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SVEE2dll6RHlSV3A4emItNlYzY21rVVhNWk5FdUZaMlZTYkNXVTBFTHpxQXNXbFVtRFBtV3JUZmo4RDZoZjBTYmU5TTUyY05FdDhOYUs0Zk1Ua1pSM1hUR9IBZkFVX3lxTE5ucnl5ZXlwdm14Wmota1MxOTVUcnE0SzN4Ynk4cnJBcmxfeWprM2VCLUpqT05NeVdYZDNYZjRqanJFVElsR1hiSlNxS2xVZzh1UHpLV3VJTTVqMU5PeWZDa0d3d0Ntdw?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    }
+  ],
+  "decisionTriggers": [
+    {
+      "title": "Karier dan pendapatan",
+      "state": "Unknown",
+      "instruction": "Periksa tren PHK, lowongan bidang Anda, daya beli, dan cadangan dana keluarga. Jangan bertindak dari sentimen pasar saja."
+    },
+    {
+      "title": "Keamanan dan tata kelola",
+      "state": "Unknown",
+      "instruction": "Cari konfirmasi dari sumber resmi dan beberapa media untuk gangguan keamanan, perubahan hukum, atau pembatasan yang berdampak langsung."
+    },
+    {
+      "title": "Kesehatan ibu dan anak",
+      "state": "Unknown",
+      "instruction": "Pisahkan sinyal nasional dari kondisi lokal. Verifikasi fasilitas persalinan, BPJS atau asuransi, dokter, dan dukungan keluarga secara langsung."
+    },
+    {
+      "title": "Pemicu keputusan keluarga",
+      "state": "Plan",
+      "instruction": "Tetapkan pemicu tertulis, misalnya kehilangan pendapatan, gangguan keamanan lokal berulang, atau akses kesehatan yang tidak memadai, lalu tinjau bersama pasangan."
+    }
+  ],
+  "relocationRadar": [
+    {
+      "country": "Malaysia",
+      "careerSignal": "Peluang regional di pendidikan, teknologi, dan jasa dengan jarak budaya serta perjalanan yang relatif dekat dari Indonesia.",
+      "familySignal": "Kedekatan geografis dapat memudahkan kunjungan keluarga dan masa transisi.",
+      "planningFocus": "Pastikan jalur kerja bersponsor, kelayakan tanggungan, layanan kesehatan, dan biaya hidup kota tujuan.",
+      "officialLabel": "Malaysia Expatriate Services Division",
+      "officialUrl": "https://esd.imi.gov.my/portal/"
+    },
+    {
+      "country": "Taiwan",
+      "careerSignal": "Ekosistem teknologi, semikonduktor, AI, dan universitas kuat; kecocokan peran sangat bergantung pada spesialisasi.",
+      "familySignal": "Layanan kesehatan dan status tanggungan harus diperiksa sesuai izin kerja dan jalur tinggal yang dipilih.",
+      "planningFocus": "Validasi sponsor pemberi kerja, kebutuhan bahasa Mandarin, izin tinggal tanggungan, dan akses penitipan anak.",
+      "officialLabel": "EZ Work Taiwan",
+      "officialUrl": "https://ezworktaiwan.wda.gov.tw/"
+    },
+    {
+      "country": "Japan",
+      "careerSignal": "Pasar riset, AI, teknik, dan pendidikan tinggi besar dengan kategori status tinggal yang spesifik terhadap pekerjaan.",
+      "familySignal": "Kecocokan jangka panjang bergantung pada bahasa, hunian, penitipan anak, dan cakupan tanggungan pada status yang dipilih.",
+      "planningFocus": "Cocokkan kualifikasi dengan status kerja, periksa kebutuhan bahasa Jepang, dan siapkan anggaran enam bulan pertama.",
+      "officialLabel": "Ministry of Foreign Affairs of Japan visa guidance",
+      "officialUrl": "https://www.mofa.go.jp/j_info/visit/visa/index.html"
+    }
+  ],
+  "methodology": {
+    "sentiment": "Penilaian kata kunci pada judul berbahasa Indonesia dari -1 sampai +1. Netral berarti tidak ada kata yang memberi arah kuat.",
+    "status": "Indeks kondisi berjalan dari 0 (tekanan negatif lebih kuat) sampai 100 (judul lebih suportif). Perhitungan menggabungkan sentimen berbobot dan porsi sinyal negatif. Level tertinggi juga memerlukan konfirmasi lintas bidang kritis dan sumber independen.",
+    "limitations": "Pemilihan berita, ketersediaan penerbit, pembingkaian berulang, dan bahasa judul dapat menimbulkan bias. Keamanan lokal, akses kesehatan, keuangan, kelayakan visa, dan pilihan keluarga harus diverifikasi terpisah.",
+    "queryErrors": []
+  }
+}

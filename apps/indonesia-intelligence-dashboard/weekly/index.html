@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Ringkasan mingguan Indonesia dengan visualisasi sentimen, status berbasis bukti, pemicu keputusan keluarga, dan radar persiapan relokasi." />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Indonesia Intel" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta property="og:title" content="Weekly Indonesia Intelligence" />
+    <meta property="og:description" content="Sinyal mingguan Indonesia untuk keputusan karier dan keluarga, dengan sumber dan batasan yang terlihat." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://indonesia-intelligence-dashboard.pages.dev/weekly/" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
+    <script>
+      (() => {
+        const saved = localStorage.getItem('indonesia-intel-theme');
+        const theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#0b1120' : '#ffffff';
+      })();
+    </script>
+    <title>Weekly Indonesia Intelligence</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Halaman ini membutuhkan JavaScript untuk menampilkan visualisasi laporan mingguan.</noscript>
+    <script type="module" src="/src/weekly.jsx"></script>
+  </body>
+</html>

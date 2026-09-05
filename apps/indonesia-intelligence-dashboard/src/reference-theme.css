@@ -7,12 +7,12 @@
   --border-subtle: #e9eef5;
   --text-primary: #0f172a;
   --text-secondary: #475569;
-  --text-muted: #64748b;
+  --text-muted: #526174;
   --accent: #1d4ed8;
   --accent-bright: #2563eb;
   --accent-glow: #eff6ff;
   --accent-border: #bfdbfe;
-  --positive: #059669;
+  --positive: #047857;
   --positive-dim: #ecfdf5;
   --neutral: #a16207;
   --negative: #dc2626;
@@ -44,10 +44,10 @@ body { background: var(--bg); min-height: 100dvh; overscroll-behavior-y: auto; }
 .brandMark { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; background: #0f172a; color: #fff; font: 750 17px var(--font-mono); box-shadow: 0 4px 8px rgba(15, 23, 42, .14); }
 .navLinks { display: flex; align-items: center; gap: 4px; }
 .navActions { display: flex; align-items: center; gap: 10px; min-width: 0; }
-.navLinks a { padding: 9px 11px; border-radius: 8px; color: var(--text-secondary); font-size: 13px; font-weight: 600; text-decoration: none; transition: background .18s ease, color .18s ease; }
+.navLinks a { display: inline-flex; align-items: center; min-height: 44px; padding: 9px 11px; border-radius: 8px; color: var(--text-secondary); font-size: 13px; font-weight: 600; text-decoration: none; transition: background .18s ease, color .18s ease; }
 .navLinks a:hover { background: var(--surface-raised); color: var(--text-primary); }
 .navLinks a:focus-visible, .brand:focus-visible, .news h2 a:focus-visible { outline: 3px solid rgba(37, 99, 235, .3); outline-offset: 3px; }
-.themeToggle { min-height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 8px 11px; border: 1px solid var(--border); border-radius: 9px; background: var(--surface); color: var(--text-primary); font: 650 12px var(--font-sans); cursor: pointer; white-space: nowrap; transition: background .18s ease, border-color .18s ease, transform .18s ease; }
+.themeToggle { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 8px 11px; border: 1px solid var(--border); border-radius: 9px; background: var(--surface); color: var(--text-primary); font: 650 12px var(--font-sans); cursor: pointer; white-space: nowrap; transition: background .18s ease, border-color .18s ease, transform .18s ease; }
 .themeToggle:hover { background: var(--surface-raised); border-color: #94a3b8; }
 .themeToggle:active { transform: translateY(1px); }
 .themeToggle:focus-visible { outline: 3px solid rgba(37, 99, 235, .3); outline-offset: 2px; }
@@ -74,7 +74,7 @@ main { max-width: 1240px; padding: 54px 20px 64px; }
 .sectionTitle svg { color: var(--accent); }
 .feedHead p, .marketNote, .stock p, .stock footer, .disclaimer { color: var(--text-muted); }
 
-select { background: #fff; color: var(--text-primary); border-color: #cbd5e1; min-height: 40px; }
+select { background: #fff; color: var(--text-primary); border-color: #cbd5e1; min-height: 44px; }
 select:hover { border-color: #94a3b8; }
 select:focus-visible { outline: 3px solid rgba(37, 99, 235, .2); outline-offset: 2px; }
 

@@ -391,10 +391,15 @@ function App() {
         if (!reportResponse.ok) throw new Error(`HTTP ${reportResponse.status}`);
         const payload = await reportResponse.json();
         const archivePayload = archiveResponse.ok ? await archiveResponse.json() : { reports: [] };
+        const archiveWarning = archiveResponse.ok
+          ? ''
+          : `Laporan dimuat, tetapi riwayat arsip tidak tersedia (HTTP ${archiveResponse.status}).`;
         if (!cancelled) {
           setReport(payload);
           setArchives(archivePayload.reports || []);
-          setLoadState({ status: 'ready', message: 'Data mingguan terbaru' });
+          setLoadState(archiveWarning
+            ? { status: 'warning', message: archiveWarning }
+            : { status: 'ready', message: `Laporan periode ${payload.period.label} berhasil dimuat.` });
         }
       } catch {
         if (!cancelled) setLoadState({ status: 'error', message: 'Data tidak dapat dimuat. Periksa koneksi lalu coba lagi.' });
@@ -428,6 +433,9 @@ function App() {
 
       <main id="weekly-content" className="weeklyMain" aria-busy={loadState.status === 'loading'}>
         <div className="srOnly" role="status" aria-live="polite">{loadState.message}</div>
+        {loadState.status === 'warning' && (
+          <div className="archiveWarning" role="status"><AlertTriangle size={16} />{loadState.message}</div>
+        )}
         <header className="weeklyHeader">
           <div>
             <div className="weeklyTitleLine"><CalendarDays size={18} /><span>Ringkasan mingguan</span></div>

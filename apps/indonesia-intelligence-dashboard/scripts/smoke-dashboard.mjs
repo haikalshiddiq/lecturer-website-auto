@@ -137,6 +137,19 @@ try {
     await page.close();
   }
 
+  const archiveFailureContext = await browser.newContext({ viewport: { width: 1280, height: 900 }, serviceWorkers: 'block' });
+  const archiveFailurePage = await archiveFailureContext.newPage();
+  await archiveFailurePage.route('**/data/weekly/index.json*', route => route.fulfill({
+    status: 503,
+    contentType: 'application/json',
+    body: JSON.stringify({ error: 'archive unavailable' }),
+  }));
+  await archiveFailurePage.goto(`${baseURL}/weekly/`, { waitUntil: 'networkidle' });
+  await archiveFailurePage.locator('.weeklyStatus').waitFor({ state: 'visible' });
+  assert(await archiveFailurePage.locator('.archiveWarning').isVisible(), 'weekly: archive-index HTTP failure is not disclosed');
+  assert((await archiveFailurePage.locator('.archiveWarning').textContent()).includes('riwayat arsip tidak tersedia'), 'weekly: archive warning copy is missing');
+  await archiveFailureContext.close();
+
   const pwaContext = await browser.newContext({ viewport: { width: 390, height: 844 }, colorScheme: 'dark' });
   const pwaPage = await pwaContext.newPage();
   await pwaPage.goto(baseURL, { waitUntil: 'networkidle' });

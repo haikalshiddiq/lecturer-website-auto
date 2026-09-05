@@ -3,6 +3,21 @@
   padding-top: 42px;
 }
 
+.archiveWarning {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 18px;
+  padding: 11px 13px;
+  border: 1px solid color-mix(in srgb, var(--neutral) 35%, var(--border));
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--neutral) 9%, var(--surface));
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.45;
+}
+.archiveWarning svg { flex: 0 0 auto; color: var(--neutral); }
+
 .weeklyNav .navLinks a {
   display: inline-flex;
   align-items: center;

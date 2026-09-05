@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
   AlertTriangle,
@@ -405,11 +405,6 @@ function App() {
     return () => { cancelled = true; window.clearInterval(timer); };
   }, [selectedReport]);
 
-  const selectedArchive = useMemo(
-    () => archives.find(item => item.url === selectedReport),
-    [archives, selectedReport],
-  );
-
   if (!report) return <StatePage status={loadState.status} message={loadState.message} />;
 
   return (
@@ -443,7 +438,7 @@ function App() {
             <label htmlFor="weekly-archive">Periode laporan</label>
             <select id="weekly-archive" value={selectedReport} onChange={event => { setReport(null); setLoadState({ status: 'loading', message: 'Memuat periode yang dipilih' }); setSelectedReport(event.target.value); }}>
               <option value="/data/weekly.json">Laporan terbaru</option>
-              {archives.filter(item => item.url !== selectedArchive?.url && item.periodEnd !== report.period.end).map(item => (
+              {archives.map(item => (
                 <option key={item.url} value={item.url}>{item.periodLabel}</option>
               ))}
             </select>

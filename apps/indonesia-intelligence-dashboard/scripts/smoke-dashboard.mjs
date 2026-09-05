@@ -122,6 +122,14 @@ try {
     `${viewport.name}: invalid weekly condition index`);
     await page.screenshot({ path: new URL(`weekly-${viewport.name}.png`, artifacts).pathname, fullPage: true });
 
+    const archiveOption = page.locator('#weekly-archive option[value^="/data/weekly/"]').first();
+    if (await archiveOption.count()) {
+      const archiveUrl = await archiveOption.getAttribute('value');
+      await page.locator('#weekly-archive').selectOption(archiveUrl);
+      await page.locator('.weeklyStatus').waitFor({ state: 'visible' });
+      assert(await page.locator('#weekly-archive').inputValue() === archiveUrl, `${viewport.name}: archive selector and displayed report diverged`);
+    }
+
     await page.locator('.themeToggle').click();
     assert(await page.evaluate(() => document.documentElement.dataset.theme === 'dark'), `${viewport.name}: weekly dark mode did not apply`);
     await page.screenshot({ path: new URL(`weekly-${viewport.name}-dark.png`, artifacts).pathname, fullPage: true });

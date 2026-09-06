@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T03:20:26+07:00",
+  "generatedAt": "2026-09-06T08:23:43+07:00",
   "period": {
     "start": "2026-08-31",
     "end": "2026-09-06",
@@ -159,7 +159,7 @@
       "positive": 0,
       "neutral": 1,
       "negative": 0,
-      "highlightId": "2026-09-05-f3979244bad3"
+      "highlightId": "2026-09-05-7e90ff0a9752"
     },
     {
       "topic": "Infrastructure",
@@ -199,7 +199,7 @@
       "positive": 0,
       "neutral": 4,
       "negative": 0,
-      "highlightId": "2026-09-03-7d10d53d2c5e"
+      "highlightId": "2026-09-03-963c71e901c8"
     },
     {
       "topic": "Business & Investment",
@@ -247,11 +247,11 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-09-05-f3979244bad3",
+      "id": "2026-09-05-7e90ff0a9752",
       "date": "2026-09-05",
       "topic": "Climate & Disaster",
       "title": "Hujan Guyur Kalbar dan Kalteng, OMC Diperpanjang hingga 14 September",
-      "source": "news.detik.com",
+      "source": "detikNews",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQTc3SHY2cEQxcl9tOUZ5WndFYl82MkZEdVduOU1YZkU4T1ZyLUlRaENubDhiWTJmN1lJUS1FQnd5M3pWa3gtVkVpNUlaRGVqOXh1Q0JNcmNJZnZQZng0NHhIWTZYZXdoUGpnazR0ekNnS0pKYXVlUW1la180UkYyaXJCTm5yeWU2QUl2NE5CX1BfTXRQT2J6NndBcktzTUlQb19rSnBpQko0azRtTWl0N9IBsAFBVV95cUxPQTc3SHY2cEQxcl9tOUZ5WndFYl82MkZEdVduOU1YZkU4T1ZyLUlRaENubDhiWTJmN1lJUS1FQnd5M3pWa3gtVkVpNUlaRGVqOXh1Q0JNcmNJZnZQZng0NHhIWTZYZXdoUGpnazR0ekNnS0pKYXVlUW1la180UkYyaXJCTm5yeWU2QUl2NE5CX1BfTXRQT2J6NndBcktzTUlQb19rSnBpQko0azRtTWl0Nw?oc=5",
       "sentiment": "Neutral",
       "score": 0.0,
@@ -269,11 +269,11 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-09-03-7d10d53d2c5e",
+      "id": "2026-09-03-963c71e901c8",
       "date": "2026-09-03",
       "topic": "Markets",
       "title": "IHSG Berpotensi Sideways di 6.550-6.650, Ini Sentimen Penggeraknya",
-      "source": "infobanknews.com",
+      "source": "Infobanknews",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUo2SmJJQl9qRWg3U0NSbGZYLS1SeEluckJNZGdXN0VyRktLalBHQW8zUlpiYzhpMF9XY3NxT25ZU1hrLTNvUlJzelhxTm1heGxFMzNvbEZnV044NHBLSDVoVFN3ZFR1MGhzUWFFZ2VLNjFnSDJZQXF3LW1jX1hxZE5FV1Q3TkVDdEJseEczeXA5X09C?oc=5",
       "sentiment": "Neutral",
       "score": 0.0,
@@ -335,11 +335,11 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-09-01-c55de38b87d3",
+      "id": "2026-09-01-eb9a85ae14f9",
       "date": "2026-09-01",
       "topic": "Governance",
       "title": "Demonstrasi 27 Agustus 2026: Dugaan penghilangan berjangka singkat hingga aksi gerombolan berikat putih",
-      "source": "BBC",
+      "source": "bbc.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SVEE2dll6RHlSV3A4emItNlYzY21rVVhNWk5FdUZaMlZTYkNXVTBFTHpxQXNXbFVtRFBtV3JUZmo4RDZoZjBTYmU5TTUyY05FdDhOYUs0Zk1Ua1pSM1hUR9IBZkFVX3lxTE5ucnl5ZXlwdm14Wmota1MxOTVUcnE0SzN4Ynk4cnJBcmxfeWprM2VCLUpqT05NeVdYZDNYZjRqanJFVElsR1hiSlNxS2xVZzh1UHpLV3VJTTVqMU5PeWZDa0d3d0Ntdw?oc=5",
       "sentiment": "Neutral",
       "score": 0.0,

@@ -326,12 +326,12 @@ select:focus {
 .marketQuote {
   margin-top: 8px;
   padding: 8px 10px;
-  border-left: 3px solid var(--accent-bright);
+  border: 1px solid color-mix(in srgb, var(--accent-bright) 42%, transparent);
   color: var(--text-secondary);
   font-size: 11px;
   line-height: 1.45;
   background: var(--accent-glow);
-  border-radius: 0 6px 6px 0;
+  border-radius: 6px;
 }
 .marketQuote::before,
 .marketQuote::after {
@@ -519,10 +519,10 @@ select:focus {
 .news blockquote {
   margin: 10px 0;
   padding: 8px 10px;
-  border-left: 3px solid var(--accent-bright);
+  border: 1px solid color-mix(in srgb, var(--accent-bright) 42%, transparent);
   background: var(--accent-glow);
   color: #bfdbfe;
-  border-radius: 0 6px 6px 0;
+  border-radius: 6px;
   font-size: 11px;
   line-height: 1.45;
   font-style: normal;

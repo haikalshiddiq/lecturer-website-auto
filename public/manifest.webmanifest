@@ -1,0 +1,17 @@
+{
+  "name": "Haikal Shiddiq - Lecturer and Researcher",
+  "short_name": "Haikal Lecturer",
+  "description": "Teaching resources, publications, and applied labs in information systems, communication protocols, and artificial intelligence.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f7f5",
+  "theme_color": "#152d28",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}

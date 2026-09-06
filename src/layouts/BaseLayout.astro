@@ -30,5 +30,10 @@ const themeInitScript = `(() => {
     </main>
     <Footer />
     <SpeedInsights />
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js', { scope: '/' }));
+      }
+    </script>
   </body>
 </html>

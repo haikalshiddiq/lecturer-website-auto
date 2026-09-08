@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T19:00:24+07:00",
+  "generatedAt": "2026-09-08T20:00:23+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 08 September 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
@@ -38,12 +38,12 @@
       "date": "2026-09-08",
       "topic": "Markets",
       "title": "IHSG Menguat ke Level 6.639 Didukung Cadangan Devisa dan Inflow Asing",
-      "summary": "SuaraGarut.ID surfaced this fresh item: IHSG Menguat ke Level 6.639 Didukung Cadangan Devisa dan Inflow Asing. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "suaragarut.id surfaced this fresh item: IHSG Menguat ke Level 6.639 Didukung Cadangan Devisa dan Inflow Asing. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Positive",
       "score": 0.21,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "source": "suaragarut.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55NGItekhCN05TVmdSNXJ3QkRBMnlMWnM1Q0VGcWVLZUg3WF9WVjVmR2xFVnZMUklsN1ZPS0FIQW5Xdm5WbzdkbEliaVUtVTEyN2NXM1VDRzFhczJhTlhvSmRwQldKRnYxd0RaSHlfZW1jRS0ycEZmdjJJR0lleGc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -79,21 +79,6 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-08-9b4c5870c4",
-      "date": "2026-09-08",
-      "topic": "Tech / AI",
-      "title": "Dapat Restu RUPSLB, NexAI (MGLV) Resmi Masuk Bisnis AI Data Center",
-      "summary": "Bisnis.com - Market surfaced this fresh item: Dapat Restu RUPSLB, NexAI (MGLV) Resmi Masuk Bisnis AI Data Center. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Bisnis.com - Market via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT3JvUEV3ZHVQYUNwODdLbm1mNkVvYm5nb3dBTGtidjZsWE9aTWFSVU9tMFZEVV9TdUtkeVlTWDRjQVk0LWk1cDNYYmQ4WmY3amQ1WEFoUkFoVkFzeVhlUFhGWklmYXJWb1o1MGJFWFpnN1M0Wkg5YlZJLXg3T1o5dTJvajc2cUZwNlpNaUZXWHdLWDFCeEJmVDhrcTdGTFBEanJuNll5MXJRQ005S3VGWDR0UFoxQQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-09-08-31b73af454",
       "date": "2026-09-08",
       "topic": "Automotive / EV",
@@ -124,17 +109,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-08-a0836e746e",
+      "id": "2026-09-08-4e0c4ce01f",
       "date": "2026-09-08",
       "topic": "Business / Investment",
-      "title": "Orang Terkaya Indonesia Pindahkan Investasi ke Luar Negeri",
-      "summary": "AgroIndonesia surfaced this fresh item: Orang Terkaya Indonesia Pindahkan Investasi ke Luar Negeri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Bappenas Ungkap Regulasi dan Kelembagaan Hambat Pertumbuhan Ekonomi Indonesia",
+      "summary": "BorneoFlash.com surfaced this fresh item: Bappenas Ungkap Regulasi dan Kelembagaan Hambat Pertumbuhan Ekonomi Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "AgroIndonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWY0UmdNNkMwUjZqY2RFX0pTUVlTcXBFanZTRkxZa2E5VHZXT3FiWGFTQ2ZEY1VKakM1MDFBckdab2pUQ0IzbVlpbEFKSm1OdmYweG5SbVVEbzdJWjYtaUFSWi1DaVcyS0NCd0ZaQzNkZXJUXzBMbWdMQnBKSFZpU2FIVWxTV2RKLXhKdmo2WTU?oc=5",
+      "source": "BorneoFlash.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWGNyUFBqMk5mZ25hLXlBWi02UDRaWTRRd0oyX1YtTFFLUW9MdmJtUmt4QTlUNVRVYzZTbEFfRmlSOVpZLVo5N2pEYzc4VDJNaUFXNXoyTEpOUm11X2xYUldrZGtkVUJaMnZQazFvV1h6d3JITVBNcXQ1bVp6SW91cXRuNmdKMjh2dHBLZWZFcFFoMkFGSnJuTzRlNXEyWVpmYkZhd2xUTXBmeU5FWkNiQS13?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -229,6 +214,36 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-09-08-a4d040405d",
+      "date": "2026-09-08",
+      "topic": "Tech / AI",
+      "title": "NexAI (MGLV) Divestasi 13 Anak Usaha, Bersiap Pacu Bisnis AI Data Center",
+      "summary": "Bisnis.com - Market surfaced this fresh item: NexAI (MGLV) Divestasi 13 Anak Usaha, Bersiap Pacu Bisnis AI Data Center. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Bisnis.com - Market via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX1o2cGpxZTFvNDRWSndEZWJHcWpJZEhibllTbjB3bEdZX2UtUHEtNHdhOTFDdXBXeHA5dVFjUDREbkhaSVFtZUpTVzdmajZpVVREMEhuOFJzX0hRQTFDdkNLSncwTVF3RmlZcWtjbmVDZktNUkFPS3Y1Mm1TMTJmeVYzYjZWeXJ2Zmx6RVpWNlVUNE1neHBLQkdnVlBhbUZxOC15ckNWUEF5SHhQS2FRYlRPZHVIcEdLdE4xbDh3?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-08-57abf31135",
+      "date": "2026-09-08",
+      "topic": "Automotive / EV",
+      "title": "Mobil Listrik dan Berbagai Mitos yang Masih Beredar",
+      "summary": "detikOto surfaced this fresh item: Mobil Listrik dan Berbagai Mitos yang Masih Beredar. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "detikOto via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcjBiOTJ5a3IxWmpVaHNkbW5obHRXOFc1R2lQVG1hang3d0FMNDQwZTJTejU4dzhpeUdyZjlUQlM0R2ZkQXdnaDRGSHkzUHpVZjdUQVNTOFZ4dGVKTmhfY1FEUExsOE9Fajk4NUpkbXoyZFAzU2NrazJtUG9WU09HOGEwZlY5YjIyN1BGREc4Zld1clN4TENPYUxSQTRVQdIBowFBVV95cUxPWDAyU0p1MEJLNjd2cnFER3J4UE9UU0RWZDZQejRIdVBiZ29feGdwbl9TMHZNM3RyQ19ZUUVlSjduREVFMmxlQXZVU2lZWW5XbW9Rc3prLWp6bjJOZXJDT3Z2LWdQNVpDUlpOLUNscWxhSElmQ1BYb0djTUhOUlRqamdjSTYybWdoVHM4aU5ud2VwQzROY2cxcHVmUWUtdzFFQjE4?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-09-08-157f77866f",
       "date": "2026-09-08",
       "topic": "Automotive / EV",
@@ -244,47 +259,32 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-08-1221b6e928",
-      "date": "2026-09-08",
-      "topic": "Automotive / EV",
-      "title": "Benarkah Baterai Mobil Listrik Mudah Terbakar? Ini Faktanya",
-      "summary": "detikOto surfaced this fresh item: Benarkah Baterai Mobil Listrik Mudah Terbakar? Ini Faktanya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "detikOto via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLUtuZGI5ZEhiMTlsSEhIRkwyV09jZUpRb3RHSUF6OEhTMG1yZ0E3OFBiTWh1MUFKbjFBUEZ0Z1RaZDN2em1BNkdYWlE5WXBHRkJKM0d6NS1DYk0takp6eWZtYTFkXzdhcWI0eXFjNERmbU5CbU5QbFFLcWx4OVhVdW9UUXdwOThRczF5dmdyemxrMU9DMWZCS094OWM2LVRVNzdqbWZ6Z9IBrAFBVV95cUxQYjhhZHNUMkZHU3h5NEZTeHpfQkFFUHROTzl2ODBZUmJkcXZOSkU4bndCcUp0aW02UUtUSXNUampWUWs1cTRJVWp1dmpYb2lLLVVEQVo5bXVaeHcxWTlpb0FqSTBYekNvUWJQbklLZWl6M0NkY2llN2h6ZmFJZkp0Z2tlWkIzZVpQVno0MkFGT0ZfMDlNOFdFQXpYV0JKZlc3c0RjV3g5WTFjNmhD?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
       "id": "2026-09-08-397ddeb141",
       "date": "2026-09-08",
       "topic": "Automotive / EV",
       "title": "APM di Indonesia Tetap Tawarkan Wall Charger Gratis untuk Mobil Listrik",
-      "summary": "SuaraGarut.ID surfaced this fresh item: APM di Indonesia Tetap Tawarkan Wall Charger Gratis untuk Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "suaragarut.id surfaced this fresh item: APM di Indonesia Tetap Tawarkan Wall Charger Gratis untuk Mobil Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "SuaraGarut.ID via Google News RSS discovery",
+      "source": "suaragarut.id via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XaHlyLU43Nnd0UTZqSFFPMUl5Y0R5aDd1ekh5dmZDVHVrS0Jqa2RxLVBSbVVmbVNPbDZjVFBBeExFdmRYQlplSUh3Y0hWbG5DeVF6WGp1LWRJMFUtZFBrVFMwTHphdw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-09-08-87a8f81ad6",
+      "id": "2026-09-08-9579f5c794",
       "date": "2026-09-08",
       "topic": "Automotive / EV",
-      "title": "Mobil Listrik Murah Dengan Jarak Tempuh Terjauh",
-      "summary": "Medcom.id surfaced this fresh item: Mobil Listrik Murah Dengan Jarak Tempuh Terjauh. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Wuling Hadapi Tantangan Baru, Pasar Mobil Listrik Kian Ramai",
+      "summary": "Warta Ekonomi surfaced this fresh item: Wuling Hadapi Tantangan Baru, Pasar Mobil Listrik Kian Ramai. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Medcom.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYy1OT1R2U2lZQWdfZExMSVU5RWtKcFhnN29aS1hkTmJNcW9NZDRybzVOTjBxVmpVcE1iVlBZX0RTRURvRXlCWjFqRmpCT3ZGR3VMSjFjUHhlZVlHRVVDRnFuTVVjRG5mNnAxVGpqcHM5Qk1XaDNKTkJ0ODNvX3VCdHFYTmJHMUtVVGJFTkdrTHJ3THNnQTFvZg?oc=5",
+      "source": "Warta Ekonomi via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLU0xMlAyc0N4emhCcHNWYkx2SW1QaDMwcGJjVlVxZnQ4aTVsY2ROUGpvQkpkSHlzOFV6Ymx0bUFrU2JmRGtnUERwMFQ5b1htTGpsUWpRaGlnQl9ONG55bkNJekE3cFdWOUxHZkxyclMyWW1Sb2F2M1EtTDZPalZsYjRGbWJFcmhFVnBSNlJ6c3RuQ0t0TlVVZTJqSS14Z9IBowFBVV95cUxQMEN3N1hPS2RzVXk1SDhlaDdjMEI3Tlp0WXV0cUpCZ2VfdjRRX19fWEFiMGFjOHFyXzd6MnZlNF9tTmgtSzhMWGZhYU5BR00xQUw3UmJvV3ZRYWx2UVhHNkdHYVdfMzBsMFRYM09QeE9ZSUhwUjJRZVRTT1ZiMGJxYUhRMHh1TW9XT0VLY015ZDBLU2ljR3BwbWVmXzF5WVhaeE93?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -338,12 +338,12 @@
       "date": "2026-09-08",
       "topic": "Infrastructure",
       "title": "Bukan Cuma Jalan, Infrastruktur Mengubah Peta Ekonomi Indonesia",
-      "summary": "Kompas.com surfaced this fresh item: Bukan Cuma Jalan, Infrastruktur Mengubah Peta Ekonomi Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "summary": "money.kompas.com surfaced this fresh item: Bukan Cuma Jalan, Infrastruktur Mengubah Peta Ekonomi Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Kompas.com via Google News RSS discovery",
+      "source": "money.kompas.com via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPalJXQXIyZXVmc252TUhmeFhMUmdEaFZQV3F3NXBCREZoeGVER0RqLWk5czZkZE1JbWlpMmZYX09IRnNfbjZPVXAxUmotSlhsTkM0RVZqZG0zUXdLWjBEOTliWlh0ODdPdC0zVDA1QU5VOEZ6c1AydmRmaGdzbmFfcU53bUZhV29sMWZhc3lNU3VGV25XYnFPVV9oTFZ1bUNrVGxfRUtWbHFTYS1wTjVOTVlzLXl3dGlGaVZkYW1aZU1ZYlJwZmd5dC15aGhaLW1w?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -365,7 +365,7 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-09-08T19:00:24+07:00",
+    "generatedAt": "2026-09-08T20:00:23+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -374,13 +374,13 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 114.2,
+        "last": 114.29,
         "date": "2026-09-08",
-        "return1m": 1.3,
-        "return3m": 0.56,
-        "return6m": 6.39,
-        "return1y": 5.8,
-        "volatility": 9.72,
+        "return1m": 1.38,
+        "return3m": 0.64,
+        "return6m": 6.48,
+        "return1y": 5.88,
+        "volatility": 9.74,
         "maxDrawdown": -4.34,
         "sparkline": [
           {
@@ -664,7 +664,7 @@
             "value": 112.9143
           }
         ],
-        "profitScore": 2.56,
+        "profitScore": 2.64,
         "view": "strongest IDR return screen"
       },
       {
@@ -672,7 +672,7 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12716.2002,
+        "last": 12716.0996,
         "date": "2026-09-08",
         "return1m": 1.13,
         "return3m": -0.69,
@@ -970,12 +970,12 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13926.1953,
+        "last": 13926.4697,
         "date": "2026-09-08",
-        "return1m": 0.05,
+        "return1m": 0.06,
         "return3m": -1.32,
         "return6m": 5.11,
-        "return1y": 4.85,
+        "return1y": 4.86,
         "volatility": 7.73,
         "maxDrawdown": -3.37,
         "sparkline": [
@@ -1887,13 +1887,13 @@
       "label": "Japanese Yen",
       "useCase": "Japan travel, imported machinery, and defensive FX exposure",
       "pair": "JPY",
-      "last": 114.2,
+      "last": 114.29,
       "date": "2026-09-08",
-      "return1m": 1.3,
-      "return3m": 0.56,
-      "return6m": 6.39,
-      "return1y": 5.8,
-      "volatility": 9.72,
+      "return1m": 1.38,
+      "return3m": 0.64,
+      "return6m": 6.48,
+      "return1y": 5.88,
+      "volatility": 9.74,
       "maxDrawdown": -4.34,
       "sparkline": [
         {
@@ -2177,7 +2177,7 @@
           "value": 112.9143
         }
       ],
-      "profitScore": 2.56,
+      "profitScore": 2.64,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",

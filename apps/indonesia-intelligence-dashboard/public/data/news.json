@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-09-09T16:00:39+07:00",
+  "generatedAt": "2026-09-09T17:00:40+07:00",
   "briefingTitle": "Indonesia Hot News Intelligence Briefing — 09 September 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
+    {
+      "id": "2026-09-09-576c8beb88",
+      "date": "2026-09-09",
+      "topic": "Tech / AI",
+      "title": "Dampak AI ke Pasar Saham: Peluang Investasi di Era Data Center",
+      "summary": "maybanktrade.co.id surfaced this fresh item: Dampak AI ke Pasar Saham: Peluang Investasi di Era Data Center. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Positive",
+      "score": 0.24,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "maybanktrade.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV1k2c2Z3Z19XSmRUTjNGQV9PcExUZ3QwMXMxNGdTV3VqcmFXdzRVRGxSOGxfMnlSM0dVSUZLZFdzbmpHeXBScnFXWWh0MHl2RGhSMHZlOGU2bW9GdGNjRk44SnlpWWZqNTJ3S2lIOWVWZTRMU1lwOHBPcHlsWmNyY1piRklOZ0lkNXFEb29QSkZwbnVsMlF2U09Sb1dBcFZ5dXc?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
     {
       "id": "2026-09-09-40be3211cd",
       "date": "2026-09-09",
@@ -15,21 +30,6 @@
       "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
       "source": "Bisnis Tekno via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS1g4QnZ0eGFCVW9xWU5rNzZVU21VVktnVm5waVc1RE9RdTlVTVBGNW5vY0dGQmgxZmxWTm9NWjNPNHEzN09JRGdsbWItRlk5cllPWDhDWFZIUW1hQXo2ZmVPcFhSbjd0T3dJY0ItSTVid0VQSGtqUV9FeFJQSzJibENWbUpEUVdNbms5MktLRkZuOGNadlJoWXVtMTdBcVVUOU5uR0EzdzRhU25ESVJUYUIybmFndmpXQ2U4U3JlY3d1VjFKbEJZTw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-09-2d1c37d110",
-      "date": "2026-09-09",
-      "topic": "Tech / AI",
-      "title": "Data Center Butuh Listrik Stabil, PGE Siapkan Panas Bumi",
-      "summary": "Listrik Indonesia surfaced this fresh item: Data Center Butuh Listrik Stabil, PGE Siapkan Panas Bumi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Listrik Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSXFRVGhVdDViNVp4WTI3WFo2aVlIeEJNUjZ4UlIyODAyMDZQXzlpZ2Z1MDBtOXY2ZlU3amRtMDVkT0dJb1FjRklhSm1HYVVhbHBmQUNzanpKbklGdGtXVEVlQzAxbGZjemVsd1lic0FsMzNENGZDOFhzV1F2RDdER0JqTGhpdl9fQm5zbU4tVzdrTXQ3SGlXa2hpY2NTYzNEekZDckdXRXdiR1lYOG0zbWhfZ0tUeWFxbUxOcnV3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -49,6 +49,21 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-09-09-2d1c37d110",
+      "date": "2026-09-09",
+      "topic": "Tech / AI",
+      "title": "Data Center Butuh Listrik Stabil, PGE Siapkan Panas Bumi",
+      "summary": "Listrik Indonesia surfaced this fresh item: Data Center Butuh Listrik Stabil, PGE Siapkan Panas Bumi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Listrik Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSXFRVGhVdDViNVp4WTI3WFo2aVlIeEJNUjZ4UlIyODAyMDZQXzlpZ2Z1MDBtOXY2ZlU3amRtMDVkT0dJb1FjRklhSm1HYVVhbHBmQUNzanpKbklGdGtXVEVlQzAxbGZjemVsd1lic0FsMzNENGZDOFhzV1F2RDdER0JqTGhpdl9fQm5zbU4tVzdrTXQ3SGlXa2hpY2NTYzNEekZDckdXRXdiR1lYOG0zbWhfZ0tUeWFxbUxOcnV3?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-09-09-9014d8b349",
       "date": "2026-09-09",
       "topic": "Tech / AI",
@@ -64,17 +79,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-09-df2533119b",
+      "id": "2026-09-09-69f797d71f",
       "date": "2026-09-09",
-      "topic": "Tech / AI",
-      "title": "PGE Dorong Panas Bumi Jadi Tulang Punggung Green Data Center Indonesia",
-      "summary": "Info Ekonomi surfaced this fresh item: PGE Dorong Panas Bumi Jadi Tulang Punggung Green Data Center Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "topic": "Business / Investment",
+      "title": "Heat Pump, Peluang Baru untuk Memangkas Emisi Industri Indonesia",
+      "summary": "IESR surfaced this fresh item: Heat Pump, Peluang Baru untuk Memangkas Emisi Industri Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Info Ekonomi via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLTlNaHBCNTVocHlsNnI3RHp4NWVkSGtUemRRUTU3UHZVeXRvdUd4YjV3VmJoRkh3eVZPM29DRXRGVWpDYThvV3MxdGl4a1JZOHMxR19ERFhWZDQ5d1R5UU1acHBIWk5ra2JDY3BjVzlyM3REU2RnSnk1akdqRFgtZ2hFRHllZ0d4aFk0TnFDNkpVWGkyNFhkZURuUkx3LWRCU0dieA?oc=5",
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "IESR via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ2lIbnF6RzEtQjBadmFxWGV1VUdNR3N3UHFnQnhaWE1QWFBpbmZnQTFSZ3Z0eEhPTE1LX2ZCOHc1VE1leTB3UVRINFlZNXBMS01WdmN3RnNqUHZndlFEYlAySjdqdlB4U3MtSlNNTElsUVJUS2ZsVDFYN1ZHWFR2T0hYTkMyMXMxaG9j?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -104,22 +119,22 @@
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
       "source": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOW5HaFZKZEs2aEtsdUkxeFJZVWhJNkdDWkJfYW1GbnNBMl9EbDVuRlVEUlZDOVZkbFJiSEJpRnR0SDg0ck8wakJHck0waVUzYXowNzVVazd5TzU4bmEta2xhTEFnXzBMeExhOWlwaDNrTVd4bzI4RHQ4VFk5eHAtLUZldF9IYVFJMUZ0UTViZGM5NWdCLWNsVlBOU29oYlNYMGZJQjdPUU10WTlWblNXMjdvczZnX2YwRm9XcDAxbVV2SFZMUHJhT0N4RC0?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNalYzWFFkX0xvWlNZS09Sb3NuSnl3X1BveWlzUmxRcXhodjVBMWdVbmdZNW5XUDBsdDZzXzk1V2xvaHM4ODZqUnF2Q1VYMy1PQlhCZS1lX3pfekI2VVk3WXZfekVubElNUlVxWEJ1TGdPYVU4X2UtcHBFWmFucUF1YkhpMm55M3FjTU5uNHVEaTRzRlNUQjdrRVN3OUowVlNpemVGSWdzeGMxTm5teGRjZ1FzemdZbGlOUGVXaXN3QnBxTlVuSjVDY0JObFVOOVhu?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-09-09-a15d9b6d78",
+      "id": "2026-09-09-ed097585b0",
       "date": "2026-09-09",
       "topic": "Business / Investment",
-      "title": "Kemenkeu sebut tantangan RI bukan volume investasi tapi produktivitas",
-      "summary": "jogja.antaranews.com surfaced this fresh item: Kemenkeu sebut tantangan RI bukan volume investasi tapi produktivitas. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "BCA: Masyarakat Indonesia semakin paham perlunya lakukan investasi",
+      "summary": "antaranews.com surfaced this fresh item: BCA: Masyarakat Indonesia semakin paham perlunya lakukan investasi. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "jogja.antaranews.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM3JrSFNBYW8zZXRTd2hqRFVaaDE2TElzZnNYbmJGRW51X050MkFiY0hqSEhEV0FsaU5DVGhFTnhaRGpYZ0M4NnlsRjZZZm5aLW5OUHZ4UWNVVUFrSWNIUGVDMk42a013Njhva1pDdlAwZlVlN3NYTEJiNFUxVnI3ckJMdGRvR0ZGdzU4SDJVWlBmc2dpMkNxMWszc0ZrSXgyUldKekp0QWF4R1hDVHJEVTFn?oc=5",
+      "source": "antaranews.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU0hiWHFiVW1BTnRJSWUyMEt6emwyMFg3d1VlVWx6alAwZkVoNmR1Y2VpS2xjYUhoSU9OV2RULXBaRHFfNnZ5Nkt4VlhLemtDajBvMFhrV0UwX0VhaGdOVEVOX1NRVVVYRDRaTmhPb09zU2F4LXh3dF9vbll5YlRab25wcnN5aXVRYUJCeXR5U3VtM042LTZsRGtmZmloMWRrR0FSZ0xMWGRpU2vSAa4BQVVfeXFMTnQzQUUwTzNNVjhzLXUyaTJJdVZkUjRWdERPaWZSLWVYUmRQcGNtblVIWENraXVCaDQzYnJhQzFFdW1aWmNyclM4dGxRUE1DWmJZSHI1dHBVSWhzYzlmYU91QVJGV1dnSFBhOHpjLUx3eUFSNlJIbHpBRTlsMEw3bktIQUxGb2VJNlpDWUlGWHhMWVhBSElXS1RyZDhIODhYOFBRNlpFYzFSNGNRNFVB?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -199,16 +214,31 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-09-4bc3f506a8",
+      "id": "2026-09-09-ee217d6661",
       "date": "2026-09-09",
       "topic": "Markets",
-      "title": "IHSG Rabu dibuka menguat 14,40 poin ke posisi 6.700",
-      "summary": "jogja.antaranews.com surfaced this fresh item: IHSG Rabu dibuka menguat 14,40 poin ke posisi 6.700. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "IHSG Menguji Level 6.700, Dorongan Sektor Perbankan dan Konsumer Warnai Awal Perdagangan",
+      "summary": "Stabilitas.id surfaced this fresh item: IHSG Menguji Level 6.700, Dorongan Sektor Perbankan dan Konsumer Warnai Awal Perdagangan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.13,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "jogja.antaranews.com via Google News RSS discovery",
+      "source": "Stabilitas.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSVRMYVdIQzB0VUJJUzdlRG9aYV9wcXBkU3R3WEpqUDA5dTAxQW9FOURYUEFOQlFkdkZMeTh6NlNVV0VuQkFrWWFBaXBoZlJPd21vQUdlang5cUpSMTZBRy10NkpYR0NRX0diV0Y2WnFpX1djT040T2hjUHpkdXRFemNfNVcyaEZwdlJVT0psam9aTlptNWhnOWhJZ3A3djg4YXJ2aFc1eTN1NWRWVGNTU2JuR00?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-09-09-4bc3f506a8",
+      "date": "2026-09-09",
+      "topic": "Markets",
+      "title": "IHSG Rabu dibuka menguat 14,40 poin ke posisi 6.700",
+      "summary": "ANTARA News Yogyakarta surfaced this fresh item: IHSG Rabu dibuka menguat 14,40 poin ke posisi 6.700. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.13,
+      "confidence": 0.68,
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "ANTARA News Yogyakarta via Google News RSS discovery",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYzdYM0t2bHZzMUNiRC1TZ2hhbTVDbW1sRmVjYVY4Y2hoRF9GYTAxSk1ZX0Y3MUJqQ3diWGdYMzM1Z1NsNW8xa2EyZzdKUUlCbzJhZHV0b0pfTTFhelR3ZXR5dXJaSVhsY2MyVm81M0Z0NHZwWHJramNBRmROX2I4UHlpU09pSDBfOEtEb1M1TE1VQlpKRFZz?oc=5",
       "imageUrl": "",
       "imageAlt": ""
@@ -289,17 +319,17 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-09-b49336587b",
+      "id": "2026-09-09-7b5d4e3e92",
       "date": "2026-09-09",
       "topic": "Automotive / EV",
-      "title": "Kemenperin Bidik TKDN Mobil Listrik 80 Persen, Industri Baterai Ikut Digenjot",
-      "summary": "Warta Ekonomi surfaced this fresh item: Kemenperin Bidik TKDN Mobil Listrik 80 Persen, Industri Baterai Ikut Digenjot. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Baterai Jadi Kunci, TKDN Mobil Listrik Ditargetkan Tembus 80% pada 2030",
+      "summary": "transportasimedia.com surfaced this fresh item: Baterai Jadi Kunci, TKDN Mobil Listrik Ditargetkan Tembus 80% pada 2030. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Warta Ekonomi via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmROM05EbDFIVjR6RkhoT2RhdFRKQzZQNlpNU1dYQi1nMTZuWlNkTy1xZEhwQkxwS01od3pnVy1hbzFmUFFrM1V4QVV4SEFzT0pkQW1OdTNNcVN5YW9pQWoxQzhHcTlzRTlGbkxmNDRiNnZZQ3E5WmFLMnBScFY4amExMHNmUnE5SjdKWF8tejBESnUtVFFHVXdDeE5TMXdMSWNFUDZFOFRRYUYzOUVsU1J2cnPSAboBQVVfeXFMTldfdHczWVFQdzFjT2l5aXpKVnlTVDNOeWpPb0FaXzB5MDhtQ3ZPeE95TlVjZmxuQklka2hmWEpUcXpnVkJRZG9OcHJiV1NMYVgzRXJrdmJtVF95VGhRMllwNWlXeEZHa3dvYUdCUklfbTBBTGpuNlpiOUdOUW5CVkkxdFVzX1hoMXNIOEVxNG5RZE9KT0YtR0JWcHVqTXNCZGFydDRGbjdnMnR5cEZ1cFhlY1IwWVQ2akp3?oc=5",
+      "source": "transportasimedia.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRXVTSVdkRUpTQXVHSVE2RjRyVlNkUkg0Zl93c214ZkRxUHE3YWVlaHhyakUybHFleGFGRDlVM1AzOV9ST2VmUnotSDVZcFpXTEswbndCNl8ySGNId3dyUUR2aFlUa3Nla0FBVVNTdE9WUUs2RjcwcFM1TXdPbWhhd2ZTc3h3aWRhT1JHWWNRTWlraG13VXFXUS1vWGN1dlhRM05QMnhyTGF4bDNDSm1TVWVR?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -319,53 +349,23 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-09-09-d2454d7f00",
-      "date": "2026-09-09",
-      "topic": "Business / Investment",
-      "title": "UMKM Indonesia: Tulang Punggung Ekonomi atau Sekadar Sekoci? - Sektor Riil",
-      "summary": "Bloomberg Technoz surfaced this fresh item: UMKM Indonesia: Tulang Punggung Ekonomi atau Sekadar Sekoci? - Sektor Riil. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Bloomberg Technoz via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTjVMNzdxR3V3RU9WbnNseTF3bHNGM3JQUEhzR1BTYTc1Mzl3VWZVZUR0NXRmN2pOX3l6dXpYaUhaaXFJYjM3QVBOcVhnRF9DYkJPOEE0NzlCTkhndGZBUU5IZFJyZGhVUVk5OVZWZkFsV0pVV0tiQkc3SmZXdFVzUnJWSnhXdXliS2NYTEM2bnJZb216R1Q1VXA4amQxVUxJdGVGaU9fdjVXaDc0M2Vv?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-09-9abd964382",
+      "id": "2026-09-09-e381d14c17",
       "date": "2026-09-09",
       "topic": "Infrastructure",
-      "title": "Rekam Jejak M. Alkautsar: Kilas Perjalanan Praktisi Jalan Tol hingga Pimpin Forum Ekosistem Jaringan Jalan Tol Indonesia",
-      "summary": "LIDIK ID surfaced this fresh item: Rekam Jejak M. Alkautsar: Kilas Perjalanan Praktisi Jalan Tol hingga Pimpin Forum Ekosistem Jaringan Jalan Tol Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Mobil Tabrak Truk di Jalan Tol Sergai Sumut, 3 Orang Tewas",
+      "summary": "CNN Indonesia surfaced this fresh item: Mobil Tabrak Truk di Jalan Tol Sergai Sumut, 3 Orang Tewas. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.08,
       "confidence": 0.68,
       "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "LIDIK ID via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcnRPSlZydFNOOVJTUGVpRlYtX3VBSUk1dXpZc1lfdndINzZ4ak9BdWJNUWNLREZrLWdwcl9GMlJWRnpGcGNDUFBFM0RQcEF5TV8wN1QtNjlMNlhSaHdabEEzTmgzMGRIZjhYZWxLazd5dDFweEZKbnd3TWlWeTlDdFJETFZiWjRZY2tPWjFXTEZCei1QckFVekpTR0RNUElVd0NRZXZjSkQ5Mkk4NzlmVzZqaklkaHhweGh4RTl1anBUaF9Bd0dtZnN1N3NiUERY?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-09-09-26435164bb",
-      "date": "2026-09-09",
-      "topic": "Infrastructure",
-      "title": "Ketimpangan Infrastruktur Kalimantan Mencuat, Kereta Api Trans-Kalimantan Jadi Sorotan",
-      "summary": "Pontianak Post surfaced this fresh item: Ketimpangan Infrastruktur Kalimantan Mencuat, Kereta Api Trans-Kalimantan Jadi Sorotan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Pontianak Post via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVVRPZzlpdHJlWWJRMEdBMHJLbjI5aVVieW5ubG4wUTVjQm4tYXkyUjlHTmROUjRhQU83VFAwemg4YXJWWkROYm04Q2hFall5RWFPZ1k4SE5DNHAyTlhOQ2RRdkJ0RGVKNHBpSnBJYjMzaUd1SU5ENTZxcDg1dWFnRU9rOFJqem1ma1o5cDQ0MlpfMF9keXJ3X3dnbXZHR0RkT3dOeEVlWnMwX3JFdFcyVWV4SEQtWlNqNExDY2tCd1JjS1hsczNrYWJQR0NKRmxBbEF0NdIB2gFBVV95cUxQUkpiQnJFUFdOWDd2d0IwY2VCMEdSMjhla2d5eXVjQjI3Q29GRjR1cllQQTRlWG9YVFNPaGEzT1Y2YldReTFsa21QQ3pZT052eXc5aXpaNE54TTgzb0JqTnNSbHdtTlVnYWVfdW1NVnBweV9HSy1NeC03UENLTlRLUkxKQVNlWG9fOEJ5WHZXNjhFX0o4R3YzTi1jS3pqdVVNWTl2Y25TanljaEtEd3FJZG51TmxfeUY5Mlh4QzAxMmZ1c21oNy1FRzNCN2dkcmZBeHpZZURJOUV5QQ?oc=5",
+      "source": "CNN Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS3NQNVlqSm1vU1Q0aEx2NUJRWldXdWZzeTJOV0Q4bjIwZkhHT1NFZWNJaFRXQzVXNENvQkEzSDg2VFJfRXBqNFhseTZ6QlhfUGk1Y18zMWNBQ3huQnZIeTBzZi14anFKZHRoQmJlWGtkYVVUSHc2a0dkQ2RvWTJRMENoS1pGVzBsTi1TMWhRSXpYYVVHNzhKSWxqX0haenhJaFlQOVNpUVZjOXFlOU5Cc3BiZXZQc05KeTEzNUF30gHDAUFVX3lxTFBOald4S2QwdWRQVXhWeHBPNTdiQzdkYW5tQXV2c2FEenVINmwxY3dsdWRjLUdQZUh0YS1oWWdSOU1Lc25td0JiZVN0Qk12akVGYURuSmd5TzdiT2FjVFVaQXQwLWdrSldvdW9oMmJsa0pEUUdfVUVNMjR1ZW53ZlJxU2pxaHFXdFRMc2NtTUhkRTNCVHhuUlpUbGdlazBqSjlfOWYwZm04VzI4QzVqZkZ6TzJUa080aUFRZ1VfdGhuWFdRYw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-09-09T16:00:39+07:00",
+    "generatedAt": "2026-09-09T17:00:40+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -672,13 +672,13 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12650.4004,
+        "last": 12637.0996,
         "date": "2026-09-09",
-        "return1m": 0.79,
-        "return3m": -0.1,
-        "return6m": 6.02,
-        "return1y": 6.0,
-        "volatility": 9.81,
+        "return1m": 0.68,
+        "return3m": -0.2,
+        "return6m": 5.91,
+        "return1y": 5.89,
+        "volatility": 9.82,
         "maxDrawdown": -5.12,
         "sparkline": [
           {
@@ -962,7 +962,7 @@
             "value": 12755.9697
           }
         ],
-        "profitScore": 2.05,
+        "profitScore": 1.94,
         "view": "strongest IDR return screen"
       },
       {
@@ -970,13 +970,13 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13849.79,
+        "last": 13844.6992,
         "date": "2026-09-09",
-        "return1m": -0.33,
-        "return3m": -1.11,
-        "return6m": 4.6,
-        "return1y": 4.35,
-        "volatility": 7.81,
+        "return1m": -0.36,
+        "return3m": -1.15,
+        "return6m": 4.56,
+        "return1y": 4.32,
+        "volatility": 7.82,
         "maxDrawdown": -3.37,
         "sparkline": [
           {
@@ -1260,7 +1260,7 @@
             "value": 13957.0166
           }
         ],
-        "profitScore": 0.99,
+        "profitScore": 0.96,
         "view": "strongest IDR return screen"
       },
       {
@@ -1268,13 +1268,13 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 20362.0,
+        "last": 20343.0,
         "date": "2026-09-09",
-        "return1m": 2.02,
-        "return3m": -0.88,
-        "return6m": 4.13,
-        "return1y": 4.07,
-        "volatility": 18.41,
+        "return1m": 1.93,
+        "return3m": -0.97,
+        "return6m": 4.03,
+        "return1y": 3.97,
+        "volatility": 18.38,
         "maxDrawdown": -5.62,
         "sparkline": [
           {
@@ -1558,7 +1558,7 @@
             "value": 19907.0
           }
         ],
-        "profitScore": 0.49,
+        "profitScore": 0.39,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,7 +1566,7 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2610.2,
+        "last": 2610.3,
         "date": "2026-09-09",
         "return1m": 0.0,
         "return3m": 0.0,
@@ -1577,7 +1577,7 @@
         "sparkline": [
           {
             "date": "2026-09-09",
-            "value": 2610.2
+            "value": 2610.3
           }
         ],
         "profitScore": 0.0,
@@ -2186,7 +2186,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 91,
+        "opportunityScore": 95,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2194,7 +2194,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 91,
+        "opportunityScore": 95,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2226,7 +2226,7 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 67,
+        "opportunityScore": 63,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T07:00:31+07:00",
+  "generatedAt": "2026-09-27T08:57:32+07:00",
   "period": {
     "start": "2026-09-21",
     "end": "2026-09-27",
@@ -33,12 +33,12 @@
     "caveat": "Data bidang kritis belum lengkap: Economy & Jobs, Health & Family, Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
   },
   "metrics": {
-    "articles": 19,
-    "sources": 11,
+    "articles": 20,
+    "sources": 12,
     "categoriesCovered": 7,
     "categoriesTracked": 13,
     "positive": 2,
-    "neutral": 16,
+    "neutral": 17,
     "negative": 1,
     "averageScore": 0.008,
     "criticalNegativeSignals": 0
@@ -76,8 +76,8 @@
     },
     {
       "date": "2026-09-27",
-      "score": null,
-      "articles": 0
+      "score": 0.0,
+      "articles": 1
     }
   ],
   "topicScores": [
@@ -152,16 +152,6 @@
       "highlightId": null
     },
     {
-      "topic": "Governance",
-      "count": 1,
-      "score": 0.0,
-      "sentiment": "Neutral",
-      "positive": 0,
-      "neutral": 1,
-      "negative": 0,
-      "highlightId": "2026-09-22-cbeafa162fce"
-    },
-    {
       "topic": "Infrastructure",
       "count": 1,
       "score": 0.0,
@@ -170,6 +160,16 @@
       "neutral": 1,
       "negative": 0,
       "highlightId": "2026-09-26-72e7c12a78"
+    },
+    {
+      "topic": "Governance",
+      "count": 2,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 0,
+      "highlightId": "2026-09-27-8dbff51abd0e"
     },
     {
       "topic": "Automotive & EV",
@@ -247,12 +247,12 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-09-22-cbeafa162fce",
-      "date": "2026-09-22",
+      "id": "2026-09-27-8dbff51abd0e",
+      "date": "2026-09-27",
       "topic": "Governance",
-      "title": "LMND UBK Desak DPR dan Pemerintah Segera Sahkan RUU Perampasan Aset - Suara Merdeka Jakarta",
-      "source": "jakarta.suaramerdeka.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMTVNN0RzenUwdDMzVXJVMXBEWTdoNjdfdVRvbUlONjBKNE9EOWZoa1Q2Qk1EMEtXd2lXeWhGM2NMWE95MHFZU2RLRlhZOHBYV1hnVlNFaVg2cWN4cjJkT09ZMjktOXVSYk9MdEhPMHM4RldfYlppZzhuM3pJNlZBeWlTWVlfVWprU1gyTUlsdVhGOFo2ZWIwYWtxMHZ6WTlNN0Q1SVNpLTZGYXZCdUM4djFRakhGcDdZNzhnUUxB0gHDAUFVX3lxTE0wQ080NWwyY2dRUXM2VTJ6UWlXV3RxMzE1TVJKak1Eb3lTekJXS2E4S1NJZm9xX1RXVmRaMC1Zc3FaM3REbzkzZVJvMjhpUklKZVJFVXB0cUVXdk5OazdtOGVvaF81RUhMdHk1a042bzViVm9URkJhRFczOE5DY3FiMVlud195dzBqMHNvS0VzRWYwMERrR2R4ZTNUdjZzc0FUTnVFdW9vTkJFdzFFbHg1VjI5NG1CVHU3M0l4S0tOOU9naw?oc=5",
+      "title": "Geliat Demokrasi ala ”Fraksi Balkon”",
+      "source": "Kompas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaEtoRXdhdVFFMDJ5VlZCVjhtT0huSDQxb0pNRmEwZlBlMmhMbXZoenp5QTI5UWFkcFZDZlk2WTJZY0REdFdHS0FhaG03ZWdzX2VrZjVEdGhNTUQ4Qk9wQkgtYmplVWVGMFlMM1ljbTNuNWhnVGI5ZThKdW4xbnB5N0JEX1JzWVE0R0F4bGF4dFc?oc=5",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.68
@@ -291,11 +291,11 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-09-24-c1e5ebda09cc",
+      "id": "2026-09-24-05c64a1c6b7f",
       "date": "2026-09-24",
       "topic": "Climate & Disaster",
       "title": "NSHE-BMKG Teken Kerja Sama 3 Tahun, Perkuat Mitigasi Bencana di Kawasan PLTA Batangtoru - Suara Merdeka Jakarta",
-      "source": "jakarta.suaramerdeka.com",
+      "source": "Suara Merdeka Jakarta",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeTY1VHN1UUN5SFl6b0hDeU9ES2EzZDVLd3BMRFlMZVpZMFE4ZDFnRnN0b0Vxb2ZmUm9tMTQxSkRiR0lLVGwwendCbVA5T2poZTgyd3N2Q2ZWV0xKeE4xTkpRWE5KX1JtRTJxNERBaTg1aFBHcHRGRGstT0gteUZ1QVVXTVhNd2hPdy1MN1lrWTlqekQ1NEhid2tmMEQzWGdETUlUSnl4Ul9GZ1Ezek9LcGtsQVhlakJFWmhXeEFlTFpYS19lVlJsSVZsOTE0UnowQVQ0dVJYN2daMEHSAdsBQVVfeXFMTnk2NVRzdVFDeUhZem9IQ3lPREthM2Q1S3dwTERZTGVaWTBROGQxZ0ZzdG9FcW9mZlJvbTE0MUpEYkdJS1RsMHp3Qm1QOU9qaGU4MndzdkNmVldMSnhOMU5KUVhOSl9SbUUycTREQWk4NWhQR3B0RkRrLU9ILXlGdUFVV01YTXdoT3ctTDdZa1k5anpENTRIYndrZjBEM1hnRE1JVEp5eFJfRmdRM3pPS3BrbEFYZWpCRVpoV3hBZUxaWEtfZVZSbElWbDkxNFJ6MEFUNHVSWDdnWjBB?oc=5",
       "sentiment": "Neutral",
       "score": 0.0,
@@ -335,12 +335,12 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-09-26-70450257040e",
-      "date": "2026-09-26",
-      "topic": "Business & Investment",
-      "title": "Pemerintah Perkuat Transformasi Ekonomi Digital untuk Dorong Produktivitas dan Daya Saing Nasional -",
-      "source": "- Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb25QTmxUb2pVVGZ2ZU11NnlZanNxa2g1cklsSUUyX3pzQTdtcUUtYlYyNWdYZkIzekw4dzhzbU9VUERrdFBEamV3UUFGUWczdUx0MGQtcWZOWEk5VkRwTVNXVmlfT0xyUUIzMVo3UktBblFJVktaWXhIOHVDTGNGbzBZMmxqZXBuUWZPOGFPWVRsYXBuZjVpOEhlZGZsMEJCZm9JNHhrXzAySHBmQnphd0MwUmsxQmpjWExtRVVHRTV6MWRSMGZUaGxaVlItbXJTQzRZb0FOODZfU3c?oc=5",
+      "id": "2026-09-22-7960a67f7582",
+      "date": "2026-09-22",
+      "topic": "Governance",
+      "title": "LMND UBK Desak DPR dan Pemerintah Segera Sahkan RUU Perampasan Aset - Suara Merdeka Jakarta",
+      "source": "Suara Merdeka Jakarta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMTVNN0RzenUwdDMzVXJVMXBEWTdoNjdfdVRvbUlONjBKNE9EOWZoa1Q2Qk1EMEtXd2lXeWhGM2NMWE95MHFZU2RLRlhZOHBYV1hnVlNFaVg2cWN4cjJkT09ZMjktOXVSYk9MdEhPMHM4RldfYlppZzhuM3pJNlZBeWlTWVlfVWprU1gyTUlsdVhGOFo2ZWIwYWtxMHZ6WTlNN0Q1SVNpLTZGYXZCdUM4djFRakhGcDdZNzhnUUxB0gHDAUFVX3lxTE0wQ080NWwyY2dRUXM2VTJ6UWlXV3RxMzE1TVJKak1Eb3lTekJXS2E4S1NJZm9xX1RXVmRaMC1Zc3FaM3REbzkzZVJvMjhpUklKZVJFVXB0cUVXdk5OazdtOGVvaF81RUhMdHk1a042bzViVm9URkJhRFczOE5DY3FiMVlud195dzBqMHNvS0VzRWYwMERrR2R4ZTNUdjZzc0FUTnVFdW9vTkJFdzFFbHg1VjI5NG1CVHU3M0l4S0tOOU9naw?oc=5",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.68

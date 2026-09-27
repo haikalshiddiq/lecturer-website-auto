@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-09-16T02:07:09+07:00",
+  "generatedAt": "2026-09-27T07:00:31+07:00",
   "reports": [
+    {
+      "periodEnd": "2026-09-27",
+      "periodLabel": "21 Sep - 27 Sep 2026",
+      "status": "Pantau",
+      "conditionIndex": 49,
+      "url": "/data/weekly/2026-09-27.json"
+    },
     {
       "periodEnd": "2026-09-16",
       "periodLabel": "10 Sep - 16 Sep 2026",

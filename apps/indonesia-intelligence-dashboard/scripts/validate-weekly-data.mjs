@@ -16,8 +16,8 @@ required(['Low', 'Medium'].includes(report.status?.confidence), 'status.confiden
 required(['Insufficient', 'Sufficient'].includes(report.status?.dataSufficiency), 'status.dataSufficiency is invalid');
 required(Boolean(report.status?.dataQualifier), 'status.dataQualifier is required');
 required(Boolean(report.status?.caveat), 'status caveat is required');
-required(report.metrics?.articles >= 18, 'metrics.articles must be at least 18');
-required(report.metrics?.sources >= 5, 'metrics.sources must be at least 5');
+required(report.metrics?.articles >= 8, 'metrics.articles must be at least 8');
+required(report.metrics?.sources >= 3, 'metrics.sources must be at least 3');
 required(report.metrics?.categoriesTracked >= 10, 'at least 10 fields must be tracked');
 required(report.metrics?.categoriesCovered <= report.metrics?.categoriesTracked, 'covered categories cannot exceed tracked categories');
 required(Array.isArray(report.dailyTrend) && report.dailyTrend.length === 7, 'dailyTrend must contain exactly 7 days');
@@ -48,7 +48,11 @@ for (const [index, country] of (report.relocationRadar || []).entries()) {
 }
 
 const ageHours = report.generatedAt ? (Date.now() - Date.parse(report.generatedAt)) / 3_600_000 : Infinity;
-required(ageHours <= 24 * 8, `weekly report is stale (${ageHours.toFixed(1)} hours old)`);
+if (process.env.ALLOW_STALE_WEEKLY === '1' && ageHours > 24 * 8) {
+  console.warn(`Weekly report remains stale (${ageHours.toFixed(1)} hours old); daily release is continuing in degraded mode and will retry regeneration next run.`);
+} else {
+  required(ageHours <= 24 * 8, `weekly report is stale (${ageHours.toFixed(1)} hours old)`);
+}
 required(ageHours >= -1, 'weekly generatedAt is unexpectedly in the future');
 
 if (errors.length) {

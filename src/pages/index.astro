@@ -9,6 +9,7 @@ import TopicStudio from '../components/sections/TopicStudio.astro';
 import ResourceExplorer from '../components/sections/ResourceExplorer.astro';
 import TopicCoverageBoard from '../components/sections/TopicCoverageBoard.astro';
 import LatestTeachingUpdate from '../components/sections/LatestTeachingUpdate.astro';
+import GuidedLearningPath from '../components/sections/GuidedLearningPath.astro';
 import { buildTopicCoverage, getBlogPosts, getPublications, getResources, getTopics } from '../lib/content';
 
 const topics = await getTopics();
@@ -31,6 +32,7 @@ const topicCoverage = buildTopicCoverage({ topics: topicLinks, posts, resources,
   <Hero />
   <LatestTeachingUpdate post={posts[0]} />
   <StatsBand topicsCount={topics.length} resourcesCount={resources.length} postsCount={posts.length} />
+  <GuidedLearningPath topics={topicLinks} resources={resources} />
   <TopicStudio topics={topicLinks} />
   <TopicCoverageBoard
     topics={topicLinks.map((topic) => ({ title: topic.title, slug: topic.slug, summary: topic.summary }))}

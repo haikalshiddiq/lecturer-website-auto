@@ -1,4 +1,4 @@
-import yaml from 'js-yaml';
+import { dump, load } from 'js-yaml';
 
 const fencePattern = /^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)([\s\S]*)$/;
 
@@ -8,7 +8,7 @@ export function parseFrontmatter(raw) {
     return { data: {}, content: String(raw || '') };
   }
 
-  const data = yaml.load(match[1]) || {};
+  const data = load(match[1]) || {};
   return {
     data: typeof data === 'object' && !Array.isArray(data) ? data : {},
     content: match[2] || ''
@@ -16,7 +16,7 @@ export function parseFrontmatter(raw) {
 }
 
 export function stringifyFrontmatter(content, data) {
-  const frontmatter = yaml.dump(data || {}, {
+  const frontmatter = dump(data || {}, {
     lineWidth: 100,
     noRefs: true,
     sortKeys: false,

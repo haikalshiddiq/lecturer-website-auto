@@ -24,15 +24,20 @@ const themeInitScript = `(() => {
     <script is:inline set:html={themeInitScript}></script>
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <Header />
-    <main>
+    <main id="main-content">
       <slot />
     </main>
     <Footer />
     <SpeedInsights />
     <script is:inline>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js', { scope: '/' }));
+      if ('serviceWorker' in navigator && (location.protocol === 'https:' || ['localhost', '127.0.0.1'].includes(location.hostname))) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch((error) => {
+            console.error('Service worker registration failed', error);
+          });
+        });
       }
     </script>
   </body>

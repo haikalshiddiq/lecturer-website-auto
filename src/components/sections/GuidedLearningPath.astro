@@ -1,0 +1,456 @@
+---
+interface TopicItem {
+  title: string;
+  slug: string;
+  summary: string;
+  importance: string;
+  subtopics: string[];
+  learningOutcomes: string[];
+}
+interface ResourceItem {
+  title: string;
+  slug: string;
+  topic: string;
+  level: string;
+  format: string;
+}
+interface Props {
+  topics: TopicItem[];
+  resources: ResourceItem[];
+}
+
+const { topics, resources } = Astro.props;
+const modules = topics.map((topic) => ({
+  ...topic,
+  resource: resources.find((resource) => resource.topic === topic.title)
+}));
+const answerPool = topics.flatMap((topic) => topic.learningOutcomes.map((outcome) => ({ outcome, topic: topic.title })));
+---
+<section id="guided-learning" class="guided-learning py-16 sm:py-24" data-learning-path data-module-count={modules.length}>
+  <div class="container-shell">
+    <header class="learning-intro">
+      <div>
+        <p class="learning-label">Guided learning path</p>
+        <h2>Study one outcome at a time, then prove what you understood.</h2>
+      </div>
+      <p>Choose a lecturer topic, complete its checkpoints, and answer a content-based self-check. Progress stays on this device.</p>
+    </header>
+
+    {modules.length === 0 ? (
+      <div class="learning-state" role="status">
+        <strong>No learning modules are published yet.</strong>
+        <span>Use the resource library while the first guided module is prepared.</span>
+        <a href="/resources">Open resources</a>
+      </div>
+    ) : (
+      <div class="learning-workspace" data-learning-workspace hidden>
+        <nav class="module-rail" aria-label="Learning modules">
+          <p class="rail-title">Your modules</p>
+          {modules.map((module, index) => (
+            <button
+              type="button"
+              class="module-tab"
+              data-module-tab={module.slug}
+              aria-controls={`module-${module.slug}`}
+              aria-selected={index === 0 ? 'true' : 'false'}
+              role="tab"
+            >
+              <span class="module-index">{String(index + 1).padStart(2, '0')}</span>
+              <span>
+                <strong>{module.title}</strong>
+                <small data-module-progress={module.slug}>Not started</small>
+              </span>
+            </button>
+          ))}
+        </nav>
+
+        <div class="module-stage">
+          {modules.map((module, moduleIndex) => {
+            const correct = module.learningOutcomes[0];
+            const alternatives = answerPool.filter((item) => item.topic !== module.title).slice(moduleIndex, moduleIndex + 2);
+            const options = [correct, ...alternatives.map((item) => item.outcome)];
+            return (
+              <article
+                id={`module-${module.slug}`}
+                class="module-panel"
+                data-module-panel={module.slug}
+                role="tabpanel"
+                hidden={moduleIndex !== 0}
+              >
+                <div class="module-heading">
+                  <div>
+                    <p class="learning-label">{module.title}</p>
+                    <h3>{module.summary}</h3>
+                  </div>
+                  <a href={`/expertise/${module.slug}`}>Open topic reference</a>
+                </div>
+                <p class="module-purpose">{module.importance}</p>
+
+                <div class="checkpoint-layout">
+                  <section aria-labelledby={`checkpoints-${module.slug}`}>
+                    <div class="section-title-row">
+                      <h4 id={`checkpoints-${module.slug}`}>Learning checkpoints</h4>
+                      <span aria-live="polite" data-checkpoint-summary={module.slug}>0 complete</span>
+                    </div>
+                    <div class="checkpoint-list">
+                      {module.learningOutcomes.map((outcome, index) => (
+                        <label class="checkpoint-row">
+                          <input type="checkbox" data-checkpoint={module.slug} value={String(index)} />
+                          <span class="checkpoint-mark" aria-hidden="true"></span>
+                          <span>
+                            <strong>Checkpoint {index + 1}</strong>
+                            <small>{outcome}</small>
+                          </span>
+                        </label>
+                      ))}
+                    </div>
+                  </section>
+
+                  <aside class="practice-brief" aria-labelledby={`practice-${module.slug}`}>
+                    <h4 id={`practice-${module.slug}`}>Practice brief</h4>
+                    <p>Choose one subtopic and explain how it supports a listed learning outcome.</p>
+                    <label>
+                      <span>Subtopic</span>
+                      <select data-practice-topic={module.slug}>
+                        {module.subtopics.map((subtopic) => <option>{subtopic}</option>)}
+                      </select>
+                    </label>
+                    <label>
+                      <span>Your evidence note</span>
+                      <textarea
+                        rows="5"
+                        maxlength="600"
+                        data-practice-note={module.slug}
+                        placeholder="State the concept, connect it to an outcome, and name evidence you would inspect."
+                      ></textarea>
+                    </label>
+                    <p class="save-status" data-save-status={module.slug} aria-live="polite">Notes are saved on this device.</p>
+                    {module.resource ? (
+                      <a class="resource-link" href={`/resources/${module.resource.slug}`}>
+                        Continue with {module.resource.title} ({module.resource.format})
+                      </a>
+                    ) : (
+                      <p class="resource-empty">No matching resource is linked to this module yet.</p>
+                    )}
+                  </aside>
+                </div>
+
+                <section class="knowledge-check" aria-labelledby={`quiz-${module.slug}`} data-quiz={module.slug} data-answer={correct}>
+                  <div>
+                    <p class="learning-label">Knowledge check</p>
+                    <h4 id={`quiz-${module.slug}`}>Which outcome belongs to {module.title}?</h4>
+                  </div>
+                  <div class="quiz-options">
+                    {options.map((option) => (
+                      <button type="button" data-quiz-option={option}>{option}</button>
+                    ))}
+                  </div>
+                  <p class="quiz-result" data-quiz-result aria-live="polite">Choose one answer.</p>
+                </section>
+              </article>
+            );
+          })}
+        </div>
+      </div>
+    )}
+
+    <div class="learning-state" data-learning-loading role="status">
+      <strong>Restoring your learning progress...</strong>
+      <span>This takes place locally in your browser.</span>
+    </div>
+    <div class="learning-state learning-error" data-learning-error role="alert" hidden>
+      <strong>Progress could not be restored.</strong>
+      <span>You can still use every module. This session will not be saved.</span>
+      <button type="button" data-learning-retry>Try local storage again</button>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Astro checks markup scripts without browser-specific DOM inference.
+  // @ts-nocheck
+  const storageKey = 'hicall-guided-learning-v1';
+
+  document.querySelectorAll('[data-learning-path]').forEach((path) => {
+    const workspace = path.querySelector('[data-learning-workspace]');
+    const loading = path.querySelector('[data-learning-loading]');
+    const errorState = path.querySelector('[data-learning-error]');
+    const retry = path.querySelector('[data-learning-retry]');
+    const tabs = Array.from(path.querySelectorAll('[data-module-tab]'));
+    const panels = Array.from(path.querySelectorAll('[data-module-panel]'));
+    let state = { active: tabs[0]?.dataset.moduleTab || '', checkpoints: {}, notes: {}, practiceTopics: {}, quizzes: {} };
+    let canPersist = true;
+
+    const save = () => {
+      if (!canPersist) return;
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(state));
+      } catch {
+        canPersist = false;
+        errorState.hidden = false;
+      }
+    };
+
+    const progressFor = (slug) => {
+      const checks = Array.from(path.querySelectorAll(`[data-checkpoint="${slug}"]`));
+      const completed = checks.filter((check) => check.checked).length;
+      const total = checks.length;
+      const summary = path.querySelector(`[data-checkpoint-summary="${slug}"]`);
+      const rail = path.querySelector(`[data-module-progress="${slug}"]`);
+      if (summary) summary.textContent = `${completed} of ${total} complete`;
+      if (rail) rail.textContent = completed === 0 ? 'Not started' : completed === total ? 'Complete' : `${completed} of ${total}`;
+    };
+
+    const activate = (slug, focus = false) => {
+      state.active = slug;
+      tabs.forEach((tab) => {
+        const selected = tab.dataset.moduleTab === slug;
+        tab.setAttribute('aria-selected', String(selected));
+        tab.tabIndex = selected ? 0 : -1;
+        if (selected && focus) tab.focus();
+      });
+      panels.forEach((panel) => { panel.hidden = panel.dataset.modulePanel !== slug; });
+      save();
+    };
+
+    const restore = () => {
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
+        state = {
+          active: tabs.some((tab) => tab.dataset.moduleTab === saved.active) ? saved.active : state.active,
+          checkpoints: saved.checkpoints || {},
+          notes: saved.notes || {},
+          practiceTopics: saved.practiceTopics || {},
+          quizzes: saved.quizzes || {}
+        };
+        path.querySelectorAll('[data-checkpoint]').forEach((checkbox) => {
+          const slug = checkbox.dataset.checkpoint;
+          checkbox.checked = Boolean(state.checkpoints[slug]?.includes(checkbox.value));
+        });
+        path.querySelectorAll('[data-practice-note]').forEach((note) => { note.value = state.notes[note.dataset.practiceNote] || ''; });
+        path.querySelectorAll('[data-practice-topic]').forEach((select) => {
+          const savedTopic = state.practiceTopics[select.dataset.practiceTopic];
+          if (savedTopic) select.value = savedTopic;
+        });
+        tabs.forEach((tab) => progressFor(tab.dataset.moduleTab));
+        activate(state.active);
+        errorState.hidden = true;
+        loading.hidden = true;
+        if (workspace) workspace.hidden = false;
+      } catch {
+        canPersist = false;
+        loading.hidden = true;
+        errorState.hidden = false;
+        if (workspace) workspace.hidden = false;
+        activate(state.active);
+      }
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => activate(tab.dataset.moduleTab));
+      tab.addEventListener('keydown', (event) => {
+        if (!['ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+        event.preventDefault();
+        const backwards = event.key === 'ArrowUp' || event.key === 'ArrowLeft';
+        const nextIndex = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : (index + (backwards ? -1 : 1) + tabs.length) % tabs.length;
+        activate(tabs[nextIndex].dataset.moduleTab, true);
+      });
+    });
+
+    path.querySelectorAll('[data-checkpoint]').forEach((checkbox) => {
+      checkbox.addEventListener('change', () => {
+        const slug = checkbox.dataset.checkpoint;
+        state.checkpoints[slug] = Array.from(path.querySelectorAll(`[data-checkpoint="${slug}"]:checked`)).map((item) => item.value);
+        progressFor(slug);
+        save();
+      });
+    });
+
+    path.querySelectorAll('[data-practice-note]').forEach((note) => {
+      note.addEventListener('input', () => {
+        const slug = note.dataset.practiceNote;
+        state.notes[slug] = note.value;
+        const status = path.querySelector(`[data-save-status="${slug}"]`);
+        if (status) status.textContent = canPersist ? 'Saved on this device.' : 'This note is available for this session only.';
+        save();
+      });
+    });
+
+    path.querySelectorAll('[data-practice-topic]').forEach((select) => {
+      select.addEventListener('change', () => {
+        state.practiceTopics[select.dataset.practiceTopic] = select.value;
+        save();
+      });
+    });
+
+    path.querySelectorAll('[data-quiz]').forEach((quiz) => {
+      const result = quiz.querySelector('[data-quiz-result]');
+      quiz.querySelectorAll('[data-quiz-option]').forEach((option) => {
+        option.addEventListener('click', () => {
+          const correct = option.dataset.quizOption === quiz.dataset.answer;
+          quiz.querySelectorAll('[data-quiz-option]').forEach((button) => button.removeAttribute('data-selected'));
+          option.dataset.selected = correct ? 'correct' : 'incorrect';
+          result.textContent = correct ? 'Correct. This outcome is published in the selected topic.' : 'Not yet. Review the module checkpoints and choose again.';
+          state.quizzes[quiz.dataset.quiz] = { answer: option.dataset.quizOption, correct };
+          save();
+        });
+      });
+    });
+
+    retry?.addEventListener('click', () => {
+      canPersist = true;
+      restore();
+    });
+
+    if (Number(path.dataset.moduleCount) > 0) restore();
+    else loading.hidden = true;
+  });
+</script>
+
+<style>
+  .guided-learning {
+    color: #e2e8f0;
+  }
+  .learning-intro {
+    display: grid;
+    gap: 1.5rem;
+    align-items: end;
+    margin-bottom: 2rem;
+  }
+  .learning-intro h2 {
+    max-width: 18ch;
+    margin-top: 0.5rem;
+    color: #fff;
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    font-weight: 700;
+    line-height: 0.98;
+    letter-spacing: -0.035em;
+  }
+  .learning-intro > p {
+    max-width: 38rem;
+    line-height: 1.75;
+  }
+  .learning-label,
+  .rail-title {
+    color: #bac8ff;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .learning-workspace {
+    display: grid;
+    overflow: hidden;
+    border: 1px solid rgb(255 255 255 / 0.12);
+    border-radius: 1.25rem;
+    background: #071126;
+    box-shadow: 0 24px 70px rgb(2 6 23 / 0.34);
+  }
+  .module-rail {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(255 255 255 / 0.1);
+    background: #0b1730;
+  }
+  .rail-title { display: none; }
+  .module-tab {
+    display: flex;
+    flex: 0 0 min(18rem, 82vw);
+    min-height: 4.75rem;
+    align-items: center;
+    gap: 0.75rem;
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    color: #cbd5e1;
+    text-align: left;
+  }
+  .module-tab[aria-selected="true"] {
+    border-color: #748ffc;
+    background: #192755;
+    color: #fff;
+  }
+  .module-index {
+    font-family: ui-monospace, monospace;
+    color: #91a7ff;
+  }
+  .module-tab strong,
+  .module-tab small { display: block; }
+  .module-tab small { margin-top: 0.25rem; color: #94a3b8; }
+  .module-stage { min-width: 0; padding: clamp(1.25rem, 4vw, 3rem); }
+  .module-heading { display: flex; flex-wrap: wrap; align-items: start; justify-content: space-between; gap: 1.5rem; }
+  .module-heading h3 { max-width: 24ch; margin-top: 0.5rem; color: #fff; font-size: clamp(1.65rem, 4vw, 2.8rem); line-height: 1.08; }
+  .module-heading a,
+  .resource-link,
+  .learning-state a,
+  .learning-state button { min-height: 44px; border-radius: 0.65rem; padding: 0.75rem 1rem; background: #5567e8; color: #fff; font-weight: 700; }
+  .module-purpose { max-width: 72ch; margin-top: 1rem; color: #cbd5e1; line-height: 1.75; }
+  .checkpoint-layout { display: grid; gap: 1.5rem; margin-top: 2rem; }
+  .section-title-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem; margin-bottom: 1rem; }
+  .section-title-row h4,
+  .practice-brief h4,
+  .knowledge-check h4 { color: #fff; font-size: 1.2rem; font-weight: 700; }
+  .section-title-row span { color: #a5b4fc; font-size: 0.875rem; }
+  .checkpoint-list { display: grid; gap: 0.75rem; }
+  .checkpoint-row { display: grid; grid-template-columns: auto auto 1fr; min-height: 4.5rem; cursor: pointer; align-items: start; gap: 0.75rem; border: 1px solid rgb(255 255 255 / 0.1); border-radius: 0.75rem; padding: 1rem; background: #0d1a35; }
+  .checkpoint-row input { position: absolute; opacity: 0; }
+  .checkpoint-mark { width: 1.35rem; height: 1.35rem; border: 2px solid #64748b; border-radius: 0.25rem; }
+  .checkpoint-row input:checked + .checkpoint-mark { border-color: #f59e0b; background: #f59e0b; box-shadow: inset 0 0 0 3px #0d1a35; }
+  .checkpoint-row input:focus-visible + .checkpoint-mark { outline: 3px solid #f59e0b; outline-offset: 3px; }
+  .checkpoint-row strong,
+  .checkpoint-row small { display: block; }
+  .checkpoint-row small { margin-top: 0.35rem; color: #cbd5e1; line-height: 1.5; }
+  .practice-brief { border-radius: 0.9rem; padding: 1.25rem; background: #142044; }
+  .practice-brief > p { margin-top: 0.5rem; color: #cbd5e1; line-height: 1.6; }
+  .practice-brief label { display: grid; gap: 0.45rem; margin-top: 1rem; color: #e2e8f0; font-weight: 700; }
+  .practice-brief select,
+  .practice-brief textarea { width: 100%; border: 1px solid #64748b; border-radius: 0.6rem; background: #071126; color: #fff; padding: 0.75rem; font-size: 1rem; }
+  .save-status { font-size: 0.85rem; }
+  .resource-link { display: block; margin-top: 1rem; text-align: center; }
+  .resource-empty { border: 1px dashed #64748b; border-radius: 0.6rem; padding: 0.75rem; }
+  .knowledge-check { display: grid; gap: 1rem; margin-top: 2rem; border-top: 1px solid rgb(255 255 255 / 0.12); padding-top: 2rem; }
+  .knowledge-check h4 { margin-top: 0.45rem; }
+  .quiz-options { display: grid; gap: 0.65rem; }
+  .quiz-options button { min-height: 44px; border: 1px solid #64748b; border-radius: 0.6rem; padding: 0.8rem; color: #e2e8f0; text-align: left; }
+  .quiz-options button:hover { background: #142044; }
+  .quiz-options button[data-selected="correct"] { border-color: #34d399; background: rgb(16 185 129 / 0.13); }
+  .quiz-options button[data-selected="incorrect"] { border-color: #fb7185; background: rgb(244 63 94 / 0.12); }
+  .quiz-result { min-height: 1.5rem; color: #cbd5e1; }
+  .learning-state { display: grid; gap: 0.5rem; justify-items: start; border: 1px solid rgb(255 255 255 / 0.12); border-radius: 0.9rem; padding: 1.25rem; background: #0b1730; color: #cbd5e1; }
+  .learning-state strong { color: #fff; }
+  .learning-error { margin-top: 1rem; border-color: #fb7185; }
+  [hidden] { display: none !important; }
+  html:not(.dark) .guided-learning { color: #334155; }
+  html:not(.dark) .learning-intro h2,
+  html:not(.dark) .module-heading h3,
+  html:not(.dark) .section-title-row h4,
+  html:not(.dark) .practice-brief h4,
+  html:not(.dark) .knowledge-check h4 { color: #0f172a; }
+  html:not(.dark) .learning-workspace { border-color: #cbd5e1; background: #fff; box-shadow: 0 24px 70px rgb(15 23 42 / 0.1); }
+  html:not(.dark) .module-rail { border-color: #cbd5e1; background: #e8edff; }
+  html:not(.dark) .module-tab { color: #334155; }
+  html:not(.dark) .module-tab[aria-selected="true"] { background: #dbe4ff; color: #0f172a; }
+  html:not(.dark) .module-purpose,
+  html:not(.dark) .checkpoint-row small,
+  html:not(.dark) .practice-brief > p,
+  html:not(.dark) .quiz-result { color: #475569; }
+  html:not(.dark) .checkpoint-row { border-color: #cbd5e1; background: #f8fafc; }
+  html:not(.dark) .practice-brief { background: #eef2ff; }
+  html:not(.dark) .practice-brief label { color: #1e293b; }
+  html:not(.dark) .practice-brief select,
+  html:not(.dark) .practice-brief textarea { border-color: #64748b; background: #fff; color: #0f172a; }
+  html:not(.dark) .quiz-options button { border-color: #64748b; color: #1e293b; }
+  html:not(.dark) .learning-state { border-color: #cbd5e1; background: #eef2ff; color: #334155; }
+  html:not(.dark) .learning-state strong { color: #0f172a; }
+  @media (min-width: 64rem) {
+    .learning-intro { grid-template-columns: 1.15fr 0.85fr; }
+    .learning-workspace { grid-template-columns: 20rem minmax(0, 1fr); }
+    .module-rail { display: block; overflow: visible; padding: 1.25rem; border-right: 1px solid rgb(255 255 255 / 0.1); border-bottom: 0; }
+    .rail-title { display: block; padding: 0.75rem; }
+    .module-tab { width: 100%; margin-top: 0.5rem; }
+    .checkpoint-layout { grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.9fr); }
+    .knowledge-check { grid-template-columns: 0.8fr 1.2fr; }
+  }
+</style>

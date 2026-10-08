@@ -1,9 +1,19 @@
 import { chromium } from 'playwright';
 import { spawn } from 'node:child_process';
 import { mkdir } from 'node:fs/promises';
+import net from 'node:net';
 import process from 'node:process';
 
-const port = 4179;
+const reserveFreePort = () => new Promise((resolve, reject) => {
+  const probe = net.createServer();
+  probe.once('error', reject);
+  probe.listen(0, '127.0.0.1', () => {
+    const address = probe.address();
+    probe.close(() => resolve(address.port));
+  });
+});
+
+const port = Number(process.env.SMOKE_PORT || await reserveFreePort());
 const baseURL = `http://127.0.0.1:${port}`;
 const artifacts = new URL('../artifacts/', import.meta.url);
 await mkdir(artifacts, { recursive: true });
@@ -11,6 +21,7 @@ await mkdir(artifacts, { recursive: true });
 const server = spawn(process.execPath, ['./node_modules/vite/bin/vite.js', 'preview', '--host', '127.0.0.1', '--port', String(port)], {
   cwd: new URL('..', import.meta.url),
   stdio: ['ignore', 'pipe', 'pipe'],
+  detached: process.platform !== 'win32',
 });
 
 const waitForServer = async () => {
@@ -18,7 +29,9 @@ const waitForServer = async () => {
     try {
       const response = await fetch(baseURL);
       if (response.ok) return;
-    } catch {}
+    } catch {
+      // The preview process may still be starting.
+    }
     await new Promise(resolve => setTimeout(resolve, 200));
   }
   throw new Error('Vite preview did not become ready');
@@ -195,5 +208,10 @@ try {
   console.log('Dashboard smoke passed: daily and weekly desktop/mobile, light/dark, charts, relocation radar, PWA offline data, navigation, filters, and overflow.');
 } finally {
   if (browser) await browser.close();
-  server.kill('SIGTERM');
+  try {
+    if (process.platform === 'win32') server.kill('SIGTERM');
+    else process.kill(-server.pid, 'SIGTERM');
+  } catch {
+    server.kill('SIGTERM');
+  }
 }

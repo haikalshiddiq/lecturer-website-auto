@@ -1,7 +1,7 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis, Line, LineChart } from 'recharts';
-import { Activity, AlertTriangle, ArrowUpRight, BarChart3, Globe2, Moon, Newspaper, Radar, Sun, TrendingUp } from 'lucide-react';
+import { Activity, AlertTriangle, ArrowUpRight, BarChart3, Download, Globe2, Moon, Newspaper, Radar, RefreshCw, Sun, TrendingUp } from 'lucide-react';
 import '@fontsource/geist-sans/latin-400.css';
 import '@fontsource/geist-sans/latin-600.css';
 import '@fontsource/geist-sans/latin-700.css';
@@ -38,9 +38,8 @@ function AnimatedNumber({ value, duration = 600 }) {
 
   useEffect(() => {
     const start = performance.now();
-    const from = display || 0;
+    const from = 0;
     const to = typeof value === 'number' ? value : parseInt(value, 10) || 0;
-    if (from === to) { setDisplay(to); return; }
 
     const animate = (now) => {
       const elapsed = now - start;
@@ -127,19 +126,43 @@ function App() {
   const [usTicker, setUsTicker] = useState('');
   const [loadState, setLoadState] = useState({ status: 'loading', message: '' });
   const [theme, setTheme] = useState(() => document.documentElement.dataset.theme || 'light');
+  const [refreshKey, setRefreshKey] = useState(0);
+  const [installPrompt, setInstallPrompt] = useState(null);
+  const [online, setOnline] = useState(navigator.onLine);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
     document.documentElement.style.colorScheme = theme;
-    localStorage.setItem('indonesia-intel-theme', theme);
+    try { localStorage.setItem('indonesia-intel-theme', theme); } catch { /* Theme still applies when storage is unavailable. */ }
     const themeColor = document.querySelector('meta[name="theme-color"]');
     themeColor?.setAttribute('content', theme === 'dark' ? '#0b1120' : '#ffffff');
   }, [theme]);
 
   useEffect(() => {
+    const handleInstallPrompt = (event) => {
+      event.preventDefault();
+      setInstallPrompt(event);
+    };
+    const handleInstalled = () => setInstallPrompt(null);
+    const handleOnline = () => setOnline(true);
+    const handleOffline = () => setOnline(false);
+    window.addEventListener('beforeinstallprompt', handleInstallPrompt);
+    window.addEventListener('appinstalled', handleInstalled);
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    return () => {
+      window.removeEventListener('beforeinstallprompt', handleInstallPrompt);
+      window.removeEventListener('appinstalled', handleInstalled);
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
+
+  useEffect(() => {
     let cancelled = false;
     const load = async () => {
       try {
+        if (refreshKey > 0) setLoadState({ status: 'refreshing', message: 'Refreshing intelligence' });
         const resp = await fetch(`/data/news.json?v=${Date.now()}`, { cache: 'no-store' });
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         const payload = await resp.json();
@@ -147,6 +170,7 @@ function App() {
       } catch {
         try {
           const fallback = await fetch('/data/news.json');
+          if (!fallback.ok) throw new Error(`HTTP ${fallback.status}`);
           const payload = await fallback.json();
           if (!cancelled) { setData(payload); setLoadState({ status: 'cached', message: 'Showing cached data while refreshing globally' }); }
         } catch {
@@ -165,7 +189,14 @@ function App() {
       window.clearInterval(timer);
       document.removeEventListener('visibilitychange', refreshWhenVisible);
     };
-  }, []);
+  }, [refreshKey]);
+
+  const installApp = async () => {
+    if (!installPrompt) return;
+    await installPrompt.prompt();
+    await installPrompt.userChoice;
+    setInstallPrompt(null);
+  };
 
   const items = data?.items || [];
   const market = data?.marketInsights || {};
@@ -186,7 +217,7 @@ function App() {
     score: avg(items.filter(i => i.topic === t).map(i => i.score)),
     fill: topicColors[idx % topicColors.length],
   }));
-  const momentum = items.map((i, idx) => ({
+  const momentum = items.map(i => ({
     name: i.topic.split(' ')[0],
     score: Number((i.score * 100).toFixed(0)),
     confidence: Number((i.confidence * 100).toFixed(0)),
@@ -210,8 +241,24 @@ function App() {
 
   if (!data) {
     return (
-      <main className="statePage" aria-busy="true" aria-label="Loading dashboard">
-        <div className="loadingShell"><span /><span /><span /></div>
+      <main className="statePage" aria-busy="true" aria-live="polite" aria-label="Loading dashboard">
+        <div className="loadingShell">
+          <p>Loading the latest intelligence and market signals…</p>
+          <span /><span /><span />
+        </div>
+      </main>
+    );
+  }
+
+  if (items.length === 0) {
+    return (
+      <main className="statePage">
+        <div className="stateCard">
+          <Newspaper size={24} />
+          <h1>No intelligence items are available</h1>
+          <p>The feed loaded successfully but contains no publishable items. Refresh after the next scheduled collection.</p>
+          <button type="button" onClick={() => setRefreshKey(current => current + 1)}>Check for new data</button>
+        </div>
       </main>
     );
   }
@@ -242,6 +289,23 @@ function App() {
             {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
             <span>{theme === 'dark' ? 'Light' : 'Dark'}</span>
           </button>
+          <button
+            className="navControl"
+            type="button"
+            aria-label="Refresh intelligence data"
+            title="Refresh intelligence data"
+            disabled={loadState.status === 'refreshing'}
+            onClick={() => setRefreshKey(current => current + 1)}
+          >
+            <RefreshCw size={17} className={loadState.status === 'refreshing' ? 'spin' : ''} />
+            <span>Refresh</span>
+          </button>
+          {installPrompt && (
+            <button className="navControl installControl" type="button" onClick={installApp}>
+              <Download size={17} />
+              <span>Install</span>
+            </button>
+          )}
         </div>
       </nav>
       <main id="dashboard-content">
@@ -257,7 +321,7 @@ function App() {
           <span>Generated</span>
           <strong>{formatDate(data.generatedAt)}</strong>
           <small>{data.sentimentBasis}</small>
-          <em className={`sync ${loadState.status}`}>{loadState.message} · auto-refresh every 5 minutes</em>
+          <em className={`sync ${loadState.status}`} aria-live="polite">{online ? loadState.message : 'Offline mode'} · auto-refresh every 5 minutes</em>
         </div>
       </header>
 
@@ -279,7 +343,7 @@ function App() {
                 <p>{market.forexBasis}</p>
               </div>
               <div className="filters">
-                <select value={selectedForex?.pair || ''} onChange={e => setForexPair(e.target.value)}>
+                <select aria-label="Select currency pair" value={selectedForex?.pair || ''} onChange={e => setForexPair(e.target.value)}>
                   {forex.map(f => <option key={f.pair} value={f.pair}>{f.pair}</option>)}
                 </select>
               </div>
@@ -305,7 +369,7 @@ function App() {
           </Card>
 
           <Card className="marketCard">
-            <div className="sectionTitle"><Activity size={16} /> IDR exchanged to {selectedForex?.pair} — return trend</div>
+            <div className="sectionTitle"><Activity size={16} /> IDR exchanged to {selectedForex?.pair}: return trend</div>
             <p className="marketNote">
               Last IDR per 1 {selectedForex?.pair}: {money(selectedForex?.last)} · 1M return {pct(selectedForex?.return1m)} · 3M {pct(selectedForex?.return3m)} · 6M {pct(selectedForex?.return6m)} · vol {pct(selectedForex?.volatility)}
             </p>
@@ -334,7 +398,7 @@ function App() {
         <Card className="stockPanel">
           <div className="feedHead">
             <div>
-              <div className="sectionTitle"><Radar size={16} /> Potential cuan stock screen — red IHSG mode</div>
+              <div className="sectionTitle"><Radar size={16} /> Potential cuan stock screen: red IHSG mode</div>
               <p>{market.stockBasis}</p>
             </div>
           </div>
@@ -511,7 +575,7 @@ function App() {
             <p>Filter by topic or sentiment. Each item keeps the executive "why it matters" layer.</p>
           </div>
           <div className="filters">
-            <select value={topic} onChange={e => setTopic(e.target.value)}>
+            <select aria-label="Filter news by topic" value={topic} onChange={e => setTopic(e.target.value)}>
               <option>All</option>
               {topics.map(t => <option key={t}>{t}</option>)}
             </select>

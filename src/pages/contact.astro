@@ -146,7 +146,7 @@ const inquiryPresets = [
         const name = String(formData.get('name') || '').trim();
         const email = String(formData.get('email') || '').trim();
         const message = String(formData.get('message') || '').trim();
-        const subject = encodeURIComponent(`Lecturer website inquiry — ${name || 'Website visitor'}`);
+        const subject = encodeURIComponent(`Lecturer website inquiry: ${name || 'Website visitor'}`);
         const body = encodeURIComponent([
           `Name: ${name}`,
           `Email: ${email}`,

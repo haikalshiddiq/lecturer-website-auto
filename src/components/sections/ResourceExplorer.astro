@@ -1,5 +1,6 @@
 ---
 import ActionLink from '../ui/ActionLink.astro';
+import LearningVisual from '../learning/LearningVisual.astro';
 
 interface ResourceItem {
   title: string;
@@ -9,6 +10,7 @@ interface ResourceItem {
   level: string;
   format: string;
   tags: string[];
+  visualStyle?: 'system-map' | 'protocol-flow' | 'ai-lifecycle';
   downloadUrl?: string;
   ctaLabel?: string;
 }
@@ -17,50 +19,49 @@ interface Props {
   title?: string;
   description?: string;
 }
-const { resources, title = 'Interactive resource explorer', description = 'Filter by topic, preview the learning value, and open or download the most relevant material.' } = Astro.props;
+const { resources, title = 'Course materials', description = 'Filter by course, inspect the learning model, and open the material that fits your next study session.' } = Astro.props;
 const filters = ['All', 'Information System Management', 'Communication Protocol', 'Artificial Intelligence'];
 ---
-<section id="resource-explorer" class="py-20" data-resource-explorer>
+<section id="resource-explorer" class="resource-catalog" data-resource-explorer>
   <div class="container-shell">
-    <div class="max-w-3xl">
-      <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-200">Resource explorer</p>
-      <h2 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{title}</h2>
-      <p class="mt-4 text-base leading-8 text-slate-300">{description}</p>
-    </div>
-    <div class="mt-8 flex flex-wrap gap-3">
+    <header class="catalog-heading">
+      <p>Learning library</p>
+      <h2>{title}</h2>
+      <span>{description}</span>
+    </header>
+    <div class="catalog-toolbar" aria-label="Filter learning materials by course">
       {filters.map((filter, index) => (
-        <button
-          type="button"
-          data-resource-filter={filter}
-          aria-pressed={index === 0 ? 'true' : 'false'}
-          class={`rounded-full px-5 py-3 text-sm font-semibold transition ${index === 0 ? 'bg-white text-slate-950' : 'border border-white/10 bg-white/5 text-slate-100 hover:border-white/20 hover:bg-white/10'}`}
-        >
-          {filter}
-        </button>
+        <button type="button" data-resource-filter={filter} aria-pressed={index === 0 ? 'true' : 'false'}>{filter}</button>
       ))}
+      <output data-result-count aria-live="polite">{resources.length} materials</output>
     </div>
-    <div class="mt-10 grid gap-6 lg:grid-cols-3">
+    <div class="catalog-grid">
       {resources.map((resource) => (
-        <article data-resource-card={resource.topic} class="card-surface flex h-full flex-col p-6">
-          <div class="flex items-center justify-between gap-3 text-xs uppercase tracking-[0.24em] text-slate-400">
-            <span>{resource.topic}</span>
-            <span>{resource.format}</span>
-          </div>
-          <h3 class="mt-4 text-2xl font-semibold text-white">{resource.title}</h3>
-          <p class="mt-3 text-sm leading-7 text-slate-300">{resource.summary}</p>
-          <div class="mt-5 flex flex-wrap gap-2">
-            {resource.tags.slice(0, 3).map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
-          </div>
-          <div class="mt-6 flex items-center justify-between gap-3 text-sm text-slate-300">
-            <span>{resource.level}</span>
-            <span class="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-emerald-200">Ready to use</span>
-          </div>
-          <div class="mt-6 flex flex-wrap gap-3">
-            <ActionLink href={`/resources/${resource.slug}`} variant="brand" size="sm" lift={false}>Open</ActionLink>
-            {resource.downloadUrl && <ActionLink href={resource.downloadUrl} download variant="secondary" size="sm" lift={false}>{resource.ctaLabel ?? 'Download'}</ActionLink>}
+        <article data-resource-card={resource.topic} class="resource-card">
+          <LearningVisual
+            title={resource.title}
+            topic={resource.topic}
+            tags={resource.tags}
+            slug={resource.slug}
+            model={resource.visualStyle}
+            compact
+          />
+          <div class="resource-card__body">
+            <div class="resource-card__meta"><span>{resource.format}</span><span>{resource.level}</span></div>
+            <h3>{resource.title}</h3>
+            <p>{resource.summary}</p>
+            <ul aria-label="Material tags">{resource.tags.slice(0, 3).map((tag) => <li>{tag}</li>)}</ul>
+            <div class="resource-card__actions">
+              <ActionLink href={`/resources/${resource.slug}`} variant="brand" size="sm" lift={false}>Open lesson</ActionLink>
+              {resource.downloadUrl && <ActionLink href={resource.downloadUrl} download variant="secondary" size="sm" lift={false}>{resource.ctaLabel ?? 'Download'}</ActionLink>}
+            </div>
           </div>
         </article>
       ))}
+    </div>
+    <div class="catalog-empty" data-catalog-empty hidden>
+      <strong>No materials match this course.</strong>
+      <span>Choose All to return to the complete catalog.</span>
     </div>
   </div>
 
@@ -68,26 +69,55 @@ const filters = ['All', 'Information System Management', 'Communication Protocol
     document.querySelectorAll('[data-resource-explorer]').forEach((explorer) => {
       const buttons = Array.from(explorer.querySelectorAll('[data-resource-filter]'));
       const cards = Array.from(explorer.querySelectorAll('[data-resource-card]'));
+      const output = explorer.querySelector('[data-result-count]');
+      const empty = explorer.querySelector('[data-catalog-empty]');
       const applyFilter = (value) => {
-        buttons.forEach((button) => {
-          const active = button.dataset.resourceFilter === value;
-          button.setAttribute('aria-pressed', String(active));
-          button.classList.toggle('bg-white', active);
-          button.classList.toggle('text-slate-950', active);
-          button.classList.toggle('border', !active);
-          button.classList.toggle('border-white/10', !active);
-          button.classList.toggle('bg-white/5', !active);
-          button.classList.toggle('text-slate-100', !active);
-          button.classList.toggle('hover:border-white/20', !active);
-          button.classList.toggle('hover:bg-white/10', !active);
-        });
+        let visibleCount = 0;
+        buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.resourceFilter === value)));
         cards.forEach((card) => {
-          const topic = card.dataset.resourceCard;
-          const visible = value === 'All' || topic === value;
-          card.classList.toggle('hidden', !visible);
+          const visible = value === 'All' || card.dataset.resourceCard === value;
+          card.hidden = !visible;
+          if (visible) visibleCount += 1;
         });
+        output.textContent = `${visibleCount} ${visibleCount === 1 ? 'material' : 'materials'}`;
+        empty.hidden = visibleCount !== 0;
       };
       buttons.forEach((button) => button.addEventListener('click', () => applyFilter(button.dataset.resourceFilter)));
     });
   </script>
 </section>
+
+<style>
+  .resource-catalog { padding: 4rem 0 5rem; }
+  .catalog-heading { max-width: 52rem; }
+  .catalog-heading > p { margin: 0; color: #3154c8; font-size: 0.78rem; font-weight: 750; letter-spacing: 0.08em; text-transform: uppercase; }
+  .catalog-heading h2 { margin: 0.55rem 0 0; color: #0f172a; font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.05; letter-spacing: -0.04em; }
+  .catalog-heading span { display: block; max-width: 62ch; margin-top: 1rem; color: #475569; line-height: 1.7; }
+  .catalog-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 2rem; border-block: 1px solid #cbd5e1; padding: 0.8rem 0; }
+  .catalog-toolbar button { min-height: 44px; border: 1px solid transparent; border-radius: 0.55rem; padding: 0.55rem 0.85rem; color: #475569; font-weight: 700; }
+  .catalog-toolbar button[aria-pressed='true'] { border-color: #3154c8; background: #e5eaff; color: #2346bd; }
+  .catalog-toolbar output { margin-left: auto; color: #64748b; font-size: 0.85rem; }
+  .catalog-grid { display: grid; gap: 1.25rem; margin-top: 1.5rem; }
+  .resource-card { min-width: 0; overflow: hidden; border: 1px solid #cbd5e1; border-radius: 1rem; background: rgb(255 255 255 / 0.88); }
+  .resource-card :global(.learning-visual) { border: 0; border-bottom: 1px solid #cbd5e1; border-radius: 0; }
+  .resource-card__body { padding: 1.25rem; }
+  .resource-card__meta { display: flex; justify-content: space-between; gap: 1rem; color: #64748b; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; }
+  .resource-card h3 { margin: 0.65rem 0 0; color: #0f172a; font-size: 1.35rem; line-height: 1.2; }
+  .resource-card p { margin: 0.75rem 0 0; color: #475569; font-size: 0.9rem; line-height: 1.65; }
+  .resource-card ul { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 1rem 0 0; padding: 0; list-style: none; }
+  .resource-card li { border: 1px solid #cbd5e1; border-radius: 0.35rem; padding: 0.25rem 0.45rem; color: #475569; font-size: 0.72rem; }
+  .resource-card__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.25rem; }
+  .catalog-empty { margin-top: 1.5rem; border: 1px dashed #94a3b8; padding: 1.5rem; color: #475569; }
+  .catalog-empty strong, .catalog-empty span { display: block; }
+  .catalog-empty strong { color: #0f172a; }
+  .catalog-empty span { margin-top: 0.35rem; }
+  html.dark .catalog-heading h2, html.dark .resource-card h3, html.dark .catalog-empty strong { color: #f8fafc; }
+  html.dark .catalog-heading span, html.dark .resource-card p { color: #cbd5e1; }
+  html.dark .catalog-heading > p { color: #95b3ff; }
+  html.dark .catalog-toolbar, html.dark .resource-card, html.dark .resource-card :global(.learning-visual), html.dark .resource-card li { border-color: #334155; }
+  html.dark .resource-card { background: rgb(15 23 42 / 0.88); }
+  html.dark .catalog-toolbar button[aria-pressed='true'] { border-color: #95b3ff; background: #24304a; color: #dbe5ff; }
+  @media (min-width: 760px) { .catalog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 1180px) { .catalog-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 639px) { .catalog-toolbar output { width: 100%; margin-left: 0; padding-top: 0.4rem; } }
+</style>

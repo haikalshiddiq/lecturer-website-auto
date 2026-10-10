@@ -1,0 +1,166 @@
+---
+type Topic = 'Information System Management' | 'Communication Protocol' | 'Artificial Intelligence';
+type VisualModel = 'system-map' | 'protocol-flow' | 'ai-lifecycle';
+
+interface Props {
+  title: string;
+  topic: Topic | string;
+  tags?: string[];
+  slug: string;
+  model?: VisualModel;
+  compact?: boolean;
+}
+
+const { title, topic, tags = [], slug, model, compact = false } = Astro.props;
+const topicModel: Record<string, VisualModel> = {
+  'Information System Management': 'system-map',
+  'Communication Protocol': 'protocol-flow',
+  'Artificial Intelligence': 'ai-lifecycle'
+};
+const resolvedModel = model ?? topicModel[topic] ?? 'system-map';
+const seed = [...`${slug}:${title}`].reduce((total, character) => (total * 31 + character.charCodeAt(0)) % 997, 17);
+const focusIndex = seed % 3;
+const safeId = `learning-visual-${slug.replace(/[^a-z0-9-]/gi, '-')}-${seed}`;
+const contextLabels = [...tags, ...title.split(/\s+/)].filter((item, index, items) => item.length > 3 && items.indexOf(item) === index).slice(0, 3);
+const labels = contextLabels.length ? contextLabels : ['concept', 'evidence', 'application'];
+const descriptions: Record<VisualModel, string> = {
+  'system-map': `A service management map for ${title}, showing inputs moving through governance, delivery, and measurement.`,
+  'protocol-flow': `A protocol exchange for ${title}, showing a request, verification boundary, and response path.`,
+  'ai-lifecycle': `An AI lifecycle for ${title}, showing data, model evaluation, and human release review.`
+};
+---
+<figure
+  class:list={['learning-visual', `learning-visual--${resolvedModel}`, { 'learning-visual--compact': compact }]}
+  data-learning-visual
+  data-visual-model={resolvedModel}
+  data-visual-topic={topic}
+>
+  <svg viewBox="0 0 720 360" role="img" aria-labelledby={`${safeId}-title ${safeId}-desc`}>
+    <title id={`${safeId}-title`}>{topic}: {title}</title>
+    <desc id={`${safeId}-desc`}>{descriptions[resolvedModel]}</desc>
+
+    {resolvedModel === 'system-map' && (
+      <g>
+        <path class="visual-connector" d="M108 180H266M454 180H612" />
+        <path class="visual-connector visual-connector--branch" d="M360 119V72M360 241V288" />
+        {['INPUT', 'GOVERN', 'OUTCOME'].map((label, index) => (
+          <g class:list={['visual-node', { 'is-focus': focusIndex === index }]} transform={`translate(${42 + index * 252} 132)`}>
+            <rect width="174" height="96" rx="12" />
+            <text x="18" y="32" class="visual-node__step">{label}</text>
+            <text x="18" y="64" class="visual-node__label">{labels[index] ?? labels[0]}</text>
+          </g>
+        ))}
+        <g class="visual-satellite" transform="translate(284 34)">
+          <rect width="152" height="48" rx="8" />
+          <text x="76" y="30" text-anchor="middle">policy</text>
+        </g>
+        <g class="visual-satellite" transform="translate(284 278)">
+          <rect width="152" height="48" rx="8" />
+          <text x="76" y="30" text-anchor="middle">evidence loop</text>
+        </g>
+      </g>
+    )}
+
+    {resolvedModel === 'protocol-flow' && (
+      <g>
+        <g class="visual-endpoint" transform="translate(38 116)">
+          <rect width="146" height="128" rx="12" />
+          <circle cx="73" cy="44" r="16" />
+          <text x="73" y="86" text-anchor="middle">CLIENT</text>
+          <text x="73" y="108" text-anchor="middle" class="visual-small">{labels[0]}</text>
+        </g>
+        <g class="visual-endpoint" transform="translate(536 116)">
+          <rect width="146" height="128" rx="12" />
+          <path d="M53 36h40v32H53zM45 76h56" />
+          <text x="73" y="96" text-anchor="middle">SERVICE</text>
+          <text x="73" y="116" text-anchor="middle" class="visual-small">{labels[2] ?? labels[0]}</text>
+        </g>
+        <rect class="visual-boundary" x="319" y="54" width="82" height="252" rx="12" />
+        <text x="360" y="84" text-anchor="middle" class="visual-boundary__label">VERIFY</text>
+        {[0, 1, 2].map((index) => {
+          const outbound = index !== 2;
+          const y = 126 + index * 54;
+          return (
+            <g class:list={['visual-packet', { 'is-focus': focusIndex === index }]}>
+              <path d={outbound ? `M184 ${y}H536` : `M536 ${y}H184`} />
+              <rect x={outbound ? 238 : 426} y={y - 18} width="102" height="34" rx="7" />
+              <text x={outbound ? 289 : 477} y={y + 4} text-anchor="middle">{labels[index] ?? `frame ${index + 1}`}</text>
+            </g>
+          );
+        })}
+      </g>
+    )}
+
+    {resolvedModel === 'ai-lifecycle' && (
+      <g>
+        <path class="visual-connector" d="M172 180H274M446 180H548" />
+        <path class="visual-feedback" d="M610 246C574 318 170 318 110 246" />
+        {[
+          { x: 46, label: 'DATA', sub: labels[0] },
+          { x: 274, label: 'EVALUATE', sub: labels[1] ?? labels[0] },
+          { x: 502, label: 'REVIEW', sub: labels[2] ?? labels[0] }
+        ].map((item, index) => (
+          <g class:list={['visual-node', { 'is-focus': focusIndex === index }]} transform={`translate(${item.x} 124)`}>
+            <rect width="172" height="112" rx="12" />
+            <text x="86" y="42" text-anchor="middle" class="visual-node__step">{item.label}</text>
+            <text x="86" y="73" text-anchor="middle" class="visual-node__label">{item.sub}</text>
+            {index === 1 && <path class="visual-gauge" d="M44 91h84M44 91h52" />}
+            {index === 2 && <path class="visual-check" d="m72 91 10 10 22-25" />}
+          </g>
+        ))}
+        <text x="360" y="324" text-anchor="middle" class="visual-feedback__label">human feedback</text>
+      </g>
+    )}
+  </svg>
+  <figcaption>
+    <span>{topic}</span>
+    <strong>{resolvedModel === 'system-map' ? 'Service decision map' : resolvedModel === 'protocol-flow' ? 'Exchange trace' : 'Evaluation lifecycle'}</strong>
+  </figcaption>
+</figure>
+
+<style>
+  .learning-visual {
+    --visual-accent: #3154c8;
+    --visual-accent-soft: #e5eaff;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #cbd5e1;
+    border-radius: 1rem;
+    background: #f8fafc;
+    color: #172033;
+  }
+  .learning-visual--protocol-flow { --visual-accent: #08776e; --visual-accent-soft: #d9f3ef; }
+  .learning-visual--ai-lifecycle { --visual-accent: #a04418; --visual-accent-soft: #ffeadc; }
+  .learning-visual svg { display: block; width: 100%; height: auto; min-width: 0; }
+  .learning-visual figcaption { display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-top: 1px solid #cbd5e1; padding: 0.75rem 1rem; font-size: 0.75rem; }
+  .learning-visual figcaption span { color: #475569; }
+  .learning-visual figcaption strong { color: var(--visual-accent); }
+  .visual-connector, .visual-feedback, .visual-packet path { fill: none; stroke: var(--visual-accent); stroke-width: 3; }
+  .visual-connector--branch { stroke-dasharray: 6 6; }
+  .visual-node rect, .visual-endpoint rect { fill: #fff; stroke: #94a3b8; stroke-width: 2; }
+  .visual-node.is-focus rect, .visual-packet.is-focus rect { fill: var(--visual-accent-soft); stroke: var(--visual-accent); stroke-width: 3; }
+  .visual-node text, .visual-endpoint text, .visual-packet text, .visual-satellite text { fill: #172033; font-family: inherit; }
+  .visual-node__step, .visual-boundary__label { fill: var(--visual-accent); font-size: 14px; font-weight: 750; letter-spacing: 0.08em; }
+  .visual-node__label { font-size: 16px; font-weight: 650; }
+  .visual-satellite rect { fill: var(--visual-accent-soft); stroke: var(--visual-accent); }
+  .visual-satellite text, .visual-small, .visual-packet text { font-size: 13px; }
+  .visual-endpoint circle, .visual-endpoint path { fill: none; stroke: var(--visual-accent); stroke-width: 3; }
+  .visual-boundary { fill: var(--visual-accent-soft); stroke: var(--visual-accent); stroke-dasharray: 7 6; }
+  .visual-packet rect { fill: #fff; stroke: var(--visual-accent); }
+  .visual-feedback { stroke-dasharray: 8 7; }
+  .visual-feedback__label { fill: var(--visual-accent); font-size: 13px; font-weight: 650; }
+  .visual-gauge { fill: none; stroke: #cbd5e1; stroke-width: 6; }
+  .visual-gauge + path, .visual-check { fill: none; stroke: var(--visual-accent); stroke-width: 5; }
+  .learning-visual--compact figcaption { padding-block: 0.55rem; }
+  html.dark .learning-visual { border-color: #334155; background: #111b2e; color: #e2e8f0; }
+  html.dark .learning-visual figcaption { border-color: #334155; }
+  html.dark .learning-visual figcaption span { color: #cbd5e1; }
+  html.dark .visual-node rect, html.dark .visual-endpoint rect, html.dark .visual-packet rect { fill: #172033; stroke: #64748b; }
+  html.dark .visual-node.is-focus rect, html.dark .visual-packet.is-focus rect, html.dark .visual-satellite rect, html.dark .visual-boundary { fill: #24304a; stroke: #95b3ff; }
+  html.dark .visual-node text, html.dark .visual-endpoint text, html.dark .visual-packet text, html.dark .visual-satellite text { fill: #f8fafc; }
+  html.dark .visual-node__step, html.dark .visual-boundary__label, html.dark .visual-feedback__label, html.dark .learning-visual figcaption strong { fill: #95b3ff; color: #95b3ff; }
+  html.dark .visual-connector, html.dark .visual-feedback, html.dark .visual-packet path, html.dark .visual-endpoint circle, html.dark .visual-endpoint path, html.dark .visual-check { stroke: #95b3ff; }
+  @media (max-width: 520px) {
+    .learning-visual figcaption { align-items: flex-start; flex-direction: column; gap: 0.2rem; }
+  }
+</style>

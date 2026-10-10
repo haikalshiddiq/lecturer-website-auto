@@ -12,7 +12,7 @@ interface Props {
 const { title, year, type, topic, summary, status, href, tags = [] } = Astro.props;
 ---
 <div class="card-surface group relative h-full overflow-hidden p-6 transition duration-300 hover:-translate-y-1.5 hover:border-brand-400/40 hover:shadow-[0_30px_80px_rgba(45,82,216,0.16)]">
-  <div class="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-brand-300/70 to-transparent opacity-0 transition duration-300 group-hover:opacity-100"></div>
+  <div class="absolute inset-x-6 top-0 h-px bg-brand-300/70 opacity-0 transition duration-300 group-hover:opacity-100"></div>
   <div class="flex items-center justify-between gap-3">
     <p class="text-xs uppercase tracking-[0.25em] text-brand-200">{type}</p>
     <p class="text-sm text-slate-400">{year}</p>

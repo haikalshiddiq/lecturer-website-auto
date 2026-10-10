@@ -29,7 +29,7 @@ const posts = await getBlogPosts();
 const topicCoverage = buildTopicCoverage({ topics: topicLinks, posts, resources, publications });
 ---
 <BaseLayout>
-  <Hero />
+  <Hero topics={topicLinks} resources={resources} />
   <LatestTeachingUpdate post={posts[0]} />
   <StatsBand topicsCount={topics.length} resourcesCount={resources.length} postsCount={posts.length} />
   <GuidedLearningPath topics={topicLinks} resources={resources} />

@@ -6,6 +6,11 @@ const queueDir = path.resolve(process.cwd(), 'automation/daily-content-queue');
 const publishedDir = path.join(queueDir, 'published');
 const today = process.env.DAILY_CONTENT_DATE || new Date().toISOString().slice(0, 10);
 const dryRun = process.env.DAILY_CONTENT_DRY_RUN === '1';
+const visualStyleByTopic = {
+  'Information System Management': 'system-map',
+  'Communication Protocol': 'protocol-flow',
+  'Artificial Intelligence': 'ai-lifecycle'
+};
 
 function listQueueFiles() {
   if (!fs.existsSync(queueDir)) return [];
@@ -28,7 +33,8 @@ function buildTargetFrontmatter(data) {
     topic: data.topic,
     publishedAt: publishDate,
     featured: Boolean(data.featured),
-    tags: Array.isArray(data.tags) ? data.tags : []
+    tags: Array.isArray(data.tags) ? data.tags : [],
+    visualStyle: data.visualStyle || visualStyleByTopic[data.topic] || 'system-map'
   };
 
   if (data.targetCollection === 'blog') {

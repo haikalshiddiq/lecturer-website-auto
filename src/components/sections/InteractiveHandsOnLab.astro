@@ -24,7 +24,7 @@ const labs: Record<string, Lab> = {
     runtimeId: 'ism',
     eyebrow: 'Information System Management Interactive Lab',
     title: 'AI Incident Intelligence Dashboard Studio',
-    duration: '120–150 minutes',
+    duration: '120-150 minutes',
     scenario: 'Students act as a crisis analytics cell for a national digital-service outage. They convert fragmented reports, event logs, source credibility scores, and recovery decisions into a management-ready incident intelligence dashboard.',
     outcomes: [
       'Separate operational facts, uncertain claims, and executive assumptions during an incident.',
@@ -40,7 +40,7 @@ const labs: Record<string, Lab> = {
         steps: [
           'Classify each claim as confirmed, likely, disputed, or unknown.',
           'Assign source type: government, vendor, media, social, internal operations, or academic.',
-          'Score credibility from 1–5 using authority, recency, specificity, and corroboration.',
+          'Score credibility from 1-5 using authority, recency, specificity, and corroboration.',
           'Write one AI prompt that asks for a summary but forces citation of claim IDs.'
         ],
         evidence: 'Evidence register with at least 10 claims, credibility score, and decision status.'
@@ -121,7 +121,7 @@ const labs: Record<string, Lab> = {
     runtimeId: 'protocol',
     eyebrow: 'Communication Protocol Interactive Lab',
     title: 'Wireshark + IoT Protocol Reliability Lab',
-    duration: '120–180 minutes',
+    duration: '120-180 minutes',
     scenario: 'Students troubleshoot an Indonesian smart-agriculture sensor network where soil-moisture alerts arrive late or disappear. They inspect DNS, TCP, UDP, HTTP, TLS, and MQTT evidence and recommend protocol changes.',
     outcomes: [
       'Read packet-level evidence instead of memorising protocol definitions.',
@@ -198,7 +198,7 @@ const labs: Record<string, Lab> = {
     runtimeId: 'ai',
     eyebrow: 'Artificial Intelligence Interactive Lab',
     title: 'Responsible RAG Chatbot Evaluation Studio',
-    duration: '150–180 minutes',
+    duration: '150-180 minutes',
     scenario: 'Students build and evaluate a university-policy assistant that must answer only from provided policy snippets. The focus is not just making a chatbot work, but proving citation quality, refusal behavior, and hallucination controls.',
     outcomes: [
       'Explain the RAG pipeline: chunking, embeddings, retrieval, generation, citation, and evaluation.',
@@ -276,7 +276,7 @@ const lab = labs[slug as string];
 ---
 {lab && (
   <section class="interactive-lab mb-8 overflow-hidden rounded-[2rem] border border-cyan-300/20 bg-slate-950/80 shadow-2xl shadow-cyan-950/40">
-    <div class="relative border-b border-white/10 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.25),transparent_35%),linear-gradient(135deg,rgba(15,23,42,0.95),rgba(30,41,59,0.85))] p-8">
+    <div class="relative border-b border-white/10 bg-slate-900 p-8">
       <p class="text-xs font-bold uppercase tracking-[0.35em] text-cyan-200">{lab.eyebrow}</p>
       <h2 class="mt-3 text-3xl font-black text-white md:text-5xl">{lab.title}</h2>
       <p class="mt-4 max-w-4xl text-base leading-8 text-slate-200">{lab.scenario}</p>
@@ -333,7 +333,7 @@ const lab = labs[slug as string];
             ))}
           </div>
           <div class="mt-5 h-3 overflow-hidden rounded-full bg-slate-800">
-            <div class="lab-progress h-full w-0 rounded-full bg-gradient-to-r from-cyan-400 to-emerald-400 transition-all" data-lab={lab.slug}></div>
+            <div class="lab-progress h-full w-0 rounded-full bg-cyan-400 transition-all" data-lab={lab.slug}></div>
           </div>
           <p class="lab-progress-label mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400" data-lab={lab.slug}>0% checked</p>
         </div>
@@ -553,7 +553,7 @@ const lab = labs[slug as string];
         option.classList.add(correct ? 'border-emerald-300/70' : 'border-rose-300/70');
         feedback.classList.remove('hidden', 'bg-emerald-400/10', 'text-emerald-100', 'bg-rose-400/10', 'text-rose-100');
         feedback.classList.add(correct ? 'bg-emerald-400/10' : 'bg-rose-400/10', correct ? 'text-emerald-100' : 'text-rose-100');
-        feedback.textContent = correct ? 'Correct — this answer is supported by the lab logic.' : `Not quite. Best answer: ${answer}`;
+        feedback.textContent = correct ? 'Correct. This answer is supported by the lab logic.' : `Not quite. Best answer: ${answer}`;
       });
     });
   });

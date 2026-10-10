@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import LearningVisual from '../../components/learning/LearningVisual.astro';
 import { toSlug } from '../../lib/content';
 
 export async function getStaticPaths() {
@@ -13,31 +14,130 @@ const posts = await getCollection('blog');
 const entry = posts.find((item) => toSlug(item.id) === slug);
 if (!entry) throw new Error(`Blog post not found: ${slug}`);
 const { Content } = await render(entry);
-const formattedDate = entry.data.publishedAt.toLocaleDateString('en-US', {
-  day: 'numeric',
-  month: 'long',
-  year: 'numeric'
-});
+const formattedDate = entry.data.publishedAt.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 <BaseLayout title={`${entry.data.title} | Blog`} description={entry.data.summary}>
-  <section class="py-24">
-    <div class="container-shell max-w-4xl">
-      <article class="card-surface p-8 sm:p-10">
-        <div class="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.25em] text-slate-400">
-          <span>Blog</span>
-          <span>•</span>
-          <time datetime={entry.data.publishedAt.toISOString()}>{formattedDate}</time>
+  <div class="lesson-note" data-lms-workspace data-lesson-slug={slug} data-lesson-kind="blog">
+    <div class="container-shell">
+      <nav class="note-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Academy</a><span aria-hidden="true">/</span><a href="/blog">Lesson notes</a><span aria-hidden="true">/</span><span aria-current="page">{entry.data.title}</span>
+      </nav>
+
+      <header class="note-header">
+        <div>
+          <p>{entry.data.topic}</p>
+          <h1>{entry.data.title}</h1>
+          <span>{entry.data.summary}</span>
+          <div class="note-meta"><time datetime={entry.data.publishedAt.toISOString()}>{formattedDate}</time><span>Lesson note</span></div>
         </div>
-        <div class="mt-5 flex flex-wrap gap-2">
-          <span class="rounded-full border border-brand-300/30 bg-brand-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-100">{entry.data.topic}</span>
-          {entry.data.tags.map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
-        </div>
-        <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{entry.data.title}</h1>
-        <p class="mt-5 text-base leading-8 text-slate-300">{entry.data.summary}</p>
-        <div class="prose-invert-custom mt-10">
-          <Content />
-        </div>
-      </article>
+        <LearningVisual title={entry.data.title} topic={entry.data.topic} tags={entry.data.tags} slug={slug} model={entry.data.visualStyle} />
+      </header>
+
+      <div class="note-layout">
+        <aside class="note-navigation" aria-label="Lesson note navigation">
+          <p>Learning metadata</p>
+          <dl>
+            <div><dt>Course</dt><dd>{entry.data.topic}</dd></div>
+            <div><dt>Focus</dt><dd>{entry.data.tags.slice(0, 2).join(', ')}</dd></div>
+            <div><dt>Activity</dt><dd>Read, connect, apply</dd></div>
+          </dl>
+          <div data-learning-progress>
+            <span data-note-status>Not yet reviewed</span>
+            <progress max="1" value="0" aria-label="Lesson note completion"></progress>
+          </div>
+          <a href="#apply-note">Jump to application prompt</a>
+        </aside>
+
+        <article class="note-content">
+          <div class="note-content__intro">
+            <span>Learn</span>
+            <h2>Read with the model in view</h2>
+            <p>Use the visual as a map for the concepts, evidence, and decisions described in this note.</p>
+          </div>
+          <div class="prose-invert-custom"><Content /></div>
+          <section id="apply-note" class="application-prompt">
+            <span>Apply</span>
+            <h2>Turn the note into a classroom decision</h2>
+            <ol>
+              <li>Choose one concept from the note.</li>
+              <li>Name an artifact that would make it observable.</li>
+              <li>Write the next action and how you would verify it.</li>
+            </ol>
+          </section>
+          <button type="button" data-note-complete>Mark lesson note as reviewed</button>
+          <p class="note-completion" data-note-completion role="status" aria-live="polite"></p>
+        </article>
+      </div>
     </div>
-  </section>
+  </div>
+
+  <script is:inline>
+    document.querySelectorAll('[data-lms-workspace][data-lesson-kind="blog"]').forEach((workspace) => {
+      const key = `hicall-blog-progress-v1:${workspace.dataset.lessonSlug}`;
+      const button = workspace.querySelector('[data-note-complete]');
+      const status = workspace.querySelector('[data-note-status]');
+      const progress = workspace.querySelector('progress');
+      const message = workspace.querySelector('[data-note-completion]');
+      let complete = false;
+      try { complete = localStorage.getItem(key) === 'complete'; } catch { status.textContent = 'Progress is available for this session'; }
+      const render = () => {
+        progress.value = complete ? 1 : 0;
+        status.textContent = complete ? 'Reviewed' : 'Not yet reviewed';
+        button.textContent = complete ? 'Lesson note reviewed' : 'Mark lesson note as reviewed';
+        button.setAttribute('aria-pressed', String(complete));
+      };
+      button.addEventListener('click', () => {
+        complete = true;
+        try {
+          localStorage.setItem(key, 'complete');
+          localStorage.setItem('hicall-last-lesson-v1', JSON.stringify({ title: workspace.querySelector('h1').textContent, href: location.pathname, completed: true }));
+        } catch { status.textContent = 'Progress could not be saved'; }
+        render();
+        message.textContent = 'Review saved. Return to the lesson library when you are ready for another topic.';
+      });
+      render();
+    });
+  </script>
 </BaseLayout>
+
+<style>
+  .lesson-note { padding: 1.5rem 0 5rem; }
+  .note-breadcrumb { display: flex; flex-wrap: wrap; gap: 0.55rem; padding: 1rem 0; color: #64748b; font-size: 0.82rem; }
+  .note-breadcrumb a { color: #3154c8; }
+  .note-header { display: grid; gap: 1.25rem; align-items: center; border-block: 1px solid #cbd5e1; padding: 2rem 0; }
+  .note-header > div { min-width: 0; }
+  .note-header p, .note-content__intro > span, .application-prompt > span, .note-navigation > p { margin: 0; color: #3154c8; font-size: 0.78rem; font-weight: 750; letter-spacing: 0.08em; text-transform: uppercase; }
+  .note-header h1 { max-width: 19ch; margin: 0.65rem 0 0; color: #0f172a; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.02; letter-spacing: -0.045em; }
+  .note-header > div > span { display: block; max-width: 62ch; margin-top: 1rem; color: #475569; line-height: 1.7; }
+  .note-meta { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.25rem; color: #64748b; font-size: 0.85rem; }
+  .note-layout { display: grid; gap: 1.5rem; margin-top: 1.5rem; }
+  .note-navigation, .note-content { border: 1px solid #cbd5e1; border-radius: 0.9rem; background: rgb(255 255 255 / 0.9); }
+  .note-navigation { align-self: start; padding: 1rem; }
+  .note-navigation dl { display: grid; gap: 0.9rem; margin: 1rem 0; }
+  .note-navigation dt { color: #64748b; font-size: 0.72rem; text-transform: uppercase; }
+  .note-navigation dd { margin: 0.2rem 0 0; color: #0f172a; font-size: 0.88rem; font-weight: 700; }
+  .note-navigation [data-learning-progress] { display: grid; gap: 0.45rem; border-block: 1px solid #cbd5e1; padding: 1rem 0; color: #475569; font-size: 0.85rem; }
+  .note-navigation progress { width: 100%; accent-color: #3154c8; }
+  .note-navigation a { display: inline-flex; min-height: 44px; align-items: center; margin-top: 0.7rem; color: #2346bd; font-weight: 700; }
+  .note-content { min-width: 0; padding: clamp(1.25rem, 4vw, 2.75rem); }
+  .note-content__intro { border-bottom: 1px solid #cbd5e1; margin-bottom: 2rem; padding-bottom: 1.25rem; }
+  .note-content__intro h2, .application-prompt h2 { margin: 0.45rem 0 0; color: #0f172a; font-size: clamp(1.7rem, 4vw, 2.4rem); }
+  .note-content__intro p { max-width: 62ch; margin: 0.6rem 0 0; color: #475569; line-height: 1.65; }
+  .application-prompt { margin-top: 2.5rem; border: 1px solid #d7a17f; border-radius: 0.75rem; background: #fff7ed; padding: 1.5rem; scroll-margin-top: 6rem; }
+  .application-prompt li { margin-top: 0.65rem; color: #475569; line-height: 1.6; }
+  .note-content > button { min-height: 44px; margin-top: 1.5rem; border-radius: 0.55rem; background: #3154c8; padding: 0.7rem 1rem; color: #fff; font-weight: 750; }
+  .note-content > button[aria-pressed='true'] { background: #e5eaff; color: #2346bd; }
+  .note-completion { color: #475569; }
+  html.dark .note-header, html.dark .note-navigation, html.dark .note-content, html.dark .note-navigation [data-learning-progress], html.dark .note-content__intro { border-color: #334155; }
+  html.dark .note-header h1, html.dark .note-navigation dd, html.dark .note-content__intro h2, html.dark .application-prompt h2 { color: #f8fafc; }
+  html.dark .note-header > div > span, html.dark .note-content__intro p, html.dark .application-prompt li { color: #cbd5e1; }
+  html.dark .note-header p, html.dark .note-content__intro > span, html.dark .application-prompt > span, html.dark .note-navigation > p, html.dark .note-breadcrumb a { color: #95b3ff; }
+  html.dark .note-navigation, html.dark .note-content { background: rgb(15 23 42 / 0.9); }
+  html.dark .application-prompt { border-color: #a04418; background: #2b1a13; }
+  html.dark .note-content > button[aria-pressed='true'] { background: #24304a; color: #dbe5ff; }
+  @media (min-width: 960px) {
+    .note-header { grid-template-columns: minmax(0, 1fr) minmax(380px, 0.82fr); }
+    .note-layout { grid-template-columns: 15rem minmax(0, 1fr); }
+    .note-navigation { position: sticky; top: 6rem; }
+  }
+</style>

@@ -1,5 +1,5 @@
 import { spawn } from 'node:child_process';
-import { mkdir } from 'node:fs/promises';
+import { mkdir, readdir } from 'node:fs/promises';
 import net from 'node:net';
 import process from 'node:process';
 import { chromium } from 'playwright';
@@ -75,6 +75,13 @@ try {
   assert(manifest.icons.some((icon) => icon.sizes === '512x512' && icon.purpose === 'maskable'), 'Manifest maskable icon is missing');
 
   await mkdir('output/playwright', { recursive: true });
+  const representativeSlug = async (collection) => {
+    const files = (await readdir(`src/content/${collection}`)).filter((name) => name.endsWith('.md')).sort();
+    assert(files.length > 0, `${collection} has no representative content`);
+    return files[0].replace(/\.md$/, '');
+  };
+  const resourceSlug = await representativeSlug('resources');
+  const blogSlug = await representativeSlug('blog');
   browser = await chromium.launch({ headless: true });
   const results = [];
 
@@ -118,6 +125,32 @@ try {
     await activeQuiz.locator(`[data-quiz-option="${answer.replaceAll('"', '\\"')}"]`).click();
     await page.getByText('Correct. This outcome is published in the selected topic.').waitFor();
 
+    for (const detail of [
+      { kind: 'resource', path: `/resources/${resourceSlug}` },
+      { kind: 'blog', path: `/blog/${blogSlug}` }
+    ]) {
+      await page.goto(`${baseUrl}${detail.path}`, { waitUntil: 'networkidle' });
+      assert(await page.locator('[data-lms-workspace]').isVisible(), `${profile.name} ${detail.kind} LMS workspace is missing`);
+      assert(await page.locator('[data-learning-visual]').isVisible(), `${profile.name} ${detail.kind} learning visual is missing`);
+      assert(await page.locator('[data-learning-progress]').isVisible(), `${profile.name} ${detail.kind} progress marker is missing`);
+      const detailOverflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+      assert(detailOverflow <= 1, `${profile.name} ${detail.kind} detail has ${detailOverflow}px horizontal overflow`);
+      if (detail.kind === 'resource') {
+        await page.locator('[data-lesson-tab="practice"]').click();
+        assert(await page.locator('[data-lesson-panel="practice"]').isVisible(), `${profile.name} resource Practice tab did not open`);
+        const evidenceNote = page.locator('[data-practice-note]');
+        await evidenceNote.fill('Observed evidence from the browser smoke test.');
+        await page.reload({ waitUntil: 'networkidle' });
+        await page.locator('[data-lesson-tab="practice"]').click();
+        assert(await page.locator('[data-practice-note]').inputValue() === 'Observed evidence from the browser smoke test.', `${profile.name} resource evidence draft did not persist`);
+        await page.locator('[data-section-complete="practice"]').click();
+        assert(await page.locator('[data-section-complete="practice"]').getAttribute('aria-pressed') === 'true', `${profile.name} resource progress did not update`);
+      } else {
+        await page.locator('[data-note-complete]').click();
+        assert(await page.locator('[data-note-complete]').getAttribute('aria-pressed') === 'true', `${profile.name} blog progress did not update`);
+      }
+    }
+
     const registration = await page.evaluate(async () => {
       const ready = await navigator.serviceWorker.ready;
       return Boolean(ready.active && ready.active.scriptURL.endsWith('/sw.js'));
@@ -126,7 +159,7 @@ try {
 
     await page.screenshot({ path: `output/playwright/${profile.name}.png`, fullPage: true });
     assert(errors.length === 0, `${profile.name} console errors: ${errors.join(' | ')}`);
-    results.push(`${profile.name}: interactive progress, quiz, theme, service worker, overflow PASS`);
+    results.push(`${profile.name}: homepage learning flow, resource/blog LMS details, progress, theme, service worker, overflow PASS`);
     await context.close();
   }
 

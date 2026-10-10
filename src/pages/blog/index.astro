@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogCard from '../../components/cards/BlogCard.astro';
+import LearningVisual from '../../components/learning/LearningVisual.astro';
 import TopicCoverageBoard from '../../components/sections/TopicCoverageBoard.astro';
 import { buildTopicCoverage, getBlogPosts, getPublications, getResources, getTopics } from '../../lib/content';
 
@@ -21,19 +22,22 @@ const coverage = buildTopicCoverage({ topics: topicMeta, posts, resources, publi
   <section class="py-20">
     <div class="container-shell grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
       {featured && (
-        <article class="card-surface overflow-hidden p-8 sm:p-10">
-          <div class="flex flex-wrap gap-3 text-xs uppercase tracking-[0.25em] text-slate-400">
-            <span>Featured article</span>
-            <span>•</span>
-            <time datetime={featured.publishedAt.toISOString()}>{featured.publishedAt.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
+        <article class="card-surface overflow-hidden">
+          <LearningVisual title={featured.title} topic={featured.topic} tags={featured.tags} slug={featured.slug} model={featured.visualStyle} />
+          <div class="p-8 sm:p-10">
+            <div class="flex flex-wrap gap-3 text-xs font-semibold text-slate-400">
+              <span>Featured lesson note</span>
+              <span aria-hidden="true">/</span>
+              <time datetime={featured.publishedAt.toISOString()}>{featured.publishedAt.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
+            </div>
+            <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{featured.title}</h1>
+            <p class="mt-5 max-w-3xl text-base leading-8 text-slate-300">{featured.summary}</p>
+            <div class="mt-6 flex flex-wrap gap-2">
+              <span class="rounded-md border border-brand-300/30 bg-brand-400/10 px-3 py-1 text-xs text-brand-100">{featured.topic}</span>
+              {featured.tags.map((tag) => <span class="rounded-md border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
+            </div>
+            <a href={`/blog/${featured.slug}`} class="mt-8 inline-flex min-h-11 items-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">Open featured lesson</a>
           </div>
-          <h1 class="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{featured.title}</h1>
-          <p class="mt-5 max-w-3xl text-base leading-8 text-slate-300">{featured.summary}</p>
-          <div class="mt-6 flex flex-wrap gap-2">
-            <span class="rounded-full border border-brand-300/30 bg-brand-400/10 px-3 py-1 text-xs text-brand-100">{featured.topic}</span>
-            {featured.tags.map((tag) => <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
-          </div>
-          <a href={`/blog/${featured.slug}`} class="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">Read featured article</a>
         </article>
       )}
       <div class="grid gap-6">

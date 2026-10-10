@@ -41,10 +41,7 @@ html {
 
 body {
   @apply antialiased transition-colors duration-300;
-  background-color: #f8fafc;
-  background-image:
-    radial-gradient(circle at top, rgba(62, 107, 244, 0.16), transparent 30%),
-    linear-gradient(180deg, #f8fafc 0%, #eff6ff 55%, #e2e8f0 100%);
+  background-color: #f3f6fb;
   color: #334155;
 }
 
@@ -72,10 +69,7 @@ summary {
 }
 
 html.dark body {
-  background-color: #020617;
-  background-image:
-    radial-gradient(circle at top, rgba(62, 107, 244, 0.25), transparent 30%),
-    linear-gradient(180deg, #020617 0%, #0f172a 55%, #020617 100%);
+  background-color: #07101f;
   color: #cbd5e1;
 }
 

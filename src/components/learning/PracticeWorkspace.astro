@@ -1,0 +1,134 @@
+---
+interface Props {
+  title: string;
+  topic: string;
+  tags?: string[];
+  slug: string;
+}
+
+const { title, topic, tags = [], slug } = Astro.props;
+const practiceByTopic: Record<string, { scenario: string; prompt: string; steps: string[]; evidence: string }> = {
+  'Information System Management': {
+    scenario: 'A campus service owner needs a decision that can be defended with operational evidence.',
+    prompt: `Map ${title} to one service, one accountable owner, and one measurable outcome.`,
+    steps: ['Define the service and affected user', 'Identify the decision owner and constraint', 'Choose evidence that proves the outcome'],
+    evidence: 'A one-page service decision note with owner, metric, risk, and next review date.'
+  },
+  'Communication Protocol': {
+    scenario: 'A digital service is slow or unreliable, but the team has not isolated where the exchange fails.',
+    prompt: `Trace ${title} from client request to service response and mark the verification boundary.`,
+    steps: ['Name the endpoints and protocol layer', 'Capture a request, status, timing, or packet clue', 'Explain the failure hypothesis and verification test'],
+    evidence: 'An annotated exchange trace with observable signal, interpretation, and follow-up test.'
+  },
+  'Artificial Intelligence': {
+    scenario: 'An AI-supported feature appears useful, but the team must prove output quality before release.',
+    prompt: `Turn ${title} into a small evaluation with a human release decision.`,
+    steps: ['Define one representative input and expected behavior', 'Choose a quality, safety, or grounding check', 'Record the result, limitation, and human decision'],
+    evidence: 'An evaluation record containing test input, expected result, observed result, and release decision.'
+  }
+};
+const practice = practiceByTopic[topic] ?? practiceByTopic['Information System Management'];
+const focus = tags.slice(0, 3).join(', ') || topic;
+---
+<section class="practice-workspace" data-practice-workspace data-practice-slug={slug} aria-labelledby={`practice-title-${slug}`}>
+  <div class="practice-brief">
+    <p>Scenario lab</p>
+    <h3 id={`practice-title-${slug}`}>{practice.scenario}</h3>
+    <span>{practice.prompt}</span>
+    <dl>
+      <div><dt>Focus</dt><dd>{focus}</dd></div>
+      <div><dt>Evidence target</dt><dd>{practice.evidence}</dd></div>
+    </dl>
+  </div>
+
+  <div class="practice-steps">
+    <p>Activity checklist</p>
+    {practice.steps.map((step, index) => (
+      <label>
+        <input type="checkbox" data-practice-check={String(index)} />
+        <span><strong>{String(index + 1).padStart(2, '0')}</strong>{step}</span>
+      </label>
+    ))}
+  </div>
+
+  <div class="practice-evidence">
+    <label for={`practice-note-${slug}`}>Evidence note</label>
+    <p>Write what you observed, what it means, and what should be verified next. This draft stays on this device.</p>
+    <textarea id={`practice-note-${slug}`} data-practice-note rows="7" placeholder="Observation:\nInterpretation:\nLimitation:\nNext verification:"></textarea>
+    <div>
+      <span data-practice-save-status role="status" aria-live="polite">Draft ready</span>
+      <button type="button" data-practice-reset>Clear draft</button>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  document.querySelectorAll('[data-practice-workspace]').forEach((workspace) => {
+    const key = `hicall-practice-v1:${workspace.dataset.practiceSlug}`;
+    const note = workspace.querySelector('[data-practice-note]');
+    const checks = Array.from(workspace.querySelectorAll('[data-practice-check]'));
+    const status = workspace.querySelector('[data-practice-save-status]');
+    const reset = workspace.querySelector('[data-practice-reset]');
+    const read = () => {
+      try { return JSON.parse(localStorage.getItem(key) || '{}'); }
+      catch { return {}; }
+    };
+    const restore = () => {
+      const state = read();
+      note.value = state.note || '';
+      checks.forEach((check) => { check.checked = Boolean(state.checks?.includes(check.dataset.practiceCheck)); });
+      status.textContent = state.note || state.checks?.length ? 'Draft restored' : 'Draft ready';
+    };
+    const save = () => {
+      try {
+        localStorage.setItem(key, JSON.stringify({
+          note: note.value,
+          checks: checks.filter((check) => check.checked).map((check) => check.dataset.practiceCheck)
+        }));
+        status.textContent = 'Saved on this device';
+      } catch {
+        status.textContent = 'Draft could not be saved';
+      }
+    };
+    note.addEventListener('input', save);
+    checks.forEach((check) => check.addEventListener('change', save));
+    reset.addEventListener('click', () => {
+      note.value = '';
+      checks.forEach((check) => { check.checked = false; });
+      try { localStorage.removeItem(key); } catch {}
+      status.textContent = 'Draft cleared';
+      note.focus();
+    });
+    restore();
+  });
+</script>
+
+<style>
+  .practice-workspace { display: grid; gap: 1.25rem; }
+  .practice-brief, .practice-steps, .practice-evidence { border: 1px solid #cbd5e1; background: #f8fafc; padding: 1.25rem; }
+  .practice-brief > p, .practice-steps > p { margin: 0; color: #3154c8; font-size: 0.75rem; font-weight: 750; letter-spacing: 0.08em; text-transform: uppercase; }
+  .practice-brief h3 { max-width: 34ch; margin: 0.6rem 0 0; color: #0f172a; font-size: 1.4rem; line-height: 1.25; }
+  .practice-brief > span { display: block; margin-top: 0.75rem; color: #475569; line-height: 1.65; }
+  .practice-brief dl { display: grid; gap: 1rem; margin: 1.25rem 0 0; border-top: 1px solid #cbd5e1; padding-top: 1rem; }
+  .practice-brief dt { color: #64748b; font-size: 0.72rem; text-transform: uppercase; }
+  .practice-brief dd { margin: 0.25rem 0 0; color: #334155; line-height: 1.55; }
+  .practice-steps { display: grid; gap: 0.65rem; }
+  .practice-steps label { display: flex; min-height: 50px; align-items: center; gap: 0.8rem; border-top: 1px solid #cbd5e1; padding-top: 0.65rem; color: #334155; cursor: pointer; }
+  .practice-steps input { width: 1.1rem; height: 1.1rem; flex: none; accent-color: #3154c8; }
+  .practice-steps span { display: flex; gap: 0.75rem; line-height: 1.45; }
+  .practice-steps strong { color: #3154c8; font-family: ui-monospace, monospace; font-size: 0.78rem; }
+  .practice-evidence label { color: #0f172a; font-size: 1.1rem; font-weight: 750; }
+  .practice-evidence > p { margin: 0.4rem 0 0; color: #64748b; font-size: 0.86rem; line-height: 1.55; }
+  .practice-evidence textarea { width: 100%; margin-top: 1rem; resize: vertical; border: 1px solid #94a3b8; border-radius: 0.4rem; background: #fff; padding: 0.85rem; color: #0f172a; line-height: 1.55; }
+  .practice-evidence > div { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 0.65rem; }
+  .practice-evidence span { color: #64748b; font-size: 0.78rem; }
+  .practice-evidence button { min-height: 44px; color: #2346bd; font-weight: 700; }
+  html.dark .practice-brief, html.dark .practice-steps, html.dark .practice-evidence { border-color: #334155; background: #111b2e; }
+  html.dark .practice-brief h3, html.dark .practice-evidence label { color: #f8fafc; }
+  html.dark .practice-brief > span, html.dark .practice-brief dd, html.dark .practice-steps label { color: #cbd5e1; }
+  html.dark .practice-brief dl, html.dark .practice-steps label { border-color: #334155; }
+  html.dark .practice-evidence textarea { border-color: #64748b; background: #0f172a; color: #f8fafc; }
+  @media (min-width: 760px) {
+    .practice-brief dl { grid-template-columns: 0.75fr 1.25fr; }
+  }
+</style>

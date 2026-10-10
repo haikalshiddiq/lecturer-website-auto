@@ -8,6 +8,8 @@ const topicEnum = z.enum([
   'Artificial Intelligence'
 ]);
 
+const visualStyle = z.enum(['system-map', 'protocol-flow', 'ai-lifecycle']);
+
 const topics = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/topics' }),
   schema: z.object({
@@ -32,6 +34,7 @@ const resources = defineCollection({
     featured: z.boolean().default(false),
     publishedAt: z.coerce.date(),
     tags: z.array(z.string()).default([]),
+    visualStyle: visualStyle.optional(),
     downloadUrl: z.string().optional(),
     ctaLabel: z.string().optional()
   })
@@ -60,6 +63,7 @@ const blog = defineCollection({
     topic: topicEnum,
     publishedAt: z.coerce.date(),
     tags: z.array(z.string()).default([]),
+    visualStyle: visualStyle.optional(),
     featured: z.boolean().default(false)
   })
 });

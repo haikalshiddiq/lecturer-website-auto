@@ -2,6 +2,8 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import InteractiveHandsOnLab from '../../components/sections/InteractiveHandsOnLab.astro';
+import LearningVisual from '../../components/learning/LearningVisual.astro';
+import PracticeWorkspace from '../../components/learning/PracticeWorkspace.astro';
 import { toSlug } from '../../lib/content';
 
 export async function getStaticPaths() {
@@ -14,33 +16,179 @@ const resources = await getCollection('resources');
 const entry = resources.find((item) => toSlug(item.id) === slug);
 if (!entry) throw new Error(`Resource not found: ${slug}`);
 const { Content } = await render(entry);
+const visualStyle = entry.data.visualStyle;
+const publishedDate = entry.data.publishedAt.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 <BaseLayout title={`${entry.data.title} | Resources`} description={entry.data.summary}>
-  <section class="py-24">
-    <div class="container-shell grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
-      <aside class="card-surface h-fit p-8">
-        <p class="text-sm font-semibold uppercase tracking-[0.28em] text-brand-200">{entry.data.format}</p>
-        <h1 class="mt-4 text-3xl font-semibold text-white">{entry.data.title}</h1>
-        <p class="mt-4 text-sm leading-7 text-slate-300">{entry.data.summary}</p>
-        <div class="mt-8 space-y-3 text-sm text-slate-300">
-          <p><span class="font-semibold text-white">Topic:</span> {entry.data.topic}</p>
-          <p><span class="font-semibold text-white">Level:</span> {entry.data.level}</p>
-          <p><span class="font-semibold text-white">Published:</span> {entry.data.publishedAt.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+  <div class="lesson-page" data-lms-workspace data-lesson-slug={slug} data-lesson-kind="resource">
+    <div class="container-shell">
+      <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Academy</a><span aria-hidden="true">/</span><a href="/resources">Materials</a><span aria-hidden="true">/</span><span aria-current="page">{entry.data.title}</span>
+      </nav>
+
+      <header class="lesson-header">
+        <div class="lesson-header__copy">
+          <p>{entry.data.topic}</p>
+          <h1>{entry.data.title}</h1>
+          <span>{entry.data.summary}</span>
+          <dl>
+            <div><dt>Level</dt><dd>{entry.data.level}</dd></div>
+            <div><dt>Format</dt><dd>{entry.data.format}</dd></div>
+            <div><dt>Published</dt><dd>{publishedDate}</dd></div>
+          </dl>
         </div>
-        {entry.data.downloadUrl && (
-          <a href={entry.data.downloadUrl} download class="mt-8 inline-flex rounded-full bg-brand-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-400">
-            {entry.data.ctaLabel ?? 'Download resource'}
-          </a>
-        )}
-      </aside>
-      <article class="space-y-8">
-        <InteractiveHandsOnLab slug={slug} />
-        <div class="card-surface p-8">
-          <div class="prose-invert-custom">
-            <Content />
+        <LearningVisual title={entry.data.title} topic={entry.data.topic} tags={entry.data.tags} slug={slug} model={visualStyle} />
+      </header>
+
+      <div class="lesson-layout">
+        <aside class="module-navigation" aria-label="Lesson workspace">
+          <p>Lesson workspace</p>
+          <nav aria-label="Lesson sections">
+            <button type="button" data-lesson-tab="learn" aria-controls="lesson-learn" aria-selected="true">Learn</button>
+            <button type="button" data-lesson-tab="practice" aria-controls="lesson-practice" aria-selected="false">Practice</button>
+            <button type="button" data-lesson-tab="check" aria-controls="lesson-check" aria-selected="false">Check</button>
+          </nav>
+          <div class="module-progress" data-learning-progress>
+            <span data-progress-label>In progress</span>
+            <progress max="3" value="0" aria-label="Lesson sections completed"></progress>
+            <small data-progress-detail>0 of 3 sections reviewed</small>
           </div>
-        </div>
-      </article>
+          {entry.data.downloadUrl && <a class="module-download" href={entry.data.downloadUrl} download>{entry.data.ctaLabel ?? 'Download material'}</a>}
+        </aside>
+
+        <article class="lesson-content">
+          <section id="lesson-learn" data-lesson-panel="learn" tabindex="0">
+            <div class="section-heading"><span>Learn</span><h2>Build the core model</h2><p>Read the lesson and connect each concept to the visual model above.</p></div>
+            <div class="prose-invert-custom"><Content /></div>
+            <button class="section-complete" type="button" data-section-complete="learn">Mark Learn as reviewed</button>
+          </section>
+
+          <section id="lesson-practice" data-lesson-panel="practice" tabindex="0" hidden>
+            <div class="section-heading"><span>Practice</span><h2>Work with observable evidence</h2><p>Use the lab to turn the lesson into a repeatable classroom exercise.</p></div>
+            <PracticeWorkspace title={entry.data.title} topic={entry.data.topic} tags={entry.data.tags} slug={slug} />
+            <InteractiveHandsOnLab slug={slug} />
+            <button class="section-complete" type="button" data-section-complete="practice">Mark Practice as reviewed</button>
+          </section>
+
+          <section id="lesson-check" data-lesson-panel="check" tabindex="0" hidden>
+            <div class="section-heading"><span>Check</span><h2>Explain the decision</h2><p>Confirm what you can observe, what remains uncertain, and what should happen next.</p></div>
+            <div class="knowledge-check">
+              <h3>Before completing this lesson</h3>
+              <ul>
+                <li>Name the input, decision point, and outcome shown in the visual.</li>
+                <li>Identify one artifact that would count as evidence.</li>
+                <li>State one limitation and one next verification step.</li>
+              </ul>
+            </div>
+            <button class="section-complete section-complete--final" type="button" data-section-complete="check">Complete lesson</button>
+            <p class="completion-message" data-completion-message role="status" aria-live="polite"></p>
+          </section>
+        </article>
+      </div>
     </div>
-  </section>
+  </div>
+
+  <script is:inline>
+    document.querySelectorAll('[data-lms-workspace][data-lesson-kind="resource"]').forEach((workspace) => {
+      const slug = workspace.dataset.lessonSlug;
+      const storageKey = `hicall-lesson-progress-v1:${slug}`;
+      const tabs = Array.from(workspace.querySelectorAll('[data-lesson-tab]'));
+      const panels = Array.from(workspace.querySelectorAll('[data-lesson-panel]'));
+      const completionButtons = Array.from(workspace.querySelectorAll('[data-section-complete]'));
+      const progress = workspace.querySelector('progress');
+      const detail = workspace.querySelector('[data-progress-detail]');
+      const label = workspace.querySelector('[data-progress-label]');
+      const message = workspace.querySelector('[data-completion-message]');
+      let state = { active: 'learn', completed: [] };
+      try {
+        state = { ...state, ...JSON.parse(localStorage.getItem(storageKey) || '{}') };
+      } catch {
+        label.textContent = 'Progress is available for this session';
+      }
+      const save = () => {
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(state));
+          localStorage.setItem('hicall-last-lesson-v1', JSON.stringify({ title: workspace.querySelector('h1').textContent, href: location.pathname, completed: state.completed.length === panels.length }));
+        } catch {
+          label.textContent = 'Progress could not be saved';
+        }
+      };
+      const renderProgress = () => {
+        progress.value = state.completed.length;
+        detail.textContent = `${state.completed.length} of ${panels.length} sections reviewed`;
+        label.textContent = state.completed.length === panels.length ? 'Lesson complete' : 'In progress';
+        completionButtons.forEach((button) => {
+          const complete = state.completed.includes(button.dataset.sectionComplete);
+          button.textContent = complete ? 'Section reviewed' : button.dataset.sectionComplete === 'check' ? 'Complete lesson' : `Mark ${button.dataset.sectionComplete[0].toUpperCase()}${button.dataset.sectionComplete.slice(1)} as reviewed`;
+          button.setAttribute('aria-pressed', String(complete));
+        });
+      };
+      const activate = (name, focus = false) => {
+        state.active = name;
+        tabs.forEach((tab) => tab.setAttribute('aria-selected', String(tab.dataset.lessonTab === name)));
+        panels.forEach((panel) => { panel.hidden = panel.dataset.lessonPanel !== name; });
+        if (focus) workspace.querySelector(`[data-lesson-panel="${name}"]`).focus();
+        save();
+      };
+      tabs.forEach((tab) => tab.addEventListener('click', () => activate(tab.dataset.lessonTab, true)));
+      completionButtons.forEach((button) => button.addEventListener('click', () => {
+        const section = button.dataset.sectionComplete;
+        if (!state.completed.includes(section)) state.completed.push(section);
+        renderProgress();
+        save();
+        if (section === 'check') message.textContent = 'Lesson progress saved. You can return at any time to review it.';
+      }));
+      activate(state.active && panels.some((panel) => panel.dataset.lessonPanel === state.active) ? state.active : 'learn');
+      renderProgress();
+    });
+  </script>
 </BaseLayout>
+
+<style>
+  .lesson-page { padding: 1.5rem 0 5rem; }
+  .lesson-breadcrumb { display: flex; flex-wrap: wrap; gap: 0.55rem; padding: 1rem 0; color: #64748b; font-size: 0.82rem; }
+  .lesson-breadcrumb a { color: #3154c8; }
+  .lesson-header { display: grid; gap: 1.25rem; align-items: stretch; border-block: 1px solid #cbd5e1; padding: 2rem 0; }
+  .lesson-header__copy { min-width: 0; align-self: center; }
+  .lesson-header__copy > p, .section-heading > span, .module-navigation > p { margin: 0; color: #3154c8; font-size: 0.78rem; font-weight: 750; letter-spacing: 0.08em; text-transform: uppercase; }
+  .lesson-header h1 { max-width: 18ch; margin: 0.65rem 0 0; color: #0f172a; font-size: clamp(2.25rem, 5vw, 4.25rem); line-height: 1; letter-spacing: -0.045em; }
+  .lesson-header__copy > span { display: block; max-width: 60ch; margin-top: 1rem; color: #475569; line-height: 1.7; }
+  .lesson-header dl { display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 1.5rem 0 0; }
+  .lesson-header dl div { min-width: 7rem; }
+  .lesson-header dt { color: #64748b; font-size: 0.72rem; text-transform: uppercase; }
+  .lesson-header dd { margin: 0.25rem 0 0; color: #0f172a; font-size: 0.9rem; font-weight: 700; }
+  .lesson-layout { display: grid; gap: 1.5rem; margin-top: 1.5rem; }
+  .module-navigation { align-self: start; border: 1px solid #cbd5e1; border-radius: 0.8rem; background: rgb(255 255 255 / 0.9); padding: 1rem; }
+  .module-navigation nav { display: grid; gap: 0.3rem; margin-top: 0.8rem; }
+  .module-navigation button { min-height: 44px; border-radius: 0.45rem; padding: 0.65rem 0.75rem; color: #475569; font-weight: 700; text-align: left; }
+  .module-navigation button[aria-selected='true'] { background: #e5eaff; color: #2346bd; }
+  .module-progress { display: grid; gap: 0.45rem; margin-top: 1rem; border-top: 1px solid #cbd5e1; padding-top: 1rem; }
+  .module-progress span { color: #0f172a; font-weight: 700; }
+  .module-progress progress { width: 100%; accent-color: #3154c8; }
+  .module-progress small { color: #64748b; }
+  .module-download { display: inline-flex; min-height: 44px; align-items: center; margin-top: 1rem; color: #2346bd; font-weight: 700; }
+  .lesson-content { min-width: 0; }
+  .lesson-content > section { border: 1px solid #cbd5e1; border-radius: 1rem; background: rgb(255 255 255 / 0.9); padding: clamp(1.25rem, 4vw, 2.5rem); scroll-margin-top: 6rem; }
+  .section-heading { border-bottom: 1px solid #cbd5e1; margin-bottom: 2rem; padding-bottom: 1.25rem; }
+  .section-heading h2 { margin: 0.45rem 0 0; color: #0f172a; font-size: clamp(1.75rem, 4vw, 2.5rem); }
+  .section-heading p { max-width: 62ch; margin: 0.6rem 0 0; color: #475569; line-height: 1.65; }
+  .section-complete { min-height: 44px; margin-top: 2rem; border-radius: 0.55rem; background: #3154c8; padding: 0.7rem 1rem; color: #fff; font-weight: 750; }
+  .section-complete[aria-pressed='true'] { background: #e5eaff; color: #2346bd; }
+  .section-complete--final { background: #a04418; }
+  .knowledge-check { border: 1px solid #d7a17f; background: #fff7ed; padding: 1.25rem; }
+  .knowledge-check h3 { margin: 0; color: #0f172a; }
+  .knowledge-check li { margin-top: 0.65rem; color: #475569; line-height: 1.6; }
+  .completion-message { color: #475569; }
+  html.dark .lesson-header, html.dark .section-heading, html.dark .module-progress { border-color: #334155; }
+  html.dark .lesson-header h1, html.dark .lesson-header dd, html.dark .section-heading h2, html.dark .module-progress span, html.dark .knowledge-check h3 { color: #f8fafc; }
+  html.dark .lesson-header__copy > span, html.dark .section-heading p, html.dark .knowledge-check li { color: #cbd5e1; }
+  html.dark .lesson-header__copy > p, html.dark .section-heading > span, html.dark .module-navigation > p, html.dark .lesson-breadcrumb a { color: #95b3ff; }
+  html.dark .module-navigation, html.dark .lesson-content > section { border-color: #334155; background: rgb(15 23 42 / 0.9); }
+  html.dark .knowledge-check { border-color: #a04418; background: #2b1a13; }
+  html.dark .module-navigation button[aria-selected='true'], html.dark .section-complete[aria-pressed='true'] { background: #24304a; color: #dbe5ff; }
+  @media (min-width: 960px) {
+    .lesson-header { grid-template-columns: minmax(0, 1fr) minmax(380px, 0.82fr); }
+    .lesson-layout { grid-template-columns: 15rem minmax(0, 1fr); }
+    .module-navigation { position: sticky; top: 6rem; }
+  }
+</style>

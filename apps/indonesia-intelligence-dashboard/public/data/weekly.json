@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T07:01:03+07:00",
+  "generatedAt": "2026-10-18T08:37:03+07:00",
   "period": {
     "start": "2026-10-12",
     "end": "2026-10-18",
@@ -8,7 +8,7 @@
   "status": {
     "level": "monitor",
     "label": "Pantau",
-    "conditionIndex": 44,
+    "conditionIndex": 43,
     "confidence": "Low",
     "dataSufficiency": "Insufficient",
     "dataQualifier": "Data belum cukup",
@@ -25,12 +25,12 @@
       },
       {
         "kind": "pressure",
-        "topic": "Climate & Disaster",
-        "score": -0.08
+        "topic": "Automotive & EV",
+        "score": -0.107
       },
       {
         "kind": "pressure",
-        "topic": "Automotive & EV",
+        "topic": "Climate & Disaster",
         "score": -0.08
       },
       {
@@ -42,14 +42,14 @@
     "caveat": "Data bidang kritis belum lengkap: Economy & Jobs, Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
   },
   "metrics": {
-    "articles": 16,
+    "articles": 15,
     "sources": 11,
     "categoriesCovered": 8,
     "categoriesTracked": 13,
     "positive": 1,
-    "neutral": 11,
+    "neutral": 10,
     "negative": 4,
-    "averageScore": -0.04,
+    "averageScore": -0.042,
     "criticalNegativeSignals": 2
   },
   "dailyTrend": [
@@ -66,7 +66,7 @@
     {
       "date": "2026-10-14",
       "score": 0.0,
-      "articles": 5
+      "articles": 4
     },
     {
       "date": "2026-10-15",
@@ -101,6 +101,16 @@
       "highlightId": "2026-10-15-239f80129214"
     },
     {
+      "topic": "Automotive & EV",
+      "count": 3,
+      "score": -0.107,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 1,
+      "highlightId": "2026-10-16-29d0812458d8"
+    },
+    {
       "topic": "Climate & Disaster",
       "count": 2,
       "score": -0.08,
@@ -109,16 +119,6 @@
       "neutral": 1,
       "negative": 1,
       "highlightId": "2026-10-17-0abbc9487e42"
-    },
-    {
-      "topic": "Automotive & EV",
-      "count": 4,
-      "score": -0.08,
-      "sentiment": "Neutral",
-      "positive": 0,
-      "neutral": 3,
-      "negative": 1,
-      "highlightId": "2026-10-16-29d0812458d8"
     },
     {
       "topic": "Markets",

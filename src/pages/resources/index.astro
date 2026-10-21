@@ -6,9 +6,18 @@ import { getResources } from '../../lib/content';
 const resources = await getResources();
 ---
 <BaseLayout title="Resources | Haikal Shiddiq S.Kom., M.T." description="Interactive learning resources, downloadable kits, modules, and articles for students and professional learners.">
+  <a class="iasd-resource-entry container-shell" href="/iasd" data-iasd-resource lang="id"><strong>IASD · SI306 · 3 SKS</strong><span>Studio 16 pertemuan dengan simulator, praktik dan panduan dosen.</span><span>Buka mata kuliah</span></a>
   <ResourceExplorer
     resources={resources}
     title="Course materials"
     description="Search by topic or title. Open a lesson for its visual model, practice, and progress."
   />
 </BaseLayout>
+<style>
+  .iasd-resource-entry { display: flex; align-items: center; gap: 10px 20px; flex-wrap: wrap; min-height: 68px; margin-top: 20px; padding-block: 12px; color: #334155; font-size: 14px; }
+  .iasd-resource-entry strong { color: #0f172a; }
+  .iasd-resource-entry span:last-child { color: #2346bd; font-weight: 600; margin-left: auto; }
+  html.dark .iasd-resource-entry { color: #cbd5e1; }
+  html.dark .iasd-resource-entry strong { color: #f8fafc; }
+  html.dark .iasd-resource-entry span:last-child { color: #a9c4ff; }
+</style>

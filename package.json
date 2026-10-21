@@ -14,9 +14,10 @@
     "check:links": "node ./scripts/check-links.mjs",
     "validate:content": "node ./scripts/validate-content.mjs",
     "validate:learning": "node ./scripts/validate-learning-pages.mjs",
+    "validate:iasd": "node ./scripts/validate-iasd.mjs",
     "maintenance:report": "node ./scripts/maintenance-report.mjs",
     "smoke:live": "node ./scripts/smoke-check-live.mjs",
-    "smoke:pwa": "npm run validate:learning && node ./scripts/smoke-pwa.mjs"
+    "smoke:pwa": "npm run validate:learning && npm run validate:iasd && node ./scripts/smoke-pwa.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

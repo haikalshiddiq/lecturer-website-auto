@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import course from '../../data/iasd-course.json';
+import { siteConfig } from '../../data/site';
+const courseSchema = {
+  '@context': 'https://schema.org', '@type': 'Course',
+  '@id': `${siteConfig.siteUrl}/iasd#course`, name: course.title,
+  courseCode: course.code, inLanguage: 'id', numberOfCredits: course.sks,
+  description: 'Materi IASD dari lampiran pengampu: 16 pertemuan, simulator, praktik dan refleksi. Bobot penilaian usulan; RPS asli belum disertakan untuk verifikasi.',
+  provider: { '@type': 'Person', name: siteConfig.name, url: siteConfig.siteUrl },
+  hasPart: course.lessons.map(lesson => ({ '@type': 'LearningResource', name: lesson.title, position: lesson.n, url: `${siteConfig.siteUrl}/iasd/studio#${lesson.n}`, learningResourceType: 'Interactive lesson', inLanguage: 'id' }))
+};
+---
+<BaseLayout lang="id" title="IASD SI306 | Haikal Shiddiq" description="Information Analysis and System Design, 3 SKS. Peta 16 pertemuan, simulator kasus Aruna, praktik mandiri dan panduan mengajar.">
+  <article class="iasd-overview container-shell" data-iasd-overview>
+    <nav aria-label="Jejak halaman"><a href="/resources">Materi kuliah</a><span>/</span><span>IASD</span></nav>
+    <header>
+      <p class="course-code">IASD · {course.code} · {course.sks} SKS</p>
+      <h1>{course.title}</h1>
+      <p class="intro">Belajar menganalisis kebutuhan dan merancang sistem lewat satu kasus: Toko Aruna. Ubah asumsi, periksa diagram, lalu jelaskan keputusan dengan bukti.</p>
+      <p class="course-meta">16 pertemuan · 135 menit per sesi reguler · Bahasa Indonesia · Teori 1 / Praktikum 2 menurut lampiran</p>
+      <div class="entry-actions">
+        <a class="primary" href="/iasd/studio#1" data-iasd-start>Mulai belajar sesi 01</a>
+        <a href="/iasd/studio?mode=teach#1" data-iasd-teach>Buka panduan dosen</a>
+      </div>
+    </header>
+    <div class="workflows">
+      <section aria-labelledby="student-workflow">
+        <h2 id="student-workflow">Cara belajar</h2>
+        <ol>
+          <li>Baca tiga konsep dan tulis prediksi sebelum mencoba simulator.</li>
+          <li>Ubah kontrol visual; ikuti delapan langkah praktik dengan bahan unduhan.</li>
+          <li>Tulis tiga refleksi individu, jawab kuis, lalu perbaiki alasan yang belum tepat.</li>
+          <li>Simpan artefak dan unduh lembar kerja. Ekspor cadangan JSON untuk lanjut di perangkat lain.</li>
+        </ol>
+      </section>
+      <section aria-labelledby="instructor-workflow">
+        <h2 id="instructor-workflow">Cara menjelaskan</h2>
+        <p>Buka tab <strong>Panduan dosen</strong> pada sesi yang dipilih: pertanyaan pemantik, alur penjelasan, rundown, demo, miskonsepsi, transfer individu dan rubrik.</p>
+        <p>Minta prediksi sebelum demo. Ubah satu asumsi, minta mahasiswa menjelaskan akibatnya, lalu tinjau artefak dan alasan, bukan hanya centang selesai. Gunakan <strong>Mode tampil</strong> saat berbagi layar.</p>
+      </section>
+    </div>
+    <section class="curriculum" aria-labelledby="curriculum-title">
+      <div class="curriculum-head"><h2 id="curriculum-title">Pilih pertemuan</h2><a href="/iasd/studio">Buka studio</a></div>
+      <form action="/iasd/studio" method="get">
+        <label for="iasd-session">Topik belajar</label>
+        <select id="iasd-session" name="session">{course.lessons.map(lesson => <option value={lesson.n}>{String(lesson.n).padStart(2, '0')} · {lesson.title}</option>)}</select>
+        <button type="submit">Buka sesi</button>
+      </form>
+      <details data-iasd-curriculum>
+        <summary>Lihat capaian seluruh 16 pertemuan</summary>
+        <ol class="curriculum-list">{course.lessons.map(lesson => <li>
+          <a href={`/iasd/studio#${lesson.n}`}><span>S{String(lesson.n).padStart(2, '0')}</span><strong>{lesson.title}</strong></a>
+          <p>{lesson.outcome}</p><small>{lesson.cp ? `CPMK${lesson.cp}` : 'Integrasi CPMK'} · {lesson.weight}% bobot usulan · <a href={`/iasd/studio?mode=teach#${lesson.n}`}>Panduan dosen</a></small>
+        </li>)}</ol>
+      </details>
+    </section>
+    <aside class="provenance" data-iasd-provenance aria-label="Sumber dan batas penggunaan">
+      <h2>Sumber, penilaian & data Anda</h2>
+      <p>Materi diadaptasi dari HTML IASD yang dilampirkan, versi <strong>{course.version}</strong>. Semua 16 sesi, 48 pertanyaan kuis beserta penjelasan, 13 berkas latihan dan 16 rujukan dipertahankan. Rujukan ditinjau 17 Oktober 2026 menurut lampiran; akses dan menu tools dapat berubah.</p>
+      <p><strong>RPS asli belum disertakan untuk verifikasi.</strong> Capaian dan keterangan keselarasan akademik mengikuti lampiran, bukan pengesahan baru. Bobot merupakan usulan; rincian sesi UTS/UAS 15% berbeda dari ringkasan default 25% pada lampiran. Ketetapan resmi mengikuti pengampu/prodi. Sesi UTS/UAS di studio adalah latihan publik, bukan soal ujian resmi.</p>
+      <p>Progres, catatan dan simulasi tersimpan lokal di browser jika tersedia. Tidak ada pengumpulan otomatis. Cadangan HTML lama dapat dipulihkan melalui JSON mata kuliah dan versi yang sama. Setelah kunjungan online dan cache siap, studio serta bahan bundelnya dapat dipakai offline; tools dan rujukan eksternal tetap membutuhkan internet.</p>
+      <details><summary>Asal materi dan identitas RPS yang disebut lampiran</summary><p><code>IASD_3_SKS_16_Pertemuan_Interaktif.html</code></p><p>Lampiran menyebut <code>{course.rps.name}</code> dengan SHA-256 <code>{course.rps.sha256}</code>. Hash ini adalah metadata lampiran, bukan hasil pemeriksaan dokumen RPS asli oleh website.</p><p>Lampiran HTML SHA-256: <code>463fdfb567e9c124b2abb4f186a5c9442830152fcedfe226fd428e561f202d2c</code></p></details>
+    </aside>
+  </article>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(courseSchema).replace(/</g, '\\u003c')} />
+</BaseLayout>
+<style>
+  .iasd-overview { max-width: 1100px; padding-top: 24px; padding-bottom: 40px; color: #334155; }
+  nav { display: flex; gap: 10px; align-items: center; font-size: 13px; }
+  a { color: #2346bd; text-underline-offset: 3px; }
+  nav a, .curriculum-head a, small a { display: inline-flex; align-items: center; min-height: 44px; }
+  header { padding: 18px 0 24px; max-width: 850px; }
+  .course-code { color: #2346bd; font-size: 13px; font-weight: 650; margin-bottom: 8px; }
+  h1 { color: #0f172a; font-size: clamp(30px, 4vw, 46px); font-weight: 650; line-height: 1.12; letter-spacing: -1.3px; max-width: 720px; }
+  .intro { font-size: 17px; line-height: 1.7; margin: 16px 0 10px; }
+  .course-meta { font-size: 13px; color: #475569; line-height: 1.6; }
+  .entry-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+  .entry-actions a, button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 16px; border: 1px solid #94a3b8; border-radius: 8px; font-size: 14px; font-weight: 600; }
+  .entry-actions .primary, button { background: #2346bd; border-color: #2346bd; color: #fff; }
+  .workflows { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; border-block: 1px solid #cbd5e1; padding-block: 22px; }
+  h2 { color: #0f172a; font-size: 20px; font-weight: 650; margin-bottom: 10px; }
+  .workflows p, .workflows li { font-size: 14px; line-height: 1.75; }
+  .workflows p + p { margin-top: 10px; }
+  ol { padding-left: 20px; list-style: decimal; }
+  li + li { margin-top: 6px; }
+  .curriculum { padding-top: 20px; }
+  .curriculum-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .curriculum-head h2 { margin: 0; }
+  form { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; margin: 10px 0; }
+  form label { font-size: 14px; font-weight: 600; }
+  select { min-width: 0; width: 100%; min-height: 44px; border: 1px solid #94a3b8; border-radius: 8px; background: #fff; color: #0f172a; font-size: 14px; }
+  summary { display: flex; align-items: center; min-height: 44px; cursor: pointer; color: #2346bd; font-size: 14px; font-weight: 600; }
+  summary::before { content: '+'; margin-right: 10px; }
+  details[open] > summary::before { content: '−'; }
+  .curriculum-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; list-style: none; padding: 0; }
+  .curriculum-list li { margin: 0; padding: 14px 0; border-top: 1px solid #cbd5e1; min-width: 0; }
+  .curriculum-list li > a { display: flex; gap: 12px; min-height: 44px; align-items: center; font-size: 14px; }
+  .curriculum-list p { font-size: 13px; margin: 8px 0; }
+  small { font-size: 12px; }
+  .provenance { margin-top: 22px; padding-top: 22px; border-top: 1px solid #cbd5e1; }
+  .provenance h2 { font-size: 17px; }
+  .provenance p { font-size: 13px; line-height: 1.75; margin: 10px 0; }
+  code { overflow-wrap: anywhere; }
+  html.dark .iasd-overview { color: #cbd5e1; }
+  html.dark h1, html.dark h2 { color: #f8fafc; }
+  html.dark a, html.dark summary, html.dark .course-code { color: #a9c4ff; }
+  html.dark .course-meta { color: #bdcbdc; }
+  html.dark .entry-actions .primary, html.dark button { background: #a9c4ff; color: #0f172a; border-color: #a9c4ff; }
+  html.dark select { background: #112238; color: #f8fafc; }
+  html.dark .workflows, html.dark .provenance, html.dark .curriculum-list li { border-color: #3e526d; }
+  @media(max-width:640px) {
+    .iasd-overview { padding-top: 12px; }
+    .workflows, .curriculum-list { grid-template-columns: 1fr; gap: 22px; }
+    .entry-actions a { width: 100%; }
+    form { grid-template-columns: minmax(0, 1fr) auto; }
+    form label { grid-column: 1 / -1; }
+    header { padding-top: 12px; }
+  }
+</style>

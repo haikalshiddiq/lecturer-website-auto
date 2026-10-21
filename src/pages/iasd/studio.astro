@@ -1,0 +1,59 @@
+---
+import SEOHead from '../../components/layout/SEOHead.astro';
+import course from '../../data/iasd-course.json';
+import '../../styles/iasd-studio.css';
+import '../../styles/iasd-integration.css';
+---
+<!doctype html>
+<html lang="id" data-iasd-studio>
+  <head>
+    <SEOHead title="Studio IASD | Haikal Shiddiq" description="16 pertemuan IASD SI306: konsep, simulator, praktik, refleksi individu dan panduan dosen dari materi lampiran." />
+    <link rel="preload" href="/fonts/geist-sans/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin />
+    <script is:inline>
+      (() => {
+        let saved;
+        try { saved = localStorage.getItem('theme'); } catch {}
+        const dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', dark);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Lewati navigasi</a>
+    <div id="app" aria-busy="true"><p class="boot-message">Menyiapkan studio IASD…</p></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <noscript><p>Studio membutuhkan JavaScript. <a href="/iasd">Kembali ke peta pertemuan IASD</a> untuk membaca capaian dan panduan belajar.</p></noscript>
+    <script id="course-data" is:inline type="application/json" set:html={JSON.stringify(course).replace(/</g, '\\u003c')} />
+    <script>
+      import '../../scripts/iasd-studio.js';
+      document.querySelector('#app')?.setAttribute('aria-busy', 'false');
+    </script>
+    <script is:inline>
+      if ('serviceWorker' in navigator && (location.protocol === 'https:' || ['localhost', '127.0.0.1'].includes(location.hostname))) {
+        window.addEventListener('load', async () => {
+          try {
+            await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+            await navigator.serviceWorker.ready;
+            if (!navigator.serviceWorker.controller) await new Promise(resolve => navigator.serviceWorker.addEventListener('controllerchange', resolve, { once: true }));
+            // The first visit may precede worker control. Warm only local assets for offline revisits.
+            const urls = new Set([location.pathname + location.search, '/iasd', '/iasd/studio', '/fonts/geist-sans/Geist-Variable.woff2']);
+            document.querySelectorAll('link[rel="stylesheet"], script[src]').forEach(el => urls.add(el.href || el.src));
+            await Promise.all([...urls].filter(url => new URL(url, location.href).origin === location.origin).map(async url => {
+              try {
+                const response = await fetch(url);
+                // Preview servers vary public assets by Origin; module/font loads send different headers.
+                // Keep a public-only fallback without that transport variation, never learner data.
+                if (response.ok && response.headers.get('vary')?.toLowerCase() === 'origin') {
+                  const headers = new Headers(response.headers); headers.delete('vary');
+                  const cache = await caches.open('hicall-iasd-public-v1');
+                  await cache.put(url, new Response(await response.arrayBuffer(), { status: 200, headers }));
+                }
+              } catch {}
+            }));
+          } catch (error) { console.warn('IASD offline cache belum siap', error); }
+        });
+      }
+    </script>
+  </body>
+</html>

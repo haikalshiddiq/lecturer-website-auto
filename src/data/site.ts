@@ -18,6 +18,7 @@ export const siteConfig = {
     { label: 'About', href: '/about' },
     { label: 'Expertise', href: '/expertise' },
     { label: 'Resources', href: '/resources' },
+    { label: 'IASD', href: '/iasd' },
     { label: 'Blog', href: '/blog' },
     { label: 'Publications', href: '/publications' },
     { label: 'Contact', href: '/contact' }

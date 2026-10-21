@@ -1,0 +1,1457 @@
+{
+  "id": "IASD",
+  "version": "2026.10.17.1",
+  "title": "Information Analysis and System Design",
+  "sks": 3,
+  "minutes": 135,
+  "program": "Sistem Informasi",
+  "code": "SI306",
+  "status": "Revisi pengampu berdasarkan RPS universitas; keputusan penilaian menunggu pengesahan.",
+  "outcomes": [
+    "CPL — PRODI CPL02 Menguasai teknik analisis dan pemodelan kebutuhan informasi secara terstruktur maupun berorientasi objek (P02).CPL05 Mampu merancang arsitektur sistem dan dokumen spesifikasi kebutuhan perangkat lunak (SRS) (KK02).",
+    "CPMK — MATA KULIAH CPMK1 Menganalisis dan memodelkan kebutuhan informasi menggunakan teknik terstruktur (CPL02).CPMK2 Merancang arsitektur sistem menggunakan UML dan BPMN (CPL02, CPL05).CPMK3 Menerapkan prinsip analisis dan desain berorientasi objek (OOAD) (CPL05).CPMK4 Menyusun dokumen SRS dan spesifikasi desain sistem (CPL05)."
+  ],
+  "lessons": [
+    {
+      "hook": "Kasir sudah punya aplikasi, tetapi stok masih sering berbeda. Dari mana analis mulai?",
+      "concepts": [
+        {
+          "title": "Masalah dan batas sistem",
+          "text": "Toko Aruna menjual barang melalui kasir dan pesanan daring. Stok berubah di dua kanal. Pisahkan masalah bisnis (pesanan tidak terpenuhi), kebutuhan pengguna (mengetahui ketersediaan), dan solusi usulan (sinkronisasi). Jangan menetapkan teknologi sebelum memahami proses serta siapa yang berwenang mengubah stok."
+        },
+        {
+          "title": "SDLC sebagai siklus keputusan",
+          "text": "Analisis menghasilkan kebutuhan dan bukti; desain mengusulkan struktur; implementasi mewujudkan; pengujian memeriksa terhadap kriteria; operasi memberi umpan balik. Iterasi dapat kembali ke kebutuhan. Pada kasus ini, satu perubahan aturan reservasi harus memiliki pemilik, versi dan alasan."
+        },
+        {
+          "title": "Memilih pendekatan",
+          "text": "Pendekatan bertahap cocok ketika kebutuhan cukup stabil dan pengesahan penting. Iterasi singkat membantu saat pemahaman pengguna masih berkembang. Pilih dengan menimbang perubahan, akses stakeholder, risiko dan bukti yang akan ditinjau; pilihan metodologi bukan sekadar mengikuti tren."
+        }
+      ],
+      "steps": [
+        "Baca kasus Aruna dari tombol Bahan. Tandai masalah yang benar-benar tertulis dan asumsi yang belum dikonfirmasi.",
+        "Buka diagrams.net → Device → Blank Diagram. Simpan S01_alias.drawio.",
+        "Buat halaman Scope: pelanggan, kasir, gudang, dan penyedia pembayaran; lingkari batas aplikasi.",
+        "Buat halaman SDLC dengan lima tahap dan hasil kerja tiap tahap.",
+        "Di simulator ubah tingkat perubahan dan akses stakeholder. Bandingkan konsekuensi kedua pendekatan.",
+        "Tulis rekomendasi 100–150 kata, dua alasan dan satu risiko pendekatan.",
+        "Minta pasangan memberi satu perubahan kebutuhan, lalu tandai tahap yang perlu diulang.",
+        "Ekspor gambar dan simpan file asli. Unggah sesuai kanal RISE setelah instruksi dosen dikonfirmasi."
+      ],
+      "prompts": [
+        "Apa masalah bisnis dan bukti awalnya? Pisahkan satu asumsi.",
+        "Pendekatan mana dipilih, atas dua alasan apa?",
+        "Jika stok hanya diperbarui setiap malam, apa yang harus dikaji ulang?"
+      ],
+      "criteria": [
+        "Lima tahap memiliki hasil kerja yang jelas.",
+        "Batas sistem dan dua stakeholder dijelaskan.",
+        "Pilihan pendekatan mempertimbangkan dua kondisi kasus."
+      ],
+      "sim": "sdlc",
+      "refs": [
+        "ireb",
+        "draw"
+      ],
+      "pitfall": "Menganggap membuat layar berarti kebutuhan telah dipahami.",
+      "transfer": "Ubah kasus menjadi reservasi ruang rapat di kantor; pertahankan cara berpikirnya.",
+      "n": 1,
+      "title": "SDLC dan analisis sistem",
+      "cp": 1,
+      "outcome": "Menjelaskan tahapan SDLC dan memilih pendekatan untuk kasus pesanan dengan alasan yang relevan.",
+      "evidence": "Peta SDLC dan alasan pilihan",
+      "tool": "diagrams.net dan RISE",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Apa langkah pertama saat stok berbeda?",
+          "options": [
+            "Memilih database paling populer",
+            "Menggambar semua layar",
+            "Memahami proses dan bukti masalah"
+          ],
+          "answer": 2,
+          "why": "Masalah dan batas sistem menjadi dasar pemilihan solusi."
+        },
+        {
+          "prompt": "Keluaran utama analisis adalah?",
+          "options": [
+            "Warna antarmuka",
+            "Kebutuhan yang dapat ditinjau",
+            "Server yang sudah live"
+          ],
+          "answer": 1,
+          "why": "Implementasi dan tampilan bukan pengganti analisis."
+        },
+        {
+          "prompt": "Kebutuhan sering berubah dan pengguna mudah ditemui. Pilihan masuk akal?",
+          "options": [
+            "Iterasi dengan review berkala",
+            "Membekukan semua asumsi tanpa review",
+            "Menghilangkan dokumentasi"
+          ],
+          "answer": 0,
+          "why": "Iterasi menguji pemahaman; dokumentasi tetap diperlukan."
+        }
+      ]
+    },
+    {
+      "hook": "“Sistem harus cepat.” Apakah pengembang sudah bisa menguji kebutuhan itu?",
+      "concepts": [
+        {
+          "title": "Elisitasi dengan bukti",
+          "text": "Wawancara dimulai dari pekerjaan nyata: kapan kasir memeriksa stok, apa yang terjadi ketika data berbeda, dan bagaimana masalah diselesaikan. Catat pernyataan asli, narasumber/peran dan konteks. Pertanyaan terbuka mengungkap proses; pertanyaan konfirmasi menguji interpretasi analis."
+        },
+        {
+          "title": "Fakta asumsi dan kebutuhan",
+          "text": "“Kemarin ada tiga pembatalan” adalah klaim fakta yang membutuhkan sumber. “Semua pelanggan ingin pesan lewat aplikasi” adalah asumsi. Kebutuhan harus menyatakan kemampuan atau kualitas yang diperlukan. Pada latihan, FR01 memeriksa stok kembali saat checkout; nilai batas waktu merupakan usulan yang harus disetujui."
+        },
+        {
+          "title": "Acceptance criteria",
+          "text": "Gunakan kondisi awal, aksi, dan hasil yang dapat diamati. Contoh: stok tersedia satu, pelanggan meminta dua; saat checkout, sistem menolak reservasi dan menampilkan jumlah tersedia. Tambahkan pertanyaan tentang reservasi bersamaan dan tanggung jawab penyelesaian, agar kriteria tidak menutupi konflik."
+        }
+      ],
+      "steps": [
+        "Unduh interview.csv dan requirements.csv dari Bahan, lalu buka di Sheets.",
+        "Bagi peran analis dan kasir; gunakan kasus fiktif tanpa data kantor.",
+        "Tulis lima pertanyaan terbuka sebelum bertanya tentang fitur.",
+        "Wawancarai pasangan selama sepuluh menit. Jika belajar sendiri, gunakan kutipan pada simulator.",
+        "Klasifikasikan setiap kutipan menjadi fakta, asumsi, kebutuhan atau pertanyaan; tulis alasan.",
+        "Turunkan lima kebutuhan ber-ID, pemilik, prioritas dan sumber.",
+        "Untuk FR01 tulis Given/When/Then normal dan stok berubah. Uji dengan input konkret.",
+        "Review ambiguitas, revisi satu kalimat, simpan versi awal dan revisi."
+      ],
+      "prompts": [
+        "Tulis satu kutipan dan klasifikasinya beserta sumber.",
+        "Tulis FR01 dan kriteria yang dapat diuji.",
+        "Pertanyaan lanjutan apa diperlukan sebelum disepakati?"
+      ],
+      "criteria": [
+        "Log memisahkan ucapan asli dari interpretasi.",
+        "Lima kebutuhan memiliki ID dan sumber.",
+        "Dua acceptance criteria memiliki input dan hasil teramati."
+      ],
+      "sim": "elicitation",
+      "refs": [
+        "ireb"
+      ],
+      "pitfall": "Mengganti kebutuhan “cepat” dengan angka buatan tanpa meminta persetujuan.",
+      "transfer": "Ubah SLA usulan dari dua menjadi lima detik; siapa yang harus menyetujui dan bukti apa berubah?",
+      "n": 2,
+      "title": "Elisitasi kebutuhan",
+      "cp": 1,
+      "outcome": "Melakukan wawancara dan memisahkan fakta, asumsi, kebutuhan serta pertanyaan lanjutan.",
+      "evidence": "Log wawancara dan lima kebutuhan",
+      "tool": "Docs dan Sheets",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Kebutuhan yang lebih dapat diuji?",
+          "options": [
+            "Aplikasi harus canggih",
+            "Checkout menolak jumlah melebihi stok yang terkonfirmasi",
+            "Sistem harus bagus"
+          ],
+          "answer": 1,
+          "why": "Input dan hasil penolakan dapat diamati."
+        },
+        {
+          "prompt": "“Semua pelanggan mau aplikasi” tanpa riset adalah?",
+          "options": [
+            "Asumsi",
+            "Fakta terverifikasi",
+            "Acceptance criterion"
+          ],
+          "answer": 0,
+          "why": "Klaim perlu bukti, tidak boleh dianggap kebutuhan final."
+        },
+        {
+          "prompt": "Sumber FR perlu dicatat untuk?",
+          "options": [
+            "Menambah jumlah halaman",
+            "Menghindari wawancara",
+            "Menelusuri alasan dan persetujuan"
+          ],
+          "answer": 2,
+          "why": "Sumber membantu klarifikasi dan perubahan."
+        }
+      ]
+    },
+    {
+      "hook": "Mengapa satu pesanan bisa berhenti selamanya setelah gateway?",
+      "concepts": [
+        {
+          "title": "Proses dan partisipan",
+          "text": "BPMN menampilkan aktivitas bisnis, peristiwa dan percabangan. Pool mewakili partisipan; lane membantu membagi tanggung jawab dalam pool. Untuk latihan satu pool Aruna, gunakan sequence flow antar lane. Komunikasi antar pool memakai message flow, bukan sequence flow yang menembus pool."
+        },
+        {
+          "title": "Exclusive dan parallel",
+          "text": "Exclusive split memilih satu jalur sesuai kondisi; parallel split mengaktifkan semua jalur keluar. Parallel join menunggu seluruh jalur masuk yang diwajibkan. Jika hanya satu dari dua jalur aktif lalu dipaksa bertemu pada parallel join, contoh sederhana ini dapat macet."
+        },
+        {
+          "title": "Walkthrough berbasis skenario",
+          "text": "Telusuri stok tersedia dan kosong. Setiap jalur harus berakhir atau memiliki penanganan yang jelas. Token pada modul adalah ilustrasi jalur; untuk pemeriksaan notasi lebih lengkap gunakan model BPMN XML dan alat khusus. Gambar yang tampak rapi belum membuktikan semantik benar."
+        }
+      ],
+      "steps": [
+        "Buka file .drawio Aruna; tambah halaman BPMN.",
+        "Aktifkan More Shapes → BPMN; buat lane kasir dan gudang di satu pool.",
+        "Susun Start → Terima pesanan → Cek stok → gateway.",
+        "Beri kondisi [cukup] menuju Reservasi dan [kurang] menuju Beri tahu pelanggan.",
+        "Satukan alternatif dengan exclusive merge dan akhiri alur.",
+        "Ubah pilihan gateway di simulator, jalankan stok cukup dan kosong, catat jalur serta kemungkinan macet.",
+        "Jika memakai bpmn.io, buat ulang atau muat .bpmn yang sesuai; .drawio tidak langsung menjadi BPMN XML.",
+        "Kumpulkan model dan jejak dua skenario; jelaskan satu perbaikan semantik."
+      ],
+      "prompts": [
+        "Jalur mana aktif untuk stok kosong?",
+        "Mengapa pilihan join bisa menimbulkan deadlock?",
+        "Perbaikan apa dilakukan dan apa bukti dua skenario selesai?"
+      ],
+      "criteria": [
+        "Tanggung jawab dan alur pesan konsisten.",
+        "Kedua kondisi punya jalur akhir.",
+        "Pilihan gateway dijelaskan melalui token."
+      ],
+      "sim": "bpmn",
+      "refs": [
+        "bpmn",
+        "token"
+      ],
+      "pitfall": "Mencampur message flow dan sequence flow atau memakai parallel join untuk alternatif eksklusif.",
+      "transfer": "Tambahkan pemeriksaan alamat yang berjalan paralel; apakah join sekarang diperlukan?",
+      "n": 3,
+      "title": "BPMN proses bisnis",
+      "cp": 2,
+      "outcome": "Membuat BPMN dengan aktor, task, gateway dan jalur stok kosong yang konsisten.",
+      "evidence": "BPMN dan jejak dua skenario",
+      "tool": "diagrams.net; bpmn.io opsional",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Exclusive split mengaktifkan?",
+          "options": [
+            "Satu jalur sesuai kondisi",
+            "Semua jalur selalu",
+            "Tidak ada jalur"
+          ],
+          "answer": 0,
+          "why": "Pada contoh kondisi cukup/kurang saling eksklusif."
+        },
+        {
+          "prompt": "Parallel join sesudah satu dari dua cabang exclusive dapat?",
+          "options": [
+            "Selalu mempercepat proses",
+            "Mengganti keputusan stok",
+            "Menunggu cabang yang tidak aktif"
+          ],
+          "answer": 2,
+          "why": "Join yang menunggu kedua masukan bisa macet."
+        },
+        {
+          "prompt": "Komunikasi antar pool memakai?",
+          "options": [
+            "Association sebagai kontrol",
+            "Message flow",
+            "Sequence flow lintas pool"
+          ],
+          "answer": 1,
+          "why": "Batas partisipan membedakan jenis alur."
+        }
+      ]
+    },
+    {
+      "hook": "Apakah “database” selalu menjadi aktor pada use case checkout?",
+      "concepts": [
+        {
+          "title": "Aktor dan tujuan",
+          "text": "Aktor adalah peran eksternal yang berinteraksi dengan sistem pada batas yang dipilih. Pelanggan dan layanan pembayaran dapat menjadi aktor aplikasi Aruna. Penyimpanan internal bukan aktor hanya karena terlibat teknis. Use case menyatakan tujuan pengguna yang bermakna, bukan daftar tombol."
+        },
+        {
+          "title": "Skenario sebagai kontrak",
+          "text": "Tuliskan precondition, pemicu, alur utama, alur alternatif dan postcondition. Untuk checkout, stok dapat berubah antara melihat produk dan mengirim pesanan. Keberhasilan berarti reservasi/pesanan sesuai kontrak, bukan sekadar layar berhasil ditampilkan."
+        },
+        {
+          "title": "Relasi seperlunya",
+          "text": "Gunakan include untuk perilaku yang disertakan sesuai pemodelan dan extend untuk tambahan bersyarat pada extension point yang relevan. Jangan menambah relasi hanya agar diagram terlihat kompleks. Skenario tertulis dan trace ke FR01 harus tetap menjadi acuan review."
+        }
+      ],
+      "steps": [
+        "Buka halaman UseCase dan aktifkan UML; gambar system boundary Aplikasi Aruna.",
+        "Letakkan Pelanggan dan Penyedia Bayar di luar batas; tulis alasan untuk tiap aktor.",
+        "Tambahkan use case Checkout dan Cek status pesanan.",
+        "Di Docs tulis UC01 dengan precondition keranjang valid dan pengguna terautentikasi sesuai asumsi latihan.",
+        "Tulis langkah aktor/sistem secara bergantian, lalu alternatif stok berubah.",
+        "Gunakan simulator untuk membedakan aktor eksternal dan komponen internal.",
+        "Tautkan UC01 ke FR01 dan dua acceptance criteria; periksa postcondition saat gagal.",
+        "Simpan diagram dan skenario, lalu jelaskan satu keputusan tanpa membaca catatan pasangan."
+      ],
+      "prompts": [
+        "Apa batas sistem dan siapa aktor eksternalnya?",
+        "Tulis alur utama dan alternatif UC01.",
+        "Kapan postcondition sukses belum tercapai?"
+      ],
+      "criteria": [
+        "Aktor ditentukan dari batas sistem.",
+        "Skenario memuat kondisi dan alternatif.",
+        "UC01 dapat ditelusuri ke FR01."
+      ],
+      "sim": "usecase",
+      "refs": [
+        "usecase",
+        "ireb"
+      ],
+      "pitfall": "Menjadikan tiap klik tombol sebagai use case atau menjadikan semua komponen teknis sebagai aktor.",
+      "transfer": "Pindahkan payment gateway ke luar layanan yang Anda desain; apa perubahan aktor dan kontraknya?",
+      "n": 4,
+      "title": "Use case dan skenario",
+      "cp": 3,
+      "outcome": "Menyusun use case beserta alur utama, alternatif, precondition dan postcondition.",
+      "evidence": "Use case dan skenario checkout",
+      "tool": "diagrams.net dan Docs",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Aktor ditentukan berdasarkan?",
+          "options": [
+            "Jumlah kolom tabel",
+            "Lokasi ikon",
+            "Interaksi eksternal terhadap batas sistem"
+          ],
+          "answer": 2,
+          "why": "Peran aktor bergantung batas yang dipilih."
+        },
+        {
+          "prompt": "Postcondition checkout sukses menyatakan?",
+          "options": [
+            "Daftar seluruh bahasa pemrograman",
+            "Keadaan yang dijamin setelah berhasil",
+            "Warna tombol"
+          ],
+          "answer": 1,
+          "why": "Kontrak hasil berbeda dari tampilan."
+        },
+        {
+          "prompt": "Stok berubah sebaiknya ditulis sebagai?",
+          "options": [
+            "Alur alternatif yang jelas",
+            "Catatan tidak perlu diuji",
+            "Use case database internal"
+          ],
+          "answer": 0,
+          "why": "Skenario perlu memuat kegagalan yang relevan."
+        }
+      ]
+    },
+    {
+      "hook": "Dua pekerjaan harus selesai sebelum paket dikirim. Merge atau join?",
+      "concepts": [
+        {
+          "title": "Action dan control flow",
+          "text": "Activity diagram menjelaskan aliran aksi. Mulai dari aksi Cek stok, keputusan stok cukup, lalu Reservasi atau Tampilkan penolakan. Guard harus cukup jelas sehingga pembaca tahu jalur yang mungkin. Diagram ini tidak menampilkan seluruh percakapan antar objek seperti sequence diagram."
+        },
+        {
+          "title": "Decision merge fork join",
+          "text": "Decision memilih aliran berdasarkan guard; merge menyatukan alternatif tanpa menunggu semuanya. Fork membagi pekerjaan paralel; join menyinkronkan pekerjaan yang harus selesai bersama. Dalam contoh Aruna, validasi alamat dan persiapan label dapat paralel bila aturan bisnis mengizinkan."
+        },
+        {
+          "title": "Uji logika",
+          "text": "Jumlah aksi yang selesai bukan satu-satunya ukuran: lihat apakah pengiriman menunggu prasyarat yang benar. Jalankan contoh salah, misalnya menggunakan merge untuk dua pekerjaan yang keduanya wajib selesai. Perbaikan harus menyebut alasan bisnis yang mengharuskan sinkronisasi."
+        }
+      ],
+      "steps": [
+        "Buka Activity pada diagrams.net dan aktifkan UML 2.5.",
+        "Gambar initial, action Cek stok, decision, guard dan final.",
+        "Hubungkan cabang cukup dan kurang; gunakan merge hanya ketika alternatif disatukan.",
+        "Tambahkan fork untuk Validasi alamat dan Siapkan label pada jalur sukses.",
+        "Tempatkan join sebelum Kirim paket, dengan asumsi keduanya wajib selesai.",
+        "Di simulator ubah merge/join dan status dua pekerjaan; perhatikan apakah aksi berikutnya dapat berjalan terlalu dini.",
+        "Lakukan walkthrough stok kurang dan stok cukup dengan dua pekerjaan selesai berbeda waktu.",
+        "Simpan model, dua jejak dan satu alasan pemakaian join."
+      ],
+      "prompts": [
+        "Apa perbedaan decision dan fork dalam kasus ini?",
+        "Apa yang terjadi bila merge menggantikan join?",
+        "Skenario mana membuktikan model sudah diperbaiki?"
+      ],
+      "criteria": [
+        "Guard dan jalur alternatif konsisten.",
+        "Sinkronisasi mengikuti prasyarat bisnis.",
+        "Satu contoh salah diuji dan direvisi."
+      ],
+      "sim": "activity",
+      "refs": [
+        "activity",
+        "uml"
+      ],
+      "pitfall": "Menggunakan merge dan join sebagai simbol yang dapat saling menggantikan.",
+      "transfer": "Jika validasi alamat menjadi opsional, revisi guard dan aturan sinkronisasi.",
+      "n": 5,
+      "title": "Activity diagram",
+      "cp": 3,
+      "outcome": "Membuat activity diagram dengan decision, guard, fork dan join sesuai skenario.",
+      "evidence": "Activity dan jejak jalur alternatif",
+      "tool": "diagrams.net",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Dua pekerjaan wajib selesai bersama membutuhkan?",
+          "options": [
+            "Final sebelum pekerjaan",
+            "Join",
+            "Merge alternatif saja"
+          ],
+          "answer": 1,
+          "why": "Join menyinkronkan masukan yang diwajibkan."
+        },
+        {
+          "prompt": "Guard [stok cukup] ditempatkan untuk?",
+          "options": [
+            "Menentukan kondisi jalur",
+            "Menyimpan harga",
+            "Menunjuk database"
+          ],
+          "answer": 0,
+          "why": "Guard menjelaskan kapan alur dapat dipilih."
+        },
+        {
+          "prompt": "Activity terutama menggambarkan?",
+          "options": [
+            "Seluruh atribut tabel",
+            "Urutan pesan tiap lifeline secara rinci",
+            "Aliran aksi dan kontrol"
+          ],
+          "answer": 2,
+          "why": "Sequence lebih sesuai untuk percakapan antar partisipan."
+        }
+      ]
+    },
+    {
+      "hook": "Pembayaran timeout. Apakah aman menekan bayar sekali lagi?",
+      "concepts": [
+        {
+          "title": "Interaksi antar lifeline",
+          "text": "Sequence diagram menampilkan pesan antar partisipan dalam urutan interaksi. Pisahkan pelanggan, UI, layanan order dan layanan pembayaran. Arah pesan menunjukkan pemanggil dan penerima; return dapat digambar terpisah. Tidak perlu menganggap semua panah sebagai panggilan sinkron."
+        },
+        {
+          "title": "Alternatif dan timeout",
+          "text": "Fragmen alt membedakan hasil sukses, gagal terkonfirmasi dan timeout. Timeout hanya menyatakan respons belum diterima dalam batas waktu; pembayaran mungkin telah diproses. Alur pemulihan perlu memeriksa status transaksi sebelum membuat upaya baru."
+        },
+        {
+          "title": "Idempotensi sebagai kebutuhan desain",
+          "text": "Tetapkan identitas permintaan agar pengulangan terkontrol tidak menciptakan efek ganda. Ini keputusan rancangan yang harus sesuai kemampuan penyedia dan penyimpanan status. Simulator hanya mendemonstrasikan duplikasi efek; validasi integrasi nyata memerlukan implementasi dan pengujian tersendiri."
+        }
+      ],
+      "steps": [
+        "Buat empat lifeline di halaman Sequence.",
+        "Tulis pesan checkout, reserve, pay dan hasil; urutkan dari atas ke bawah.",
+        "Tambahkan nomor order dan request ID pada kontrak pesan.",
+        "Buat alt sukses, penolakan terkonfirmasi dan timeout.",
+        "Untuk timeout, tambahkan query status sebelum retry dan catat siapa memiliki status otoritatif.",
+        "Jalankan simulator satu permintaan, respons hilang, lalu retry dengan dan tanpa identitas yang sama.",
+        "Cocokkan pesan terhadap operasi kelas sementara dan langkah UC01.",
+        "Simpan sequence normal serta timeout dan tulis risiko yang masih perlu dikonfirmasi ke penyedia."
+      ],
+      "prompts": [
+        "Pesan mana hilang saat timeout dan apa yang masih belum diketahui?",
+        "Apa aturan retry dan identitas permintaannya?",
+        "Bagaimana membuktikan efek ganda dicegah pada rancangan?"
+      ],
+      "criteria": [
+        "Urutan pesan dan tanggung jawab jelas.",
+        "Timeout dibedakan dari gagal terkonfirmasi.",
+        "Alur pemulihan memiliki query dan identitas."
+      ],
+      "sim": "sequence",
+      "refs": [
+        "sequence"
+      ],
+      "pitfall": "Mengartikan timeout sebagai transaksi pasti gagal, lalu mengulang dengan ID baru tanpa rekonsiliasi.",
+      "transfer": "Respons callback datang terlambat dua kali; apa yang harus tetap sama?",
+      "n": 6,
+      "title": "Sequence diagram",
+      "cp": 3,
+      "outcome": "Membuat sequence diagram normal dan timeout dengan lifeline serta pesan yang konsisten.",
+      "evidence": "Sequence normal dan timeout",
+      "tool": "diagrams.net",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Timeout pembayaran berarti?",
+          "options": [
+            "Respons belum diterima tepat waktu",
+            "Pembayaran pasti gagal",
+            "Pelanggan pasti tidak ditagih"
+          ],
+          "answer": 0,
+          "why": "Hasil aktual harus dikonfirmasi."
+        },
+        {
+          "prompt": "Sebelum retry sebaiknya?",
+          "options": [
+            "Selalu buat ID baru",
+            "Hapus jejak pembayaran",
+            "Periksa status dan aturan identitas permintaan"
+          ],
+          "answer": 2,
+          "why": "Status otoritatif dan identitas mengendalikan duplikasi."
+        },
+        {
+          "prompt": "Sequence membantu melihat?",
+          "options": [
+            "Jumlah mahasiswa",
+            "Urutan pesan antar partisipan",
+            "Kunci primer saja"
+          ],
+          "answer": 1,
+          "why": "Interaksi diurutkan sepanjang lifeline."
+        }
+      ]
+    },
+    {
+      "hook": "Mengapa class Order memerlukan operasi, bukan hanya kolom data?",
+      "concepts": [
+        {
+          "title": "Tanggung jawab objek",
+          "text": "Class menggambarkan jenis objek dengan atribut, operasi dan hubungan. Order menyimpan identitas/status dan menjaga aturan perubahan; OrderItem menyimpan jumlah dan harga yang disepakati. Pemisahan ini membantu mencocokkan kebutuhan dengan siapa yang melakukan pekerjaan."
+        },
+        {
+          "title": "Association dan multiplicity",
+          "text": "Dalam asumsi Aruna, satu Order berisi satu atau lebih OrderItem; satu item merujuk satu Product. Multiplicity dibaca dari kedua arah. Composition hanya tepat jika kepemilikan dan lifecycle kuat sesuai domain, bukan dipilih karena simbol diamond menarik."
+        },
+        {
+          "title": "Konsistensi perilaku",
+          "text": "Pesan reserve atau confirmPayment pada sequence harus mempunyai penerima dengan tanggung jawab yang sesuai. Tabel database membantu persistensi tetapi tidak otomatis menentukan seluruh class dan operasinya. Diagram perlu direvisi ketika skenario mengungkap tanggung jawab yang hilang."
+        }
+      ],
+      "steps": [
+        "Ekstrak konsep Order, OrderItem, Product, PaymentAttempt dari UC01.",
+        "Buat class tiga kompartemen pada diagrams.net: nama, atribut dan operasi.",
+        "Tempatkan status serta confirmPayment() pada objek yang bertanggung jawab.",
+        "Hubungkan Order dengan OrderItem dan Product; tulis multiplicity tiap ujung.",
+        "Pada simulator ubah jumlah item dan periksa aturan minimal satu item.",
+        "Bahas apakah lifecycle OrderItem mendukung composition; catat asumsi penghapusan/audit.",
+        "Telusuri satu pesan sequence ke operasi kelas dan satu atribut ke kebutuhan.",
+        "Setiap mahasiswa menjelaskan satu relasi dan memperbaiki satu tanggung jawab yang salah."
+      ],
+      "prompts": [
+        "Tanggung jawab apa dijaga Order?",
+        "Baca multiplicity Order–OrderItem dari dua arah.",
+        "Mengapa pilihan composition membutuhkan asumsi lifecycle?"
+      ],
+      "criteria": [
+        "Atribut dan operasi mendukung skenario.",
+        "Multiplicity konsisten dengan domain.",
+        "Tiap individu membela satu relasi."
+      ],
+      "sim": "class",
+      "refs": [
+        "class",
+        "uml"
+      ],
+      "pitfall": "Menyalin seluruh tabel menjadi class tanpa perilaku atau memakai inheritance untuk hubungan memiliki.",
+      "transfer": "Pesanan boleh disimpan sebagai draft tanpa item; ubah multiplicity dan bedakan aturan submit.",
+      "n": 7,
+      "title": "Class diagram dan OOAD",
+      "cp": 3,
+      "outcome": "Memodelkan kelas, atribut, operasi dan multiplicity yang mendukung skenario use case.",
+      "evidence": "Class diagram dan tanggung jawab kelas",
+      "tool": "diagrams.net; StarUML opsional",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Class dibedakan dari tabel karena juga memodelkan?",
+          "options": [
+            "Warna baris",
+            "Ukuran font",
+            "Operasi dan tanggung jawab"
+          ],
+          "answer": 2,
+          "why": "Objek menjaga perilaku domain."
+        },
+        {
+          "prompt": "Multiplicity 1..* pada sisi item berarti?",
+          "options": [
+            "Item tidak diperlukan pada submit",
+            "Satu atau lebih item per order terkait",
+            "Setiap item milik tak terhingga order"
+          ],
+          "answer": 1,
+          "why": "Baca angka dari objek di ujung seberang."
+        },
+        {
+          "prompt": "Composition dipilih setelah memeriksa?",
+          "options": [
+            "Kepemilikan dan lifecycle",
+            "Popularitas ikon diamond",
+            "Jumlah screenshot"
+          ],
+          "answer": 0,
+          "why": "Relasi kuat harus sesuai domain."
+        }
+      ]
+    },
+    {
+      "hook": "UTS: dapatkah Anda memakai cara berpikir yang sama pada kasus berbeda?",
+      "concepts": [
+        {
+          "title": "Cakupan UTS",
+          "text": "Sesi 8 menguji CPMK1 sampai CPMK3. Usulan bobot 15% dibagi menjadi analisis kebutuhan 5, rancangan proses 5 dan penerapan OOAD 5 poin bobot. Instruksi resmi dosen menetapkan waktu, media dan bantuan yang diizinkan; timer belajar di modul tidak menentukan durasi ujian."
+        },
+        {
+          "title": "Kasus latihan transfer",
+          "text": "Klinik fiktif mengatur jadwal teknisi peralatan. Satu slot hanya boleh dipesan satu pemohon; pembatalan membuka slot kembali. Turunkan kebutuhan, alur alternatif dan objek inti tanpa menyalin kasus toko. Jangan memasukkan data pasien atau data kantor nyata."
+        },
+        {
+          "title": "Bukti individu",
+          "text": "Buat hubungan antara kutipan kasus, FR, model proses dan objek. Alasan pemilihan lebih bernilai daripada hafalan menu. Latihan ini memiliki feedback terbuka untuk belajar; ujian resmi harus memakai variasi kasus dan berkas berbeda di RISE."
+        }
+      ],
+      "steps": [
+        "Sebelum UTS audit artefak sesi 1–7 dan tandai satu kelemahan per CPMK.",
+        "Unduh lembar latihan individual pada menu Ekspor sesi.",
+        "Baca kasus slot teknisi dan tulis tiga asumsi yang perlu dikonfirmasi.",
+        "Susun tiga kebutuhan dengan kriteria pengujian.",
+        "Gambar BPMN dua skenario, lalu use case serta sketsa class inti.",
+        "Gunakan peta kesiapan pada simulator untuk memilih area latihan ulang.",
+        "Lakukan pembelaan lisan singkat: satu simbol, satu asumsi dan dampak satu perubahan.",
+        "Saat UTS resmi, kerjakan instruksi dosen yang terpisah; unggah file asli dan pernyataan bantuan sesuai kontrak."
+      ],
+      "prompts": [
+        "Apa tiga kebutuhan inti kasus slot teknisi?",
+        "Tunjukkan satu jejak kebutuhan ke BPMN dan class.",
+        "Apa kelemahan yang masih harus dilatih sebelum ujian resmi?"
+      ],
+      "criteria": [
+        "Kebutuhan teruji dan sesuai kasus baru.",
+        "Model punya jalur bentrok/pembatalan.",
+        "Pembelaan dilakukan sendiri."
+      ],
+      "sim": "exam",
+      "refs": [
+        "ireb",
+        "bpmn",
+        "uml"
+      ],
+      "pitfall": "Menggunakan kunci latihan publik sebagai soal ujian berisiko tinggi.",
+      "transfer": "Dosen mengganti satu slot menjadi dua kapasitas; jelaskan artefak yang berubah.",
+      "n": 8,
+      "title": "UTS kasus individu",
+      "cp": 0,
+      "outcome": "Menganalisis kasus baru serta membela model kebutuhan, proses dan OOAD paruh semester.",
+      "evidence": "Jawaban individu dan model beralasan",
+      "tool": "RISE dan diagrams.net",
+      "weight": 15,
+      "quiz": [
+        {
+          "prompt": "UTS menguji transfer ketika?",
+          "options": [
+            "Jawaban hanya menyebut menu",
+            "Kasus berubah tetapi alasan tetap dapat dijelaskan",
+            "Mahasiswa menyalin diagram toko"
+          ],
+          "answer": 1,
+          "why": "Transfer menunjukkan penggunaan konsep pada konteks baru."
+        },
+        {
+          "prompt": "Bobot UTS IASD pada usulan terakhir?",
+          "options": [
+            "15%",
+            "25% pasti resmi",
+            "0%"
+          ],
+          "answer": 0,
+          "why": "Usulan mengikuti tabel sesi; persetujuan prodi tetap diperlukan."
+        },
+        {
+          "prompt": "Kunci latihan publik cocok untuk?",
+          "options": [
+            "Rahasia ujian resmi",
+            "Autentikasi nilai",
+            "Feedback belajar terbuka"
+          ],
+          "answer": 2,
+          "why": "Ujian resmi memerlukan kasus berbeda dan kanal terkendali."
+        }
+      ]
+    },
+    {
+      "hook": "Setelah UTS: apakah DFD menjelaskan urutan aktivitas atau perpindahan data?",
+      "concepts": [
+        {
+          "title": "Empat komponen DFD",
+          "text": "External entity mengirim/menerima data; process mentransformasikan; data store menyimpan; data flow menamai data yang berpindah. Gunakan kata benda untuk arus data dan kata kerja untuk proses. DFD tidak menggantikan BPMN karena fokus pertanyaannya berbeda."
+        },
+        {
+          "title": "Konteks dan dekomposisi",
+          "text": "Gunakan istilah context untuk satu proses Sistem Aruna; pada modul ini DFD level 0 adalah dekomposisi pertama dengan beberapa proses. Buku lain dapat menamai level berbeda, sehingga tetapkan konvensi pada legenda. Perincian internal tidak boleh mengubah kontrak data eksternal tanpa alasan."
+        },
+        {
+          "title": "Balancing dan arus terlarang",
+          "text": "Pesanan masuk dan konfirmasi keluar pada context harus tetap terwakili pada dekomposisi. Hindari entity langsung ke store, store langsung ke store, atau proses tanpa input yang menghasilkan data tanpa sumber. Tulis data dictionary untuk menjelaskan isi arus."
+        }
+      ],
+      "steps": [
+        "Awali dengan koreksi satu miskonsepsi UTS dan hubungkan ke arus data.",
+        "Buat halaman Context dengan pelanggan, Sistem Aruna dan arus Pesanan/Konfirmasi.",
+        "Buat DFD level 0: Validasi pesanan, Reservasi stok, Catat transaksi.",
+        "Tambahkan store Produk, Pesanan dan Pembayaran melalui process.",
+        "Beri nama arus sesuai isi datanya, bukan perintah klik.",
+        "Pada simulator hilangkan satu arus eksternal lalu bandingkan balancing.",
+        "Periksa sumber dan tujuan setiap arus, serta catat kamus data untuk Pesanan.",
+        "Kumpulkan kedua tingkat dan alasan satu perbaikan."
+      ],
+      "prompts": [
+        "Data apa masuk dan keluar pada context?",
+        "Arus mana hilang pada dekomposisi dan bagaimana memperbaikinya?",
+        "Mengapa garis langsung pelanggan ke store tidak tepat?"
+      ],
+      "criteria": [
+        "Kedua tingkat memakai konvensi yang dinyatakan.",
+        "Kontrak eksternal seimbang.",
+        "Semua data store diakses melalui proses."
+      ],
+      "sim": "dfd",
+      "refs": [
+        "dfd"
+      ],
+      "pitfall": "Mencampur panah kontrol BPMN dengan arus data DFD atau menyembunyikan perubahan kontrak saat dekomposisi.",
+      "transfer": "Tambahkan permintaan refund; apakah context perlu berubah juga?",
+      "n": 9,
+      "title": "DFD",
+      "cp": 1,
+      "outcome": "Menyusun context diagram dan DFD level 0 dengan arus data yang seimbang.",
+      "evidence": "Context DFD dan level 0",
+      "tool": "diagrams.net",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Panah DFD menunjukkan?",
+          "options": [
+            "Data yang berpindah",
+            "Urutan waktu pasti",
+            "State objek"
+          ],
+          "answer": 0,
+          "why": "DFD menjawab pertanyaan aliran data."
+        },
+        {
+          "prompt": "Balancing berarti?",
+          "options": [
+            "Semua kotak sama besar",
+            "Jumlah proses selalu dua",
+            "Kontrak data eksternal terjaga antartingkat"
+          ],
+          "answer": 2,
+          "why": "Dekomposisi mempertahankan input/output relevan."
+        },
+        {
+          "prompt": "Hubungan yang harus diperbaiki?",
+          "options": [
+            "Entity ke process",
+            "Entity langsung ke data store",
+            "Process ke store"
+          ],
+          "answer": 1,
+          "why": "Data diproses melalui process pada model latihan."
+        }
+      ]
+    },
+    {
+      "hook": "Harga produk berubah hari ini. Mengapa nilai pesanan bulan lalu ikut berubah?",
+      "concepts": [
+        {
+          "title": "Entitas dan kunci",
+          "text": "ERD mendeskripsikan struktur data. Pilih identitas yang stabil untuk Customer, Order, OrderItem, Product dan PaymentAttempt. PK mengidentifikasi baris; FK mengacu ke entitas lain sesuai aturan integritas. Nama pelanggan tidak cukup aman sebagai identitas unik."
+        },
+        {
+          "title": "Relasi dan histori",
+          "text": "Hubungan banyak produk pada banyak pesanan dipecah melalui OrderItem. Simpan quantity dan unit_price_at_order pada item agar nilai historis tidak bergantung pada harga produk terkini. Ini pilihan kasus yang harus diselaraskan dengan aturan perubahan harga serta audit."
+        },
+        {
+          "title": "Kardinalitas dan validasi",
+          "text": "Jelaskan apakah draft boleh belum berisi item dan kapan minimal satu item diwajibkan. Pastikan setiap OrderItem menunjuk Order dan Product yang ada. ERD tidak menunjukkan urutan pemrosesan pembayaran; hubungkan ke sequence dan state untuk perilaku."
+        }
+      ],
+      "steps": [
+        "Buka Entity Relation pada More Shapes dan buat lima entitas.",
+        "Pilih PK untuk setiap entitas dan tambahkan FK yang sesuai.",
+        "Pisahkan relasi Order–Product melalui OrderItem.",
+        "Tambahkan quantity dan unit_price_at_order; tulis definisi satuan.",
+        "Pada simulator ubah harga katalog setelah order dibuat; bandingkan total historis dua strategi.",
+        "Buat kamus data dengan nullable, sumber dan aturan validasi.",
+        "Uji contoh item tanpa parent serta satu order berisi dua produk.",
+        "Simpan ERD dan tulis alasan penyimpanan harga historis."
+      ],
+      "prompts": [
+        "Apa PK/FK utama dan relasinya?",
+        "Bagaimana total lama tetap stabil ketika harga katalog berubah?",
+        "Aturan apa berlaku untuk draft versus submitted order?"
+      ],
+      "criteria": [
+        "Kunci dan kardinalitas valid.",
+        "OrderItem memecah relasi banyak-ke-banyak.",
+        "Harga historis memiliki penjelasan aturan."
+      ],
+      "sim": "erd",
+      "refs": [
+        "erd"
+      ],
+      "pitfall": "Menghitung transaksi historis dari harga katalog terkini tanpa snapshot atau aturan versi.",
+      "transfer": "Tambahkan diskon per item; data apa disimpan dan kapan dikunci?",
+      "n": 10,
+      "title": "ERD",
+      "cp": 1,
+      "outcome": "Membuat ERD dengan PK, FK dan kardinalitas yang sesuai aturan data pesanan.",
+      "evidence": "ERD dan kamus data",
+      "tool": "diagrams.net dan Sheets",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Harga historis sebaiknya berasal dari?",
+          "options": [
+            "Harga katalog terbaru setiap saat",
+            "Nama pelanggan",
+            "Harga yang disepakati pada OrderItem"
+          ],
+          "answer": 2,
+          "why": "Snapshot menjaga nilai transaksi lampau."
+        },
+        {
+          "prompt": "OrderItem membantu?",
+          "options": [
+            "Menjalankan BPMN",
+            "Memecah relasi banyak-ke-banyak Order dan Product",
+            "Menghapus PK"
+          ],
+          "answer": 1,
+          "why": "Entitas penghubung menyimpan detail per item."
+        },
+        {
+          "prompt": "FK menunjuk?",
+          "options": [
+            "Kunci entitas yang direferensikan",
+            "Teks bebas tanpa integritas",
+            "Nomor slide"
+          ],
+          "answer": 0,
+          "why": "Relasi perlu merujuk identitas yang valid."
+        }
+      ]
+    },
+    {
+      "hook": "Callback pembayaran datang setelah pesanan dibatalkan. Transisi apa yang boleh terjadi?",
+      "concepts": [
+        {
+          "title": "State dan event",
+          "text": "State adalah kondisi objek sepanjang lifecycle, bukan aksi proses. Order dapat berada pada Draft, AwaitingPayment, Paid dan Cancelled. Event submit memicu perpindahan dari Draft jika guard jumlah item valid. Catat sumber event agar keputusan dapat ditinjau."
+        },
+        {
+          "title": "Guard dan efek",
+          "text": "Transition memiliki asal, event, guard dan tujuan; efek dapat memperbarui data. Dari AwaitingPayment, pembayaran yang terverifikasi dapat menuju Paid. Timeout menuju Cancelled merupakan asumsi latihan; kebijakan nyata dapat memerlukan status Expired atau rekonsiliasi pembayaran terpisah."
+        },
+        {
+          "title": "Transisi terlarang",
+          "text": "Pada aturan latihan, Cancelled tidak langsung menjadi Paid. Callback terlambat memicu pemeriksaan dan eskalasi/refund sesuai prosedur, bukan mengabaikan uang masuk. Jalankan sequence event normal, duplikat dan terlambat untuk melihat invariant."
+        }
+      ],
+      "steps": [
+        "Pilih satu objek Order dan gambar initial serta empat state.",
+        "Buat tabel asal, event, guard, tujuan dan efek.",
+        "Tambahkan submit, payment_verified, timeout dan cancel sesuai asumsi.",
+        "Tuliskan invariant: Cancelled tidak langsung berubah Paid.",
+        "Jalankan simulator normal, timeout, lalu callback terlambat; baca pesan penolakannya.",
+        "Tambahkan catatan rekonsiliasi untuk callback terlambat dan owner tindakan.",
+        "Bandingkan satu node state dengan satu action pada activity.",
+        "Simpan diagram dan hasil tiga urutan event beserta alasan."
+      ],
+      "prompts": [
+        "Apa state awal, event dan guard submit?",
+        "Apa hasil callback setelah Cancelled menurut aturan latihan?",
+        "Bagaimana uang yang terlanjur masuk harus ditangani?"
+      ],
+      "criteria": [
+        "State dibedakan dari aksi.",
+        "Transition memiliki asal dan kondisi.",
+        "Kasus terlambat memiliki tindak lanjut."
+      ],
+      "sim": "state",
+      "refs": [
+        "state"
+      ],
+      "pitfall": "Membiarkan setiap event membawa objek ke sembarang state atau menyamakan penolakan transisi dengan penyelesaian keuangan.",
+      "transfer": "Kebijakan bisnis mengizinkan pemulihan pesanan; tambahkan proses otorisasi dan jejak audit.",
+      "n": 11,
+      "title": "State machine",
+      "cp": 3,
+      "outcome": "Memodelkan state, event, guard dan transition pesanan serta menolak transisi tidak sah.",
+      "evidence": "State machine dan tabel transisi",
+      "tool": "diagrams.net dan Sheets",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "State Paid menyatakan?",
+          "options": [
+            "Pesan antar lifeline",
+            "Kondisi objek",
+            "Aksi klik bayar"
+          ],
+          "answer": 1,
+          "why": "State adalah keadaan lifecycle."
+        },
+        {
+          "prompt": "Callback terlambat setelah Cancelled pada aturan latihan?",
+          "options": [
+            "Ditolak sebagai transisi langsung dan direkonsiliasi",
+            "Otomatis Paid tanpa pemeriksaan",
+            "Uang diabaikan"
+          ],
+          "answer": 0,
+          "why": "Penolakan transisi harus disertai penanganan dampak."
+        },
+        {
+          "prompt": "Guard pada submit memeriksa?",
+          "options": [
+            "Warna diagram",
+            "Jumlah halaman SRS",
+            "Kondisi yang harus terpenuhi"
+          ],
+          "answer": 2,
+          "why": "Guard menentukan validitas transisi."
+        }
+      ]
+    },
+    {
+      "hook": "Siapa berwenang menentukan stok dan siapa berwenang mengonfirmasi pembayaran?",
+      "concepts": [
+        {
+          "title": "Komponen dan tanggung jawab",
+          "text": "Arsitektur logis membagi UI, layanan order, inventori dan adapter pembayaran. Batas komponen menjelaskan siapa menerima input, menjaga aturan dan memiliki data otoritatif. Banyak kotak bukan ukuran arsitektur yang baik; setiap batas harus membantu kebutuhan atau kendali risiko."
+        },
+        {
+          "title": "Kontrak dan kegagalan",
+          "text": "Kontrak memuat input, output, identitas permintaan, aturan error serta otorisasi. Contoh reserve(order_id, item, qty) dapat berhasil atau menolak stok. Respons payment harus diverifikasi oleh komponen berwenang; UI tidak boleh menetapkan sendiri bahwa pembayaran sah."
+        },
+        {
+          "title": "Trade-off",
+          "text": "Pemisahan layanan menambah kebutuhan konsistensi, observabilitas dan penanganan gagal parsial. Rancangan modular dalam satu aplikasi dapat cukup untuk kasus kecil. Jelaskan pilihan berdasarkan skala, kemampuan tim dan risiko; arsitektur belum menjadi bukti deployment berhasil."
+        }
+      ],
+      "steps": [
+        "Buat diagram komponen UI, Order, Inventori dan Payment Adapter.",
+        "Beri arah komunikasi dan owner data pada tiap komponen.",
+        "Tulis kontrak reserve dan confirmPayment dengan contoh payload fiktif.",
+        "Tambahkan error stok habis, timeout dan unauthorized.",
+        "Pada simulator pilih owner status pembayaran dan amati keputusan kontrolnya.",
+        "Telusuri FR01 ke komponen inventori, lalu telusuri kebutuhan pembayaran ke adapter.",
+        "Kelompok melakukan review, setiap anggota menjawab satu kegagalan parsial secara individu.",
+        "Simpan arsitektur, dua kontrak dan catatan trade-off."
+      ],
+      "prompts": [
+        "Komponen mana memiliki stok dan status bayar otoritatif?",
+        "Apa input/output serta error kontrak reserve?",
+        "Apa alasan memilih batas komponen ini?"
+      ],
+      "criteria": [
+        "Tanggung jawab dan kepemilikan data jelas.",
+        "Dua kontrak memiliki error serta otorisasi.",
+        "Individu menjelaskan kegagalan parsial."
+      ],
+      "sim": "architecture",
+      "refs": [
+        "component"
+      ],
+      "pitfall": "Menempatkan keputusan otorisasi di UI atau menganggap microservices selalu wajib.",
+      "transfer": "Inventori tidak tersedia selama dua menit; bagaimana UI dan order menjaga ekspektasi pelanggan?",
+      "n": 12,
+      "title": "Arsitektur sistem",
+      "cp": 2,
+      "outcome": "Merancang komponen sistem dan kontrak integrasi berdasarkan kebutuhan serta batas tanggung jawab.",
+      "evidence": "Arsitektur logis dan kontrak data",
+      "tool": "diagrams.net dan Docs",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Siapa boleh mengonfirmasi pembayaran sah?",
+          "options": [
+            "Komponen berwenang dengan bukti penyedia",
+            "UI berdasarkan tombol yang diklik",
+            "Semua pengguna"
+          ],
+          "answer": 0,
+          "why": "Konfirmasi harus berdasarkan data otoritatif dan otorisasi."
+        },
+        {
+          "prompt": "Kontrak reserve perlu memuat?",
+          "options": [
+            "Warna logo saja",
+            "Merek laptop",
+            "Input output dan error"
+          ],
+          "answer": 2,
+          "why": "Kontrak menjelaskan keberhasilan serta kegagalan."
+        },
+        {
+          "prompt": "Banyak layanan kecil selalu lebih baik?",
+          "options": [
+            "Ya karena diagram lebih penuh",
+            "Tidak; timbang skala kemampuan dan risiko",
+            "Ya tanpa syarat"
+          ],
+          "answer": 1,
+          "why": "Pemisahan memiliki biaya koordinasi dan operasi."
+        }
+      ]
+    },
+    {
+      "hook": "Tombol Bayar bisa diklik. Apakah tugas pengguna sudah berhasil?",
+      "concepts": [
+        {
+          "title": "Spesifikasi antarmuka",
+          "text": "Empat layar latihan ialah Pesanan, Checkout, Berhasil dan Stok Berubah. Setiap layar punya tujuan, informasi yang diperlukan, aksi dan penanganan error. Gunakan label yang menggambarkan tindakan; jangan menyembunyikan konsekuensi perubahan stok hanya dengan warna."
+        },
+        {
+          "title": "Prototipe dan uji tugas",
+          "text": "Prototipe klik meniru navigasi. Berikan tujuan membeli dua barang kepada pasangan tanpa mengarahkan tombol. Catat keberhasilan, waktu, kebingungan dan bantuan. Tiga peserta latihan tidak membuktikan seluruh populasi mudah memakai desain; laporan harus menyebut batas sampel."
+        },
+        {
+          "title": "Revisi yang dapat diuji",
+          "text": "Pilih satu masalah dari observasi, misalnya pesan stok tidak menjelaskan jumlah tersedia. Revisi teks dan uji tugas kembali. Tautkan layar dan kondisi error ke FR01 serta acceptance criteria. Navigasi berhasil tidak membuktikan transaksi backend tersimpan."
+        }
+      ],
+      "steps": [
+        "Masuk Penpot atau alat prototipe yang disepakati; buat file baru.",
+        "Buat empat board bernama Pesanan, Checkout, Berhasil, Stok Berubah.",
+        "Tambahkan teks, field dan tombol dengan ukuran yang mudah dibaca.",
+        "Pilih tombol → Prototype → tarik koneksi → On click → Navigate to.",
+        "Jalankan Play/View mode, tetapkan starting point Pesanan dan uji jalur normal/error.",
+        "Gunakan simulator klik modul sebagai demonstrasi cadangan saat akun gagal.",
+        "Pasangan menjalankan tugas; catat waktu, bantuan dan masalah di usability.csv.",
+        "Revisi satu masalah, uji ulang dan simpan hasil sebelum/sesudah."
+      ],
+      "prompts": [
+        "Apa tujuan tugas dan kondisi sukses pengguna?",
+        "Apa masalah yang diamati, bukan hanya pendapat?",
+        "Apa revisi dan bukti uji ulangnya?"
+      ],
+      "criteria": [
+        "Empat layar dan dua alur dapat ditelusuri.",
+        "Log memisahkan observasi dari saran.",
+        "Revisi ditautkan ke kebutuhan dan uji ulang."
+      ],
+      "sim": "prototype",
+      "refs": [
+        "penpot",
+        "wcag"
+      ],
+      "pitfall": "Mengukur kualitas hanya dari warna dan jumlah klik, tanpa tugas dan penanganan error.",
+      "transfer": "Mahasiswa memakai ponsel kecil dan koneksi lambat; informasi minimum apa harus tetap jelas?",
+      "n": 13,
+      "title": "Desain antarmuka",
+      "cp": 4,
+      "outcome": "Menyusun spesifikasi empat layar dan merevisi satu masalah berdasarkan uji tugas pengguna.",
+      "evidence": "Prototipe dan log uji pengguna",
+      "tool": "Penpot atau Figma",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Prototipe klik membuktikan?",
+          "options": [
+            "Backend pasti menyimpan transaksi",
+            "Keamanan produksi",
+            "Navigasi yang disimulasikan"
+          ],
+          "answer": 2,
+          "why": "Fungsi nyata memerlukan implementasi dan pengujian."
+        },
+        {
+          "prompt": "Uji tugas yang baik memberi?",
+          "options": [
+            "Nilai otomatis karena suka warna",
+            "Tujuan pengguna tanpa petunjuk tombol",
+            "Urutan klik yang wajib ditiru"
+          ],
+          "answer": 1,
+          "why": "Tujuan mengungkap kebingungan desain."
+        },
+        {
+          "prompt": "Revisi sebaiknya berdasarkan?",
+          "options": [
+            "Masalah teramati dan uji ulang",
+            "Pendapat paling keras saja",
+            "Jumlah animasi"
+          ],
+          "answer": 0,
+          "why": "Bukti membantu menentukan perbaikan."
+        }
+      ]
+    },
+    {
+      "hook": "Aturan reservasi berubah dari 15 ke 10 menit. Dokumen mana yang harus diperbarui?",
+      "concepts": [
+        {
+          "title": "SRS yang dapat ditinjau",
+          "text": "SRS menggabungkan tujuan, scope, stakeholder, definisi, kebutuhan fungsional/nonfungsional, asumsi, batasan dan kriteria penerimaan. Setiap kebutuhan memiliki identitas dan sumber. Pilihan desain dicatat dengan alasannya agar pembaca dapat membedakan apa yang dibutuhkan dari bagaimana memenuhinya."
+        },
+        {
+          "title": "Traceability dua arah",
+          "text": "Jejak FR01 menghubungkan kutipan, BPMN, use case, model data/objek, layar dan test case. Cari kebutuhan tanpa test serta test tanpa kebutuhan. Matriks yang terisi semua sel belum cukup; rujuk ID dan versi yang benar serta periksa isi hubungan."
+        },
+        {
+          "title": "Audit perubahan",
+          "text": "Perubahan timeout memengaruhi kebutuhan, event/guard state, pesan UI, kontrak integrasi dan test. Tetapkan pemilik serta versi setiap revisi. Bukti final adalah paket yang konsisten dan dapat direview, bukan klaim bahwa aplikasi siap produksi."
+        }
+      ],
+      "steps": [
+        "Buat Docs/Word dengan bagian tujuan, scope, glosarium, kebutuhan, model dan penerimaan.",
+        "Impor requirements.csv dan traceability.csv; gunakan ID konsisten.",
+        "Isi lima FR dan dua NFR dengan ukuran serta kondisi pengukuran usulan.",
+        "Tautkan setiap FR ke model/layar dan test case.",
+        "Pada simulator ubah aturan reservasi, tandai dokumen yang terdampak dan periksa gap.",
+        "Audit satu jejak dari kutipan ke TC01; buka setiap artefak, jangan hanya membaca matriks.",
+        "Review silang dalam kelompok; tiap anggota mengoreksi satu gap dan menulis alasannya.",
+        "Bekukan versi SRS untuk presentasi dan simpan change log."
+      ],
+      "prompts": [
+        "Apa isi kebutuhan yang berubah dan siapa menyetujuinya?",
+        "Tunjukkan satu jejak lengkap beserta ID dan versi.",
+        "Artefak apa tidak perlu berubah dan mengapa?"
+      ],
+      "criteria": [
+        "Kebutuhan spesifik dan dapat diuji.",
+        "Matriks memiliki hubungan yang benar.",
+        "Perubahan tercatat dan seluruh dampak relevan direvisi."
+      ],
+      "sim": "trace",
+      "refs": [
+        "ireb"
+      ],
+      "pitfall": "Menganggap tabel traceability penuh berarti isinya otomatis konsisten.",
+      "transfer": "Tambahkan batas jumlah item per order; telusuri dampaknya tanpa membuat proyek baru.",
+      "n": 14,
+      "title": "Dokumen SRS",
+      "cp": 4,
+      "outcome": "Mengintegrasikan kebutuhan teruji, model dan spesifikasi desain yang dapat ditelusuri.",
+      "evidence": "SRS dan matriks traceability",
+      "tool": "Word atau Docs dan Sheets",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "FR tanpa test perlu?",
+          "options": [
+            "Dihapus otomatis",
+            "Ditinjau dan dibuat jejak penerimaannya",
+            "Dianggap pasti benar"
+          ],
+          "answer": 1,
+          "why": "Kebutuhan perlu bukti cara diuji."
+        },
+        {
+          "prompt": "Aturan timeout berubah; yang perlu dicek?",
+          "options": [
+            "Kebutuhan state UI kontrak dan test terkait",
+            "Hanya judul dokumen",
+            "Hanya warna diagram"
+          ],
+          "answer": 0,
+          "why": "Analisis dampak mengikuti hubungan antarartefak."
+        },
+        {
+          "prompt": "Matriks penuh menjamin konsisten?",
+          "options": [
+            "Ya selalu",
+            "Ya jika diekspor PDF",
+            "Tidak; ID versi dan isi hubungan harus diaudit"
+          ],
+          "answer": 2,
+          "why": "Kelengkapan sel berbeda dari ketepatan hubungan."
+        }
+      ]
+    },
+    {
+      "hook": "Reviewer meminta retur sebagian. Bagaimana Anda mempertahankan sekaligus merevisi desain?",
+      "concepts": [
+        {
+          "title": "Presentasi keputusan",
+          "text": "Susun cerita masalah, kebutuhan, keputusan, bukti dan batas. Tampilkan satu jejak FR01 secara utuh daripada memamerkan semua diagram tanpa kaitan. Sebutkan asumsi terbuka dan keputusan yang memerlukan stakeholder."
+        },
+        {
+          "title": "Review dan perubahan",
+          "text": "Reviewer memberikan aturan retur sebagian. Tentukan kebutuhan baru, objek/atribut yang terdampak, state order/item, pesan UI dan test. Sebuah kritik tampilan tidak selalu memerlukan perubahan aturan bisnis; bedakan tingkat dampaknya."
+        },
+        {
+          "title": "Kontribusi individu",
+          "text": "Artefak dapat disusun tim, tetapi setiap anggota harus mampu menjelaskan keputusan dan mengubah satu bagian saat kasus berubah. Usulan skor tugas kelompok memakai 70% artefak dan 30% pembelaan individu; nilai resmi ditetapkan dosen setelah review bukti."
+        }
+      ],
+      "steps": [
+        "Buat sembilan slide: tujuan, masalah, kebutuhan, proses, objek/data, arsitektur, UI, trace dan batas.",
+        "Siapkan demo file asli dengan tautan ke model yang relevan.",
+        "Latih penjelasan lima menit dan satu jawaban perubahan kasus per anggota.",
+        "Gunakan simulator dampak untuk menyiapkan diskusi retur sebagian.",
+        "Reviewer menyampaikan satu perubahan; tim mencatat pertanyaan sebelum mengubah model.",
+        "Masing-masing mahasiswa menulis dampak dan alasan independen sebelum diskusi.",
+        "Perbarui model terpilih serta test; simpan versi dan kontribusi individu.",
+        "Ekspor ringkasan sesi dan unggah deck serta change log sesuai instruksi kelas."
+      ],
+      "prompts": [
+        "Keputusan desain apa paling penting dan bukti pendukungnya?",
+        "Bagaimana aturan retur sebagian mengubah rancangan?",
+        "Apa kontribusi dan koreksi yang Anda lakukan sendiri?"
+      ],
+      "criteria": [
+        "Cerita presentasi terhubung ke bukti.",
+        "Respons perubahan mempertimbangkan lintas model.",
+        "Kontribusi individu dapat dijelaskan."
+      ],
+      "sim": "review",
+      "refs": [
+        "ireb",
+        "uml"
+      ],
+      "pitfall": "Membela semua keputusan tanpa menerima bukti baru atau menyerahkan pembelaan kepada satu anggota.",
+      "transfer": "Reviewer memberi dua perubahan yang saling bertentangan; bagaimana melakukan klarifikasi?",
+      "n": 15,
+      "title": "Presentasi dan review",
+      "cp": 4,
+      "outcome": "Mempertahankan rancangan dan memperbarui artefak terdampak perubahan kebutuhan.",
+      "evidence": "Presentasi dan change log individu",
+      "tool": "PPT dan paket model",
+      "weight": 5,
+      "quiz": [
+        {
+          "prompt": "Pembelaan individu diperlukan untuk?",
+          "options": [
+            "Memastikan setiap anggota memahami keputusan",
+            "Menghitung jumlah slide",
+            "Menghilangkan review tim"
+          ],
+          "answer": 0,
+          "why": "Bukti pemahaman tidak cukup berasal dari satu juru bicara."
+        },
+        {
+          "prompt": "Reviewer mengubah aturan. Langkah awal?",
+          "options": [
+            "Tolak semua kritik",
+            "Ganti semua model sekaligus",
+            "Klarifikasi maksud dan analisis dampak"
+          ],
+          "answer": 2,
+          "why": "Perubahan perlu batas dan alasan."
+        },
+        {
+          "prompt": "Cerita presentasi yang terarah mengikuti?",
+          "options": [
+            "Daftar software saja",
+            "Masalah keputusan bukti dan batas",
+            "Semua ikon tanpa konteks"
+          ],
+          "answer": 1,
+          "why": "Keputusan perlu ditautkan ke kebutuhan dan bukti."
+        }
+      ]
+    },
+    {
+      "hook": "UAS: dapatkah rancangan Anda bertahan ketika kebijakan bisnis berubah?",
+      "concepts": [
+        {
+          "title": "Cakupan menyeluruh",
+          "text": "UAS usulan berbobot 15% dengan alokasi CPMK1 3, CPMK2 4, CPMK3 4 dan CPMK4 4 poin bobot. Paket sebelumnya menjadi bukti perjalanan, sedangkan jawaban transfer dikerjakan individu. Durasi, bantuan dan pengumpulan mengikuti instruksi ujian resmi."
+        },
+        {
+          "title": "Latihan integrasi",
+          "text": "Kasus latihan menambah pemesanan dengan dua gudang dan pengambilan sebagian. Petakan perubahan kebutuhan, pemilik stok, model data, state, kontrak, UI dan test. Pilih kedalaman yang diminta; jangan mengubah seluruh sistem tanpa menimbang dampak."
+        },
+        {
+          "title": "Pembelaan dan refleksi",
+          "text": "Jelaskan satu invariant dan satu keterbatasan. Dosen menilai ketepatan, alasan, transfer dan refleksi sesuai rubrik. Setelah evaluasi, ringkas CPMK yang masih lemah dan rencanakan perbaikan. Rekap lokal modul adalah latihan mandiri, bukan buku nilai resmi."
+        }
+      ],
+      "steps": [
+        "Sebelum UAS audit SRS sesi 14, review sesi 15 dan gap CPMK.",
+        "Bekukan paket final sebagai baseline; catat versi dan keputusan terbuka.",
+        "Gunakan checklist integrasi di simulator untuk memilih dua gap paling berisiko.",
+        "Latihan individu: tulis kebutuhan dua gudang dengan acceptance criteria.",
+        "Revisi model terpilih, kontrak dan test; jelaskan apa yang tetap valid.",
+        "Lakukan pembelaan lisan dengan urutan masalah → pilihan → bukti → keterbatasan.",
+        "Pada UAS resmi gunakan kasus baru dari dosen dan instruksi pengumpulan yang ditetapkan.",
+        "Sesudah ujian isi refleksi per CPMK; dosen mengolah CQI dari bukti aktual, bukan klaim selesai modul."
+      ],
+      "prompts": [
+        "Apa dampak dua gudang terhadap FR, data dan arsitektur?",
+        "Bagaimana acceptance criteria diuji pada pengambilan sebagian?",
+        "Invariant apa dijaga dan keterbatasan apa masih terbuka?"
+      ],
+      "criteria": [
+        "Perubahan ditelusuri lintas artefak.",
+        "Desain dan test konsisten pada kasus baru.",
+        "Pembelaan dan refleksi individu berbasis bukti."
+      ],
+      "sim": "exam",
+      "refs": [
+        "ireb",
+        "uml",
+        "bpmn"
+      ],
+      "pitfall": "Mengklaim kelulusan resmi dari skor kuis atau checklist pada HTML lokal.",
+      "transfer": "Ubah aturan menjadi reservasi lintas gudang dibatasi satu lokasi; pertahankan alasan konsistensinya.",
+      "n": 16,
+      "title": "UAS capaian menyeluruh",
+      "cp": 0,
+      "outcome": "Mempertahankan desain sistem secara individu melalui kasus transfer dan analisis dampak.",
+      "evidence": "Jawaban transfer individu dan paket final",
+      "tool": "RISE dan model sistem",
+      "weight": 15,
+      "quiz": [
+        {
+          "prompt": "UAS mencakup?",
+          "options": [
+            "CPMK4 saja",
+            "Jumlah kehadiran saja",
+            "CPMK1 sampai CPMK4"
+          ],
+          "answer": 2,
+          "why": "Alokasi bagian ujian mengikuti empat CPMK pada usulan."
+        },
+        {
+          "prompt": "Status selesai modul membuktikan?",
+          "options": [
+            "Persetujuan prodi",
+            "Kemajuan latihan mandiri",
+            "Kelulusan resmi"
+          ],
+          "answer": 1,
+          "why": "Nilai resmi memerlukan penilaian pengampu."
+        },
+        {
+          "prompt": "Dua gudang memerlukan?",
+          "options": [
+            "Analisis dampak lintas model",
+            "Mengganti logo",
+            "Mengabaikan kontrak stok"
+          ],
+          "answer": 0,
+          "why": "Perubahan pemilik/struktur stok memengaruhi kebutuhan desain dan test."
+        }
+      ]
+    }
+  ],
+  "files": {
+    "kasus_umkm.txt": "KASUS LATIHAN TOKO ARUNA\nToko menerima pesanan dari pelanggan melalui kasir. Kasir mengecek stok manual, mencatat pesanan pada buku, meminta pembayaran kepada layanan pembayaran eksternal, lalu memperbarui stok setelah pembayaran berhasil. Pemilik membaca laporan akhir hari. Pelanggan sering menunggu karena stok di buku berbeda dengan rak. Pembayaran kadang timeout, sehingga kasir mencoba kembali dan pesanan berpotensi tercatat dua kali. Harga produk dapat berubah setiap pekan. Riwayat pesanan harus mempertahankan harga ketika transaksi dibuat.\nRuang lingkup awal: penjualan, pemeriksaan stok dan pencatatan status pembayaran. Penggajian dan pembelian ke pemasok di luar lingkup. Aktor: pelanggan, kasir, pemilik, layanan pembayaran eksternal.\nAturan skenario: satu pesanan memiliki sedikitnya satu baris detail; satu produk dapat belum pernah dipesan; satu pesanan dapat memiliki beberapa percobaan pembayaran, tetapi maksimal satu pembayaran berhasil. Checkout memakai kunci idempotensi. Sistem menolak checkout bila stok tidak cukup. Timeout berarti status belum pasti, bukan bukti pembayaran gagal.\nSkenario perubahan saat review: pemilik meminta fitur retur. Tentukan dampak terhadap kebutuhan, proses, data, antarmuka, kontrol dan tes. Tidak ada implementasi aplikasi dalam paket ini; pengujian mahasiswa merupakan simulasi desain dan prototype walkthrough.\n",
+    "starter_aruna.drawio": "<?xml version='1.0' encoding='UTF-8'?>\n<mxfile host=\"app.diagrams.net\"><diagram id=\"p0\" name=\"01 Context\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t0\" value=\"01 Context | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p1\" name=\"02 Stakeholder\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t1\" value=\"02 Stakeholder | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p2\" name=\"03 BPMN As Is\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t2\" value=\"03 BPMN As Is | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p3\" name=\"04 BPMN To Be\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t3\" value=\"04 BPMN To Be | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p4\" name=\"05 Use Case\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t4\" value=\"05 Use Case | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p5\" name=\"06 ERD\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t5\" value=\"06 ERD | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p6\" name=\"07 Sequence\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t6\" value=\"07 Sequence | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p7\" name=\"08 Architecture\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t7\" value=\"08 Architecture | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p8\" name=\"09 UI Pesanan\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t8\" value=\"09 UI Pesanan | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p9\" name=\"10 UI Bayar\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t9\" value=\"10 UI Bayar | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram><diagram id=\"p10\" name=\"11 UI Hasil\"><mxGraphModel dx=\"1000\" dy=\"700\" grid=\"1\" gridSize=\"10\" page=\"1\" pageWidth=\"1169\" pageHeight=\"827\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"t10\" value=\"11 UI Hasil | Tambahkan model sendiri | Cantumkan ID kebutuhan\" style=\"text;html=0;align=left;verticalAlign=middle;fontSize=18;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"40\" y=\"30\" width=\"1000\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram></mxfile>",
+    "interview.csv": "question,role,answer_fact,assumption,follow_up,evidence_id\n,,,,,\n,,,,,\n,,,,,\n,,,,,\n,,,,,\n",
+    "requirements.csv": "id,type,statement,priority,source_id,acceptance_criterion\n,,,,,\n,,,,,\n,,,,,\n,,,,,\n,,,,,\n",
+    "usecase_detail.csv": "id,actor,goal,precondition,main_flow,alternate_flow_1,alternate_flow_2,postcondition,req_id\n,,,,,,,,\n,,,,,,,,\n,,,,,,,,\n,,,,,,,,\n,,,,,,,,\n",
+    "data_dictionary.csv": "entity,attribute,type,pk_fk,nullable,rule,source_req\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n",
+    "traceability.csv": "req_id,process_id,usecase_id,data_entity,design_id,test_id,gap\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n",
+    "test_cases.csv": "test_id,req_id,precondition,input,steps,expected,actual,status,evidence\n,,,,,,,Belum,\n,,,,,,,Belum,\n,,,,,,,Belum,\n,,,,,,,Belum,\n,,,,,,,Belum,\n",
+    "usability.csv": "task,participant_code,observed_steps,success,time_seconds,problem,revision\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n",
+    "change_log.csv": "change_id,request,reason,impacted_ids,decision,owner,evidence\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n",
+    "stakeholders.csv": "id,role,goal,pain,evidence,authority\n,,,,,\n,,,,,\n,,,,,\n,,,,,\n,,,,,\n",
+    "contribution.csv": "student_id,session,artifact,change,reason,evidence,peer_check\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n",
+    "lembar_individu.csv": "sesi,alias,keputusan,alasan,bukti,perubahan_kasus,keterbatasan,deklarasi_bantuan\n"
+  },
+  "sources": {
+    "activity": {
+      "title": "draw.io activity diagrams",
+      "url": "https://www.drawio.com/docs/diagram-types/uml/activity-diagrams/",
+      "use": "Antarmuka menggambar activity; semantik mengacu UML, merge tidak menggantikan join.",
+      "checked": "17 Oktober 2026"
+    },
+    "bpmn": {
+      "title": "OMG BPMN 2.0.2",
+      "url": "https://www.omg.org/spec/BPMN/2.0.2/",
+      "use": "Rujukan notasi proses; simulator modul adalah penyederhanaan untuk latihan.",
+      "checked": "17 Oktober 2026"
+    },
+    "class": {
+      "title": "draw.io class diagrams",
+      "url": "https://drawio-app.com/blog/uml-class-diagrams-in-draw-io/",
+      "use": "Atribut, operasi dan hubungan kelas.",
+      "checked": "17 Oktober 2026"
+    },
+    "component": {
+      "title": "draw.io component diagrams",
+      "url": "https://www.drawio.com/docs/diagram-types/uml/component-diagrams/",
+      "use": "Komponen dan antarmuka dalam arsitektur logis.",
+      "checked": "17 Oktober 2026"
+    },
+    "dfd": {
+      "title": "draw.io data flow diagrams",
+      "url": "https://www.drawio.com/docs/diagram-types/data-flow-diagrams/",
+      "use": "Aliran data; penamaan tingkat pada modul dinyatakan secara eksplisit.",
+      "checked": "17 Oktober 2026"
+    },
+    "draw": {
+      "title": "draw.io getting started",
+      "url": "https://www.drawio.com/docs/getting-started/",
+      "use": "Pembuatan dan penyimpanan diagram.",
+      "checked": "17 Oktober 2026"
+    },
+    "erd": {
+      "title": "draw.io entity relationship models",
+      "url": "https://www.drawio.com/docs/diagram-types/entity-relationship-tables/",
+      "use": "Bentuk entitas dan relasi data.",
+      "checked": "17 Oktober 2026"
+    },
+    "ireb": {
+      "title": "IREB CPRE bahan requirements engineering",
+      "url": "https://cpre.ireb.org/en/downloads-and-resources/downloads",
+      "use": "Dasar elisitasi, kualitas kebutuhan dan penelusuran; sebagian unduhan memerlukan akses akun.",
+      "checked": "17 Oktober 2026"
+    },
+    "offline": {
+      "title": "draw.io offline",
+      "url": "https://www.drawio.com/docs/manual/editor/offline/",
+      "use": "Cadangan desktop; fitur browser offline memiliki keterbatasan.",
+      "checked": "17 Oktober 2026"
+    },
+    "penpot": {
+      "title": "Penpot prototyping",
+      "url": "https://help.penpot.app/user-guide/prototyping-testing/prototyping/",
+      "use": "Board, Prototype, On click, Navigate to dan View mode.",
+      "checked": "17 Oktober 2026"
+    },
+    "sequence": {
+      "title": "draw.io sequence diagrams",
+      "url": "https://www.drawio.com/docs/diagram-types/uml/sequence-diagrams/",
+      "use": "Lifeline, pesan dan fragmen interaksi.",
+      "checked": "17 Oktober 2026"
+    },
+    "state": {
+      "title": "draw.io state diagrams",
+      "url": "https://www.drawio.com/docs/diagram-types/uml/state-diagrams/",
+      "use": "Lifecycle, state dan transition.",
+      "checked": "17 Oktober 2026"
+    },
+    "token": {
+      "title": "bpmn.io token simulation",
+      "url": "https://bpmn-io.github.io/bpmn-js-token-simulation/modeler.html?e=1&pp=1",
+      "use": "Aplikasi ditemukan; simulator HTML lokal tidak menjalankan engine bpmn.io.",
+      "checked": "17 Oktober 2026"
+    },
+    "uml": {
+      "title": "OMG UML 2.5.1",
+      "url": "https://www.omg.org/spec/UML/2.5.1/",
+      "use": "Rujukan normatif notasi UML; kasus dan visual modul disusun pengampu.",
+      "checked": "17 Oktober 2026"
+    },
+    "usecase": {
+      "title": "draw.io use case diagrams",
+      "url": "https://www.drawio.com/docs/diagram-types/uml/use-case-diagrams/",
+      "use": "Boundary, aktor dan tujuan use case.",
+      "checked": "17 Oktober 2026"
+    },
+    "wcag": {
+      "title": "W3C WCAG 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "use": "Pertimbangan aksesibilitas; modul belum diaudit sebagai sertifikasi WCAG.",
+      "checked": "17 Oktober 2026"
+    }
+  },
+  "rps": {
+    "name": "RPS_IASD_3_SKS_Revisi_Mini_Pekerti_dan_Catatan.docx",
+    "sha256": "e42fa28ed1bb52044513b73f606d9d56ded0c6f5232d4c9eb26789e8a7999fd1"
+  },
+  "case": "KASUS LATIHAN TOKO ARUNA\nToko menerima pesanan dari pelanggan melalui kasir. Kasir mengecek stok manual, mencatat pesanan pada buku, meminta pembayaran kepada layanan pembayaran eksternal, lalu memperbarui stok setelah pembayaran berhasil. Pemilik membaca laporan akhir hari. Pelanggan sering menunggu karena stok di buku berbeda dengan rak. Pembayaran kadang timeout, sehingga kasir mencoba kembali dan pesanan berpotensi tercatat dua kali. Harga produk dapat berubah setiap pekan. Riwayat pesanan harus mempertahankan harga ketika transaksi dibuat.\nRuang lingkup awal: penjualan, pemeriksaan stok dan pencatatan status pembayaran. Penggajian dan pembelian ke pemasok di luar lingkup. Aktor: pelanggan, kasir, pemilik, layanan pembayaran eksternal.\nAturan skenario: satu pesanan memiliki sedikitnya satu baris detail; satu produk dapat belum pernah dipesan; satu pesanan dapat memiliki beberapa percobaan pembayaran, tetapi maksimal satu pembayaran berhasil. Checkout memakai kunci idempotensi. Sistem menolak checkout bila stok tidak cukup. Timeout berarti status belum pasti, bukan bukti pembayaran gagal.\nSkenario perubahan saat review: pemilik meminta fitur retur. Tentukan dampak terhadap kebutuhan, proses, data, antarmuka, kontrol dan tes. Tidak ada implementasi aplikasi dalam paket ini; pengujian mahasiswa merupakan simulasi desain dan prototype walkthrough.\n"
+}

@@ -1,4 +1,4 @@
-const VERSION = "2026-10-08-2";
+const VERSION = "2026-10-20-compact-1";
 const SHELL_CACHE = `hicall-shell-${VERSION}`;
 const DATA_CACHE = `hicall-data-${VERSION}`;
 const SHELL = [

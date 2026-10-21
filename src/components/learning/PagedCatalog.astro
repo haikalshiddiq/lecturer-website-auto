@@ -1,0 +1,85 @@
+---
+interface Props { id: string; pageSize?: number; total: number; }
+const { id, pageSize = 3, total } = Astro.props;
+---
+<div data-paged-catalog data-page-size={pageSize}>
+  <div class="catalog-controls">
+    <label for={`${id}-search`}>Search materials<input id={`${id}-search`} type="search" data-catalog-search placeholder="Search title, topic, or tag" /></label>
+    <label for={`${id}-topic`}>Topic<select id={`${id}-topic`} data-catalog-topic>
+      <option value="All">All topics</option>
+      <option>Information System Management</option>
+      <option>Communication Protocol</option>
+      <option>Artificial Intelligence</option>
+    </select></label>
+  </div>
+  <output data-catalog-count aria-live="polite">{total} materials</output>
+  <div data-catalog-results tabindex="-1"><slot /></div>
+  <p data-catalog-empty hidden>No materials match. Try another search or choose All topics.</p>
+  <nav class="catalog-pagination" aria-label="Catalog pages" data-catalog-pagination>
+    <button type="button" data-catalog-prev disabled>Previous</button>
+    <span data-catalog-page aria-live="polite">Page 1</span>
+    <button type="button" data-catalog-next>Next</button>
+  </nav>
+  <noscript><style>[data-catalog-item][hidden] { display: block !important; } .catalog-controls, .catalog-pagination { display: none !important; }</style></noscript>
+</div>
+<script is:inline>
+  document.querySelectorAll('[data-paged-catalog]').forEach((catalog) => {
+    const items = Array.from(catalog.querySelectorAll('[data-catalog-item]'));
+    const search = catalog.querySelector('[data-catalog-search]');
+    const topic = catalog.querySelector('[data-catalog-topic]');
+    const count = catalog.querySelector('[data-catalog-count]');
+    const pageLabel = catalog.querySelector('[data-catalog-page]');
+    const previous = catalog.querySelector('[data-catalog-prev]');
+    const next = catalog.querySelector('[data-catalog-next]');
+    const size = Number(catalog.dataset.pageSize) || 3;
+    let page = 1;
+    const render = () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      const matches = items.filter((item) => (topic.value === 'All' || item.dataset.catalogTopic === topic.value) && item.dataset.catalogSearch.toLocaleLowerCase().includes(query));
+      const pages = Math.max(1, Math.ceil(matches.length / size));
+      page = Math.min(page, pages);
+      items.forEach((item) => { item.hidden = true; });
+      matches.slice((page - 1) * size, page * size).forEach((item) => { item.hidden = false; });
+      const start = matches.length ? (page - 1) * size + 1 : 0;
+      count.textContent = `${start} to ${Math.min(page * size, matches.length)} of ${matches.length} materials`;
+      pageLabel.textContent = `Page ${page} of ${pages}`;
+      previous.disabled = page === 1;
+      next.disabled = page === pages;
+      catalog.querySelector('[data-catalog-empty]').hidden = matches.length !== 0;
+      catalog.querySelector('[data-catalog-pagination]').hidden = matches.length <= size;
+    };
+    [search, topic].forEach((control) => control.addEventListener(control === search ? 'input' : 'change', () => { page = 1; render(); }));
+    const turnPage = (change) => {
+      page += change;
+      render();
+      const results = catalog.querySelector('[data-catalog-results]');
+      results.focus({ preventScroll: true });
+      results.scrollIntoView({ block: 'start', behavior: 'instant' });
+    };
+    previous.addEventListener('click', () => turnPage(-1));
+    next.addEventListener('click', () => turnPage(1));
+    render();
+  });
+</script>
+<style>
+  .catalog-controls { display: grid; gap: 0.85rem; margin: 1.25rem 0 0.75rem; }
+  label { display: grid; gap: 0.35rem; color: #334155; font-size: 0.8rem; font-weight: 600; }
+  input, select { width: 100%; min-height: 44px; min-width: 0; border: 1px solid #94a3b8; border-radius: 0.5rem; background: #fff; padding: 0.6rem 0.75rem; color: #0f172a; font: inherit; font-size: 0.9rem; }
+  input::placeholder { color: #475569; }
+  output { display: block; color: #475569; font-size: 0.8rem; }
+  [data-catalog-results] { scroll-margin-top: 6rem; }
+  [data-catalog-empty] { border: 1px dashed #94a3b8; padding: 1.5rem; margin-top: 1rem; color: #475569; }
+  .catalog-pagination { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1rem; margin-top: 1.25rem; }
+  .catalog-pagination[hidden], [data-catalog-empty][hidden] { display: none; }
+  button { min-height: 44px; min-width: 80px; border: 1px solid #94a3b8; border-radius: 0.5rem; padding: 0.5rem 0.8rem; color: #2346bd; font-weight: 600; }
+  button:hover:not(:disabled) { background: #e5eaff; }
+  button:disabled { color: #64748b; cursor: not-allowed; }
+  nav span { color: #475569; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+  html.dark label, html.dark output, html.dark nav span, html.dark [data-catalog-empty] { color: #cbd5e1; }
+  html.dark input, html.dark select { border-color: #64748b; background: #0f172a; color: #f8fafc; }
+  html.dark input::placeholder { color: #cbd5e1; }
+  html.dark button { border-color: #64748b; color: #95b3ff; }
+  html.dark button:hover:not(:disabled) { background: #24304a; }
+  html.dark button:disabled { color: #94a3b8; }
+  @media (min-width: 760px) { .catalog-controls { grid-template-columns: 1fr minmax(240px, 0.6fr); } }
+</style>

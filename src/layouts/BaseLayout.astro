@@ -23,10 +23,10 @@ const themeInitScript = `(() => {
     <SEOHead title={title} description={description} />
     <script is:inline set:html={themeInitScript}></script>
   </head>
-  <body>
+  <body class="flex min-h-dvh flex-col">
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <Header />
-    <main id="main-content">
+    <main id="main-content" class="min-h-0 flex-1">
       <slot />
     </main>
     <Footer />

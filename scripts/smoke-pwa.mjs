@@ -105,7 +105,13 @@ try {
     });
 
     await page.goto(baseUrl, { waitUntil: 'networkidle' });
-    await page.locator('[data-learning-workspace]').waitFor({ state: 'visible' });
+    await page.locator('[data-compact-home]').waitFor({ state: 'visible' });
+    const homeHeight = await page.evaluate(() => document.documentElement.scrollHeight);
+    const heightBudget = profile.name === 'mobile' ? 2200 : 1400;
+    assert(homeHeight <= heightBudget, `${profile.name} homepage exceeds compact scroll budget: ${homeHeight}px > ${heightBudget}px`);
+    assert(await page.locator('[data-resource-card]').count() === 0, 'Homepage must not render the full resource catalog');
+    await page.screenshot({ path: `output/playwright/home-${profile.name}.png`, fullPage: true });
+    results.push(`${profile.name}: compact homepage ${homeHeight}px (budget ${heightBudget}px) PASS`);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     assert(overflow <= 1, `${profile.name} has ${overflow}px horizontal overflow`);
 
@@ -114,6 +120,37 @@ try {
     const selectedTheme = await page.evaluate(() => localStorage.getItem('theme'));
     await page.reload({ waitUntil: 'networkidle' });
     assert(await page.evaluate((theme) => localStorage.getItem('theme') === theme && document.documentElement.dataset.theme === theme, selectedTheme), `${profile.name} theme did not persist`);
+
+    if (profile.name === 'mobile') {
+      await page.locator('.mobile-navigation summary').click();
+      assert(await page.getByRole('navigation', { name: 'Mobile navigation' }).isVisible(), 'Mobile menu did not open');
+      await page.locator('.mobile-navigation summary').press('Escape');
+      assert(!await page.locator('.mobile-navigation').getAttribute('open'), 'Mobile menu did not close with Escape');
+    }
+
+    for (const route of ['/resources', '/blog']) {
+      await page.goto(`${baseUrl}${route}`, { waitUntil: 'networkidle' });
+      const catalog = page.locator('[data-paged-catalog]');
+      const pageSize = Number(await catalog.getAttribute('data-page-size'));
+      const visible = () => catalog.locator('[data-catalog-item]:not([hidden])');
+      assert(await visible().count() === pageSize, `${route} initial page size is incorrect`);
+      const firstTitle = await visible().first().innerText();
+      await catalog.locator('[data-catalog-next]').click();
+      assert(await visible().first().innerText() !== firstTitle, `${route} Next did not change items`);
+      await catalog.locator('[data-catalog-prev]').click();
+      assert(await visible().first().innerText() === firstTitle, `${route} Previous did not restore items`);
+      await catalog.locator('select[data-catalog-topic]').selectOption('Artificial Intelligence');
+      for (const item of await visible().all()) assert(await item.getAttribute('data-catalog-topic') === 'Artificial Intelligence', `${route} topic filter failed`);
+      await catalog.locator('input[data-catalog-search]').fill('no-match-browser-regression-xyz');
+      assert(await visible().count() === 0 && await catalog.locator('[data-catalog-empty]').isVisible(), `${route} empty search failed`);
+      await catalog.locator('input[data-catalog-search]').fill('');
+      await catalog.locator('select[data-catalog-topic]').selectOption('All');
+      assert(await visible().count() === pageSize, `${route} filter reset failed`);
+      assert(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth) <= 1, `${route} horizontal overflow`);
+    }
+
+    await page.goto(`${baseUrl}/learn`, { waitUntil: 'networkidle' });
+    await page.locator('[data-learning-workspace]').waitFor({ state: 'visible' });
 
     const firstCheckpoint = page.locator('[data-checkpoint]').first();
     await firstCheckpoint.check();

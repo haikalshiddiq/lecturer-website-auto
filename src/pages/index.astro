@@ -1,109 +1,46 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/sections/Hero.astro';
-import PublicationCard from '../components/cards/PublicationCard.astro';
-import BlogCard from '../components/cards/BlogCard.astro';
-import CTASection from '../components/sections/CTASection.astro';
-import StatsBand from '../components/sections/StatsBand.astro';
-import TopicStudio from '../components/sections/TopicStudio.astro';
-import ResourceExplorer from '../components/sections/ResourceExplorer.astro';
-import TopicCoverageBoard from '../components/sections/TopicCoverageBoard.astro';
-import LatestTeachingUpdate from '../components/sections/LatestTeachingUpdate.astro';
-import GuidedLearningPath from '../components/sections/GuidedLearningPath.astro';
-import { buildTopicCoverage, getBlogPosts, getPublications, getResources, getTopics } from '../lib/content';
+import { getBlogPosts, getResources, getTopics } from '../lib/content';
 
 const topics = await getTopics();
-const topicLinks = topics.map(({ title, slug, summary, importance, subtopics, learningOutcomes }) => ({
-  title,
-  slug,
-  summary,
-  importance,
-  subtopics,
-  learningOutcomes
-}));
 const resources = await getResources();
-const publications = await getPublications();
-const featuredPublications = publications.filter((item) => item.featured);
-const posts = await getBlogPosts();
-
-const topicCoverage = buildTopicCoverage({ topics: topicLinks, posts, resources, publications });
+const posts = (await getBlogPosts()).slice(0, 3);
 ---
 <BaseLayout>
-  <Hero topics={topicLinks} resources={resources} />
-  <LatestTeachingUpdate post={posts[0]} />
-  <StatsBand topicsCount={topics.length} resourcesCount={resources.length} postsCount={posts.length} />
-  <GuidedLearningPath topics={topicLinks} resources={resources} />
-  <TopicStudio topics={topicLinks} />
-  <TopicCoverageBoard
-    topics={topicLinks.map((topic) => ({ title: topic.title, slug: topic.slug, summary: topic.summary }))}
-    coverage={topicCoverage}
-    title="Daily growth that stays balanced across all lecturer topics"
-    description="Each pillar should keep evolving. This board makes the website feel alive by showing where new articles, resources, and academic outputs are accumulating."
-  />
-  <ResourceExplorer
-    resources={resources}
-    title="Interactive downloads and learning materials for every pillar"
-    description="Filter the collection by topic, open a reading page, or download a ready-to-use class asset. This feels closer to a learning platform than a static portfolio."
-  />
-
-  <section class="py-20">
-    <div class="container-shell grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-      <div class="card-surface overflow-hidden p-8 sm:p-10">
-        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-200">Fresh thinking</p>
-        <h2 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">A lecturer website should teach, not just introduce.</h2>
-        <p class="mt-5 text-base leading-8 text-slate-300">The blog now acts as an active layer for reflections, teaching notes, and practical commentary around systems, protocols, and AI adoption.</p>
-        <div class="mt-8 space-y-4">
-          <div class="rounded-[1.75rem] border border-white/10 bg-white/5 p-5">
-            <p class="text-sm font-semibold text-white">Why it matters</p>
-            <p class="mt-2 text-sm text-slate-300">Students and collaborators can see current thinking, not only static credentials.</p>
-          </div>
-          <div class="rounded-[1.75rem] border border-white/10 bg-white/5 p-5">
-            <p class="text-sm font-semibold text-white">How it feels</p>
-            <p class="mt-2 text-sm text-slate-300">More like an evolving learning destination with clear energy and stronger content pathways.</p>
-          </div>
-        </div>
-        <a href="/blog" class="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100">Open the blog</a>
-      </div>
-      <div class="grid gap-6 lg:grid-cols-2">
-        {posts.slice(0, 3).map((post, index) => (
-          <div class={index === 0 ? 'lg:col-span-2' : ''}>
-            <BlogCard {...post} />
-          </div>
+  <div data-compact-home>
+    <Hero topics={topics} resources={resources} />
+    <section class="home-notes container-shell" aria-labelledby="latest-notes-title">
+      <header>
+        <h2 id="latest-notes-title">Latest lesson notes</h2>
+        <a href="/blog">All lesson notes</a>
+      </header>
+      <div class="note-list">
+        {posts.map((post) => (
+          <a href={`/blog/${post.slug}`}>
+            <span>{post.topic}</span>
+            <strong>{post.title}</strong>
+            <time datetime={post.publishedAt.toISOString()}>{post.publishedAt.toLocaleDateString('en-US', { day: 'numeric', month: 'short' })}</time>
+          </a>
         ))}
       </div>
-    </div>
-  </section>
-
-  <section class="py-20">
-    <div class="container-shell">
-      <div class="mb-8 max-w-3xl">
-        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-200">Publications & projects</p>
-        <h2 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">A more vibrant showcase for research outputs and applied initiatives.</h2>
-        <p class="mt-4 text-base leading-8 text-slate-300">This section keeps the academic credibility of the site while matching the new playful, guided learning posture.</p>
-      </div>
-      <div class="grid gap-6 lg:grid-cols-2">
-        {featuredPublications.map((item) => (
-          <PublicationCard
-            title={item.title}
-            year={item.year}
-            type={item.type}
-            topic={item.topic}
-            summary={item.summary}
-            status={item.status}
-            href={item.externalUrl}
-            tags={item.tags}
-          />
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <CTASection
-    title="Want a workshop, collaboration, or curated learning experience?"
-    description="The redesigned platform now supports interactive topic discovery, downloadable teaching assets, and thought-leadership publishing, with room for your verified lecturer profile next."
-    primaryHref="/contact"
-    primaryLabel="Contact"
-    secondaryHref="/about"
-    secondaryLabel="View Profile"
-  />
+    </section>
+  </div>
 </BaseLayout>
+
+<style>
+  .home-notes { padding-top: 0.5rem; padding-bottom: 2rem; }
+  header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem 1rem; margin-bottom: 0.75rem; }
+  h2 { color: #0f172a; font-size: 1.2rem; font-weight: 650; }
+  header a { display: inline-flex; align-items: center; min-height: 44px; color: #2346bd; font-size: 0.9rem; font-weight: 600; }
+  .note-list { border-top: 1px solid #cbd5e1; }
+  .note-list a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.2rem 1rem; padding: 0.85rem 0; border-bottom: 1px solid #cbd5e1; }
+  .note-list span { color: #475569; font-size: 0.75rem; }
+  .note-list strong { grid-column: 1; color: #0f172a; font-size: 0.95rem; font-weight: 600; line-height: 1.45; }
+  .note-list time { grid-column: 2; grid-row: 1 / 3; align-self: center; color: #475569; font-size: 0.8rem; white-space: nowrap; }
+  .note-list a:hover strong { color: #2346bd; }
+  html.dark h2, html.dark .note-list strong { color: #f8fafc; }
+  html.dark header a, html.dark .note-list a:hover strong { color: #95b3ff; }
+  html.dark .note-list, html.dark .note-list a { border-color: #334155; }
+  html.dark .note-list span, html.dark .note-list time { color: #cbd5e1; }
+</style>

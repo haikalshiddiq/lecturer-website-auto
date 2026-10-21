@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GuidedLearningPath from '../components/sections/GuidedLearningPath.astro';
+import { getResources, getTopics } from '../lib/content';
+const topics = await getTopics();
+const resources = await getResources();
+---
+<BaseLayout title="Guided learning | Haikal Shiddiq" description="Choose a topic, save your checkpoints, and test your understanding.">
+  <div class="container-shell pt-6"><a class="inline-flex min-h-11 items-center text-sm font-semibold text-brand-600 dark:text-brand-200" href="/">Back to academy</a><h1 class="mt-3 text-3xl font-semibold text-white">Guided learning</h1></div>
+  <GuidedLearningPath topics={topics} resources={resources} />
+</BaseLayout>

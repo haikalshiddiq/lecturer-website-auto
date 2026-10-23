@@ -1,8 +1,6 @@
-name: Daily Content Pipeline
+name: General Course Content Pipeline (Paused for IASD)
 
 on:
-  schedule:
-    - cron: '15 0 * * *'
   workflow_dispatch:
 
 permissions:

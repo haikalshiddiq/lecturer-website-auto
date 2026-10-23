@@ -1,0 +1,9 @@
+{
+  "activeCourse": "IASD",
+  "pausedCourses": ["Information System Management", "Communication Protocol", "Artificial Intelligence"],
+  "genericDailyPublishing": false,
+  "preserveExistingMaterials": true,
+  "contentLanguage": "id",
+  "authoritativeBaseline": "src/data/iasd-course.json",
+  "enhancementPolicy": "Add sourced, clearly labeled IASD supplements or improve IASD interactions. Preserve the supplied 16-session baseline and local learner progress. Do not generate generic date-stamped articles."
+}

@@ -55,6 +55,14 @@ function buildTargetFrontmatter(data) {
 }
 
 function publishNextDueEntry() {
+  const focusFile = path.resolve(process.cwd(), 'automation/lecturer-focus.json');
+  if (fs.existsSync(focusFile)) {
+    const focus = JSON.parse(fs.readFileSync(focusFile, 'utf8'));
+    if (focus.activeCourse === 'IASD' || focus.genericDailyPublishing === false) {
+      console.log('General course publishing is paused. IASD-only maintenance is active; queued drafts are preserved.');
+      return { changed: false, reason: 'iasd-only-focus' };
+    }
+  }
   const queueFiles = listQueueFiles();
   if (!queueFiles.length) {
     console.log('No queued content files found.');

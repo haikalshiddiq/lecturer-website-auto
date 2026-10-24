@@ -47,6 +47,7 @@ const courseSchema = {
         <select id="iasd-session" name="session">{course.lessons.map(lesson => <option value={lesson.n}>{String(lesson.n).padStart(2, '0')} · {lesson.title}</option>)}</select>
         <button type="submit">Buka sesi</button>
       </form>
+      <p data-iasd-supplement-entry><a href="/iasd/studio#1">Pendalaman sesi 01: alasan memilih siklus kerja, perubahan asumsi, dan transfer ruang rapat.</a></p>
       <details data-iasd-curriculum>
         <summary>Lihat capaian seluruh 16 pertemuan</summary>
         <ol class="curriculum-list">{course.lessons.map(lesson => <li>
@@ -90,6 +91,7 @@ const courseSchema = {
   form { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; margin: 10px 0; }
   form label { font-size: 14px; font-weight: 600; }
   select { min-width: 0; width: 100%; min-height: 44px; border: 1px solid #94a3b8; border-radius: 8px; background: #fff; color: #0f172a; font-size: 14px; }
+  [data-iasd-supplement-entry] a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; }
   summary { display: flex; align-items: center; min-height: 44px; cursor: pointer; color: #2346bd; font-size: 14px; font-weight: 600; }
   summary::before { content: '+'; margin-right: 10px; }
   details[open] > summary::before { content: '−'; }

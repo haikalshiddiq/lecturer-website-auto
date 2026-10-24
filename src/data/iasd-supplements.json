@@ -1,0 +1,24 @@
+{
+  "1": {
+    "title": "Dari selisih stok ke keputusan siklus kerja",
+    "basis": "Suplemen pengampu untuk latihan, bukan perubahan lampiran atau ketetapan RPS. Dasar: kasus Aruna dan tiga konsep sesi 01 pada lampiran. Semua kondisi akses pengguna dan perubahan kebutuhan di bawah adalah asumsi kelas, bukan hasil observasi toko nyata.",
+    "inputs": "Kasus menyebut pelanggan menunggu karena stok buku dan rak berbeda. Asumsi latihan: aturan reservasi masih sering berubah dan kasir dapat diajak meninjau contoh setiap akhir siklus kerja singkat. Belum ada bukti bahwa mengganti database akan menyelesaikan penyebab selisih.",
+    "reasoning": [
+      "Mulai dari analisis: minta satu jejak pesanan dan waktu pembaruan stok, lalu bandingkan catatan dengan rak. Pisahkan bukti selisih dari dugaan penyebabnya; jangan menyebut dugaan sebagai hasil audit.",
+      "Batasi kajian awal pada penjualan, pemeriksaan stok dan status pembayaran sesuai kasus. Penggajian tetap di luar lingkup. Kasir memeriksa alur nyata; pemilik mengonfirmasi aturan dan batas perubahan.",
+      "Karena aturan berubah dan kasir tersedia, usulkan iterasi dengan review. Hasil analisis berupa kebutuhan berversi; desain memetakan reservasi; implementasi merealisasikan rancangan; pengujian membandingkan hasil dengan kriteria; operasi memberi bukti baru. Pada modul ini implementasi hanya direncanakan, bukan aplikasi yang sudah dibangun.",
+      "Sebelum memilih teknologi, sepakati uji contoh: stok tersedia satu, permintaan dua, checkout ditolak tanpa reservasi. Ini memeriksa kebutuhan yang dipilih, bukan membuktikan semua penyebab selisih sudah hilang."
+    ],
+    "result": "Rekomendasi bersyarat: mulai dengan iterasi yang meninjau satu alur checkout beserta kebutuhan, rancangan dan hasil uji contoh. Jika akses kasir ternyata sulit, tahan keputusan yang bergantung pada tafsirnya dan rencanakan klarifikasi, bukan menjanjikan review yang tidak mungkin dilakukan.",
+    "misconception": "Salah: kebutuhan stabil berarti analis boleh melewati review. Koreksi: pendekatan bertahap pun perlu bukti dan review. Sebaliknya, iterasi tidak otomatis menyelesaikan ketidakjelasan ketika tidak ada stakeholder yang bisa mengonfirmasi. Nama metode bukan bukti bahwa kebutuhan benar.",
+    "transfer": "Reservasi ruang rapat: aturan durasi masih berubah, tetapi pengelola ruang hanya bisa ditemui setelah jadwal kerja berikutnya. Pilih tindakan awal, jelaskan dua kondisi penentunya, dan tulis pertanyaan konfirmasi. Lalu ubah hanya akses pengelola menjadi tersedia: bagian rekomendasi mana berubah dan bukti apa tetap wajib?",
+    "artifact": "Pada catatan individu nomor 3 di bawah, tambahkan empat baris berlabel: kondisi awal, keputusan + dua alasan, perubahan satu asumsi + akibatnya, dan bukti/pertanyaan yang masih diperlukan. Catatan tersimpan lokal dengan mekanisme lama; sertakan pada lembar kerja yang diunduh. Tidak dinilai atau dikirim otomatis.",
+    "instructor": [
+      "Prediksi: baca input tanpa membuka hasil contoh. Minta setiap mahasiswa memilih tindakan pertama dan menyebut bukti yang belum tersedia.",
+      "Demonstrasi: pertahankan kebutuhan sering berubah, lalu ubah akses stakeholder dari ada ke sulit. Minta prediksi sebelum tombol Periksa alasan ditekan; bandingkan mengapa fokus bergeser dari iterasi ke klarifikasi.",
+      "Penjelasan: minta mahasiswa membedakan keluaran analisis, desain dan pengujian pada satu checkout. Jika jawabannya hanya nama tool atau metode, tanyakan artefak apa yang dapat ditinjau dan oleh siapa.",
+      "Transfer individu: gunakan kasus ruang rapat. Jawaban acuan terbuka: klarifikasi terjadwal saat akses sulit; iterasi dengan review saat akses tersedia. Terima pendekatan alternatif bila alasan, mitigasi dan bukti dapat diperiksa; acuan simulator bukan hukum universal."
+    ],
+    "rubric": "Rubrik diagnostik, bukan bobot nilai resmi: periksa tiga kriteria, masing-masing 0 atau 1. (1) Membedakan bukti kasus dan asumsi; (2) menghubungkan keputusan dengan perubahan kebutuhan serta akses stakeholder; (3) menjelaskan perubahan rekomendasi dan bukti yang tetap diperlukan pada ruang rapat. Tiga kriteria terpenuhi berarti siap didiskusikan, bukan otomatis kompeten; jika belum, minta revisi baris yang belum didukung alasan."
+  }
+}

@@ -31,5 +31,16 @@ assert.ok(studio.includes('data-iasd-studio') && !studio.includes('<iframe'), 'N
 const embedded = studio.match(/<script\b[^>]*id="course-data"[^>]*>([\s\S]*?)<\/script>/);
 assert.ok(embedded, 'Built studio is missing its bundled course content');
 assert.equal(hash(JSON.parse(embedded[1])), sourceHash, 'Built IASD content differs from attachment');
+const supplements = JSON.parse(fs.readFileSync('src/data/iasd-supplements.json', 'utf8'));
+const supplementEmbed = studio.match(/<script\b[^>]*id="supplement-data"[^>]*>([\s\S]*?)<\/script>/);
+assert.ok(supplementEmbed, 'IASD supplement content is not bundled for rendering');
+assert.deepEqual(JSON.parse(supplementEmbed[1]), supplements, 'Built supplements differ from source');
+for (const [session, supplement] of Object.entries(supplements)) {
+  assert.ok(course.lessons.some(lesson => String(lesson.n) === session), `Unknown supplement session ${session}`);
+  for (const field of ['title', 'basis', 'inputs', 'result', 'misconception', 'transfer', 'artifact', 'rubric']) assert.ok(supplement[field]?.trim(), `Missing supplement ${session}: ${field}`);
+  assert.ok(supplement.reasoning.length >= 3 && supplement.instructor.length >= 3, 'Worked reasoning or facilitation missing');
+  assert.ok(!JSON.stringify(supplement).includes('\u2014'), 'Supplement contains an em dash');
+}
+assert.ok(overview.includes('data-iasd-supplement-entry'), 'Supplement entry missing from overview');
 for (const route of ['dist/index.html', 'dist/resources/index.html']) assert.ok(fs.readFileSync(route, 'utf8').includes('/iasd'), `${route} lacks an IASD entry`);
 console.log('IASD attachment gate passed: 16 sessions, 48 concepts, 128 practice steps, 48 quizzes, 48 reflections, 13 files and 16 sources preserved.');

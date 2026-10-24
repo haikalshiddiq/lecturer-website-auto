@@ -25,7 +25,30 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
   const feedback = async text => assert.ok((await page.locator('#sim-viz').innerText()).includes(text), `Simulator feedback lacks ${text}`);
   const simulator = async n => {
     switch (n) {
-      case 1: await select('change', 'stabil'); await feedback('relatif stabil'); break;
+      case 1:
+        await select('change', 'stabil'); await feedback('relatif stabil');
+        for (const change of ['sering', 'stabil']) for (const access of ['ada', 'sulit']) {
+          await select('change', change); await select('access', access);
+          const expected = access === 'sulit' ? 'klarifikasi' : change === 'sering' ? 'iterasi' : 'bertahap';
+          for (const decision of ['iterasi', 'bertahap', 'klarifikasi']) {
+            await select('s1Decision', decision);
+            assert.ok(await page.locator('[data-iasd-prediction]').isVisible(), 'Changed prediction must invalidate previous feedback');
+            await page.locator('[data-simact="s1review"]').focus();
+            await page.locator('[data-simact="s1review"]').press('Enter');
+            await feedback(decision === expected ? 'Tepat untuk asumsi latihan.' : 'Tinjau alasan pilihan.');
+          }
+        }
+        await page.locator('[data-iasd-supplement="1"] summary').focus();
+        await page.locator('[data-iasd-supplement="1"] summary').press('Enter');
+        assert.ok((await page.locator('[data-iasd-supplement="1"]').innerText()).includes('stok buku dan rak'));
+        await select('change', 'sering'); await select('access', 'ada'); await select('s1Decision', 'iterasi'); await action('s1review');
+        await page.reload({ waitUntil: 'networkidle' });
+        assert.equal(await page.locator('[data-setting="s1Decision"]').inputValue(), 'iterasi');
+        await feedback('Tepat untuk asumsi latihan.');
+        await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="1"]').innerText()).includes('ruang rapat'));
+        await tab('teach'); await page.locator('[data-iasd-facilitation="1"] summary').click(); assert.ok((await page.locator('[data-iasd-facilitation="1"]').innerText()).includes('Rubrik diagnostik'));
+        await tab('concept');
+        break;
       case 2: await select('category', 'kebutuhan'); await action('classify'); await feedback('Tepat.'); break;
       case 3:
         await select('join', 'parallel'); for (let i = 0; i < 4; i++) await action('token'); await feedback('MACET');
@@ -73,6 +96,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
       await page.locator('[data-act="grade"]').click();
       assert.ok((await page.locator('#grade-result').innerText()).includes('3 dari 3'));
       assert.equal(await page.locator('.question-feedback.correct').count(), 3);
+      assert.equal(await page.locator('[data-iasd-transfer]').count(), lesson.n === 1 ? 1 : 0, 'Supplement leaked to another session or vanished on grading');
       await tab('teach'); assert.ok((await page.locator('#pane-teach').innerText()).includes(lesson.hook));
       await tab('sources'); assert.equal(await page.locator('#pane-sources > ol.source-list > li').count(), lesson.refs.length);
       await checkOverflow(`session ${lesson.n} sources`);
@@ -125,6 +149,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     await page.reload({ waitUntil: 'networkidle' });
     assert.ok(await page.locator('#sim-viz svg').isVisible());
     await select('join', 'parallel'); for (let i = 0; i < 4; i++) await action('token'); await feedback('MACET');
+    await session(1); await select('access', 'sulit'); await select('s1Decision', 'klarifikasi'); await action('s1review'); await feedback('Tepat untuk asumsi latihan.');
     assert.equal(errors.length, 0, `IASD browser errors: ${errors.join(' | ')}`);
     await fs.writeFile(`output/playwright/iasd-${profile.name}-results.json`, JSON.stringify(results, null, 2));
     return `${profile.name}: IASD 16 sessions, 48 quiz answers, simulators, lecturer tabs, persistence, backup, downloads and offline PASS`;

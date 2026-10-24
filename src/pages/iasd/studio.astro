@@ -1,6 +1,7 @@
 ---
 import SEOHead from '../../components/layout/SEOHead.astro';
 import course from '../../data/iasd-course.json';
+import supplements from '../../data/iasd-supplements.json';
 import '../../styles/iasd-studio.css';
 import '../../styles/iasd-integration.css';
 ---
@@ -25,6 +26,7 @@ import '../../styles/iasd-integration.css';
     <div id="toast" role="status" aria-live="polite"></div>
     <noscript><p>Studio membutuhkan JavaScript. <a href="/iasd">Kembali ke peta pertemuan IASD</a> untuk membaca capaian dan panduan belajar.</p></noscript>
     <script id="course-data" is:inline type="application/json" set:html={JSON.stringify(course).replace(/</g, '\\u003c')} />
+    <script id="supplement-data" is:inline type="application/json" set:html={JSON.stringify(supplements).replace(/</g, '\\u003c')} />
     <script>
       import '../../scripts/iasd-studio.js';
       document.querySelector('#app')?.setAttribute('aria-busy', 'false');

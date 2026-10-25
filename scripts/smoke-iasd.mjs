@@ -49,7 +49,73 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         await tab('teach'); await page.locator('[data-iasd-facilitation="1"] summary').click(); assert.ok((await page.locator('[data-iasd-facilitation="1"]').innerText()).includes('Rubrik diagnostik'));
         await tab('concept');
         break;
-      case 2: await select('category', 'kebutuhan'); await action('classify'); await feedback('Tepat.'); break;
+      case 2:
+        await select('category', 'kebutuhan'); await action('classify'); await feedback('Tepat.');
+        await select('quote', '1');
+        assert.ok(!(await page.locator('#sim-viz .feedback').count()), 'Changed quote must invalidate classification feedback');
+        await action('classify'); await feedback('Tinjau kembali.');
+        await select('category', 'asumsi'); await action('classify'); await feedback('Tepat.');
+        for (const [quote, expected] of ['kebutuhan', 'asumsi', 'fakta', 'pertanyaan'].entries()) {
+          await select('quote', String(quote));
+          for (const category of ['fakta', 'asumsi', 'kebutuhan', 'pertanyaan']) {
+            await select('category', category); await action('classify');
+            await feedback(category === expected ? 'Tepat.' : 'Tinjau kembali.');
+          }
+        }
+        await page.locator('[data-iasd-elicitation] summary').focus();
+        await page.locator('[data-iasd-elicitation] summary').press('Enter');
+        for (const stock of ['1', '3']) for (const approval of ['belum', 'sudah']) {
+          await select('s2Stock', stock); await select('s2Approval', approval);
+          await select('s2Limit', approval === 'belum' ? '2' : '5');
+          for (const outcome of ['tolak', 'reservasi']) for (const status of ['usulan', 'disepakati']) {
+            await select('s2Outcome', outcome); await select('s2Status', status);
+            await page.locator('[data-simact="s2review"]').focus();
+            await page.locator('[data-simact="s2review"]').press('Enter');
+            const correct = outcome === (stock === '1' ? 'tolak' : 'reservasi') && status === (approval === 'belum' ? 'usulan' : 'disepakati');
+            await feedback(correct ? 'Kedua prediksi tepat.' : 'Ada prediksi yang perlu direvisi.');
+            await feedback(stock === '1' ? 'tidak membuat reservasi' : 'mencatat reservasi dua');
+          }
+        }
+        await select('s2Limit', '2');
+        assert.ok(await page.locator('[data-iasd-s2-prediction]').isVisible(), 'Changed SLA must invalidate checked prediction');
+        await action('s2review'); await feedback('belum memenuhi batas');
+        await select('s2Limit', '5'); await action('s2review'); await feedback('memenuhi batas');
+        await page.reload({ waitUntil: 'networkidle' });
+        await feedback('memenuhi batas');
+        assert.equal(await page.locator('[data-setting="s2Limit"]').inputValue(), '5');
+        await page.locator('[data-iasd-supplement="2"] summary').click();
+        assert.ok((await page.locator('[data-iasd-supplement="2"]').innerText()).includes('FR01-v0'));
+        await checkOverflow('session 2 expanded example');
+        await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="2"]').innerText()).includes('peminjaman proyektor'));
+        await tab('teach'); await page.locator('[data-iasd-facilitation="2"] summary').click();
+        assert.ok((await page.locator('[data-iasd-facilitation="2"]').innerText()).includes('Rubrik diagnostik'));
+        await tab('concept');
+        for (const dark of [false, true]) {
+          if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
+          await page.locator('[data-iasd-elicitation]').evaluate(el => { el.open = true; });
+          const appearance = await page.evaluate(() => {
+            const rgb = value => (value.match(/[\d.]+/g) || []).map(Number);
+            const luminance = color => rgb(color).slice(0, 3).map(v => { v /= 255; return v <= .04045 ? v / 12.92 : ((v + .055) / 1.055) ** 2.4; }).reduce((sum, v, i) => sum + v * [.2126, .7152, .0722][i], 0);
+            const failures = [];
+            const nodes = document.querySelectorAll('[data-iasd-supplement="2"] *, [data-iasd-elicitation] *, #sim-viz .feedback *');
+            for (const el of nodes) {
+              if (!el.checkVisibility() || ![...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim()) || el.tagName === 'OPTION') continue;
+              const style = getComputedStyle(el); let ancestor = el, bg;
+              while (ancestor) { const color = getComputedStyle(ancestor).backgroundColor; if (rgb(color)[3] !== 0) { bg = color; break; } ancestor = ancestor.parentElement; }
+              const a = luminance(style.color), b = luminance(bg || 'rgb(255,255,255)'), ratio = (Math.max(a,b)+.05)/(Math.min(a,b)+.05);
+              const size = parseFloat(style.fontSize), large = size >= 24 || (size >= 18.66 && Number(style.fontWeight) >= 700);
+              if (ratio < (large ? 3 : 4.5)) failures.push({ text: el.textContent.slice(0, 40), ratio });
+            }
+            return failures;
+          });
+          assert.deepEqual(appearance, [], `S02 contrast failed in ${dark ? 'dark' : 'light'} mode`);
+          for (const field of ['s2Stock', 's2Approval', 's2Limit', 's2Outcome', 's2Status']) {
+            const control = page.locator(`[data-setting="${field}"]`); await control.focus(); await page.keyboard.press('Tab'); await page.keyboard.press('Shift+Tab');
+            assert.ok(await control.evaluate(el => document.activeElement === el && getComputedStyle(el).outlineStyle !== 'none' && el.getBoundingClientRect().height >= 44), `S02 focus/tap target: ${field}`);
+          }
+          await checkOverflow(`S02 expanded ${dark ? 'dark' : 'light'}`);
+        }
+        break;
       case 3:
         await select('join', 'parallel'); for (let i = 0; i < 4; i++) await action('token'); await feedback('MACET');
         await select('join', 'exclusive'); await action('token'); await feedback('mencapai akhir'); break;
@@ -96,7 +162,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
       await page.locator('[data-act="grade"]').click();
       assert.ok((await page.locator('#grade-result').innerText()).includes('3 dari 3'));
       assert.equal(await page.locator('.question-feedback.correct').count(), 3);
-      assert.equal(await page.locator('[data-iasd-transfer]').count(), lesson.n === 1 ? 1 : 0, 'Supplement leaked to another session or vanished on grading');
+      assert.equal(await page.locator('[data-iasd-transfer]').count(), [1, 2].includes(lesson.n) ? 1 : 0, 'Supplement leaked to another session or vanished on grading');
       await tab('teach'); assert.ok((await page.locator('#pane-teach').innerText()).includes(lesson.hook));
       await tab('sources'); assert.equal(await page.locator('#pane-sources > ol.source-list > li').count(), lesson.refs.length);
       await checkOverflow(`session ${lesson.n} sources`);
@@ -119,9 +185,18 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     assert.equal(JSON.parse(backup.text).lessons[1].notes[0], saved.lessons[1].notes[0]);
     await page.setInputFiles('#import-file', { name: 'wrong-course.json', mimeType: 'application/json', buffer: Buffer.from('{"course":"OTHER","version":"bad","lessons":{}}') });
     assert.ok((await page.locator('#toast').innerText()).includes('Tidak dipulihkan'));
+    const legacy = JSON.parse(backup.text);
+    for (const record of Object.values(legacy.lessons)) for (const field of Object.keys(record.sim)) if (/^s[12]/.test(field)) delete record.sim[field];
+    page.once('dialog', dialog => dialog.accept());
+    await page.setInputFiles('#import-file', { name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(legacy)) });
+    await page.waitForFunction(() => document.querySelector('#toast')?.textContent.includes('Cadangan dipulihkan'));
+    await session(2); assert.equal(await page.locator('[data-setting="s2Stock"]').inputValue(), '1');
+    const restoredLegacy = await page.evaluate(storageKey => JSON.parse(localStorage.getItem(storageKey)), key);
+    assert.deepEqual(restoredLegacy.lessons[1].notes, saved.lessons[1].notes);
     page.once('dialog', dialog => dialog.accept());
     await page.setInputFiles('#import-file', { name: 'restored.json', mimeType: 'application/json', buffer: Buffer.from(backup.text) });
     await page.waitForFunction(() => document.querySelector('#toast')?.textContent.includes('Cadangan dipulihkan'));
+    await session(1);
     await tab('lab'); await page.locator('.materials summary').click();
     assert.equal(await page.locator('[data-file]').count(), 13);
     if (profile.name === 'desktop') for (const [name, text] of Object.entries(course.files)) {
@@ -150,6 +225,8 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     assert.ok(await page.locator('#sim-viz svg').isVisible());
     await select('join', 'parallel'); for (let i = 0; i < 4; i++) await action('token'); await feedback('MACET');
     await session(1); await select('access', 'sulit'); await select('s1Decision', 'klarifikasi'); await action('s1review'); await feedback('Tepat untuk asumsi latihan.');
+    await session(2); if (await page.locator('[data-iasd-elicitation]').getAttribute('open') === null) await page.locator('[data-iasd-elicitation] summary').click();
+    await select('s2Stock', '1'); await select('s2Approval', 'belum'); await select('s2Outcome', 'tolak'); await select('s2Status', 'usulan'); await action('s2review'); await feedback('Kedua prediksi tepat.');
     assert.equal(errors.length, 0, `IASD browser errors: ${errors.join(' | ')}`);
     await fs.writeFile(`output/playwright/iasd-${profile.name}-results.json`, JSON.stringify(results, null, 2));
     return `${profile.name}: IASD 16 sessions, 48 quiz answers, simulators, lecturer tabs, persistence, backup, downloads and offline PASS`;

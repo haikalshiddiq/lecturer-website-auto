@@ -1,0 +1,396 @@
+{
+  "generatedAt": "2026-10-25T07:01:07+07:00",
+  "period": {
+    "start": "2026-10-19",
+    "end": "2026-10-25",
+    "label": "19 Oct - 25 Oct 2026"
+  },
+  "status": {
+    "level": "monitor",
+    "label": "Pantau",
+    "conditionIndex": 50,
+    "confidence": "Low",
+    "dataSufficiency": "Insufficient",
+    "dataQualifier": "Data belum cukup",
+    "missingCriticalTopics": [
+      "Public Safety"
+    ],
+    "summary": "Cakupan bidang kritis belum memadai untuk memberi kesimpulan kondisi nasional. Periksa sumber tambahan dan gunakan laporan ini hanya sebagai daftar hal yang perlu dipantau.",
+    "drivers": [
+      {
+        "kind": "pressure",
+        "topic": "Climate & Disaster",
+        "score": -0.08
+      }
+    ],
+    "caveat": "Data bidang kritis belum lengkap: Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
+  },
+  "metrics": {
+    "articles": 23,
+    "sources": 14,
+    "categoriesCovered": 10,
+    "categoriesTracked": 13,
+    "positive": 3,
+    "neutral": 19,
+    "negative": 1,
+    "averageScore": 0.012,
+    "criticalNegativeSignals": 1
+  },
+  "dailyTrend": [
+    {
+      "date": "2026-10-19",
+      "score": 0.041,
+      "articles": 4
+    },
+    {
+      "date": "2026-10-20",
+      "score": 0.0,
+      "articles": 6
+    },
+    {
+      "date": "2026-10-21",
+      "score": 0.026,
+      "articles": 6
+    },
+    {
+      "date": "2026-10-22",
+      "score": 0.099,
+      "articles": 2
+    },
+    {
+      "date": "2026-10-23",
+      "score": -0.047,
+      "articles": 4
+    },
+    {
+      "date": "2026-10-24",
+      "score": 0.0,
+      "articles": 1
+    },
+    {
+      "date": "2026-10-25",
+      "score": null,
+      "articles": 0
+    }
+  ],
+  "topicScores": [
+    {
+      "topic": "Climate & Disaster",
+      "count": 2,
+      "score": -0.08,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 1,
+      "highlightId": "2026-10-23-903908a82293"
+    },
+    {
+      "topic": "Public Safety",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Energy",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Education & Talent",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Economy & Jobs",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-10-20-b2f29bc382e9"
+    },
+    {
+      "topic": "Health & Family",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-10-20-03eaf369d159"
+    },
+    {
+      "topic": "Infrastructure",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-10-24-a1a12ec6e2"
+    },
+    {
+      "topic": "Telecom",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-10-20-9127c705d1fc"
+    },
+    {
+      "topic": "Tech & AI",
+      "count": 2,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 0,
+      "highlightId": "2026-10-23-f7a3b35c0a48"
+    },
+    {
+      "topic": "Automotive & EV",
+      "count": 2,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 0,
+      "highlightId": "2026-10-22-3d61791536d9"
+    },
+    {
+      "topic": "Markets",
+      "count": 5,
+      "score": 0.032,
+      "sentiment": "Neutral",
+      "positive": 1,
+      "neutral": 4,
+      "negative": 0,
+      "highlightId": "2026-10-21-f7dd030e4a99"
+    },
+    {
+      "topic": "Governance",
+      "count": 4,
+      "score": 0.04,
+      "sentiment": "Neutral",
+      "positive": 1,
+      "neutral": 3,
+      "negative": 0,
+      "highlightId": "2026-10-22-0f93653b9875"
+    },
+    {
+      "topic": "Business & Investment",
+      "count": 4,
+      "score": 0.04,
+      "sentiment": "Neutral",
+      "positive": 1,
+      "neutral": 3,
+      "negative": 0,
+      "highlightId": "2026-10-19-ff14066a9114"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "2026-10-23-903908a82293",
+      "date": "2026-10-23",
+      "topic": "Climate & Disaster",
+      "title": "Ragam Hoaks BMKG di Facebook, dari Prediksi Gempa hingga Peringatan Potensi Tsunami",
+      "source": "Liputan6.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObldDNHdKbzJOLUJJOV80cmFoM1VlYUdvOXV0VU5BclJHNmRvcHZyQlFlMDl3QzBEQmV0UURzeXZkZDdJQ3Y3Q2VaU0luRC1kRldNTEUzMW9uT05yeW1hQzRHdlVQZTQ0SVdJbFRka1RFM0RnWmVOeWo1RnhjalNvOEV6djFWSlVfMEkzM3lVSlZvU1JVYWZVUUlOd1hlaUhsdk1kXzhSWk9MZDcxNHZTZVJDckFEOUdLMmJXR1dGeHlGYjVZeXdscVdR0gG7AUFVX3lxTFBqQm5UZGE3MDEzRVlHbkl0eGxUVXh0bC1OQi1kbDZRX0dCTEhvdUt0WHJJblZHVWlpZ2I3MWMtaERLWE8yMzA5SW03RWh5SGo5OTBjOGlkd0RQV3BKMEZxdHUxYXFfVnVjV3FoT0RQd0ozdENaS2lkSmd0bWtvbkFPbGRHWFpneXhLZlFLbUxNWDFUa05xdFJjMnAyOTM2My10OVQ1enh6ZHNhUnBfMXJWbUUyQTdXR01ibDg?oc=5",
+      "sentiment": "Negative",
+      "score": -0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-22-0f93653b9875",
+      "date": "2026-10-22",
+      "topic": "Governance",
+      "title": "Menteri HAM Klaim Indonesia Mengalami Surplus Demokrasi",
+      "source": "Tempo.co",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTNseEoyUklROC1XazBVdlRJcmwtR3g2Q0xrclEwOTFHSFJJZmR2WkV5MXdITW5nS1Fha19CWmRKUHFrOW5IQlhXeFVZOGdhODUwS1dWYmE5eXhpNnpoZ0xMazJXZkVTOVlPUVZVMG9pczkzR3EwUVI3SzBYLVpLRnNtRFdyaW1XVFRWai1vY01CV1hr?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-20-03eaf369d159",
+      "date": "2026-10-20",
+      "topic": "Health & Family",
+      "title": "IAKMI: Penanganan karhutla mampu dorong capaian program kesehatan RI",
+      "source": "ANTARA News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOEV0S0hjMnBDOHUxR0Nub1QwNUhDdFZ0VG04SkkyN2VjVUVkZU5kRjVVSGJIZWFzU3hUbXBMVU9IYVQ0MWs2THBCU2VOWll2dWJ6TkVyRVU3X2k0STl6RUh4bGl4OEIxZlo3d3hMM0ZpWFdKYUZUNFVMRjlaNXlJUnVVNmJOYWowQkdIWlZQTnNoc2ZXSGxNbTQ1S181SEZHRkx4OS13aF9jZlN4ekHSAbABQVVfeXFMTjNYUlFCYmVDbmlmNGNEVEFUMUUtN1R0UzM4V0w0MTQ3STRXZFVVUlYyRnl0dy1zM2pZMlVDQkJIeUVEdVIyNDVHMGdNZ01keTJsbmpSUkVxR21NeGxjbDlqUUV6WnBDVmR2RVd2TEp5cXc2OExCazFiUnF3dXM2cmpBOXpnY2RQTXo3WFRna1JmVVVMV3I4ang0RHpUemhyeTZPdzJNREhGQkJjbl9IYU4?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-19-ff14066a9114",
+      "date": "2026-10-19",
+      "topic": "Business & Investment",
+      "title": "Pasar Digital Indonesia Capai US$ 99 Miliar, Pemerintah Bidik Investasi Teknologi",
+      "source": "kontan.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORFFycHI3ZEtTS3J2RTVYLUxqUmNsY1VzME5mOXlPcF9Xa1gzZ05aU0g4Rno0eGwtRzJVak9DRnpJSm5mdUZXbWJsY3p3Z2FXaUllUjZ5ZGI0bW5pbHFxMFlDRWZiQVl1aUs5X0E3SWZYLUxtVEh6S1hhNGM2Y1hiV292SFg4aDRzTndDMWhMZWNKOUEwNEhTcHNwX19tQW5EdU0xOHpOV0phNWV2RW1tbVdCbXjSAa4BQVVfeXFMTlJVbE9fN0k0cXlsQnhzQ0lBYmcwaWJxX0x3cG9CemRFTFc2OV95RnpoVU5yTWVFb2VSQ1hoTno3eVFiN1JKZXFLbnh0bXNvOUNJS01seXdpbXVBWmJWS0dRSWNoQzZ1Slcya3RVeHc2bWJSVl9sSHVhbDdQaGl6S1hvd1hvUTgxREtXd2F0VmNpeURoYkpkRl9fcnkzMUs3REdLQ0FLd09hbVplTG9B?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-21-f7dd030e4a99",
+      "date": "2026-10-21",
+      "topic": "Markets",
+      "title": "Misi Selamatkan IHSG Mulai Berhasil, Bola Panas Kini Ada di Tangan BI!",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOHFENjFpd1hoZDRGUnE1OG1oM2Riam1tVE1vTlg4LTNZbE1FS1VtcEd5QmJYRTBFRlZkT0lVblhBNS1ibURXWjBuajFYOHJaSFUyUlFUNzdBbFo2RkQ5a0dtQVdrY3FydFBLdmFLNEVnTEx5UWtRS0doSDlDbWxrdnlBRnIxd1BZamd2WENCaktjZHdVODlSSWMwNXhDV1k5R0dpR0hvdnY3eGIzeG9mbWFzZ2I2RWgyZF9LOHVoWlU4aElXWXFBOUZWNnVjZw?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-20-b2f29bc382e9",
+      "date": "2026-10-20",
+      "topic": "Economy & Jobs",
+      "title": "Ekonomi: Kelas menengah Indonesia 'downgrade' hidup",
+      "source": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MUUJ4VzFRcHRzbnlVQkZSLWt0SnI0WW9sSDJuT2R1TnRoa2liSkR3WWwxdl9wYXd0eXE5Q3NrNUphVmY4X3BhVUhuU3NoekllWnphaFZZa2ZidURRYmdrZ2R30gFnQVVfeXFMTlVTc1ZoWWpMUy1ZSFlvazhfaE1KY3NLU0Q1TFdmUk1CeURhTmtqaFR5d1BMenA3enQ4bmNfRWU3X0wySjFYRnlDdDJrT0dodE9DdEEzQXE2N2ZiNV80aUtBQTVxbnhCSQ?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-24-a1a12ec6e2",
+      "date": "2026-10-24",
+      "topic": "Infrastructure",
+      "title": "Jalan Tol di Balik Strategi Pertahanan Udara",
+      "source": "Kompas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUzVHZ2Q2bFI0bEJmem5jMEFwYnhGQzJCeU1zMjhoT0JqejFwSnFYY2hoei03ekxPazhsTVVTLU9xSldJTnFUZ1U3U0h4R1pvYzV4Q1JtQXRzWnM0em9xd3d5MjJ3Vk0yQ1hya0dGdjF5aXU3UGNva3V6REhQWkk?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-23-f7a3b35c0a48",
+      "date": "2026-10-23",
+      "topic": "Tech & AI",
+      "title": "Komdigi Minta Meta Klarifikasi Jawaban Meta.ai soal Konten Karhutla Dibatasi",
+      "source": "Katadata.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUGd1UG5uWUFkR1c3aGNNYnJOeTgtVW51VEFPc0RCRXVuMjNKcW9zQThVTk1mTGxzVEJoOEhOOUdXTEtmREhsSTRDTXhyTHBVUzI0Zno1RGJFTmtuYUN6Tkt6c3hITDVDUkpUMi1sd0VNcnNxRUlnR3ZWQ0trN2ZKV3pPUTdDZFU3MzlrWkhFNkRnY3hhTjBlaVUybU9qV3hKQWcwYUxOMW5YajBPbzZkXzJXZ3A5N2hqQ0pXWXJyZ1ctRTJmVVk5REZn0gHPAUFVX3lxTE9mZUtDQnI3Y2hmY29FWTVBSUNKUkNZMDBYYU11SUIxSUdYRmtnbXJXYzZzVUZiRlRDbU1OOFl0ZUVvUUpMZ0VwdmJ2WWY2VkVwYTZ0T2tsSERMemNCUXlXNVVvZngycEJWcTY1aTdtY2RmU01zSVNwTXpDVUdQaHVyR0FMOTdZaFJXWGdPbFRGWXNCaTlBdXktbEpxMTdJUmJtS1EtbWdkZ2x1MV9tNXRjVF9TbERvSC1xMnVPV2tqNkhnc2ZRV0NQaThzbkNrZw?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-20-9127c705d1fc",
+      "date": "2026-10-20",
+      "topic": "Telecom",
+      "title": "Komdigi Kaji Deregulasi, Pangkas Beban Telkomsel, Indosat, dan XLSmart",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3BHMVcxUEF6emx5b0F1WW1WZE4xcVFEN2RWVGxFWW5UYlRyUEhQaHVYRmgxUkhzbnN1a1ZWYjAyMHAxVmNlZ2pSUnAxMXVmenJ5Zml1RTlEV1dIM2pNZ0x3aXJ1aFFRdUJSOVZNOEZFbmxQY3Eyajk1Mk4yRU1PN0lqbktOOWo0S2NjTHZGT3Z4RV9BRERVODJ4WTBxbFhWODJlcW1jV3dBc0ZEZVFpUmNhZmEyRUlfOGpUUVdIdDIxSXRsOXc?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-22-3d61791536d9",
+      "date": "2026-10-22",
+      "topic": "Automotive & EV",
+      "title": "INDEF Minta Insentif Mobil Listrik Didahulukan, Hybrid Dinilai Kurang Tepat - Bisnis.com",
+      "source": "Bisnis.com - Otomotif",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMkNSZ3hLWHU1b3BsYzVIWFA1ZDJaQ3ZIVWlJZVMyRXp0N08ybW5KZDZCM2xDXzhZQlFNZkcycWNiTVhxbG12Z0FQb0hDZ1MzYUhiNXNJNXgzeVVjeUVLSDRURUVLbk9YYWI5amV1M2pSUWJFLUpvbzlna1l2N05fandpdThzenRjU0IxbzU4dlVBZWpPYm9XTi1CVFpwdFRFQ3QtYTRYY3ZrbFlKZmlVZ1ZqNUpsRDVXWmxuUG85NjNuakNST3c?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-21-73307e6524df",
+      "date": "2026-10-21",
+      "topic": "Climate & Disaster",
+      "title": "Video: BNPB Geber Modifikasi Cuaca untuk Atasi Karhutla",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY21SOE1hQWJpVWlGcEk5ajFSOU1TdUNYeWpxWFRCQWpYWTBWamVITnlyTERzZWNWMnN5UTh5ZExDVzczc2FYSElkRVpLdjNzUndERlJRSm5yNDc2WlVUNHZDWjVDSnEzNjhDTzMzVTN2dW1peHN5ZkdLeGc5cl9sc0tzZXJrMWJKWFN1dTl3bHRLMkNZNXBDcmJYN1h0ZTJIWU85cFQ1QXFGU1Y3ZHJVZUR4UQ?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-23-8759eb21fd56",
+      "date": "2026-10-23",
+      "topic": "Governance",
+      "title": "Indeks Negara Hukum Turun, Pemerintah Janjikan Perbaikan dan Buka Ruang Dialog",
+      "source": "Kompas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWTM2bUt0aDF1NTJydXJwOEtSRzFxd3JPQmo1OGZaYUphT2d1enpKbW0tMklCVjIwalJvTXdTOGlHVXRGa0NoOVhIbW15NUptZHp6UHdnX1JDRzlSckM1OWFkeVQyY2wtTDNSLTlvb1E2cHgxVTRFR1FxazhEZVJrT2g4VngwaDdBZlIyMHlmYU5MZVlwTWhfcDZDV0syNkx3OFNWQ21zaTN0VGRGVXpDcWZsQy1OOGN3Y2Y1c1pfdV9qYWE0YVB3X1BhMFI5Zw?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    }
+  ],
+  "decisionTriggers": [
+    {
+      "title": "Karier dan pendapatan",
+      "state": "Stable",
+      "instruction": "Periksa tren PHK, lowongan bidang Anda, daya beli, dan cadangan dana keluarga. Jangan bertindak dari sentimen pasar saja."
+    },
+    {
+      "title": "Keamanan dan tata kelola",
+      "state": "Unknown",
+      "instruction": "Cari konfirmasi dari sumber resmi dan beberapa media untuk gangguan keamanan, perubahan hukum, atau pembatasan yang berdampak langsung."
+    },
+    {
+      "title": "Kesehatan ibu dan anak",
+      "state": "Stable",
+      "instruction": "Pisahkan sinyal nasional dari kondisi lokal. Verifikasi fasilitas persalinan, BPJS atau asuransi, dokter, dan dukungan keluarga secara langsung."
+    },
+    {
+      "title": "Pemicu keputusan keluarga",
+      "state": "Plan",
+      "instruction": "Tetapkan pemicu tertulis, misalnya kehilangan pendapatan, gangguan keamanan lokal berulang, atau akses kesehatan yang tidak memadai, lalu tinjau bersama pasangan."
+    }
+  ],
+  "relocationRadar": [
+    {
+      "country": "Malaysia",
+      "careerSignal": "Peluang regional di pendidikan, teknologi, dan jasa dengan jarak budaya serta perjalanan yang relatif dekat dari Indonesia.",
+      "familySignal": "Kedekatan geografis dapat memudahkan kunjungan keluarga dan masa transisi.",
+      "planningFocus": "Pastikan jalur kerja bersponsor, kelayakan tanggungan, layanan kesehatan, dan biaya hidup kota tujuan.",
+      "officialLabel": "Malaysia Expatriate Services Division",
+      "officialUrl": "https://esd.imi.gov.my/portal/"
+    },
+    {
+      "country": "Taiwan",
+      "careerSignal": "Ekosistem teknologi, semikonduktor, AI, dan universitas kuat; kecocokan peran sangat bergantung pada spesialisasi.",
+      "familySignal": "Layanan kesehatan dan status tanggungan harus diperiksa sesuai izin kerja dan jalur tinggal yang dipilih.",
+      "planningFocus": "Validasi sponsor pemberi kerja, kebutuhan bahasa Mandarin, izin tinggal tanggungan, dan akses penitipan anak.",
+      "officialLabel": "EZ Work Taiwan",
+      "officialUrl": "https://ezworktaiwan.wda.gov.tw/"
+    },
+    {
+      "country": "Japan",
+      "careerSignal": "Pasar riset, AI, teknik, dan pendidikan tinggi besar dengan kategori status tinggal yang spesifik terhadap pekerjaan.",
+      "familySignal": "Kecocokan jangka panjang bergantung pada bahasa, hunian, penitipan anak, dan cakupan tanggungan pada status yang dipilih.",
+      "planningFocus": "Cocokkan kualifikasi dengan status kerja, periksa kebutuhan bahasa Jepang, dan siapkan anggaran enam bulan pertama.",
+      "officialLabel": "Ministry of Foreign Affairs of Japan visa guidance",
+      "officialUrl": "https://www.mofa.go.jp/j_info/visit/visa/index.html"
+    }
+  ],
+  "methodology": {
+    "sentiment": "Penilaian kata kunci pada judul berbahasa Indonesia dari -1 sampai +1. Netral berarti tidak ada kata yang memberi arah kuat.",
+    "status": "Indeks kondisi berjalan dari 0 (tekanan negatif lebih kuat) sampai 100 (judul lebih suportif). Perhitungan menggabungkan sentimen berbobot dan porsi sinyal negatif. Level tertinggi juga memerlukan konfirmasi lintas bidang kritis dan sumber independen.",
+    "limitations": "Pemilihan berita, ketersediaan penerbit, pembingkaian berulang, dan bahasa judul dapat menimbulkan bias. Keamanan lokal, akses kesehatan, keuangan, kelayakan visa, dan pilihan keluarga harus diverifikasi terpisah.",
+    "queryErrors": []
+  }
+}

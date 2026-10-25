@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T07:01:07+07:00",
+  "generatedAt": "2026-10-25T08:50:14+07:00",
   "period": {
     "start": "2026-10-19",
     "end": "2026-10-25",
@@ -8,7 +8,7 @@
   "status": {
     "level": "monitor",
     "label": "Pantau",
-    "conditionIndex": 50,
+    "conditionIndex": 49,
     "confidence": "Low",
     "dataSufficiency": "Insufficient",
     "dataQualifier": "Data belum cukup",
@@ -26,25 +26,25 @@
     "caveat": "Data bidang kritis belum lengkap: Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
   },
   "metrics": {
-    "articles": 23,
-    "sources": 14,
-    "categoriesCovered": 10,
+    "articles": 26,
+    "sources": 13,
+    "categoriesCovered": 11,
     "categoriesTracked": 13,
     "positive": 3,
-    "neutral": 19,
-    "negative": 1,
-    "averageScore": 0.012,
-    "criticalNegativeSignals": 1
+    "neutral": 21,
+    "negative": 2,
+    "averageScore": 0.004,
+    "criticalNegativeSignals": 2
   },
   "dailyTrend": [
     {
       "date": "2026-10-19",
-      "score": 0.041,
-      "articles": 4
+      "score": 0.025,
+      "articles": 6
     },
     {
       "date": "2026-10-20",
-      "score": 0.0,
+      "score": -0.029,
       "articles": 6
     },
     {
@@ -59,8 +59,8 @@
     },
     {
       "date": "2026-10-23",
-      "score": -0.047,
-      "articles": 4
+      "score": -0.04,
+      "articles": 5
     },
     {
       "date": "2026-10-24",
@@ -86,16 +86,6 @@
     },
     {
       "topic": "Public Safety",
-      "count": 0,
-      "score": 0,
-      "sentiment": "No coverage",
-      "positive": 0,
-      "neutral": 0,
-      "negative": 0,
-      "highlightId": null
-    },
-    {
-      "topic": "Energy",
       "count": 0,
       "score": 0,
       "sentiment": "No coverage",
@@ -145,6 +135,16 @@
       "highlightId": "2026-10-24-a1a12ec6e2"
     },
     {
+      "topic": "Energy",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-10-19-8286fc9d98f1"
+    },
+    {
       "topic": "Telecom",
       "count": 1,
       "score": 0.0,
@@ -153,16 +153,6 @@
       "neutral": 1,
       "negative": 0,
       "highlightId": "2026-10-20-9127c705d1fc"
-    },
-    {
-      "topic": "Tech & AI",
-      "count": 2,
-      "score": 0.0,
-      "sentiment": "Neutral",
-      "positive": 0,
-      "neutral": 2,
-      "negative": 0,
-      "highlightId": "2026-10-23-f7a3b35c0a48"
     },
     {
       "topic": "Automotive & EV",
@@ -175,6 +165,26 @@
       "highlightId": "2026-10-22-3d61791536d9"
     },
     {
+      "topic": "Tech & AI",
+      "count": 3,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 3,
+      "negative": 0,
+      "highlightId": "2026-10-23-f7a3b35c0a48"
+    },
+    {
+      "topic": "Governance",
+      "count": 5,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 1,
+      "neutral": 3,
+      "negative": 1,
+      "highlightId": "2026-10-22-0f93653b9875"
+    },
+    {
       "topic": "Markets",
       "count": 5,
       "score": 0.032,
@@ -183,16 +193,6 @@
       "neutral": 4,
       "negative": 0,
       "highlightId": "2026-10-21-f7dd030e4a99"
-    },
-    {
-      "topic": "Governance",
-      "count": 4,
-      "score": 0.04,
-      "sentiment": "Neutral",
-      "positive": 1,
-      "neutral": 3,
-      "negative": 0,
-      "highlightId": "2026-10-22-0f93653b9875"
     },
     {
       "topic": "Business & Investment",
@@ -284,6 +284,17 @@
       "confidence": 0.68
     },
     {
+      "id": "2026-10-19-8286fc9d98f1",
+      "date": "2026-10-19",
+      "topic": "Energy",
+      "title": "Dua Tahun Prabowo: Tidak Boleh Ada Wilayah Indonesia yang Gelap",
+      "source": "Kompas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qc09XdnhKQTVmOURwemZ5cmVkR2F6MXVZS1hycEdDSFdVb2JQZnl2d3NUai0tOW41d0FzTUF2TGJsUGFzejlvTnZqTUM4dE9QcGMzeXdWOS04VEN1OTRteENlMmc0amNFRjVTbGhoRWo?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
       "id": "2026-10-23-f7a3b35c0a48",
       "date": "2026-10-23",
       "topic": "Tech & AI",
@@ -317,25 +328,14 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-10-21-73307e6524df",
-      "date": "2026-10-21",
-      "topic": "Climate & Disaster",
-      "title": "Video: BNPB Geber Modifikasi Cuaca untuk Atasi Karhutla",
-      "source": "CNBC Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY21SOE1hQWJpVWlGcEk5ajFSOU1TdUNYeWpxWFRCQWpYWTBWamVITnlyTERzZWNWMnN5UTh5ZExDVzczc2FYSElkRVpLdjNzUndERlJRSm5yNDc2WlVUNHZDWjVDSnEzNjhDTzMzVTN2dW1peHN5ZkdLeGc5cl9sc0tzZXJrMWJKWFN1dTl3bHRLMkNZNXBDcmJYN1h0ZTJIWU85cFQ1QXFGU1Y3ZHJVZUR4UQ?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-23-8759eb21fd56",
-      "date": "2026-10-23",
+      "id": "2026-10-20-cf45c63b8a79",
+      "date": "2026-10-20",
       "topic": "Governance",
-      "title": "Indeks Negara Hukum Turun, Pemerintah Janjikan Perbaikan dan Buka Ruang Dialog",
+      "title": "Kritik Pemerintah di Bundaran HI, 11 Aktivis Greenpeace Ditangkap Polisi",
       "source": "Kompas.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWTM2bUt0aDF1NTJydXJwOEtSRzFxd3JPQmo1OGZaYUphT2d1enpKbW0tMklCVjIwalJvTXdTOGlHVXRGa0NoOVhIbW15NUptZHp6UHdnX1JDRzlSckM1OWFkeVQyY2wtTDNSLTlvb1E2cHgxVTRFR1FxazhEZVJrT2g4VngwaDdBZlIyMHlmYU5MZVlwTWhfcDZDV0syNkx3OFNWQ21zaTN0VGRGVXpDcWZsQy1OOGN3Y2Y1c1pfdV9qYWE0YVB3X1BhMFI5Zw?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMENaTVRZTnk2TFRQZVVkbzRoRl96MjFlVHBVNGpKZVBFVkRCd1NWQlJUdktsZWRON0hrZVE1TWE5SG9hQnVuckU5UVcyNTlUcFFQa0tsb0dmNTNWQlppYmRpRzhjUEswYktYeTFoYkJGdWx5M3RmNm91SkZWZDE0Z1JoU0R1cm1vV2NqbkJlc244WE9LVUhIb2xhb3FUVW43?oc=5",
+      "sentiment": "Negative",
+      "score": -0.16,
       "confidence": 0.68
     }
   ],

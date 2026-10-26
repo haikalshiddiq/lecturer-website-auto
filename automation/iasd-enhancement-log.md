@@ -39,6 +39,57 @@
 - Dasar: konsep BPMN dan batas pool/lane yang sudah tercantum di lampiran. Tidak menambah klaim eksternal baru. Jumlah token, kondisi eksklusif dan task selesai adalah asumsi kelas; bukan observasi toko atau hasil validator XML. RPS asli tetap tidak tersedia; rubrik bukan nilai resmi.
 - Desain, antislop DURING: workspace akademi ringkas mahasiswa/dosen berbahasa Indonesia, ENERGY 1 / RHYTHM 2 / MOTION 1. Biru/slate dan font lokal lama menjaga kontinuitas; disclosure menahan panjang halaman; select prediksi memiliki target 44px dan CTA spesifik; diagram lama menjelaskan cabang, bukan dekorasi. Tidak ada aset, ikon, warna atau animasi baru.
 - Bukti RED: smoke desktop terhadap produksi sebelum implementasi gagal menunggu `select[data-setting="s3Outcome"]` (timeout 7000ms). Tes baru mencakup dua stok × dua join × dua prediksi, alasan benar/salah, invalidasi, reload, transfer, dosen, Tab/Shift+Tab/Enter, fokus, target sentuh, kontras teks terpindai pada dua tema, overflow dan penggunaan offline. Cadangan lama tanpa field s3 juga dimasukkan ke gate.
-- Status: implementasi sumber, belum klaim publikasi atau hasil GREEN. Perintah maintainer harus menjalankan build, validasi baseline/konten/link/LMS, smoke desktop/mobile/PWA/offline dan baca balik revisi serta baseline produksi. Jika gagal, perubahan dipertahankan dan tidak dinyatakan terbit. Bukti final dan gate perubahan dilaporkan pada keluaran run setelah hasil nyata diperiksa.
+- Status sebelum rilis: implementasi sumber, belum klaim publikasi atau hasil GREEN. Perintah maintainer wajib menjalankan seluruh gate; bukti aktual setelahnya dicatat di bawah.
+- GREEN dan publikasi terverifikasi: maintainer exit 0 menjalankan validasi konten/link, lint Astro, build, gate LMS, smoke desktop/mobile/PWA/offline, hash baseline dan Impeccable. Commit konten `82a784fc5a6ec53a9719bbc55d3cbc19b0901ee3` sama dengan origin/main saat pemeriksaan. Deployment `https://vc-lecturer-6dhak56se-hicall-projects.vercel.app`; manifest produksi sama persis dengan sumber, revision `7fba48e6e09953ce607fef34905ad96c9a8a1b6a34784a1ebfd444b15a4a5860`, baseline studio produksi identik. Read-back tambahan memakai urllib mendapat 403; jalur fetch_live milik maintainer berhasil HTTP 200 dan perbandingan objek lengkap, bukan mengabaikan kegagalan.
+- Verifikasi produksi terpisah setelah deploy: `runIasdSmoke` terhadap https://hicall.web.id pada desktop 1440×900 dan mobile 390×844 exit 0. Masing-masing menjalankan 16 sesi, 48 jawaban kuis, seluruh simulator, tab dosen, persistensi, cadangan baru/lama, penolakan cadangan salah, serta offline. Seluruh 13 unduhan desktop dibandingkan isi persis dengan lampiran. Tidak ada pageerror. Hasil mesin berada di output/playwright/iasd-{desktop,mobile}-results.json (artefak ignored, bukan konten terbit).
+- Click-through S03: stok/join/prediksi → alasan benar/salah; ganti stok → feedback menunggu; Enter pada Periksa → hasil; reload → hasil pulih; Enter pada contoh → jejak A/B; tab Bukti → transfer perpustakaan; tab dosen/disclosure → fasilitasi/rubrik; Tab/Shift+Tab → fokus kembali terlihat dan select ≥44px; kedua tema → kontras teks terpindai AA; mobile → tanpa overflow; offline reload → prediksi tetap berfungsi.
+
+### Gate perubahan S03 (bukan audit ulang teks lampiran immutable)
+
+- R-02 PASS: validator suplemen menolak em dash; build/validator lulus.
+- R-03 PASS: smoke desktop/mobile memeriksa overflow sesudah contoh dibuka, kedua tema.
+- R-17 PASS: jumlah token diberi asumsi kelas, tanpa statistik pengguna.
+- R-18 PASS: tidak menambah testimoni atau identitas rekaan.
+- R-23 PASS: memakai diagram/kontrol lama; tidak membuat logo/avatar/aset baru.
+- R-24 PASS: hanya URL studio aktif #3 dan mode=teach; keduanya diuji.
+- R-25 PASS: computed contrast teks suplemen, prediksi dan feedback terpindai AA di kedua tema.
+- R-26 PASS: select mengubah skenario, Periksa memberi alasan, disclosure terbuka; click-through di atas.
+- R-27 PASS: bundel sinkron memakai boot/error penyimpanan lama, status belum diperiksa dan jawaban salah tersedia.
+- R-28 PASS: tidak menambah FAQ.
+- R-32 PASS: Enter, Tab/Shift+Tab dan fokus terlihat diuji; Escape memakai handler details lama.
+- R-33 PASS: perubahan langsung pada sumber, bukan script penulis ulang UI.
+- R-34 PASS: prediksi, teks dan overflow diuji pada tema terang/gelap.
+- R-35 PASS: maintainer serta smoke produksi exit 0; click-through tercatat di atas.
+- R-36 PASS: tidak ada klaim keamanan/performa atau pelanggan baru.
+- R-37 PASS: arah studio lama dan Design Read/dials dinyatakan sebelum perubahan.
+- R-38 PASS: seluruh skenario diberi label latihan/asumsi; tidak menyamarkan hasil sebagai transaksi nyata.
+- R-01 PASS: tidak menambah gradien/glow; warna aksi lama dipertahankan.
+- R-04 PASS: tidak menambah ikon.
+- R-06 PASS: font lokal lama menjaga kontinuitas pembacaan, tanpa tipografi dekoratif baru.
+- R-07 PASS: tidak menambah pola latar.
+- R-08 PASS: panah pada jejak menyatakan urutan proses, bukan dekorasi CTA.
+- R-09 PASS: tidak menambah badge.
+- R-10 PASS: tidak menambah blur.
+- R-12 PASS: tidak menambah shadow.
+- R-13 PASS: tidak menambah glow.
+- R-14 PASS: tidak menambah grid feature-card; contoh dalam disclosure berbasis tugas.
+- R-19 PASS: MOTION 1 memakai perilaku/fokus lama, tanpa animasi baru.
+- R-22 PASS: diagram stok lama relevan langsung pada penalaran token; tanpa ilustrasi dekoratif.
+- Liveliness PASS: ENERGY 1 / RHYTHM 2 / MOTION 1; fokus keputusan token, aksen tindakan biru, whitespace label, motif jejak bukti Aruna; disclosure membedakan konsep/praktik/dosen dan menjaga halaman ringkas.
+- C-1 PASS: alasan warna, layout, font, jarak dan diagram tercatat dalam Design Read di atas.
+- C-2 PASS: seluruh kontrol baru berfungsi dalam smoke produksi.
+- C-3 PASS: tidak menambah section pemasaran/template; hanya tugas sesi 03.
+- C-4 PASS: state belum diperiksa/salah/tersimpan, dua tema, dua viewport, keyboard dan offline diuji.
+- C-5 PASS: asumsi dinyatakan, bukan data observasi atau nilai resmi.
+- R-05 PASS: struktur Konsep/Bukti/Dosen/disclosure mengikuti kebutuhan pelajaran, bukan landing-page template.
+- R-11 PASS: radius kontrol lama dipertahankan.
+- R-15 PASS: CTA spesifik Periksa prediksi token.
+- R-16 PASS: tidak menambah buzzword pemasaran.
+- R-20 PASS: contoh dan motif jejak token memakai kasus Aruna yang nyata dalam lampiran.
+- R-21 PASS: toggle dua tema tetap aktif dan diuji.
+- R-29 PASS: palette lama tanpa warna baru.
+- R-30 PASS: tidak mengkloning produk lain.
+- R-31 PASS: alasan desain tercatat; perubahan CSS hanya minimum tinggi select prediksi.
+- Batasan: gate kontras adalah pemindaian computed text yang diuji, bukan sertifikasi aksesibilitas seluruh aplikasi. Simulator bukan validator BPMN lengkap; loop, XML dan transaksi nyata tidak diuji. RPS asli tidak diverifikasi dan rubrik bukan nilai resmi. Pembaruan log bukti ini tidak mengubah revisi konten; rilis log wajib melewati maintainer lagi.
 - Mahasiswa: https://hicall.web.id/iasd/studio#3
 - Dosen: https://hicall.web.id/iasd/studio?mode=teach#3

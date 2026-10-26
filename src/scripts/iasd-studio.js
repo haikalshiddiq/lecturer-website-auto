@@ -165,6 +165,14 @@ if(type==='elicitation'&&view===2&&supplements[2]){
   const timeReason=x.limit==='2'?'Hasil contoh tiga detik belum memenuhi batas dua detik.':'Hasil contoh tiga detik memenuhi batas lima detik.';
   viz+=s.s2Reviewed===x.signature?feedback(`<b>${correct?'Kedua prediksi tepat.':'Ada prediksi yang perlu direvisi.'}</b><p>${stockReason}</p><p>${statusReason}</p><p>${timeReason} Mengubah batas bukan perbaikan performa. Satu hasil contoh tidak membuktikan seluruh beban terpenuhi; tidak ada uji pembayaran atau checkout bersamaan di sini.</p>`,correct?'':'warn'):'<p data-iasd-s2-prediction>Latihan tambahan: buka Latihan FR01 & batas waktu, prediksi hasil stok dan status kebutuhan, lalu periksa alasannya.</p>';
 }
+if(type==='bpmn'&&view===3&&supplements[3]){
+  const stock=pick(s,'stock','cukup',['cukup','kurang']),join=pick(s,'join','exclusive',['exclusive','parallel']),prediction=pick(s,'s3Outcome','akhir',['akhir','tunggu']);
+  const signature=[stock,join,prediction].join(':'),expected=join==='parallel'?'tunggu':'akhir';
+  controls+=selectControl('s3Outcome','Prediksi setelah task cabang selesai',[['akhir','Token melewati penyatuan menuju End'],['tunggu','Token menunggu pada penyatuan']],prediction)+simButton('s3review','Periksa prediksi token')+'<p class="small">Asumsi kelas: satu token, kondisi stok saling eksklusif, task terpilih selesai. Prediksi hasil di penyatuan, bukan posisi token saat ini.</p>';
+  const arrival=stock==='cukup'?'Reservasi: satu token; Beri tahu: nol token.':'Beri tahu: satu token; Reservasi: nol token.';
+  const reason=join==='parallel'?'Parallel join menunggu kedua masukan, tetapi cabang lain tidak pernah diaktifkan oleh exclusive split. Mengulang klik tidak menciptakan token; ganti penyatuan alternatif ini dengan exclusive merge.':'Tidak menunggu cabang lain: exclusive merge meneruskan token dari alternatif yang datang. Uji kedua stok sampai End; ini bukan alasan mengganti join setelah dua pekerjaan paralel yang wajib selesai.';
+  viz+=s.s3Reviewed===signature?feedback(`<b>${prediction===expected?'Prediksi tepat.':'Prediksi perlu direvisi.'}</b><p>${arrival}</p><p>${reason}</p><p class="small">Hanya jejak stok sederhana, bukan validator BPMN XML atau transaksi nyata.</p>`,prediction===expected?'':'warn'):'<p data-iasd-s3-prediction>Prediksi belum diperiksa untuk skenario ini. Pilih hasil di penyatuan lalu Periksa prediksi token.</p>';
+}
 $('#sim-title').textContent=title;$('#sim-controls').innerHTML=controls;$('#sim-viz').innerHTML=viz;if(focusSetting){const next=[...document.querySelectorAll('[data-setting]')].find(e=>e.dataset.setting===focusSetting);next?.focus({preventScroll:true});}else if(focusAction){const next=[...document.querySelectorAll('[data-simact]')].find(e=>e.dataset.simact===focusAction&&e.dataset.value===focusValue);next?.focus({preventScroll:true});}
 }
 function creditRows(dedup=true){const rows=csvdata('credit_dirty.csv'),seen=new Set;return dedup?rows.filter(r=>{if(seen.has(r.id))return false;seen.add(r.id);return true;}):rows;}
@@ -173,6 +181,7 @@ function simAction(action,value){const r=rec(),s=r.sim;r.used=true;r.complete=fa
 if(action==='s1review'&&view===1)s.s1Reviewed=[pick(s,'change','sering',['sering','stabil']),pick(s,'access','ada',['ada','sulit']),pick(s,'s1Decision','iterasi',['iterasi','bertahap','klarifikasi'])].join(':');
 if(action==='classify'){s.checked=true;s.s2Classified=[val(s,'quote',0,0,3),pick(s,'category','asumsi',['fakta','asumsi','kebutuhan','pertanyaan'])].join(':');}
 if(action==='s2review'&&view===2)s.s2Reviewed=s2Scenario(s).signature;
+if(action==='s3review'&&view===3)s.s3Reviewed=[pick(s,'stock','cukup',['cukup','kurang']),pick(s,'join','exclusive',['exclusive','parallel']),pick(s,'s3Outcome','akhir',['akhir','tunggu'])].join(':');
 if(action==='token')s.step=s.join==='parallel'&&val(s,'step',0,0,5)>=4?4:(val(s,'step',0,0,5)+1)%6;
 if(action==='pay'){s.attempt=Math.min(3,(s.attempt||0)+1);s.queried=false;}
 if(action==='query')s.queried=true;

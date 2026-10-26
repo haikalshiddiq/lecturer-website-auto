@@ -118,7 +118,46 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         break;
       case 3:
         await select('join', 'parallel'); for (let i = 0; i < 4; i++) await action('token'); await feedback('MACET');
-        await select('join', 'exclusive'); await action('token'); await feedback('mencapai akhir'); break;
+        await select('join', 'exclusive'); await action('token'); await feedback('mencapai akhir');
+        for (const stock of ['cukup', 'kurang']) for (const join of ['exclusive', 'parallel']) {
+          await select('stock', stock); await select('join', join);
+          for (const prediction of ['akhir', 'tunggu']) {
+            await select('s3Outcome', prediction);
+            await page.locator('[data-simact="s3review"]').focus();
+            await page.locator('[data-simact="s3review"]').press('Enter');
+            await feedback(prediction === (join === 'parallel' ? 'tunggu' : 'akhir') ? 'Prediksi tepat.' : 'Prediksi perlu direvisi.');
+            await feedback(stock === 'cukup' ? 'Reservasi: satu token' : 'Beri tahu: satu token');
+            await feedback(join === 'parallel' ? 'tidak pernah diaktifkan' : 'Tidak menunggu cabang lain');
+          }
+        }
+        await select('stock', 'cukup');
+        assert.ok(await page.locator('[data-iasd-s3-prediction]').isVisible(), 'Changed stock must invalidate BPMN prediction');
+        await select('s3Outcome', 'tunggu'); await action('s3review');
+        await page.reload({ waitUntil: 'networkidle' }); await feedback('Prediksi tepat.');
+        await page.locator('[data-iasd-supplement="3"] summary').press('Enter');
+        assert.ok((await page.locator('[data-iasd-supplement="3"]').innerText()).includes('jejak A'));
+        await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="3"]').innerText()).includes('perpustakaan'));
+        await tab('teach'); await page.locator('[data-iasd-facilitation="3"] summary').click();
+        assert.ok((await page.locator('[data-iasd-facilitation="3"]').innerText()).includes('Rubrik diagnostik'));
+        await tab('concept');
+        for (const dark of [false, true]) {
+          if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
+          const control = page.locator('[data-setting="s3Outcome"]'); await control.focus();
+          await page.keyboard.press('Tab'); await page.keyboard.press('Shift+Tab');
+          assert.ok(await control.evaluate(el => document.activeElement === el && getComputedStyle(el).outlineStyle !== 'none' && el.getBoundingClientRect().height >= 44), 'S03 focus/tap target');
+          await checkOverflow(`S03 expanded ${dark ? 'dark' : 'light'}`);
+          assert.deepEqual(await page.evaluate(() => {
+            const rgb = c => (c.match(/[\d.]+/g) || []).map(Number);
+            const lum = c => rgb(c).slice(0,3).map(v => { v /= 255; return v <= .04045 ? v / 12.92 : ((v+.055)/1.055)**2.4; }).reduce((s,v,i) => s+v*[.2126,.7152,.0722][i],0);
+            return [...document.querySelectorAll('[data-iasd-supplement="3"] *, #control-s3Outcome, #sim-viz .feedback *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
+              const style=getComputedStyle(el); let ancestor=el, bg='rgb(255,255,255)';
+              while(ancestor) { const color=getComputedStyle(ancestor).backgroundColor; if(rgb(color)[3]!==0){bg=color;break;} ancestor=ancestor.parentElement; }
+              const a=lum(style.color),b=lum(bg),ratio=(Math.max(a,b)+.05)/(Math.min(a,b)+.05),size=parseFloat(style.fontSize),large=size>=24 || (size>=18.66 && Number(style.fontWeight)>=700);
+              return ratio < (large?3:4.5) ? [{text:el.textContent.slice(0,40),ratio}] : [];
+            });
+          }), [], 'S03 scanned text must meet AA in both themes');
+        }
+        break;
       case 4: await select('actor', 'Database internal'); await feedback('bukan aktor'); break;
       case 5: await select('join', 'merge'); await check('address'); await feedback('terlalu dini'); break;
       case 6: await action('pay'); await action('pay'); await select('mode', 'baru'); await feedback('efek ganda'); break;
@@ -162,7 +201,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
       await page.locator('[data-act="grade"]').click();
       assert.ok((await page.locator('#grade-result').innerText()).includes('3 dari 3'));
       assert.equal(await page.locator('.question-feedback.correct').count(), 3);
-      assert.equal(await page.locator('[data-iasd-transfer]').count(), [1, 2].includes(lesson.n) ? 1 : 0, 'Supplement leaked to another session or vanished on grading');
+      assert.equal(await page.locator('[data-iasd-transfer]').count(), [1, 2, 3].includes(lesson.n) ? 1 : 0, 'Supplement leaked to another session or vanished on grading');
       await tab('teach'); assert.ok((await page.locator('#pane-teach').innerText()).includes(lesson.hook));
       await tab('sources'); assert.equal(await page.locator('#pane-sources > ol.source-list > li').count(), lesson.refs.length);
       await checkOverflow(`session ${lesson.n} sources`);
@@ -186,7 +225,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     await page.setInputFiles('#import-file', { name: 'wrong-course.json', mimeType: 'application/json', buffer: Buffer.from('{"course":"OTHER","version":"bad","lessons":{}}') });
     assert.ok((await page.locator('#toast').innerText()).includes('Tidak dipulihkan'));
     const legacy = JSON.parse(backup.text);
-    for (const record of Object.values(legacy.lessons)) for (const field of Object.keys(record.sim)) if (/^s[12]/.test(field)) delete record.sim[field];
+    for (const record of Object.values(legacy.lessons)) for (const field of Object.keys(record.sim)) if (/^s[123]/.test(field)) delete record.sim[field];
     page.once('dialog', dialog => dialog.accept());
     await page.setInputFiles('#import-file', { name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(legacy)) });
     await page.waitForFunction(() => document.querySelector('#toast')?.textContent.includes('Cadangan dipulihkan'));
@@ -224,6 +263,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     await page.reload({ waitUntil: 'networkidle' });
     assert.ok(await page.locator('#sim-viz svg').isVisible());
     await select('join', 'parallel'); for (let i = 0; i < 4; i++) await action('token'); await feedback('MACET');
+    await select('s3Outcome', 'tunggu'); await action('s3review'); await feedback('Prediksi tepat.');
     await session(1); await select('access', 'sulit'); await select('s1Decision', 'klarifikasi'); await action('s1review'); await feedback('Tepat untuk asumsi latihan.');
     await session(2); if (await page.locator('[data-iasd-elicitation]').getAttribute('open') === null) await page.locator('[data-iasd-elicitation] summary').click();
     await select('s2Stock', '1'); await select('s2Approval', 'belum'); await select('s2Outcome', 'tolak'); await select('s2Status', 'usulan'); await action('s2review'); await feedback('Kedua prediksi tepat.');

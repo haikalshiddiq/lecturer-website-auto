@@ -29,3 +29,16 @@
 - Status log: implementasi dan bukti lokal, belum klaim publikasi. Perintah maintainer wajib mengulang gate, deploy dan membaca revisi serta baseline produksi; kegagalan tidak boleh dicatat sebagai sudah terbit. Bukti live final dilaporkan pada keluaran run.
 - Mahasiswa: https://hicall.web.id/iasd/studio#2
 - Dosen: https://hicall.web.id/iasd/studio?mode=teach#2
+
+## S03: BPMN proses bisnis (26 Oktober 2026, WIB)
+
+- Pemilihan: worktree bersih diperbarui ff-only ke origin/main `8ab3966`; sesi 03 dibaca lengkap bersama kasus Aruna, berkas lampiran dan log S01/S02. S03 adalah sesi berikutnya tanpa pendalaman; tidak mengasumsikan progres mahasiswa. Materi beku serta dashboard tidak diedit.
+- Satu pendalaman: jejak A/B stok cukup/kurang, token cabang aktif versus tidak pernah diaktifkan, penyebab parallel join macet setelah exclusive split, perbaikan exclusive merge dan batasnya. Transfer perpustakaan membedakan alternatif stok dari dua pekerjaan paralel wajib, bukan menyarankan semua gateway diganti X.
+- Render: contoh dan miskonsepsi pada disclosure Konsep; prediksi hasil token memakai diagram/simulator BPMN yang sudah ada; empat baris bukti pada tab individu; fasilitasi prediksi → demonstrasi → penjelasan → transfer dengan rubrik diagnostik pada tab dosen. Overview memakai tautan pendalaman yang sudah ada. Homepage dan navigasi tetap.
+- Kompatibilitas: field s3Outcome/s3Reviewed opsional dalam sim; KEY, versi course, validasi cadangan, catatan dan syarat selesai tidak diubah. Feedback terikat stok/join/prediksi, bukan boolean lama. Posisi token terpisah dari prediksi hasil setelah task selesai dan dinyatakan di label. Tidak menambah topologi paralel palsu pada diagram stok.
+- Dasar: konsep BPMN dan batas pool/lane yang sudah tercantum di lampiran. Tidak menambah klaim eksternal baru. Jumlah token, kondisi eksklusif dan task selesai adalah asumsi kelas; bukan observasi toko atau hasil validator XML. RPS asli tetap tidak tersedia; rubrik bukan nilai resmi.
+- Desain, antislop DURING: workspace akademi ringkas mahasiswa/dosen berbahasa Indonesia, ENERGY 1 / RHYTHM 2 / MOTION 1. Biru/slate dan font lokal lama menjaga kontinuitas; disclosure menahan panjang halaman; select prediksi memiliki target 44px dan CTA spesifik; diagram lama menjelaskan cabang, bukan dekorasi. Tidak ada aset, ikon, warna atau animasi baru.
+- Bukti RED: smoke desktop terhadap produksi sebelum implementasi gagal menunggu `select[data-setting="s3Outcome"]` (timeout 7000ms). Tes baru mencakup dua stok × dua join × dua prediksi, alasan benar/salah, invalidasi, reload, transfer, dosen, Tab/Shift+Tab/Enter, fokus, target sentuh, kontras teks terpindai pada dua tema, overflow dan penggunaan offline. Cadangan lama tanpa field s3 juga dimasukkan ke gate.
+- Status: implementasi sumber, belum klaim publikasi atau hasil GREEN. Perintah maintainer harus menjalankan build, validasi baseline/konten/link/LMS, smoke desktop/mobile/PWA/offline dan baca balik revisi serta baseline produksi. Jika gagal, perubahan dipertahankan dan tidak dinyatakan terbit. Bukti final dan gate perubahan dilaporkan pada keluaran run setelah hasil nyata diperiksa.
+- Mahasiswa: https://hicall.web.id/iasd/studio#3
+- Dosen: https://hicall.web.id/iasd/studio?mode=teach#3

@@ -48,7 +48,7 @@ summary { display: flex; align-items: center; }
 .sim-head .row { gap: 8px; }
 .sim-body { grid-template-columns: 215px minmax(0, 1fr); gap: 20px; padding: 20px; }
 .controls .check, .answer { min-height: 44px; }
-[data-iasd-elicitation] select, #control-s3Outcome { min-height: 44px; }
+[data-iasd-elicitation] select, #control-s3Outcome, #control-actor, #control-s4Stock, #control-s4Role, #control-s4Outcome { min-height: 44px; }
 [data-iasd-elicitation] label { margin-block: 10px; }
 .viz svg { overflow: hidden; }
 .viz svg text { fill: #132f42; }

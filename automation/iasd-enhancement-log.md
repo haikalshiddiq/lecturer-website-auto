@@ -93,3 +93,66 @@
 - Batasan: gate kontras adalah pemindaian computed text yang diuji, bukan sertifikasi aksesibilitas seluruh aplikasi. Simulator bukan validator BPMN lengkap; loop, XML dan transaksi nyata tidak diuji. RPS asli tidak diverifikasi dan rubrik bukan nilai resmi. Pembaruan log bukti ini tidak mengubah revisi konten; rilis log wajib melewati maintainer lagi.
 - Mahasiswa: https://hicall.web.id/iasd/studio#3
 - Dosen: https://hicall.web.id/iasd/studio?mode=teach#3
+
+## S04: Use case dan skenario (27 Oktober 2026, WIB)
+
+- Pemilihan: worktree awal bersih, fetch dan ff-only dari origin/main ke `88e4e08` sebelum authoring. Membaca sesi 04 lengkap, kasus Aruna, usecase_detail.csv, requirements.csv serta log S01–S03. S04 berikutnya tanpa suplemen, bukan inferensi progres mahasiswa. S05–16 belum mendapat pendalaman tambahan.
+- Satu pendalaman: kontrak UC01 dengan boundary tetap Aplikasi Aruna, aktor versus komponen internal, UC01-M reservasi dan UC01-A stok berubah, precondition yang tidak menutup alur alternatif, dua postcondition serta AC-M/AC-A menuju FR01. Prediksi menggabungkan klasifikasi peran dan hasil stok; pilihan lunas memberi koreksi eksplisit bahwa reservasi bukan bukti pembayaran.
+- Render: disclosure Konsep, tambahan kontrol pada simulator use case lama, transfer peminjaman kamera serta empat baris artefak lokal pada tab Bukti, fasilitasi/rubrik pada tab dosen, satu tautan overview. Tidak mengubah homepage umum, tab atau navigasi sesi. Penjelasan kasus mengakui kasir tetap perlu dimodelkan di artefak lengkap.
+- Dasar/batas: semua fakta berasal dari sesi/kasus lampiran, tanpa klaim eksternal baru. Stok, reservasi sebelum pembayaran dan hasil contoh dilabeli asumsi kelas; bukan implementasi atau observasi toko. RPS asli tetap tidak tersedia, bobot usulan dan latihan ujian publik tidak berubah. Tidak mengklaim konkurensi, penagihan atau serah-terima diuji.
+- Kompatibilitas: field s4Stock/s4Role/s4Outcome/s4Reviewed opsional di sim. KEY, versi, validator cadangan, syarat selesai, baseline lampiran dan 13 berkas tetap. Cadangan lama tanpa field s4 mempertahankan catatan dan mulai prediksi belum diperiksa; cadangan baru mengembalikan feedback serta catatan S04.
+- Design Read sebelum generasi, antislop DURING sesuai preferensi tersimpan: workspace akademi ringkas mahasiswa/dosen berbahasa Indonesia, ENERGY 1 / RHYTHM 2 / MOTION 1. Warna biru/slate lama menandai tindakan; font lokal menjaga kontinuitas; disclosure menjaga halaman ringkas; jarak/kontrol minimum 44px untuk sentuhan; diagram boundary lama untuk alasan aktor, bukan urutan pesan. Tidak membuat aset, ikon, warna, kartu atau gerak dekoratif.
+- RED: smoke desktop terhadap produksi lama gagal timeout 7000ms pada `select[data-setting="s4Stock"]` sebelum implementasi. GREEN final lokal: `npm run build && npm run smoke:pwa` exit 0, 188 halaman dibangun, gate 174 halaman pembelajaran dan hash sumber/embedded IASD lulus; smoke desktop/mobile/PWA/offline lulus. Log mesin: scratch/iasd-s04-build.log dan scratch/iasd-s04-smoke.log, hasil/screenshot output/playwright/iasd-s04-{desktop,mobile}.png serta iasd-{desktop,mobile}-results.json (ignored).
+- Cakupan tes S04: tiga aktor × dua stok × dua prediksi peran × tiga prediksi hasil, alasan benar/salah, invalidasi saat stok berubah, reload, catatan transfer lokal, isolasi sesi setelah grading, impor lama/baru, instructor permalink #4, penggunaan offline. Smoke regresi mempertahankan semua 16 sesi/48 jawaban kuis/simulator/tab serta 13 unduhan desktop isi identik lampiran.
+- Click-through: tautan overview 04 → studio sesi 04; actor/stok/peran/postcondition → skenario berubah; Periksa kontrak UC01 dengan Enter → alasan benar/salah; stok diubah → hasil lama tidak ditampilkan; reload → pilihan/hasil pulih; summary contoh Enter → UC01-M/UC01-A, Escape → tutup, Enter → buka; tab Bukti → transfer kamera, ketik/reload → catatan pulih; panduan dosen #4/summary → prediksi/demonstrasi/penjelasan/transfer/rubrik; kedua tema → teks terpindai memenuhi AA; empat select → Tab/Shift+Tab mengembalikan fokus terlihat dan tinggi ≥44px; mobile → tanpa overflow; offline → prediksi serta contoh tetap tersedia. Tidak ada pageerror pada smoke.
+- Status log: bukti implementasi dan verifikasi lokal, belum klaim publikasi. Maintainer wajib mengulang gate, commit, deploy dan membaca revisi serta baseline produksi secara persis. Bukti live final dilaporkan pada keluaran run; kegagalan tidak boleh dianggap sudah terbit.
+
+### Gate perubahan S04 (bukan audit ulang lampiran immutable)
+
+- R-02 PASS: validator JSON suplemen menolak em dash; validasi setelah build lulus.
+- R-03 PASS: smoke kedua viewport/tema memeriksa overflow setelah contoh diperluas; empat select ≥44px.
+- R-17 PASS: jumlah stok serta reservasi dilabeli asumsi, bukan statistik nyata.
+- R-18 PASS: tidak menambah testimoni atau identitas rekaan.
+- R-23 PASS: diagram serta kontrol lama digunakan, tanpa logo/avatar/aset baru.
+- R-24 PASS: tautan overview #4 dan permalink dosen #4 benar-benar dibuka dalam smoke.
+- R-25 PASS: computed contrast teks contoh, label/select dan feedback terpindai AA di kedua tema.
+- R-26 PASS: empat select, tombol Periksa, disclosure dan tautan diuji sesuai click-through.
+- R-27 PASS: bundel sinkron memakai boot/error lama; prediksi belum diperiksa, salah, tersimpan dan invalid-backup diuji.
+- R-28 PASS: tidak menambah FAQ.
+- R-32 PASS: Enter/Escape, Tab/Shift+Tab dan fokus terlihat diuji.
+- R-33 PASS: implementasi langsung pada sumber, tanpa script penulis ulang UI.
+- R-34 PASS: kedua tema mempertahankan kontrol, fokus, kontras terpindai dan layout.
+- R-35 PASS lokal: build/smoke final exit 0, click-through per kontrol di atas; produksi masih menunggu maintainer.
+- R-36 PASS: tidak ada klaim keamanan, performa atau pelanggan baru.
+- R-37 PASS: arah studio serta Design Read/dials dinyatakan sebelum generasi.
+- R-38 PASS: skenario berlabel latihan/asumsi, bukan transaksi atau nilai resmi.
+- R-01 PASS: tidak menambah gradien/glow; aksen biru tindakan lama dipertahankan.
+- R-04 PASS: tidak menambah ikon.
+- R-06 PASS: font lokal lama menjaga kontinuitas pembacaan.
+- R-07 PASS: tidak menambah pola latar.
+- R-08 PASS: tidak menambah panah dekoratif pada CTA.
+- R-09 PASS: tidak menambah badge.
+- R-10 PASS: tidak menambah blur.
+- R-12 PASS: tidak menambah shadow.
+- R-13 PASS: tidak menambah glow.
+- R-14 PASS: tidak menambah grid kartu; contoh sesuai tugas dalam disclosure.
+- R-19 PASS: MOTION 1 memakai interaksi/fokus lama, tanpa animasi baru.
+- R-22 PASS: diagram boundary lama langsung relevan terhadap klasifikasi aktor, tanpa ilustrasi dekoratif.
+- Liveliness PASS: ENERGY 1 / RHYTHM 2 / MOTION 1, fokus kontrak checkout, aksen biru tindakan, whitespace label, motif jejak bukti Aruna, variasi Konsep/Bukti/Dosen/disclosure, Design Read sebelum generasi.
+- C-1 PASS: alasan warna, font, layout, jarak dan diagram tercatat di Design Read.
+- C-2 PASS: setiap kontrol tambahan memiliki hasil teruji.
+- C-3 PASS: hanya kontrak/latihan sesi 04, tanpa section pemasaran/template.
+- C-4 PASS: belum diperiksa/salah/tersimpan, dua tema/viewport, keyboard, backup serta offline diuji.
+- C-5 PASS: asumsi dinyatakan, tanpa klaim observasi/penilaian resmi.
+- R-05 PASS: komposisi mengikuti tugas dan tab/disclosure, bukan landing-page generik.
+- R-11 PASS: radius kontrol lama dipertahankan.
+- R-15 PASS: CTA spesifik Periksa kontrak UC01.
+- R-16 PASS: tidak menambah buzzword pemasaran.
+- R-20 PASS: identitas jejak UC01/FR01 memakai kasus Aruna yang disediakan.
+- R-21 PASS: toggle kedua tema tetap aktif dan diuji.
+- R-29 PASS: palette lama, tanpa warna tambahan.
+- R-30 PASS: tidak mengkloning produk lain.
+- R-31 PASS: alasan desain tercatat; CSS hanya minimum target sentuh empat select sesi 04.
+- Batasan gate: computed contrast hanya teks yang dipindai, bukan sertifikasi aksesibilitas seluruh aplikasi. Simulator bukan validator UML atau backend transaksi. Catatan lokal tidak dikirim otomatis. Materi beku, antrean, dependensi bersama, baseline dan dashboard tidak diedit.
+- Mahasiswa: https://hicall.web.id/iasd/studio#4
+- Dosen: https://hicall.web.id/iasd/studio?mode=teach#4

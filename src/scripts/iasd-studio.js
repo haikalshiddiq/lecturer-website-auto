@@ -165,6 +165,19 @@ if(type==='elicitation'&&view===2&&supplements[2]){
   const timeReason=x.limit==='2'?'Hasil contoh tiga detik belum memenuhi batas dua detik.':'Hasil contoh tiga detik memenuhi batas lima detik.';
   viz+=s.s2Reviewed===x.signature?feedback(`<b>${correct?'Kedua prediksi tepat.':'Ada prediksi yang perlu direvisi.'}</b><p>${stockReason}</p><p>${statusReason}</p><p>${timeReason} Mengubah batas bukan perbaikan performa. Satu hasil contoh tidak membuktikan seluruh beban terpenuhi; tidak ada uji pembayaran atau checkout bersamaan di sini.</p>`,correct?'':'warn'):'<p data-iasd-s2-prediction>Latihan tambahan: buka Latihan FR01 & batas waktu, prediksi hasil stok dan status kebutuhan, lalu periksa alasannya.</p>';
 }
+if(type==='usecase'&&view===4&&supplements[4]){
+  const actor=pick(s,'actor','Pelanggan',['Pelanggan','Penyedia bayar','Database internal']);
+  const stock=pick(s,'s4Stock','1',['1','3']),role=pick(s,'s4Role','eksternal',['eksternal','internal']),outcome=pick(s,'s4Outcome','reservasi',['tolak','reservasi','lunas']);
+  const signature=[actor,stock,role,outcome].join(':'),expectedRole=actor==='Database internal'?'internal':'eksternal',expectedOutcome=stock==='1'?'tolak':'reservasi';
+  const correct=role===expectedRole&&outcome===expectedOutcome;
+  controls+=selectControl('s4Stock','Stok saat konfirmasi (permintaan dua)',[['1','Satu unit'],['3','Tiga unit']],stock)
+    +selectControl('s4Role','Prediksi peran terhadap boundary',[['eksternal','Aktor eksternal'],['internal','Komponen internal']],role)
+    +selectControl('s4Outcome','Prediksi postcondition checkout',[['tolak','Ditolak tanpa reservasi baru'],['reservasi','Reservasi dua, menunggu pembayaran'],['lunas','Pesanan sudah lunas']],outcome)
+    +simButton('s4review','Periksa kontrak UC01')+'<p class="small">Asumsi kelas: batas tetap Aplikasi Aruna termasuk database. Keranjang valid, pelanggan terautentikasi, permintaan dua unit, tanpa konkurensi. Diagram menunjukkan aktor aplikasi, bukan urutan pesan atau bukti pembayaran.</p>';
+  const actorReason=expectedRole==='internal'?'Database internal berada di dalam boundary aplikasi, sehingga bukan aktor eksternal.':esc(actor)+' berada di luar boundary dan berinteraksi dengan aplikasi. Penyedia bayar tetap aktor model aplikasi meski tidak dipanggil pada jalur stok ditolak.';
+  const stockReason=stock==='1'?'UC01-A pada pemeriksaan stok: permintaan dua melebihi satu. Tolak, tampilkan stok satu, tanpa reservasi baru dan tanpa permintaan pembayaran baru. Stok tersedia tetap satu pada model ini.':'UC01-M: stok tiga mencukupi, reservasi dua unit, sisa tersedia satu, status menunggu pembayaran. Hasil ini bukan status lunas.';
+  viz+=s.s4Reviewed===signature?feedback(`<b>${correct?'Kedua prediksi tepat.':'Revisi prediksi dengan kontrak.'}</b><p>${actorReason}</p><p>${stockReason}</p><p>Jejak FR01: AC-A menguji penolakan tanpa efek baru, AC-M menguji reservasi dan sisa stok. Tampilan sukses atau reservasi belum membuktikan pembayaran berhasil; perlu bukti verifikasi terpisah. Tidak ada transaksi nyata di sini.</p>`,correct?'':'warn'):'<p data-iasd-s4-prediction>Prediksi belum diperiksa untuk kontrak ini. Tentukan peran dan postcondition, lalu Periksa kontrak UC01.</p>';
+}
 if(type==='bpmn'&&view===3&&supplements[3]){
   const stock=pick(s,'stock','cukup',['cukup','kurang']),join=pick(s,'join','exclusive',['exclusive','parallel']),prediction=pick(s,'s3Outcome','akhir',['akhir','tunggu']);
   const signature=[stock,join,prediction].join(':'),expected=join==='parallel'?'tunggu':'akhir';
@@ -181,6 +194,7 @@ function simAction(action,value){const r=rec(),s=r.sim;r.used=true;r.complete=fa
 if(action==='s1review'&&view===1)s.s1Reviewed=[pick(s,'change','sering',['sering','stabil']),pick(s,'access','ada',['ada','sulit']),pick(s,'s1Decision','iterasi',['iterasi','bertahap','klarifikasi'])].join(':');
 if(action==='classify'){s.checked=true;s.s2Classified=[val(s,'quote',0,0,3),pick(s,'category','asumsi',['fakta','asumsi','kebutuhan','pertanyaan'])].join(':');}
 if(action==='s2review'&&view===2)s.s2Reviewed=s2Scenario(s).signature;
+if(action==='s4review'&&view===4)s.s4Reviewed=[pick(s,'actor','Pelanggan',['Pelanggan','Penyedia bayar','Database internal']),pick(s,'s4Stock','1',['1','3']),pick(s,'s4Role','eksternal',['eksternal','internal']),pick(s,'s4Outcome','reservasi',['tolak','reservasi','lunas'])].join(':');
 if(action==='s3review'&&view===3)s.s3Reviewed=[pick(s,'stock','cukup',['cukup','kurang']),pick(s,'join','exclusive',['exclusive','parallel']),pick(s,'s3Outcome','akhir',['akhir','tunggu'])].join(':');
 if(action==='token')s.step=s.join==='parallel'&&val(s,'step',0,0,5)>=4?4:(val(s,'step',0,0,5)+1)%6;
 if(action==='pay'){s.attempt=Math.min(3,(s.attempt||0)+1);s.queried=false;}

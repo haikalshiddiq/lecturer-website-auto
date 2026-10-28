@@ -161,3 +161,38 @@
 - Batasan gate: computed contrast hanya teks yang dipindai, bukan sertifikasi aksesibilitas seluruh aplikasi. Simulator bukan validator UML atau backend transaksi. Catatan lokal tidak dikirim otomatis. Materi beku, antrean, dependensi bersama, baseline dan dashboard tidak diedit.
 - Mahasiswa: https://hicall.web.id/iasd/studio#4
 - Dosen: https://hicall.web.id/iasd/studio?mode=teach#4
+
+## S05: Activity diagram (28 Oktober 2026, WIB)
+
+- Pemilihan: worktree awal bersih, ff-only ke origin/main `09607de` sebelum authoring. Membaca seluruh sesi 05, kasus Aruna, starter/test_cases.csv serta log S01–S04. S05 adalah sesi berikutnya tanpa suplemen; bukan inferensi progres mahasiswa. S06–16 belum mendapat pendalaman tambahan.
+- Satu pendalaman: membedakan token lolos dari izin bisnis alamat DAN label; jejak A/B parsial sebagai contoh lawan merge, C semua-selesai, D tanpa token; prediksi tiga hasil dengan alasan benar/salah; transfer sertifikat dengan decision/guard/bypass/merge sebelum join, serta rubrik diagnostik empat kriteria. Tidak menambah simulator opsional palsu: topologi opsional tetap tugas menggambar individu, snapshot hanya menguji dua pekerjaan wajib.
+- Render: disclosure Konsep, prediksi dalam simulator activity lama, transfer/catatan lokal pada Bukti, fasilitasi dalam disclosure dosen. Overview mengganti tautan pendalaman terbaru, tidak menumpuk katalog atau memperpanjang homepage umum. Memperbaiki feedback snapshot merge tanpa token yang sebelumnya keliru menyebut join.
+- Sumber primer: https://www.omg.org/spec/UML/2.5.1/PDF, HTTP 200, dibaca 28 Oktober 2026 WIB. Bagian 15.3.3.3 (halaman tercetak 388) memperingatkan guarded fork yang menghilangkan token ke join dan menyarankan decision/bypass; 15.3.3.4–15.3.3.5 (389) menyatakan AND default dan merge tanpa sinkronisasi; Gambar 15.39 (393) menunjukkan dua eksekusi setelah dua kedatangan. PDF dan ekstraksi disimpan di scratch, tidak dimasukkan ke baseline atau dependensi proyek. Join khusus/joinSpec bukan cakupan latihan.
+- Kompatibilitas: hanya field sim opsional s5Outcome/s5Reviewed; signature terikat penyatuan, kedua pekerjaan dan prediksi. KEY, versi, validator backup, syarat selesai, baseline/13 berkas tidak diubah. Impor cadangan lama tanpa field s5 mempertahankan catatan dan meminta pemeriksaan baru; backup baru memulihkan hasil.
+- Design Read sebelum generasi, antislop DURING: workspace akademi ringkas mahasiswa/dosen Indonesia, ENERGY 1 / RHYTHM 2 / MOTION 1. Warna aksi/font lokal lama untuk kontinuitas, disclosure untuk hierarki tanpa panjang awal, whitespace label dan target 44px untuk sentuhan, diagram activity lama untuk membandingkan penyatuan. Tidak ada aset/ikon/palette/efek/animasi baru.
+- RED: smoke terhadap produksi lama gagal timeout 7000ms pada `select[data-setting="s5Outcome"]`. GREEN lokal: `npm run build && npm run smoke:pwa` exit 0; 188 halaman, gate 174 halaman LMS dan baseline sumber/embedded lulus. Desktop/mobile masing-masing 16 sesi dan 48 jawaban kuis, simulator, instructor, persistensi, backup lama/baru/salah dan offline; seluruh 13 unduhan desktop identik lampiran. Homepage desktop 1038px dari budget 1400px, mobile 1789px dari budget 2200px. Log mesin scratch/iasd-s05-{red,build,smoke}.log, hasil output/playwright/iasd-{desktop,mobile}-results.json.
+- Click-through S05: join/merge dan dua checkbox → diagram berubah; prediksi tiga pilihan × delapan snapshot → feedback benar/salah dengan alasan; Enter pada Periksa izin kirim → hasil; ubah status → hasil lama tidak ditampilkan; reload → hasil pulih; Enter/Escape contoh → buka/tutup; Bukti → transfer sertifikat, ketik/reload → catatan pulih; dosen #5/disclosure → fasilitasi/rubrik; Tab/Shift+Tab select → fokus terlihat/44px; Space kedua checkbox → toggle dan target label 44px; dua tema → computed contrast teks terpindai AA; mobile → tanpa overflow; offline → prediksi/contoh tetap berfungsi. Tidak ada pageerror pada smoke.
+- Hard Gate perubahan PASS, R-02: validator suplemen tanpa em dash.
+- R-03 PASS: dua viewport tanpa overflow, kontrol target sentuh diuji.
+- R-17 PASS: angka hanya struktur jejak/rubrik berlabel latihan, tanpa statistik rekaan.
+- R-18 PASS: tanpa testimoni atau identitas baru.
+- R-23 PASS: memakai aset/diagram lama, tanpa logo/avatar baru.
+- R-24 PASS: tautan overview #5 dan mode=teach#5 dibuka oleh smoke.
+- R-25 PASS: computed contrast teks suplemen/kontrol/feedback terpindai AA di dua tema.
+- R-26 PASS: setiap kontrol baru diuji sesuai click-through.
+- R-27 PASS: boot/error bundel dan penyimpanan lama dipertahankan; belum diperiksa/salah/tersimpan/backup salah diuji.
+- R-28 PASS: tanpa FAQ tambahan.
+- R-32 PASS: Enter/Escape/Space/Tab/Shift+Tab serta fokus diuji.
+- R-33 PASS: perubahan langsung pada sumber, bukan script penulis ulang UI.
+- R-34 PASS: kedua tema diuji, warna/font lama dipertahankan.
+- R-35 PASS lokal: build dan smoke dua viewport exit 0, click-through tercatat; publikasi belum diklaim.
+- R-36 PASS: tanpa klaim keamanan/performa/pelanggan baru.
+- R-37 PASS: arah studio lama dan Design Read/dials dinyatakan sebelum generasi.
+- R-38 PASS: skenario dan aturan berlabel asumsi, sumber semantik primer dibaca.
+- Purpose Gate PASS, R-01/R-04/R-06/R-07/R-08/R-09/R-10/R-12/R-13/R-14/R-19/R-22: tidak menambah teknik dekoratif, ikon, gradien, glow, blur, shadow, pola, badge atau animasi; font untuk kontinuitas, diagram lama untuk penjelasan dan disclosure untuk hierarki, bukan dekorasi.
+- Liveliness PASS: dials 1/2/1 eksplisit dan mengikuti studio, fokus keputusan izin kirim, whitespace struktural, satu aksen tindakan lama, motif jejak bukti Aruna, variasi konsep/praktik/transfer/dosen, Design Read sebelum generasi.
+- Craft/Quality PASS, C-1..C-5 dan R-05/R-11/R-15/R-16/R-20/R-21/R-29/R-30/R-31: tugas nyata dari lampiran, CTA Periksa izin kirim spesifik, alasan layout/font/spacing/diagram tercatat, radius/palette lama, tanpa template pemasaran/buzzword/kloning; dua tema/state/keyboard/backup/offline diuji. Ini gate perubahan S05, bukan audit ulang teks lampiran immutable.
+- Batasan: snapshot tidak menghitung eksekusi, bukan validator UML lengkap atau backend pengiriman. Bypass opsional dijelaskan dan ditugaskan, bukan dieksekusi di diagram dua-checkbox. Pemindaian kontras bukan sertifikasi seluruh aplikasi. Rubrik bukan nilai resmi; RPS asli tidak diverifikasi; catatan tidak dikirim otomatis. Materi beku, antrean, dependensi bersama dan dashboard tidak diedit.
+- Status log: implementasi dan verifikasi lokal, belum klaim publikasi. Maintainer wajib mengulang seluruh gate, commit/deploy dan membaca exact revision/baseline produksi; hasil aktual dilaporkan pada keluaran run, bukan menandai published sebelum deploy.
+- Mahasiswa: https://hicall.web.id/iasd/studio#5
+- Dosen: https://hicall.web.id/iasd/studio?mode=teach#5

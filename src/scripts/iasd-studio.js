@@ -172,7 +172,7 @@ if(type==='elicitation'&&view===2&&supplements[2]){
 }
 if(type==='sequence'&&view===6&&supplements[6]){
   const x=s6Scenario(s),correct=x.decision===x.expected;
-  controls+=`<details data-iasd-recovery ${Object.keys(s).some(k=>k.startsWith('s6'))?'open':''}><summary>Latihan bukti setelah timeout</summary><p class="small">Walkthrough terpisah dari hitungan tagihan di diagram atas. Asumsi: O-AR1/K-AR1, payload tetap; hasil berasal dari penyedia berwenang dalam skenario kelas, bukan API nyata. Belum pasti berarti belum ada hasil akhir yang diterima. Kecocokan mengacu bukti atau korelasi query yang sedang ditinjau.</p>`
+  controls+=`<details data-iasd-recovery ${Object.keys(s).some(k=>k.startsWith('s6'))?'open':''}><summary>Latihan bukti setelah timeout</summary><p class="small">Walkthrough terpisah dari hitungan tagihan pada diagram dasar. Asumsi: O-AR1/K-AR1, payload tetap; hasil berasal dari penyedia berwenang dalam skenario kelas, bukan API nyata. Belum pasti berarti belum ada hasil akhir yang diterima. Kecocokan mengacu bukti atau korelasi query yang sedang ditinjau.</p>`
     +selectControl('s6Status','Bukti hasil yang diterima',[['unknown','Belum pasti / belum ada hasil akhir'],['paid','Berhasil terkonfirmasi'],['rejected','Ditolak terkonfirmasi']],x.status)
     +selectControl('s6Identity','Korelasi pesanan dan kunci',[['match','Cocok O-AR1/K-AR1 dan payload'],['mismatch','Tidak cocok dengan O-AR1/K-AR1']],x.identity)
     +selectControl('s6Decision','Prediksi tindakan Order service',[['query','Tetap belum pasti, periksa status sesuai kontrak'],['record','Catat sukses, tanpa tagihan baru'],['review','Tahan sukses, tinjau bukti sebelum upaya baru']],x.decision)

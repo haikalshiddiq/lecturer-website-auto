@@ -3,3 +3,4 @@
 .grid2>*,.concept-grid>*,.panel,.table-wrap{min-width:0}.panel{overflow-wrap:anywhere}.viz svg{overflow:visible}
 #control-s5Outcome,#sim-controls:has(#control-s5Outcome) #control-join,#sim-controls:has(#control-s5Outcome) .check{min-height:44px}
 #sim-controls:has([data-iasd-recovery]) select{min-height:44px}
+#sim-controls:has([data-iasd-object-contract]) select,#sim-controls:has([data-iasd-object-contract]) .check,#sim-controls:has([data-iasd-object-contract]) input[type=range]{min-height:44px}

@@ -264,3 +264,66 @@
 - R-30 PASS: tidak mengkloning produk lain.
 - R-31 PASS: alasan desain tertulis, CSS hanya minimum target select S06.
 - Batas gate: computed contrast teks terpindai bukan sertifikasi seluruh aplikasi; gate hanya perubahan S06, tidak menulis ulang lampiran immutable. Bukti commit/revision final setelah rilis ulang disampaikan pada keluaran run.
+
+## S07: Class diagram dan OOAD (30 Oktober 2026, WIB)
+
+- Pemilihan: worktree awal bersih, fetch dan ff-only ke origin/main `dc69ab5` sebelum authoring; pembaruan dashboard dari remote hanya diterima, tidak diedit. Membaca sesi 07 lengkap, kasus Aruna dan log S01–S06. S07 berikutnya tanpa pendalaman; bukan inferensi progres mahasiswa.
+- Satu pendalaman: kontrak saveDraft()/submit() dengan nol/satu/beberapa baris, perbedaan struktur 0..* dan constraint Submitted, multiplicity dua arah, jumlah objek versus qty unit, owner invariant Order dan jejak pesan ke operasi. Worked example O-AR7 mempunyai input, jejak A/B/C, hasil, miskonsepsi dan batas bukti. Transfer peminjaman alat serta rubrik empat kriteria untuk dosen.
+- Render: disclosure Konsep, latihan dalam simulator class lama, transfer/catatan lokal pada Bukti dan disclosure dosen. Overview mengganti tautan pendalaman terbaru, tidak menumpuk homepage atau navigasi. Diagram asli tetap; latihan tidak berpura-pura melakukan mutasi Order atau validasi backend.
+- Kompatibilitas: hanya field sim s7Event/s7Decision/s7Owner/s7Reviewed opsional. KEY, versi, validator cadangan, syarat selesai, baseline lampiran dan 13 berkas tidak diubah. Feedback terikat jumlah, kebijakan draft, operasi dan kedua prediksi. Backup lama tanpa s7 mempertahankan catatan, mulai belum diperiksa; backup baru mengembalikan feedback.
+- Dasar: konsep/transfer sesi 07 dan kasus yang sudah dibundel, tanpa klaim faktual eksternal baru. Kontrak operasi dan lifecycle berlabel asumsi kelas. Composition tidak disimpulkan dari foreign key; pertanyaan audit/lifecycle tetap terbuka. RPS asli tidak tersedia; rubrik bukan nilai resmi.
+- Design Read sebelum generasi, antislop DURING: workspace pembelajaran akademi ringkas untuk mahasiswa/dosen Indonesia, ENERGY 1 / RHYTHM 2 / MOTION 1. Warna tindakan/font sistem lama untuk kontinuitas; disclosure untuk hierarki tanpa panjang awal; whitespace label dan kontrol 44px untuk sentuhan; diagram class untuk tanggung jawab/relasi, bukan dekorasi. Tidak ada logo/avatar/aset/ikon/palette/kartu/efek/animasi baru.
+- RED: browser produksi sebelum implementasi gagal timeout 3000ms pada `[data-iasd-object-contract] summary`, scratch/iasd-s07-red.log. Smoke lokal pertama kemudian menemukan disclosure tertutup saat checkbox draft berubah sebelum field s7 pernah dipilih. Root cause: render ulang menentukan open hanya dari field tersimpan. Perbaikan langsung pada render mempertahankan disclosure yang sudah terbuka; tes yang sama lalu lulus.
+- GREEN lokal: `npm run build && npm run smoke:pwa` exit 0; 188 halaman dibangun, gate 174 halaman LMS, hash baseline sumber/embedded serta suplemen lulus. Desktop/mobile masing-masing seluruh 16 sesi/48 jawaban, simulator, instructor, catatan, backup lama/baru/salah dan offline; 13 unduhan desktop identik isi lampiran. Homepage desktop 1038px (budget 1400px), mobile 1789px (budget 2200px). Log scratch/iasd-s07-{build,smoke}.log. Sesudah GREEN ini, tes invalidasi jumlah/kebijakan ditambah; maintainer wajib mengulangnya sebelum rilis.
+- Click-through S07 yang sudah lulus: overview #7 → studio Class; disclosure Enter → tiga select; checkbox draft/slider → kondisi/diagram berubah dan disclosure tetap terbuka; kombinasi kebijakan × jumlah 0/1/4 × operasi × prediksi izin × owner → alasan benar/salah; tombol Periksa dengan Enter → hasil; ubah operasi → feedback lama tidak tampil; reload → pilihan/hasil pulih; contoh Enter/Escape → buka/tutup; Bukti/ketik/reload → transfer lokal pulih; dosen #7/disclosure → fasilitasi/rubrik; Tab/Shift+Tab select → fokus terlihat/44px; Space checkbox dan panah slider → berubah; tema terang/gelap → computed contrast terpindai AA, tanpa overflow; offline reload → latihan/contoh tetap berfungsi. Tidak ada pageerror pada smoke.
+- Status log: implementasi dan bukti lokal, belum klaim publikasi. Maintainer wajib mengulang seluruh gate, commit/deploy serta exact revision dan baseline live. Bukti live final disampaikan pada keluaran run; jangan menandai terbit bila deploy gagal.
+
+### Gate perubahan S07 (bukan audit ulang teks lampiran immutable)
+
+- R-02 PASS: validator suplemen tanpa em dash.
+- R-03 PASS: smoke desktop/mobile tanpa overflow, kontrol minimum 44px.
+- R-17 PASS: angka hanya struktur/asumsi latihan, tanpa statistik rekaan.
+- R-18 PASS: tidak menambah testimoni.
+- R-23 PASS: memakai diagram lama, tanpa aset/identitas baru.
+- R-24 PASS: overview #7 dan permalink dosen #7 benar-benar dibuka.
+- R-25 PASS: computed contrast teks tambahan terpindai AA di kedua tema.
+- R-26 PASS: select, slider, checkbox, tombol dan disclosure sesuai click-through.
+- R-27 PASS: boot/error bundel/penyimpanan lama tetap; belum diperiksa/salah/tersimpan dan invalid-backup diuji.
+- R-28 PASS: tanpa FAQ tambahan.
+- R-32 PASS: Enter/Escape/Space/Tab/Shift+Tab/panah slider dan fokus diuji.
+- R-33 PASS: perubahan langsung pada sumber, bukan script penulis ulang UI.
+- R-34 PASS: kedua tema diuji, font/layout lama tetap.
+- R-35 PASS lokal: build dan smoke dua viewport exit 0, click-through tercatat; belum klaim live.
+- R-36 PASS: tanpa klaim keamanan/performa/pelanggan baru.
+- R-37 PASS: arah studio dan Design Read/dials sebelum generasi.
+- R-38 PASS: skenario/kontrak berlabel asumsi, bukan transaksi nyata.
+- R-01 PASS: tidak menambah gradien/glow, aksen tindakan lama.
+- R-04 PASS: tanpa ikon baru.
+- R-06 PASS: font sistem lama untuk kontinuitas membaca.
+- R-07 PASS: tanpa pola latar baru.
+- R-08 PASS: panah hanya jejak pesan, bukan dekorasi CTA.
+- R-09 PASS: tanpa badge baru.
+- R-10 PASS: tanpa blur baru.
+- R-12 PASS: tanpa shadow baru.
+- R-13 PASS: tanpa glow baru.
+- R-14 PASS: tanpa feature-card; disclosure sesuai hierarki tugas.
+- R-19 PASS: MOTION 1 memakai interaksi/fokus lama, tanpa animasi baru.
+- R-22 PASS: diagram class lama untuk atribut/operasi/relasi, tanpa ilustrasi generik.
+- Liveliness PASS: dials 1/2/1 konsisten, fokus kontrak objek, aksen tindakan lama, motif jejak Aruna, whitespace label, variasi Konsep/latihan/Bukti/Dosen, Design Read sebelum generasi.
+- C-1 PASS: alasan warna/font/layout/jarak/diagram tertulis di Design Read.
+- C-2 PASS: semua kontrol tambahan mempunyai hasil teruji.
+- C-3 PASS: tugas khusus sesi 07, tanpa section pemasaran/template.
+- C-4 PASS: belum diperiksa/salah/tersimpan, dua tema/viewport, keyboard, backup dan offline diuji.
+- C-5 PASS: asumsi eksplisit, tanpa klaim observasi/penilaian resmi.
+- R-05 PASS: komposisi mengikuti tugas/tab/disclosure yang sudah ada.
+- R-11 PASS: radius kontrol lama dipertahankan.
+- R-15 PASS: CTA spesifik Periksa kontrak objek.
+- R-16 PASS: tanpa buzzword pemasaran baru.
+- R-20 PASS: identitas jejak kontrak O-AR7 dan kasus Aruna, bukan halaman generik.
+- R-21 PASS: toggle kedua tema aktif dan diuji.
+- R-29 PASS: palette lama tanpa warna tambahan.
+- R-30 PASS: tidak mengkloning produk lain.
+- R-31 PASS: alasan desain tertulis; CSS hanya target sentuh S07.
+- Batasan: simulator mengecek izin dari jumlah baris, bukan mutasi status, database, stok, pembayaran atau seluruh UML. Kontras terpindai bukan sertifikasi aksesibilitas seluruh aplikasi. RPS asli belum diverifikasi; catatan lokal tidak dikirim otomatis. Materi beku, antrean, dependensi bersama dan dashboard tidak diedit oleh run ini.
+- Mahasiswa: https://hicall.web.id/iasd/studio#7
+- Dosen: https://hicall.web.id/iasd/studio?mode=teach#7

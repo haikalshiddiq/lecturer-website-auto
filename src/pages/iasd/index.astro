@@ -47,7 +47,7 @@ const courseSchema = {
         <select id="iasd-session" name="session">{course.lessons.map(lesson => <option value={lesson.n}>{String(lesson.n).padStart(2, '0')} · {lesson.title}</option>)}</select>
         <button type="submit">Buka sesi</button>
       </form>
-      <p data-iasd-supplement-entry>Pendalaman: <a href="/iasd/studio#1">01 Siklus kerja</a> · <a href="/iasd/studio#2">02 Dari kutipan ke kebutuhan teruji</a> · <a href="/iasd/studio#6">06 Bukti dan pemulihan pembayaran</a></p>
+      <p data-iasd-supplement-entry>Pendalaman: <a href="/iasd/studio#1">01 Siklus kerja</a> · <a href="/iasd/studio#2">02 Dari kutipan ke kebutuhan teruji</a> · <a href="/iasd/studio#7">07 Draft, submit dan tanggung jawab objek</a></p>
       <details data-iasd-curriculum>
         <summary>Lihat capaian seluruh 16 pertemuan</summary>
         <ol class="curriculum-list">{course.lessons.map(lesson => <li>

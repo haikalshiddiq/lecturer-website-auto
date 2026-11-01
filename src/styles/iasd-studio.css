@@ -5,3 +5,4 @@
 #sim-controls:has([data-iasd-recovery]) select{min-height:44px}
 #sim-controls:has([data-iasd-object-contract]) select,#sim-controls:has([data-iasd-object-contract]) .check,#sim-controls:has([data-iasd-object-contract]) input[type=range]{min-height:44px}
 #sim-controls:has([data-iasd-slot-contract]) select,#sim-controls:has([data-iasd-slot-contract]) input[type=range]{min-height:44px}
+#sim-controls:has([data-iasd-data-contract]) select,#sim-controls:has([data-iasd-data-contract]) .check{min-height:44px}

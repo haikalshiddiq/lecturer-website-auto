@@ -392,7 +392,54 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
           }), [], 'S08 scanned text AA');
         }
         break;
-      case 9: await check('missing'); await feedback('Tidak seimbang'); break;
+      case 9:
+        await check('missing'); await feedback('Tidak seimbang');
+        await page.locator('[data-iasd-data-contract] summary').press('Enter');
+        for (const missing of [false, true]) for (const bypass of [false, true]) for (const payload of ['complete', 'idOnly']) {
+          await check('missing', missing); await check('bypass', bypass); await select('s9Payload', payload);
+          for (const boundary of ['yes', 'no']) for (const routing of ['yes', 'no']) {
+            await select('s9Boundary', boundary); await select('s9Routing', routing); await page.locator('[data-simact="s9review"]').press('Enter');
+            const correct = boundary === (!missing && payload === 'complete' ? 'yes' : 'no') && routing === (bypass ? 'no' : 'yes');
+            await feedback(correct ? 'Dua audit tepat.' : 'Pisahkan dua audit.');
+            await feedback(missing ? 'Konfirmasi tidak keluar' : payload === 'idOnly' ? 'status_hasil hilang' : 'Kontrak eksternal terwakili');
+            await feedback(bypass ? 'Pelanggan langsung ke D1' : 'Akses D1 melalui proses');
+          }
+        }
+        await check('missing', false); await check('bypass', false); await select('s9Payload', 'idOnly'); await select('s9Boundary', 'no'); await select('s9Routing', 'yes'); await action('s9review');
+        await select('s9Payload', 'complete'); assert.ok(await page.locator('[data-iasd-s9-prediction]').isVisible());
+        await select('s9Payload', 'idOnly'); await action('s9review');
+        await check('missing', true); assert.ok(await page.locator('[data-iasd-s9-prediction]').isVisible()); await check('missing', false); await action('s9review');
+        await check('bypass', true); assert.ok(await page.locator('[data-iasd-s9-prediction]').isVisible()); await check('bypass', false); await action('s9review');
+        await page.reload({ waitUntil: 'networkidle' }); await feedback('Dua audit tepat.');
+        await page.locator('[data-iasd-supplement="9"] summary').press('Enter');
+        assert.ok((await page.locator('[data-iasd-supplement="9"]').innerText()).includes('status_hasil'));
+        await page.keyboard.press('Escape'); assert.equal(await page.locator('[data-iasd-supplement="9"]').getAttribute('open'), null);
+        await page.locator('[data-iasd-supplement="9"] summary').press('Enter');
+        await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="9"]').innerText()).includes('peminjaman alat'));
+        await page.locator('[data-note="2"]').fill('Transfer peminjaman alat: kontrak, dua audit, perubahan retur dan batas bukti.');
+        await page.reload({ waitUntil: 'networkidle' }); await tab('reflect'); assert.ok((await page.locator('[data-note="2"]').inputValue()).includes('Transfer peminjaman alat'));
+        await tab('teach'); await page.locator('[data-iasd-facilitation="9"] summary').press('Enter'); assert.ok((await page.locator('[data-iasd-facilitation="9"]').innerText()).includes('Rubrik diagnostik'));
+        await tab('concept'); await page.locator('[data-iasd-supplement="9"] summary').press('Enter');
+        for (const dark of [false, true]) {
+          if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
+          await page.locator('[data-iasd-data-contract]').evaluate(el => { el.open = true; });
+          for (const field of ['s9Payload', 's9Boundary', 's9Routing', 'missing', 'bypass']) {
+            const control = page.locator(`[data-setting="${field}"]`); await control.focus(); await page.keyboard.press('Tab'); await page.keyboard.press('Shift+Tab');
+            assert.ok(await control.evaluate(el => document.activeElement === el && getComputedStyle(el).outlineStyle !== 'none' && (el.type === 'checkbox' ? el.closest('label') : el).getBoundingClientRect().height >= 44), `S09 focus/tap target: ${field}`);
+          }
+          await checkOverflow(`S09 expanded ${dark ? 'dark' : 'light'}`);
+          assert.deepEqual(await page.evaluate(() => {
+            const rgb = c => (c.match(/[\d.]+/g) || []).map(Number);
+            const lum = c => rgb(c).slice(0,3).map(v => { v /= 255; return v <= .04045 ? v / 12.92 : ((v+.055)/1.055)**2.4; }).reduce((s,v,i) => s+v*[.2126,.7152,.0722][i],0);
+            return [...document.querySelectorAll('[data-iasd-supplement="9"] *, [data-iasd-data-contract] *, [data-iasd-s9-feedback] *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
+              const style=getComputedStyle(el); let ancestor=el, bg='rgb(255,255,255)';
+              while(ancestor) { const color=getComputedStyle(ancestor).backgroundColor; if(rgb(color)[3]!==0){bg=color;break;} ancestor=ancestor.parentElement; }
+              const a=lum(style.color),b=lum(bg),ratio=(Math.max(a,b)+.05)/(Math.min(a,b)+.05),size=parseFloat(style.fontSize),large=size>=24 || (size>=18.66 && Number(style.fontWeight)>=700);
+              return ratio < (large?3:4.5) ? [{text:el.textContent.slice(0,40),ratio}] : [];
+            });
+          }), [], 'S09 scanned text must meet AA in both themes');
+        }
+        break;
       case 10: await check('snapshot', false); await feedback('Nilai lama ikut harga baru'); break;
       case 11: await action('event', 'submit'); await action('event', 'timeout'); await action('event', 'pay'); await feedback('ditolak dari Cancelled'); break;
       case 12: await select('owner', 'UI'); await feedback('tidak boleh'); break;
@@ -415,9 +462,9 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     assert.ok(await page.locator('[data-iasd-overview]').isVisible());
     assert.equal(await page.locator('#iasd-session option').count(), 16);
     await checkOverflow('overview');
-    await page.locator('[data-iasd-supplement-entry] a[href="/iasd/studio#8"]').click();
-    await page.waitForFunction(() => document.querySelector('#main h1')?.textContent === 'UTS kasus individu');
-    assert.ok(await page.locator('[data-iasd-slot-contract]').isVisible());
+    await page.locator('[data-iasd-supplement-entry] a[href="/iasd/studio#9"]').click();
+    await page.waitForFunction(() => document.querySelector('#main h1')?.textContent === 'DFD');
+    assert.ok(await page.locator('[data-iasd-data-contract]').isVisible());
     await page.goto(`${baseUrl}/iasd/studio#1`, { waitUntil: 'networkidle' });
     await page.locator('#sim-controls select').first().waitFor();
     assert.equal(await page.locator('#session-select option').count(), 16);
@@ -433,7 +480,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
       await page.locator('[data-act="grade"]').click();
       assert.ok((await page.locator('#grade-result').innerText()).includes('3 dari 3'));
       assert.equal(await page.locator('.question-feedback.correct').count(), 3);
-      assert.equal(await page.locator('[data-iasd-transfer]').count(), [1, 2, 3, 4, 5, 6, 7, 8].includes(lesson.n) ? 1 : 0, 'Supplement leaked to another session or vanished on grading');
+      assert.equal(await page.locator('[data-iasd-transfer]').count(), [1, 2, 3, 4, 5, 6, 7, 8, 9].includes(lesson.n) ? 1 : 0, 'Supplement leaked to another session or vanished on grading');
       await tab('teach'); assert.ok((await page.locator('#pane-teach').innerText()).includes(lesson.hook));
       await tab('sources'); assert.equal(await page.locator('#pane-sources > ol.source-list > li').count(), lesson.refs.length);
       await checkOverflow(`session ${lesson.n} sources`);
@@ -457,7 +504,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     await page.setInputFiles('#import-file', { name: 'wrong-course.json', mimeType: 'application/json', buffer: Buffer.from('{"course":"OTHER","version":"bad","lessons":{}}') });
     assert.ok((await page.locator('#toast').innerText()).includes('Tidak dipulihkan'));
     const legacy = JSON.parse(backup.text);
-    for (const record of Object.values(legacy.lessons)) for (const field of Object.keys(record.sim)) if (/^s[12345678]/.test(field)) delete record.sim[field];
+    for (const record of Object.values(legacy.lessons)) for (const field of Object.keys(record.sim)) if (/^s[123456789]/.test(field)) delete record.sim[field];
     page.once('dialog', dialog => dialog.accept());
     await page.setInputFiles('#import-file', { name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(legacy)) });
     await page.waitForFunction(() => document.querySelector('#toast')?.textContent.includes('Cadangan dipulihkan'));
@@ -469,6 +516,8 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     await session(6); assert.ok(await page.locator('[data-iasd-s6-prediction]').isVisible(), 'Legacy S06 must be unreviewed');
     await session(7); assert.ok(await page.locator('[data-iasd-s7-prediction]').isVisible(), 'Legacy S07 must be unreviewed');
     await session(8); assert.ok(await page.locator('[data-iasd-s8-prediction]').isVisible(), 'Legacy S08 must be unreviewed');
+    await session(9); assert.ok(await page.locator('[data-iasd-s9-prediction]').isVisible(), 'Legacy S09 must be unreviewed');
+    assert.ok((await page.evaluate(storageKey => JSON.parse(localStorage.getItem(storageKey)), key)).lessons[9].notes[2].includes('Transfer peminjaman alat'));
     assert.ok((await page.evaluate(storageKey => JSON.parse(localStorage.getItem(storageKey)), key)).lessons[8].notes[2].includes('Transfer ruang konsultasi'));
     assert.ok((await page.evaluate(storageKey => JSON.parse(localStorage.getItem(storageKey)), key)).lessons[7].notes[2].includes('Transfer peminjaman alat'));
     assert.ok((await page.evaluate(storageKey => JSON.parse(localStorage.getItem(storageKey)), key)).lessons[6].notes[2].includes('Transfer tiket'));
@@ -481,6 +530,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     await session(6); await feedback('Keputusan sesuai bukti.');
     await session(7); await feedback('Kontrak dan owner tepat.');
     await session(8); await feedback('Jejak dan keputusan cocok.');
+    await session(9); await feedback('Dua audit tepat.');
     await session(5); await feedback('Prediksi dan alasan cocok.');
     await session(4); await feedback('Kedua prediksi tepat.');
     assert.ok((await page.evaluate(storageKey => JSON.parse(localStorage.getItem(storageKey)), key)).lessons[4].notes[2].includes('Transfer kamera'));
@@ -501,10 +551,10 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     const theme = await page.locator('html').getAttribute('data-theme');
     await page.reload({ waitUntil: 'networkidle' }); assert.equal(await page.locator('html').getAttribute('data-theme'), theme);
     await page.screenshot({ path: `output/playwright/iasd-${profile.name}.png`, fullPage: true });
-    await page.goto(`${baseUrl}/iasd/studio?mode=teach#8`, { waitUntil: 'networkidle' });
+    await page.goto(`${baseUrl}/iasd/studio?mode=teach#9`, { waitUntil: 'networkidle' });
     assert.ok(await page.locator('#pane-teach').isVisible());
-    await page.locator('[data-iasd-facilitation="8"] summary').press('Enter');
-    assert.ok((await page.locator('[data-iasd-facilitation="8"]').innerText()).includes('Prediksi:'));
+    await page.locator('[data-iasd-facilitation="9"] summary').press('Enter');
+    assert.ok((await page.locator('[data-iasd-facilitation="9"]').innerText()).includes('Prediksi:'));
     assert.ok(await page.locator('#pane-teach').isVisible());
     await page.locator('#tab-teach').press('ArrowLeft'); assert.ok(await page.locator('#pane-reflect').isVisible());
     await page.evaluate(() => navigator.serviceWorker.ready);
@@ -543,6 +593,11 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     await page.locator('[data-iasd-supplement="8"] summary').press('Enter');
     assert.ok((await page.locator('[data-iasd-supplement="8"]').innerText()).includes('FR-SLOT'));
     await page.screenshot({ path: `output/playwright/iasd-s08-${profile.name}.png`, fullPage: true });
+    await session(9); await page.locator('[data-iasd-data-contract]').evaluate(el => { el.open = true; });
+    await check('missing', false); await check('bypass', true); await select('s9Payload', 'complete'); await select('s9Boundary', 'yes'); await select('s9Routing', 'no'); await action('s9review'); await feedback('Dua audit tepat.');
+    await page.locator('[data-iasd-supplement="9"] summary').press('Enter');
+    assert.ok((await page.locator('[data-iasd-supplement="9"]').innerText()).includes('status_hasil'));
+    await page.screenshot({ path: `output/playwright/iasd-s09-${profile.name}.png`, fullPage: true });
     assert.equal(errors.length, 0, `IASD browser errors: ${errors.join(' | ')}`);
     await fs.writeFile(`output/playwright/iasd-${profile.name}-results.json`, JSON.stringify(results, null, 2));
     return `${profile.name}: IASD 16 sessions, 48 quiz answers, simulators, lecturer tabs, persistence, backup, downloads and offline PASS`;

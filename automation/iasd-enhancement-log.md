@@ -391,3 +391,67 @@
 - Batas gate: computed contrast hanya teks terpindai, bukan sertifikasi aksesibilitas seluruh aplikasi. Baseline immutable, materi beku, antrean, dependensi bersama dan dashboard tidak diedit oleh run ini.
 - Mahasiswa: https://hicall.web.id/iasd/studio#8
 - Dosen: https://hicall.web.id/iasd/studio?mode=teach#8
+
+## S09: DFD (1 November 2026, WIB)
+
+- Pemilihan: worktree awal bersih, fetch dan ff-only ke origin/main `5d08a61` sebelum authoring. Pembaruan dashboard remote diterima tanpa edit. Sesi 09 dibaca lengkap, bersama kasus Aruna, template data_dictionary.csv, sumber yang sudah dicantumkan dan log S01–S08. S09 berikutnya tanpa pendalaman, bukan inferensi progres mahasiswa.
+- Satu pendalaman: kontrak Pesanan/Konfirmasi dengan request_id dan status_hasil; empat jejak lengkap/hilang/ID-saja/bypass; dua audit independen untuk balancing kontrak dan legalitas akses store. Transfer peminjaman alat membandingkan perubahan pengembalian eksternal dengan store audit internal. Rubrik diagnostik dan fasilitasi prediksi → demonstrasi → penjelasan → transfer memeriksa alasan serta field lintas tingkat, bukan jumlah panah.
+- Render: disclosure Konsep, latihan dalam simulator DFD lama, tabel kamus arus dinamis, transfer pada Bukti dan disclosure dosen. Overview mengganti tautan terbaru, tanpa menumpuk katalog. Diagram lama menampilkan label, tabel menunjukkan isi. Pesan dasar diperjelas agar nama arus tidak diklaim sudah membuktikan balancing. Homepage umum/tab/navigasi tetap.
+- Asumsi/batas: kontrak field, identitas, bentuk input dan retur adalah asumsi kelas. Semantik diturunkan dari konsep lampiran, tanpa klaim faktual eksternal baru. Template CSV asli berorientasi entity/attribute tetap utuh; mahasiswa membuat tabel arus pendamping. RPS asli belum tersedia, bobot usulan serta latihan ujian publik tetap. Bukan validator DFD lengkap, eksekusi reservasi/refund atau pengujian integrasi.
+- Kompatibilitas: s9Payload/s9Boundary/s9Routing/s9Reviewed opsional pada sim; feedback terikat keberadaan/isi output, bypass dan kedua prediksi. KEY, versi, validator cadangan, syarat selesai, baseline dan 13 berkas tidak diubah. Cadangan lama mempertahankan catatan dan memulai prediksi belum diperiksa; cadangan baru memulihkan hasil.
+- Design Read sebelum generasi, antislop DURING sesuai preferensi: workspace akademi ringkas mahasiswa/dosen Indonesia, ENERGY 1 / RHYTHM 2 / MOTION 1. Warna tindakan/font lama untuk kontinuitas; disclosure menjaga hierarki serta panjang awal; whitespace label/target 44px untuk sentuhan; diagram lama dan tabel arus untuk menjelaskan isi yang tidak terlihat dari label. Tidak menambah logo/avatar/ikon/ilustrasi/palette/efek/animasi.
+- RED: browser produksi sebelum implementasi gagal timeout 3000ms pada `[data-iasd-data-contract] summary`; scratch/iasd-s09-red.log. Tes baru ditulis sebelum implementasi.
+- GREEN lokal: `npm run build && npm run smoke:pwa` exit 0. Gate seluruh 174 halaman pembelajaran, hash sumber/embedded baseline dan suplemen lulus. Desktop/mobile menguji 16 sesi/48 jawaban, simulator, dosen #9, catatan, cadangan lama/baru/salah, offline; seluruh 13 unduhan desktop identik lampiran. Homepage 1038px desktop (budget 1400), 1789px mobile (budget 2200). Log scratch/iasd-s09-build.log dan iasd-s09-smoke.log. Koreksi satu kata Contract menjadi Kontrak sesudah GREEN wajib diuji ulang oleh maintainer.
+- Cakupan S09: delapan snapshot (output ada/hilang × bypass × dua isi) dengan empat pasangan prediksi per snapshot, alasan benar/salah, invalidasi tiap kondisi, reload/persistensi, transfer lokal, isolasi setelah grading, impor lama/baru, instructor permalink, offline, dua tema, computed contrast teks terpindai, fokus/44px/overflow.
+- Click-through lokal: overview #9 → DFD; disclosure latihan Enter → tiga select; dua checkbox → diagram/snapshot berubah; isi/prediksi → tersimpan; Periksa dua audit Enter → alasan kontrak dan routing; ubah kondisi → feedback menunggu; reload → hasil pulih; contoh Enter/Escape → buka/tutup; Bukti/ketik/reload → transfer tersimpan; dosen #9/disclosure → fasilitasi/rubrik; Tab/Shift+Tab lima kontrol → fokus terlihat/target 44px; toggle tema → dua tema; offline reload → bypass dengan kontrak lengkap tetap memberi dua kesimpulan berbeda. Tidak ada pageerror pada smoke.
+- Status log: implementasi dan verifikasi lokal, bukan klaim publikasi. Maintainer wajib mengulang semua gate, commit/deploy dan exact revision/baseline produksi; hasil final dilaporkan pada keluaran run. Jangan menandai published jika deploy gagal.
+
+### Gate perubahan S09, bukti GREEN lokal di atas (bukan audit ulang lampiran immutable)
+
+- R-02 PASS: validator suplemen menolak em dash.
+- R-03 PASS: dua viewport/tema tanpa overflow; target lima kontrol minimal 44px.
+- R-17 PASS: angka/ID hanya struktur latihan berlabel asumsi, tanpa statistik rekaan.
+- R-18 PASS: tanpa testimoni baru.
+- R-23 PASS: memakai diagram lama, tanpa aset/identitas baru.
+- R-24 PASS: overview #9 dan instructor #9 dibuka smoke.
+- R-25 PASS: computed contrast teks tambahan yang dipindai AA di dua tema; bukan sertifikasi seluruh aplikasi.
+- R-26 PASS: tiga select/dua checkbox/Periksa/disclosure bekerja sesuai click-through.
+- R-27 PASS: bundel sinkron memakai boot/error penyimpanan lama; belum diperiksa/salah/tersimpan/invalid-backup diuji.
+- R-28 PASS: tidak menambah FAQ.
+- R-32 PASS: Enter/Escape/Tab/Shift+Tab dan fokus terlihat diuji.
+- R-33 PASS: perubahan langsung sumber, tanpa script penulis ulang UI.
+- R-34 PASS: kedua tema diuji, font/layout lama dipertahankan.
+- R-35 PASS lokal: build/smoke dua viewport exit 0, click-through tercatat; belum klaim produksi.
+- R-36 PASS: tanpa klaim keamanan/performa/pelanggan baru.
+- R-37 PASS: arah studio serta Design Read/dials dinyatakan sebelum generasi.
+- R-38 PASS: skenario/kontrak diberi label asumsi, bukan data lapangan.
+- R-01 PASS: tanpa gradien/glow baru; warna tindakan lama.
+- R-04 PASS: tanpa ikon baru.
+- R-06 PASS: font lama menjaga kontinuitas pembacaan.
+- R-07 PASS: tanpa pola latar baru.
+- R-08 PASS: panah menyatakan arah data, bukan dekorasi CTA.
+- R-09 PASS: tanpa badge baru.
+- R-10 PASS: tanpa blur baru.
+- R-12 PASS: tanpa shadow baru.
+- R-13 PASS: tanpa glow baru.
+- R-14 PASS: tabel untuk perbandingan isi, tanpa feature-card.
+- R-19 PASS: MOTION 1 memakai interaksi/fokus lama, tanpa animasi baru.
+- R-22 PASS: diagram DFD lama langsung terkait latihan, bukan ilustrasi dekoratif.
+- Liveliness PASS: dials 1/2/1 konsisten, fokus kontrak arus, whitespace label struktural, aksen tindakan lama, motif jejak Aruna, variasi Konsep/latihan/Bukti/Dosen, Design Read sebelum generasi.
+- C-1 PASS: alasan warna/layout/font/jarak/diagram/tabel tertulis di atas.
+- C-2 PASS: seluruh kontrol tambahan memiliki hasil teruji.
+- C-3 PASS: satu tugas S09, tanpa section template pemasaran.
+- C-4 PASS: belum diperiksa/salah/tersimpan, dua tema/viewport, keyboard, backup serta offline diuji.
+- C-5 PASS: asumsi dan batas bukti eksplisit, tanpa klaim nilai resmi.
+- R-05 PASS: komposisi berbasis tugas/tab/disclosure lama.
+- R-11 PASS: radius kontrol lama dipertahankan.
+- R-15 PASS: CTA spesifik Periksa dua audit.
+- R-16 PASS: tanpa buzzword pemasaran.
+- R-20 PASS: motif Pesanan/Konfirmasi kasus Aruna, bukan template generik.
+- R-21 PASS: toggle kedua tema tetap aktif dan diuji.
+- R-29 PASS: palette lama tanpa warna tambahan.
+- R-30 PASS: tidak mengkloning produk lain.
+- R-31 PASS: alasan desain tertulis; CSS hanya minimum target kontrol S09.
+- Batas: snapshot hanya menguji output Konfirmasi dan satu bypass, bukan semua proses/store/aliran atau urutan waktu. Catatan lokal tidak terkirim otomatis. Baseline, materi beku, antrean, dependensi bersama dan dashboard tidak diedit oleh run ini.
+- Mahasiswa: https://hicall.web.id/iasd/studio#9
+- Dosen: https://hicall.web.id/iasd/studio?mode=teach#9

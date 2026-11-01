@@ -1,91 +1,152 @@
 {
-  "generatedAt": "2026-10-25T08:50:14+07:00",
+  "generatedAt": "2026-11-01T07:00:28+07:00",
   "period": {
-    "start": "2026-10-19",
-    "end": "2026-10-25",
-    "label": "19 Oct - 25 Oct 2026"
+    "start": "2026-10-26",
+    "end": "2026-11-01",
+    "label": "26 Oct - 01 Nov 2026"
   },
   "status": {
     "level": "monitor",
     "label": "Pantau",
-    "conditionIndex": 49,
+    "conditionIndex": 46,
     "confidence": "Low",
     "dataSufficiency": "Insufficient",
     "dataQualifier": "Data belum cukup",
     "missingCriticalTopics": [
+      "Economy & Jobs",
       "Public Safety"
     ],
     "summary": "Cakupan bidang kritis belum memadai untuk memberi kesimpulan kondisi nasional. Periksa sumber tambahan dan gunakan laporan ini hanya sebagai daftar hal yang perlu dipantau.",
     "drivers": [
       {
         "kind": "pressure",
-        "topic": "Climate & Disaster",
+        "topic": "Governance",
         "score": -0.08
       }
     ],
-    "caveat": "Data bidang kritis belum lengkap: Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
+    "caveat": "Data bidang kritis belum lengkap: Economy & Jobs, Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
   },
   "metrics": {
-    "articles": 26,
-    "sources": 13,
-    "categoriesCovered": 11,
+    "articles": 13,
+    "sources": 11,
+    "categoriesCovered": 5,
     "categoriesTracked": 13,
-    "positive": 3,
-    "neutral": 21,
+    "positive": 0,
+    "neutral": 11,
     "negative": 2,
-    "averageScore": 0.004,
-    "criticalNegativeSignals": 2
+    "averageScore": -0.027,
+    "criticalNegativeSignals": 1
   },
   "dailyTrend": [
     {
-      "date": "2026-10-19",
-      "score": 0.025,
-      "articles": 6
+      "date": "2026-10-26",
+      "score": -0.049,
+      "articles": 3
     },
     {
-      "date": "2026-10-20",
-      "score": -0.029,
-      "articles": 6
-    },
-    {
-      "date": "2026-10-21",
-      "score": 0.026,
-      "articles": 6
-    },
-    {
-      "date": "2026-10-22",
-      "score": 0.099,
+      "date": "2026-10-27",
+      "score": 0.0,
       "articles": 2
     },
     {
-      "date": "2026-10-23",
-      "score": -0.04,
-      "articles": 5
+      "date": "2026-10-28",
+      "score": -0.068,
+      "articles": 3
     },
     {
-      "date": "2026-10-24",
+      "date": "2026-10-29",
+      "score": null,
+      "articles": 0
+    },
+    {
+      "date": "2026-10-30",
+      "score": 0.0,
+      "articles": 4
+    },
+    {
+      "date": "2026-10-31",
       "score": 0.0,
       "articles": 1
     },
     {
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "score": null,
       "articles": 0
     }
   ],
   "topicScores": [
     {
-      "topic": "Climate & Disaster",
+      "topic": "Governance",
       "count": 2,
       "score": -0.08,
       "sentiment": "Neutral",
       "positive": 0,
       "neutral": 1,
       "negative": 1,
-      "highlightId": "2026-10-23-903908a82293"
+      "highlightId": "2026-10-28-07df4d37cb10"
+    },
+    {
+      "topic": "Markets",
+      "count": 5,
+      "score": -0.032,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 4,
+      "negative": 1,
+      "highlightId": "2026-10-26-ac5780bf42ed"
     },
     {
       "topic": "Public Safety",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Economy & Jobs",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Business & Investment",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Tech & AI",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Infrastructure",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Energy",
       "count": 0,
       "score": 0,
       "sentiment": "No coverage",
@@ -105,14 +166,14 @@
       "highlightId": null
     },
     {
-      "topic": "Economy & Jobs",
-      "count": 1,
-      "score": 0.0,
-      "sentiment": "Neutral",
+      "topic": "Telecom",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
       "positive": 0,
-      "neutral": 1,
+      "neutral": 0,
       "negative": 0,
-      "highlightId": "2026-10-20-b2f29bc382e9"
+      "highlightId": null
     },
     {
       "topic": "Health & Family",
@@ -122,227 +183,167 @@
       "positive": 0,
       "neutral": 1,
       "negative": 0,
-      "highlightId": "2026-10-20-03eaf369d159"
+      "highlightId": "2026-10-30-7f2d551d633f"
     },
     {
-      "topic": "Infrastructure",
+      "topic": "Climate & Disaster",
       "count": 1,
       "score": 0.0,
       "sentiment": "Neutral",
       "positive": 0,
       "neutral": 1,
       "negative": 0,
-      "highlightId": "2026-10-24-a1a12ec6e2"
-    },
-    {
-      "topic": "Energy",
-      "count": 1,
-      "score": 0.0,
-      "sentiment": "Neutral",
-      "positive": 0,
-      "neutral": 1,
-      "negative": 0,
-      "highlightId": "2026-10-19-8286fc9d98f1"
-    },
-    {
-      "topic": "Telecom",
-      "count": 1,
-      "score": 0.0,
-      "sentiment": "Neutral",
-      "positive": 0,
-      "neutral": 1,
-      "negative": 0,
-      "highlightId": "2026-10-20-9127c705d1fc"
+      "highlightId": "2026-10-26-5c6e528fb34e"
     },
     {
       "topic": "Automotive & EV",
-      "count": 2,
+      "count": 4,
       "score": 0.0,
       "sentiment": "Neutral",
       "positive": 0,
-      "neutral": 2,
-      "negative": 0,
-      "highlightId": "2026-10-22-3d61791536d9"
-    },
-    {
-      "topic": "Tech & AI",
-      "count": 3,
-      "score": 0.0,
-      "sentiment": "Neutral",
-      "positive": 0,
-      "neutral": 3,
-      "negative": 0,
-      "highlightId": "2026-10-23-f7a3b35c0a48"
-    },
-    {
-      "topic": "Governance",
-      "count": 5,
-      "score": 0.0,
-      "sentiment": "Neutral",
-      "positive": 1,
-      "neutral": 3,
-      "negative": 1,
-      "highlightId": "2026-10-22-0f93653b9875"
-    },
-    {
-      "topic": "Markets",
-      "count": 5,
-      "score": 0.032,
-      "sentiment": "Neutral",
-      "positive": 1,
       "neutral": 4,
       "negative": 0,
-      "highlightId": "2026-10-21-f7dd030e4a99"
-    },
-    {
-      "topic": "Business & Investment",
-      "count": 4,
-      "score": 0.04,
-      "sentiment": "Neutral",
-      "positive": 1,
-      "neutral": 3,
-      "negative": 0,
-      "highlightId": "2026-10-19-ff14066a9114"
+      "highlightId": "2026-10-31-75bbdb98ae62"
     }
   ],
   "highlights": [
     {
-      "id": "2026-10-23-903908a82293",
-      "date": "2026-10-23",
-      "topic": "Climate & Disaster",
-      "title": "Ragam Hoaks BMKG di Facebook, dari Prediksi Gempa hingga Peringatan Potensi Tsunami",
-      "source": "Liputan6.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObldDNHdKbzJOLUJJOV80cmFoM1VlYUdvOXV0VU5BclJHNmRvcHZyQlFlMDl3QzBEQmV0UURzeXZkZDdJQ3Y3Q2VaU0luRC1kRldNTEUzMW9uT05yeW1hQzRHdlVQZTQ0SVdJbFRka1RFM0RnWmVOeWo1RnhjalNvOEV6djFWSlVfMEkzM3lVSlZvU1JVYWZVUUlOd1hlaUhsdk1kXzhSWk9MZDcxNHZTZVJDckFEOUdLMmJXR1dGeHlGYjVZeXdscVdR0gG7AUFVX3lxTFBqQm5UZGE3MDEzRVlHbkl0eGxUVXh0bC1OQi1kbDZRX0dCTEhvdUt0WHJJblZHVWlpZ2I3MWMtaERLWE8yMzA5SW03RWh5SGo5OTBjOGlkd0RQV3BKMEZxdHUxYXFfVnVjV3FoT0RQd0ozdENaS2lkSmd0bWtvbkFPbGRHWFpneXhLZlFLbUxNWDFUa05xdFJjMnAyOTM2My10OVQ1enh6ZHNhUnBfMXJWbUUyQTdXR01ibDg?oc=5",
-      "sentiment": "Negative",
-      "score": -0.16,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-22-0f93653b9875",
-      "date": "2026-10-22",
+      "id": "2026-10-28-07df4d37cb10",
+      "date": "2026-10-28",
       "topic": "Governance",
-      "title": "Menteri HAM Klaim Indonesia Mengalami Surplus Demokrasi",
-      "source": "Tempo.co",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTNseEoyUklROC1XazBVdlRJcmwtR3g2Q0xrclEwOTFHSFJJZmR2WkV5MXdITW5nS1Fha19CWmRKUHFrOW5IQlhXeFVZOGdhODUwS1dWYmE5eXhpNnpoZ0xMazJXZkVTOVlPUVZVMG9pczkzR3EwUVI3SzBYLVpLRnNtRFdyaW1XVFRWai1vY01CV1hr?oc=5",
-      "sentiment": "Positive",
-      "score": 0.16,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-20-03eaf369d159",
-      "date": "2026-10-20",
-      "topic": "Health & Family",
-      "title": "IAKMI: Penanganan karhutla mampu dorong capaian program kesehatan RI",
-      "source": "ANTARA News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOEV0S0hjMnBDOHUxR0Nub1QwNUhDdFZ0VG04SkkyN2VjVUVkZU5kRjVVSGJIZWFzU3hUbXBMVU9IYVQ0MWs2THBCU2VOWll2dWJ6TkVyRVU3X2k0STl6RUh4bGl4OEIxZlo3d3hMM0ZpWFdKYUZUNFVMRjlaNXlJUnVVNmJOYWowQkdIWlZQTnNoc2ZXSGxNbTQ1S181SEZHRkx4OS13aF9jZlN4ekHSAbABQVVfeXFMTjNYUlFCYmVDbmlmNGNEVEFUMUUtN1R0UzM4V0w0MTQ3STRXZFVVUlYyRnl0dy1zM2pZMlVDQkJIeUVEdVIyNDVHMGdNZ01keTJsbmpSUkVxR21NeGxjbDlqUUV6WnBDVmR2RVd2TEp5cXc2OExCazFiUnF3dXM2cmpBOXpnY2RQTXo3WFRna1JmVVVMV3I4ang0RHpUemhyeTZPdzJNREhGQkJjbl9IYU4?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-19-ff14066a9114",
-      "date": "2026-10-19",
-      "topic": "Business & Investment",
-      "title": "Pasar Digital Indonesia Capai US$ 99 Miliar, Pemerintah Bidik Investasi Teknologi",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORFFycHI3ZEtTS3J2RTVYLUxqUmNsY1VzME5mOXlPcF9Xa1gzZ05aU0g4Rno0eGwtRzJVak9DRnpJSm5mdUZXbWJsY3p3Z2FXaUllUjZ5ZGI0bW5pbHFxMFlDRWZiQVl1aUs5X0E3SWZYLUxtVEh6S1hhNGM2Y1hiV292SFg4aDRzTndDMWhMZWNKOUEwNEhTcHNwX19tQW5EdU0xOHpOV0phNWV2RW1tbVdCbXjSAa4BQVVfeXFMTlJVbE9fN0k0cXlsQnhzQ0lBYmcwaWJxX0x3cG9CemRFTFc2OV95RnpoVU5yTWVFb2VSQ1hoTno3eVFiN1JKZXFLbnh0bXNvOUNJS01seXdpbXVBWmJWS0dRSWNoQzZ1Slcya3RVeHc2bWJSVl9sSHVhbDdQaGl6S1hvd1hvUTgxREtXd2F0VmNpeURoYkpkRl9fcnkzMUs3REdLQ0FLd09hbVplTG9B?oc=5",
-      "sentiment": "Positive",
-      "score": 0.16,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-21-f7dd030e4a99",
-      "date": "2026-10-21",
-      "topic": "Markets",
-      "title": "Misi Selamatkan IHSG Mulai Berhasil, Bola Panas Kini Ada di Tangan BI!",
-      "source": "CNBC Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOHFENjFpd1hoZDRGUnE1OG1oM2Riam1tVE1vTlg4LTNZbE1FS1VtcEd5QmJYRTBFRlZkT0lVblhBNS1ibURXWjBuajFYOHJaSFUyUlFUNzdBbFo2RkQ5a0dtQVdrY3FydFBLdmFLNEVnTEx5UWtRS0doSDlDbWxrdnlBRnIxd1BZamd2WENCaktjZHdVODlSSWMwNXhDV1k5R0dpR0hvdnY3eGIzeG9mbWFzZ2I2RWgyZF9LOHVoWlU4aElXWXFBOUZWNnVjZw?oc=5",
-      "sentiment": "Positive",
-      "score": 0.16,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-20-b2f29bc382e9",
-      "date": "2026-10-20",
-      "topic": "Economy & Jobs",
-      "title": "Ekonomi: Kelas menengah Indonesia 'downgrade' hidup",
+      "title": "Demo berlanjut di Jakarta – 'Ketika kekuasaan gagal jalankan tanggung jawab, mahasiswa tidak boleh diam'",
       "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MUUJ4VzFRcHRzbnlVQkZSLWt0SnI0WW9sSDJuT2R1TnRoa2liSkR3WWwxdl9wYXd0eXE5Q3NrNUphVmY4X3BhVUhuU3NoekllWnphaFZZa2ZidURRYmdrZ2R30gFnQVVfeXFMTlVTc1ZoWWpMUy1ZSFlvazhfaE1KY3NLU0Q1TFdmUk1CeURhTmtqaFR5d1BMenA3enQ4bmNfRWU3X0wySjFYRnlDdDJrT0dodE9DdEEzQXE2N2ZiNV80aUtBQTVxbnhCSQ?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-24-a1a12ec6e2",
-      "date": "2026-10-24",
-      "topic": "Infrastructure",
-      "title": "Jalan Tol di Balik Strategi Pertahanan Udara",
-      "source": "Kompas.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUzVHZ2Q2bFI0bEJmem5jMEFwYnhGQzJCeU1zMjhoT0JqejFwSnFYY2hoei03ekxPazhsTVVTLU9xSldJTnFUZ1U3U0h4R1pvYzV4Q1JtQXRzWnM0em9xd3d5MjJ3Vk0yQ1hya0dGdjF5aXU3UGNva3V6REhQWkk?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-19-8286fc9d98f1",
-      "date": "2026-10-19",
-      "topic": "Energy",
-      "title": "Dua Tahun Prabowo: Tidak Boleh Ada Wilayah Indonesia yang Gelap",
-      "source": "Kompas.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qc09XdnhKQTVmOURwemZ5cmVkR2F6MXVZS1hycEdDSFdVb2JQZnl2d3NUai0tOW41d0FzTUF2TGJsUGFzejlvTnZqTUM4dE9QcGMzeXdWOS04VEN1OTRteENlMmc0amNFRjVTbGhoRWo?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-23-f7a3b35c0a48",
-      "date": "2026-10-23",
-      "topic": "Tech & AI",
-      "title": "Komdigi Minta Meta Klarifikasi Jawaban Meta.ai soal Konten Karhutla Dibatasi",
-      "source": "Katadata.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUGd1UG5uWUFkR1c3aGNNYnJOeTgtVW51VEFPc0RCRXVuMjNKcW9zQThVTk1mTGxzVEJoOEhOOUdXTEtmREhsSTRDTXhyTHBVUzI0Zno1RGJFTmtuYUN6Tkt6c3hITDVDUkpUMi1sd0VNcnNxRUlnR3ZWQ0trN2ZKV3pPUTdDZFU3MzlrWkhFNkRnY3hhTjBlaVUybU9qV3hKQWcwYUxOMW5YajBPbzZkXzJXZ3A5N2hqQ0pXWXJyZ1ctRTJmVVk5REZn0gHPAUFVX3lxTE9mZUtDQnI3Y2hmY29FWTVBSUNKUkNZMDBYYU11SUIxSUdYRmtnbXJXYzZzVUZiRlRDbU1OOFl0ZUVvUUpMZ0VwdmJ2WWY2VkVwYTZ0T2tsSERMemNCUXlXNVVvZngycEJWcTY1aTdtY2RmU01zSVNwTXpDVUdQaHVyR0FMOTdZaFJXWGdPbFRGWXNCaTlBdXktbEpxMTdJUmJtS1EtbWdkZ2x1MV9tNXRjVF9TbERvSC1xMnVPV2tqNkhnc2ZRV0NQaThzbkNrZw?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-20-9127c705d1fc",
-      "date": "2026-10-20",
-      "topic": "Telecom",
-      "title": "Komdigi Kaji Deregulasi, Pangkas Beban Telkomsel, Indosat, dan XLSmart",
-      "source": "CNBC Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3BHMVcxUEF6emx5b0F1WW1WZE4xcVFEN2RWVGxFWW5UYlRyUEhQaHVYRmgxUkhzbnN1a1ZWYjAyMHAxVmNlZ2pSUnAxMXVmenJ5Zml1RTlEV1dIM2pNZ0x3aXJ1aFFRdUJSOVZNOEZFbmxQY3Eyajk1Mk4yRU1PN0lqbktOOWo0S2NjTHZGT3Z4RV9BRERVODJ4WTBxbFhWODJlcW1jV3dBc0ZEZVFpUmNhZmEyRUlfOGpUUVdIdDIxSXRsOXc?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-22-3d61791536d9",
-      "date": "2026-10-22",
-      "topic": "Automotive & EV",
-      "title": "INDEF Minta Insentif Mobil Listrik Didahulukan, Hybrid Dinilai Kurang Tepat - Bisnis.com",
-      "source": "Bisnis.com - Otomotif",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMkNSZ3hLWHU1b3BsYzVIWFA1ZDJaQ3ZIVWlJZVMyRXp0N08ybW5KZDZCM2xDXzhZQlFNZkcycWNiTVhxbG12Z0FQb0hDZ1MzYUhiNXNJNXgzeVVjeUVLSDRURUVLbk9YYWI5amV1M2pSUWJFLUpvbzlna1l2N05fandpdThzenRjU0IxbzU4dlVBZWpPYm9XTi1CVFpwdFRFQ3QtYTRYY3ZrbFlKZmlVZ1ZqNUpsRDVXWmxuUG85NjNuakNST3c?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-10-20-cf45c63b8a79",
-      "date": "2026-10-20",
-      "topic": "Governance",
-      "title": "Kritik Pemerintah di Bundaran HI, 11 Aktivis Greenpeace Ditangkap Polisi",
-      "source": "Kompas.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMENaTVRZTnk2TFRQZVVkbzRoRl96MjFlVHBVNGpKZVBFVkRCd1NWQlJUdktsZWRON0hrZVE1TWE5SG9hQnVuckU5UVcyNTlUcFFQa0tsb0dmNTNWQlppYmRpRzhjUEswYktYeTFoYkJGdWx5M3RmNm91SkZWZDE0Z1JoU0R1cm1vV2NqbkJlc244WE9LVUhIb2xhb3FUVW43?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mZFVyVXZnLU1qcHNEWXJkVk5LdkpfUFBHWm0zY3h4M0gxV0pOOWVkd2hITnptMDBVaFpEcDU1elllQjJoQW5iYVNZZlJZU093Mi1aekdaRjczREI1YjhhbXZB?oc=5",
       "sentiment": "Negative",
       "score": -0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-30-7f2d551d633f",
+      "date": "2026-10-30",
+      "topic": "Health & Family",
+      "title": "Waka Komisi IX DPR Dorong Pemerataan Layanan Kesehatan: Apa Pun Kondisinya",
+      "source": "detikNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEgyQ2N0YnNDQzRBSVFiaE95RVcwMVpQMnQ1a2JIQl80eGxQMGN4QmhZaHJ6UW5tV3VBWmpWNGJpWlFxNnZib21YUHRaNjg4TVoyTWZZc203ZWFYbVZpa0JOdVU3QUNSZXdUc1dnVG9wWE9BQl92UkxNMXp0SHB4ZjhWamF6SEpkY2VzVjhZclFaMDctN1NKdEcwdW5IZno1aDdNT2JGWHQ3WDZJUEZIQmVwdUNPOUIw0gG4AUFVX3lxTE9YSDJDY3Ric0NDNEFJUWJoT3lFVzAxWlAydDVrYkhCXzR4bFAwY3hCaFlocnpRbm1XdUFaalY0YmlaUXE2dmJvbVhQdFo2ODhNWjJNZllzbTdlYVhtVmlrQk51VTdBQ1Jld1RzV2dUb3BYT0FCX3ZSTE0xenRIcHhmOFZqYXpISmRjZXNWOFlyUVowNy03U0p0RzB1bkhmejVoN01PYkZYdDdYNklQRkhCZXB1Q085QjA?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-26-5c6e528fb34e",
+      "date": "2026-10-26",
+      "topic": "Climate & Disaster",
+      "title": "BMKG Prediksi Musim Hujan Dimulai November 2026",
+      "source": "Tempo.co",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOXExVndIaDlJYjR1amtyU205WVd4VTNWMDVsdU80bzN2Qnludm9mQmlxMmFHeEUtV0RwR2pBTFBGWGpRMFBvb2hkQmxSVGFhcnVQdzhrdzd3VzFSOXlUem9HTlRKZ0ZDV0lzbGJERXpocEo0TW1KWHlWZi1rVVA3ZlFiY3VKNDllQWpFQw?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-26-ac5780bf42ed",
+      "date": "2026-10-26",
+      "topic": "Markets",
+      "title": "Syailendra Capital Soroti Risiko Pasar, dari Rupiah hingga Harga Minyak",
+      "source": "Infobanknews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY29zbzQxVFVqSGx4QmhtRnNxNFlveElkQ001cktub2VXWDZuZEMxNlpFeHBtV3NEUEFqal93RTRqeXJUNFZ6elZkRS1ZNm5WMWJwb3U4REhpQ2w1cWF6XzJQUS1hWVlERHVJbXE4STZxQ0pnZFA3N3FrRlJFT3JYaldzeTh4cm5hSnlMMFpMdTN0LTh1Q04zX0h1UQ?oc=5",
+      "sentiment": "Negative",
+      "score": -0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-31-75bbdb98ae62",
+      "date": "2026-10-31",
+      "topic": "Automotive & EV",
+      "title": "Pabrik Baterai EV Ketiga RI Segera Diresmikan Prabowo, Ini Pemiliknya",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUW0zekVSRnBNTkhSNEc3UzNlTFkwQTdfbWZNdE9mdHVZbUg1ZUhIZnVqMHI2RmRObE5HbDBfUDhsOTZSbVUyTldFMmxuRW1Dd0s5ODNoSzVLa2R5RjFBZERMQVpiZEl5RmJ4dVktV3JrNzhXc01IYjJFUEVjNUJUOVRCMEFaSFJPOEFTQTRVTzdzWGRaalJJWktCM3NRMGJ1OHJabldxaUFJZ1FKYTUyeFlfcDVZNWQ5bDJUTHhEU2Z1LWFuLUHSAcsBQVVfeXFMTVE4aTEzTzZWN256eExCU3BKREItck5JVVh1cUVBVXR6SG55WVp6UnJ4cjRHOVdaZnhPblV6VUdHWXZfMzNCcmhReElKVUNvWlF4VGdaUC13UHV1UlYxVlRkdm91QzVZWTVuaEdtMUhXMUdnV1h0UncwN0ZwcHVsYjVPTkxSc3VQYTFrSVUzdS1UcER6ZVR0c3lCT3ZtalNzbE1fbV9zSV9ESVZFQnpsQkF4YndFUzV1ZHZIT2V3UU5OS2lROExDZnBMMWc?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-30-10437849736d",
+      "date": "2026-10-30",
+      "topic": "Governance",
+      "title": "Politik, dari dua tahun Prabowo-Gibran hingga DPR soal demo Mahasiswa",
+      "source": "ANTARA News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeWtPZHd1eHZJeFVEOGFaVmZiLVdNVlE2WFFMdUNXX0Jfa0ZVRS1udHkxbDlTdnVEUlVSNjJjOExaU0lfWndqMXBrU2NWLU13U3FBYUJoUllxam8yTHZkWlJWNV81WWZER1ptMVFReTNuVTBVUUpHQkFvVTdlenExbm1sQ1JZbzNfNUFCUEs0akk4YVhqcnlNd0o3RVctUHhJZjdqX1d2c1VrbkozM0F3?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-30-6b5370b3f649",
+      "date": "2026-10-30",
+      "topic": "Markets",
+      "title": "Sisa Target Utang Rp 302 Triliun, Ongkos Pembiayaan Pemerintah Membengkak",
+      "source": "Kompas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRUdaUmdIald4WFdCeTFqLUEzRHRhTXlzSzJJMW1TSE9RRkFYUmwtVW8zOVhoRmQzeml4ZXI4dGhiZ21pVHY3UnFCcENaQU44Rmt3UGdYNU03b2RwaXNla3JfU0tvdHF3b2lpeV9YaDZ0NV9mUXZ2NlVHenBiYlFKLUtXQ3N5R0djb01KbUVEMnlnYzJXd3JQaVZzT2pmSTd2M0FRTWZzUnQ1Y2RSdEREdnAyazVTalA5NU5GYWs5NkdJN0phUE1MenBFcDd4QnFqQW9zcA?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-28-e3dacc9fdc62",
+      "date": "2026-10-28",
+      "topic": "Markets",
+      "title": "Outflow Asing dari Pasar Keuangan, Pergerakan Rupiah Bisa Bertahan di Rp 18.000",
+      "source": "kontan.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzVYMHo4ZmdaVGkxbVdRSFo5QnhFR285UlJJOXRkZ0l6ejRDQnNwRnRzOTQ3cnFETGdiUkp1ZnV4dVI2SmEzTUdEZDVyOWY4d0FIbjZMaDdDZ1Rva0cyalpJRWVnZUVLYkhXQ1RzNnRSemc0UGhwWkFBWVloT1BTYWxqVHM1azEtck5rai1nUXFEdm9Qd2ctM3hrbVVPRWxIZG11SzhOcmVBZlNpLTY4dm9B0gGrAUFVX3lxTE1ldWtqcENFSGZOSGNGWjFDQVlJc0hMR3QtNTh1T1E5SDZ6MEFaTERiMWluNENwSzc4d25KMjRoVG14QXdOSUdaVWNrN2JsM1N4U1ZMSzBtN3JSYy1zZHRsWHBxSnRLQUxTdURvNDgzc0czZTFWRjVsWVZLUTV3S0VPOW03bHMwNUoyaENnWExtTFBsU2tQQVB1bXhSZHBhNkwzZWhwRmc2Uk9oMA?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-27-28387efb2cf3",
+      "date": "2026-10-27",
+      "topic": "Markets",
+      "title": "Rupiah Tutup Perdagangan di Rp18.153/US$",
+      "source": "Bloomberg Technoz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWVlXaUlraVdBVHY3U0p1bUJidnNOQlkwOGthRU9WUnVZd1dRY1FUTl8wNWVURm5BaUExVHI5bElUNkxtTjN3aG1RS2lUNUhVV2JCTDBuY1pQaEJjSWE3T29jaXNCM3hsOUhoSG9hUnp0NlZQR0FTV250NHJwODIxay1VUmp1dTNQR2NXVTRNUld6cm1rcUE?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-27-6dea6bfeff07",
+      "date": "2026-10-27",
+      "topic": "Markets",
+      "title": "Menakar Taji BI Menahan Volatilitas Rupiah",
+      "source": "Bloomberg Technoz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNalpubjNSbEl6elFVQUFiV1lIa0NELXZqdlBVb21zaWRKTElaN0hvQVNpa3ZhdVFQNkNCLVVDcERfRnQxRWVybEpyTVlyMTg2cThaeVBBWEtobVM2MFh4X09hU00yWVM2eFdSbWJZSnF2QkpXSk5qam9STHc4X18xU295dFZpeWF1OWl3SU5kbXcwMTd2TlFqdkpR?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-30-1dee5af73be2",
+      "date": "2026-10-30",
+      "topic": "Automotive & EV",
+      "title": "Satu DC Charger Layani 165 Mobil Listrik, Antrean SPKLU Jadi Sorotan",
+      "source": "Kompas.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRVFHeEVGellVRmNzdlh0Uy1KLXo1WmVaZHNpM1ltam1Va2FPNmFkWFJXTG5nQWFmRHU2a2x3RXp6VnlmVDk1OXdJT2hZTVlObGpLd2FSTy1SU2oxRmt2dDl2VENwcndTT3RHTk9mMktwVEc3OW8weVZJOFQ5YzdkeWV1RGFhbHoyenNtZHZ0WEk3WmRmN2tTRnd0TTlqTGZ2OXN3LTJpVjBTTEZYcG80RGgwYWVGWGQ3VVRRLTVB?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-10-28-bed4fa2fabb0",
+      "date": "2026-10-28",
+      "topic": "Automotive & EV",
+      "title": "Pasar Mobil Listrik di RI Melesat Dalam 4 Tahun, Angkanya Bikin Kaget",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUVZFVGpjdXBCQ0J5OHY3dFFidV9SbF8xNHptZVFPUEVrMVlzbzJDeHlLZDlHeUNqNTlmMi1uSzM2OURyQXZ6VGN1UUluYkh3MDE3am5LeXo2UzJxRGJlOTluSHJJM1hObmRhVFYzb0lIX1gycnFTSktSNkpHSlFUZHd5R2lBbENmMGNWLU54cEt1R19pXzlVSTRBQnV4TGI0bUpBRUdacDVFd2xrMkwyUVNpLVFYZ1laWldqS2E0Z0Job2lLUWfSAcsBQVVfeXFMTWp3Y1dmMldaTWxfd0JVN3dNWGpjcXJFRkVyU0FONVNiM2hnVEhaQ3F1QllFSW1tRjAwSnlibWJDaVZBTU1aUHdvYUVPZkhLbkdBejNuYVZycGV4QlhWcjFNTVlFRWZpNmkzenYwZXJzb1ZMaEtYSTFPXzZRbk5iYldxYXFEYlhvSXBKY0IxOGdmdFFqNmpWbXRqMnhmRGN1VEJBclE1YjdOLU5uWW94VTM3aExpenRnTG1mLTZaUFQ1UWRxN0N4ZGsyeWc?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
       "confidence": 0.68
     }
   ],
   "decisionTriggers": [
     {
       "title": "Karier dan pendapatan",
-      "state": "Stable",
+      "state": "Unknown",
       "instruction": "Periksa tren PHK, lowongan bidang Anda, daya beli, dan cadangan dana keluarga. Jangan bertindak dari sentimen pasar saja."
     },
     {

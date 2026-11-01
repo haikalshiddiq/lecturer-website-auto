@@ -1,116 +1,146 @@
 {
-  "generatedAt": "2026-10-31T07:00:25+07:00",
-  "briefingTitle": "Indonesia Hot News Intelligence Briefing — 31 October 2026",
+  "generatedAt": "2026-11-01T07:00:24+07:00",
+  "briefingTitle": "Indonesia Hot News Intelligence Briefing — 01 November 2026",
   "sentimentBasis": "Business and investment impact for Indonesia using Asia/Jakarta timezone. Freshness target: today/last 24–48 hours. Sources use Google News RSS discovery and reputable publisher labels; source links are included for verification. Images are blank unless verified publisher images pass blacklist checks.",
   "items": [
     {
-      "id": "2026-10-31-af894289da",
-      "date": "2026-10-31",
+      "id": "2026-11-01-88e78c08a9",
+      "date": "2026-11-01",
       "topic": "Business / Investment",
-      "title": "Hadapi Gejolak Global, Kadin Siapkan 3 Jurus Perkuat Ekonomi Indonesia",
-      "summary": "Waspada.id surfaced this fresh item: Hadapi Gejolak Global, Kadin Siapkan 3 Jurus Perkuat Ekonomi Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Garam Lokal Berpotensi Menjadi Produk Premium, BRIN Dorong Pengembangan Garam Industri",
+      "summary": "BRIN - Badan Riset dan Inovasi Nasional surfaced this fresh item: Garam Lokal Berpotensi Menjadi Produk Premium, BRIN Dorong Pengembangan Garam Industri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
       "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Waspada.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa0FsWnU4RzdDeGpkdWdxd290ZEdmb290YUN1Q1BRSmpNQVVhODhzN0pUNXZRRGpKakdISzFHYkZCaWVldFZpN1lXWEFub21lbUkwSW5fV2dqRmxiOXFqRHJCbl9vRXRuSHZxZGFUSnFwa242WERHZFdqWTROQk9vZGcxNHd5TjIwY1JWeXU4M19yTXVKcTZvUWtYSmR4dEl5?oc=5",
+      "source": "BRIN - Badan Riset dan Inovasi Nasional via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT296V1FnSjgzZlk3dTVhSy1KOUU4T2FWYjJSc0IyNGlwNnFvQ05idVNrYmdvVVhZWTFwck1HSS1kd0dIQV9HN0h0TU81Mm5IanJwbXpFanRXbmRIYkphY3pZOGR4cFBidUdZbXNmN1ZXNV82MENvX0FQNnFUenJZUzVRZ0gzZTloc0paSFlPNnZmQUFGUTZGTUtPemZHMmdwd3BoeGV1a2xvRzBjM0JUWE10N1hITW5TSHZMMw?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-10-31-a09f6611d1",
-      "date": "2026-10-31",
-      "topic": "Automotive / EV",
-      "title": "Mobil Listrik Indonesia Berawal Maunya Menjadi Pembuat, Jadinya Pengimpor",
-      "summary": "Langgam.id surfaced this fresh item: Mobil Listrik Indonesia Berawal Maunya Menjadi Pembuat, Jadinya Pengimpor. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Langgam.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOanNRdGdqd2hvREFmY1U5MDVsLUZIUktCMk1obW9FWUkxQ05DMzdmemF0VDVVX2VzTHkwM3A3ZWxKZkNBYWxwZXBCdm00TkRSZkpJbFZTSkZ6TjNxQlRvT3JiV0EwR0djWUstYzhCcW5RVUZDMUN1WmQ5c1k3TE5MRkVZY1YyWVgzOUV6TG9FMmlMUXVFcFBv?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-31-e99756fe31",
-      "date": "2026-10-31",
-      "topic": "Automotive / EV",
-      "title": "Wuling Hadir di PEVS 2026, Pamerkan Empat Mobil Listrik dan Tawarkan Bunga 0 Persen",
-      "summary": "Carvaganza surfaced this fresh item: Wuling Hadir di PEVS 2026, Pamerkan Empat Mobil Listrik dan Tawarkan Bunga 0 Persen. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Carvaganza via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUkhyVGppUzFUTzFrRjQzNkM2YUVESllWd2ZheHUzSVZwTnc5VFptd2txM0pDSWN3WnI3amdvOXE0b29Id0l0cXFwcWV5cm56dW9ZMDNOMllBSjFzMjM4U0cyMEV1ZVd0al9SUVpBVFhXdmo4RjlsVUJKSFdwYzI3WmxhcmNXTFpKOExIQnZLMUlMcG9GamlzNzVrM0NUMURRTVZ6SE45dmMtdw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-31-e44d605310",
-      "date": "2026-10-31",
+      "id": "2026-11-01-44eb8e4c98",
+      "date": "2026-11-01",
       "topic": "Business / Investment",
-      "title": "VICI Perluas Jangkauan Pasar Ekspor",
-      "summary": "KONTAN surfaced this fresh item: VICI Perluas Jangkauan Pasar Ekspor. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
+      "summary": "Berita Cilegon surfaced this fresh item: Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.08,
+      "score": 0.16,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "KONTAN via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBXOHpzMjFIbTc2MU5EbEUzTFJMV2diV0xOVmI4REF4amFIVG9pZlZzdGtBUGZCcVNkekRQOGVxMkpWbHVBSTVTWExYRkQteUlnRVZVZEVBZUtoUE9xWDlSdXFtZWNaRjZva0szS3hBd1RuR1pJbnQ4aw?oc=5",
+      "source": "Berita Cilegon via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb0tCNk9hdDlFWE5zOUE2SU5CZDJpT2dWa2xOMkEtUWpQdHQwY0JWR25xR3R2eUE2bWozVk0zQ19BQmRVN3lZN1B2OGM1T3dJaTNobFJrRkNxRUYxbzlDdnFtb3U5RW1YWHhJZ21jYjhiZ0Q1QWNvbEw3V003V3dSV2lEeDIzeXpaOHk1bldrY1dFckIySjR5c3pSNFpjT3FuYlByMXE2Zjg1SnFqREktRy04b0IxX2F6Q0lwT0YteXdtWlJ6aEhUVm9MbXpsamtn?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-10-30-41f94fa47d",
-      "date": "2026-10-30",
+      "id": "2026-11-01-421422ee08",
+      "date": "2026-11-01",
       "topic": "Business / Investment",
-      "title": "Kementerian Kehutanan dan BeZero Gelar Lokakarya Carbon Rating untuk Tingkatkan Kepercayaan Pembeli dan Buka Peluang Investasi Karbon Indonesia",
-      "summary": "Kementerian Kehutanan surfaced this fresh item: Kementerian Kehutanan dan BeZero Gelar Lokakarya Carbon Rating untuk Tingkatkan Kepercayaan Pembeli dan Buka Peluang Investasi Karbon Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "title": "Kadin: Investasi dalam negeri tembus Rp2.000 triliun di era Prabowo",
+      "summary": "ANTARA News surfaced this fresh item: Kadin: Investasi dalam negeri tembus Rp2.000 triliun di era Prabowo. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "ANTARA News via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVURSUllNdnhVaHVfdDZUdF9TQ2V3V1NBb0xxMGl6dno1dkU3WHlMX3kzVzNQVkdrN1gweEFWU3Q3Q1dQeXFlNHFmYUN5bjA4c281ZTdvVGVaRlczU3dzbm9QZVZELTd5VkcweFREY3BCbjlpOVA0S3MzV3lCRmN2eTJqdnZ6ZXVoZUtaTThBZktXNWJrLW5KRm9GV3NoX016bmtsX1JCbXNVYnhGNHfSAbMBQVVfeXFMUFdYVnZGVDhWMmRkNF9hZG9WVFZlVDV3T2Z3SjJSVy0zUEJxYWdReWVtQWpRb2xDTks5Zi1NVkRlSW5yRm9uSHhybTlIb29FYW91V0M1NURXYzZzaHRaTHFSMS1YSzlMSDMzYm5Eb2tIVXYyeGxwSmo2dzNMS1Z3NktYUTNubGY3ZV83MWNZQkJvb3pqTUY2aVVSaDBRUnVvTGstM2JYZlJIRHFRcFVGWWc1bEE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-01-782ad9396b",
+      "date": "2026-11-01",
+      "topic": "Automotive / EV",
+      "title": "Mobil Listrik Bisa Jadi Gak Bebas Ganjil Genap Lagi? Ini Respons Menperin",
+      "summary": "Uzone.id surfaced this fresh item: Mobil Listrik Bisa Jadi Gak Bebas Ganjil Genap Lagi? Ini Respons Menperin. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Uzone.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2pFdkdMM2JUSWZuczdaTjBVZU8wQVRteUdNTkhMMGJDZDA0VFlSOGltc1Znc2JrZ3VhZUFfSGNIQUEyb3lndy1CSlpGZ3h6RFJMVTVUQVQzVXltX1NpX0tRdTdfY3NMZmYxS2VHa0EwVFRMV3o0T1daWmdIR29ycUQ3OWx5cTkxTFdaVVc1OFMwclE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-01-938e17457b",
+      "date": "2026-11-01",
+      "topic": "Automotive / EV",
+      "title": "Komisaris PLN Sapa Pengguna Mobil Listrik Di Medan, Ini Pesannya",
+      "summary": "RM.ID surfaced this fresh item: Komisaris PLN Sapa Pengguna Mobil Listrik Di Medan, Ini Pesannya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "RM.ID via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWXlxTE9fZGZDZ2Z6QW91VnRXbldmWm1qbEF2VzNRYzJLUnFRYlJBdm9seEUtU1RrQW1SSGtTbm1jUWw3M0pnblozYWNPVTFwekFJejhEUmJCNVBpXzA1QTVXWUVndWNkWWFRczhnNlVZNmszRmhKelFNcEswNjJfLWwzeFhudGNkdkRqYnd4NUNPc19udEo4SmNNd0ExeTBwUDFfcUV0RlZRRmQxdHBnZA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-01-06cc235aa8",
+      "date": "2026-11-01",
+      "topic": "Automotive / EV",
+      "title": "Masyarakat Kian Berminat Punya Kendaraan Listrik, Pameran Otomotif Padat Pengunjung",
+      "summary": "investor.id surfaced this fresh item: Masyarakat Kian Berminat Punya Kendaraan Listrik, Pameran Otomotif Padat Pengunjung. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "investor.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUmxJakVlUDVqbmVHWEc3X2M2RnZMbldUVVlNZHg2Z3VacnBxdmI5YW1WQlJIOG84RS0ySGdhRWlNcFBqY0lTTW9nNDhLX1lzZ0VHVzZ3eElTUE9ueVNzVm1fV1JUY3hXQWExbFVwZ0w5X3JiRGdLRmo0MUo3cjFHbDVTcGhBWlozR01scFJydzB3ZDdpWEF3dTU0Ym9kY3QwaUxpWDhUN241U2FSUHpFYmdWcVFORmV1M1E?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-01-756cdafd37",
+      "date": "2026-11-01",
+      "topic": "Infrastructure",
+      "title": "Potret Terbaru Demo Mahasiswa & Buruh Kepung Jalan hingga Pelabuhan",
+      "summary": "CNBC Indonesia surfaced this fresh item: Potret Terbaru Demo Mahasiswa & Buruh Kepung Jalan hingga Pelabuhan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGV4YThycTFVQTRWMUtkZTVaVWhEV2V4eGZEeVY0ZkRjZkxlanVsbU9kMm9BaHpkSGQ5NkNCaXdiNTRHRmpyMkdZV2ltUHFNVThhTE5QeUR5aXJacWxySVdyTldpYzhyVWtMMDUydlc0UmpFWlNRNXQ3X0dsc24tbl9GUlR6Y2h6eTkzMFZEcGV6YmdoaXJQbENEeW9JMzJkY2pReHZoSUFSdkRfeGRCbGN0NkNoUEZtUTk1bmFMVE9mZ9IBxwFBVV95cUxQOUtUUXE5cDVkNEhSVHcySWV4OHpkOE5iQ1paU1dINDJwZ1JxT3l3YWM2bnMyeVVLTWgyNHdreVlnay03VXF2UFM3cjJpNFNlYWR1dlJCZG0xYUlUQ0VVaHljWmpaOWdfUnJRRzJQSXI0UkxjeW1fSDk4OWMzVGpzdnFRcnZLZUFOdFhOVWxJZGsxSThYdkZBYXN2Q0plaGpUZ3JCZzFRZGxPREltdlJ5WnozbjJGSkdJbFgxbHRTTmEtX2VjdFAw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-01-9df34a81d6",
+      "date": "2026-11-01",
+      "topic": "Automotive / EV",
+      "title": "Krisis Keuangan Paksa Volkswagen Rem Pengembangan Golf Listrik",
+      "summary": "TIMES Indonesia surfaced this fresh item: Krisis Keuangan Paksa Volkswagen Rem Pengembangan Golf Listrik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": -0.04,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "TIMES Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeVgzWnBHYnhXN0FFOWpkYmxkbEFGVEJVRklEQm10VDJvazZ0aEdEdEJfQTVvSEhwbEc0MnkxaWJzRDN5TVJacUJ2ZkMzNUx2QVRPYzIyMzZBbDFhTTB4MkI0eWF5MGlvcHFiOFE2ZFdZZjNac3cwNHRYMFYwUG85MEtSelcxM0loNGFRNFMtWm5VZF9fOWd4VU56YnRXZ0VOOFpvWGRwSm5YcHRu?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-e00b8c825c",
+      "date": "2026-10-31",
+      "topic": "Business / Investment",
+      "title": "Investasi Dalam Negeri Hampir Rp2.000 Triliun, Kadin: Kepercayaan Pengusaha Menguat di Dua Tahun Pertama Presiden Prabowo",
+      "summary": "Presiden RI surfaced this fresh item: Investasi Dalam Negeri Hampir Rp2.000 Triliun, Kadin: Kepercayaan Pengusaha Menguat di Dua Tahun Pertama Presiden Prabowo. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Positive",
       "score": 0.24,
       "confidence": 0.68,
       "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "Kementerian Kehutanan via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOalhjUmkyMm5mZU1QR0pGRUIwUlBKMGlSNTlqTmJHbnpSZVd6QUc5YmJtejlpTm4wWDI4Z1RyZjU1Y1Zuamtta2V5Tjh2SXBJQTRFV3B2cjhmakNjWDBHX3UyZlJrM1c0alR4OWg1MEZjQ0hhZm9fZDRxLURFNDdONTgtWmQ5Ym5yUGNwbTg3ZWxTeWRVcG9vcXl4ZFVlSlp1Q2ZzbDJzOFdOdnZkY1JSSXVzWG1OdXNrZWE2aEJKVHZRN0pZa1JmenJLYnVxUVZDVGd5NVEzWkpIcy14WkZrdDlDWVRnUzRVS3JZWkMzR3FmSkdFNVdzY1N3U29jZ1BOWkNTbDlxM1A?oc=5",
+      "source": "Presiden RI via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPN3ZTWk5oV2UyaTQ2d01yeFNORF94eHQzd1RIaGFzT1c5TE9VSHpxd2xMdl9SM2ZXeHJ2U0MyOXRYakpDYnpXSU9qRjlSLUhxR3dhampGSzdNdkt2cHpSdHBuMW42a1dJSTlVMjdGaVhpc1RRbFF0ekpDTnMxMkdiOVB1MFlGaExkX3EycXVHZ3FSQ1BfWU9FbWpGMVJCc201OVh1eEl3WmkwTXRoWWthSXVZR0FGU2hLbjc2eXdDdUIyYmowODhuejRLaUM3UXN6X2QtOHlBTHM4T3ZBSWZwTG9JclozcngyS1Rybi1TMkhqUdIB8gFBVV95cUxPN3ZTWk5oV2UyaTQ2d01yeFNORF94eHQzd1RIaGFzT1c5TE9VSHpxd2xMdl9SM2ZXeHJ2U0MyOXRYakpDYnpXSU9qRjlSLUhxR3dhampGSzdNdkt2cHpSdHBuMW42a1dJSTlVMjdGaVhpc1RRbFF0ekpDTnMxMkdiOVB1MFlGaExkX3EycXVHZ3FSQ1BfWU9FbWpGMVJCc201OVh1eEl3WmkwTXRoWWthSXVZR0FGU2hLbjc2eXdDdUIyYmowODhuejRLaUM3UXN6X2QtOHlBTHM4T3ZBSWZwTG9JclozcngyS1Rybi1TMkhqUQ?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-10-30-078f02b5ee",
-      "date": "2026-10-30",
-      "topic": "Markets",
-      "title": "IHSG Tertinggi Sepanjang Sejarah: Rekor, Sejarah, dan Faktor Pendorongnya",
-      "summary": "Nanovest surfaced this fresh item: IHSG Tertinggi Sepanjang Sejarah: Rekor, Sejarah, dan Faktor Pendorongnya. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Positive",
-      "score": 0.21,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Nanovest via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tbGpHc19YeVFMNTIzS3ZSOVdrdkdwNmFwZ0h0X1gtN1ZITjJrYTlLN3pxMTZUQlFHcWxSSVlhVi1NZEppVm5EQ213QWU2UnViUjBobEFrc3A2UTdURFpsY0lnUUxkd2dEVU5LWERJVlpCV0MwYjJn?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-99bd8f1a02",
-      "date": "2026-10-30",
-      "topic": "Markets",
-      "title": "Tekanan di Pasar Modal Berisiko Berlanjut Sampai Akhir 2026",
-      "summary": "Kompas.id surfaced this fresh item: Tekanan di Pasar Modal Berisiko Berlanjut Sampai Akhir 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": -0.19,
-      "confidence": 0.68,
-      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "Kompas.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOamxEc010QTJ5SGZBeXd0cjFrWE42WTBmN1V5Q3R6R1FVZnhJMWx2bjRWSHh5bXNjelFLZWVySm5TQzBBd0RRcmtCWHNVaFU1T1libkx1SGx0U1JnWjNBbnhucW9LNFhuTTZla05QbTJUZ2JCT1lqQjNVUkJPamoxaXRwdWhQYTBfTXN3?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-b1d307cfe9",
-      "date": "2026-10-30",
+      "id": "2026-10-31-12e5af53aa",
+      "date": "2026-10-31",
       "topic": "Markets",
       "title": "IHSG Tertekan, Ekonom UGM Soroti Krisis Transparansi Pasar Modal Indonesia",
       "summary": "NU Online surfaced this fresh item: IHSG Tertekan, Ekonom UGM Soroti Krisis Transparansi Pasar Modal Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
@@ -119,253 +149,223 @@
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "NU Online via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORnRWZURwOVJBS19iUGQ4cHlqU3RESUI3UFpwVFVXY3NGRkxrUUZ3VTZkZUdSdVQ5VDAwbWRJTnV2MlJRMWNXbVJfb0RPT2N4Q1lUM0lxT1FjUVRMa2VqUWFVeXRmWk9XUUhIbDg3MlJtQ190N2hPQlg2dnZHeWdhX1BWSlRLNGZyWTB0dVpIdWhyWUJGQ1U3ZGhXRWdjTXVtZDNJSkowREViOWVZY3fSAbMBQVVfeXFMT3lDWjktRlM4bnFxTlJHNmJHYS1Wc2dSajhYM3Y1MFREWkhyV1k2bllpU0ozUWwxVWpvc05FenliRmpKcHNYX1BWTXFuSTBHQ3VOcGVzbm5qSDdDaDMyUGpfZlNLVkw3V1d5WThab0ZKN0tlNlFPbWxGUXVlSFUxZ3R3UHhCR3RPMjlNWUhIcUxsd3cyWFRZcGtfRlFnbFI3d1RBNHFXeFlFQnBON0hiUlZ1S1E?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbS00TDV4SGdpOHBlR29KanhiWi1aNmlfTGgyY19zV2hBVEc1ZWF6UGJhZFhWOGs4cmVWZ1MwQVd2OS15NUZaUHZjdzJ6Z2FIQUlHcUZJQjFfekZ6TG5ZcVA1dlZHWVFEUVBuMlJxeklOUldBd3VtU1RpazJYUzVsdWpoekhGQUVCbG5qM1JRbGpyQmw1ODluRTh6My1SdFh1blU3dENpTlLSAa4BQVVfeXFMTm5PRDltWWFtbS1jOWNoQnl6MkNxRW9BbkpNQy1ibEtnSjJySVNGT0dqUVBXaXlybHZQd0tSWEVqZ1B2VjBhTlRCV3VLQjVUQU9JMi1vaENLRkZTRGFiUUJ4LTVyNWJVOGlydkZuM0YzOU5jTDBZRmJMNUplNENqRnlyVnRYNEZ4UWRvVm4xRzRsSnpySWxickpiSDhQc1d0ajVIdlBBbGMwU015VmF3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-10-30-73aa471ddc",
-      "date": "2026-10-30",
-      "topic": "Markets",
-      "title": "Jejak Panjang Tekanan MSCI, dari Anomali IHSG hingga Ancaman Standalone Market",
-      "summary": "KONTAN surfaced this fresh item: Jejak Panjang Tekanan MSCI, dari Anomali IHSG hingga Ancaman Standalone Market. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-10-31-bd716534fa",
+      "date": "2026-10-31",
+      "topic": "Tech / AI",
+      "title": "Komdigi Dorong Anak Muda Indonesia Timur Kuasai Teknologi AI",
+      "summary": "RRI.co.id surfaced this fresh item: Komdigi Dorong Anak Muda Indonesia Timur Kuasai Teknologi AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": -0.19,
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "RRI.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNME9YUmxkNS1nbHAyMG9yUExxNm5HUjFjZEZiWEFvR0xyUUNxQVJkQXlrTDlCUUxRSEVYMWhpTWxJUWt0YTlTczJqNXhIYUFZTFVJXzBWaVZlM09aMExDanZoZ19GVTdoeUJyRVBHT2FiTlpOczlDNzlxUmZYUUtITW5JYnZJSzkzV1dTeVEtV0hTSEs1RmxySzU1WlJhWjBiMDlndkY4THhQbUs0MXRz?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-e4e144f4b9",
+      "date": "2026-10-31",
+      "topic": "Infrastructure",
+      "title": "Pendapatan Usaha Tumbuh 7,9%, Jasa Marga Terus Perkuat Konektivitas",
+      "summary": "CNBC Indonesia surfaced this fresh item: Pendapatan Usaha Tumbuh 7,9%, Jasa Marga Terus Perkuat Konektivitas. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.16,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "CNBC Indonesia via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLTdOS0trSHFMdEp6U0EyU01CbVZjX0hVcTBINlNIcGlVVWlseW56eUYwUVR0NW5rNkY1QVZyQ3NjMmV1TmlXYWZtQVE0S2ZKZUpwN1FXamZlY3c3TzM0TGZUYThCTFZnMWhYX21GdTRJREVpaklfOHVXNjlwcTcydEVKcHl0bnBuT0VtNlAzTTExX3g1RDBROTBGNVMyM1JTM00xd3V3b3VEbFlpa2hTUV9mdVVaS3A1dXNnNE1TN1BVaUo00gHKAUFVX3lxTE5sbFlJbzVfcVlselRoUEFQZy1VajdFdVBnTlNJTDVIc1dIUjNKanZhT1pXdW5yMWhtM19uWXBqckllMG1QOGJLeW8yLWJvQWFxY0tJNVh0a0lRTXRQNUlucVh4TXVIZTBTOG5KNjVKbzRjNlR1MERVeHNCNGRlMWF1ZFN6d3lRMzF4S08xS0VObnpCYUtqdmhqRmFiT2laX1l0VE91TTY2RlhieFdXNlFtZzRCNUlxSDRmeXdOSU1FZTRNNWV4Q05PYkE?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-c96821a0e5",
+      "date": "2026-10-31",
+      "topic": "Tech / AI",
+      "title": "BRIN Perkenalkan GEOMIMO, Platform Observasi Bumi Berbasis AI, di Forum Antariksa Asia-Pasifik",
+      "summary": "BRIN - Badan Riset dan Inovasi Nasional surfaced this fresh item: BRIN Perkenalkan GEOMIMO, Platform Observasi Bumi Berbasis AI, di Forum Antariksa Asia-Pasifik. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "BRIN - Badan Riset dan Inovasi Nasional via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVWg3LUpoYmVkLUxLV1JVYzVJek5SWHVBN3JPSTRpUHVMT201eVFXVk8zRmxVUEI4c1djUG5pVk12OFZCd0FMQXg0UUNPNlhJcmtfa0I1ZTR5bVA4b3Q1YzlzbG9uWGVCQjdXVWNNUHdVNGhsUEpWY05ZV2t5alJmYjdEemhEdFpNTDhZQVBsNUpvMlhJWWtsSGhJYlFyVUZadW5uS3dXVVNRV1JvS0JJUk5ybzJRUk14QnBXM2k3a1U?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-7c0ff3fa7f",
+      "date": "2026-10-31",
+      "topic": "Tech / AI",
+      "title": "TelkomGroup Rilis 4 Teknologi Digital, Data Center AI Bidik Kapasitas 1 GW untuk Perkuat Ekosistem Kecerdasan Artifisial Nasional",
+      "summary": "Inforiau surfaced this fresh item: TelkomGroup Rilis 4 Teknologi Digital, Data Center AI Bidik Kapasitas 1 GW untuk Perkuat Ekosistem Kecerdasan Artifisial Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Inforiau via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVmRnQnFENzd6T3VCWFRjaDEwWWE5VUttSk5VMmxPeDQzYnp2Q0oyd2VWUTVkcTVMMW54RVVUSHFOODRyMG1YSVIxeDdZVzQyeVA4ZG1mYkdrQ0RjOE1CYlBoQkNVMDJNV2RZbTd2X0t5MWJPbEotcHlBdzlzajJSRDR4QXNjUGRWZ0lfbkY4QW1RaVE5Qzl3OU5WZ0RGdFpVQ09QQ0xVMmFHZUViX3VYYzNlVWV0eXJQaUg2TldWTFc4MmpJWV8weGdWR2NETjJtU1k4NTNIQlpTSVhzcDNCY19aSi03QjIwODI0UDJn?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-fefde28379",
+      "date": "2026-10-31",
+      "topic": "Tech / AI",
+      "title": "HSBC: AI Bantu \"Pertajam\" Asesmen Makroekonomi Bisnis RI 2026",
+      "summary": "Validnews surfaced this fresh item: HSBC: AI Bantu \"Pertajam\" Asesmen Makroekonomi Bisnis RI 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
+      "source": "Validnews via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUnFHXzlJUWRyM1ozMkVOUC00MkdkTVJwRmZBMm9JMmJUTzdqVDluWnF4ZXZuLVBBVkxyaFMyaHhrWVplRVM0b19zZ2hxZWsyUTlXWkYtSkhzaUxOV1NxYmVuTmFBOU1MamszSlZXUFZWZFFfMXVieEdmaUpUXzRNMmNyUTU0eWJfTFNudnlpYmdreFU0M3M2Sm5OdTFqdEtqMi1wTWN1d1ZNQnVWMDFiUnJ3?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-48ede04188",
+      "date": "2026-10-31",
+      "topic": "Automotive / EV",
+      "title": "Siap-Siap Berburu EV Baru! Cek Daftar Mobil Listrik Terbaru yang Siap Mengaspal di Ajang Pameran PEVS 2026 - radarcirebon.disway.id",
+      "summary": "Radar Cirebon surfaced this fresh item: Siap-Siap Berburu EV Baru! Cek Daftar Mobil Listrik Terbaru yang Siap Mengaspal di Ajang Pameran PEVS 2026 - radarcirebon.disway.id. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "source": "Radar Cirebon via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdlcyLWJTZ0Y3aGVOMGZvY1Rldy1DV3NPbWk4TklnSk1oMVpobE1LS0N2SnBVU2laY0x3Ylh0VDFyNnFqV19oVFc3Tmc4MDhqakJUYURsVmYxUmNCQ1JsRHZ1MzV0UXI5Rnh4ZmlsS3FpenYyZFkzN3BBX056MlhDX3BzU0pVT2Fhc3cxNWhBTUZ6clk5VUVwN1NJNWROaTBwVzd5Mk81N2M2YlFIQzhhY3FtX29mTEs1Q1k2emdSX3Z3SWRoWXJUcFdqYTBydnR1UUpxeTJDaERaU0xXMnNwZtIB4AFBVV95cUxOdlcyLWJTZ0Y3aGVOMGZvY1Rldy1DV3NPbWk4TklnSk1oMVpobE1LS0N2SnBVU2laY0x3Ylh0VDFyNnFqV19oVFc3Tmc4MDhqakJUYURsVmYxUmNCQ1JsRHZ1MzV0UXI5Rnh4ZmlsS3FpenYyZFkzN3BBX056MlhDX3BzU0pVT2Fhc3cxNWhBTUZ6clk5VUVwN1NJNWROaTBwVzd5Mk81N2M2YlFIQzhhY3FtX29mTEs1Q1k2emdSX3Z3SWRoWXJUcFdqYTBydnR1UUpxeTJDaERaU0xXMnNwZg?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-1600b8db59",
+      "date": "2026-10-31",
+      "topic": "Business / Investment",
+      "title": "Menteri Agama Apresiasi Layanan Ekosistem Ekonomi Syariah UIN KHAS",
+      "summary": "Universitas Islam Negeri Kiai Haji Achmad Siddiq Jember surfaced this fresh item: Menteri Agama Apresiasi Layanan Ekosistem Ekonomi Syariah UIN KHAS. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
+      "source": "Universitas Islam Negeri Kiai Haji Achmad Siddiq Jember via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1g3cTV0cU1DbndHTWN3N2hWX284M0Z3UU9ONGRxNVdrTnRUckNTQzFsMFJ2MV92OG9qb2hHWkEtN3JvMFFpa2g3eW9oSHdOSUVBd3hWTDJtZEZXTmw5UlhkRTQwZVVtdl80RExwWUxIS0tyWDNacDdSRVptelZGcmxkVXpCdDJwLXVJX3ZNTlNnLUR6OWhFVQ?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-c773eccab4",
+      "date": "2026-10-31",
+      "topic": "Infrastructure",
+      "title": "Hutama Karya dan Kementerian PU Perkuat Pengawasan Mutu Konstruksi Jalan Tol",
+      "summary": "SidakNews.com surfaced this fresh item: Hutama Karya dan Kementerian PU Perkuat Pengawasan Mutu Konstruksi Jalan Tol. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "SidakNews.com via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLWhGY1NTd1RmMi15U1VFMWlPckhrcmlObm80d3VuMzIwUlhRek1Jb3FDTUJHVWhWdXBHczVNQzNyZk1ma1I2dUhabG1rWW5SeFFwOElPQ1otVVhwSkNPRTdkbUJwV0xrdzlmM1d1UEllUmhfYjJXM2x5ZVdLaEVzVGozc0lUc2psZHZKWEZ2dU9RTVpfakV2a3N0eXE5THJTYnpSNkNBRVZzLWJhWHNGMGtIajd4aDDSAbcBQVVfeXFMUC1oRmNTU3dUZjIteVNVRTFpT3JIa3JpTm5vNHd1bjMyMFJYUXpNSW9xQ01CR1VoVnVwR3M1TUMzcmZNZmtSNnVIWmxta1luUnhRcDhJT0NaLVVYcEpDT0U3ZG1CcFdMa3c5ZjNXdVBJZVJoX2IyVzNseWVXS2hFc1RqM3NJVHNqbGR2SlhGdnVPUU1aX2pFdmtzdHlxOUxyU2J6UjZDQUVWcy1iYVhzRjBrSGo3eGgw?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-d7037d4ab0",
+      "date": "2026-10-31",
+      "topic": "Infrastructure",
+      "title": "Pendapatan Rp15,6 Triliun, Jasa Marga Catat Laba Rp2,7 Triliun",
+      "summary": "Bloomberg Technoz surfaced this fresh item: Pendapatan Rp15,6 Triliun, Jasa Marga Catat Laba Rp2,7 Triliun. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "Bloomberg Technoz via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdHd6ck9yMEZLaXhhUDBJUWw5c0t3NUlXaklsN3gxNFJ6cGRZSUpzVE41TGhlYU1MbWJIM21nSHU4Rk9ESWFYYk0yd0RkbWtBWTByM1VyWFV5YnRVT3dvcHA4QXlINWkwai1XNFBjRVdZVWdvZUs0Rk8xcnZGM1lrMG0xdldLSXVMbDc5TnVLV05VNDNrVFZlb1lJN0gwSDFPeG1pR29jSTF5Z3hXd1I2SUVHMA?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-2d1df44d26",
+      "date": "2026-10-31",
+      "topic": "Infrastructure",
+      "title": "TMMD 130 Malang Perluas Pembangunan Infrastruktur hingga Jalan Kampung",
+      "summary": "TIMES Network AI surfaced this fresh item: TMMD 130 Malang Perluas Pembangunan Infrastruktur hingga Jalan Kampung. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
+      "source": "TIMES Network AI via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLTlaSTNwWnhNTFF2NG9hdU5LakkxMl91VUtPZFFZQVFLRDB3eXM4MW9naDN5bGxtSWxfNnBnbVgzY0hBZHVjd3NVMnNWRm1tQlJyTVgtLWNTakwwRnd0Y2tsWEtEVU9SVGlwekpsSGlqRzlKQlRHS1pSVmdBQV9tbXFuWVdiUkUxNEwydGI1c3BqYkRM?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-5505020dc2",
+      "date": "2026-10-31",
+      "topic": "Startups",
+      "title": "Modal Ventura Hadapi Hambatan Exit Lewat IPO Startup",
+      "summary": "Demokratis.co.id surfaced this fresh item: Modal Ventura Hadapi Hambatan Exit Lewat IPO Startup. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.08,
+      "confidence": 0.68,
+      "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
+      "source": "Demokratis.co.id via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00M0QyWUt3YlRHTmNQMy05a2VOY0pBMFViQVA2d2JaZjdCTC1JQ3pSZVZ4QWpiUFpHTVdwaXlhekhhZ1ZabnFQcjF5bURfZlBxa3JQeTk5QVBnZkF3YmFCY3pEMmFMaGs?oc=5",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-10-31-1a3d988787",
+      "date": "2026-10-31",
+      "topic": "Markets",
+      "title": "Sejak MSCI usul replikasi, investor asing sibuk jual saham ini",
+      "summary": "IDNFinancials surfaced this fresh item: Sejak MSCI usul replikasi, investor asing sibuk jual saham ini. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "sentiment": "Neutral",
+      "score": 0.05,
       "confidence": 0.68,
       "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
-      "source": "KONTAN via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN01lbkNEZl9PV1R0ZWZocmtkY2NkQlR0S2ZRS3hYdFZTWGV2dnhXbzRkeFBqZWtjNmNzTDNhdUF5STN6SklybnM4aDNnUm4zSGt1a3RncUV1eUR1bVpySUNRNG8xbTduVWJqOVo2Yk5vSFN5QXdSUFNQYWg5SnhnMkFLLXFNajhKWGRRT19pSzlRZnhXTjNfRzE2Smwya3U2RmtfblpETmtYLU9HREJxaw?oc=5",
+      "source": "IDNFinancials via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc1lTbHNMWlNOMmt5X2x0aDRYZ1k5Ykx6ZlpGdHFFT3ZDR3dpcDFXcndwODFRQ2h6blU1dHF1M0s1TWk0Nmd6NXVUcWVzcFhUMFRDSWwzenNLY1VqWVpXd0lSNWZKY3FlTURuUWlMSEZONS1XeDNpbm9ZVjJaNFR1bjNxc2ViUXpBRmVHR0dQa2VzU2xRWEYtOFBpVTA0dnd1WFZ6cy11Nmc?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-10-30-668dd47ac5",
-      "date": "2026-10-30",
-      "topic": "Tech / AI",
-      "title": "Komdigi Siapkan Anak Muda Indonesia Timur Kuasai Teknologi AI",
-      "summary": "MetroTVNews.com surfaced this fresh item: Komdigi Siapkan Anak Muda Indonesia Timur Kuasai Teknologi AI. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-10-31-8c8d9d12e4",
+      "date": "2026-10-31",
+      "topic": "Markets",
+      "title": "Stabilitas Ekonomi dan Perlindungan Sosial Jadi Fokus di Tengah Tantangan Nasional",
+      "summary": "https://beritanasionalupdate.com/ surfaced this fresh item: Stabilitas Ekonomi dan Perlindungan Sosial Jadi Fokus di Tengah Tantangan Nasional. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.16,
+      "score": 0.05,
       "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "MetroTVNews.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOclROVVhOQ2w2ZjIxb3AwNDMwV2NEcmJlampQSmYwTlFsRzVGRFR0ZGRtX05IX19UVTg4cXFFUlFFZEJSNjIzOVZ6WHBTNG9UMWcxSWdrdE11RkdDd0hzR1VwV1ZsY09vdjk1T0Zubk8yVjZRdkZjMGRuazZVc0FUUzUyREdGSVhoeWZTVDV3aDg0TXNDb2s1aGtXMzB6My0wZnFVczB3?oc=5",
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
+      "source": "https://beritanasionalupdate.com/ via Google News RSS discovery",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObHdDRE9jc0RDMlgtb0hMS0VfX3VsOXFqNVpfT2Z6c0NmRnRGc0lqV2U5SGZoNlNIRzFQSWhEYTZpVHp4M2M1VEttYUZjVW1EV054UFJlbHFubjhfakdCa1diVE1GOU1TbFBLdEJHeGpWLU1XQi1KeTY1dnpQTTJoZG5WUzg1Z0hNTmEtZElYcVpKQ1FkNHBBRV84TURlV3FDemRvMU1YMjY2OTZwbDZBSjZDM3RxbzFEcWdmQ1ZVN2RkcHJvWDVGbFd2QTY2MUpwVDN3?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-10-30-5aca519b6e",
-      "date": "2026-10-30",
-      "topic": "Tech / AI",
-      "title": "TelkomGroup Perkuat Kolaborasi Pengembangan National AI Data Center Hub, Dukung Infrastruktur Digital AI-Ready Indonesia",
-      "summary": "Sorot News surfaced this fresh item: TelkomGroup Perkuat Kolaborasi Pengembangan National AI Data Center Hub, Dukung Infrastruktur Digital AI-Ready Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
+      "id": "2026-10-31-16669f925d",
+      "date": "2026-10-31",
+      "topic": "Markets",
+      "title": "Bos BEI: Bursa Saham Indonesia Paling Transparan di Dunia - Market",
+      "summary": "Bloomberg Technoz surfaced this fresh item: Bos BEI: Bursa Saham Indonesia Paling Transparan di Dunia - Market. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
       "sentiment": "Neutral",
-      "score": 0.16,
+      "score": 0.05,
       "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Sorot News via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQjVYQXNkLVpmaUxSZ0wzbWstb1JpUUNHb3RqRXYxMjVfMG9TTFVVc2JGUmJQUUdIWTkxbjJISXdVdDZrNUlYSUR2RnFHQUIzMDRPeW81azdESUhsVDR4bGo2OFZDd3NySWxQTXRFOG11aHF1d3lQQ09GZXVsNElNbTRib015T2I5c2lDdVBNMHcyWFd3dFEwWWxTYjY0UUVaV2FCMG9GdTZCU0pmQnRyZ2NCaVJQckduUXk3dlRXaTFsZEVuTnpWMGtvMmlsU0lrZEVfWk4tQ0JXQVVuODhaZ0tR?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-a9d5a96f31",
-      "date": "2026-10-30",
-      "topic": "Tech / AI",
-      "title": "Komdigi Dorong Manfaat AI Sampai Pelosok Indonesia",
-      "summary": "CNN Indonesia surfaced this fresh item: Komdigi Dorong Manfaat AI Sampai Pelosok Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "CNN Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ1dhS05pTGV1Ykc2QS0teFVrY3pBVG4tQzlnOVNHbTBqeVVaUjVNQkZHa2dVQVd2bExfUjBhZzBkaGEtOEE1VU5zSk9tUjZlTDFpUy1yam1obWdYOThJMGgxVzIzY0tFcnhDbV9jVlBWWGx4MHRvNXQ5eUJvaURlSlkwR0d3dmtNc2Z6ZE9KRGE2OVA5Q2tNV21SSE1Bc1p2TVdLZlBEczdOM0tDSEFsdjQ2NVlaZw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-d75c22b997",
-      "date": "2026-10-30",
-      "topic": "Tech / AI",
-      "title": "TelkomGroup Dorong Kolaborasi AI Data Center untuk Memperkuat Infrastruktur Digital AI-Ready Indonesia",
-      "summary": "Telkom Indonesia surfaced this fresh item: TelkomGroup Dorong Kolaborasi AI Data Center untuk Memperkuat Infrastruktur Digital AI-Ready Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "Telkom Indonesia via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZFlQZDlHd3RMS1lXdWI0cFM1Q3Z4cC1NQWFNS2JzSVRuRHhwM3A2MHBSQ1UwRVpETzBrTXlXZ201eGNwdVpjQnI3aTEza1BQdFpaZFc1V2szOWZKN0lKOV9ZaTNsMHR5QjFVc3BJRFE2eE9fbkZmMGY5WDE2cVlYMXgzRDItYmI5aGxIR2xpaEtSc29LZmVZMHlLSGZHcEpNVmlOWGYwd0NqckZUN25aTlIwWnVRUWRUSFZfdDFVd2VEdUxoUHdyT2VqRjB3amZNMWdZcm1JRkZnS3hDbDBlTXlLRFFGTWxjRU5Haw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-2d5787f465",
-      "date": "2026-10-30",
-      "topic": "Automotive / EV",
-      "title": "TVS Perluas Investasi dan Kembangkan Motor Listrik di Indonesia",
-      "summary": "Demokratis.co.id surfaced this fresh item: TVS Perluas Investasi dan Kembangkan Motor Listrik di Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
-      "source": "Demokratis.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55TG14RzB4U1BsSXNaMzBKVHN4VWZ1NS1fQXI5ZXZIdG9UYWVBcHNsb2ZOdVZDSzNlNTNRZUNoZkp2SWYxbVdlS1k3ZUdTU1R2YmMxY2hGWGQ2ZXRrSGxLNTVRTElIX2VFRHBCeg?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-a2b92a0f6f",
-      "date": "2026-10-30",
-      "topic": "Business / Investment",
-      "title": "Kerja Sama Indonesia–Tiongkok untuk PLTS 100 GW Perlu Perkuat Industri Dalam Negeri",
-      "summary": "IESR surfaced this fresh item: Kerja Sama Indonesia–Tiongkok untuk PLTS 100 GW Perlu Perkuat Industri Dalam Negeri. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "IESR via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU216SnhTZDJ1WWRuNnF5V1gwcGxSZHpBMzlNZWwtdFhocGlQc1RMcWl1dDZidEE5cW14cjd6R1lOYlMxYXFqUmdwaGF1c25sRXltZjJpY1JRWGhzay1RU1ZvVEJ4cXV4X3JIcHBmT0JNZ25zbVdoUDA1TXpaa1VJbklGVFI0cG1xSENOT1JiNFMzNHgwQld5bGtKa190aHgtcHNjM093?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-61992295a1",
-      "date": "2026-10-30",
-      "topic": "Business / Investment",
-      "title": "BCA Fasilitasi 12 UMKM Binaan Tembus Pasar Global melalui TEI 2026, Potensi Nilai Ekspor Naik 34,12% YoY",
-      "summary": "BCA.co.id surfaced this fresh item: BCA Fasilitasi 12 UMKM Binaan Tembus Pasar Global melalui TEI 2026, Potensi Nilai Ekspor Naik 34,12% YoY. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Impacts capex, FDI confidence, corporate earnings visibility, startup funding, and sector rotation into growth or defensive names.",
-      "source": "BCA.co.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMTEwb1gwYXJWdS1rOFBSVGVWTHVvSkpaUkxXR2F1NnlLZnFPei1wUVgwa3ptUFNFcmJYZ3lzeFdkaGpBWHRSeFQySUw4TUk4aVBtYmNLeVRMS05xcDVkcWlsUnhZb2pTM05yTTcwdEhDQ2pIZ290bXVUR0JfUjhKZFFSdVBabzM1VlRMOGVOMUo5UG1uNDY4LUY5VFp4cEtoUm80Z0VGS2plX3pLRFZoNnpTcDJFVGctYVIzVC0xS2d1b0hrMUZ2YnJOallZblZsTG9fUFFaOHF3M0FQaVZmaFJqNlBvc19EZGc?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-5eaa8bb9da",
-      "date": "2026-10-30",
-      "topic": "Infrastructure",
-      "title": "Catat Kinerja Positif, Pendapatan Usaha Jasa Marga Tumbuh 7,9 Persen",
-      "summary": "Tempo.co surfaced this fresh item: Catat Kinerja Positif, Pendapatan Usaha Jasa Marga Tumbuh 7,9 Persen. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "Tempo.co via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTGNJakpCb3pwaDQ5WkRwOW1yY3ZrejY2VXpwRFY0WnZNamVwYWM5bjkyWTNiQVM4cFByQXdDWnJaN1RsRXNxVVNHZXh1aFQ2MW9KdzAzLWliY05zdWMwVDBRYXd3YkVrRV9OODlhNXp2MGQ1TlQxSUVBY3pLVURTU3RHTnRmdHNQdUppT1poN2lmZmNHTXFHTWN1c2RlWXRuRnpMT1Biaw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-a8661e04f4",
-      "date": "2026-10-30",
-      "topic": "Infrastructure",
-      "title": "Pendapatan Jasa Marga Naik 7,9 Persen, Tembus Rp15,6 Triliun",
-      "summary": "konstruksimedia.com surfaced this fresh item: Pendapatan Jasa Marga Naik 7,9 Persen, Tembus Rp15,6 Triliun. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Supports logistics productivity, construction order books, property spillovers, and regional growth, with funding/execution risk to monitor.",
-      "source": "konstruksimedia.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZXNDb1NLWnh0SzNIbGN3bjdBTUx6ZENxVy0zU0tKLUlINUJaRFVDd0M4UjhTbmNjTGhWa05BSU9PVEVqdXdSVS11Q3JldE5rNzlESURTOEJ4c3pTeDlWQ1BxY2JaWlZxYmp4bFF3Z1pZZU5jYU1YM2FjQjJFbzV4cHBQdDI4ZXJ4WWo3QXlQSQ?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-92859d40e0",
-      "date": "2026-10-30",
-      "topic": "Startups",
-      "title": "Startup OS Keuangan AI Collective Meraih $100 Juta melalui Pendanaan Seri B dan Fasilitas Pertumbuhan",
-      "summary": "Unite.AI surfaced this fresh item: Startup OS Keuangan AI Collective Meraih $100 Juta melalui Pendanaan Seri B dan Fasilitas Pertumbuhan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
-      "source": "Unite.AI via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR195ZDRrdVhERzNWbUVnZFdHWjcwWGJHTE45djZGSkhka1l6WXlyRXlhT1pEVHJYeVJUYjFKODBwVXdNWUtlWVBLTG5TV3J1QXRNTVpIV0dUeXRwZzVCYzh4ZnkwbjZ4SHItcUdlNlczQzBVVkdmbHE0NXFGSzY0YUZWVE9HRFNXZDNpUXlYcGJSN0FyOEtjb0wyM1VoQXB2QUVYY1lvT25MZw?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-dbba795278",
-      "date": "2026-10-30",
-      "topic": "Startups",
-      "title": "Perkuat Akses Modal Startup Halal, Konsorsium I-HIVE Diluncurkan",
-      "summary": "youngster.id surfaced this fresh item: Perkuat Akses Modal Startup Halal, Konsorsium I-HIVE Diluncurkan. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.16,
-      "confidence": 0.68,
-      "impact": "Signals funding appetite, digital-consumer momentum, and monetization pressure across Indonesian technology ventures.",
-      "source": "youngster.id via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaDFRdmpabWNYbHBBZTNfUkJrUkwwcS1rSTlWNG96cWQzR2t1LUU5azdxWmhKaGE4OUlRdmNTSGdyeTlOV01kUGgyaW9LNlhRWDJMdG5LclQyX1owOVYwYzhlZ3JfaFZpeGxuZGNPVmQtSTZGUlhpWXprNWd3MWlxNTI5LXJmMEQ4TUE2UU1lek14ekVRTjc5eVJYUGM1T3B6RmZPanRNR0FCelctWGpVaDhkWTdGNHZQaG51NXo4ZG1ZSmo1T2xJ0gHHAUFVX3lxTFBoMVF2alptY1hscEFlM19SQmtSTDBxLWtJOVY0b3pxZDNHa3UtRTlrN3FaaEpoYTg5SVF2Y1NIZ3J5OU5XTWRQaDJpb0s2WFFYMkx0bktyVDJfWjA5VjBjOGVncl9oVml4bG5kY09WZC1JNkZSWGlZems1Z3cxaXE1MjktcmYwRDhNQTZRTWV6TXh6RVFONzl5UlhQYzVPcHpGZk9qdE1HQUJ6Vy1YalVoOGRZN0Y0dlBobnU1ejhkbVlKajVPbEk?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-31c53a6ea4",
-      "date": "2026-10-30",
-      "topic": "Regulation",
-      "title": "PT SIF Resmi Peroleh Izin Usaha Perusahaan Pembiayaan dari OJK",
-      "summary": "JPNN.com surfaced this fresh item: PT SIF Resmi Peroleh Izin Usaha Perusahaan Pembiayaan dari OJK. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "JPNN.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkhzcEg3dFZndEJCSmZWQlJSR2JxOGJkalo3Z0xqQXRmRkhYUlVjZFE3OFhiMFVyd1VLYlVkYXpTS0pTMGpoV1p1UUlYbzR1TnF6UExLQUtuVHUtYWwxei1tTFVMMkxpLTBZUEdCTTkweGRoMDVrZ3hCR3ZNS2RUY0tsVE9xTXBPTlRDelFVX1ZyMmVKUnJSY9IBlAFBVV95cUxPWGR4M2NUcnQwSGRGb0tscjMybnZwaWJkcC16U3NEdFgwYy1Cb3d3SEJMc0FtUk40X1BEQlVHMVY4SmVlbmVVZElLN0tSN3I1NmQ1NDJPZlZVVEVpcjY3UmRVSDFXYWkzZzFWUGRhbWpLQm9rRW1tbGoyWTYyMWRSRHlkWnBzY0EyVUl0b1BaSFBNUEU3?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-d6b992f836",
-      "date": "2026-10-30",
-      "topic": "Regulation",
-      "title": "Maybank Indonesia Raup Laba Sebelum Pajak Rp1,43 Triliun, Kredit Tumbuh 6,8%",
-      "summary": "Bisnis.com surfaced this fresh item: Maybank Indonesia Raup Laba Sebelum Pajak Rp1,43 Triliun, Kredit Tumbuh 6,8%. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.13,
-      "confidence": 0.68,
-      "impact": "Can reshape compliance costs, licensing speed, platform strategy, and investor confidence depending on implementation detail.",
-      "source": "Bisnis.com via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYmVLM1BhOV8yNE5OWGF1VzlHZ2RrSTZETTNkMllVTXVCcGQxNXlBYVRRc2N2OHlwYnhmc2JIekdTT1R6Q0pzbGdheG95bEZDemF3ZEVidTlWM0pqREFTZUh0SnMyaVNWUUZXajR2QTRyRUlvRGVpWkYzY1ZieXpYNkxYOUNfTEdHNzkxV0o0WkV4TGpva01iUEVPYzMyNjhxR213Z3I0Ukd1RTJqWndOOUZTejNVOUpRNFdyVzFzU2t6amRh?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-fe59d6cc48",
-      "date": "2026-10-30",
-      "topic": "Tech / AI",
-      "title": "TelkomGroup Gandeng PLN dan Danantara Kembangkan Hub Data Center AI, Perkuat Infrastruktur Digital Indonesia",
-      "summary": "InvestorTrust surfaced this fresh item: TelkomGroup Gandeng PLN dan Danantara Kembangkan Hub Data Center AI, Perkuat Infrastruktur Digital Indonesia. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Positive for AI adoption, cloud/data-center demand, cybersecurity, productivity, and digital talent; execution and policy clarity remain key gates.",
-      "source": "InvestorTrust via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONHh0OGFFX0hOSVNQc0JiT3g2eTQtMVQ2NDB4RzV3N28tWG43THM0ZXFmRFhUcjRBcjZuSTkzeGttenF5QlJYQlNQYzd3LVl2ZlRLbkRUQVZNWV9FSWxNYlRLYXpYX1ZyWFVRYWxrNl93ZWJkbDFmNU1ybWwxOE9qaDkzdVRjNERta0VRMkd5bUxsZ0NnRlBzc1NkOTZWa25IMC1KWVNKZ3V1YksxSEZkWUwwVEg0YlBzNXB6WE0tM1NON0JWc1RwbUxySnVBazlMTnBQaThadnpWbXROd2N1LVJR?oc=5",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-10-30-31913beb20",
-      "date": "2026-10-30",
-      "topic": "Automotive / EV",
-      "title": "Menyusuri Deretan Mobil dan Motor Listrik di PEVS 2026",
-      "summary": "Bloomberg Technoz surfaced this fresh item: Menyusuri Deretan Mobil dan Motor Listrik di PEVS 2026. Interpreted for Indonesia business, technology, policy, and investment impact; open the source for full context and intraday updates.",
-      "sentiment": "Neutral",
-      "score": 0.08,
-      "confidence": 0.68,
-      "impact": "Relevant for EV demand, charging utilization, battery/auto supply chains, nickel ecosystem sentiment, and consumer financing conditions.",
+      "impact": "Important for rupiah hedging, foreign flows, rate expectations, bond duration, and tactical IDX positioning under volatility.",
       "source": "Bloomberg Technoz via Google News RSS discovery",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTk4ySnFLZ1dYa0FUU1BDd0dDZ0FBeGdWdURkeW9VbHJWYkdlSWRkSU5NaFA3MHNjQ05WNlR5bkZWamNwa25MRmh1Tm14WGJFdEJHVzRyTm5WRmZnWmkzOGlUZVZ3c2tSNjBVci00LUR5WjNtTzJYZFV5V0FvZUQtQWlGWmlOSjR0WjQxNExqa21xT1lSNF9WWV9VdTNhZzE4OTZfRU1TNA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZjZPbEtPQVFicDdyeFY1dGMtR1ZVNTA3bUxoMG1ZMWxjRlpOdlNaaEVKZVFzM25uSUhNejI5NVkxb0lySEs2a1BPcGswVS1ydWxMUjVneW5VbGdVMFFNeXhjX3VadmlNX1lDZy1QU1NRZ2pEVHJPUzRSbUhHd1c2eC1jTG9yeThlcUFsa1B0b3FzLVk1Y25mSE1ydzEtYlRhU1hxQ0JEb3doeFpPQ25j?oc=5",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-10-31T07:00:25+07:00",
+    "generatedAt": "2026-11-01T07:00:24+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
@@ -668,6 +668,304 @@
         "view": "strongest IDR return screen"
       },
       {
+        "symbol": "USDIDR=X",
+        "label": "US Dollar",
+        "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
+        "pair": "USD",
+        "last": 18120.0,
+        "date": "2026-10-31",
+        "return1m": 1.1,
+        "return3m": 0.5,
+        "return6m": 4.67,
+        "return1y": 5.82,
+        "volatility": 7.65,
+        "maxDrawdown": -3.79,
+        "sparkline": [
+          {
+            "date": "2026-04-20",
+            "value": 17123.8008
+          },
+          {
+            "date": "2026-04-22",
+            "value": 17199.5
+          },
+          {
+            "date": "2026-04-26",
+            "value": 17246.0
+          },
+          {
+            "date": "2026-04-28",
+            "value": 17244.0
+          },
+          {
+            "date": "2026-04-30",
+            "value": 17311.0
+          },
+          {
+            "date": "2026-05-04",
+            "value": 17346.1992
+          },
+          {
+            "date": "2026-05-06",
+            "value": 17296.9004
+          },
+          {
+            "date": "2026-05-10",
+            "value": 17358.0
+          },
+          {
+            "date": "2026-05-12",
+            "value": 17549.0
+          },
+          {
+            "date": "2026-05-14",
+            "value": 17530.5996
+          },
+          {
+            "date": "2026-05-18",
+            "value": 17701.0
+          },
+          {
+            "date": "2026-05-20",
+            "value": 17658.4004
+          },
+          {
+            "date": "2026-05-24",
+            "value": 17692.0
+          },
+          {
+            "date": "2026-05-26",
+            "value": 17699.6992
+          },
+          {
+            "date": "2026-05-28",
+            "value": 17840.0
+          },
+          {
+            "date": "2026-06-01",
+            "value": 17864.0
+          },
+          {
+            "date": "2026-06-03",
+            "value": 18004.1992
+          },
+          {
+            "date": "2026-06-07",
+            "value": 18029.0
+          },
+          {
+            "date": "2026-06-09",
+            "value": 18031.0
+          },
+          {
+            "date": "2026-06-11",
+            "value": 17921.0
+          },
+          {
+            "date": "2026-06-15",
+            "value": 17716.0
+          },
+          {
+            "date": "2026-06-17",
+            "value": 17891.0
+          },
+          {
+            "date": "2026-06-21",
+            "value": 17788.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 17916.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 17995.0
+          },
+          {
+            "date": "2026-06-29",
+            "value": 17925.0
+          },
+          {
+            "date": "2026-07-01",
+            "value": 17998.0
+          },
+          {
+            "date": "2026-07-05",
+            "value": 17998.0
+          },
+          {
+            "date": "2026-07-07",
+            "value": 17979.0
+          },
+          {
+            "date": "2026-07-09",
+            "value": 18125.0
+          },
+          {
+            "date": "2026-07-13",
+            "value": 18111.0
+          },
+          {
+            "date": "2026-07-15",
+            "value": 18068.8008
+          },
+          {
+            "date": "2026-07-19",
+            "value": 17934.0
+          },
+          {
+            "date": "2026-07-21",
+            "value": 17911.0
+          },
+          {
+            "date": "2026-07-23",
+            "value": 17967.0
+          },
+          {
+            "date": "2026-07-27",
+            "value": 18053.0
+          },
+          {
+            "date": "2026-07-29",
+            "value": 18079.0
+          },
+          {
+            "date": "2026-08-02",
+            "value": 18030.0
+          },
+          {
+            "date": "2026-08-04",
+            "value": 17963.0
+          },
+          {
+            "date": "2026-08-06",
+            "value": 17912.0
+          },
+          {
+            "date": "2026-08-10",
+            "value": 17791.0
+          },
+          {
+            "date": "2026-08-12",
+            "value": 17853.0
+          },
+          {
+            "date": "2026-08-16",
+            "value": 17830.0
+          },
+          {
+            "date": "2026-08-18",
+            "value": 17768.5
+          },
+          {
+            "date": "2026-08-20",
+            "value": 17755.0
+          },
+          {
+            "date": "2026-08-24",
+            "value": 17714.5996
+          },
+          {
+            "date": "2026-08-26",
+            "value": 17778.0
+          },
+          {
+            "date": "2026-08-30",
+            "value": 17749.0
+          },
+          {
+            "date": "2026-09-01",
+            "value": 17697.1992
+          },
+          {
+            "date": "2026-09-03",
+            "value": 17618.0996
+          },
+          {
+            "date": "2026-09-07",
+            "value": 17664.0
+          },
+          {
+            "date": "2026-09-09",
+            "value": 17501.0
+          },
+          {
+            "date": "2026-09-13",
+            "value": 17630.0
+          },
+          {
+            "date": "2026-09-15",
+            "value": 17665.0
+          },
+          {
+            "date": "2026-09-17",
+            "value": 17757.0
+          },
+          {
+            "date": "2026-09-21",
+            "value": 17846.0
+          },
+          {
+            "date": "2026-09-23",
+            "value": 17837.3008
+          },
+          {
+            "date": "2026-09-27",
+            "value": 17950.0
+          },
+          {
+            "date": "2026-09-29",
+            "value": 17736.4004
+          },
+          {
+            "date": "2026-10-01",
+            "value": 17922.8008
+          },
+          {
+            "date": "2026-10-05",
+            "value": 17887.9004
+          },
+          {
+            "date": "2026-10-07",
+            "value": 17877.5
+          },
+          {
+            "date": "2026-10-11",
+            "value": 17910.0
+          },
+          {
+            "date": "2026-10-13",
+            "value": 17866.5
+          },
+          {
+            "date": "2026-10-15",
+            "value": 18020.0996
+          },
+          {
+            "date": "2026-10-19",
+            "value": 18041.0
+          },
+          {
+            "date": "2026-10-21",
+            "value": 18008.0
+          },
+          {
+            "date": "2026-10-26",
+            "value": 18081.0
+          },
+          {
+            "date": "2026-10-28",
+            "value": 18139.5
+          },
+          {
+            "date": "2026-10-30",
+            "value": 18070.4004
+          }
+        ],
+        "profitScore": 1.89,
+        "view": "strongest IDR return screen"
+      },
+      {
         "symbol": "SGDIDR=X",
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
@@ -963,304 +1261,6 @@
           }
         ],
         "profitScore": 1.61,
-        "view": "strongest IDR return screen"
-      },
-      {
-        "symbol": "USDIDR=X",
-        "label": "US Dollar",
-        "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
-        "pair": "USD",
-        "last": 18070.4004,
-        "date": "2026-10-30",
-        "return1m": 1.04,
-        "return3m": 0.17,
-        "return6m": 4.25,
-        "return1y": 5.47,
-        "volatility": 7.65,
-        "maxDrawdown": -3.79,
-        "sparkline": [
-          {
-            "date": "2026-04-19",
-            "value": 17133.0
-          },
-          {
-            "date": "2026-04-21",
-            "value": 17133.0996
-          },
-          {
-            "date": "2026-04-23",
-            "value": 17329.0
-          },
-          {
-            "date": "2026-04-27",
-            "value": 17216.0
-          },
-          {
-            "date": "2026-04-29",
-            "value": 17334.1992
-          },
-          {
-            "date": "2026-05-03",
-            "value": 17288.5
-          },
-          {
-            "date": "2026-05-05",
-            "value": 17389.8008
-          },
-          {
-            "date": "2026-05-07",
-            "value": 17294.9004
-          },
-          {
-            "date": "2026-05-11",
-            "value": 17413.0
-          },
-          {
-            "date": "2026-05-13",
-            "value": 17500.0
-          },
-          {
-            "date": "2026-05-17",
-            "value": 17586.0
-          },
-          {
-            "date": "2026-05-19",
-            "value": 17777.0
-          },
-          {
-            "date": "2026-05-21",
-            "value": 17692.0
-          },
-          {
-            "date": "2026-05-25",
-            "value": 17762.0
-          },
-          {
-            "date": "2026-05-27",
-            "value": 17804.0
-          },
-          {
-            "date": "2026-05-31",
-            "value": 17817.0
-          },
-          {
-            "date": "2026-06-02",
-            "value": 17858.0
-          },
-          {
-            "date": "2026-06-04",
-            "value": 17955.5
-          },
-          {
-            "date": "2026-06-08",
-            "value": 18190.3008
-          },
-          {
-            "date": "2026-06-10",
-            "value": 17875.9004
-          },
-          {
-            "date": "2026-06-14",
-            "value": 17772.0
-          },
-          {
-            "date": "2026-06-16",
-            "value": 17730.0
-          },
-          {
-            "date": "2026-06-18",
-            "value": 17794.4004
-          },
-          {
-            "date": "2026-06-22",
-            "value": 17862.0
-          },
-          {
-            "date": "2026-06-24",
-            "value": 17990.0
-          },
-          {
-            "date": "2026-06-28",
-            "value": 17830.0
-          },
-          {
-            "date": "2026-06-30",
-            "value": 17935.0
-          },
-          {
-            "date": "2026-07-02",
-            "value": 17787.9004
-          },
-          {
-            "date": "2026-07-06",
-            "value": 18046.0
-          },
-          {
-            "date": "2026-07-08",
-            "value": 18125.0
-          },
-          {
-            "date": "2026-07-12",
-            "value": 18065.0
-          },
-          {
-            "date": "2026-07-14",
-            "value": 18157.0
-          },
-          {
-            "date": "2026-07-16",
-            "value": 17985.0
-          },
-          {
-            "date": "2026-07-20",
-            "value": 17931.0
-          },
-          {
-            "date": "2026-07-22",
-            "value": 17917.0
-          },
-          {
-            "date": "2026-07-26",
-            "value": 17958.0
-          },
-          {
-            "date": "2026-07-28",
-            "value": 18053.0
-          },
-          {
-            "date": "2026-07-30",
-            "value": 18040.0996
-          },
-          {
-            "date": "2026-08-03",
-            "value": 17963.3008
-          },
-          {
-            "date": "2026-08-05",
-            "value": 17873.0
-          },
-          {
-            "date": "2026-08-09",
-            "value": 17794.0
-          },
-          {
-            "date": "2026-08-11",
-            "value": 17822.0
-          },
-          {
-            "date": "2026-08-13",
-            "value": 17863.0
-          },
-          {
-            "date": "2026-08-17",
-            "value": 17824.0
-          },
-          {
-            "date": "2026-08-19",
-            "value": 17807.0
-          },
-          {
-            "date": "2026-08-23",
-            "value": 17655.0
-          },
-          {
-            "date": "2026-08-25",
-            "value": 17695.0
-          },
-          {
-            "date": "2026-08-27",
-            "value": 17749.0
-          },
-          {
-            "date": "2026-08-31",
-            "value": 17689.9004
-          },
-          {
-            "date": "2026-09-02",
-            "value": 17723.0
-          },
-          {
-            "date": "2026-09-06",
-            "value": 17638.0
-          },
-          {
-            "date": "2026-09-08",
-            "value": 17588.0
-          },
-          {
-            "date": "2026-09-10",
-            "value": 17588.0996
-          },
-          {
-            "date": "2026-09-14",
-            "value": 17636.0
-          },
-          {
-            "date": "2026-09-16",
-            "value": 17718.0
-          },
-          {
-            "date": "2026-09-20",
-            "value": 17806.0
-          },
-          {
-            "date": "2026-09-22",
-            "value": 17805.0
-          },
-          {
-            "date": "2026-09-24",
-            "value": 17559.5
-          },
-          {
-            "date": "2026-09-28",
-            "value": 17980.3008
-          },
-          {
-            "date": "2026-09-30",
-            "value": 17884.8008
-          },
-          {
-            "date": "2026-10-04",
-            "value": 17909.0
-          },
-          {
-            "date": "2026-10-06",
-            "value": 17829.0
-          },
-          {
-            "date": "2026-10-08",
-            "value": 17807.5
-          },
-          {
-            "date": "2026-10-12",
-            "value": 17913.0
-          },
-          {
-            "date": "2026-10-14",
-            "value": 17823.6992
-          },
-          {
-            "date": "2026-10-18",
-            "value": 18056.0
-          },
-          {
-            "date": "2026-10-20",
-            "value": 17985.4004
-          },
-          {
-            "date": "2026-10-22",
-            "value": 18053.0
-          },
-          {
-            "date": "2026-10-27",
-            "value": 18144.0
-          },
-          {
-            "date": "2026-10-29",
-            "value": 18065.4004
-          }
-        ],
-        "profitScore": 1.57,
         "view": "strongest IDR return screen"
       },
       {
@@ -1566,8 +1566,8 @@
         "label": "Chinese Yuan",
         "useCase": "China trade, imports, and commodity demand proxy",
         "pair": "CNY",
-        "last": 2726.0,
-        "date": "2026-10-30",
+        "last": 2723.3,
+        "date": "2026-10-31",
         "return1m": 0.0,
         "return3m": 0.0,
         "return6m": 0.0,
@@ -1576,8 +1576,8 @@
         "maxDrawdown": 0,
         "sparkline": [
           {
-            "date": "2026-10-30",
-            "value": 2726.0
+            "date": "2026-10-31",
+            "value": 2723.3
           }
         ],
         "profitScore": 0.0,
@@ -2199,18 +2199,10 @@
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
       {
-        "ticker": "TLKM",
-        "name": "Telkom Indonesia",
-        "theme": "Digital infrastructure",
-        "opportunityScore": 75,
-        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
-        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
-      },
-      {
         "ticker": "ANTM",
         "name": "Aneka Tambang",
         "theme": "Nickel / EV supply chain",
-        "opportunityScore": 71,
+        "opportunityScore": 75,
         "rationale": "Linked to battery metals and EV headlines; commodity and policy volatility can be high.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2218,7 +2210,7 @@
         "ticker": "ASII",
         "name": "Astra International",
         "theme": "Automotive / diversified consumer",
-        "opportunityScore": 71,
+        "opportunityScore": 75,
         "rationale": "Reads through to vehicle demand, financing, and commodity subsidiaries.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2226,8 +2218,16 @@
         "ticker": "JSMR",
         "name": "Jasa Marga",
         "theme": "Infrastructure / toll roads",
-        "opportunityScore": 63,
+        "opportunityScore": 75,
         "rationale": "Potential beneficiary of toll-road traffic and tariff narratives; leverage and capex are watchpoints.",
+        "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
+      },
+      {
+        "ticker": "TLKM",
+        "name": "Telkom Indonesia",
+        "theme": "Digital infrastructure",
+        "opportunityScore": 71,
+        "rationale": "Data-center, connectivity, and enterprise digitization exposure; execution and competition remain key.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       }
     ],
@@ -2238,21 +2238,17 @@
         "name": "Eli Lilly",
         "sector": "Healthcare",
         "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-        "last": 1373.7,
-        "date": "2026-10-29",
-        "return1m": 18.72,
-        "return3m": 13.53,
-        "return6m": 49.7,
-        "return1y": 66.22,
-        "volatility": 35.41,
+        "last": 1417.54,
+        "date": "2026-10-30",
+        "return1m": 23.28,
+        "return3m": 22.73,
+        "return6m": 60.36,
+        "return1y": 71.53,
+        "volatility": 35.46,
         "maxDrawdown": -23.31,
-        "opportunityScore": 92.1,
+        "opportunityScore": 100,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 1073.29
-          },
           {
             "date": "2026-01-16",
             "value": 1038.4
@@ -2648,6 +2644,10 @@
           {
             "date": "2026-10-28",
             "value": 1288.3
+          },
+          {
+            "date": "2026-10-30",
+            "value": 1417.54
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"
@@ -2657,21 +2657,17 @@
         "name": "Exxon Mobil",
         "sector": "Energy",
         "thesis": "Cash generation and diversification when energy prices support the cycle.",
-        "last": 183.29,
-        "date": "2026-10-29",
-        "return1m": 12.62,
-        "return3m": 16.93,
-        "return6m": 21.76,
-        "return1y": 58.09,
-        "volatility": 26.1,
+        "last": 187.25,
+        "date": "2026-10-30",
+        "return1m": 14.3,
+        "return3m": 19.29,
+        "return6m": 25.75,
+        "return1y": 61.51,
+        "volatility": 26.13,
         "maxDrawdown": -20.65,
-        "opportunityScore": 78.5,
+        "opportunityScore": 82.6,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 130.2
-          },
           {
             "date": "2026-01-16",
             "value": 129.89
@@ -3067,6 +3063,10 @@
           {
             "date": "2026-10-28",
             "value": 182.02
+          },
+          {
+            "date": "2026-10-30",
+            "value": 187.25
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-XOM/"
@@ -3076,21 +3076,17 @@
         "name": "Visa",
         "sector": "Payments",
         "thesis": "Global electronic-payment volume and high-margin network economics.",
-        "last": 410.54,
-        "date": "2026-10-29",
-        "return1m": 14.25,
-        "return3m": 11.34,
-        "return6m": 32.91,
-        "return1y": 18.03,
-        "volatility": 22.23,
+        "last": 413.59,
+        "date": "2026-10-30",
+        "return1m": 14.93,
+        "return3m": 12.92,
+        "return6m": 33.67,
+        "return1y": 18.91,
+        "volatility": 22.2,
         "maxDrawdown": -17.35,
-        "opportunityScore": 72.1,
+        "opportunityScore": 73.5,
         "risk": "Lower",
         "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 329.17
-          },
           {
             "date": "2026-01-16",
             "value": 328.3
@@ -3486,449 +3482,30 @@
           {
             "date": "2026-10-28",
             "value": 400.6
+          },
+          {
+            "date": "2026-10-30",
+            "value": 413.59
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-V/"
-      },
-      {
-        "symbol": "MSFT",
-        "name": "Microsoft",
-        "sector": "Software / cloud",
-        "thesis": "Azure, enterprise software, and AI monetization exposure.",
-        "last": 530.14,
-        "date": "2026-10-29",
-        "return1m": 3.36,
-        "return3m": 35.75,
-        "return6m": 27.51,
-        "return1y": -0.26,
-        "volatility": 32.8,
-        "maxDrawdown": -34.91,
-        "opportunityScore": 68.0,
-        "risk": "High",
-        "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 459.38
-          },
-          {
-            "date": "2026-01-16",
-            "value": 459.86
-          },
-          {
-            "date": "2026-01-21",
-            "value": 444.11
-          },
-          {
-            "date": "2026-01-23",
-            "value": 465.95
-          },
-          {
-            "date": "2026-01-27",
-            "value": 480.58
-          },
-          {
-            "date": "2026-01-29",
-            "value": 433.5
-          },
-          {
-            "date": "2026-02-02",
-            "value": 423.37
-          },
-          {
-            "date": "2026-02-04",
-            "value": 414.19
-          },
-          {
-            "date": "2026-02-06",
-            "value": 401.14
-          },
-          {
-            "date": "2026-02-10",
-            "value": 413.27
-          },
-          {
-            "date": "2026-02-12",
-            "value": 401.84
-          },
-          {
-            "date": "2026-02-17",
-            "value": 396.86
-          },
-          {
-            "date": "2026-02-19",
-            "value": 398.46
-          },
-          {
-            "date": "2026-02-23",
-            "value": 384.47
-          },
-          {
-            "date": "2026-02-25",
-            "value": 400.6
-          },
-          {
-            "date": "2026-02-27",
-            "value": 392.74
-          },
-          {
-            "date": "2026-03-03",
-            "value": 403.93
-          },
-          {
-            "date": "2026-03-05",
-            "value": 410.68
-          },
-          {
-            "date": "2026-03-09",
-            "value": 409.41
-          },
-          {
-            "date": "2026-03-11",
-            "value": 404.88
-          },
-          {
-            "date": "2026-03-13",
-            "value": 395.55
-          },
-          {
-            "date": "2026-03-17",
-            "value": 399.41
-          },
-          {
-            "date": "2026-03-19",
-            "value": 389.02
-          },
-          {
-            "date": "2026-03-23",
-            "value": 383.0
-          },
-          {
-            "date": "2026-03-25",
-            "value": 371.04
-          },
-          {
-            "date": "2026-03-27",
-            "value": 356.77
-          },
-          {
-            "date": "2026-03-31",
-            "value": 370.17
-          },
-          {
-            "date": "2026-04-02",
-            "value": 373.46
-          },
-          {
-            "date": "2026-04-07",
-            "value": 372.29
-          },
-          {
-            "date": "2026-04-09",
-            "value": 373.07
-          },
-          {
-            "date": "2026-04-13",
-            "value": 384.37
-          },
-          {
-            "date": "2026-04-15",
-            "value": 411.22
-          },
-          {
-            "date": "2026-04-17",
-            "value": 422.79
-          },
-          {
-            "date": "2026-04-21",
-            "value": 424.16
-          },
-          {
-            "date": "2026-04-23",
-            "value": 415.75
-          },
-          {
-            "date": "2026-04-27",
-            "value": 424.82
-          },
-          {
-            "date": "2026-04-29",
-            "value": 424.46
-          },
-          {
-            "date": "2026-05-01",
-            "value": 414.44
-          },
-          {
-            "date": "2026-05-05",
-            "value": 411.38
-          },
-          {
-            "date": "2026-05-07",
-            "value": 420.77
-          },
-          {
-            "date": "2026-05-11",
-            "value": 412.66
-          },
-          {
-            "date": "2026-05-13",
-            "value": 405.21
-          },
-          {
-            "date": "2026-05-15",
-            "value": 421.92
-          },
-          {
-            "date": "2026-05-19",
-            "value": 417.42
-          },
-          {
-            "date": "2026-05-21",
-            "value": 419.09
-          },
-          {
-            "date": "2026-05-26",
-            "value": 416.03
-          },
-          {
-            "date": "2026-05-28",
-            "value": 426.99
-          },
-          {
-            "date": "2026-06-01",
-            "value": 460.52
-          },
-          {
-            "date": "2026-06-03",
-            "value": 427.34
-          },
-          {
-            "date": "2026-06-05",
-            "value": 416.67
-          },
-          {
-            "date": "2026-06-09",
-            "value": 403.41
-          },
-          {
-            "date": "2026-06-11",
-            "value": 390.34
-          },
-          {
-            "date": "2026-06-15",
-            "value": 399.76
-          },
-          {
-            "date": "2026-06-17",
-            "value": 378.91
-          },
-          {
-            "date": "2026-06-22",
-            "value": 367.34
-          },
-          {
-            "date": "2026-06-24",
-            "value": 365.46
-          },
-          {
-            "date": "2026-06-26",
-            "value": 372.97
-          },
-          {
-            "date": "2026-06-30",
-            "value": 373.02
-          },
-          {
-            "date": "2026-07-02",
-            "value": 390.49
-          },
-          {
-            "date": "2026-07-07",
-            "value": 388.84
-          },
-          {
-            "date": "2026-07-09",
-            "value": 384.36
-          },
-          {
-            "date": "2026-07-13",
-            "value": 390.99
-          },
-          {
-            "date": "2026-07-15",
-            "value": 395.63
-          },
-          {
-            "date": "2026-07-17",
-            "value": 393.82
-          },
-          {
-            "date": "2026-07-21",
-            "value": 397.75
-          },
-          {
-            "date": "2026-07-23",
-            "value": 381.58
-          },
-          {
-            "date": "2026-07-27",
-            "value": 389.1
-          },
-          {
-            "date": "2026-07-29",
-            "value": 390.54
-          },
-          {
-            "date": "2026-07-31",
-            "value": 464.72
-          },
-          {
-            "date": "2026-08-04",
-            "value": 492.81
-          },
-          {
-            "date": "2026-08-06",
-            "value": 499.86
-          },
-          {
-            "date": "2026-08-10",
-            "value": 506.06
-          },
-          {
-            "date": "2026-08-12",
-            "value": 492.43
-          },
-          {
-            "date": "2026-08-14",
-            "value": 495.4
-          },
-          {
-            "date": "2026-08-18",
-            "value": 481.63
-          },
-          {
-            "date": "2026-08-20",
-            "value": 481.15
-          },
-          {
-            "date": "2026-08-24",
-            "value": 487.31
-          },
-          {
-            "date": "2026-08-26",
-            "value": 496.37
-          },
-          {
-            "date": "2026-08-28",
-            "value": 513.53
-          },
-          {
-            "date": "2026-09-01",
-            "value": 501.02
-          },
-          {
-            "date": "2026-09-03",
-            "value": 510.12
-          },
-          {
-            "date": "2026-09-08",
-            "value": 493.95
-          },
-          {
-            "date": "2026-09-10",
-            "value": 492.44
-          },
-          {
-            "date": "2026-09-14",
-            "value": 505.41
-          },
-          {
-            "date": "2026-09-16",
-            "value": 490.3
-          },
-          {
-            "date": "2026-09-18",
-            "value": 493.78
-          },
-          {
-            "date": "2026-09-22",
-            "value": 498.0
-          },
-          {
-            "date": "2026-09-24",
-            "value": 497.93
-          },
-          {
-            "date": "2026-09-28",
-            "value": 509.22
-          },
-          {
-            "date": "2026-09-30",
-            "value": 512.9
-          },
-          {
-            "date": "2026-10-02",
-            "value": 517.53
-          },
-          {
-            "date": "2026-10-06",
-            "value": 529.3
-          },
-          {
-            "date": "2026-10-08",
-            "value": 522.61
-          },
-          {
-            "date": "2026-10-12",
-            "value": 541.15
-          },
-          {
-            "date": "2026-10-14",
-            "value": 533.69
-          },
-          {
-            "date": "2026-10-16",
-            "value": 529.05
-          },
-          {
-            "date": "2026-10-20",
-            "value": 531.87
-          },
-          {
-            "date": "2026-10-22",
-            "value": 521.08
-          },
-          {
-            "date": "2026-10-26",
-            "value": 532.6
-          },
-          {
-            "date": "2026-10-28",
-            "value": 531.01
-          }
-        ],
-        "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-MSFT/"
       },
       {
         "symbol": "AAPL",
         "name": "Apple",
         "sector": "Consumer technology",
         "thesis": "Installed-base monetization, services, and premium-device ecosystem.",
-        "last": 348.91,
-        "date": "2026-10-29",
-        "return1m": 4.77,
-        "return3m": 3.17,
-        "return6m": 27.6,
-        "return1y": 29.8,
-        "volatility": 23.91,
+        "last": 344.63,
+        "date": "2026-10-30",
+        "return1m": 4.33,
+        "return3m": 3.36,
+        "return6m": 27.14,
+        "return1y": 28.21,
+        "volatility": 23.9,
         "maxDrawdown": -13.82,
-        "opportunityScore": 67.9,
+        "opportunityScore": 67.2,
         "risk": "Lower",
         "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 259.96
-          },
           {
             "date": "2026-01-16",
             "value": 255.53
@@ -4324,868 +3901,449 @@
           {
             "date": "2026-10-28",
             "value": 343.83
+          },
+          {
+            "date": "2026-10-30",
+            "value": 344.63
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AAPL/"
       },
       {
-        "symbol": "JPM",
-        "name": "JPMorgan Chase",
-        "sector": "Financials",
-        "thesis": "Scale, diversified earnings, and strong balance-sheet execution.",
-        "last": 343.58,
-        "date": "2026-10-29",
-        "return1m": 3.85,
-        "return3m": -0.33,
-        "return6m": 10.23,
-        "return1y": 12.96,
-        "volatility": 21.89,
-        "maxDrawdown": -15.47,
-        "opportunityScore": 53.5,
-        "risk": "Lower",
+        "symbol": "MSFT",
+        "name": "Microsoft",
+        "sector": "Software / cloud",
+        "thesis": "Azure, enterprise software, and AI monetization exposure.",
+        "last": 521.91,
+        "date": "2026-10-30",
+        "return1m": 1.78,
+        "return3m": 15.7,
+        "return6m": 22.91,
+        "return1y": -1.81,
+        "volatility": 32.77,
+        "maxDrawdown": -34.91,
+        "opportunityScore": 57.0,
+        "risk": "High",
         "sparkline": [
           {
-            "date": "2026-01-14",
-            "value": 307.87
-          },
-          {
             "date": "2026-01-16",
-            "value": 312.47
+            "value": 459.86
           },
           {
             "date": "2026-01-21",
-            "value": 302.04
+            "value": 444.11
           },
           {
             "date": "2026-01-23",
-            "value": 297.72
+            "value": 465.95
           },
           {
             "date": "2026-01-27",
-            "value": 300.31
+            "value": 480.58
           },
           {
             "date": "2026-01-29",
-            "value": 306.42
+            "value": 433.5
           },
           {
             "date": "2026-02-02",
-            "value": 308.14
+            "value": 423.37
           },
           {
             "date": "2026-02-04",
-            "value": 317.27
+            "value": 414.19
           },
           {
             "date": "2026-02-06",
-            "value": 322.4
+            "value": 401.14
           },
           {
             "date": "2026-02-10",
-            "value": 318.28
+            "value": 413.27
           },
           {
             "date": "2026-02-12",
-            "value": 302.64
+            "value": 401.84
           },
           {
             "date": "2026-02-17",
-            "value": 307.13
+            "value": 396.86
           },
           {
             "date": "2026-02-19",
-            "value": 308.05
+            "value": 398.46
           },
           {
             "date": "2026-02-23",
-            "value": 297.67
+            "value": 384.47
           },
           {
             "date": "2026-02-25",
-            "value": 303.3
+            "value": 400.6
           },
           {
             "date": "2026-02-27",
-            "value": 300.3
+            "value": 392.74
           },
           {
             "date": "2026-03-03",
-            "value": 300.26
+            "value": 403.93
           },
           {
             "date": "2026-03-05",
-            "value": 293.55
+            "value": 410.68
           },
           {
             "date": "2026-03-09",
-            "value": 289.92
+            "value": 409.41
           },
           {
             "date": "2026-03-11",
-            "value": 287.52
+            "value": 404.88
           },
           {
             "date": "2026-03-13",
-            "value": 283.44
+            "value": 395.55
           },
           {
             "date": "2026-03-17",
-            "value": 286.89
+            "value": 399.41
           },
           {
             "date": "2026-03-19",
-            "value": 287.97
+            "value": 389.02
           },
           {
             "date": "2026-03-23",
-            "value": 289.91
+            "value": 383.0
           },
           {
             "date": "2026-03-25",
-            "value": 295.42
+            "value": 371.04
           },
           {
             "date": "2026-03-27",
-            "value": 282.84
+            "value": 356.77
           },
           {
             "date": "2026-03-31",
-            "value": 294.16
+            "value": 370.17
           },
           {
             "date": "2026-04-02",
-            "value": 294.6
+            "value": 373.46
           },
           {
             "date": "2026-04-07",
-            "value": 297.4
+            "value": 372.29
           },
           {
             "date": "2026-04-09",
-            "value": 310.33
+            "value": 373.07
           },
           {
             "date": "2026-04-13",
-            "value": 313.68
+            "value": 384.37
           },
           {
             "date": "2026-04-15",
-            "value": 305.93
+            "value": 411.22
           },
           {
             "date": "2026-04-17",
-            "value": 310.29
+            "value": 422.79
           },
           {
             "date": "2026-04-21",
-            "value": 313.0
+            "value": 424.16
           },
           {
             "date": "2026-04-23",
-            "value": 311.69
+            "value": 415.75
           },
           {
             "date": "2026-04-27",
-            "value": 311.63
+            "value": 424.82
           },
           {
             "date": "2026-04-29",
-            "value": 309.25
+            "value": 424.46
           },
           {
             "date": "2026-05-01",
-            "value": 312.47
+            "value": 414.44
           },
           {
             "date": "2026-05-05",
-            "value": 309.4
+            "value": 411.38
           },
           {
             "date": "2026-05-07",
-            "value": 306.27
+            "value": 420.77
           },
           {
             "date": "2026-05-11",
-            "value": 300.0
+            "value": 412.66
           },
           {
             "date": "2026-05-13",
-            "value": 300.25
+            "value": 405.21
           },
           {
             "date": "2026-05-15",
-            "value": 297.81
+            "value": 421.92
           },
           {
             "date": "2026-05-19",
-            "value": 295.7
+            "value": 417.42
           },
           {
             "date": "2026-05-21",
-            "value": 303.0
+            "value": 419.09
           },
           {
             "date": "2026-05-26",
-            "value": 306.74
+            "value": 416.03
           },
           {
             "date": "2026-05-28",
-            "value": 296.73
+            "value": 426.99
           },
           {
             "date": "2026-06-01",
-            "value": 296.58
+            "value": 460.52
           },
           {
             "date": "2026-06-03",
-            "value": 300.85
+            "value": 427.34
           },
           {
             "date": "2026-06-05",
-            "value": 312.37
+            "value": 416.67
           },
           {
             "date": "2026-06-09",
-            "value": 312.7
+            "value": 403.41
           },
           {
             "date": "2026-06-11",
-            "value": 313.49
+            "value": 390.34
           },
           {
             "date": "2026-06-15",
-            "value": 319.4
+            "value": 399.76
           },
           {
             "date": "2026-06-17",
-            "value": 333.46
+            "value": 378.91
           },
           {
             "date": "2026-06-22",
-            "value": 331.48
+            "value": 367.34
           },
           {
             "date": "2026-06-24",
-            "value": 333.45
+            "value": 365.46
           },
           {
             "date": "2026-06-26",
-            "value": 329.05
+            "value": 372.97
           },
           {
             "date": "2026-06-30",
-            "value": 327.33
+            "value": 373.02
           },
           {
             "date": "2026-07-02",
-            "value": 334.47
+            "value": 390.49
           },
           {
             "date": "2026-07-07",
-            "value": 339.22
+            "value": 388.84
           },
           {
             "date": "2026-07-09",
-            "value": 335.47
+            "value": 384.36
           },
           {
             "date": "2026-07-13",
-            "value": 334.53
+            "value": 390.99
           },
           {
             "date": "2026-07-15",
-            "value": 346.91
+            "value": 395.63
           },
           {
             "date": "2026-07-17",
-            "value": 341.1
+            "value": 393.82
           },
           {
             "date": "2026-07-21",
-            "value": 345.23
+            "value": 397.75
           },
           {
             "date": "2026-07-23",
-            "value": 349.9
+            "value": 381.58
           },
           {
             "date": "2026-07-27",
-            "value": 356.2
+            "value": 389.1
           },
           {
             "date": "2026-07-29",
-            "value": 344.71
+            "value": 390.54
           },
           {
             "date": "2026-07-31",
-            "value": 351.79
+            "value": 464.72
           },
           {
             "date": "2026-08-04",
-            "value": 357.52
+            "value": 492.81
           },
           {
             "date": "2026-08-06",
-            "value": 356.3
+            "value": 499.86
           },
           {
             "date": "2026-08-10",
-            "value": 359.79
+            "value": 506.06
           },
           {
             "date": "2026-08-12",
-            "value": 365.18
+            "value": 492.43
           },
           {
             "date": "2026-08-14",
-            "value": 362.84
+            "value": 495.4
           },
           {
             "date": "2026-08-18",
-            "value": 363.25
+            "value": 481.63
           },
           {
             "date": "2026-08-20",
-            "value": 351.55
+            "value": 481.15
           },
           {
             "date": "2026-08-24",
-            "value": 356.39
+            "value": 487.31
           },
           {
             "date": "2026-08-26",
-            "value": 356.5
+            "value": 496.37
           },
           {
             "date": "2026-08-28",
-            "value": 357.62
+            "value": 513.53
           },
           {
             "date": "2026-09-01",
-            "value": 354.95
+            "value": 501.02
           },
           {
             "date": "2026-09-03",
-            "value": 362.06
+            "value": 510.12
           },
           {
             "date": "2026-09-08",
-            "value": 353.51
+            "value": 493.95
           },
           {
             "date": "2026-09-10",
-            "value": 353.56
+            "value": 492.44
           },
           {
             "date": "2026-09-14",
-            "value": 350.13
+            "value": 505.41
           },
           {
             "date": "2026-09-16",
-            "value": 348.92
+            "value": 490.3
           },
           {
             "date": "2026-09-18",
-            "value": 349.67
+            "value": 493.78
           },
           {
             "date": "2026-09-22",
-            "value": 340.0
+            "value": 498.0
           },
           {
             "date": "2026-09-24",
-            "value": 338.56
+            "value": 497.93
           },
           {
             "date": "2026-09-28",
-            "value": 336.59
+            "value": 509.22
           },
           {
             "date": "2026-09-30",
-            "value": 330.83
+            "value": 512.9
           },
           {
             "date": "2026-10-02",
-            "value": 332.38
+            "value": 517.53
           },
           {
             "date": "2026-10-06",
-            "value": 331.28
+            "value": 529.3
           },
           {
             "date": "2026-10-08",
-            "value": 331.42
+            "value": 522.61
           },
           {
             "date": "2026-10-12",
-            "value": 334.3
+            "value": 541.15
           },
           {
             "date": "2026-10-14",
-            "value": 335.28
+            "value": 533.69
           },
           {
             "date": "2026-10-16",
-            "value": 339.72
+            "value": 529.05
           },
           {
             "date": "2026-10-20",
-            "value": 335.26
+            "value": 531.87
           },
           {
             "date": "2026-10-22",
-            "value": 336.54
+            "value": 521.08
           },
           {
             "date": "2026-10-26",
-            "value": 334.04
+            "value": 532.6
           },
           {
             "date": "2026-10-28",
-            "value": 339.3
+            "value": 531.01
+          },
+          {
+            "date": "2026-10-30",
+            "value": 521.91
           }
         ],
-        "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-JPM/"
-      },
-      {
-        "symbol": "NVDA",
-        "name": "NVIDIA",
-        "sector": "Semiconductors / AI",
-        "thesis": "AI accelerator leadership with high growth and valuation sensitivity.",
-        "last": 213.66,
-        "date": "2026-10-29",
-        "return1m": -6.45,
-        "return3m": 12.45,
-        "return6m": 7.02,
-        "return1y": 11.58,
-        "volatility": 37.4,
-        "maxDrawdown": -20.22,
-        "opportunityScore": 51.9,
-        "risk": "Moderate",
-        "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 183.14
-          },
-          {
-            "date": "2026-01-16",
-            "value": 186.23
-          },
-          {
-            "date": "2026-01-21",
-            "value": 183.32
-          },
-          {
-            "date": "2026-01-23",
-            "value": 187.67
-          },
-          {
-            "date": "2026-01-27",
-            "value": 188.52
-          },
-          {
-            "date": "2026-01-29",
-            "value": 192.51
-          },
-          {
-            "date": "2026-02-02",
-            "value": 185.61
-          },
-          {
-            "date": "2026-02-04",
-            "value": 174.19
-          },
-          {
-            "date": "2026-02-06",
-            "value": 185.41
-          },
-          {
-            "date": "2026-02-10",
-            "value": 188.54
-          },
-          {
-            "date": "2026-02-12",
-            "value": 186.94
-          },
-          {
-            "date": "2026-02-17",
-            "value": 184.97
-          },
-          {
-            "date": "2026-02-19",
-            "value": 187.9
-          },
-          {
-            "date": "2026-02-23",
-            "value": 191.55
-          },
-          {
-            "date": "2026-02-25",
-            "value": 195.56
-          },
-          {
-            "date": "2026-02-27",
-            "value": 177.19
-          },
-          {
-            "date": "2026-03-03",
-            "value": 180.05
-          },
-          {
-            "date": "2026-03-05",
-            "value": 183.34
-          },
-          {
-            "date": "2026-03-09",
-            "value": 182.65
-          },
-          {
-            "date": "2026-03-11",
-            "value": 186.03
-          },
-          {
-            "date": "2026-03-13",
-            "value": 180.25
-          },
-          {
-            "date": "2026-03-17",
-            "value": 181.93
-          },
-          {
-            "date": "2026-03-19",
-            "value": 178.56
-          },
-          {
-            "date": "2026-03-23",
-            "value": 175.64
-          },
-          {
-            "date": "2026-03-25",
-            "value": 178.68
-          },
-          {
-            "date": "2026-03-27",
-            "value": 167.52
-          },
-          {
-            "date": "2026-03-31",
-            "value": 174.4
-          },
-          {
-            "date": "2026-04-02",
-            "value": 177.39
-          },
-          {
-            "date": "2026-04-07",
-            "value": 178.1
-          },
-          {
-            "date": "2026-04-09",
-            "value": 183.91
-          },
-          {
-            "date": "2026-04-13",
-            "value": 189.31
-          },
-          {
-            "date": "2026-04-15",
-            "value": 198.87
-          },
-          {
-            "date": "2026-04-17",
-            "value": 201.68
-          },
-          {
-            "date": "2026-04-21",
-            "value": 199.88
-          },
-          {
-            "date": "2026-04-23",
-            "value": 199.64
-          },
-          {
-            "date": "2026-04-27",
-            "value": 216.61
-          },
-          {
-            "date": "2026-04-29",
-            "value": 209.25
-          },
-          {
-            "date": "2026-05-01",
-            "value": 198.45
-          },
-          {
-            "date": "2026-05-05",
-            "value": 196.5
-          },
-          {
-            "date": "2026-05-07",
-            "value": 211.5
-          },
-          {
-            "date": "2026-05-11",
-            "value": 219.44
-          },
-          {
-            "date": "2026-05-13",
-            "value": 225.83
-          },
-          {
-            "date": "2026-05-15",
-            "value": 225.32
-          },
-          {
-            "date": "2026-05-19",
-            "value": 220.61
-          },
-          {
-            "date": "2026-05-21",
-            "value": 219.51
-          },
-          {
-            "date": "2026-05-26",
-            "value": 214.86
-          },
-          {
-            "date": "2026-05-28",
-            "value": 214.25
-          },
-          {
-            "date": "2026-06-01",
-            "value": 224.36
-          },
-          {
-            "date": "2026-06-03",
-            "value": 214.75
-          },
-          {
-            "date": "2026-06-05",
-            "value": 205.1
-          },
-          {
-            "date": "2026-06-09",
-            "value": 208.19
-          },
-          {
-            "date": "2026-06-11",
-            "value": 204.87
-          },
-          {
-            "date": "2026-06-15",
-            "value": 212.45
-          },
-          {
-            "date": "2026-06-17",
-            "value": 204.65
-          },
-          {
-            "date": "2026-06-22",
-            "value": 208.65
-          },
-          {
-            "date": "2026-06-24",
-            "value": 199.0
-          },
-          {
-            "date": "2026-06-26",
-            "value": 192.53
-          },
-          {
-            "date": "2026-06-30",
-            "value": 200.09
-          },
-          {
-            "date": "2026-07-02",
-            "value": 194.83
-          },
-          {
-            "date": "2026-07-07",
-            "value": 196.93
-          },
-          {
-            "date": "2026-07-09",
-            "value": 202.78
-          },
-          {
-            "date": "2026-07-13",
-            "value": 203.53
-          },
-          {
-            "date": "2026-07-15",
-            "value": 212.5
-          },
-          {
-            "date": "2026-07-17",
-            "value": 202.81
-          },
-          {
-            "date": "2026-07-21",
-            "value": 207.29
-          },
-          {
-            "date": "2026-07-23",
-            "value": 208.76
-          },
-          {
-            "date": "2026-07-27",
-            "value": 196.51
-          },
-          {
-            "date": "2026-07-29",
-            "value": 190.01
-          },
-          {
-            "date": "2026-07-31",
-            "value": 200.75
-          },
-          {
-            "date": "2026-08-04",
-            "value": 211.94
-          },
-          {
-            "date": "2026-08-06",
-            "value": 218.99
-          },
-          {
-            "date": "2026-08-10",
-            "value": 217.55
-          },
-          {
-            "date": "2026-08-12",
-            "value": 224.09
-          },
-          {
-            "date": "2026-08-14",
-            "value": 225.16
-          },
-          {
-            "date": "2026-08-18",
-            "value": 219.74
-          },
-          {
-            "date": "2026-08-20",
-            "value": 216.85
-          },
-          {
-            "date": "2026-08-24",
-            "value": 208.48
-          },
-          {
-            "date": "2026-08-26",
-            "value": 209.66
-          },
-          {
-            "date": "2026-08-28",
-            "value": 217.55
-          },
-          {
-            "date": "2026-09-01",
-            "value": 217.44
-          },
-          {
-            "date": "2026-09-03",
-            "value": 228.45
-          },
-          {
-            "date": "2026-09-08",
-            "value": 225.73
-          },
-          {
-            "date": "2026-09-10",
-            "value": 218.36
-          },
-          {
-            "date": "2026-09-14",
-            "value": 210.96
-          },
-          {
-            "date": "2026-09-16",
-            "value": 213.9
-          },
-          {
-            "date": "2026-09-18",
-            "value": 222.27
-          },
-          {
-            "date": "2026-09-22",
-            "value": 228.87
-          },
-          {
-            "date": "2026-09-24",
-            "value": 224.58
-          },
-          {
-            "date": "2026-09-28",
-            "value": 228.86
-          },
-          {
-            "date": "2026-09-30",
-            "value": 228.38
-          },
-          {
-            "date": "2026-10-02",
-            "value": 233.95
-          },
-          {
-            "date": "2026-10-06",
-            "value": 239.24
-          },
-          {
-            "date": "2026-10-08",
-            "value": 230.48
-          },
-          {
-            "date": "2026-10-12",
-            "value": 226.32
-          },
-          {
-            "date": "2026-10-14",
-            "value": 221.3
-          },
-          {
-            "date": "2026-10-16",
-            "value": 214.13
-          },
-          {
-            "date": "2026-10-20",
-            "value": 216.47
-          },
-          {
-            "date": "2026-10-22",
-            "value": 212.21
-          },
-          {
-            "date": "2026-10-26",
-            "value": 216.0
-          },
-          {
-            "date": "2026-10-28",
-            "value": 215.38
-          }
-        ],
-        "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
+        "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-MSFT/"
       },
       {
         "symbol": "COST",
         "name": "Costco",
         "sector": "Consumer staples",
         "thesis": "Membership economics and resilient high-frequency consumer demand.",
-        "last": 996.08,
-        "date": "2026-10-29",
-        "return1m": 9.42,
-        "return3m": 2.26,
-        "return6m": -1.8,
-        "return1y": 7.12,
-        "volatility": 19.77,
+        "last": 1012.28,
+        "date": "2026-10-30",
+        "return1m": 10.64,
+        "return3m": 6.09,
+        "return6m": 0.11,
+        "return1y": 8.86,
+        "volatility": 19.8,
         "maxDrawdown": -18.33,
-        "opportunityScore": 48.3,
+        "opportunityScore": 51.4,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 950.98
-          },
           {
             "date": "2026-01-16",
             "value": 963.61
@@ -5581,30 +4739,868 @@
           {
             "date": "2026-10-28",
             "value": 982.73
+          },
+          {
+            "date": "2026-10-30",
+            "value": 1012.28
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-COST/"
+      },
+      {
+        "symbol": "JPM",
+        "name": "JPMorgan Chase",
+        "sector": "Financials",
+        "thesis": "Scale, diversified earnings, and strong balance-sheet execution.",
+        "last": 337.04,
+        "date": "2026-10-30",
+        "return1m": 1.16,
+        "return3m": -3.94,
+        "return6m": 9.33,
+        "return1y": 10.81,
+        "volatility": 21.93,
+        "maxDrawdown": -15.47,
+        "opportunityScore": 50.5,
+        "risk": "Lower",
+        "sparkline": [
+          {
+            "date": "2026-01-16",
+            "value": 312.47
+          },
+          {
+            "date": "2026-01-21",
+            "value": 302.04
+          },
+          {
+            "date": "2026-01-23",
+            "value": 297.72
+          },
+          {
+            "date": "2026-01-27",
+            "value": 300.31
+          },
+          {
+            "date": "2026-01-29",
+            "value": 306.42
+          },
+          {
+            "date": "2026-02-02",
+            "value": 308.14
+          },
+          {
+            "date": "2026-02-04",
+            "value": 317.27
+          },
+          {
+            "date": "2026-02-06",
+            "value": 322.4
+          },
+          {
+            "date": "2026-02-10",
+            "value": 318.28
+          },
+          {
+            "date": "2026-02-12",
+            "value": 302.64
+          },
+          {
+            "date": "2026-02-17",
+            "value": 307.13
+          },
+          {
+            "date": "2026-02-19",
+            "value": 308.05
+          },
+          {
+            "date": "2026-02-23",
+            "value": 297.67
+          },
+          {
+            "date": "2026-02-25",
+            "value": 303.3
+          },
+          {
+            "date": "2026-02-27",
+            "value": 300.3
+          },
+          {
+            "date": "2026-03-03",
+            "value": 300.26
+          },
+          {
+            "date": "2026-03-05",
+            "value": 293.55
+          },
+          {
+            "date": "2026-03-09",
+            "value": 289.92
+          },
+          {
+            "date": "2026-03-11",
+            "value": 287.52
+          },
+          {
+            "date": "2026-03-13",
+            "value": 283.44
+          },
+          {
+            "date": "2026-03-17",
+            "value": 286.89
+          },
+          {
+            "date": "2026-03-19",
+            "value": 287.97
+          },
+          {
+            "date": "2026-03-23",
+            "value": 289.91
+          },
+          {
+            "date": "2026-03-25",
+            "value": 295.42
+          },
+          {
+            "date": "2026-03-27",
+            "value": 282.84
+          },
+          {
+            "date": "2026-03-31",
+            "value": 294.16
+          },
+          {
+            "date": "2026-04-02",
+            "value": 294.6
+          },
+          {
+            "date": "2026-04-07",
+            "value": 297.4
+          },
+          {
+            "date": "2026-04-09",
+            "value": 310.33
+          },
+          {
+            "date": "2026-04-13",
+            "value": 313.68
+          },
+          {
+            "date": "2026-04-15",
+            "value": 305.93
+          },
+          {
+            "date": "2026-04-17",
+            "value": 310.29
+          },
+          {
+            "date": "2026-04-21",
+            "value": 313.0
+          },
+          {
+            "date": "2026-04-23",
+            "value": 311.69
+          },
+          {
+            "date": "2026-04-27",
+            "value": 311.63
+          },
+          {
+            "date": "2026-04-29",
+            "value": 309.25
+          },
+          {
+            "date": "2026-05-01",
+            "value": 312.47
+          },
+          {
+            "date": "2026-05-05",
+            "value": 309.4
+          },
+          {
+            "date": "2026-05-07",
+            "value": 306.27
+          },
+          {
+            "date": "2026-05-11",
+            "value": 300.0
+          },
+          {
+            "date": "2026-05-13",
+            "value": 300.25
+          },
+          {
+            "date": "2026-05-15",
+            "value": 297.81
+          },
+          {
+            "date": "2026-05-19",
+            "value": 295.7
+          },
+          {
+            "date": "2026-05-21",
+            "value": 303.0
+          },
+          {
+            "date": "2026-05-26",
+            "value": 306.74
+          },
+          {
+            "date": "2026-05-28",
+            "value": 296.73
+          },
+          {
+            "date": "2026-06-01",
+            "value": 296.58
+          },
+          {
+            "date": "2026-06-03",
+            "value": 300.85
+          },
+          {
+            "date": "2026-06-05",
+            "value": 312.37
+          },
+          {
+            "date": "2026-06-09",
+            "value": 312.7
+          },
+          {
+            "date": "2026-06-11",
+            "value": 313.49
+          },
+          {
+            "date": "2026-06-15",
+            "value": 319.4
+          },
+          {
+            "date": "2026-06-17",
+            "value": 333.46
+          },
+          {
+            "date": "2026-06-22",
+            "value": 331.48
+          },
+          {
+            "date": "2026-06-24",
+            "value": 333.45
+          },
+          {
+            "date": "2026-06-26",
+            "value": 329.05
+          },
+          {
+            "date": "2026-06-30",
+            "value": 327.33
+          },
+          {
+            "date": "2026-07-02",
+            "value": 334.47
+          },
+          {
+            "date": "2026-07-07",
+            "value": 339.22
+          },
+          {
+            "date": "2026-07-09",
+            "value": 335.47
+          },
+          {
+            "date": "2026-07-13",
+            "value": 334.53
+          },
+          {
+            "date": "2026-07-15",
+            "value": 346.91
+          },
+          {
+            "date": "2026-07-17",
+            "value": 341.1
+          },
+          {
+            "date": "2026-07-21",
+            "value": 345.23
+          },
+          {
+            "date": "2026-07-23",
+            "value": 349.9
+          },
+          {
+            "date": "2026-07-27",
+            "value": 356.2
+          },
+          {
+            "date": "2026-07-29",
+            "value": 344.71
+          },
+          {
+            "date": "2026-07-31",
+            "value": 351.79
+          },
+          {
+            "date": "2026-08-04",
+            "value": 357.52
+          },
+          {
+            "date": "2026-08-06",
+            "value": 356.3
+          },
+          {
+            "date": "2026-08-10",
+            "value": 359.79
+          },
+          {
+            "date": "2026-08-12",
+            "value": 365.18
+          },
+          {
+            "date": "2026-08-14",
+            "value": 362.84
+          },
+          {
+            "date": "2026-08-18",
+            "value": 363.25
+          },
+          {
+            "date": "2026-08-20",
+            "value": 351.55
+          },
+          {
+            "date": "2026-08-24",
+            "value": 356.39
+          },
+          {
+            "date": "2026-08-26",
+            "value": 356.5
+          },
+          {
+            "date": "2026-08-28",
+            "value": 357.62
+          },
+          {
+            "date": "2026-09-01",
+            "value": 354.95
+          },
+          {
+            "date": "2026-09-03",
+            "value": 362.06
+          },
+          {
+            "date": "2026-09-08",
+            "value": 353.51
+          },
+          {
+            "date": "2026-09-10",
+            "value": 353.56
+          },
+          {
+            "date": "2026-09-14",
+            "value": 350.13
+          },
+          {
+            "date": "2026-09-16",
+            "value": 348.92
+          },
+          {
+            "date": "2026-09-18",
+            "value": 349.67
+          },
+          {
+            "date": "2026-09-22",
+            "value": 340.0
+          },
+          {
+            "date": "2026-09-24",
+            "value": 338.56
+          },
+          {
+            "date": "2026-09-28",
+            "value": 336.59
+          },
+          {
+            "date": "2026-09-30",
+            "value": 330.83
+          },
+          {
+            "date": "2026-10-02",
+            "value": 332.38
+          },
+          {
+            "date": "2026-10-06",
+            "value": 331.28
+          },
+          {
+            "date": "2026-10-08",
+            "value": 331.42
+          },
+          {
+            "date": "2026-10-12",
+            "value": 334.3
+          },
+          {
+            "date": "2026-10-14",
+            "value": 335.28
+          },
+          {
+            "date": "2026-10-16",
+            "value": 339.72
+          },
+          {
+            "date": "2026-10-20",
+            "value": 335.26
+          },
+          {
+            "date": "2026-10-22",
+            "value": 336.54
+          },
+          {
+            "date": "2026-10-26",
+            "value": 334.04
+          },
+          {
+            "date": "2026-10-28",
+            "value": 339.3
+          },
+          {
+            "date": "2026-10-30",
+            "value": 337.04
+          }
+        ],
+        "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-JPM/"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA",
+        "sector": "Semiconductors / AI",
+        "thesis": "AI accelerator leadership with high growth and valuation sensitivity.",
+        "last": 204.64,
+        "date": "2026-10-30",
+        "return1m": -11.36,
+        "return3m": 4.92,
+        "return6m": -1.74,
+        "return1y": 6.87,
+        "volatility": 37.57,
+        "maxDrawdown": -20.22,
+        "opportunityScore": 42.4,
+        "risk": "Moderate",
+        "sparkline": [
+          {
+            "date": "2026-01-16",
+            "value": 186.23
+          },
+          {
+            "date": "2026-01-21",
+            "value": 183.32
+          },
+          {
+            "date": "2026-01-23",
+            "value": 187.67
+          },
+          {
+            "date": "2026-01-27",
+            "value": 188.52
+          },
+          {
+            "date": "2026-01-29",
+            "value": 192.51
+          },
+          {
+            "date": "2026-02-02",
+            "value": 185.61
+          },
+          {
+            "date": "2026-02-04",
+            "value": 174.19
+          },
+          {
+            "date": "2026-02-06",
+            "value": 185.41
+          },
+          {
+            "date": "2026-02-10",
+            "value": 188.54
+          },
+          {
+            "date": "2026-02-12",
+            "value": 186.94
+          },
+          {
+            "date": "2026-02-17",
+            "value": 184.97
+          },
+          {
+            "date": "2026-02-19",
+            "value": 187.9
+          },
+          {
+            "date": "2026-02-23",
+            "value": 191.55
+          },
+          {
+            "date": "2026-02-25",
+            "value": 195.56
+          },
+          {
+            "date": "2026-02-27",
+            "value": 177.19
+          },
+          {
+            "date": "2026-03-03",
+            "value": 180.05
+          },
+          {
+            "date": "2026-03-05",
+            "value": 183.34
+          },
+          {
+            "date": "2026-03-09",
+            "value": 182.65
+          },
+          {
+            "date": "2026-03-11",
+            "value": 186.03
+          },
+          {
+            "date": "2026-03-13",
+            "value": 180.25
+          },
+          {
+            "date": "2026-03-17",
+            "value": 181.93
+          },
+          {
+            "date": "2026-03-19",
+            "value": 178.56
+          },
+          {
+            "date": "2026-03-23",
+            "value": 175.64
+          },
+          {
+            "date": "2026-03-25",
+            "value": 178.68
+          },
+          {
+            "date": "2026-03-27",
+            "value": 167.52
+          },
+          {
+            "date": "2026-03-31",
+            "value": 174.4
+          },
+          {
+            "date": "2026-04-02",
+            "value": 177.39
+          },
+          {
+            "date": "2026-04-07",
+            "value": 178.1
+          },
+          {
+            "date": "2026-04-09",
+            "value": 183.91
+          },
+          {
+            "date": "2026-04-13",
+            "value": 189.31
+          },
+          {
+            "date": "2026-04-15",
+            "value": 198.87
+          },
+          {
+            "date": "2026-04-17",
+            "value": 201.68
+          },
+          {
+            "date": "2026-04-21",
+            "value": 199.88
+          },
+          {
+            "date": "2026-04-23",
+            "value": 199.64
+          },
+          {
+            "date": "2026-04-27",
+            "value": 216.61
+          },
+          {
+            "date": "2026-04-29",
+            "value": 209.25
+          },
+          {
+            "date": "2026-05-01",
+            "value": 198.45
+          },
+          {
+            "date": "2026-05-05",
+            "value": 196.5
+          },
+          {
+            "date": "2026-05-07",
+            "value": 211.5
+          },
+          {
+            "date": "2026-05-11",
+            "value": 219.44
+          },
+          {
+            "date": "2026-05-13",
+            "value": 225.83
+          },
+          {
+            "date": "2026-05-15",
+            "value": 225.32
+          },
+          {
+            "date": "2026-05-19",
+            "value": 220.61
+          },
+          {
+            "date": "2026-05-21",
+            "value": 219.51
+          },
+          {
+            "date": "2026-05-26",
+            "value": 214.86
+          },
+          {
+            "date": "2026-05-28",
+            "value": 214.25
+          },
+          {
+            "date": "2026-06-01",
+            "value": 224.36
+          },
+          {
+            "date": "2026-06-03",
+            "value": 214.75
+          },
+          {
+            "date": "2026-06-05",
+            "value": 205.1
+          },
+          {
+            "date": "2026-06-09",
+            "value": 208.19
+          },
+          {
+            "date": "2026-06-11",
+            "value": 204.87
+          },
+          {
+            "date": "2026-06-15",
+            "value": 212.45
+          },
+          {
+            "date": "2026-06-17",
+            "value": 204.65
+          },
+          {
+            "date": "2026-06-22",
+            "value": 208.65
+          },
+          {
+            "date": "2026-06-24",
+            "value": 199.0
+          },
+          {
+            "date": "2026-06-26",
+            "value": 192.53
+          },
+          {
+            "date": "2026-06-30",
+            "value": 200.09
+          },
+          {
+            "date": "2026-07-02",
+            "value": 194.83
+          },
+          {
+            "date": "2026-07-07",
+            "value": 196.93
+          },
+          {
+            "date": "2026-07-09",
+            "value": 202.78
+          },
+          {
+            "date": "2026-07-13",
+            "value": 203.53
+          },
+          {
+            "date": "2026-07-15",
+            "value": 212.5
+          },
+          {
+            "date": "2026-07-17",
+            "value": 202.81
+          },
+          {
+            "date": "2026-07-21",
+            "value": 207.29
+          },
+          {
+            "date": "2026-07-23",
+            "value": 208.76
+          },
+          {
+            "date": "2026-07-27",
+            "value": 196.51
+          },
+          {
+            "date": "2026-07-29",
+            "value": 190.01
+          },
+          {
+            "date": "2026-07-31",
+            "value": 200.75
+          },
+          {
+            "date": "2026-08-04",
+            "value": 211.94
+          },
+          {
+            "date": "2026-08-06",
+            "value": 218.99
+          },
+          {
+            "date": "2026-08-10",
+            "value": 217.55
+          },
+          {
+            "date": "2026-08-12",
+            "value": 224.09
+          },
+          {
+            "date": "2026-08-14",
+            "value": 225.16
+          },
+          {
+            "date": "2026-08-18",
+            "value": 219.74
+          },
+          {
+            "date": "2026-08-20",
+            "value": 216.85
+          },
+          {
+            "date": "2026-08-24",
+            "value": 208.48
+          },
+          {
+            "date": "2026-08-26",
+            "value": 209.66
+          },
+          {
+            "date": "2026-08-28",
+            "value": 217.55
+          },
+          {
+            "date": "2026-09-01",
+            "value": 217.44
+          },
+          {
+            "date": "2026-09-03",
+            "value": 228.45
+          },
+          {
+            "date": "2026-09-08",
+            "value": 225.73
+          },
+          {
+            "date": "2026-09-10",
+            "value": 218.36
+          },
+          {
+            "date": "2026-09-14",
+            "value": 210.96
+          },
+          {
+            "date": "2026-09-16",
+            "value": 213.9
+          },
+          {
+            "date": "2026-09-18",
+            "value": 222.27
+          },
+          {
+            "date": "2026-09-22",
+            "value": 228.87
+          },
+          {
+            "date": "2026-09-24",
+            "value": 224.58
+          },
+          {
+            "date": "2026-09-28",
+            "value": 228.86
+          },
+          {
+            "date": "2026-09-30",
+            "value": 228.38
+          },
+          {
+            "date": "2026-10-02",
+            "value": 233.95
+          },
+          {
+            "date": "2026-10-06",
+            "value": 239.24
+          },
+          {
+            "date": "2026-10-08",
+            "value": 230.48
+          },
+          {
+            "date": "2026-10-12",
+            "value": 226.32
+          },
+          {
+            "date": "2026-10-14",
+            "value": 221.3
+          },
+          {
+            "date": "2026-10-16",
+            "value": 214.13
+          },
+          {
+            "date": "2026-10-20",
+            "value": 216.47
+          },
+          {
+            "date": "2026-10-22",
+            "value": 212.21
+          },
+          {
+            "date": "2026-10-26",
+            "value": 216.0
+          },
+          {
+            "date": "2026-10-28",
+            "value": 215.38
+          },
+          {
+            "date": "2026-10-30",
+            "value": 204.64
+          }
+        ],
+        "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
       },
       {
         "symbol": "AMZN",
         "name": "Amazon",
         "sector": "Cloud / commerce",
         "thesis": "AWS margin expansion and global commerce operating leverage.",
-        "last": 243.79,
-        "date": "2026-10-29",
-        "return1m": -2.15,
-        "return3m": 7.56,
-        "return6m": -4.43,
-        "return1y": 7.41,
-        "volatility": 34.83,
+        "last": 240.35,
+        "date": "2026-10-30",
+        "return1m": -3.17,
+        "return3m": 2.06,
+        "return6m": -8.95,
+        "return1y": 5.9,
+        "volatility": 34.79,
         "maxDrawdown": -21.74,
-        "opportunityScore": 44.3,
+        "opportunityScore": 39.3,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 236.65
-          },
           {
             "date": "2026-01-16",
             "value": 239.12
@@ -6000,6 +5996,10 @@
           {
             "date": "2026-10-28",
             "value": 254.6
+          },
+          {
+            "date": "2026-10-30",
+            "value": 240.35
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AMZN/"
@@ -6009,21 +6009,17 @@
         "name": "Meta Platforms",
         "sector": "Digital ads / AI",
         "thesis": "Advertising efficiency, engagement, and AI-driven recommendation gains.",
-        "last": 624.52,
-        "date": "2026-10-29",
-        "return1m": -13.88,
-        "return3m": 6.64,
-        "return6m": -5.25,
-        "return1y": -16.82,
-        "volatility": 42.49,
+        "last": 614.99,
+        "date": "2026-10-30",
+        "return1m": -15.28,
+        "return3m": 14.09,
+        "return6m": -8.89,
+        "return1y": -18.09,
+        "volatility": 42.44,
         "maxDrawdown": -30.06,
-        "opportunityScore": 32.2,
+        "opportunityScore": 32.9,
         "risk": "High",
         "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 615.52
-          },
           {
             "date": "2026-01-16",
             "value": 620.25
@@ -6419,449 +6415,30 @@
           {
             "date": "2026-10-28",
             "value": 612.49
+          },
+          {
+            "date": "2026-10-30",
+            "value": 614.99
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-META/"
-      },
-      {
-        "symbol": "AVGO",
-        "name": "Broadcom",
-        "sector": "Semiconductors / infrastructure",
-        "thesis": "AI networking, custom silicon, and infrastructure software cash flow.",
-        "last": 345.0,
-        "date": "2026-10-29",
-        "return1m": -1.76,
-        "return3m": -6.84,
-        "return6m": -17.85,
-        "return1y": -4.71,
-        "volatility": 45.84,
-        "maxDrawdown": -33.2,
-        "opportunityScore": 25.6,
-        "risk": "High",
-        "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 339.89
-          },
-          {
-            "date": "2026-01-16",
-            "value": 351.71
-          },
-          {
-            "date": "2026-01-21",
-            "value": 328.8
-          },
-          {
-            "date": "2026-01-23",
-            "value": 320.05
-          },
-          {
-            "date": "2026-01-27",
-            "value": 332.79
-          },
-          {
-            "date": "2026-01-29",
-            "value": 330.73
-          },
-          {
-            "date": "2026-02-02",
-            "value": 331.11
-          },
-          {
-            "date": "2026-02-04",
-            "value": 308.05
-          },
-          {
-            "date": "2026-02-06",
-            "value": 332.92
-          },
-          {
-            "date": "2026-02-10",
-            "value": 340.44
-          },
-          {
-            "date": "2026-02-12",
-            "value": 331.17
-          },
-          {
-            "date": "2026-02-17",
-            "value": 332.54
-          },
-          {
-            "date": "2026-02-19",
-            "value": 333.99
-          },
-          {
-            "date": "2026-02-23",
-            "value": 330.34
-          },
-          {
-            "date": "2026-02-25",
-            "value": 332.31
-          },
-          {
-            "date": "2026-02-27",
-            "value": 319.55
-          },
-          {
-            "date": "2026-03-03",
-            "value": 313.84
-          },
-          {
-            "date": "2026-03-05",
-            "value": 332.77
-          },
-          {
-            "date": "2026-03-09",
-            "value": 345.75
-          },
-          {
-            "date": "2026-03-11",
-            "value": 341.57
-          },
-          {
-            "date": "2026-03-13",
-            "value": 322.16
-          },
-          {
-            "date": "2026-03-17",
-            "value": 321.31
-          },
-          {
-            "date": "2026-03-19",
-            "value": 319.84
-          },
-          {
-            "date": "2026-03-23",
-            "value": 322.51
-          },
-          {
-            "date": "2026-03-25",
-            "value": 318.81
-          },
-          {
-            "date": "2026-03-27",
-            "value": 300.68
-          },
-          {
-            "date": "2026-03-31",
-            "value": 309.51
-          },
-          {
-            "date": "2026-04-02",
-            "value": 314.55
-          },
-          {
-            "date": "2026-04-07",
-            "value": 333.97
-          },
-          {
-            "date": "2026-04-09",
-            "value": 354.91
-          },
-          {
-            "date": "2026-04-13",
-            "value": 379.75
-          },
-          {
-            "date": "2026-04-15",
-            "value": 396.72
-          },
-          {
-            "date": "2026-04-17",
-            "value": 406.54
-          },
-          {
-            "date": "2026-04-21",
-            "value": 402.17
-          },
-          {
-            "date": "2026-04-23",
-            "value": 419.94
-          },
-          {
-            "date": "2026-04-27",
-            "value": 418.2
-          },
-          {
-            "date": "2026-04-29",
-            "value": 405.45
-          },
-          {
-            "date": "2026-05-01",
-            "value": 421.28
-          },
-          {
-            "date": "2026-05-05",
-            "value": 427.36
-          },
-          {
-            "date": "2026-05-07",
-            "value": 412.56
-          },
-          {
-            "date": "2026-05-11",
-            "value": 428.43
-          },
-          {
-            "date": "2026-05-13",
-            "value": 416.79
-          },
-          {
-            "date": "2026-05-15",
-            "value": 425.19
-          },
-          {
-            "date": "2026-05-19",
-            "value": 411.07
-          },
-          {
-            "date": "2026-05-21",
-            "value": 414.57
-          },
-          {
-            "date": "2026-05-26",
-            "value": 422.01
-          },
-          {
-            "date": "2026-05-28",
-            "value": 426.58
-          },
-          {
-            "date": "2026-06-01",
-            "value": 459.97
-          },
-          {
-            "date": "2026-06-03",
-            "value": 479.23
-          },
-          {
-            "date": "2026-06-05",
-            "value": 385.73
-          },
-          {
-            "date": "2026-06-09",
-            "value": 392.16
-          },
-          {
-            "date": "2026-06-11",
-            "value": 385.57
-          },
-          {
-            "date": "2026-06-15",
-            "value": 393.94
-          },
-          {
-            "date": "2026-06-17",
-            "value": 392.9
-          },
-          {
-            "date": "2026-06-22",
-            "value": 392.13
-          },
-          {
-            "date": "2026-06-24",
-            "value": 382.07
-          },
-          {
-            "date": "2026-06-26",
-            "value": 365.02
-          },
-          {
-            "date": "2026-06-30",
-            "value": 377.75
-          },
-          {
-            "date": "2026-07-02",
-            "value": 360.45
-          },
-          {
-            "date": "2026-07-07",
-            "value": 370.78
-          },
-          {
-            "date": "2026-07-09",
-            "value": 401.11
-          },
-          {
-            "date": "2026-07-13",
-            "value": 384.05
-          },
-          {
-            "date": "2026-07-15",
-            "value": 394.28
-          },
-          {
-            "date": "2026-07-17",
-            "value": 370.83
-          },
-          {
-            "date": "2026-07-21",
-            "value": 386.5
-          },
-          {
-            "date": "2026-07-23",
-            "value": 392.47
-          },
-          {
-            "date": "2026-07-27",
-            "value": 383.22
-          },
-          {
-            "date": "2026-07-29",
-            "value": 370.32
-          },
-          {
-            "date": "2026-07-31",
-            "value": 389.28
-          },
-          {
-            "date": "2026-08-04",
-            "value": 418.16
-          },
-          {
-            "date": "2026-08-06",
-            "value": 420.57
-          },
-          {
-            "date": "2026-08-10",
-            "value": 422.4
-          },
-          {
-            "date": "2026-08-12",
-            "value": 416.05
-          },
-          {
-            "date": "2026-08-14",
-            "value": 392.99
-          },
-          {
-            "date": "2026-08-18",
-            "value": 380.0
-          },
-          {
-            "date": "2026-08-20",
-            "value": 364.03
-          },
-          {
-            "date": "2026-08-24",
-            "value": 358.76
-          },
-          {
-            "date": "2026-08-26",
-            "value": 355.59
-          },
-          {
-            "date": "2026-08-28",
-            "value": 368.79
-          },
-          {
-            "date": "2026-09-01",
-            "value": 369.68
-          },
-          {
-            "date": "2026-09-03",
-            "value": 357.16
-          },
-          {
-            "date": "2026-09-08",
-            "value": 368.56
-          },
-          {
-            "date": "2026-09-10",
-            "value": 360.83
-          },
-          {
-            "date": "2026-09-14",
-            "value": 344.72
-          },
-          {
-            "date": "2026-09-16",
-            "value": 339.51
-          },
-          {
-            "date": "2026-09-18",
-            "value": 357.61
-          },
-          {
-            "date": "2026-09-22",
-            "value": 364.54
-          },
-          {
-            "date": "2026-09-24",
-            "value": 350.36
-          },
-          {
-            "date": "2026-09-28",
-            "value": 349.57
-          },
-          {
-            "date": "2026-09-30",
-            "value": 351.19
-          },
-          {
-            "date": "2026-10-02",
-            "value": 355.14
-          },
-          {
-            "date": "2026-10-06",
-            "value": 375.81
-          },
-          {
-            "date": "2026-10-08",
-            "value": 360.14
-          },
-          {
-            "date": "2026-10-12",
-            "value": 354.73
-          },
-          {
-            "date": "2026-10-14",
-            "value": 346.25
-          },
-          {
-            "date": "2026-10-16",
-            "value": 328.75
-          },
-          {
-            "date": "2026-10-20",
-            "value": 334.37
-          },
-          {
-            "date": "2026-10-22",
-            "value": 323.24
-          },
-          {
-            "date": "2026-10-26",
-            "value": 329.17
-          },
-          {
-            "date": "2026-10-28",
-            "value": 351.81
-          }
-        ],
-        "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AVGO/"
       },
       {
         "symbol": "GOOGL",
         "name": "Alphabet",
         "sector": "Digital ads / cloud",
         "thesis": "Search cash flow, cloud growth, and AI product distribution.",
-        "last": 283.82,
-        "date": "2026-10-29",
-        "return1m": -17.51,
-        "return3m": -15.71,
-        "return6m": -16.25,
-        "return1y": 5.4,
-        "volatility": 33.73,
-        "maxDrawdown": -29.51,
-        "opportunityScore": 24.5,
+        "last": 279.84,
+        "date": "2026-10-30",
+        "return1m": -17.27,
+        "return3m": -16.13,
+        "return6m": -18.75,
+        "return1y": 3.93,
+        "volatility": 33.69,
+        "maxDrawdown": -30.5,
+        "opportunityScore": 22.7,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-14",
-            "value": 335.84
-          },
           {
             "date": "2026-01-16",
             "value": 330.0
@@ -7257,9 +6834,432 @@
           {
             "date": "2026-10-28",
             "value": 324.89
+          },
+          {
+            "date": "2026-10-30",
+            "value": 279.84
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-GOOGL/"
+      },
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom",
+        "sector": "Semiconductors / infrastructure",
+        "thesis": "AI networking, custom silicon, and infrastructure software cash flow.",
+        "last": 326.08,
+        "date": "2026-10-30",
+        "return1m": -5.11,
+        "return3m": -15.92,
+        "return6m": -22.87,
+        "return1y": -9.94,
+        "volatility": 46.08,
+        "maxDrawdown": -33.2,
+        "opportunityScore": 17.4,
+        "risk": "High",
+        "sparkline": [
+          {
+            "date": "2026-01-16",
+            "value": 351.71
+          },
+          {
+            "date": "2026-01-21",
+            "value": 328.8
+          },
+          {
+            "date": "2026-01-23",
+            "value": 320.05
+          },
+          {
+            "date": "2026-01-27",
+            "value": 332.79
+          },
+          {
+            "date": "2026-01-29",
+            "value": 330.73
+          },
+          {
+            "date": "2026-02-02",
+            "value": 331.11
+          },
+          {
+            "date": "2026-02-04",
+            "value": 308.05
+          },
+          {
+            "date": "2026-02-06",
+            "value": 332.92
+          },
+          {
+            "date": "2026-02-10",
+            "value": 340.44
+          },
+          {
+            "date": "2026-02-12",
+            "value": 331.17
+          },
+          {
+            "date": "2026-02-17",
+            "value": 332.54
+          },
+          {
+            "date": "2026-02-19",
+            "value": 333.99
+          },
+          {
+            "date": "2026-02-23",
+            "value": 330.34
+          },
+          {
+            "date": "2026-02-25",
+            "value": 332.31
+          },
+          {
+            "date": "2026-02-27",
+            "value": 319.55
+          },
+          {
+            "date": "2026-03-03",
+            "value": 313.84
+          },
+          {
+            "date": "2026-03-05",
+            "value": 332.77
+          },
+          {
+            "date": "2026-03-09",
+            "value": 345.75
+          },
+          {
+            "date": "2026-03-11",
+            "value": 341.57
+          },
+          {
+            "date": "2026-03-13",
+            "value": 322.16
+          },
+          {
+            "date": "2026-03-17",
+            "value": 321.31
+          },
+          {
+            "date": "2026-03-19",
+            "value": 319.84
+          },
+          {
+            "date": "2026-03-23",
+            "value": 322.51
+          },
+          {
+            "date": "2026-03-25",
+            "value": 318.81
+          },
+          {
+            "date": "2026-03-27",
+            "value": 300.68
+          },
+          {
+            "date": "2026-03-31",
+            "value": 309.51
+          },
+          {
+            "date": "2026-04-02",
+            "value": 314.55
+          },
+          {
+            "date": "2026-04-07",
+            "value": 333.97
+          },
+          {
+            "date": "2026-04-09",
+            "value": 354.91
+          },
+          {
+            "date": "2026-04-13",
+            "value": 379.75
+          },
+          {
+            "date": "2026-04-15",
+            "value": 396.72
+          },
+          {
+            "date": "2026-04-17",
+            "value": 406.54
+          },
+          {
+            "date": "2026-04-21",
+            "value": 402.17
+          },
+          {
+            "date": "2026-04-23",
+            "value": 419.94
+          },
+          {
+            "date": "2026-04-27",
+            "value": 418.2
+          },
+          {
+            "date": "2026-04-29",
+            "value": 405.45
+          },
+          {
+            "date": "2026-05-01",
+            "value": 421.28
+          },
+          {
+            "date": "2026-05-05",
+            "value": 427.36
+          },
+          {
+            "date": "2026-05-07",
+            "value": 412.56
+          },
+          {
+            "date": "2026-05-11",
+            "value": 428.43
+          },
+          {
+            "date": "2026-05-13",
+            "value": 416.79
+          },
+          {
+            "date": "2026-05-15",
+            "value": 425.19
+          },
+          {
+            "date": "2026-05-19",
+            "value": 411.07
+          },
+          {
+            "date": "2026-05-21",
+            "value": 414.57
+          },
+          {
+            "date": "2026-05-26",
+            "value": 422.01
+          },
+          {
+            "date": "2026-05-28",
+            "value": 426.58
+          },
+          {
+            "date": "2026-06-01",
+            "value": 459.97
+          },
+          {
+            "date": "2026-06-03",
+            "value": 479.23
+          },
+          {
+            "date": "2026-06-05",
+            "value": 385.73
+          },
+          {
+            "date": "2026-06-09",
+            "value": 392.16
+          },
+          {
+            "date": "2026-06-11",
+            "value": 385.57
+          },
+          {
+            "date": "2026-06-15",
+            "value": 393.94
+          },
+          {
+            "date": "2026-06-17",
+            "value": 392.9
+          },
+          {
+            "date": "2026-06-22",
+            "value": 392.13
+          },
+          {
+            "date": "2026-06-24",
+            "value": 382.07
+          },
+          {
+            "date": "2026-06-26",
+            "value": 365.02
+          },
+          {
+            "date": "2026-06-30",
+            "value": 377.75
+          },
+          {
+            "date": "2026-07-02",
+            "value": 360.45
+          },
+          {
+            "date": "2026-07-07",
+            "value": 370.78
+          },
+          {
+            "date": "2026-07-09",
+            "value": 401.11
+          },
+          {
+            "date": "2026-07-13",
+            "value": 384.05
+          },
+          {
+            "date": "2026-07-15",
+            "value": 394.28
+          },
+          {
+            "date": "2026-07-17",
+            "value": 370.83
+          },
+          {
+            "date": "2026-07-21",
+            "value": 386.5
+          },
+          {
+            "date": "2026-07-23",
+            "value": 392.47
+          },
+          {
+            "date": "2026-07-27",
+            "value": 383.22
+          },
+          {
+            "date": "2026-07-29",
+            "value": 370.32
+          },
+          {
+            "date": "2026-07-31",
+            "value": 389.28
+          },
+          {
+            "date": "2026-08-04",
+            "value": 418.16
+          },
+          {
+            "date": "2026-08-06",
+            "value": 420.57
+          },
+          {
+            "date": "2026-08-10",
+            "value": 422.4
+          },
+          {
+            "date": "2026-08-12",
+            "value": 416.05
+          },
+          {
+            "date": "2026-08-14",
+            "value": 392.99
+          },
+          {
+            "date": "2026-08-18",
+            "value": 380.0
+          },
+          {
+            "date": "2026-08-20",
+            "value": 364.03
+          },
+          {
+            "date": "2026-08-24",
+            "value": 358.76
+          },
+          {
+            "date": "2026-08-26",
+            "value": 355.59
+          },
+          {
+            "date": "2026-08-28",
+            "value": 368.79
+          },
+          {
+            "date": "2026-09-01",
+            "value": 369.68
+          },
+          {
+            "date": "2026-09-03",
+            "value": 357.16
+          },
+          {
+            "date": "2026-09-08",
+            "value": 368.56
+          },
+          {
+            "date": "2026-09-10",
+            "value": 360.83
+          },
+          {
+            "date": "2026-09-14",
+            "value": 344.72
+          },
+          {
+            "date": "2026-09-16",
+            "value": 339.51
+          },
+          {
+            "date": "2026-09-18",
+            "value": 357.61
+          },
+          {
+            "date": "2026-09-22",
+            "value": 364.54
+          },
+          {
+            "date": "2026-09-24",
+            "value": 350.36
+          },
+          {
+            "date": "2026-09-28",
+            "value": 349.57
+          },
+          {
+            "date": "2026-09-30",
+            "value": 351.19
+          },
+          {
+            "date": "2026-10-02",
+            "value": 355.14
+          },
+          {
+            "date": "2026-10-06",
+            "value": 375.81
+          },
+          {
+            "date": "2026-10-08",
+            "value": 360.14
+          },
+          {
+            "date": "2026-10-12",
+            "value": 354.73
+          },
+          {
+            "date": "2026-10-14",
+            "value": 346.25
+          },
+          {
+            "date": "2026-10-16",
+            "value": 328.75
+          },
+          {
+            "date": "2026-10-20",
+            "value": 334.37
+          },
+          {
+            "date": "2026-10-22",
+            "value": 323.24
+          },
+          {
+            "date": "2026-10-26",
+            "value": 329.17
+          },
+          {
+            "date": "2026-10-28",
+            "value": 351.81
+          },
+          {
+            "date": "2026-10-30",
+            "value": 326.08
+          }
+        ],
+        "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AVGO/"
       }
     ],
     "bestUsStock": {
@@ -7267,21 +7267,17 @@
       "name": "Eli Lilly",
       "sector": "Healthcare",
       "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-      "last": 1373.7,
-      "date": "2026-10-29",
-      "return1m": 18.72,
-      "return3m": 13.53,
-      "return6m": 49.7,
-      "return1y": 66.22,
-      "volatility": 35.41,
+      "last": 1417.54,
+      "date": "2026-10-30",
+      "return1m": 23.28,
+      "return3m": 22.73,
+      "return6m": 60.36,
+      "return1y": 71.53,
+      "volatility": 35.46,
       "maxDrawdown": -23.31,
-      "opportunityScore": 92.1,
+      "opportunityScore": 100,
       "risk": "Moderate",
       "sparkline": [
-        {
-          "date": "2026-01-14",
-          "value": 1073.29
-        },
         {
           "date": "2026-01-16",
           "value": 1038.4
@@ -7677,6 +7673,10 @@
         {
           "date": "2026-10-28",
           "value": 1288.3
+        },
+        {
+          "date": "2026-10-30",
+          "value": 1417.54
         }
       ],
       "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"

@@ -471,3 +471,53 @@
 - Status log saat penulisan: implementasi dengan RED terverifikasi, belum klaim GREEN atau publikasi. Maintainer wajib menjalankan seluruh gate, commit/deploy dan membaca exact revision/baseline live; hasil final disampaikan pada keluaran run. Jangan menandai terbit jika deploy gagal.
 - Mahasiswa: https://hicall.web.id/iasd/studio#10
 - Dosen: https://hicall.web.id/iasd/studio?mode=teach#10
+- GREEN dan publikasi konten: maintainer exit 0; commit `86ce8d1eef3526abc419ff3bdae4de0f2fa77121` sama dengan origin/main saat pemeriksaan, worktree bersih. Deployment https://vc-lecturer-a0wv0e554-hicall-projects.vercel.app. Exact manifest HTTP 200 dan objek sama dengan sumber, revision `2dfbb5d8b2c276fa77872df8acc0493744cd4c2e0478187271f099c7bed7abba`; course-data dan seluruh supplement-data produksi identik sumber. Log scratch/iasd-s10-release.log.
+- GREEN produksi: runIasdSmoke https://hicall.web.id exit 0 pada desktop 1440×900 dan mobile 390×844. Tiap profil menguji 16 sesi/48 jawaban, seluruh simulator, 128 pasangan skenario/prediksi S10, tab dosen, catatan, backup lama/baru/salah dan offline; 13 unduhan desktop identik lampiran. Tidak ada pageerror. Log scratch/iasd-s10-live-smoke.log; hasil output/playwright/iasd-{desktop,mobile}-results.json. Browser produksi mobile juga dilihat langsung: empat select 328×44px, overflow 0, label/kontrol/diagram terpisah tanpa benturan. Click-through di atas kini terbukti PASS, bukan rencana.
+
+### Gate perubahan S10, bukti GREEN lokal/produksi di atas
+
+- R-02 PASS: validator JSON suplemen menolak em dash.
+- R-03 PASS: smoke dua viewport/tema tanpa overflow; browser mobile overflow 0, empat select 44px.
+- R-17 PASS: angka/satuan/ID dilabeli asumsi kelas, tanpa statistik rekaan.
+- R-18 PASS: tanpa testimoni baru.
+- R-23 PASS: memakai diagram lama, tanpa aset/identitas baru.
+- R-24 PASS: overview #10 dan instructor #10 dibuka dalam smoke.
+- R-25 PASS: computed contrast teks tambahan terpindai AA dua tema, bukan sertifikasi seluruh aplikasi.
+- R-26 PASS: empat select, slider/checkbox, Periksa dan disclosure sesuai click-through teruji di atas.
+- R-27 PASS: boot/error bundel dan penyimpanan lama tetap; belum diperiksa/salah/tersimpan/invalid-backup diuji.
+- R-28 PASS: tanpa FAQ baru.
+- R-32 PASS: Enter/Escape/Tab/Shift+Tab dan fokus terlihat diuji.
+- R-33 PASS: implementasi langsung pada sumber, tanpa script penulis ulang UI.
+- R-34 PASS: kedua tema diuji, font/layout lama tetap.
+- R-35 PASS: maintainer dan smoke produksi exit 0, click-through setiap kontrol tercatat, exact revision/baseline/suplemen dibaca kembali.
+- R-36 PASS: tanpa klaim keamanan/performa/pelanggan baru.
+- R-37 PASS: arah studio serta Design Read/dials dinyatakan sebelum generasi.
+- R-38 PASS: skenario/kontrak berlabel asumsi, bukan data lapangan atau nilai resmi.
+- R-01 PASS: tanpa gradien/glow baru, aksen tindakan lama.
+- R-04 PASS: tanpa ikon baru.
+- R-06 PASS: font sistem lama untuk kontinuitas pembacaan.
+- R-07 PASS: tanpa pola latar baru.
+- R-08 PASS: tanpa panah CTA dekoratif baru.
+- R-09 PASS: tanpa badge baru.
+- R-10 PASS: tanpa blur baru.
+- R-12 PASS: tanpa shadow baru.
+- R-13 PASS: tanpa glow baru.
+- R-14 PASS: tabel perbandingan field, tanpa feature-card.
+- R-19 PASS: MOTION 1 memakai perilaku/fokus lama, tanpa animasi baru.
+- R-22 PASS: diagram ERD lama relevan terhadap relasi, bukan ilustrasi dekoratif.
+- Liveliness PASS: dials 1/2/1 konsisten, focal point asal nilai, whitespace label struktural, satu aksen tindakan lama, motif jejak Aruna, variasi Konsep/latihan/Bukti/Dosen dan Design Read sebelum generasi.
+- C-1 PASS: alasan warna/font/layout/jarak/diagram/tabel tertulis di Design Read.
+- C-2 PASS: setiap kontrol tambahan memiliki hasil teruji.
+- C-3 PASS: satu tugas S10, tanpa section template pemasaran.
+- C-4 PASS: state belum diperiksa/salah/tersimpan, keyboard, dua tema/viewport, backup dan offline diuji.
+- C-5 PASS: asumsi/batas bukti eksplisit, tanpa klaim rekaan.
+- R-05 PASS: komposisi mengikuti tugas/tab/disclosure lama.
+- R-11 PASS: radius kontrol lama tetap.
+- R-15 PASS: CTA spesifik Periksa histori dan parent.
+- R-16 PASS: tanpa buzzword pemasaran baru.
+- R-20 PASS: motif OI-10, harga/diskon kasus Aruna dan transfer individu, bukan halaman generik.
+- R-21 PASS: toggle dua tema aktif dan diuji.
+- R-29 PASS: palette lama tanpa warna tambahan.
+- R-30 PASS: tidak mengkloning produk lain.
+- R-31 PASS: alasan desain tertulis; CSS hanya minimum target sentuh S10.
+- Pembaruan log bukti ini tidak mengubah revisi konten; tetap wajib melewati maintainer sebelum commit log. Bukti commit akhir disampaikan pada keluaran run.

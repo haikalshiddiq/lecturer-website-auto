@@ -521,3 +521,66 @@
 - R-30 PASS: tidak mengkloning produk lain.
 - R-31 PASS: alasan desain tertulis; CSS hanya minimum target sentuh S10.
 - Pembaruan log bukti ini tidak mengubah revisi konten; tetap wajib melewati maintainer sebelum commit log. Bukti commit akhir disampaikan pada keluaran run.
+
+## S11: State machine (3 November 2026, WIB)
+
+- Pemilihan: worktree bersih, fetch dan ff-only ke origin/main `eb9e89e` sebelum authoring. Pembaruan dashboard remote hanya diterima, tidak diedit. Seluruh sesi 11, kasus Aruna dan log S01-S10 dibaca; S11 berikutnya tanpa pendalaman, bukan inferensi progres mahasiswa.
+- Satu pendalaman: jejak O-AR11/P-AR11 normal, callback setelah timeout, callback duplikat dan notifikasi belum terverifikasi. Dua prediksi memisahkan state Order dari tindak lanjut bukti uang; feedback menjelaskan guard, asal state, identitas duplikat, owner rekonsiliasi dan larangan mengklaim refund selesai. Transfer tiket lokakarya serta rubrik empat kriteria membantu dosen menguji penjelasan, bukan hafalan panah.
+- Render: disclosure Konsep, latihan dalam simulator state lama, transfer pada Bukti, disclosure dosen dan penggantian satu tautan overview. Tidak menambah tab atau panjang katalog. Snapshot tambahan tidak memutasi state/log tombol event dasar.
+- Kompatibilitas: hanya s11Trace/s11State/s11Follow/s11Reviewed opsional pada sim; signature mengikat urutan dan kedua prediksi. KEY, versi, validator cadangan, syarat selesai, baseline dan 13 berkas tidak diubah. Tes impor lama menghapus field s11 lalu memeriksa catatan tetap ada; impor baru memulihkan feedback.
+- Design Read sebelum generasi, antislop DURING: workspace akademi ringkas mahasiswa/dosen Indonesia, ENERGY 1 / RHYTHM 2 / MOTION 1. Warna aksi/font sistem lama untuk kontinuitas; disclosure menahan panjang awal dan memisahkan hierarki; whitespace label dan select 44px untuk sentuhan; diagram state lama untuk lifecycle dan jejak teks untuk urutan event yang tidak terlihat dari state akhir. Tidak menambah aset, ikon, palette, efek, kartu atau gerak dekoratif.
+- RED: browser produksi sebelum implementasi timeout 3000ms pada `[data-iasd-lifecycle-contract] summary`, setelah tes baru ditulis. Implementasi langsung pada sumber, bukan script penulis ulang UI.
+- Gate wajib: empat jejak × empat prediksi state × tiga tindak lanjut; feedback benar/salah, isolasi state/log dasar, invalidasi tiap select, reload, catatan transfer, isolasi sesi sesudah grading, backup lama/baru/salah, instructor #11, keyboard Enter/Escape/Tab/Shift+Tab, fokus/44px, computed contrast teks tambahan dua tema, overflow kedua viewport dan penggunaan latihan offline. Regresi seluruh 16 sesi/48 jawaban/13 unduhan desktop identik lampiran tetap.
+- Click-through yang direkam tes (PASS hanya setelah exit 0): overview #11 membuka State machine; disclosure latihan Enter membuka tiga select; tiap select mengubah snapshot/prediksi dan membuat feedback menunggu; Periksa lifecycle dan tindak lanjut Enter menampilkan dua alasan; reload memulihkan hasil; contoh Enter/Escape membuka/menutup; Bukti ketik/reload mempertahankan transfer; panduan dosen #11/disclosure menampilkan fasilitasi/rubrik; Tab/Shift+Tab mengembalikan fokus terlihat dan target 44px; kedua tema diperiksa; offline reload mempertahankan latihan.
+- Gate perubahan yang harus dibuktikan: Hard R-02/03/17/18/23/24/25/26/27/28/32/33/34/35/36/37/38 melalui validator, diff/scope dan smoke. Purpose R-01/04/06/07/08/09/10/12/13/14/19/22: tidak menambah teknik dekoratif, alasan font/warna/layout/diagram/jejak di atas. Liveliness: dials 1/2/1, fokus state versus uang, motif jejak Aruna, aksen tindakan lama, whitespace struktural dan variasi tab/disclosure. Craft C-1..C-5 serta R-05/11/15/16/20/21/29/30/31: tugas berbasis sesi asli, CTA spesifik, radius/palette/dua tema lama, tanpa pemasaran, statistik/testimoni rekaan atau kloning. Ini gate perubahan S11, bukan audit ulang lampiran immutable.
+- Batasan: seluruh kontrak/urutan/peran adalah asumsi kelas, tanpa klaim eksternal baru. Snapshot bukan mesin transaksi, verifikasi signature, konkurensi, deduplikasi backend, refund atau jaminan tepat satu kali. Payment_id berbeda dan pemulihan order adalah tugas audit/transfer, bukan fungsi dieksekusi. RPS asli tidak diverifikasi, rubrik bukan nilai resmi, catatan tetap lokal. Materi beku, antrean, dependensi bersama dan dashboard tidak diedit.
+- Status saat penulisan: GREEN lokal `npm run smoke:pwa` exit 0 setelah build maintainer selesai; gate 174 halaman, baseline/suplemen, desktop/mobile, 16 sesi/48 jawaban, 13 unduhan identik dan offline lulus. Percobaan maintainer pertama berhenti sebelum commit pada assertion fokus kontrol actor S04 di mobile; pengulangan penuh tanpa perubahan kode lulus. Penyebab intermiten belum dipastikan, bukan dianggap perbaikan S04. Log scratch/iasd-s11-release.log dan iasd-s11-retry-smoke.log. Belum klaim publikasi; maintainer wajib diulang sampai semua gate, commit/deploy dan exact revision/baseline live lulus.
+
+### Gate perubahan S11, bukti GREEN lokal (publikasi belum diklaim)
+
+- R-02 PASS: validator suplemen tanpa em dash.
+- R-03 PASS: dua viewport/tema tanpa overflow dan select 44px.
+- R-17 PASS: ID dan urutan hanya asumsi latihan, tanpa statistik rekaan.
+- R-18 PASS: tanpa testimoni.
+- R-23 PASS: tidak membuat aset atau identitas baru.
+- R-24 PASS: overview #11 dan instructor #11 dibuka smoke.
+- R-25 PASS: computed contrast teks tambahan terpindai AA dua tema, bukan sertifikasi seluruh aplikasi.
+- R-26 PASS: setiap select, Periksa dan disclosure sesuai click-through teruji di atas.
+- R-27 PASS: boot/error penyimpanan lama tetap; belum diperiksa/salah/tersimpan serta backup salah diuji; tanpa fetch baru.
+- R-28 PASS: tanpa FAQ.
+- R-32 PASS: Enter/Escape/Tab/Shift+Tab dan fokus terlihat diuji.
+- R-33 PASS: implementasi langsung sumber, tanpa script penulis ulang UI.
+- R-34 PASS: kedua tema diuji, font/layout lama tetap.
+- R-35 PASS lokal: build maintainer dan smoke penuh exit 0; click-through di atas, belum klaim produksi.
+- R-36 PASS: tanpa klaim keamanan/performa/pelanggan baru.
+- R-37 PASS: arah studio serta Design Read/dials sebelum generasi.
+- R-38 PASS: kontrak/peran/urutan berlabel asumsi, bukan transaksi nyata.
+- R-01 PASS: tanpa gradien/glow baru; aksen tindakan lama.
+- R-04 PASS: tanpa ikon baru.
+- R-06 PASS: font sistem lama menjaga kontinuitas baca.
+- R-07 PASS: tanpa pola latar baru.
+- R-08 PASS: panah hanya urutan event, bukan CTA dekoratif.
+- R-09 PASS: tanpa badge baru.
+- R-10 PASS: tanpa blur baru.
+- R-12 PASS: tanpa shadow baru.
+- R-13 PASS: tanpa glow baru.
+- R-14 PASS: tanpa feature-card, contoh berbasis tugas dalam disclosure.
+- R-19 PASS: MOTION 1 memakai interaksi/fokus lama, tanpa animasi baru.
+- R-22 PASS: diagram state lama relevan dengan lifecycle, tanpa ilustrasi dekoratif.
+- Liveliness PASS: dials 1/2/1 konsisten, fokus state versus uang, whitespace label struktural, aksen tindakan lama, motif O-AR11/P-AR11, variasi Konsep/latihan/Bukti/Dosen; Design Read sebelum generasi.
+- C-1 PASS: alasan warna/font/layout/jarak/diagram/jejak tertulis di atas.
+- C-2 PASS: semua kontrol tambahan punya hasil teruji.
+- C-3 PASS: satu tugas khusus S11, tanpa section template.
+- C-4 PASS: belum diperiksa/salah/tersimpan, keyboard, dua tema/viewport, backup dan offline diuji.
+- C-5 PASS: asumsi serta batas bukti eksplisit.
+- R-05 PASS: struktur berbasis tugas/tab/disclosure lama.
+- R-11 PASS: radius kontrol lama dipertahankan.
+- R-15 PASS: CTA spesifik Periksa lifecycle dan tindak lanjut.
+- R-16 PASS: tanpa buzzword pemasaran.
+- R-20 PASS: motif jejak lifecycle Aruna dan transfer tiket, bukan halaman generik.
+- R-21 PASS: toggle dua tema tetap aktif dan diuji.
+- R-29 PASS: palette lama tanpa warna tambahan.
+- R-30 PASS: tidak mengkloning produk lain.
+- R-31 PASS: alasan desain tertulis; CSS hanya target select S11.
+- Mahasiswa: https://hicall.web.id/iasd/studio#11
+- Dosen: https://hicall.web.id/iasd/studio?mode=teach#11

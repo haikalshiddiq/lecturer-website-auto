@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T07:16:56+07:00",
+  "generatedAt": "2026-11-04T07:20:10+07:00",
   "briefingTitle": "Indonesia Hot News Briefing: 04 November 2026",
   "sentimentBasis": "Metadata penerbit via Google News RSS, maksimum 48 jam (Asia/Jakarta). Sentimen adalah heuristik kata pada judul, bukan dampak investasi terverifikasi. Confidence 0.35 menandai bukti terbatas, bukan probabilitas terkalibrasi. Artikel lengkap dan gambar belum diverifikasi; tautan discovery disimpan apa adanya.",
   "items": [
@@ -22,20 +22,20 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-11-03-10cab4ccbb",
-      "date": "2026-11-03",
+      "id": "2026-11-04-ca301adb8a",
+      "date": "2026-11-04",
       "topic": "Automotive / EV",
-      "title": "Asuransi Bersikap Hati Hati Hadapi Risiko Mobil Listrik",
-      "summary": "Judul RSS Demokratis.co.id: Asuransi Bersikap Hati Hati Hadapi Risiko Mobil Listrik",
+      "title": "BYD Siapkan MPV Listrik Baru, Harga Diprediksi Mulai Rp450 Jutaan",
+      "summary": "Judul RSS TIMES Indonesia: BYD Siapkan MPV Listrik Baru, Harga Diprediksi Mulai Rp450 Jutaan",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Demokratis.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGJLWjFhbGU3Q3Vfb09LYjR2clBzQTRnX1dodEdTZHlpeUNZdWJFVERaWU1FRVBEWVVZSGxHVndsZzBGeGVxOXBOVlBQd1NGZm1Fc0ZCeWVSVUg2SUZkQmp0SVh5Qy1lZlZzLXRqYU5aR2NZOXh0alQ4cVlUSVR2TkZsNWVvWk0?oc=5",
+      "impact": "Judul menyebut MPV Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "TIMES Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOEplUi1wLVV2SFpRQm1ybG9hZmNkMFJJZFE5YzUzUHV0X1gybDVST2tDbnBGQnhOeFZyTWk5WkE2YzNhaEpzS3B5ZUlwNFMzbDU5T24za0UwSDFtU1lySW5iSXBuekZqeFYyYTMtODRTTTJGSGFNX3RjX19VdDlHR2FJY0RWVFE5dHNGbDVVeXNLcXBieHNUV0ZRRlNJanhGdzBJeUkyVVJQVGw5em1V?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-03T22:18:23+07:00",
+      "publishedAt": "2026-11-04T00:02:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -76,20 +76,20 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-11-03-42ed824b57",
-      "date": "2026-11-03",
+      "id": "2026-11-04-fe557ba126",
+      "date": "2026-11-04",
       "topic": "Infrastructure",
-      "title": "Pendapatan Usaha Tumbuh 7,9%, Jasa Marga Terus Perkuat Konektivitas dan Layanan Jalan Tol",
-      "summary": "Judul RSS ciayumajakuning.id: Pendapatan Usaha Tumbuh 7,9%, Jasa Marga Terus Perkuat Konektivitas dan Layanan Jalan Tol",
-      "sentiment": "Positive",
-      "score": 0.25,
+      "title": "Kalla Beton Perkuat Kolaborasi Infrastruktur, Bidik Peluang Proyek di Indonesia Timur",
+      "summary": "Judul RSS Rakyatku.Com: Kalla Beton Perkuat Kolaborasi Infrastruktur, Bidik Peluang Proyek di Indonesia Timur",
+      "sentiment": "Neutral",
+      "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "ciayumajakuning.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVmxGVnpiZnRoamoydDdza1BJaGFsZElsdWU5U2o1ZWhtM285djlNR1BRNXQ2VzRUaUdGTjUyXzM5dkpUWDNhd3NMMkl3N3FZaVJRZkxpa2RSMTRna3ZDZTF1eWZqY0JHMWtiOTEyMjRRb2N3c1RRd2V5SWhLS1VkdXI1WUlXaTZlVU5Ob0F4ZHJ0TDVaZkVIRUZlQ0FURWdhUU9iZzZONl9wOTA1V3dyc0dUdkIzTndxZ0oxUDhHSHJxWmc?oc=5",
+      "source": "Rakyatku.Com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOekFhcTY4WklROHZ4V0I0T3drdUJXT1BIc2tvNG1BNEUtRmRJaXBzYTVibXRhZU9PQmZxaENTN2htRTcxdUdNMlpyOGE2WHU4R3lfbmN1TTZXSzFsZTVDeGNVMEw4dHhrQVFMdmhXejZXaTFsdW9kRUlzbnBIYjQ5MnJQYmJxVUoyOGdKeGwydEp0YVBuZ19WLXBCdzl3bWhQN3EwT0NmSFhOZlRvTU04MHE0Z2V3dEVO?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-03T12:38:30+07:00",
+      "publishedAt": "2026-11-04T00:25:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -130,74 +130,74 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-11-03-d248530cf1",
+      "id": "2026-11-03-10cab4ccbb",
       "date": "2026-11-03",
       "topic": "Automotive / EV",
-      "title": "Pasar Mobil Listrik Mulai Dilirik Konsumen Muda, Ini Alasannya",
-      "summary": "Judul RSS kontan.co.id: Pasar Mobil Listrik Mulai Dilirik Konsumen Muda, Ini Alasannya",
+      "title": "Asuransi Bersikap Hati Hati Hadapi Risiko Mobil Listrik",
+      "summary": "Judul RSS Demokratis.co.id: Asuransi Bersikap Hati Hati Hadapi Risiko Mobil Listrik",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdk5xaHdheWQ0MWxjbFdrMVZpaC1OTWNWazh5VUswUnRhZGdXWkI4WmtNTmhJTTN1UHFmeWRWVVNsUVZUeHZZSHc5TUtwVDJ4ZFdESVk3UzQ5VjM5eWNReDdGMlVNVmZBTU8waFZjRkEzVURObUNwSWdvMzJIZU41NjYwa0cybEQ3MVpSRjllYlBvSjN6Y0IzQUwwUmnSAZYBQVVfeXFMUFFueUo0ZFE0TDRFblRlekhhTVhtR2ZhMHRKT25raE5mbGRCUjJSM29UV044YVp4QVFYblQwQjR0VVpacXF2ZEFhWm5DTDRFTkhEYjZ5SldmdENzMlNEdkdaUFhkTU1EdkNFeUI3OHFzMHd0NE5nWHJSS012Qk5vMVRVREpLQzZCLVV2T3V0cDZnbXNWS3Nn?oc=5",
+      "source": "Demokratis.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGJLWjFhbGU3Q3Vfb09LYjR2clBzQTRnX1dodEdTZHlpeUNZdWJFVERaWU1FRVBEWVVZSGxHVndsZzBGeGVxOXBOVlBQd1NGZm1Fc0ZCeWVSVUg2SUZkQmp0SVh5Qy1lZlZzLXRqYU5aR2NZOXh0alQ4cVlUSVR2TkZsNWVvWk0?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-03T22:11:10+07:00",
+      "publishedAt": "2026-11-03T22:18:23+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-04-f4d92602ce",
+      "id": "2026-11-04-d0c649fb31",
       "date": "2026-11-04",
       "topic": "Markets",
-      "title": "IHSG Anjlok, Tekanan Pasar Saham Kini Berkembang Jadi Krisis Kepercayaan Investor?",
-      "summary": "Judul RSS kontan.co.id: IHSG Anjlok, Tekanan Pasar Saham Kini Berkembang Jadi Krisis Kepercayaan Investor?",
-      "sentiment": "Negative",
-      "score": -0.25,
+      "title": "Saham HSC Bergerak Liar Usai Didepak dari IHSG, Masih Ada Peluang Cuan",
+      "summary": "Judul RSS KONTAN: Saham HSC Bergerak Liar Usai Didepak dari IHSG, Masih Ada Peluang Cuan",
+      "sentiment": "Neutral",
+      "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMTVrckRIbmJIOUxUcTI4ODRVdWdBLXZvdkgzVVpZdmNJcUg1ODNVLW1RLTZNeldUOHJRX09PTnhGajlIc3pEdUxRQ0ozaDIzNS1CY2MyOFE1cUp2M0FHLWZVdVRHUkJpUHlhdkFNaWtYOVJITnJZRVJDYUVSaTYzazVSZ0FMS19Sd2xxc1VOdjRCNmNjV2RuUUk0SlhJSWtLeDBuZFozZkROS0lqWV9tQXVpcElGWWPSAa8BQVVfeXFMUE5CcUhjSFpkLXBqMlE4SlR0SU8zOFBTeEpFWERPNF9KS2EtcmU5LWhPaU8wVHVJV2huTjBCWGdISkhmeU43bWJMUEpIOXViZk5oa3ZnUHJndkd1SlNyeXBwUXdWak45Wm52Y1VoY2lWbFlFSkJsMWZ1SG5PNWVGMFFGdERkV1pOdC1VTDZoUy1xNEFGVE5HcmhBekp3aTc1bFgtYndxRHBRckFjRG1qNA?oc=5",
+      "source": "KONTAN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUHJ5TW9BQk9icVFGSnFEMW9aNmc3MTluRW5TTEJPaHpUVUJKVldEWDA4Wm5VN3BUUnd6ZXhuTWtTbkRGU3UtcGczYUdoQnZfWFUzeHE5V3NSZGFyel9nanhJWmNKTzZFc0toSjZTRnJBRWtVM1JVUUFzMXFUTEhOUU9Ud2FWdm1FblRCQ1A1aHJJMUkwYTRaSkotc3drMkVpa21sYi13?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-04T07:07:31+07:00",
+      "publishedAt": "2026-11-04T07:09:16+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-04-55bfaae2a6",
+      "id": "2026-11-04-174932e5ea",
       "date": "2026-11-04",
       "topic": "Business / Investment",
-      "title": "Indonesia Corporate & Brand Champions 2026: Membaca Masa Depan Bisnis di Era AI",
-      "summary": "Judul RSS infobrand: Indonesia Corporate & Brand Champions 2026: Membaca Masa Depan Bisnis di Era AI",
+      "title": "Suahasil Bawa Kabar Baik dari Pabrik RI, Permintaan Diprediksi Naik",
+      "summary": "Judul RSS CNBC Indonesia: Suahasil Bawa Kabar Baik dari Pabrik RI, Permintaan Diprediksi Naik",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "infobrand",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVXRuMUNwNkx5NHl0V1pUWmpOdzZUeTR0cjdnWmZoS1ZRckVOLWlNdG93U2VwRFFyU0E3LXBVZmgzaVRxUnEzMVRHcDFmVFEzMUlsdkp0eUo0azhucXFUQURyZndmdXJNWnduTGYyd2l6MGxYS3ZwQk9hQVNnSG13c3lYY2l3N0ROemxBQkxNazJkWHp0OE5VMVY3MUVrQjhYc1RSVmx3?oc=5",
+      "impact": "Judul menyebut Pabrik. Yang perlu diverifikasi: nilai investasi, kapasitas produksi, dan jadwal operasi. Dampak belum dinilai dari artikel lengkap.",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSkM1YVdGVmZoelpRUDlHWmJaSXVmcWFpcGI5dGZQbHNQNGZvOVl3ZzRyeE14aHFDRDd2cEhlMVFFdk5LUVN2d2NCVnM0UnZsVDJ1Tmx6c0tMcHd1ak9aUUp5Tm81Qml4UlJUSUhCUmNEZ291RFN4djlQM0o4TVptMVJZcG9oM0s5dmYwNjhoX0lxNFdfcTdhdzVSRWJDU09hOWk4d2lwU19XaG90Zk9lSWV6TFNsV25qUkpjS2pTWlphZ3fSAcgBQVVfeXFMUG9PeDY4aW95dGpjTXFROV9rc3FrZFJjNFlCcEFHN0FtdEc0SjlVS2JWVDJSMzQtRERCcTZQVHAyY0Q2c3hHUVFFcXNraGFpMnVVMDhoTjVSa3M5emZrSWxFbWppaHJfQWJnLXA5RU5lQUozSU1KX0xleVRlQWUxaUw2UURmUkNHM3RNTVZFQm9EamxyT3NuLUZiTkpHZ2pGQ2xSaGNlcWhvTmw5bGszWjVDdXg0N1F4bFVXdFlBbGFJUjNqSmhRblQ?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-04T05:26:25+07:00",
+      "publishedAt": "2026-11-04T06:55:37+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-03-d640d48232",
+      "id": "2026-11-03-7df9f2d1bb",
       "date": "2026-11-03",
       "topic": "Infrastructure",
-      "title": "Dukung Pembangunan Desa, PT Usaha Agro Indonesia Realisasikan CSR Infrastruktur",
-      "summary": "Judul RSS Suara Ketapang: Dukung Pembangunan Desa, PT Usaha Agro Indonesia Realisasikan CSR Infrastruktur",
-      "sentiment": "Neutral",
-      "score": 0.0,
+      "title": "Pendapatan Usaha Tumbuh 7,9%, Jasa Marga Terus Perkuat Konektivitas dan Layanan Jalan Tol - pontianakinfo.disway.id",
+      "summary": "Judul RSS Disway: Pendapatan Usaha Tumbuh 7,9%, Jasa Marga Terus Perkuat Konektivitas dan Layanan Jalan Tol - pontianakinfo.disway.id",
+      "sentiment": "Positive",
+      "score": 0.25,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Suara Ketapang",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTGxCblRudzNvbDdmSllOam1yRTJaSEExNDlIZXVtOFI5ZFd2VzNjZC1DYXAzWk9XOVdncXBDMU9JbTIzeU4yYnZyQ09CWEZpV1JZZXlqWGRTVHIwN1N3Zng3bExiV3BldlZiaW1yQW1KbWJPXzdDY3EwSHlNUFU1STBGNlFnblRBTnE3WmdR?oc=5",
+      "source": "Disway",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlJkVlZRVERoc0pqcm9aV2ljeFFCMnNhcUZTSWp6aExaU1hjcUwtcndwbXdKeGFFczRCRmdqQlE4OGFweE4yNkxJRTAza0k1TE9nNzlzSS1iNnF5WWM5eW4zUGx4NEJDRjY2MXItOHQzemFFYmVWTFctZ09Lc1B2WWl4MnhjZ2c2aHBiMFY1dm9pb2tRbXJWSS1KNDR4WEJRNlpqUFd1eTg0Si1KeXRXMEMxTE1CTHE2QUNHajk5d2tGZWxqS2NR0gHHAUFVX3lxTFBCUmRWVlFURGhzSmpyb1pXaWN4UUIyc2FxRlNJanpoTFpTWGNxTC1yd3Btd0p4YUVzNEJGZ2pCUTg4YXB4TjI2TElFMDNrSTVMT2c3OXNJLWI2cXlZYzl5bjNQbHg0QkNGNjYxci04dDN6YUViZVZMVy1nT0tzUHZZaXgyeGNnZzZocGIwVjV2b2lva1FtclZJLUo0NHhYQlE2WmpQV3V5ODRKLUp5dFcwQzFMTUJMcTZBQ0dqOTl3a0ZlbGpLY1E?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-03T10:38:00+07:00",
+      "publishedAt": "2026-11-03T12:32:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -238,38 +238,38 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-11-03-c7333569f0",
+      "id": "2026-11-03-d248530cf1",
       "date": "2026-11-03",
       "topic": "Automotive / EV",
-      "title": "Milenial dan Gen Z Mulai Melirik Mobil Listrik di Indonesia",
-      "summary": "Judul RSS Limapagi: Milenial dan Gen Z Mulai Melirik Mobil Listrik di Indonesia",
+      "title": "Pasar Mobil Listrik Mulai Dilirik Konsumen Muda, Ini Alasannya",
+      "summary": "Judul RSS kontan.co.id: Pasar Mobil Listrik Mulai Dilirik Konsumen Muda, Ini Alasannya",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Limapagi",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RVE9hdjVsaWlGQ04wMk91ZDZOTml1alpORUQ3dldvSk1FZWQycGdyaTRHNE9RME10dXJMclhYY21mLXdtMVIxSm5zWWpTaVowWW8zVUNFOW9PZVUza0ZqTlN3?oc=5",
+      "source": "kontan.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdk5xaHdheWQ0MWxjbFdrMVZpaC1OTWNWazh5VUswUnRhZGdXWkI4WmtNTmhJTTN1UHFmeWRWVVNsUVZUeHZZSHc5TUtwVDJ4ZFdESVk3UzQ5VjM5eWNReDdGMlVNVmZBTU8waFZjRkEzVURObUNwSWdvMzJIZU41NjYwa0cybEQ3MVpSRjllYlBvSjN6Y0IzQUwwUmnSAZYBQVVfeXFMUFFueUo0ZFE0TDRFblRlekhhTVhtR2ZhMHRKT25raE5mbGRCUjJSM29UV044YVp4QVFYblQwQjR0VVpacXF2ZEFhWm5DTDRFTkhEYjZ5SldmdENzMlNEdkdaUFhkTU1EdkNFeUI3OHFzMHd0NE5nWHJSS012Qk5vMVRVREpLQzZCLVV2T3V0cDZnbXNWS3Nn?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-03T20:42:17+07:00",
+      "publishedAt": "2026-11-03T22:11:10+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-04-6b8792a571",
+      "id": "2026-11-04-f4d92602ce",
       "date": "2026-11-04",
       "topic": "Markets",
-      "title": "BI Catat Modal Asing Keluar 80 Juta Dolar AS pada Kuartal III 2026",
-      "summary": "Judul RSS bsinews.id: BI Catat Modal Asing Keluar 80 Juta Dolar AS pada Kuartal III 2026",
-      "sentiment": "Neutral",
-      "score": 0.0,
+      "title": "IHSG Anjlok, Tekanan Pasar Saham Kini Berkembang Jadi Krisis Kepercayaan Investor?",
+      "summary": "Judul RSS kontan.co.id: IHSG Anjlok, Tekanan Pasar Saham Kini Berkembang Jadi Krisis Kepercayaan Investor?",
+      "sentiment": "Negative",
+      "score": -0.25,
       "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "bsinews.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UUnRoTGxfalkxUE5ZajdkR1I3aUQxSXdWWXhrM0xrT2tKZHhrYTN3YWpjTTF2em9LcndQMENTWDRMRG55OGdnQU8wOFdhRm9uZzllWk12NVJNdw?oc=5",
+      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
+      "source": "kontan.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMTVrckRIbmJIOUxUcTI4ODRVdWdBLXZvdkgzVVpZdmNJcUg1ODNVLW1RLTZNeldUOHJRX09PTnhGajlIc3pEdUxRQ0ozaDIzNS1CY2MyOFE1cUp2M0FHLWZVdVRHUkJpUHlhdkFNaWtYOVJITnJZRVJDYUVSaTYzazVSZ0FMS19Sd2xxc1VOdjRCNmNjV2RuUUk0SlhJSWtLeDBuZFozZkROS0lqWV9tQXVpcElGWWPSAa8BQVVfeXFMUE5CcUhjSFpkLXBqMlE4SlR0SU8zOFBTeEpFWERPNF9KS2EtcmU5LWhPaU8wVHVJV2huTjBCWGdISkhmeU43bWJMUEpIOXViZk5oa3ZnUHJndkd1SlNyeXBwUXdWak45Wm52Y1VoY2lWbFlFSkJsMWZ1SG5PNWVGMFFGdERkV1pOdC1VTDZoUy1xNEFGVE5HcmhBekp3aTc1bFgtYndxRHBRckFjRG1qNA?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-04T06:20:00+07:00",
+      "publishedAt": "2026-11-04T07:07:31+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -292,20 +292,20 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-11-03-a853951ef2",
+      "id": "2026-11-03-d640d48232",
       "date": "2026-11-03",
       "topic": "Infrastructure",
-      "title": "Longsor di Jember Ganggu Tiga Perjalanan Kereta Api",
-      "summary": "Judul RSS VOICE Indonesia: Longsor di Jember Ganggu Tiga Perjalanan Kereta Api",
+      "title": "Dukung Pembangunan Desa, PT Usaha Agro Indonesia Realisasikan CSR Infrastruktur",
+      "summary": "Judul RSS Suara Ketapang: Dukung Pembangunan Desa, PT Usaha Agro Indonesia Realisasikan CSR Infrastruktur",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "VOICE Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZS1DLU1vd214bnV1YXI2NFBBN2lDVUxlZ214OWFXSGEyVnI1bFFIT0RKTlh0eWZkSHRKWDQ5VTRwRy1RSXRCY3dXZU5rYVhIM3lIZmZXVG1oWjdlNHZjWHBzNFdOYlFjcElxV0FDeGM0TWZBZHJWMFJMWkw5Yi1ER3NB?oc=5",
+      "source": "Suara Ketapang",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTGxCblRudzNvbDdmSllOam1yRTJaSEExNDlIZXVtOFI5ZFd2VzNjZC1DYXAzWk9XOVdncXBDMU9JbTIzeU4yYnZyQ09CWEZpV1JZZXlqWGRTVHIwN1N3Zng3bExiV3BldlZiaW1yQW1KbWJPXzdDY3EwSHlNUFU1STBGNlFnblRBTnE3WmdR?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-03T05:59:38+07:00",
+      "publishedAt": "2026-11-03T10:38:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -346,38 +346,38 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-11-03-772e3ddac3",
+      "id": "2026-11-03-463a622e46",
       "date": "2026-11-03",
       "topic": "Automotive / EV",
-      "title": "Checklist Perawatan Mobil Listrik Sebelum Road Trip Akhir Tahun",
-      "summary": "Judul RSS KatadataOTO: Checklist Perawatan Mobil Listrik Sebelum Road Trip Akhir Tahun",
+      "title": "Wali Kota Bogor: Kendaraan listrik peluang besar bagi industri manufaktur",
+      "summary": "Judul RSS ANTARA News Megapolitan: Wali Kota Bogor: Kendaraan listrik peluang besar bagi industri manufaktur",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "KatadataOTO",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVDhMY0RlbUl5c1ZyVHpHUjc5TGxxeDliUTRsQmNMRHV1Q3lndGJWZXV5OHQwQ1NrTjFfZTgza1hZWmw1TFBkX3BKUG13T3hVeEVhZW92T21hWGtrdE1DZVVfZXhSd3BNQ0YyZHNmUmltcnZmVTZqcjhBV2ZIMHRuX2dJV29XYTBnUFdDV3VCX29JMHNMXzVQdVpMTkx0eW9Ma29ZdjJ3NjR4X1E?oc=5",
+      "impact": "Judul menyebut Kendaraan listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "ANTARA News Megapolitan",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTGZ3SGlqNnN4bkF5bktUcEJXSnRCaGFCQXVFWEt0OHdQcE1NYk14RlBLc3hHNWxXdzh0eE9Sc19NUnBQWkZKcEhqLWFtVmRjT2NxV3ZWUkNhbk9PaWlIVGY1bGwtWmdSUG9nN2xjM0Q5V0Rtd21GRXQ3alJpNWtSQUdvRUJycmRSUVdUeXpoV1lNcE92UFRUV2ZnaDRWdndwSHFZQ3VFY0R3d1Y2d2dCWUs5NGdmdjhhN3o4TTcyLXlzOEHSAcMBQVVfeXFMUExmd0hpajZzeG5BeW5LVHBCV0p0QmhhQkF1RVhLdDh3UHBNTWJNeEZQS3N4RzVsV3c4dHhPUnNfTVJwUFpGSnBIai1hbVZkY09jcVd2VlJDYW5PT2lpSFRmNWxsLVpnUlBvZzdsYzNEOVdEbXdtRkV0N2pSaTVrUkFHb0VCcnJkUlFXVHl6aFdZTXBPdlBUVFdmZ2g0VnZ3cEhxWUN1RWNEd3dWNndnQllLOTRnZnY4YTd6OE03Mi15czhB?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-03T20:20:00+07:00",
+      "publishedAt": "2026-11-03T20:59:06+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-04-26f5b8becc",
+      "id": "2026-11-04-d4682eb10e",
       "date": "2026-11-04",
       "topic": "Markets",
-      "title": "BI Catat Investor Asing Kabur dari Pasar Saham RI 410 Juta Dollar AS pada Kuartal III",
-      "summary": "Judul RSS Kompas.com: BI Catat Investor Asing Kabur dari Pasar Saham RI 410 Juta Dollar AS pada Kuartal III",
+      "title": "IHSG Anjlok ke 4904 dan Picu Kekhawatiran Investor",
+      "summary": "Judul RSS bsinews.id: IHSG Anjlok ke 4904 dan Picu Kekhawatiran Investor",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Kompas.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOa05ZMnIzRDRTcXExam94OEt4MDFxZE9yTmdRS3o3YkhRTGt0ME54NTZFcVljdjBaenVWVDBtbTBLbzdMemFSLVQtVVdHU29oaVlnMmV0bjZMZ2JTZlRacTE5cGtiNXdsTE9QOHJabnVGTkc3ZkR2Wkl6Z05tQTFiQnFheDVlSXduS1UzZ1ZIOWtjOGsyLW4xYXNubGFOT1NFR0lFdGoxb0JyVWtRMFNzZy1wem5NQ2hrVkhIT1hPcER6QQ?oc=5",
+      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
+      "source": "bsinews.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CNG9oVXZURnZha1ZsY2dJTXE0M0h2dEhBX1BTd2tuZzBIQk90Zi1ZOWJxQjh5UC1aQTVIaU5sVE5YNWZvVnVTNVhPYW82RWFLMlhVY1o0djBBZ3p3NlNmTENBbTdOVVpt?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-04T06:10:00+07:00",
+      "publishedAt": "2026-11-04T05:51:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -437,32 +437,13 @@
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-11-04T07:16:56+07:00",
-    "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
+    "generatedAt": "2026-11-04T07:20:10+07:00",
+    "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice. CNY: 1/252 daily observations; excluded from FX ranking",
+    "dataWarnings": [
+      "CNY: 1/252 daily observations; excluded from FX ranking"
+    ],
     "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
     "forexComparison": [
-      {
-        "symbol": "CNYIDR=X",
-        "label": "Chinese Yuan",
-        "useCase": "China trade, imports, and commodity demand proxy",
-        "pair": "CNY",
-        "last": 2720.8,
-        "date": "2026-11-03",
-        "return1m": 0.0,
-        "return3m": 0.0,
-        "return6m": 0.0,
-        "return1y": 0.0,
-        "volatility": 0,
-        "maxDrawdown": 0,
-        "sparkline": [
-          {
-            "date": "2026-11-03",
-            "value": 2720.8
-          }
-        ],
-        "profitScore": 0.0,
-        "view": "defensive/watchlist screen"
-      },
       {
         "symbol": "USDIDR=X",
         "label": "US Dollar",
@@ -1955,25 +1936,301 @@
       }
     ],
     "bestForex": {
-      "symbol": "CNYIDR=X",
-      "label": "Chinese Yuan",
-      "useCase": "China trade, imports, and commodity demand proxy",
-      "pair": "CNY",
-      "last": 2720.8,
+      "symbol": "USDIDR=X",
+      "label": "US Dollar",
+      "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
+      "pair": "USD",
+      "last": 17472.1992,
       "date": "2026-11-03",
-      "return1m": 0.0,
-      "return3m": 0.0,
-      "return6m": 0.0,
-      "return1y": 0.0,
-      "volatility": 0,
-      "maxDrawdown": 0,
+      "return1m": -2.44,
+      "return3m": -2.73,
+      "return6m": 1.06,
+      "return1y": 5.5,
+      "volatility": 9.04,
+      "maxDrawdown": -3.95,
       "sparkline": [
         {
-          "date": "2026-11-03",
-          "value": 2720.8
+          "date": "2026-04-21",
+          "value": 17133.0996
+        },
+        {
+          "date": "2026-04-23",
+          "value": 17329.0
+        },
+        {
+          "date": "2026-04-27",
+          "value": 17216.0
+        },
+        {
+          "date": "2026-04-29",
+          "value": 17334.1992
+        },
+        {
+          "date": "2026-05-03",
+          "value": 17288.5
+        },
+        {
+          "date": "2026-05-05",
+          "value": 17389.8008
+        },
+        {
+          "date": "2026-05-07",
+          "value": 17294.9004
+        },
+        {
+          "date": "2026-05-11",
+          "value": 17413.0
+        },
+        {
+          "date": "2026-05-13",
+          "value": 17500.0
+        },
+        {
+          "date": "2026-05-17",
+          "value": 17586.0
+        },
+        {
+          "date": "2026-05-19",
+          "value": 17777.0
+        },
+        {
+          "date": "2026-05-21",
+          "value": 17692.0
+        },
+        {
+          "date": "2026-05-25",
+          "value": 17762.0
+        },
+        {
+          "date": "2026-05-27",
+          "value": 17804.0
+        },
+        {
+          "date": "2026-05-31",
+          "value": 17817.0
+        },
+        {
+          "date": "2026-06-02",
+          "value": 17858.0
+        },
+        {
+          "date": "2026-06-04",
+          "value": 17955.5
+        },
+        {
+          "date": "2026-06-08",
+          "value": 18190.3008
+        },
+        {
+          "date": "2026-06-10",
+          "value": 17875.9004
+        },
+        {
+          "date": "2026-06-14",
+          "value": 17772.0
+        },
+        {
+          "date": "2026-06-16",
+          "value": 17730.0
+        },
+        {
+          "date": "2026-06-18",
+          "value": 17794.4004
+        },
+        {
+          "date": "2026-06-22",
+          "value": 17862.0
+        },
+        {
+          "date": "2026-06-24",
+          "value": 17990.0
+        },
+        {
+          "date": "2026-06-28",
+          "value": 17830.0
+        },
+        {
+          "date": "2026-06-30",
+          "value": 17935.0
+        },
+        {
+          "date": "2026-07-02",
+          "value": 17787.9004
+        },
+        {
+          "date": "2026-07-06",
+          "value": 18046.0
+        },
+        {
+          "date": "2026-07-08",
+          "value": 18125.0
+        },
+        {
+          "date": "2026-07-12",
+          "value": 18065.0
+        },
+        {
+          "date": "2026-07-14",
+          "value": 18157.0
+        },
+        {
+          "date": "2026-07-16",
+          "value": 17985.0
+        },
+        {
+          "date": "2026-07-20",
+          "value": 17931.0
+        },
+        {
+          "date": "2026-07-22",
+          "value": 17917.0
+        },
+        {
+          "date": "2026-07-26",
+          "value": 17958.0
+        },
+        {
+          "date": "2026-07-28",
+          "value": 18053.0
+        },
+        {
+          "date": "2026-07-30",
+          "value": 18040.0996
+        },
+        {
+          "date": "2026-08-03",
+          "value": 17963.3008
+        },
+        {
+          "date": "2026-08-05",
+          "value": 17873.0
+        },
+        {
+          "date": "2026-08-09",
+          "value": 17794.0
+        },
+        {
+          "date": "2026-08-11",
+          "value": 17822.0
+        },
+        {
+          "date": "2026-08-13",
+          "value": 17863.0
+        },
+        {
+          "date": "2026-08-17",
+          "value": 17824.0
+        },
+        {
+          "date": "2026-08-19",
+          "value": 17807.0
+        },
+        {
+          "date": "2026-08-23",
+          "value": 17655.0
+        },
+        {
+          "date": "2026-08-25",
+          "value": 17695.0
+        },
+        {
+          "date": "2026-08-27",
+          "value": 17749.0
+        },
+        {
+          "date": "2026-08-31",
+          "value": 17689.9004
+        },
+        {
+          "date": "2026-09-02",
+          "value": 17723.0
+        },
+        {
+          "date": "2026-09-06",
+          "value": 17638.0
+        },
+        {
+          "date": "2026-09-08",
+          "value": 17588.0
+        },
+        {
+          "date": "2026-09-10",
+          "value": 17588.0996
+        },
+        {
+          "date": "2026-09-14",
+          "value": 17636.0
+        },
+        {
+          "date": "2026-09-16",
+          "value": 17718.0
+        },
+        {
+          "date": "2026-09-20",
+          "value": 17806.0
+        },
+        {
+          "date": "2026-09-22",
+          "value": 17805.0
+        },
+        {
+          "date": "2026-09-24",
+          "value": 17559.5
+        },
+        {
+          "date": "2026-09-28",
+          "value": 17980.3008
+        },
+        {
+          "date": "2026-09-30",
+          "value": 17884.8008
+        },
+        {
+          "date": "2026-10-04",
+          "value": 17909.0
+        },
+        {
+          "date": "2026-10-06",
+          "value": 17829.0
+        },
+        {
+          "date": "2026-10-08",
+          "value": 17807.5
+        },
+        {
+          "date": "2026-10-12",
+          "value": 17913.0
+        },
+        {
+          "date": "2026-10-14",
+          "value": 17823.6992
+        },
+        {
+          "date": "2026-10-18",
+          "value": 18056.0
+        },
+        {
+          "date": "2026-10-20",
+          "value": 17985.4004
+        },
+        {
+          "date": "2026-10-22",
+          "value": 18053.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 18144.0
+        },
+        {
+          "date": "2026-10-29",
+          "value": 18065.4004
+        },
+        {
+          "date": "2026-11-02",
+          "value": 18113.9004
         }
       ],
-      "profitScore": 0.0,
+      "profitScore": -1.69,
       "view": "defensive/watchlist screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",

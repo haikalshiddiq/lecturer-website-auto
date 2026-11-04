@@ -557,12 +557,19 @@ def us_stock_insights(previous=None):
 def market_insights(items, previous=None):
     now = datetime.now(JAKARTA).isoformat(timespec="seconds")
     forex = []
+    data_warnings = []
     for symbol, pair, label, use_case in FX:
         rows = yahoo_chart(symbol)
         if not rows and previous:
             old = next((x for x in previous.get("forexComparison", []) if x.get("symbol") == symbol), None)
             if old:
-                old = dict(old); old["stale"] = True; forex.append(old)
+                old = dict(old); old["stale"] = True
+                if len(old.get("sparkline", [])) >= 20:
+                    forex.append(old)
+                data_warnings.append(f"{pair}: source unavailable; retained history is stale")
+            continue
+        if len(rows) < 252:
+            data_warnings.append(f"{pair}: {len(rows)}/252 daily observations; excluded from FX ranking")
             continue
         vals = rows[-140:]
         prices = [v for _, v in vals]
@@ -607,10 +614,11 @@ def market_insights(items, previous=None):
     us_stocks = us_stock_insights(previous_us)
     return {
         "generatedAt": now,
-        "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice.",
+        "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice. " + "; ".join(data_warnings),
+        "dataWarnings": data_warnings,
         "forexBasis": "Starting point is IDR: ranking estimates which foreign currency would have produced stronger IDR return using Yahoo Finance daily data where available. Fees/spread/tax excluded.",
         "forexComparison": forex,
-        "bestForex": forex[0] if forex else {},
+        "bestForex": next((row for row in forex if not row.get("stale")), {}),
         "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
         "stockOpportunities": stocks,
         "usStockBasis": "Large-cap US watchlist ranked by weighted 1M/3M/6M/1Y price momentum with volatility and maximum-drawdown penalties. A higher score is a current quantitative screen, not a forecast or guarantee of profit.",
@@ -926,6 +934,9 @@ def telegram_report(payload, actions):
     if best:
         stale = "; data tersimpan/stale" if best.get("stale") else ""
         lines.append(f"\nFX screen: {best.get('pair')}, {best.get('last')} IDR pada {best.get('date')}; skor {best.get('profitScore')}{stale}. Bukan prakiraan keuntungan.")
+    warnings = payload.get("marketInsights", {}).get("dataWarnings", [])
+    if warnings:
+        lines.append("Batas data FX: " + plain("; ".join(warnings), 250))
     lines.append("\n### Status akhir")
     lines.extend("- " + plain(action, 430) for action in actions)
     lines.append("\nBukti: metadata RSS, bukan verifikasi artikel lengkap. Sentimen heuristik judul; bukan rekomendasi investasi. Tautan sumber lengkap di dashboard.")

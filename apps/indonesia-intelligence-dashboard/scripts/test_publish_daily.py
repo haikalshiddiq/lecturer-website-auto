@@ -28,6 +28,14 @@ def rss(items):
 
 
 class NewsContract(unittest.TestCase):
+    def test_single_fx_quote_cannot_win_a_negative_momentum_screen(self):
+        full = [("2026-11-03", float(510 - i)) for i in range(270)]
+        with patch.object(p, "FX", [("USD", "USD", "Dollar", "test"), ("CNY", "CNY", "Yuan", "test")]), patch.object(p, "yahoo_chart", side_effect=lambda symbol: full if symbol == "USD" else [("2026-11-03", 2720.8)]), patch.object(p, "us_stock_insights", return_value=[]):
+            result = p.market_insights([])
+        self.assertEqual(result["bestForex"]["pair"], "USD")
+        self.assertEqual(len(result["forexComparison"]), 1)
+        self.assertIn("CNY", " ".join(result["dataWarnings"]))
+
     def test_snippet_and_headline_are_distinct_evidence(self):
         headline = "Pabrik baru dibuka"
         summary, evidence = p.rss_summary(f"<a>{headline}</a><font>Publisher</font>", headline, "Publisher")

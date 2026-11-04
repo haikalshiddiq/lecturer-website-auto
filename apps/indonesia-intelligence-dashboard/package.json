@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "smoke": "npm test",
-    "check": "npm run validate:data && npm run lint && npm run build && npm test",
+    "check": "npm run test:publisher && npm run validate:data && npm run lint && npm run build && npm test",
+    "test:publisher": "python3 scripts/test_publish_daily.py -v",
     "lint": "eslint .",
     "test": "node scripts/smoke-dashboard.mjs"
   },

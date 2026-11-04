@@ -7,4 +7,5 @@
 #sim-controls:has([data-iasd-slot-contract]) select,#sim-controls:has([data-iasd-slot-contract]) input[type=range]{min-height:44px}
 #sim-controls:has([data-iasd-price-contract]) select,#sim-controls:has([data-iasd-price-contract]) .check,#sim-controls:has([data-iasd-price-contract]) input[type=range]{min-height:44px}
 #sim-controls:has([data-iasd-data-contract]) select,#sim-controls:has([data-iasd-data-contract]) .check{min-height:44px}
+#sim-controls:has([data-iasd-reserve-contract]) select{min-height:44px}
 #sim-controls:has([data-iasd-lifecycle-contract]) select{min-height:44px}

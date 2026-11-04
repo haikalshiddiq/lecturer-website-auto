@@ -132,6 +132,16 @@ function s10Scenario(s){
   const history=pick(s,'s10History','yes',['yes','no']),row=pick(s,'s10Row','allow',['allow','reject']);
   return {price,snapshot,discount,parent,history,row,total:2*((snapshot?100:price)-(discount==='locked'?10:20)),historical:snapshot&&discount==='locked',signature:[price,snapshot,discount,parent,history,row].join(':')};
 }
+function s12Scenario(s){
+  const trace=pick(s,'s12Trace','lost',['reserved','stock','lost','denied']),known=pick(s,'s12Known','rejected',['reserved','rejected','unknown']),next=pick(s,'s12Next','new',['continue','revise','query','access','new']);
+  const cases={
+    reserved:{known:'reserved',next:'continue',proof:'Inventori → Order: reserved, reservation_id=R12, O-AR12/K-R12 dan qty=2 cocok.',reason:'Order boleh mencatat R12 dan melanjutkan tahap menunggu pembayaran. Reserved bukan Paid; UI tidak membuat bukti pembayaran.'},
+    stock:{known:'rejected',next:'revise',proof:'Inventori → Order: insufficient_stock untuk O-AR12/K-R12; tanpa reservasi baru.',reason:'Penolakan stok diketahui. UI meminta tinjau jumlah; jangan retry diam-diam dengan payload berubah memakai kunci sama. Ini berbeda dari respons hilang.'},
+    lost:{known:'unknown',next:'query',proof:'Order → Inventori: reserve(O-AR12/K-R12, P12, qty=2). Order belum menerima hasil akhir.',reason:'Inventori mungkin sudah mencatat R12. Pertahankan ID dan payload, tampilkan sedang diperiksa, telusuri hasil lewat queryReservation sesuai kontrak usulan. Query dapat tetap pending; timeout bukan bukti gagal. Kunci baru berisiko efek baru.'},
+    denied:{known:'rejected',next:'access',proof:'Inventori → Order: unauthorized; identitas layanan ditolak, tanpa mutasi permintaan ini.',reason:'Hentikan upaya otomatis dan minta owner integrasi meninjau hak akses secara sah. Ini bukan bukti stok habis; UI tidak menaikkan izin atau mengganti identitas sendiri.'}
+  };
+  return {trace,known,next,expected:cases[trace],signature:[trace,known,next].join(':')};
+}
 function s11Scenario(s){
   const trace=pick(s,'s11Trace','late',['normal','late','duplicate','unverified']),state=pick(s,'s11State','Paid',['Draft','AwaitingPayment','Paid','Cancelled']),follow=pick(s,'s11Follow','record',['record','reconcile','verify']);
   const cases={
@@ -201,6 +211,16 @@ if(type==='elicitation'&&view===2&&supplements[2]){
   const statusReason=x.approval==='belum'?'NFR01 tetap usulan: belum ada persetujuan, meskipun batasnya terukur.':'NFR01 disepakati hanya menurut asumsi persetujuan pada batas terpilih; simpan pihak, versi dan konteks uji.';
   const timeReason=x.limit==='2'?'Hasil contoh tiga detik belum memenuhi batas dua detik.':'Hasil contoh tiga detik memenuhi batas lima detik.';
   viz+=s.s2Reviewed===x.signature?feedback(`<b>${correct?'Kedua prediksi tepat.':'Ada prediksi yang perlu direvisi.'}</b><p>${stockReason}</p><p>${statusReason}</p><p>${timeReason} Mengubah batas bukan perbaikan performa. Satu hasil contoh tidak membuktikan seluruh beban terpenuhi; tidak ada uji pembayaran atau checkout bersamaan di sini.</p>`,correct?'':'warn'):'<p data-iasd-s2-prediction>Latihan tambahan: buka Latihan FR01 & batas waktu, prediksi hasil stok dan status kebutuhan, lalu periksa alasannya.</p>';
+}
+if(type==='architecture'&&view===12&&supplements[12]){
+  const x=s12Scenario(s),correct=x.known===x.expected.known&&x.next===x.expected.next;
+  controls+=`<details data-iasd-reserve-contract ${$('#sim-controls [data-iasd-reserve-contract]')?.open||Object.keys(s).some(k=>k.startsWith('s12'))?'open':''}><summary>Latihan reserve dan gagal parsial</summary><p class="small">Asumsi kelas O-AR12/K-R12, P12, qty=2. Inventori memiliki stok/hasil reserve; Order menyimpan referensi; UI menampilkan status. Snapshot terpisah dari pilihan owner pembayaran di atas. queryReservation adalah usulan kontrak, bukan API tersedia.</p>`
+    +selectControl('s12Trace','Bukti diterima Order',[['reserved','A: reserved cocok'],['stock','B: insufficient_stock'],['lost','C: respons hilang'],['denied','D: unauthorized']],x.trace)
+    +selectControl('s12Known','Prediksi pengetahuan Order tentang permintaan ini',[['reserved','Reservasi terkonfirmasi'],['rejected','Penolakan terkonfirmasi'],['unknown','Efek belum diketahui']],x.known)
+    +selectControl('s12Next','Prediksi tindakan berikut',[['continue','Catat referensi, lanjut menunggu pembayaran'],['revise','Tampilkan stok kurang, minta tinjau jumlah'],['query','Pertahankan ID/payload, telusuri hasil'],['access','Hentikan otomatis, tinjau hak akses'],['new','Retry otomatis memakai ID baru']],x.next)
+    +simButton('s12review','Periksa bukti dan pemulihan')+'</details>';
+  viz+=`<section data-iasd-s12-proof><h3>Bukti snapshot reserve</h3><p>${esc(x.expected.proof)}</p><p class="small">Jalur reserve: Order → Inventori → Order → UI. Diagram dasar di atas menjelaskan jalur pembayaran, bukan jalur reserve. Pilihan ini tidak menjalankan transaksi atau mengubah owner pembayaran.</p></section>`;
+  viz+=s.s12Reviewed===x.signature?`<section data-iasd-s12-feedback>${feedback(`<b>${correct?'Bukti dan pemulihan tepat.':'Pisahkan hasil diketahui dan tindakan.'}</b><p>${x.known===x.expected.known?'Pengetahuan Order tepat.':'Revisi pengetahuan Order: '+esc({reserved:'reservasi terkonfirmasi',rejected:'penolakan terkonfirmasi',unknown:'efek belum diketahui'}[x.expected.known])+'.'} ${x.next===x.expected.next?'Tindakan sesuai bukti.':'Tindakan perlu revisi sesuai alasan berikut.'}</p><p>${esc(x.expected.reason)}</p><p>Inventori menjaga stok; Order memiliki referensi/proses; adapter memverifikasi bukti pembayaran. Batas logis tidak mewajibkan microservices. ID sama tanpa deduplikasi nyata belum menjamin efek tunggal.</p>`,correct?'':'warn')}</section>`:'<p data-iasd-s12-prediction>Prediksi belum diperiksa. Bedakan hasil domain dari respons transport sebelum memilih pemulihan.</p>';
 }
 if(type==='state'&&view===11&&supplements[11]){
   const x=s11Scenario(s),correct=x.state===x.expected.state&&x.follow===x.expected.follow;
@@ -314,6 +334,7 @@ if(action==='s2review'&&view===2)s.s2Reviewed=s2Scenario(s).signature;
 if(action==='s6review'&&view===6)s.s6Reviewed=s6Scenario(s).signature;
 if(action==='s7review'&&view===7)s.s7Reviewed=s7Scenario(s).signature;
 if(action==='s8review'&&view===8)s.s8Reviewed=s8Scenario(s).signature;
+if(action==='s12review'&&view===12)s.s12Reviewed=s12Scenario(s).signature;
 if(action==='s11review'&&view===11)s.s11Reviewed=s11Scenario(s).signature;
 if(action==='s10review'&&view===10)s.s10Reviewed=s10Scenario(s).signature;
 if(action==='s9review'&&view===9)s.s9Reviewed=s9Scenario(s).signature;

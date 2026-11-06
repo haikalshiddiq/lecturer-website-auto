@@ -132,6 +132,15 @@ function s10Scenario(s){
   const history=pick(s,'s10History','yes',['yes','no']),row=pick(s,'s10Row','allow',['allow','reject']);
   return {price,snapshot,discount,parent,history,row,total:2*((snapshot?100:price)-(discount==='locked'?10:20)),historical:snapshot&&discount==='locked',signature:[price,snapshot,discount,parent,history,row].join(':')};
 }
+function s13Scenario(s){
+  const trace=pick(s,'s13Trace','assisted',['assisted','independent','repeat']),finding=pick(s,'s13Finding','universal',['assisted','independent','universal']),next=pick(s,'s13Next','retain',['revise','retain','isolate']);
+  const cases={
+    assisted:{finding:'assisted',next:'revise',version:'v0',participant:'P-A, putaran pertama',help:'Petunjuk tombol',seconds:40,observation:'Bertanya apakah pesanan berhasil; fasilitator menunjuk Tinjau pesanan; lalu kembali.',reason:'Selesai dengan bantuan, bukan mandiri. Pisahkan pertanyaan/petunjuk dari tafsir pesan kurang jelas. Revisi informasi jumlah dan aksi pemulihan, tautkan FR01/AC-ERROR, lalu uji ulang tanpa mengarahkan tombol.'},
+    independent:{finding:'independent',next:'retain',version:'v1',participant:'P-B, belum terpapar',help:'Tidak ada',seconds:25,observation:'Menyebut satu tersedia dan kembali ke Pesanan tanpa petunjuk.',reason:'Mandiri pada percobaan ini; pertahankan kandidat revisi untuk uji lanjutan. P-A/P-B berbeda, jadi selisih waktu bukan bukti sebab revisi atau semua pengguna mudah. Periksa jalur normal/error, ponsel dan keyboard dengan kondisi dicatat.'},
+    repeat:{finding:'independent',next:'isolate',version:'v0, tidak direvisi',participant:'P-A, mengulang setelah A',help:'Tidak ada kali ini',seconds:25,observation:'Menyebut satu tersedia dan kembali tanpa petunjuk setelah pengalaman A.',reason:'Mandiri pada pengulangan, tetapi desain tidak berubah. Pengalaman sebelumnya adalah penjelasan alternatif; jangan mengatribusikan waktu turun ke revisi. Pisahkan versi/urutan/bantuan dan rancang pembandingan lanjutan dengan paparan serta kondisi tercatat.'}
+  };
+  return {trace,finding,next,expected:cases[trace],signature:[trace,finding,next].join(':')};
+}
 function s12Scenario(s){
   const trace=pick(s,'s12Trace','lost',['reserved','stock','lost','denied']),known=pick(s,'s12Known','rejected',['reserved','rejected','unknown']),next=pick(s,'s12Next','new',['continue','revise','query','access','new']);
   const cases={
@@ -211,6 +220,16 @@ if(type==='elicitation'&&view===2&&supplements[2]){
   const statusReason=x.approval==='belum'?'NFR01 tetap usulan: belum ada persetujuan, meskipun batasnya terukur.':'NFR01 disepakati hanya menurut asumsi persetujuan pada batas terpilih; simpan pihak, versi dan konteks uji.';
   const timeReason=x.limit==='2'?'Hasil contoh tiga detik belum memenuhi batas dua detik.':'Hasil contoh tiga detik memenuhi batas lima detik.';
   viz+=s.s2Reviewed===x.signature?feedback(`<b>${correct?'Kedua prediksi tepat.':'Ada prediksi yang perlu direvisi.'}</b><p>${stockReason}</p><p>${statusReason}</p><p>${timeReason} Mengubah batas bukan perbaikan performa. Satu hasil contoh tidak membuktikan seluruh beban terpenuhi; tidak ada uji pembayaran atau checkout bersamaan di sini.</p>`,correct?'':'warn'):'<p data-iasd-s2-prediction>Latihan tambahan: buka Latihan FR01 & batas waktu, prediksi hasil stok dan status kebutuhan, lalu periksa alasannya.</p>';
+}
+if(type==='prototype'&&view===13&&supplements[13]){
+  const x=s13Scenario(s),correct=x.finding===x.expected.finding&&x.next===x.expected.next;
+  controls+=`<details data-iasd-task-evidence ${$('#sim-controls [data-iasd-task-evidence]')?.open||Object.keys(s).some(k=>k.startsWith('s13'))?'open':''}><summary>Latihan bukti uji tugas</summary><p class="small">Data sintetis, bukan peserta nyata atau stopwatch. Tugas error: sebutkan satu tersedia lalu kembali meninjau pesanan tanpa petunjuk tombol. Kartu terpisah dari layar/stok simulator dasar; v0 hanya pembanding tertulis.</p>`
+    +selectControl('s13Trace','Jejak log latihan',[['assisted','A: v0, dengan bantuan'],['independent','B: v1, peserta belum terpapar'],['repeat','C: v0 sama, peserta mengulang']],x.trace)
+    +selectControl('s13Finding','Kesimpulan yang didukung',[['assisted','Selesai dengan bantuan, belum mandiri'],['independent','Mandiri pada percobaan ini saja'],['universal','Semua pengguna mudah; revisi terbukti penyebab']],x.finding)
+    +selectControl('s13Next','Fokus langkah lanjut menurut acuan',[['revise','Revisi pesan/aksi, tautkan FR01, uji ulang'],['retain','Pertahankan kandidat, uji kondisi lain'],['isolate','Pisahkan pengaruh paparan/urutan dari revisi']],x.next)
+    +simButton('s13review','Periksa log dan uji ulang')+'</details>';
+  viz+=`<section data-iasd-s13-proof><h3>Kartu bukti sintetis</h3>${table(['Keterangan','Isi log latihan'],[['Versi',x.expected.version],['Peserta/urutan',x.expected.participant],['Bantuan',x.expected.help],['Waktu contoh (detik)',x.expected.seconds],['Observasi',x.expected.observation]])}<p class="small">Asumsi kelas, bukan log hasil klik Anda. Tulis observasi, tafsir dan usulan terpisah; angka ini bukan pengukuran website.</p></section>`;
+  viz+=s.s13Reviewed===x.signature?`<section data-iasd-s13-feedback>${feedback(`<b>${correct?'Kesimpulan dan uji lanjut tepat.':'Pisahkan observasi, tafsir dan klaim.'}</b><p>${x.finding===x.expected.finding?'Kesimpulan sesuai bukti.':'Revisi kesimpulan: '+esc(x.expected.finding==='assisted'?'selesai dengan bantuan, belum mandiri':'mandiri hanya pada percobaan ini')+'.'} ${x.next===x.expected.next?'Fokus lanjut sesuai acuan.':'Fokus lanjut belum menjawab keterbatasan utama jejak ini.'}</p><p>${esc(x.expected.reason)}</p><p>Acuan membatasi kesimpulan, bukan satu-satunya rencana riset. Prototipe adalah bukti navigasi yang disimulasikan, bukan bukti backend menyimpan transaksi atau tidak membuat reservasi. Catat alasan alternatif pada Bukti individu.</p>`,correct?'':'warn')}</section>`:'<p data-iasd-s13-prediction>Prediksi belum diperiksa. Pilih kesimpulan dan langkah lanjut sebelum membuka alasannya.</p>';
 }
 if(type==='architecture'&&view===12&&supplements[12]){
   const x=s12Scenario(s),correct=x.known===x.expected.known&&x.next===x.expected.next;
@@ -337,6 +356,7 @@ if(action==='s8review'&&view===8)s.s8Reviewed=s8Scenario(s).signature;
 if(action==='s12review'&&view===12)s.s12Reviewed=s12Scenario(s).signature;
 if(action==='s11review'&&view===11)s.s11Reviewed=s11Scenario(s).signature;
 if(action==='s10review'&&view===10)s.s10Reviewed=s10Scenario(s).signature;
+if(action==='s13review'&&view===13)s.s13Reviewed=s13Scenario(s).signature;
 if(action==='s9review'&&view===9)s.s9Reviewed=s9Scenario(s).signature;
 if(action==='s5review'&&view===5)s.s5Reviewed=[pick(s,'join','join',['join','merge']),!!s.address,!!s.label,pick(s,'s5Outcome','sah',['tunggu','sah','dini'])].join(':');
 if(action==='s4review'&&view===4)s.s4Reviewed=[pick(s,'actor','Pelanggan',['Pelanggan','Penyedia bayar','Database internal']),pick(s,'s4Stock','1',['1','3']),pick(s,'s4Role','eksternal',['eksternal','internal']),pick(s,'s4Outcome','reservasi',['tolak','reservasi','lunas'])].join(':');

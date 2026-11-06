@@ -600,3 +600,63 @@
 - Status saat penulisan: percobaan maintainer pertama berhenti sebelum commit/deploy karena ekspektasi tes isolasi transfer masih hanya mencantumkan S01-S11; S12 sudah merender transfer sehingga tes mendapat 1 alih-alih 0. Daftar sesi ber-suplemen pada assertion ditambah S12, tanpa mengurangi pemeriksaan isolasi sesi lain. Build, gate 174 halaman, baseline dan interaksi S12 desktop sudah terlewati sebelum assertion itu, tetapi belum klaim seluruh gate atau publikasi. Maintainer wajib diulang; bukti akhir disampaikan pada laporan run.
 - Mahasiswa: https://hicall.web.id/iasd/studio#12
 - Dosen: https://hicall.web.id/iasd/studio?mode=teach#12
+
+## S13: Desain antarmuka (6 November 2026, WIB)
+
+- Pemilihan: worktree awal bersih, fetch dan ff-only dari origin/main sebelum authoring; membaca seluruh sesi 13, kasus Aruna, usability.csv dan log S01-S12. S13 berikutnya tanpa suplemen, bukan inferensi progres mahasiswa. Run 5 November gagal provider sebelum mengarang materi, bukan sesi yang dilewati mahasiswa.
+- Design Read sebelum generasi, antislop DURING: workspace akademi ringkas untuk mahasiswa/dosen Indonesia, mempertahankan studio yang ada, ENERGY 1 / RHYTHM 2 / MOTION 1. Warna aksi dan font lokal lama untuk kontinuitas; disclosure memisahkan contoh/latihan/dosen tanpa panjang awal; whitespace label dan select 44px untuk sentuhan; prototipe empat layar tetap menjelaskan navigasi, tabel jejak mengungkap bantuan/versi yang tidak tampak dari klik. Tidak membuat aset, ikon, warna, efek atau animasi baru.
+- Satu pendalaman yang dituju: membedakan selesai dengan bantuan, selesai mandiri pada satu percobaan, dan klaim sebab revisi; tiga jejak latihan, prediksi dua keputusan beserta alasan, transfer peminjaman proyektor dan rubrik diagnostik. Semua peserta berkode, detik dan hasil adalah data sintetis berlabel asumsi, bukan observasi manusia nyata.
+- RED terverifikasi: browser produksi timeout 3000ms pada `[data-iasd-task-evidence] summary`, log scratch/iasd-s13-red.log. Tes perilaku ditulis sebelum implementasi.
+- Status saat penulisan awal: belum klaim implementasi selesai, GREEN atau publikasi. Maintainer harus menjalankan seluruh gate, commit/deploy dan exact revision/baseline read-back; bukti aktual disampaikan pada laporan run. Tidak mengubah baseline, versi/KEY/progres, syarat selesai atau validasi backup. Materi beku/dashboard/dependensi bersama tetap di luar scope.
+- GREEN lokal: `npm run build && npm run smoke:pwa` exit 0. Build 188 halaman, gate semua 174 halaman pembelajaran, hash baseline sumber/embedded serta suplemen lulus. Desktop/mobile menguji seluruh 16 sesi/48 jawaban, simulator, catatan, cadangan lama/baru/salah, instructor #13 dan offline; 13 unduhan desktop dibandingkan isi identik lampiran. Homepage 1038px desktop (budget 1400), 1789px mobile (budget 2200). Log scratch/iasd-s13-build.log dan iasd-s13-smoke.log. Sesudah GREEN ini, click-through prototipe normal/error diperluas; maintainer wajib mengulangnya sebelum commit.
+- Click-through tambahan yang sudah GREEN: overview #13 membuka sesi; Enter disclosure latihan membuka tiga select; 27 kombinasi jejak/kesimpulan/lanjut menampilkan alasan tepat/salah tanpa mengubah layar dasar; Periksa dengan Enter menampilkan hasil; ubah tiap select mengembalikan pesan belum diperiksa; reload memulihkan feedback; contoh Enter/Escape membuka/menutup; Bukti ketik/reload mempertahankan transfer; dosen #13/disclosure menampilkan fasilitasi/rubrik; Tab/Shift+Tab pada tiga select mengembalikan fokus terlihat, target 44px; toggle kedua tema mempertahankan kontras teks terpindai AA; dua viewport tanpa overflow; offline reload tetap menjalankan jejak C dan contoh. Tidak ada pageerror pada smoke.
+
+### Delivery gate perubahan S13, berdasarkan GREEN lokal (bukan audit ulang baseline immutable)
+
+- R-02 PASS: validator suplemen menolak em dash.
+- R-03 PASS: smoke desktop/mobile dan kedua tema tanpa overflow, tiga select minimal 44px.
+- R-17 PASS: waktu dan kode peserta berlabel data sintetis/asumsi, bukan statistik website.
+- R-18 PASS: tanpa testimoni.
+- R-23 PASS: prototipe lama dipertahankan, tanpa logo/avatar/aset baru.
+- R-24 PASS: overview #13 dan URL dosen #13 dibuka smoke.
+- R-25 PASS: computed contrast teks tambahan terpindai AA dua tema, bukan sertifikasi seluruh aplikasi.
+- R-26 PASS: tiga select, Periksa, disclosure dan tautan diuji sesuai click-through di atas.
+- R-27 PASS: boot/error penyimpanan lama tetap, belum diperiksa/salah/tersimpan serta invalid-backup diuji; tidak ada fetch baru.
+- R-28 PASS: tanpa FAQ tambahan.
+- R-32 PASS: Enter/Escape/Tab/Shift+Tab dan fokus terlihat diuji.
+- R-33 PASS: implementasi langsung pada sumber, bukan script penulis ulang UI.
+- R-34 PASS: kedua tema diuji, font/layout lama tetap.
+- R-35 PASS lokal: build dan smoke penuh exit 0, click-through tercatat; belum klaim produksi.
+- R-36 PASS: tanpa klaim keamanan/performa/pelanggan baru.
+- R-37 PASS: arah studio dan Design Read/dials sebelum generasi.
+- R-38 PASS: seluruh jejak peserta/waktu diberi label sintetis, bukan observasi manusia nyata.
+- R-01 PASS: tanpa gradien/glow baru, warna aksi lama.
+- R-04 PASS: tanpa ikon baru.
+- R-06 PASS: font lokal lama menjaga kontinuitas membaca.
+- R-07 PASS: tanpa pola latar baru.
+- R-08 PASS: tanpa panah dekoratif baru.
+- R-09 PASS: tanpa badge baru.
+- R-10 PASS: tanpa blur baru.
+- R-12 PASS: tanpa shadow baru.
+- R-13 PASS: tanpa glow baru.
+- R-14 PASS: tabel log untuk perbandingan bukti, tanpa feature-card.
+- R-19 PASS: MOTION 1 memakai interaksi/fokus lama, tanpa animasi baru.
+- R-22 PASS: prototipe lama relevan untuk navigasi, bukan ilustrasi dekoratif.
+- Liveliness PASS: dials 1/2/1, fokus bukti tugas, whitespace label struktural, aksen tindakan lama, motif jejak Aruna dan variasi Konsep/latihan/Bukti/Dosen; Design Read sebelum generasi.
+- C-1 PASS: alasan warna/font/layout/jarak/prototipe/tabel tertulis di Design Read.
+- C-2 PASS: setiap kontrol tambahan punya hasil teruji.
+- C-3 PASS: satu tugas khusus S13, tanpa section pemasaran/template.
+- C-4 PASS: belum diperiksa/salah/tersimpan, keyboard, dua tema/viewport, backup dan offline diuji.
+- C-5 PASS: asumsi serta batas bukti eksplisit.
+- R-05 PASS: komposisi mengikuti tugas/tab/disclosure lama.
+- R-11 PASS: radius kontrol lama dipertahankan.
+- R-15 PASS: CTA spesifik Periksa log dan uji ulang.
+- R-16 PASS: tanpa buzzword pemasaran.
+- R-20 PASS: motif stok Aruna ke log/bantuan/revisi dan transfer proyektor, bukan halaman generik.
+- R-21 PASS: toggle kedua tema tetap aktif dan diuji.
+- R-29 PASS: palette lama tanpa warna tambahan.
+- R-30 PASS: tidak mengkloning produk lain.
+- R-31 PASS: alasan desain tertulis, CSS hanya target select dan jarak label S13.
+- Batasan: latihan bukan uji manusia, stopwatch, eksperimen kausal, implementasi backend, reservasi atau pembayaran. Tidak ada klaim eksternal baru. RPS asli tidak diverifikasi; rubrik bukan nilai resmi; catatan lokal tidak dikirim otomatis. Syarat selesai dan backup lama dipertahankan lewat field sim s13 opsional. Materi beku, antrean, baseline, dependensi bersama dan dashboard tidak diedit. Bukti publikasi harus berasal dari hasil maintainer final, bukan log GREEN lokal ini.
+- Mahasiswa: https://hicall.web.id/iasd/studio#13
+- Dosen: https://hicall.web.id/iasd/studio?mode=teach#13

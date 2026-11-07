@@ -1,95 +1,95 @@
 {
-  "generatedAt": "2026-11-06T07:00:30+07:00",
-  "briefingTitle": "Indonesia Hot News Briefing: 06 November 2026",
+  "generatedAt": "2026-11-07T07:00:36+07:00",
+  "briefingTitle": "Indonesia Hot News Briefing: 07 November 2026",
   "sentimentBasis": "Metadata penerbit via Google News RSS, maksimum 48 jam (Asia/Jakarta). Sentimen adalah heuristik kata pada judul, bukan dampak investasi terverifikasi. Confidence 0.35 menandai bukti terbatas, bukan probabilitas terkalibrasi. Artikel lengkap dan gambar belum diverifikasi; tautan discovery disimpan apa adanya.",
   "items": [
     {
-      "id": "2026-11-06-ccd7f6a8a2",
-      "date": "2026-11-06",
+      "id": "2026-11-07-65bcf9ea6c",
+      "date": "2026-11-07",
       "topic": "Tech / AI",
-      "title": "Komdigi Integrasikan Data Pemerintah Lewat UU Satu Data Indonesia",
-      "summary": "Judul RSS Suara Independent News: Komdigi Integrasikan Data Pemerintah Lewat UU Satu Data Indonesia",
+      "title": "Demo Pecah, Aktivis Lompat Pagar-Tembus Lokasi Proyek Data Center",
+      "summary": "Judul RSS CNBC Indonesia: Demo Pecah, Aktivis Lompat Pagar-Tembus Lokasi Proyek Data Center",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Suara Independent News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CNFByN3A2U1FKUGpBSFBlYjZsY2hYZFJBODcteEp2dm9Ca0FnTm5TMjduZXZMNnRYWnBZNFJZWjRFOTRzUzd6cG9HUWJLV1VZNXVKT2FGbU9KYTNDblEtYkhDMl9DVzhGcE5iRUZIc2RUWGNSYXlzZw?oc=5",
+      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNlFERkhoR0V5Q2hsNTEyX3dRRjlTaTlFYllyUmE4bWlZWklGNU1jQzA4X09pWVBmaWJjTVc3Y1lpSVVWZGxmZ21aZVBZOHJQamRqS2ptNTE5M1VrSTJRV1ctUzRhaGJpdDY3TkVaei04enhFdFpHTkpid2pjajJxTjcwLVZ4bnpwYWZtSHZlWWtFZFdackJGUTRpQldvOVVRZVlCYTJwRndGNlN4Vkd0OG5ibGRESVYyVnFtdWJmRjPSAcYBQVVfeXFMUGc4MC0wbk9SZ0ZOeThQc21KUnVtNkVrQVg2TWY3NVk1TUtQS0dkeXFFNVpMMHBIYTVIWEdHRFk0TUs1RjZRQnVqMHVPZG5USWc2OS1SanZmUlFyeTZfeVNvSDJoZUVQeUljby1Ia0JVeUdRRDZXSjY3OHllenZJZzFpdDd6MFJoNnJXdmM5LXRGUi1ZMnVVZkRKeGhRLXBYN0R6cFFYUG5uZDBRUHR1azRuQXlrYXMyZ2hiNkdmY3pVWUVJR0Jn?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T02:22:00+07:00",
+      "publishedAt": "2026-11-07T06:30:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-a477a61fe5",
-      "date": "2026-11-06",
+      "id": "2026-11-07-f4cf73389d",
+      "date": "2026-11-07",
       "topic": "Automotive / EV",
-      "title": "MG Motor Pacu TKDN S6 EV hingga 60 Persen",
-      "summary": "Judul RSS bsinews.id: MG Motor Pacu TKDN S6 EV hingga 60 Persen",
+      "title": "Lima Berita Otomotif Menyoroti MotoGP dan Mobil Listrik",
+      "summary": "Judul RSS Limapagi: Lima Berita Otomotif Menyoroti MotoGP dan Mobil Listrik",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "bsinews.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zSFg1TmM4WjdZYkVlY2V4XzJ1azZIOHFySERvQ0JZWjBzdkRDVEVvTlV4ZG13dXhzSmRiZXBVZHpNallhWHlGSEZPZjI1U2s?oc=5",
+      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Limapagi",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRGJrUU1FNXdIWWtiU09lUHBhdlZRZzUtdlRzWHpTak16dTJrZzhTN3dZV3ZQVWVCNWdaUnEyTzhPY1QtZHY5ZVFLcm1idXVKYmh0WGNPX3J6SFJVTW5RNVhscURnbDV5Z3VfQUMyakptRkh3MVUta1AzR0hzS19QUTdNekthZw?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T05:21:00+07:00",
+      "publishedAt": "2026-11-07T06:05:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-7e9865e18f",
-      "date": "2026-11-06",
+      "id": "2026-11-07-e073993571",
+      "date": "2026-11-07",
       "topic": "Markets",
-      "title": "Bukan MSCI, Ekonom Nilai Masalah Ini Lebih Berbahaya untuk Rupiah",
-      "summary": "Judul RSS CNBC Indonesia: Bukan MSCI, Ekonom Nilai Masalah Ini Lebih Berbahaya untuk Rupiah",
+      "title": "Sengatan MSCI Mengaburkan Fundamental Ekonomi",
+      "summary": "Judul RSS KONTAN: Sengatan MSCI Mengaburkan Fundamental Ekonomi",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Judul menyebut Rupiah. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
-      "source": "CNBC Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamVyeVo4bmxydnlzV0M2M2dKTjdBS1R4cVJOYXNlSnF1czFubm5kd0ttWTNJU0FaVS1OMWNVVmlCU2VQVlJLb0FUcnZBVU1WckNmY0dJMzZGc2JnNVB2ZTNTN1hBYnhDcjRmTzRoLXRzV3F6SWVzUm9pTlE5ZTd1blBEWHhvblVUbHBvRmNXN0dhR1JvU0J5Z3R6YU14QWkyZ2E1NklJYl9XN01yc0JielRzTlExdDBqUXcyVS0wdndPWTVB0gHKAUFVX3lxTE1UbzJCSWVlSVM1U0F5Y09hYWI4MkxaUUJXVEhSQ25NcFBqeFVXRDdCX0JtOWZ2SEtzQklmUzlDZFVvZ3RUdTN5N0N4LUNVRVNnc2xlMDh2a0gtRVZBcGdQd2xxbFNtenNNUUJBVlJDdG8xT0JzTG5Fckd5M2h5THB4X1lTSTI4dGRSNlRINnEtdm01VFo5VnZwTVdqcmJzQlROdWdVRWhLWk5yOWhIOUZ4S25KUEgzNGwydU1ObzF4TUZqakdfeUJYZXc?oc=5",
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "KONTAN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ0cyeFZxMkVFVFRyRjhlT0hRTlJtb1VzX2s0cXZwMDdWcVI0SEJpZmpMZl9fM1RwazJLRUlNVWpLdkp5a3BkNWl0Wm16bnJIYlhJQ0EwUWdqcllpandvcUs2OUxuUG5vUWU2dnowQ1Jpd3lTVzBDcF9NZDFPRkhoRFoweWs0Zw?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T06:55:01+07:00",
+      "publishedAt": "2026-11-07T05:30:23+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-89007640e5",
-      "date": "2026-11-06",
+      "id": "2026-11-07-d22450ac29",
+      "date": "2026-11-07",
       "topic": "Business / Investment",
-      "title": "Alert Hari Ini: Wall Street Rontok, Ekonomi RI Melesat, DHE Direvisi?",
-      "summary": "Judul RSS CNBC Indonesia: Alert Hari Ini: Wall Street Rontok, Ekonomi RI Melesat, DHE Direvisi?",
+      "title": "Indonesia Kantongi Komitmen Investasi Rp6,3 Triliun dari Forum London",
+      "summary": "Judul RSS republika.co.id: Indonesia Kantongi Komitmen Investasi Rp6,3 Triliun dari Forum London",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "CNBC Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYXpWbHctckRnVl92OXFPWFU0VGJmX08yWVZVZ3hvMGsydnRjX0dnNkhmSW54T0l3X1NjaHU3UW95a1hmZTlka2dLUHdnUVdpOWtzZEVvMTZkclMwTWQ2UU1KZ0ttYWIySWtTdnhfQkl2Zm4yTFpDaVFwVFJnYi1wVHpEV2hwdzhJWXhsamxaempGOXlvTWw1ajRyTGhXLVZ0OVdKVVpIRGdhaDN1NTVGanVTQ2tjUEd5bHZvNWtSUUwzQmthZi1BdUJB?oc=5",
+      "source": "republika.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1pRcFVqZmRkOWxuVXBWX3hRSGdSXzNNTHlMMkNXSldReGNNWEpGMlY3X2lJQlZqMVdlZFFfRDM3MjhuNVZES1JmVHJtd0lfekV1eGZ6anV2N2RPOTc4SlBUUXplVVNhb0pUZ1NmRWhfazFzUkpUMkpwQjZOTmxmVk1zX0xfZ1ltZm5CMnMwbVhpYWNFVGpYNG9Iay10eFBFa3YxYmxraDlpSXVvaHk2cnNfTmE0SXA3QjZkLVBn?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T06:30:06+07:00",
+      "publishedAt": "2026-11-07T05:30:14+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-05-47f64093bb",
-      "date": "2026-11-05",
+      "id": "2026-11-06-9639a6da2c",
+      "date": "2026-11-06",
       "topic": "Infrastructure",
-      "title": "Jelang Nataru, Polda Jateng Petakan Kerawanan Infrastruktur Jalan dan Jembatan",
-      "summary": "Judul RSS VOICE Indonesia: Jelang Nataru, Polda Jateng Petakan Kerawanan Infrastruktur Jalan dan Jembatan",
+      "title": "Foto : Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi Halaman 1",
+      "summary": "Judul RSS Kompas.com: Foto : Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi Halaman 1",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "VOICE Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYUMxa3RwdW1QRVVJalM5ek1taTBVN0tIUWdHT25tYk43RXVwVS01MTM0VF9QOGY4Y25hMzV2Q2lhdDNuTG85RFdjT1BzR2pGalEyV3piMEllRTVoemJfQTQ1RVhZSDhZVVd3TXMwbDdscklyVGhQUVpGdmtuUnNCQXBKNy1MNWJxNGJsVnQ1blY4Tno1Y09VOFd4QktFLVRQdTlnNkFtU1JlZ3B2SWln?oc=5",
+      "source": "Kompas.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSU84c3V1aHpXanRia1hhWE5mWVJGT2JyclMzb0VoQ2p0OVpWN2lFTWxtd3kxRHVQNXBlNTlYRnRDYkNWSFBRSFVjbjFGejVKR3Z5SUZoUmE3Q1o0elZwTUFCY0lCbGYtbEllVV9mS3lweFNJWHRLMkZhWFBoXzN1RTFQNG0tTl91VEpkUmM3NFBYNHBIN1d4U2VQeXRfbEdUWlVPYmx4dy15TDFPdmxxdlhBdVBSWU9HSUMwYkNsSng?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T21:22:05+07:00",
+      "publishedAt": "2026-11-06T23:01:41+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -112,188 +112,80 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-11-05-64fda12cfd",
-      "date": "2026-11-05",
+      "id": "2026-11-07-23faadc561",
+      "date": "2026-11-07",
       "topic": "Regulation",
-      "title": "OJK Dalami 15 Pialang Asuransi Ilegal, 4 Masuk Penyidikan",
-      "summary": "Judul RSS CNN Indonesia: OJK Dalami 15 Pialang Asuransi Ilegal, 4 Masuk Penyidikan",
+      "title": "BI Kaltim Dorong UMKM Perluas Pasar Lewat Mahakarya Etam Festival 2026",
+      "summary": "Judul RSS Bisnis.com: BI Kaltim Dorong UMKM Perluas Pasar Lewat Mahakarya Etam Festival 2026",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Judul menyebut OJK. Yang perlu diverifikasi: dokumen resmi, tanggal berlaku, dan pihak yang terkena aturan. Dampak belum dinilai dari artikel lengkap.",
-      "source": "CNN Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZkRqbE1BdlBCN0c5LS1fMkpJY0RsenRNSVpxME9FeU1tQXlKUUNZWkVxWE1rZXZldC1uSmFLUWlvYmhqZnhPTjZHTDFQUndERUNzUURGb1JYRnpuZ2JqUUxnblJocC1PQjlsMUVNSWVsbzk4MUpfX3dXSlNuTDk0SVJpaTRoUFBDakJDajg3d0lvdm0tNzBmOV9fUVdWcWZxN3hBRExQeTJvTUs0LVRmS3NIOEVvV0xFNEpN0gHAAUFVX3lxTFBsWXhJbU0tcUVScElXWG9FTmc0ZzMxNHhBUm02ZmZxSEFZOHVBS1pISmxwUWVLNHkybFRuSEV3WFVveEZSOTF0bHV3WFlfMTVxbFVGLTF4VXdsYmRJMHVNMU1TMVpoQ2F1VmxvWERxOFpTOVNoS29SRUdrX25ySGROREdxbmVfYTdUU19BUEt5VFRwMkpoVnNXQ2JKWEFVY3k2Zkh5b25iRjczOXRHdVNJc3VQQlB0XzBuMUlSTGVMeQ?oc=5",
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Bisnis.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaGpjYmEzX2NENDJqRWpHWDV1RnVFREtVcHhFN1pBZWFLS0k2UHdRUG5LbWF5YzNuWTRpaTRFYl9tWnpyczhxZ29qV2Q4YnNtaERvRm9hSExvTDJRLUF3WWN3aE5Zd3l0R04tTFIzd1N1T1lINThGY0NDR3lVaVhXdU5UaW5kajhUN0lYYk5xbDVJVVRGaVNHNEpHU011d3RuLTYwdTY0ZEpRaS1kai16NmRDRFFYYVZhejFBWU14YlpMNlVF?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T20:25:45+07:00",
+      "publishedAt": "2026-11-07T01:10:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-05-36b34c7609",
-      "date": "2026-11-05",
+      "id": "2026-11-07-69508267db",
+      "date": "2026-11-07",
       "topic": "Tech / AI",
-      "title": "Pulau Jawa Rawan Krisis Air, Pakar ITS Ingatkan Konsekuensi Pengembangan AI",
-      "summary": "Judul RSS cakrawalanews.co: Pulau Jawa Rawan Krisis Air, Pakar ITS Ingatkan Konsekuensi Pengembangan AI",
-      "sentiment": "Negative",
-      "score": -0.25,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "cakrawalanews.co",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaVo4U213OG1YNDdONWxPRHV5MHRaNml6bFBMMS0yMEd1SFlvRENyTnNFT3dwRlNZWVRjZHN4cnNHcmJNUmRiTmFQY3AtSDlsdzNYSXpES29Ucy12QzBlT0F0bjFSalF0VWtlZzdDOHY5NEU0WVFIMjV0bjdJRHgxSkFybFNJenRDTTF5UWloVG9aQUNCNHYzZVF6WHZYbWlNNTR4alZYLTAxZGc?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T21:21:31+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-05-55027b724b",
-      "date": "2026-11-05",
-      "topic": "Automotive / EV",
-      "title": "Let’s Drive: Mengenal Kepraktisan Mobil Listrik Geely EX2",
-      "summary": "Judul RSS ANTARA News Jambi: Let’s Drive: Mengenal Kepraktisan Mobil Listrik Geely EX2",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "ANTARA News Jambi",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZWJHbGNyT2Jsd0J3VDVnYnF6RWtRWEZJVDdFS1ZVUmhQdUU4WnppWnZ1NHh6MzZXOHo4X0Zmdm5ubktWVlo2TTZjdHVPNjhoMTJQQ2Z6M2NBbmd2dEs5a05VeXI5Yk1VbUhvNVVIbmlfMU9oNUZJWS1ZMzhqWnRUeUsxSy1XMUlUdDRYQVd0aEdLdlQyTVZYRjhyRnFLUjg?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T23:07:05+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-ed4f6d7d2c",
-      "date": "2026-11-06",
-      "topic": "Markets",
-      "title": "Wamenko Dradjad Wibowo Tekankan Pembenahan Fundamental Pasar Modal dan Pengawasan OJK",
-      "summary": "Judul RSS VOI.ID: Wamenko Dradjad Wibowo Tekankan Pembenahan Fundamental Pasar Modal dan Pengawasan OJK",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut OJK. Yang perlu diverifikasi: dokumen resmi, tanggal berlaku, dan pihak yang terkena aturan. Dampak belum dinilai dari artikel lengkap.",
-      "source": "VOI.ID",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjRwUUp0R3B4aDdJX1VXVUoyTTlaVlctYVB2QWdpeW9EcjJlUF9Pc0NIcFd5UG04LU0xMGk2d1hDUklwSnk3c1RHc2poQTBhdEVlTkJxdFYyUERTR1RheGdITnV5UU9KaHdBVFVfTWRnVk5QNUVhOEdwTDgwdGRfYlo1Rk5obU5mN1VRVDU2eXNEdTZIb0ROSjlWRHMwY2dtQWFOLThUek1vUmV5TzFMVGpZX3FOQdIBsAFBVV95cUxPU1I0TDNFQVlXd0lGamtVdTdRVHFuanluV1F1bFUwVDVZLTZxekJ0QVdHaFFXOHI0a282UktESlRwZDFpLWFiQURrbTNyUFRuaHhybHBpWFlSSG91Uk8yQnZBcERoeHpUOER4QTVvT0VobzdnQkJwTU5feThEUjBFNV9jeVpEQ190UkRRMEZ6c1JEdmExbTRudmJJdUNITTZIbUFrU19VQjVmQlg4ZjV2SQ?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T06:00:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-19d6166f26",
-      "date": "2026-11-06",
-      "topic": "Business / Investment",
-      "title": "Wellington",
-      "summary": "Judul RSS Portal Kemlu: Wellington",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Portal Kemlu",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNUZPMkdhb1JwZU9VYUZYYW1UdTFXMTA0RU9oV0duOFIxeklsY2s3NFV1d3FTTjhFQUx0NG9BcTBRQjkzbHczSzBmaG53Ni0wRVNPd2U2bFFxVVJXaG5abnJ2NENjWHBuTE5ZdEg5U2xDOUlxV2dBZHN4U1lRLVR3eHliY1B4ZlM2ejk0UnlmX190dWNiLUE4SkhCWHBTXzV0N29QVnllSXFDMDBrbTRIZmxBYjdUU21qckVFMFFyZFJNT0FCN3V2dHhIeWhXVlF1VW9aTmhFZUJoZkxLejRSb2VGMDNRbjJSRWtlbVNMTVI?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T04:42:58+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-05-eb3b98ca10",
-      "date": "2026-11-05",
-      "topic": "Infrastructure",
-      "title": "Dua Polisi Jadi Korban Tabrak Lari di Tol Rangkasbitung-Panimbang",
-      "summary": "Judul RSS CNN Indonesia: Dua Polisi Jadi Korban Tabrak Lari di Tol Rangkasbitung-Panimbang",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "CNN Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd2hfT1dpUjRqWjlOampROGd0Y0dTN0hRaWM1X3gtWG5ZdmtKc3JFUWo4NjFPSW1LcjJHUldlX3hzWDgtU3htX2Z3a0ZYREk4OXVQSGlibTJJTDFFTUQzQTYyX2tockRiUjhfdDg5SzNUWkVnT0lqb2dxYjItNV9DTzN4czRPcEJsZWI3YTVKaHpnRGp1cl9CSDFzMUM5MzlvcUpwd2QweF9uSVI3dDhUSXlMZWNnaVhib0Y3QzFUZVFZQ1pxeE9Lc9IBzgFBVV95cUxPaDBaRmNXaktnaEFnT082cXZ0TVBTQkVETDVmSWdjb01VTFhGTzEyTk1BaGpwQmVoMDRhZjNyb1NNS1F5TGlJUjBsZ2dzOWxKR3kzUEZfMEZvOTBzZUJkSWYyWGc2SDRuNEhlUXJ1blJJUTdUcUhocjVJWWJ1aEgxU29rNmNyczh4aGc2b3FXZHUyQmhVRTdZcTNoelJKMWozREYzRXA1ZG5UNndGRkpjR0Y2N1J0ZXdHemhjOXo3REpHX2lPVGdsR3gzTWJvdw?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T19:19:42+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-05-7cd37d466c",
-      "date": "2026-11-05",
-      "topic": "Regulation",
-      "title": "OJK sebut IASC telah blokir Rp967,5 miliar dana terkait penipuan",
-      "summary": "Judul RSS ANTARA News Megapolitan: OJK sebut IASC telah blokir Rp967,5 miliar dana terkait penipuan",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut OJK. Yang perlu diverifikasi: dokumen resmi, tanggal berlaku, dan pihak yang terkena aturan. Dampak belum dinilai dari artikel lengkap.",
-      "source": "ANTARA News Megapolitan",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRk5Gc0N6dU9UVjA4OFpicTMtcnNvTTlFZ1dJZnZvZUpKWXJPY3BEckhJVUhaZHFaZkdXaVJidWNsdnF5cVlKQmNISS1zSDZlT05wTzVXWWJGazZYcjR2YjZiMXhDVGxtQThUNm1LdnNKbEd3ZGNnRklTUGpORDc1d1ltV0p4TXo2Y1I5aVhkc3dfRTEzR2s0akFlV3J4UHhWSHBWNFlvQkx6TmxUbkZiR1p30gG3AUFVX3lxTE5HWGZKMk1SbFZ2MUk2M2pKVFl5Z1FjXzJocFNrSnpVVzhzSFBaQVZhb1EycEZjRXN1Tjg0MU5WdnQ3eEh1ZU81YkMzYVVubzd5YkkwcW5nMENaQWtEcW52b1VZVFFadHpORjFvdVBrOVR3NmZzUm4yeWdJZHVoMzlBRGRzTld6dDdmT1VDNnprRmdHNzJYdms4MHprd0lYQThyM1EtamZRRWZUWVNoQTQydmQ4N0tGdw?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T19:39:31+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-05-10f57b55a4",
-      "date": "2026-11-05",
-      "topic": "Tech / AI",
-      "title": "Rakyat Bersatu Tolak Proyek Data Center, Presiden Tak Berkutik",
-      "summary": "Judul RSS CNBC Indonesia: Rakyat Bersatu Tolak Proyek Data Center, Presiden Tak Berkutik",
+      "title": "AI Butuh Listrik Besar, Telkom Gandeng PLN Siapkan Data Center",
+      "summary": "Judul RSS Uzone.id: AI Butuh Listrik Besar, Telkom Gandeng PLN Siapkan Data Center",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
-      "source": "CNBC Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR0s0U3FxR21QTlJlQnczMWVvajl2VW1yRUlGNzBBVVg0U3NnR1gxdm1RaHlsLUhBZ3p0UFJjeWpWU0V2ZDIycXBnVlEwQkpOc3lqNGhSMXVqX2dKbFZjQVM4clZkRjdZMU5HZE1TeGFHdzdDeXhSN3lMNjRSTkc2RjhSampqdFFzZ09MYk5nUmx6OTRfa0VsZjVXWWc5UXBqTnRqOTF4NVlCRXFnVjJMcnl3ZXZVLTdrbGdMb2l3?oc=5",
+      "source": "Uzone.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcVdlZnc1RVpoWnh5N1Z5bEdqcVYxLVBRcjlFNVJrNDdwZjl0Y2xPSXVURnhHTGo5MnR5UU5vSlliSFRYRkI3bzFIWEswT2xIZmpQOFZkY2tuNkNvc1pYeGdnQk91eEdwelFjeHpLNFhTUURnTkI5cTVFazFPSVdweHkwSXg?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T21:00:00+07:00",
+      "publishedAt": "2026-11-07T00:30:10+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-05-6232458820",
-      "date": "2026-11-05",
+      "id": "2026-11-07-326baa6f6a",
+      "date": "2026-11-07",
       "topic": "Automotive / EV",
-      "title": "GAC Indonesia Perkenalkan All-Rounder SUV EV, Mobil Listrik Tangguh untuk Segala Kebutuhan",
-      "summary": "Judul RSS AFTERMARKETPLUS.id: GAC Indonesia Perkenalkan All-Rounder SUV EV, Mobil Listrik Tangguh untuk Segala Kebutuhan",
+      "title": "7 Harga Mobil Listrik BYD Paling Terjangkau di 2026, Mulai Under 200 Jutaan Varian Banyak - radarcirebon.disway.id",
+      "summary": "Judul RSS Radar Cirebon: 7 Harga Mobil Listrik BYD Paling Terjangkau di 2026, Mulai Under 200 Jutaan Varian Banyak - radarcirebon.disway.id",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "AFTERMARKETPLUS.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPd0puUFl1TENfNW9mWHFmc2pNU3BKMlNKcFo5U3lHRlJicmFVYmdIYTVtWmFyLTJmMnlSZlBtZEdtV1JkcDB3R0h3U01uX01tcGFaX2NTaFJoMGwwM3dkUXFxMDBGNHE5bTBqeURFRmo0VzIyUm9DQTJ3cmp4T0VTcjJMWFpyM0VHZjBWR1RjMTBTRjh0Q05ldi1PNmFrV0t3b2luVHJqRmR4Q1RIbERfRndMbkRZbGtGWW1hTXAtOTQ?oc=5",
+      "source": "Radar Cirebon",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOXJSLWN0VXdzcGdRTlUzSnF3RHdvSEVEOHhaT2oxbkkzZXFQc0F4T3l5dExmOFJwcTdzWlBtMDlEN254enBySEJmTGFBVlphUHZzUFR5OEEyeUVjeFVJa1lmVXNsMlYtMFpnYXl6UkRjZ2tMRks2X3dkOENaS0ZnVDJsc1Z1WFdwd2V6aUc5UWh5SFoyZ0dkamxuRWRGd3g5eEVTenRuNDFDTUJtRU9Ya0RFdS14eXhkU2dkNk1WU01HdlVzRzZUS2RVaDNKSVc2U2ZN0gHKAUFVX3lxTE05VnRGR3BKemZ3d3Z4dm12QmZYcmt1cnZVYjhkV05QMlVUZ0lHZFFSN3ZnRnJmV2lBc0MwbjIzQUpQNDJjOTEzbnJ0VmNCdDMwQzRpTkZVS0t4ak1Hc01VdmZNMzE5OFNWOVB5WDd0WnYtYmNHSnFzbHptekNfaVBkNk1SYzdoQ1hqSjI4V0oxbzlGSzZjN0FBRHNfMkdvUjlMVVZyWmszYjU4VUVFczI1Z3dXWk5BTzlvV1hzMTQwdTJqR1Z0RnplMWc?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T20:07:52+07:00",
+      "publishedAt": "2026-11-07T05:34:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-c3dbf81bf4",
+      "id": "2026-11-06-fbc39d942e",
       "date": "2026-11-06",
       "topic": "Markets",
-      "title": "Investor Asing Kurangi Saham Bank Saat MSCI Soroti Pasar RI",
-      "summary": "Judul RSS Suara Independent News: Investor Asing Kurangi Saham Bank Saat MSCI Soroti Pasar RI",
-      "sentiment": "Neutral",
-      "score": 0.0,
+      "title": "Pasar Modal RI Terancam Turun Kelas ke ‘Standalone Market’, Apa Dampaknya ke Masyarakat?",
+      "summary": "Judul RSS Magdalene.co: Pasar Modal RI Terancam Turun Kelas ke ‘Standalone Market’, Apa Dampaknya ke Masyarakat?",
+      "sentiment": "Negative",
+      "score": -0.25,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Suara Independent News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jdzB1VnFqMkl1ek1EZ1VVSTdMcTU4a1BoSW84clpWQ0xBbXFVNkhYSGdwdHVqbGtHejlSZUpRc3FZX1Z4RFViSGR2RUJSTEYyckZPNmxObm83N3FueG1QaWxlVzVWMFIxOUdXVXhJemkzLUxzTEE2eg?oc=5",
+      "source": "Magdalene.co",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUNW1ERXZQWFJlNC1raFZYdldQSHBlNGpEQ0ZoaWh5Qm1MdVppbDNBOV92WVdwdWp3M2VSYThkaXZ2eG1NMDZ1aGhSeXB3RGlnZk5vZDI2UUlKQ2IyZml3T2QyMFlHY0FEaFVYWG91NVRONEhDTnNhSklVeUc?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T05:56:00+07:00",
+      "publishedAt": "2026-11-06T16:42:35+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-9c1f18f8d6",
-      "date": "2026-11-06",
+      "id": "2026-11-07-1a701addf1",
+      "date": "2026-11-07",
       "topic": "Business / Investment",
       "title": "Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
       "summary": "Judul RSS Berita Cilegon: Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
@@ -302,142 +194,250 @@
       "confidence": 0.35,
       "impact": "Judul menyebut Pabrik. Yang perlu diverifikasi: nilai investasi, kapasitas produksi, dan jadwal operasi. Dampak belum dinilai dari artikel lengkap.",
       "source": "Berita Cilegon",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVGk4OU44OU13aFRTV2JDckxEelRHNFZJNTdlalFwTGZ5anJhVEZaUGJLZXpWY0o4WWdpRUhLbnVKN0hRSXJfMHdna0xiQjJNay1aSlR6THlvQ0I5V3djZURSRG0zNDE5bUZrTXRQOVRBUHpTck1pZU41NXRRZHhIRDV5d0hHNWNoc1dITFkzMGMzZTVNZk9YNUQ0dDI5Smx5akZyQ3VGM2ZDZEZCWE5ZbTA2czNLd21mbWZuMHd1TFhFaVAwcjA1cWZCWkVkQ2ox?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV2lEODhGaGhhTmlkblJUc0pQcUg2Qjd1MDZfWjd4ZEZKeTQzMlFPVGxRZ1daRldPMzRtWmI5STNxOXVHQmRoMU5NUHBOQkJwU1lrOHRsQ1NlZEZFdERlRnRDTG9VZkpxcFdIY3p6TEhGTHV6MmpIaDhmUEViZnVlX3JzMzJoRmhQUHl4dERjYzBUMVJWb3U4enBMVU9GcW5PdGNIbEE2dnp6YjZtaTlOSHI5M0tZZlVtQ2tzUGNVeEg2VkhhOUNqNTNjc0F3b1Nj?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T04:10:40+07:00",
+      "publishedAt": "2026-11-07T05:04:40+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-05-94e752f200",
-      "date": "2026-11-05",
+      "id": "2026-11-06-e01c72cf1f",
+      "date": "2026-11-06",
       "topic": "Infrastructure",
-      "title": "Inovasi Matras Bambu Diklaim Pangkas Biaya Perkuatan Tanah Tol Semarang-Demak",
-      "summary": "Judul RSS konstruksimedia.com: Inovasi Matras Bambu Diklaim Pangkas Biaya Perkuatan Tanah Tol Semarang-Demak",
+      "title": "Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi",
+      "summary": "Judul RSS Kompas.com: Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "konstruksimedia.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONlJDSURMcDNqcktWa0EzS2VXQ2FwdVk4bUdjUzJRWC15aWgxYWFpVFdsRjlCSGpYMFRTQ1pHVkZFV1FxSU1IRGFLdjNzTGc3bG5TLURHT3lDRE0wSzlVc1JRREJnbHhBRHF1TGpHamM0VDZ3ZmpLX205MWZxdER5NERGVU9LdU9VZ1FwRmVVU3NRTVRxNXB4Yy1oWFJPdVp3ZHhyNGNqV19MZw?oc=5",
+      "source": "Kompas.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbHo5S3pqVTViWWk3c3ZiV1Fzd2VsVGlVU2tKZ0NqRWx0Ynh0UEVmd3k1ZUVrNXdrN2tFbTJaQThHNkFhY1phODhuTTJjWDEwTjNuQlFlcldrdFJ6bi1zWjNYbDJXT19oRFNoMHRfMW9GMW1FQW81ZDY5UURfYTVyTnhwXzRRWjhFaEF4VHpDalN0VEZiRUZNcWtGMEcxeVZsTXhmelJnOENmSjVHMXBCTnIybmdadw?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T18:08:58+07:00",
+      "publishedAt": "2026-11-06T22:35:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-05-8437656a28",
-      "date": "2026-11-05",
-      "topic": "Regulation",
-      "title": "Investor Asing Butuh Kepastian Regulasi untuk Pembiayaan Proyek Nikel Indonesia",
-      "summary": "Judul RSS Media Nikel Indonesia: Investor Asing Butuh Kepastian Regulasi untuk Pembiayaan Proyek Nikel Indonesia",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Regulasi. Yang perlu diverifikasi: dokumen resmi, tanggal berlaku, dan pihak yang terkena aturan. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Media Nikel Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMHhVRVVCRGVRSUtCdmxXMVIwQmV3Y1JQZkhkZTNiVTBtT1RxUjYtUkg2MXp2Zkg1cTh5SUVCZjFOWm5wdm5IVC1vMGRsdTJyWGJMTmVFcnZaN29obWZDWWRTTUNNcWpzQzBWTkVfMGVOV3NkcDR5WWhLaDJxdkxDYTgwTUdEV1lGdjQyajhuUHprSmdXejdFWGliQUkwdndETC1JU2d5X1JLdGtjV2N5Sw?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T19:20:59+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-05-ddca0f2f1a",
-      "date": "2026-11-05",
-      "topic": "Tech / AI",
-      "title": "Konsumsi Air pada Data Center AI Semakin Mengkhawatirkan, Pakar ITS Ingatkan Dampaknya - harian.disway.id",
-      "summary": "Judul RSS HARIAN DISWAY: Konsumsi Air pada Data Center AI Semakin Mengkhawatirkan, Pakar ITS Ingatkan Dampaknya - harian.disway.id",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
-      "source": "HARIAN DISWAY",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU0RnM1RfNU1zdzhFN3o2RXAtcTRfUWU4M1Uwb1hBRWprNGROS3FjUUpfTGJIdVJfc0NRa1NpV3dxcFZlODlTWS1FUzRkd000dWFUOEJaVEJhcm80ZXAydHBsV3Y4N2hpREViaHFtOFdUQmo2dnprc0hhUHdadGVKV1ZwRDhJMFlBM3pwVmJXZVUwaVgtUzk0NXY4S0s1OF95TVducElibjQ0OW5Xd2FUWlBsWUhNOWxHMjB2dU4xMNIBvgFBVV95cUxOOHh2TW1yZ2NnSzhoYTQxZkF5bzY3UXNocW5LM1hiUmFrUkhIeFhKQ0dscXBmelZyUGpBeGswOVJDYWlUSnFpR0hUZ0E3aDdhWVBuZXNOb2hIX01wMWttRnpXUnJYRzI0bktmalhGQWVId2VXTzBCNkZ3eTd5cTlub2EyUHhLSzVoNE45eGN4M1g2TXYtNzd4eklIOWNHcE5kLUIyRUtRWXNXaV9vMkg0aDlvOUMtbFMtT2g2Zmtn?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T20:40:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-05-086e2ccb5b",
-      "date": "2026-11-05",
-      "topic": "Automotive / EV",
-      "title": "Registrasi mobil listrik Inggris melonjak 54% pada Oktober",
-      "summary": "Judul RSS IDNFinancials: Registrasi mobil listrik Inggris melonjak 54% pada Oktober",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut mobil listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "IDNFinancials",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNblJrc0hRLVBMYVFGeXdqNGcydTBWR1JrM3h6S1BlejlYc0FVQkpxb0JxeHFSWmdMTW40WTFVM3NKUFJBdDRoNzI0WXVZcVdmR3cxbEVOeGdFWnZwRV92NEh6XzJvbmtTYWU0TUhGeWpDYVNYRzJ5MWVMSGlSXzBUb0pQMWtORG5vUmtWbzUzazVVaWRteDQzaWxIRHppVDhONktJ?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T20:00:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-05-c0605a749f",
-      "date": "2026-11-05",
-      "topic": "Markets",
-      "title": "IHSG Menguat, Investor Ritel Masih Tekor",
-      "summary": "Judul RSS Kompas.id: IHSG Menguat, Investor Ritel Masih Tekor",
-      "sentiment": "Positive",
-      "score": 0.25,
-      "confidence": 0.35,
-      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Kompas.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QR1hOVFktQlVjQk0tWWtzVXB3bFJTUjlnODJyVUdwZTJ3RDNCejVFT2RnaGJiRzVBUmxpZzhEQkFxM0hrNVR4MjhTYUlkNWFsMDV1SC04MGpWLWJRczdyWk12QXE4R01EZ1hCM190dFF4YS10YWVZ?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T20:37:52+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-4454e9399d",
+      "id": "2026-11-06-5bdd1e90ab",
       "date": "2026-11-06",
-      "topic": "Business / Investment",
-      "title": "Ekonomi Indonesia Tumbuh",
-      "summary": "Judul RSS Pemerintah Provinsi Banten: Ekonomi Indonesia Tumbuh",
+      "topic": "Regulation",
+      "title": "Dukung Pertumbuhan Ekonomi, Pemprov Banten Permudah Izin Usaha Waralaba",
+      "summary": "Judul RSS Pemerintah Provinsi Banten: Dukung Pertumbuhan Ekonomi, Pemprov Banten Permudah Izin Usaha Waralaba",
       "sentiment": "Positive",
       "score": 0.25,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
       "source": "Pemerintah Provinsi Banten",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBEX1p6Z2hqckhzV096VDRpeU1pZjZrcFVTOExtQ2FNUDhNVmk5OVFaSGlBUktYNnQxVEtGR00yRmt5cExmbndwaVIxNHc1Qjh0cWJhYlJrWUxjODlBQXFlYzd6UUgxZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGZkdlpOWUdEbS1WR2hnQWN6bXFaRDE3ZmtWVzZTcTliRlhzSHl2MTFfdkpudjNIVjNTS3RPM1pJMU9jTC1xU05rZk81M3FJV0t0YzBGbDVUajNWMnI0ZllqajZPMEFPOVpoLWh4ejlJY2JIbm5BWTlGOUt4RWN0NVhsUC1FcUlHODBKbXpGSV9SNExMV2lDUGFYeVNHU2hCZTVtRA?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T01:15:14+07:00",
+      "publishedAt": "2026-11-06T21:45:48+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-05-00b8b77f34",
-      "date": "2026-11-05",
-      "topic": "Infrastructure",
-      "title": "Bukan Sekadar Bangun Jalan Tol, Hutama Karya Perkuat Komitmen Jaga Kualitas Infrastruktur",
-      "summary": "Judul RSS transportasimedia.com: Bukan Sekadar Bangun Jalan Tol, Hutama Karya Perkuat Komitmen Jaga Kualitas Infrastruktur",
+      "id": "2026-11-06-639f6d8e0c",
+      "date": "2026-11-06",
+      "topic": "Tech / AI",
+      "title": "Demokrat Kuasai Kongres — Regulasi AI Ancam Boom Data Center",
+      "summary": "Judul RSS https://feedberry.com/: Demokrat Kuasai Kongres — Regulasi AI Ancam Boom Data Center",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
+      "source": "https://feedberry.com/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdlFzMDV3ZWJBV0V2cTNTLVRnZ3pDLVlwVl9qVHRaYkZvT1BHNXRldG1wRG01eFlOOVotRTl5ZWJLUV9hbVlacmFXaTVPcmhMYUpkeF9UVkZmbXRaT3R4VXVpcFNUandxSDBIYTRQQjQ3Ym5ZZEowZ2Y5d0tjbHVjR2F6OXhiclRkUVhrckthN1FKdw?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T23:14:23+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-1a0d2ec398",
+      "date": "2026-11-07",
+      "topic": "Automotive / EV",
+      "title": "Waspada, Ini Dampak Membeli Mobil Listrik Bekas Tanpa Cek Kondisi",
+      "summary": "Judul RSS JPNN.com: Waspada, Ini Dampak Membeli Mobil Listrik Bekas Tanpa Cek Kondisi",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "JPNN.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOHQ4SVN5b2RMcnlHc3lkSHo3d3A1NU45MDBPSk9CYlk1U3hEX2JuT1pidlYzWjN3M3ViSG9OQnpGYUxxTFktVHBtTG80WmlKXzlOcG1udnZrN0VSbF9SYWZNUHlWTFVhd2tLRFpNOWRfWGVnU1JOV05MOGpzZlRrZ3NVVk5BVnE0bklLRE1qSnFXX2pU0gGXAUFVX3lxTE1vNk91eno5QlQ4OVpJMGxHUnIwS0VRd2Q0dURYLWo4YnBiMDdQdTd5SThuaXd2OGZSaTFQWFkwZExWNWhzQkRTNTZBVFJ3dVdEazVvMFdMWGRDYkx3RUJ1R1hHNGtQel9tbGZMcm01ajlRTkswRGhWUkVId0xaRlZ6TnhCbkdtMDdKWklqNFFtNzN4TkRJMXc?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T00:01:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-06-d48cf60102",
+      "date": "2026-11-06",
+      "topic": "Markets",
+      "title": "IHSG Rebound 2,25%, Cek Strategi dan Saham Pilihan Hari Ini",
+      "summary": "Judul RSS Maybank Trade ID: IHSG Rebound 2,25%, Cek Strategi dan Saham Pilihan Hari Ini",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Maybank Trade ID",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3NpNnpLOEFYMG9HRGp0cHQ0S1phVEd1Zmx0WXRITHdoZ3RaVkRpYnI5YlBMN2hibnJrOGhzV096MHlCODJsSVlLSTlEc0tlaXVZZnI3V29LNGJ1eGgyTWxZdUhtUkFUTjFsVlFRWjIzOW9lNi1zVE5tRHFUUlZZbENpNV9tbFE5S0l6TGJ3VEZ6eE1CWE1rZXJoZw?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T16:15:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-c9c1fab055",
+      "date": "2026-11-07",
+      "topic": "Business / Investment",
+      "title": "Indonesia pastikan prosedur ekspor SDA strategis tidak berubah",
+      "summary": "Judul RSS IDNFinancials: Indonesia pastikan prosedur ekspor SDA strategis tidak berubah",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "transportasimedia.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc1ZWSTVQTHBmS3N1WEpzdHlFd2wzQWFodHpNcVBfQnM5dEZlNlFuaEtFZENhS2JpS2VORUtNWlF2ZFhDS18yWndpYW1EeUxudVBuSnJyOGJTWTlqSFJnOUNSR19NSDJ6bGQxenBtN0NaRURadjgtamNIUnJRZWUwV0E2UG4zb1pmU2lIeUZacXFDaFJJZEg5Z3pUZC1Cc0IyalhEZll2ZFlWZEN5dXdRU3QzaTJnZWg2dWNtelV1bFBDWGNMVXlJSWtVaw?oc=5",
+      "source": "IDNFinancials",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRmlOVWdQb0hEc0k3UDR5c2hROUJmaVVoTy1LWkczSlBQWWtuRTM0WEtDb01ReUdpdEF1Y3VsdWRrSmloRmRlLWN0bmtIT25VaHZ3RGdUbFFMY25PdnhQYjdiZ1F4ZlJhT1RwQWJUVWdVUTEtRVVpU2FZX1Z2WVhqRy00Z3d1TGh3RU1iZmlEQ1p1SjFlTzZUaElRZmFGd1N3X3V2U0N3czJkQQ?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T15:35:43+07:00",
+      "publishedAt": "2026-11-07T05:00:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-06-4798cdc063",
+      "date": "2026-11-06",
+      "topic": "Infrastructure",
+      "title": "Jasa Marga Kantongi Laba Rp2,7 Triliun hingga Kuartal III 2026, Ini Pendorong Utamanya",
+      "summary": "Judul RSS Info Ekonomi: Jasa Marga Kantongi Laba Rp2,7 Triliun hingga Kuartal III 2026, Ini Pendorong Utamanya",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Info Ekonomi",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFQwLWhIVld0THAxaUE5OXQ5S0dUYTJHenFNajJKWFJxVl9nWHNBSVpkWW1ZaHVzdHV5Y2tIZnAtLVVlX2xjVmV0eGFtdTdtVTUwTE5LNnd0NGNPei1LZ210dnJfX0xLYlRZX1E0SnRVZkRaUHZRRDdRV05JTzlNaG9QU2dwbUpObHRiRWJnSmkxOGpRWjdGdUppYUV6OGhERXlXWEJ2LVB2bHpGTTJKMkQwY1RCWUU?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T15:25:22+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-06-28dbac9cc0",
+      "date": "2026-11-06",
+      "topic": "Regulation",
+      "title": "Kejagung Ungkap Dugaan Permainan Izin Usaha Pertambangan, Eks Karyawan Glencore Kendalikan Enam Perusahaan Nikel",
+      "summary": "Judul RSS OWRITE: Kejagung Ungkap Dugaan Permainan Izin Usaha Pertambangan, Eks Karyawan Glencore Kendalikan Enam Perusahaan Nikel",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "OWRITE",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPelpSOHpMSXFwU3pQQWlWc0pVS3ltZmdGUmJNMlBlZUdOVkl4bGFKajA5djVFblhkcUdrWHZRYVVFYUtZSDNlSzJpR2VSRXNzUG9MQzNwb2ZFVmdscFZJVDQ5LVFpYmt5VlQ1R01yeUIzQ2ItOXNlb05acTZEWjA1eklOVUliZEhHZGJqWW1zYUk2amNsM1Z4Uld5b3pLM2pvNnZjU3ZvUUxmeHJOZlYxQVIzUVdOb0hZUUl1M3JDVWFQRGM1bW91RG5pNzVZamc?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T20:27:22+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-06-dbefab8eea",
+      "date": "2026-11-06",
+      "topic": "Tech / AI",
+      "title": "Investasi AI, Ekonomi AS, dan Risiko Data Center",
+      "summary": "Judul RSS XTB.com: Investasi AI, Ekonomi AS, dan Risiko Data Center",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
+      "source": "XTB.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTzdQRjBIX09FSTM5STFYOW9DWm9qRXR6aXlHM1F3dlk5UUJKbVNfUkdIbk9tS2pveDhGTElIcmhuUnYzYVRDYUxMdVlibEJIY1FydUdWNTF1TlBkNUJhb3dySHVGdXdDVDJtZ0lQZ3RhTFhwaG5vSW1aM1VqbDJ2Q1NKTng1RlVmb28teUZGYUdRX2JzbGI0VXViV3VGby16clhzdjNIT3lFSkQ5enRBdUVIaTlETHZwVVZiNw?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T19:36:03+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-06-fbeed45499",
+      "date": "2026-11-06",
+      "topic": "Automotive / EV",
+      "title": "PLN gandeng kalangan kampus songsong era mobil listrik",
+      "summary": "Judul RSS Antara News jatim: PLN gandeng kalangan kampus songsong era mobil listrik",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut mobil listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Antara News jatim",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUkk4eV83ck8yeE5seG9uZDBEUjJxSXNwU3JnOFhkbXQtUUlaNXEydklTTzRNMmNCOUlYUjdud1RYV1dvbUtSbEMtRDZOX1lVMWdoQmpDU3dsNDVzbGU4SU5qSl9uOW9VcUpRamhCRUF0YUh3c1lUdURNWWo5c3NSdVRlZHRPbUV6MnYyb1pfUTBnTHFxNV95WUt2Qm5wa3fSAaQBQVVfeXFMTkZKNm5scExGY2l5N1hab1ZoOXExU1Bfd1JlS2FHdWMxMm41LTNaLUZ0VHRVc1VZZWIxSlJmeE9kRHc0QW05RktNZUluUmZxMWVMT2RBZG04Ym5TUGJOUWpQTEVjLUoycWhHOEpqR1F3YXlaSGdfbHNGR241S2NYLUs5emgwamJXWGlBdGdFQ01fSmVBZnJsNEkxeW5rLUlta1gtZjM?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T23:33:49+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-06-ee54024e48",
+      "date": "2026-11-06",
+      "topic": "Markets",
+      "title": "Update Jelang MSCI November: Net Sell Asing Tekan IHSG, Lolos Standalone Market?",
+      "summary": "Judul RSS Ajaib: Update Jelang MSCI November: Net Sell Asing Tekan IHSG, Lolos Standalone Market?",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Ajaib",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMnlIX2ViUmVkMHd0bmQ0TmFvcUxfdFR6VkJOZGdwanFaY1prRjV0X2FfVUZGQ2NQUFhLUXlBRFNfdzRGLXZxdG96S3pEWnlhb29WNWhIcHRfcXQzWWE1QWFRdDAxeEQ5aUtJMl9TeFdMX3BLMkhFVUxWRl9iRFhtWVY0Yl9LWHBBWXEtQUxUUld1RUF6NGxLLWpueEs3RnlNS0FiYm5xOXhKd2ltYl8xWERR?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T15:50:54+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-06-c37d348165",
+      "date": "2026-11-06",
+      "topic": "Business / Investment",
+      "title": "Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
+      "summary": "Judul RSS - Kementerian Koordinator Bidang Perekonomian Republik Indonesia: Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "- Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNURZV20tQXVWUUVLMmdmODVla0R5Vm9EVDk4Nk5ocnhOSjBWWUlueXU0TmZ3c3NDWU82VTRWbWdBZmtWdV92ZnpBenZTemFjaXAtcXZvYVBzTFYxWVFFT19LdWxPT2x6c0gzNllibkpRV01SbUhlM0RBbVczUXA5c0V6YWstUElTeF9TT1ppTVZCQTZsQzhrOWNtZkhQQ1VoeS13Sm1NQzBOMVFiUTdJVFVDWmpNc1Q2UzV5Ykl0a0pkRndIUXg1RGZBV3RWbHpYWlh0cExfVGF1TXlOY1JOTDdXd21PNXBYcEE0NVFCVHNaWTdDREtwWjYwMUlJSFhiNUlQT2tnR2tzM1hY?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T20:42:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-06-798dc4b3d5",
+      "date": "2026-11-06",
+      "topic": "Infrastructure",
+      "title": "Ketegangan Singapura-Indonesia jadi Ujian Transisi Energi ASEAN",
+      "summary": "Judul RSS Transisi energi berkeadilan: Ketegangan Singapura-Indonesia jadi Ujian Transisi Energi ASEAN",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Transisi energi berkeadilan",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQWRsWkJ3aTNUUjYyWFNBV0hwTjNzNGM1RG50dFFNWU1PT0lmbng1cm1XS2xHVUo1VkZEQkxpTWF6dEtnT2VCd09XdE1DNlBRdG4tN00td2U4YzlYMG5FMHlXTHFSUlU4WWtoa2diT0k2NHJuUHhOSUdDUGlEV3ZTT3c0MDlFVFFRd2JnT3VneWpvQWJKV0stWkZGM0k2a0FDdzlkanROS2JjZU1saDFkX081QTFNN0dJRkJlU19famVPQUN6?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-06T14:45:15+07:00",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-11-06T07:00:30+07:00",
+    "generatedAt": "2026-11-07T07:00:36+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice. CNY: 1/252 daily observations; excluded from FX ranking",
     "dataWarnings": [
       "CNY: 1/252 daily observations; excluded from FX ranking"
@@ -449,19 +449,15 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 17536.0996,
-        "date": "2026-11-04",
-        "return1m": -1.97,
-        "return3m": -2.38,
-        "return6m": 1.09,
-        "return1y": 5.45,
-        "volatility": 9.03,
+        "last": 17479.1992,
+        "date": "2026-11-06",
+        "return1m": -2.23,
+        "return3m": -2.42,
+        "return6m": 1.05,
+        "return1y": 5.11,
+        "volatility": 8.96,
         "maxDrawdown": -3.95,
         "sparkline": [
-          {
-            "date": "2026-04-22",
-            "value": 17199.5
-          },
           {
             "date": "2026-04-26",
             "value": 17246.0
@@ -737,9 +733,13 @@
           {
             "date": "2026-11-03",
             "value": 17472.1992
+          },
+          {
+            "date": "2026-11-05",
+            "value": 17509.1992
           }
         ],
-        "profitScore": -1.46,
+        "profitScore": -1.53,
         "view": "defensive/watchlist screen"
       },
       {
@@ -747,19 +747,15 @@
         "label": "Singapore Dollar",
         "useCase": "Regional safe-haven proxy and travel/education exposure",
         "pair": "SGD",
-        "last": 13694.5684,
-        "date": "2026-11-04",
-        "return1m": -2.03,
-        "return3m": -2.26,
-        "return6m": 0.82,
-        "return1y": 6.98,
-        "volatility": 8.84,
+        "last": 13675.0693,
+        "date": "2026-11-06",
+        "return1m": -2.11,
+        "return3m": -2.0,
+        "return6m": 0.27,
+        "return1y": 6.83,
+        "volatility": 8.8,
         "maxDrawdown": -3.58,
         "sparkline": [
-          {
-            "date": "2026-04-22",
-            "value": 13490.3936
-          },
           {
             "date": "2026-04-26",
             "value": 13503.2393
@@ -1035,9 +1031,13 @@
           {
             "date": "2026-11-03",
             "value": 13658.373
+          },
+          {
+            "date": "2026-11-05",
+            "value": 13691.7383
           }
         ],
-        "profitScore": -1.54,
+        "profitScore": -1.7,
         "view": "defensive/watchlist screen"
       },
       {
@@ -1045,19 +1045,15 @@
         "label": "Japanese Yen",
         "useCase": "Japan travel, imported machinery, and defensive FX exposure",
         "pair": "JPY",
-        "last": 110.6584,
-        "date": "2026-11-04",
-        "return1m": -2.28,
-        "return3m": -2.8,
-        "return6m": 0.3,
-        "return1y": 2.45,
-        "volatility": 11.21,
-        "maxDrawdown": -4.09,
+        "last": 110.9562,
+        "date": "2026-11-06",
+        "return1m": -1.89,
+        "return3m": -1.88,
+        "return6m": 0.34,
+        "return1y": 2.73,
+        "volatility": 11.19,
+        "maxDrawdown": -4.15,
         "sparkline": [
-          {
-            "date": "2026-04-22",
-            "value": 107.9337
-          },
           {
             "date": "2026-04-26",
             "value": 108.0746
@@ -1333,9 +1329,13 @@
           {
             "date": "2026-11-03",
             "value": 110.6406
+          },
+          {
+            "date": "2026-11-05",
+            "value": 110.5665
           }
         ],
-        "profitScore": -2.2,
+        "profitScore": -1.78,
         "view": "defensive/watchlist screen"
       },
       {
@@ -1343,19 +1343,15 @@
         "label": "Euro",
         "useCase": "Europe trade and portfolio diversification exposure",
         "pair": "EUR",
-        "last": 19689.0,
-        "date": "2026-11-04",
-        "return1m": 1.12,
-        "return3m": -2.28,
-        "return6m": -2.35,
-        "return1y": 3.5,
-        "volatility": 19.17,
+        "last": 19661.0,
+        "date": "2026-11-06",
+        "return1m": 1.25,
+        "return3m": -2.05,
+        "return6m": -3.67,
+        "return1y": 3.35,
+        "volatility": 19.19,
         "maxDrawdown": -7.31,
         "sparkline": [
-          {
-            "date": "2026-04-22",
-            "value": 20135.0
-          },
           {
             "date": "2026-04-26",
             "value": 19973.0
@@ -1631,9 +1627,13 @@
           {
             "date": "2026-11-03",
             "value": 19722.0
+          },
+          {
+            "date": "2026-11-05",
+            "value": 19823.0
           }
         ],
-        "profitScore": -3.16,
+        "profitScore": -3.65,
         "view": "defensive/watchlist screen"
       },
       {
@@ -1641,19 +1641,15 @@
         "label": "Australian Dollar",
         "useCase": "Commodity-cycle proxy and education/travel exposure",
         "pair": "AUD",
-        "last": 12218.3652,
-        "date": "2026-11-04",
-        "return1m": -1.96,
-        "return3m": -3.5,
-        "return6m": -1.71,
-        "return1y": 12.34,
-        "volatility": 9.9,
-        "maxDrawdown": -4.87,
+        "last": 12113.8721,
+        "date": "2026-11-06",
+        "return1m": -2.66,
+        "return3m": -3.81,
+        "return6m": -3.2,
+        "return1y": 11.38,
+        "volatility": 10.02,
+        "maxDrawdown": -5.69,
         "sparkline": [
-          {
-            "date": "2026-04-22",
-            "value": 12316.3184
-          },
           {
             "date": "2026-04-26",
             "value": 12320.541
@@ -1929,9 +1925,13 @@
           {
             "date": "2026-11-03",
             "value": 12229.5918
+          },
+          {
+            "date": "2026-11-05",
+            "value": 12261.6914
           }
         ],
-        "profitScore": -3.18,
+        "profitScore": -4.11,
         "view": "defensive/watchlist screen"
       }
     ],
@@ -1940,19 +1940,15 @@
       "label": "US Dollar",
       "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
       "pair": "USD",
-      "last": 17536.0996,
-      "date": "2026-11-04",
-      "return1m": -1.97,
-      "return3m": -2.38,
-      "return6m": 1.09,
-      "return1y": 5.45,
-      "volatility": 9.03,
+      "last": 17479.1992,
+      "date": "2026-11-06",
+      "return1m": -2.23,
+      "return3m": -2.42,
+      "return6m": 1.05,
+      "return1y": 5.11,
+      "volatility": 8.96,
       "maxDrawdown": -3.95,
       "sparkline": [
-        {
-          "date": "2026-04-22",
-          "value": 17199.5
-        },
         {
           "date": "2026-04-26",
           "value": 17246.0
@@ -2228,9 +2224,13 @@
         {
           "date": "2026-11-03",
           "value": 17472.1992
+        },
+        {
+          "date": "2026-11-05",
+          "value": 17509.1992
         }
       ],
-      "profitScore": -1.46,
+      "profitScore": -1.53,
       "view": "defensive/watchlist screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2291,21 +2291,17 @@
         "name": "Eli Lilly",
         "sector": "Healthcare",
         "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-        "last": 1364.73,
-        "date": "2026-11-05",
-        "return1m": 14.81,
-        "return3m": 16.66,
-        "return6m": 46.02,
-        "return1y": 52.22,
-        "volatility": 35.31,
+        "last": 1354.0,
+        "date": "2026-11-06",
+        "return1m": 15.77,
+        "return3m": 13.6,
+        "return6m": 40.55,
+        "return1y": 51.03,
+        "volatility": 35.25,
         "maxDrawdown": -23.31,
-        "opportunityScore": 87.0,
+        "opportunityScore": 83.1,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 1087.38
-          },
           {
             "date": "2026-01-26",
             "value": 1062.75
@@ -2701,6 +2697,10 @@
           {
             "date": "2026-11-04",
             "value": 1417.99
+          },
+          {
+            "date": "2026-11-06",
+            "value": 1354.0
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"
@@ -2710,21 +2710,17 @@
         "name": "Visa",
         "sector": "Payments",
         "thesis": "Global electronic-payment volume and high-margin network economics.",
-        "last": 422.59,
-        "date": "2026-11-05",
-        "return1m": 13.57,
-        "return3m": 14.67,
-        "return6m": 28.12,
-        "return1y": 25.43,
-        "volatility": 22.84,
+        "last": 422.65,
+        "date": "2026-11-06",
+        "return1m": 12.68,
+        "return3m": 14.08,
+        "return6m": 28.84,
+        "return1y": 25.45,
+        "volatility": 22.79,
         "maxDrawdown": -17.35,
         "opportunityScore": 72.9,
         "risk": "Lower",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 326.36
-          },
           {
             "date": "2026-01-26",
             "value": 328.49
@@ -3120,6 +3116,10 @@
           {
             "date": "2026-11-04",
             "value": 436.57
+          },
+          {
+            "date": "2026-11-06",
+            "value": 422.65
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-V/"
@@ -3129,21 +3129,17 @@
         "name": "Apple",
         "sector": "Consumer technology",
         "thesis": "Installed-base monetization, services, and premium-device ecosystem.",
-        "last": 344.17,
-        "date": "2026-11-05",
-        "return1m": 2.23,
-        "return3m": 10.67,
-        "return6m": 26.84,
-        "return1y": 27.92,
-        "volatility": 24.7,
+        "last": 342.37,
+        "date": "2026-11-06",
+        "return1m": 0.57,
+        "return3m": 9.59,
+        "return6m": 22.21,
+        "return1y": 27.25,
+        "volatility": 24.66,
         "maxDrawdown": -13.82,
-        "opportunityScore": 69.4,
+        "opportunityScore": 66.3,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 248.35
-          },
           {
             "date": "2026-01-26",
             "value": 255.41
@@ -3539,6 +3535,10 @@
           {
             "date": "2026-11-04",
             "value": 349.51
+          },
+          {
+            "date": "2026-11-06",
+            "value": 342.37
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AAPL/"
@@ -3548,21 +3548,17 @@
         "name": "Exxon Mobil",
         "sector": "Energy",
         "thesis": "Cash generation and diversification when energy prices support the cycle.",
-        "last": 165.3,
-        "date": "2026-11-05",
-        "return1m": 0.76,
-        "return3m": 9.02,
-        "return6m": 7.11,
-        "return1y": 45.31,
-        "volatility": 26.99,
+        "last": 165.87,
+        "date": "2026-11-06",
+        "return1m": -1.56,
+        "return3m": 7.12,
+        "return6m": 8.59,
+        "return1y": 45.81,
+        "volatility": 26.94,
         "maxDrawdown": -20.65,
-        "opportunityScore": 62.4,
+        "opportunityScore": 62.0,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 133.64
-          },
           {
             "date": "2026-01-26",
             "value": 134.84
@@ -3958,6 +3954,10 @@
           {
             "date": "2026-11-04",
             "value": 169.27
+          },
+          {
+            "date": "2026-11-06",
+            "value": 165.87
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-XOM/"
@@ -3967,21 +3967,17 @@
         "name": "Microsoft",
         "sector": "Software / cloud",
         "thesis": "Azure, enterprise software, and AI monetization exposure.",
-        "last": 535.93,
-        "date": "2026-11-05",
-        "return1m": 1.16,
-        "return3m": 9.94,
-        "return6m": 31.43,
-        "return1y": 3.66,
-        "volatility": 33.7,
+        "last": 530.61,
+        "date": "2026-11-06",
+        "return1m": 1.53,
+        "return3m": 6.15,
+        "return6m": 28.03,
+        "return1y": 2.63,
+        "volatility": 33.65,
         "maxDrawdown": -31.76,
-        "opportunityScore": 60.4,
+        "opportunityScore": 57.1,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 451.14
-          },
           {
             "date": "2026-01-26",
             "value": 470.28
@@ -4377,6 +4373,10 @@
           {
             "date": "2026-11-04",
             "value": 555.8
+          },
+          {
+            "date": "2026-11-06",
+            "value": 530.61
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-MSFT/"
@@ -4386,21 +4386,17 @@
         "name": "Costco",
         "sector": "Consumer staples",
         "thesis": "Membership economics and resilient high-frequency consumer demand.",
-        "last": 1065.59,
-        "date": "2026-11-05",
-        "return1m": 13.09,
-        "return3m": 13.12,
-        "return6m": 5.03,
-        "return1y": 14.82,
-        "volatility": 20.21,
+        "last": 1053.56,
+        "date": "2026-11-06",
+        "return1m": 11.14,
+        "return3m": 11.0,
+        "return6m": 4.14,
+        "return1y": 13.53,
+        "volatility": 20.2,
         "maxDrawdown": -18.33,
-        "opportunityScore": 58.6,
+        "opportunityScore": 56.6,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 976.17
-          },
           {
             "date": "2026-01-26",
             "value": 977.67
@@ -4796,6 +4792,10 @@
           {
             "date": "2026-11-04",
             "value": 1046.47
+          },
+          {
+            "date": "2026-11-06",
+            "value": 1053.56
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-COST/"
@@ -4805,21 +4805,17 @@
         "name": "JPMorgan Chase",
         "sector": "Financials",
         "thesis": "Scale, diversified earnings, and strong balance-sheet execution.",
-        "last": 337.34,
-        "date": "2026-11-05",
-        "return1m": 2.35,
-        "return3m": -6.1,
-        "return6m": 7.7,
-        "return1y": 9.05,
-        "volatility": 22.74,
+        "last": 334.49,
+        "date": "2026-11-06",
+        "return1m": 0.93,
+        "return3m": -6.12,
+        "return6m": 7.05,
+        "return1y": 8.13,
+        "volatility": 22.71,
         "maxDrawdown": -15.47,
-        "opportunityScore": 48.5,
+        "opportunityScore": 47.7,
         "risk": "Lower",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 303.63
-          },
           {
             "date": "2026-01-26",
             "value": 301.04
@@ -5215,6 +5211,10 @@
           {
             "date": "2026-11-04",
             "value": 352.11
+          },
+          {
+            "date": "2026-11-06",
+            "value": 334.49
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-JPM/"
@@ -5224,21 +5224,17 @@
         "name": "Amazon",
         "sector": "Cloud / commerce",
         "thesis": "AWS margin expansion and global commerce operating leverage.",
-        "last": 260.21,
-        "date": "2026-11-05",
-        "return1m": 0.11,
-        "return3m": -4.56,
-        "return6m": -1.83,
-        "return1y": 2.44,
-        "volatility": 33.87,
+        "last": 259.3,
+        "date": "2026-11-06",
+        "return1m": 2.06,
+        "return3m": -4.76,
+        "return6m": -3.34,
+        "return1y": 2.09,
+        "volatility": 33.81,
         "maxDrawdown": -21.74,
-        "opportunityScore": 39.9,
+        "opportunityScore": 39.4,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 234.34
-          },
           {
             "date": "2026-01-26",
             "value": 238.42
@@ -5634,6 +5630,10 @@
           {
             "date": "2026-11-04",
             "value": 266.03
+          },
+          {
+            "date": "2026-11-06",
+            "value": 259.3
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AMZN/"
@@ -5643,21 +5643,17 @@
         "name": "Meta Platforms",
         "sector": "Digital ads / AI",
         "thesis": "Advertising efficiency, engagement, and AI-driven recommendation gains.",
-        "last": 605.08,
-        "date": "2026-11-05",
-        "return1m": -16.11,
-        "return3m": 2.77,
-        "return6m": -1.12,
-        "return1y": -5.12,
-        "volatility": 41.17,
+        "last": 610.15,
+        "date": "2026-11-06",
+        "return1m": -15.36,
+        "return3m": 3.43,
+        "return6m": 0.23,
+        "return1y": -4.32,
+        "volatility": 41.1,
         "maxDrawdown": -28.79,
-        "opportunityScore": 35.7,
+        "opportunityScore": 37.0,
         "risk": "High",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 647.63
-          },
           {
             "date": "2026-01-26",
             "value": 672.36
@@ -6053,6 +6049,10 @@
           {
             "date": "2026-11-04",
             "value": 630.0
+          },
+          {
+            "date": "2026-11-06",
+            "value": 610.15
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-META/"
@@ -6062,21 +6062,17 @@
         "name": "NVIDIA",
         "sector": "Semiconductors / AI",
         "thesis": "AI accelerator leadership with high growth and valuation sensitivity.",
-        "last": 181.6,
-        "date": "2026-11-05",
-        "return1m": -23.53,
-        "return3m": -17.16,
-        "return6m": -9.0,
-        "return1y": -12.22,
-        "volatility": 38.44,
+        "last": 186.64,
+        "date": "2026-11-06",
+        "return1m": -19.02,
+        "return3m": -14.77,
+        "return6m": -5.95,
+        "return1y": -9.78,
+        "volatility": 38.46,
         "maxDrawdown": -24.09,
-        "opportunityScore": 21.6,
+        "opportunityScore": 25.6,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 184.84
-          },
           {
             "date": "2026-01-26",
             "value": 186.47
@@ -6472,6 +6468,10 @@
           {
             "date": "2026-11-04",
             "value": 200.13
+          },
+          {
+            "date": "2026-11-06",
+            "value": 186.64
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
@@ -6481,21 +6481,17 @@
         "name": "Alphabet",
         "sector": "Digital ads / cloud",
         "thesis": "Search cash flow, cloud growth, and AI product distribution.",
-        "last": 282.57,
-        "date": "2026-11-05",
-        "return1m": -19.38,
-        "return3m": -22.03,
-        "return6m": -26.57,
-        "return1y": -0.41,
-        "volatility": 33.77,
+        "last": 284.78,
+        "date": "2026-11-06",
+        "return1m": -18.23,
+        "return3m": -20.4,
+        "return6m": -26.16,
+        "return1y": 0.37,
+        "volatility": 33.71,
         "maxDrawdown": -30.71,
-        "opportunityScore": 15.0,
+        "opportunityScore": 16.3,
         "risk": "Moderate",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 330.54
-          },
           {
             "date": "2026-01-26",
             "value": 333.26
@@ -6891,6 +6887,10 @@
           {
             "date": "2026-11-04",
             "value": 288.93
+          },
+          {
+            "date": "2026-11-06",
+            "value": 284.78
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-GOOGL/"
@@ -6900,21 +6900,17 @@
         "name": "Broadcom",
         "sector": "Semiconductors / infrastructure",
         "thesis": "AI networking, custom silicon, and infrastructure software cash flow.",
-        "last": 291.53,
-        "date": "2026-11-05",
-        "return1m": -22.57,
-        "return3m": -30.3,
-        "return6m": -30.16,
-        "return1y": -19.59,
-        "volatility": 47.12,
+        "last": 293.69,
+        "date": "2026-11-06",
+        "return1m": -18.45,
+        "return3m": -30.17,
+        "return6m": -30.29,
+        "return1y": -18.99,
+        "volatility": 47.03,
         "maxDrawdown": -39.46,
-        "opportunityScore": 0.9,
+        "opportunityScore": 1.9,
         "risk": "High",
         "sparkline": [
-          {
-            "date": "2026-01-22",
-            "value": 325.49
-          },
           {
             "date": "2026-01-26",
             "value": 324.85
@@ -7310,6 +7306,10 @@
           {
             "date": "2026-11-04",
             "value": 325.48
+          },
+          {
+            "date": "2026-11-06",
+            "value": 293.69
           }
         ],
         "tradingViewUrl": "https://www.tradingview.com/symbols/NASDAQ-AVGO/"
@@ -7320,21 +7320,17 @@
       "name": "Eli Lilly",
       "sector": "Healthcare",
       "thesis": "Innovative medicine growth led by metabolic-health demand, with valuation risk.",
-      "last": 1364.73,
-      "date": "2026-11-05",
-      "return1m": 14.81,
-      "return3m": 16.66,
-      "return6m": 46.02,
-      "return1y": 52.22,
-      "volatility": 35.31,
+      "last": 1354.0,
+      "date": "2026-11-06",
+      "return1m": 15.77,
+      "return3m": 13.6,
+      "return6m": 40.55,
+      "return1y": 51.03,
+      "volatility": 35.25,
       "maxDrawdown": -23.31,
-      "opportunityScore": 87.0,
+      "opportunityScore": 83.1,
       "risk": "Moderate",
       "sparkline": [
-        {
-          "date": "2026-01-22",
-          "value": 1087.38
-        },
         {
           "date": "2026-01-26",
           "value": 1062.75
@@ -7730,6 +7726,10 @@
         {
           "date": "2026-11-04",
           "value": 1417.99
+        },
+        {
+          "date": "2026-11-06",
+          "value": 1354.0
         }
       ],
       "tradingViewUrl": "https://www.tradingview.com/symbols/NYSE-LLY/"

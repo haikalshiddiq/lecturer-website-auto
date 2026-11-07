@@ -132,6 +132,16 @@ function s10Scenario(s){
   const history=pick(s,'s10History','yes',['yes','no']),row=pick(s,'s10Row','allow',['allow','reject']);
   return {price,snapshot,discount,parent,history,row,total:2*((snapshot?100:price)-(discount==='locked'?10:20)),historical:snapshot&&discount==='locked',signature:[price,snapshot,discount,parent,history,row].join(':')};
 }
+function s14Scenario(s){
+  const trace=pick(s,'s14Trace','stale',['stale','boundary','pending','coherent']),verdict=pick(s,'s14Verdict','ready',['revise','confirm','ready']),next=pick(s,'s14Next','review',['version','boundary','approval','review']);
+  const cases={
+    stale:{verdict:'revise',next:'version',test:'TC-RES-v1: aktif pada 10, kedaluwarsa pada 15',guard:'ST-RES-v2: elapsed >= 10',approval:'Diasumsikan tercatat',reason:'A: TC-RES-v1 tertinggal dari FR01-RES-v2. Revisi hubungan dan isi expected result menjadi 9 aktif, 10/11 kedaluwarsa; bukan hanya mengganti nama file. Pertahankan histori v1 dan telusuri test kembali ke kebutuhan/sumber.'},
+    boundary:{verdict:'revise',next:'boundary',test:'TC-RES-v2: 9 aktif, 10/11 kedaluwarsa',guard:'ST-RES-v2: elapsed > 10',approval:'Diasumsikan tercatat',reason:'B: versi sama tetapi guard > 10 masih aktif tepat menit 10, bertentangan dengan FR dan TC yang memakai >= 10. Koreksi isi guard, periksa dampak lalu review test batas. Suffix v2 tidak membuktikan kesamaan makna.'},
+    pending:{verdict:'confirm',next:'approval',test:'TC-RES-v2 kandidat: 9 aktif, 10/11 kedaluwarsa',guard:'ST-RES-v2 kandidat: elapsed >= 10',approval:'CR-14 masih usulan',reason:'C: isi kandidat konsisten tetapi keputusan pemilik belum ada. Tahan penetapan baseline, minta persetujuan berwenang dan catat status/owner. Centang atau versi sama tidak mengesahkan usulan.'},
+    coherent:{verdict:'ready',next:'review',test:'TC-RES-v2: 9 aktif, 10/11 kedaluwarsa',guard:'ST-RES-v2: elapsed >= 10',approval:'Diasumsikan tercatat',reason:'D: versi dan isi konsisten pada batas yang diuji dalam walkthrough; ajukan paket untuk review baseline dengan owner dan change log. Ini belum actual result tes backend atau bukti aplikasi siap produksi. Reservasi lama masih membutuhkan keputusan tersendiri.'}
+  };
+  return {trace,verdict,next,expected:cases[trace],signature:[trace,verdict,next].join(':')};
+}
 function s13Scenario(s){
   const trace=pick(s,'s13Trace','assisted',['assisted','independent','repeat']),finding=pick(s,'s13Finding','universal',['assisted','independent','universal']),next=pick(s,'s13Next','retain',['revise','retain','isolate']);
   const cases={
@@ -220,6 +230,16 @@ if(type==='elicitation'&&view===2&&supplements[2]){
   const statusReason=x.approval==='belum'?'NFR01 tetap usulan: belum ada persetujuan, meskipun batasnya terukur.':'NFR01 disepakati hanya menurut asumsi persetujuan pada batas terpilih; simpan pihak, versi dan konteks uji.';
   const timeReason=x.limit==='2'?'Hasil contoh tiga detik belum memenuhi batas dua detik.':'Hasil contoh tiga detik memenuhi batas lima detik.';
   viz+=s.s2Reviewed===x.signature?feedback(`<b>${correct?'Kedua prediksi tepat.':'Ada prediksi yang perlu direvisi.'}</b><p>${stockReason}</p><p>${statusReason}</p><p>${timeReason} Mengubah batas bukan perbaikan performa. Satu hasil contoh tidak membuktikan seluruh beban terpenuhi; tidak ada uji pembayaran atau checkout bersamaan di sini.</p>`,correct?'':'warn'):'<p data-iasd-s2-prediction>Latihan tambahan: buka Latihan FR01 & batas waktu, prediksi hasil stok dan status kebutuhan, lalu periksa alasannya.</p>';
+}
+if(type==='trace'&&view===14&&supplements[14]){
+  const x=s14Scenario(s),correct=x.verdict===x.expected.verdict&&x.next===x.expected.next;
+  controls+=`<details data-iasd-version-audit ${$('#sim-controls [data-iasd-version-audit]')?.open||Object.keys(s).some(k=>k.startsWith('s14'))?'open':''}><summary>Latihan audit versi dan isi SRS</summary><p class="small">Asumsi CR-14: reservasi baru 15 menjadi 10 menit, AwaitingPayment tanpa pembayaran terverifikasi. Kartu terpisah dari checkbox dampak dasar; bukan timer transaksi.</p>`
+    +selectControl('s14Trace','Kartu paket audit',[['stale','A: test masih v1'],['boundary','B: v2 tetapi guard berbeda'],['pending','C: konsisten, belum disetujui'],['coherent','D: konsisten untuk review']],x.trace)
+    +selectControl('s14Verdict','Prediksi status paket',[['revise','Tahan untuk revisi isi/jejak'],['confirm','Tahan untuk keputusan berwenang'],['ready','Layak diajukan untuk review baseline']],x.verdict)
+    +selectControl('s14Next','Tindakan utama menurut acuan',[['version','Revisi hubungan versi dan isi test'],['boundary','Koreksi guard dan uji batas'],['approval','Minta keputusan, catat status/owner'],['review','Ajukan review dengan change log/batas bukti']],x.next)
+    +simButton('s14review','Periksa versi dan isi')+'</details>';
+  viz+=`<section data-iasd-s14-proof><h3>Buka isi jejak CR-14</h3><p class="small">Asumsi kelas, bukan persetujuan atau hasil eksekusi nyata. FR01-RES-v2: kedaluwarsa saat elapsed >= 10 menit. BPMN/UI/API v2 mengikuti batas itu pada semua kartu.</p>${table(['Artefak/bukti','Isi kartu'],[['Model state',x.expected.guard],['Test, expected result',x.expected.test],['Keputusan pemilik',x.expected.approval],['Tidak direvisi, setelah ditinjau','Harga historis OrderItem; waktu kunci diasumsikan tetap']])}</section>`;
+  viz+=s.s14Reviewed===x.signature?`<div data-iasd-s14-feedback>${feedback(`<b>${correct?'Audit dan tindak lanjut tepat.':'Buka isi artefak, bukan hanya sel.'}</b><p>${esc(x.expected.reason)}</p><p>Jejak dua arah FR ke test dan test ke FR/sumber wajib dapat dibuka. Walkthrough ini bukan bukti eksekusi backend, scheduler atau persetujuan nyata.</p>`,correct?'':'warn')}</div>`:'<p data-iasd-s14-prediction>Prediksi belum diperiksa untuk paket ini. Tentukan status dan tindakan, lalu Periksa versi dan isi.</p>';
 }
 if(type==='prototype'&&view===13&&supplements[13]){
   const x=s13Scenario(s),correct=x.finding===x.expected.finding&&x.next===x.expected.next;
@@ -357,6 +377,7 @@ if(action==='s12review'&&view===12)s.s12Reviewed=s12Scenario(s).signature;
 if(action==='s11review'&&view===11)s.s11Reviewed=s11Scenario(s).signature;
 if(action==='s10review'&&view===10)s.s10Reviewed=s10Scenario(s).signature;
 if(action==='s13review'&&view===13)s.s13Reviewed=s13Scenario(s).signature;
+if(action==='s14review'&&view===14)s.s14Reviewed=s14Scenario(s).signature;
 if(action==='s9review'&&view===9)s.s9Reviewed=s9Scenario(s).signature;
 if(action==='s5review'&&view===5)s.s5Reviewed=[pick(s,'join','join',['join','merge']),!!s.address,!!s.label,pick(s,'s5Outcome','sah',['tunggu','sah','dini'])].join(':');
 if(action==='s4review'&&view===4)s.s4Reviewed=[pick(s,'actor','Pelanggan',['Pelanggan','Penyedia bayar','Database internal']),pick(s,'s4Stock','1',['1','3']),pick(s,'s4Role','eksternal',['eksternal','internal']),pick(s,'s4Outcome','reservasi',['tolak','reservasi','lunas'])].join(':');

@@ -53,6 +53,8 @@ summary { display: flex; align-items: center; }
 [data-iasd-task-evidence] label { margin-block: 10px; }
 [data-iasd-version-audit] select { min-height: 44px; }
 [data-iasd-version-audit] label { margin-block: 10px; }
+[data-iasd-review-defense] select { min-height: 44px; }
+[data-iasd-review-defense] label { margin-block: 10px; }
 [data-iasd-elicitation] label { margin-block: 10px; }
 .viz svg { overflow: hidden; }
 .viz svg text { fill: #132f42; }

@@ -132,6 +132,15 @@ function s10Scenario(s){
   const history=pick(s,'s10History','yes',['yes','no']),row=pick(s,'s10Row','allow',['allow','reject']);
   return {price,snapshot,discount,parent,history,row,total:2*((snapshot?100:price)-(discount==='locked'?10:20)),historical:snapshot&&discount==='locked',signature:[price,snapshot,discount,parent,history,row].join(':')};
 }
+function s15Scenario(s){
+  const trace=pick(s,'s15Trace','conflict',['partial','conflict','contrast']),scope=pick(s,'s15Scope','domain',['domain','decision','visual']),next=pick(s,'s15Next','model',['model','clarify','ui']);
+  const cases={
+    partial:{scope:'domain',next:'model',proof:'A: pemilik diasumsikan menyepakati retur sebagian setelah pemeriksaan; delivered=3, accepted_return=1.',reason:'Revisi kebutuhan, alur, data/status, UI, kontrak dan test yang terdampak. Sisa 2: q=0/3 ditolak; q=1/2 memenuhi aturan jumlah. Pertahankan histori tiga unit dan referensi item. Permohonan bukan penerimaan atau refund; nominal refund masih perlu aturan.'},
+    conflict:{scope:'decision',next:'clarify',proof:'B: reviewer A meminta sebagian; reviewer B hanya seluruh pesanan; pemilik belum memutuskan.',reason:'Tahan baseline aturan yang konflik, catat alternatif dan minta keputusan pemilik dengan contoh q=1. Jangan voting atau menyatukan aturan bertentangan. Pertahankan bagian yang tidak konflik; keputusan dan owner harus tercatat sebelum revisi aturan ditetapkan.'},
+    contrast:{scope:'visual',next:'ui',proof:'C: hanya kontras teks tombol dikritik; syarat retur tidak berubah.',reason:'Revisi UI dan test keterbacaan/fokus pada dua tema serta viewport. Catat alasan FR/proses/data tidak direvisi. Kritik tampilan tidak membuktikan aturan retur berubah; jangan mengganti semua model.'}
+  };
+  return {trace,scope,next,expected:cases[trace],signature:[trace,scope,next].join(':')};
+}
 function s14Scenario(s){
   const trace=pick(s,'s14Trace','stale',['stale','boundary','pending','coherent']),verdict=pick(s,'s14Verdict','ready',['revise','confirm','ready']),next=pick(s,'s14Next','review',['version','boundary','approval','review']);
   const cases={
@@ -230,6 +239,16 @@ if(type==='elicitation'&&view===2&&supplements[2]){
   const statusReason=x.approval==='belum'?'NFR01 tetap usulan: belum ada persetujuan, meskipun batasnya terukur.':'NFR01 disepakati hanya menurut asumsi persetujuan pada batas terpilih; simpan pihak, versi dan konteks uji.';
   const timeReason=x.limit==='2'?'Hasil contoh tiga detik belum memenuhi batas dua detik.':'Hasil contoh tiga detik memenuhi batas lima detik.';
   viz+=s.s2Reviewed===x.signature?feedback(`<b>${correct?'Kedua prediksi tepat.':'Ada prediksi yang perlu direvisi.'}</b><p>${stockReason}</p><p>${statusReason}</p><p>${timeReason} Mengubah batas bukan perbaikan performa. Satu hasil contoh tidak membuktikan seluruh beban terpenuhi; tidak ada uji pembayaran atau checkout bersamaan di sini.</p>`,correct?'':'warn'):'<p data-iasd-s2-prediction>Latihan tambahan: buka Latihan FR01 & batas waktu, prediksi hasil stok dan status kebutuhan, lalu periksa alasannya.</p>';
+}
+if(type==='review'&&view===15&&supplements[15]){
+  const x=s15Scenario(s),correct=x.scope===x.expected.scope&&x.next===x.expected.next;
+  controls+=`<details data-iasd-review-defense ${$('#sim-controls [data-iasd-review-defense]')?.open||Object.keys(s).some(k=>k.startsWith('s15'))?'open':''}><summary>Latihan pembelaan retur sebagian</summary><p class="small">Asumsi kelas O-AR15/I15. Tiga kartu review independen, terpisah dari checkbox dampak dasar; bukan persetujuan nyata.</p>`
+    +selectControl('s15Trace','Masukan review',[['partial','A: sebagian disepakati dalam latihan'],['conflict','B: dua aturan bertentangan'],['contrast','C: kontras tombol saja']],x.trace)
+    +selectControl('s15Scope','Lingkup masalah utama',[['domain','Aturan domain dan lintas model'],['decision','Keputusan kebijakan belum tersedia'],['visual','Tampilan, aturan tetap']],x.scope)
+    +selectControl('s15Next','Respons utama menurut acuan',[['model','Revisi jejak model dan test, jaga histori'],['clarify','Catat alternatif dan minta keputusan owner'],['ui','Revisi UI/test, beri alasan model tetap']],x.next)
+    +simButton('s15review','Periksa respons review')+'</details>';
+  viz+=`<section data-iasd-s15-proof><h3>Bukti untuk pembelaan</h3><p>${esc(x.expected.proof)}</p><p class="small">Kartu sintetis, bukan hasil review lapangan. Pada A: q integer positif, q <= delivered_qty - accepted_return_qty. Jumlah memenuhi guard belum membuktikan barang diterima atau refund selesai.</p></section>`;
+  viz+=s.s15Reviewed===x.signature?`<div data-iasd-s15-feedback>${feedback(`<b>${correct?'Lingkup dan respons tepat.':'Pisahkan kritik, keputusan dan revisi.'}</b><p>${x.scope===x.expected.scope?'Lingkup tepat.':'Lingkup belum sesuai bukti.'} ${x.next===x.expected.next?'Respons utama tepat.':'Respons belum menjawab masalah utama.'}</p><p>${esc(x.expected.reason)}</p><p>Walkthrough ini bukan bukti eksekusi retur atau persetujuan nyata. Catat kontribusi individu dan actual result yang masih belum diuji.</p>`,correct?'':'warn')}</div>`:'<p data-iasd-s15-prediction>Prediksi belum diperiksa. Pilih lingkup dan respons sebelum membuka alasan.</p>';
 }
 if(type==='trace'&&view===14&&supplements[14]){
   const x=s14Scenario(s),correct=x.verdict===x.expected.verdict&&x.next===x.expected.next;
@@ -378,6 +397,7 @@ if(action==='s11review'&&view===11)s.s11Reviewed=s11Scenario(s).signature;
 if(action==='s10review'&&view===10)s.s10Reviewed=s10Scenario(s).signature;
 if(action==='s13review'&&view===13)s.s13Reviewed=s13Scenario(s).signature;
 if(action==='s14review'&&view===14)s.s14Reviewed=s14Scenario(s).signature;
+if(action==='s15review'&&view===15)s.s15Reviewed=s15Scenario(s).signature;
 if(action==='s9review'&&view===9)s.s9Reviewed=s9Scenario(s).signature;
 if(action==='s5review'&&view===5)s.s5Reviewed=[pick(s,'join','join',['join','merge']),!!s.address,!!s.label,pick(s,'s5Outcome','sah',['tunggu','sah','dini'])].join(':');
 if(action==='s4review'&&view===4)s.s4Reviewed=[pick(s,'actor','Pelanggan',['Pelanggan','Penyedia bayar','Database internal']),pick(s,'s4Stock','1',['1','3']),pick(s,'s4Role','eksternal',['eksternal','internal']),pick(s,'s4Outcome','reservasi',['tolak','reservasi','lunas'])].join(':');

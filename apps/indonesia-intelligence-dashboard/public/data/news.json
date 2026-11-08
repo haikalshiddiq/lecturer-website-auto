@@ -1,191 +1,65 @@
 {
-  "generatedAt": "2026-11-07T07:00:36+07:00",
-  "briefingTitle": "Indonesia Hot News Briefing: 07 November 2026",
+  "generatedAt": "2026-11-08T07:00:36+07:00",
+  "briefingTitle": "Indonesia Hot News Briefing: 08 November 2026",
   "sentimentBasis": "Metadata penerbit via Google News RSS, maksimum 48 jam (Asia/Jakarta). Sentimen adalah heuristik kata pada judul, bukan dampak investasi terverifikasi. Confidence 0.35 menandai bukti terbatas, bukan probabilitas terkalibrasi. Artikel lengkap dan gambar belum diverifikasi; tautan discovery disimpan apa adanya.",
   "items": [
     {
-      "id": "2026-11-07-65bcf9ea6c",
-      "date": "2026-11-07",
+      "id": "2026-11-08-72a337d60a",
+      "date": "2026-11-08",
       "topic": "Tech / AI",
-      "title": "Demo Pecah, Aktivis Lompat Pagar-Tembus Lokasi Proyek Data Center",
-      "summary": "Judul RSS CNBC Indonesia: Demo Pecah, Aktivis Lompat Pagar-Tembus Lokasi Proyek Data Center",
-      "sentiment": "Neutral",
-      "score": 0.0,
+      "title": "Krisis Listrik, Data Center AI Kini Pakai Mesin Jet Bekas Boeing 747",
+      "summary": "Judul RSS Kompas.com: Krisis Listrik, Data Center AI Kini Pakai Mesin Jet Bekas Boeing 747",
+      "sentiment": "Negative",
+      "score": -0.25,
       "confidence": 0.35,
       "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
-      "source": "CNBC Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNlFERkhoR0V5Q2hsNTEyX3dRRjlTaTlFYllyUmE4bWlZWklGNU1jQzA4X09pWVBmaWJjTVc3Y1lpSVVWZGxmZ21aZVBZOHJQamRqS2ptNTE5M1VrSTJRV1ctUzRhaGJpdDY3TkVaei04enhFdFpHTkpid2pjajJxTjcwLVZ4bnpwYWZtSHZlWWtFZFdackJGUTRpQldvOVVRZVlCYTJwRndGNlN4Vkd0OG5ibGRESVYyVnFtdWJmRjPSAcYBQVVfeXFMUGc4MC0wbk9SZ0ZOeThQc21KUnVtNkVrQVg2TWY3NVk1TUtQS0dkeXFFNVpMMHBIYTVIWEdHRFk0TUs1RjZRQnVqMHVPZG5USWc2OS1SanZmUlFyeTZfeVNvSDJoZUVQeUljby1Ia0JVeUdRRDZXSjY3OHllenZJZzFpdDd6MFJoNnJXdmM5LXRGUi1ZMnVVZkRKeGhRLXBYN0R6cFFYUG5uZDBRUHR1azRuQXlrYXMyZ2hiNkdmY3pVWUVJR0Jn?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T06:30:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-07-f4cf73389d",
-      "date": "2026-11-07",
-      "topic": "Automotive / EV",
-      "title": "Lima Berita Otomotif Menyoroti MotoGP dan Mobil Listrik",
-      "summary": "Judul RSS Limapagi: Lima Berita Otomotif Menyoroti MotoGP dan Mobil Listrik",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Limapagi",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRGJrUU1FNXdIWWtiU09lUHBhdlZRZzUtdlRzWHpTak16dTJrZzhTN3dZV3ZQVWVCNWdaUnEyTzhPY1QtZHY5ZVFLcm1idXVKYmh0WGNPX3J6SFJVTW5RNVhscURnbDV5Z3VfQUMyakptRkh3MVUta1AzR0hzS19QUTdNekthZw?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T06:05:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-07-e073993571",
-      "date": "2026-11-07",
-      "topic": "Markets",
-      "title": "Sengatan MSCI Mengaburkan Fundamental Ekonomi",
-      "summary": "Judul RSS KONTAN: Sengatan MSCI Mengaburkan Fundamental Ekonomi",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "KONTAN",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ0cyeFZxMkVFVFRyRjhlT0hRTlJtb1VzX2s0cXZwMDdWcVI0SEJpZmpMZl9fM1RwazJLRUlNVWpLdkp5a3BkNWl0Wm16bnJIYlhJQ0EwUWdqcllpandvcUs2OUxuUG5vUWU2dnowQ1Jpd3lTVzBDcF9NZDFPRkhoRFoweWs0Zw?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T05:30:23+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-07-d22450ac29",
-      "date": "2026-11-07",
-      "topic": "Business / Investment",
-      "title": "Indonesia Kantongi Komitmen Investasi Rp6,3 Triliun dari Forum London",
-      "summary": "Judul RSS republika.co.id: Indonesia Kantongi Komitmen Investasi Rp6,3 Triliun dari Forum London",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "republika.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1pRcFVqZmRkOWxuVXBWX3hRSGdSXzNNTHlMMkNXSldReGNNWEpGMlY3X2lJQlZqMVdlZFFfRDM3MjhuNVZES1JmVHJtd0lfekV1eGZ6anV2N2RPOTc4SlBUUXplVVNhb0pUZ1NmRWhfazFzUkpUMkpwQjZOTmxmVk1zX0xfZ1ltZm5CMnMwbVhpYWNFVGpYNG9Iay10eFBFa3YxYmxraDlpSXVvaHk2cnNfTmE0SXA3QjZkLVBn?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T05:30:14+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-9639a6da2c",
-      "date": "2026-11-06",
-      "topic": "Infrastructure",
-      "title": "Foto : Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi Halaman 1",
-      "summary": "Judul RSS Kompas.com: Foto : Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi Halaman 1",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
       "source": "Kompas.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSU84c3V1aHpXanRia1hhWE5mWVJGT2JyclMzb0VoQ2p0OVpWN2lFTWxtd3kxRHVQNXBlNTlYRnRDYkNWSFBRSFVjbjFGejVKR3Z5SUZoUmE3Q1o0elZwTUFCY0lCbGYtbEllVV9mS3lweFNJWHRLMkZhWFBoXzN1RTFQNG0tTl91VEpkUmM3NFBYNHBIN1d4U2VQeXRfbEdUWlVPYmx4dy15TDFPdmxxdlhBdVBSWU9HSUMwYkNsSng?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT18zcUw2S0VuREFwNXVreU9qd3dMMV9pU3U2R1k2QThDYWU1cW85N0dyVFJNakRsZjhIQ1BPalExSVVNVC03dnBzN3pzV2d6VjhXZlhfSGNKZGdmQ0hBNFQwaTcxYWFQUTVhc00zRkxjT2ZaVE84SklUMWM4MFp6dHIwSjZVTGNpdloyei1DWVZyM3dlbW9NQWdBa05tT3ZjQnBSUUIybEwwXy11N29QVTBhRkd6SWp1?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T23:01:41+07:00",
+      "publishedAt": "2026-11-08T02:08:01+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-05-894bf8c75d",
-      "date": "2026-11-05",
-      "topic": "Startups",
-      "title": "Pendanaan Startup Cyberport Tembus HK$74,5 Miliar, Hong Kong Perkuat Ekosistem Teknologi Global",
-      "summary": "Judul RSS Sinkap.info: Pendanaan Startup Cyberport Tembus HK$74,5 Miliar, Hong Kong Perkuat Ekosistem Teknologi Global",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Sinkap.info",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjZuS1NtLVdGejNWejJ6ODRWWmFRZC1UajdJZl9jVUdOamtIcjlSTGtYWVlGdkg0dnpOckZmNVdpRnE3bjZ2ZnhMdmFYYVFac3dtQm1aTUIwbVBnRVFuZ1N4TlZvZjR2Q2FSYXJValRBNEJLT2c3M0owZ2J3NE9Pc2FQTmlYdThpTGtfeDd3WnlsYjlNcHItS2NQZXFnMlZNNEtRZDZmS2J4U1dMa0w0cmFxakxOMk0zb19BSGZR?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-05T11:52:40+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-07-23faadc561",
-      "date": "2026-11-07",
-      "topic": "Regulation",
-      "title": "BI Kaltim Dorong UMKM Perluas Pasar Lewat Mahakarya Etam Festival 2026",
-      "summary": "Judul RSS Bisnis.com: BI Kaltim Dorong UMKM Perluas Pasar Lewat Mahakarya Etam Festival 2026",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Bisnis.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaGpjYmEzX2NENDJqRWpHWDV1RnVFREtVcHhFN1pBZWFLS0k2UHdRUG5LbWF5YzNuWTRpaTRFYl9tWnpyczhxZ29qV2Q4YnNtaERvRm9hSExvTDJRLUF3WWN3aE5Zd3l0R04tTFIzd1N1T1lINThGY0NDR3lVaVhXdU5UaW5kajhUN0lYYk5xbDVJVVRGaVNHNEpHU011d3RuLTYwdTY0ZEpRaS1kai16NmRDRFFYYVZhejFBWU14YlpMNlVF?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T01:10:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-07-69508267db",
-      "date": "2026-11-07",
-      "topic": "Tech / AI",
-      "title": "AI Butuh Listrik Besar, Telkom Gandeng PLN Siapkan Data Center",
-      "summary": "Judul RSS Uzone.id: AI Butuh Listrik Besar, Telkom Gandeng PLN Siapkan Data Center",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Uzone.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcVdlZnc1RVpoWnh5N1Z5bEdqcVYxLVBRcjlFNVJrNDdwZjl0Y2xPSXVURnhHTGo5MnR5UU5vSlliSFRYRkI3bzFIWEswT2xIZmpQOFZkY2tuNkNvc1pYeGdnQk91eEdwelFjeHpLNFhTUURnTkI5cTVFazFPSVdweHkwSXg?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T00:30:10+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-07-326baa6f6a",
-      "date": "2026-11-07",
+      "id": "2026-11-08-7f2d206586",
+      "date": "2026-11-08",
       "topic": "Automotive / EV",
-      "title": "7 Harga Mobil Listrik BYD Paling Terjangkau di 2026, Mulai Under 200 Jutaan Varian Banyak - radarcirebon.disway.id",
-      "summary": "Judul RSS Radar Cirebon: 7 Harga Mobil Listrik BYD Paling Terjangkau di 2026, Mulai Under 200 Jutaan Varian Banyak - radarcirebon.disway.id",
+      "title": "Masih Ingat? Ini 10 Mobil Listrik Baru Jebolan GIIAS 2026, Siap Mengaspal di Tanah Air dengan Spek Begini - radarcirebon.disway.id",
+      "summary": "Judul RSS Radar Cirebon: Masih Ingat? Ini 10 Mobil Listrik Baru Jebolan GIIAS 2026, Siap Mengaspal di Tanah Air dengan Spek Begini - radarcirebon.disway.id",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
       "source": "Radar Cirebon",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOXJSLWN0VXdzcGdRTlUzSnF3RHdvSEVEOHhaT2oxbkkzZXFQc0F4T3l5dExmOFJwcTdzWlBtMDlEN254enBySEJmTGFBVlphUHZzUFR5OEEyeUVjeFVJa1lmVXNsMlYtMFpnYXl6UkRjZ2tMRks2X3dkOENaS0ZnVDJsc1Z1WFdwd2V6aUc5UWh5SFoyZ0dkamxuRWRGd3g5eEVTenRuNDFDTUJtRU9Ya0RFdS14eXhkU2dkNk1WU01HdlVzRzZUS2RVaDNKSVc2U2ZN0gHKAUFVX3lxTE05VnRGR3BKemZ3d3Z4dm12QmZYcmt1cnZVYjhkV05QMlVUZ0lHZFFSN3ZnRnJmV2lBc0MwbjIzQUpQNDJjOTEzbnJ0VmNCdDMwQzRpTkZVS0t4ak1Hc01VdmZNMzE5OFNWOVB5WDd0WnYtYmNHSnFzbHptekNfaVBkNk1SYzdoQ1hqSjI4V0oxbzlGSzZjN0FBRHNfMkdvUjlMVVZyWmszYjU4VUVFczI1Z3dXWk5BTzlvV1hzMTQwdTJqR1Z0RnplMWc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPM2lfelRJV25iQk9FelpNbE1VczE5b216WU1Ca1gwa1phandCYjVya2d6dmVOV0sySXEydVdHa0txMzhyRlFacnFSTjRLbTBPdEhvUzBWT2FmLWZJaUJxQnkyZm9Nbm9TdlR5NmtvZXhpYTZTLUM5Y3NvYUhndkpNaUNGTEpzRWhWclpfb0hDZTBRWGJkOXBDdEJHN3BiQnVqUFh0azAyUl9FSlYydkVqeTNodU1LOExyVjlzWUhRcHY4ekplYzVYOXlNZExYUXIyYWIxVFRTUXZZWTJwMW9oVFpha25YRWvSAd4BQVVfeXFMUDNCZ1A4c2dYOENLVXdQb2xXZVZkWW83a3RiQ0owTXZMSmZGWXhZSk42N0s0anhIYXJmTXhQLW1UNUtLcHFGUDcwVlQ1eUdFVVRDZFhMOW0tSHFvR3ItZ0llc3lOcVFGcXgzeXJsLTc2QWlRVDBwZWZKeDl6VlhGZFBYVVBaZ01wVGZULUYydnNIdHNYazg1bUZfZ3Nqb0g3NmNkT04tQVhQR1hlMTdYNExCU2Vwdmk5SlQ1eHFNMVhzeGFRaHlPT1BhYXZSQWdZRTN5OVBEcF8weTJGRXB3?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T05:34:00+07:00",
+      "publishedAt": "2026-11-08T04:38:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-fbc39d942e",
-      "date": "2026-11-06",
+      "id": "2026-11-08-ee5a046ab5",
+      "date": "2026-11-08",
       "topic": "Markets",
-      "title": "Pasar Modal RI Terancam Turun Kelas ke ‘Standalone Market’, Apa Dampaknya ke Masyarakat?",
-      "summary": "Judul RSS Magdalene.co: Pasar Modal RI Terancam Turun Kelas ke ‘Standalone Market’, Apa Dampaknya ke Masyarakat?",
-      "sentiment": "Negative",
-      "score": -0.25,
+      "title": "IHSG Diprediksi Menguat Terbatas, Simak Level Support dan Resistance",
+      "summary": "Judul RSS kontan.co.id: IHSG Diprediksi Menguat Terbatas, Simak Level Support dan Resistance",
+      "sentiment": "Positive",
+      "score": 0.25,
       "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Magdalene.co",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUNW1ERXZQWFJlNC1raFZYdldQSHBlNGpEQ0ZoaWh5Qm1MdVppbDNBOV92WVdwdWp3M2VSYThkaXZ2eG1NMDZ1aGhSeXB3RGlnZk5vZDI2UUlKQ2IyZml3T2QyMFlHY0FEaFVYWG91NVRONEhDTnNhSklVeUc?oc=5",
+      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
+      "source": "kontan.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObTBLYlBab3BnM1pVQWFlSTBnVWxsMGtObUptZDZWQkg3b3JSNmUtYktqM29xbGc4MGZVOHY5dUJ0cEt6N1hCLWlHc1BONkwxc0g0aU1lTl9TUGRjWnlEaVpOTEtQUXZxQ0wxTGgyd09QRGN0SnBZNmRVM0w0ZF9ISWtsQ2lTV0ZPb3JUX3FPanhySmYwZ0M5LWlKT3FPeE42NHdCTWdn0gGeAUFVX3lxTE1EVDRTc3pNQzVkdjVCRmJxdWVRODdKZnpxM0ZScnFyQW5zVW5pVEE2b2Q3R2dXNVRPeWpPQ2ppLWlBQlJBM2M1V0tFaUk5Y3ZHc0dtMk5SQ1dYcmktNjJkc0VNY1FZeEJ4d1kzd3Z5Wmo5NXV3N0JZYkVTRGZCWF9kQkJJMklVUmdwT3lFR2drV1RTbERQSXprXzZkUEJn?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T16:42:35+07:00",
+      "publishedAt": "2026-11-08T06:23:32+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-07-1a701addf1",
-      "date": "2026-11-07",
+      "id": "2026-11-08-7fe51b3165",
+      "date": "2026-11-08",
       "topic": "Business / Investment",
       "title": "Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
       "summary": "Judul RSS Berita Cilegon: Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
@@ -194,250 +68,376 @@
       "confidence": 0.35,
       "impact": "Judul menyebut Pabrik. Yang perlu diverifikasi: nilai investasi, kapasitas produksi, dan jadwal operasi. Dampak belum dinilai dari artikel lengkap.",
       "source": "Berita Cilegon",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV2lEODhGaGhhTmlkblJUc0pQcUg2Qjd1MDZfWjd4ZEZKeTQzMlFPVGxRZ1daRldPMzRtWmI5STNxOXVHQmRoMU5NUHBOQkJwU1lrOHRsQ1NlZEZFdERlRnRDTG9VZkpxcFdIY3p6TEhGTHV6MmpIaDhmUEViZnVlX3JzMzJoRmhQUHl4dERjYzBUMVJWb3U4enBMVU9GcW5PdGNIbEE2dnp6YjZtaTlOSHI5M0tZZlVtQ2tzUGNVeEg2VkhhOUNqNTNjc0F3b1Nj?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOS2hod0RnZFlIZVNnUF9XdWNqVnhzeHJHbEhBU2ZqLTdQc3AtWFZ0RWdJWEZVNS1kM2NDQVRxTV9wVjlZRF96NUFBUjRqRFVFX3dpZDVVcHduUk40TlJVVl9MUjRyMGhyS0hNRHgwZ2RVVzB2UnpGY2NyMnNDTE9UdWs0bFM4RzQ3RDdLdWduMkh1Qk5zN3ZwU1hBOU1FTXJVMkFoNll5aHVUUXRaemNtNG1vZTh6MjllbVB6UmdKNlZHWWxDVGhoa3ZseVpzMkpS?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T05:04:40+07:00",
+      "publishedAt": "2026-11-08T06:58:16+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-e01c72cf1f",
-      "date": "2026-11-06",
+      "id": "2026-11-08-a8ee1af225",
+      "date": "2026-11-08",
       "topic": "Infrastructure",
-      "title": "Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi",
-      "summary": "Judul RSS Kompas.com: Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi",
+      "title": "Tol Trans Sumatra Tembus Bukittinggi-Sicincin, Ini Bocoran Rutenya",
+      "summary": "Judul RSS CNBC Indonesia: Tol Trans Sumatra Tembus Bukittinggi-Sicincin, Ini Bocoran Rutenya",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Kompas.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbHo5S3pqVTViWWk3c3ZiV1Fzd2VsVGlVU2tKZ0NqRWx0Ynh0UEVmd3k1ZUVrNXdrN2tFbTJaQThHNkFhY1phODhuTTJjWDEwTjNuQlFlcldrdFJ6bi1zWjNYbDJXT19oRFNoMHRfMW9GMW1FQW81ZDY5UURfYTVyTnhwXzRRWjhFaEF4VHpDalN0VEZiRUZNcWtGMEcxeVZsTXhmelJnOENmSjVHMXBCTnIybmdadw?oc=5",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb01QajNGUXBEeDRRWTdwbmZJcFVPSllFR0pkS05tZFpMbmlvaWc0aXNmcW4yRUdJM2xWVDZucGQ1SWlCaHVrMkxST3VoV2V2YlVVUElIM2JfWG5XNWFNRHlENXNsUE40NVdtTlRMZXJuU2ZwbDVpNWJRbXJyLWMzSG1jNDhZTndLU0xxSGt0ZlJ2WUFPX1Z6djhBS1A5ZlNURzc5azVvc1ZsRGdtODhpZ1doNU44eG9vbnFZTGNmNGRld9IBxwFBVV95cUxOTmExWkNJRzRfLWd3Q0pZUnMyUTNtZWs1a01iX0dfTlhscEc4WWNiS0l4dHVuWnJmOVd5a3RNRk12NFNEV1VJSmV5cEJfSTgySXUyN2NKbFQtbUJqNlZzb3FSMlJBTENVNW04dFhnMDFOLXBhdW9aem5nMlFrVVBkXzBOWjQtODV5Tmd6c2IteWpCQlRuc05qdzZhWWU2a3JxTTc4ZG5KQVNNQzFOY2JmcEFjeDMyLXcxOU1ST2RTd3VYZC0xUkdn?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T22:35:00+07:00",
+      "publishedAt": "2026-11-08T06:30:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-5bdd1e90ab",
-      "date": "2026-11-06",
+      "id": "2026-11-07-188593a939",
+      "date": "2026-11-07",
       "topic": "Regulation",
-      "title": "Dukung Pertumbuhan Ekonomi, Pemprov Banten Permudah Izin Usaha Waralaba",
-      "summary": "Judul RSS Pemerintah Provinsi Banten: Dukung Pertumbuhan Ekonomi, Pemprov Banten Permudah Izin Usaha Waralaba",
+      "title": "BI dorong pengembangan UMKM melalui Festival Salawaku 2026",
+      "summary": "Judul RSS Bisnis.com - Foto: BI dorong pengembangan UMKM melalui Festival Salawaku 2026",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Bisnis.com - Foto",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN2NtUFBBbnNMZktSSktBSHcxOEZkOEdHTUpua3BpR2ltRG1UbG94cGthSU1mVlAwa2NkSkttQ2NMck5GM1VvZzU4RWxHS3FaNkY1c2JuaWhMdno5b0hqOWtvYjVyLVRrdVVrREVOakNGcWNnSmd6MFpfSEdEZXBhMUNEZmJZb0F3eWU1YjdXSHIzQzVEcnk0bVU0LXhPRmljdFVKYTlsOA?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T21:00:06+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-e664bdd94c",
+      "date": "2026-11-07",
+      "topic": "Tech / AI",
+      "title": "Gina Hinojosa Janjikan Moratorium Data Center di Texas",
+      "summary": "Judul RSS Demokratis.co.id: Gina Hinojosa Janjikan Moratorium Data Center di Texas",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Demokratis.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsMkFEczgwRGZWU2dUYnZpamkteW1jSkdKRTFveGwzUTJYWU1QMllMSENiZWRYV3JvOWQtT3UtdkxIdGVTU0hzV2pfZndNU3MtV245MC1rd1JSTjFHMWdGdEstUlpraTVmNFo4R08yOA?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T16:23:16+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-08-748046fb8d",
+      "date": "2026-11-08",
+      "topic": "Automotive / EV",
+      "title": "Kemitraan Indonesia-Korea Selatan Dalam Industri Kendaraan Listrik",
+      "summary": "Judul RSS Kompasiana.com: Kemitraan Indonesia-Korea Selatan Dalam Industri Kendaraan Listrik",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Kendaraan Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Kompasiana.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOGJ6SVBKNlhZcUFPVHJBSmtaWG1SNUF0Vk1uaHlMcHlQU1VNUjB0Wkl2ZGh3WkYxdjlxQzh5TU1IbVo2YVEwaDBERW16WVZKWm1RQ2JGNUlqcDkxUHV3dnpwOW1Hd0xHYXpEekdZNF8tY2RGMzJjeVJxMlhZaGlLcUNXRE1GR3hYbGhIS3pPOEZDRG5ldjRBTEdGN08wZjFQWGl5RElUZVR4Z2VjY282b2VrMUFNd2tWa3BvZmZqSUJLMDVjNTlLRGd4emw?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-08T00:33:08+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-a7d3c80bfa",
+      "date": "2026-11-07",
+      "topic": "Markets",
+      "title": "Bukan Cuma MSCI, Ada Masalah Besar yang Mengancam Pasar Modal RI",
+      "summary": "Judul RSS Bloomberg Technoz: Bukan Cuma MSCI, Ada Masalah Besar yang Mengancam Pasar Modal RI",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Bloomberg Technoz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS0RyMXdWM3RuT09YeUMxaWM4US14eUtMazZFN1h4dlFyYmRYdHBHbHJnVDFPb3RyRGRRNl9RQ2wwVVM1S0x2YmZTNFUyTDdXdDdEdGF4ZDlicTU5cl8tNVM3MHA3Y2I4Nl9MUlk3TEthRXdzUVM5SXJadkdNaXBmT09LSGhtTkFiY0phUVAzanlPdkkyZmJuMTBhNE5UenRqWmhnNVVocEhCQ0NTSDNKTjdvdW4?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T17:48:15+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-08-4a6cf75564",
+      "date": "2026-11-08",
+      "topic": "Business / Investment",
+      "title": "Papua Selatan Catat Karhutla Terluas di Indonesia, Celios Ungkap Dampak Ekonomi Nasional",
+      "summary": "Judul RSS Suara Papua: Papua Selatan Catat Karhutla Terluas di Indonesia, Celios Ungkap Dampak Ekonomi Nasional",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Suara Papua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM0M0aDZjTHpxTGdLQUZtZmlJcVFrM1Y4R3BUOWVSV2FRM0ZuTTRfelJra3M0ellTSjhWWUNSTEFiU0NHSlNPWTRwSmtPLThzZTl0TDNmakR6blBtSW4taDNra3pzR2l4V2EwZDE3LURZMGNUX1V0NE1XTF9qZWwyVnEwaHZacXg1bE5aM3pVMVUzM2hyYkRuTWt0NkFhZ0loRlA1cHZVY1FmODJIXzdBdmpQeWpJbllKZzlULS00Zw?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-08T06:57:36+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-5f313973ae",
+      "date": "2026-11-07",
+      "topic": "Infrastructure",
+      "title": "Imigrasi Jaring 3 WNA China di Proyek Tol Semarang-Demak, Diduga Langgar Izin Tinggal",
+      "summary": "Judul RSS VOICE Indonesia: Imigrasi Jaring 3 WNA China di Proyek Tol Semarang-Demak, Diduga Langgar Izin Tinggal",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "VOICE Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObWNfcDVRRkZLb0FWNGR0TGlHbkdKUjVLcHJpaUZrRXpCSVdSaEQ2b2tQUzFWR2JiVWp6M3BXeUtIajRMSmxQNk81cGYxV2dTRkZCV0JJYzVtelpxNWdKYlFDMW14UzhvVmlyNkRDSXU3TlF3M2xmOUhMbk92TVJYcU54dHhzOW9zenR5N0lBdTBYbFhuZ0lIXzBnemVMekU4cDhYNG9GUE5tVFBoTnc?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T20:35:41+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-9c86e6b8ed",
+      "date": "2026-11-07",
+      "topic": "Regulation",
+      "title": "BI Catat Pembiayaan UMKM Aceh Tumbuh 11,05 Persen",
+      "summary": "Judul RSS Limapagi: BI Catat Pembiayaan UMKM Aceh Tumbuh 11,05 Persen",
       "sentiment": "Positive",
       "score": 0.25,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Pemerintah Provinsi Banten",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGZkdlpOWUdEbS1WR2hnQWN6bXFaRDE3ZmtWVzZTcTliRlhzSHl2MTFfdkpudjNIVjNTS3RPM1pJMU9jTC1xU05rZk81M3FJV0t0YzBGbDVUajNWMnI0ZllqajZPMEFPOVpoLWh4ejlJY2JIbm5BWTlGOUt4RWN0NVhsUC1FcUlHODBKbXpGSV9SNExMV2lDUGFYeVNHU2hCZTVtRA?oc=5",
+      "source": "Limapagi",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OU0xtMFd2VEEtN1FkOFBKTVJwWkN1QUxqeE1SWV9ZWW9ya0JMOWRBS0lrMi1pc3VKY3lfRGstbVdtZkZDV3pTWmpEWmJJZFFMMzF6cHhVRDBaaHFTbjl4aFVPcEtDb2ZySklqVkVvMi1KeW9ZajJHd2RWWHU?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T21:45:48+07:00",
+      "publishedAt": "2026-11-07T16:20:16+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-639f6d8e0c",
-      "date": "2026-11-06",
+      "id": "2026-11-07-f34b466dff",
+      "date": "2026-11-07",
       "topic": "Tech / AI",
-      "title": "Demokrat Kuasai Kongres — Regulasi AI Ancam Boom Data Center",
-      "summary": "Judul RSS https://feedberry.com/: Demokrat Kuasai Kongres — Regulasi AI Ancam Boom Data Center",
+      "title": "Transformasi digital dan elektrifikasi transportasi serta dukungan transisi energi hijau",
+      "summary": "Judul RSS ANTARA News Jateng: Transformasi digital dan elektrifikasi transportasi serta dukungan transisi energi hijau",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "ANTARA News Jateng",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTUxSOElhSWhwaXRDbUtocHVheUtBclEwaVp6RWlCSDFHUWo5YWE2VVRxSjAtZVRMUUNDNXFTTzI5T2NJd1d2T1gxcWt5NGVfSXFNQUsyZDRydjhVVXZxakFnVC1lYkdoZ25GYUctd2hkX2hTblVVTHB3Vld3a0dUdDFOb3NrX1l2NFdKYVNhMmZ1Nk51anFwUnRIYVI4ZlZyc3ZBWUZtZXdsamJ6Qlo3Mmt6YjNwb1VxVHd1UHRMQUwtTGYzUk9jX1JJZlc?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T14:54:47+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-97200860b8",
+      "date": "2026-11-07",
+      "topic": "Automotive / EV",
+      "title": "China Bisa Pusing, Mobil Listriknya Terancam Gara-gara Indonesia Kemarau Panjang",
+      "summary": "Judul RSS VIVA.co.id: China Bisa Pusing, Mobil Listriknya Terancam Gara-gara Indonesia Kemarau Panjang",
+      "sentiment": "Negative",
+      "score": -0.25,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "VIVA.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd1o0b0NVS2s5TXhjLUtqc19GNlU4a2kxQ0ZranV5Q2VMbU5tb0tpUHl6eGtXYldzMERlOGRCSkdNM1VfRVZrUzI3U1dPdmdsLWRDS0VjOUgxRUZGdGVpcnNfdmpNQktZclJJNlpQVkFYWW9weFF4YmNFWkdOT3YyYk1ub0Z1S1N5ZkZBU0hEcklnb1JfWnlDSDBDM1lzdGEwQ2gtS2FCY0JCSUFxYlB4SHEyaUpkOFU5NGk00gHAAUFVX3lxTE9IQzJDbExZdU1JMTAtbWVTZk1qV091Rnd2SW1YOFdyUF9KMF9vWXJZQ3I4UllvaEpCazZKS0J2TWFHdWw1dGFhZFZXLUtHUkpGMS1tSWZCcFROS19heDRhVVo4V3g1SE4yeWUzaDd5NFBtbWhPcnRHQTdPV1ZDRkdySmxieXJPd3FFNURyQ1h0ZTNaYkJMU2VTbFJzcjJuVFhlX2pWSTY1M1RJVll5UV9xUjZRdGJYUm1KUDU3M0E2MQ?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T23:20:03+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-bbfc125577",
+      "date": "2026-11-07",
+      "topic": "Markets",
+      "title": "”Penyiksaan” MSCI hingga November 2026 dan “Perjudian” Terakhir Pasar Modal Indonesia",
+      "summary": "Judul RSS Infobanknews: ”Penyiksaan” MSCI hingga November 2026 dan “Perjudian” Terakhir Pasar Modal Indonesia",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Infobanknews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZVpsQ3VpYTV2VFVXbG5oN3hWSngtZzFObVJNdlc4c09FMGJwNXpocFFUaVk3d0R5U2FNVTB0OEJ4ek0tel9ITkltSkZaMUtuN0oxZnh0VFNPemJMWDIzSlJBZE9Gc0UwNEhVVDhkVVNURElCdHR2Mkh0dnVvUjJpb09MX2x6NUk0Nk5GZHhoUExHZ0lRb2NKVUNwRXh6dmxlNF9FN1c0a0dXUQ?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T17:17:23+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-08-14743f7c0a",
+      "date": "2026-11-08",
+      "topic": "Business / Investment",
+      "title": "Menara Gading Ekonomi",
+      "summary": "Judul RSS KONTAN: Menara Gading Ekonomi",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "KONTAN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlYV9NeVdQNkpBRFRrS1VGdE9HeFFjMkg5Q2NjTTRnTWNSSm5zcWNTaW9XT1YxNWs1RFVwdGxnaEc2cGtjR0U0aEpRWTZpWHpKdnRuU2U1S1B0aVAzSkdqa0l0SWVEdw?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-08T06:10:11+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-8dac60f347",
+      "date": "2026-11-07",
+      "topic": "Infrastructure",
+      "title": "Jalan Panjang Indonesia Mengejar Bauran Energi Terbarukan hingga 72 Persen pada 2060",
+      "summary": "Judul RSS Kompas.id: Jalan Panjang Indonesia Mengejar Bauran Energi Terbarukan hingga 72 Persen pada 2060",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Kompas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUzJDdFAtYTRqOXJXX0h1akhRTnlvakV0RHBPemVUTGdaWVpFTlhBS0tOTWUzRTNxTWplTFZVLS11UUZMVmdPb2RXR1lnZi1reG4wNlF3ektXd3ZGeTZIU2Myc3J6Mlc4Vzd3VmtfTkdxbm5qZ1l3YlpvZVNhVHFkTE1OWGNhYmRqNi02cno2cldjY0lnb0daRXRBTTVxbWdNdF80WE1xV1VRMzBLZUVxV0x0Y0otWGpZcU5hSENkcmxGYW1wclJEOGZiLWlrUHZzZ3R1YQ?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T13:26:28+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-7329c30261",
+      "date": "2026-11-07",
+      "topic": "Regulation",
+      "title": "OJK Hitung Dana Pengembalian Investor DSSA BREN dan CUAN",
+      "summary": "Judul RSS Suara Independent News: OJK Hitung Dana Pengembalian Investor DSSA BREN dan CUAN",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut OJK. Yang perlu diverifikasi: dokumen resmi, tanggal berlaku, dan pihak yang terkena aturan. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Suara Independent News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE80YUZIdERqMTZoRWhSa3ZwejY2enRLb2w1VC1OWGtLNm9MM0d6bzQ5bFNqSXN6aDhaaUVSSHZMZlFURzAtNXJfYm83dC1kNVhYWWtPRjFlMnZFNUlCTk0yTTdJRTA2N1NKM0s5VUMxQVJNUlowc0c3ZVBQaGNyUQ?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-07T14:11:20+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-07-b4940f863e",
+      "date": "2026-11-07",
+      "topic": "Tech / AI",
+      "title": "Organisasi Lingkungan Pakai AI, Waspadai Beban Data Center",
+      "summary": "Judul RSS https://feedberry.com/: Organisasi Lingkungan Pakai AI, Waspadai Beban Data Center",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
       "source": "https://feedberry.com/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdlFzMDV3ZWJBV0V2cTNTLVRnZ3pDLVlwVl9qVHRaYkZvT1BHNXRldG1wRG01eFlOOVotRTl5ZWJLUV9hbVlacmFXaTVPcmhMYUpkeF9UVkZmbXRaT3R4VXVpcFNUandxSDBIYTRQQjQ3Ym5ZZEowZ2Y5d0tjbHVjR2F6OXhiclRkUVhrckthN1FKdw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZUdtb0h0SW82UXRBMmJ6MV9xNFdpM2JUaTBCU1Q2VlNhS1FUUVhiaG5wcERWX01kWF92a00tX2xfaHJuaUFLc1NWNjhZVGpQQ3REbHpnV0ZTbEQ2S3ltSE9LUkU4ZUdRVElKSnRLOF8tR2dJUThXMGUyYm1Bd2lRN2tTSnVTSy1XSTBXV1NZVU0?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T23:14:23+07:00",
+      "publishedAt": "2026-11-07T13:05:28+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-07-1a0d2ec398",
+      "id": "2026-11-07-e35124bd56",
       "date": "2026-11-07",
       "topic": "Automotive / EV",
-      "title": "Waspada, Ini Dampak Membeli Mobil Listrik Bekas Tanpa Cek Kondisi",
-      "summary": "Judul RSS JPNN.com: Waspada, Ini Dampak Membeli Mobil Listrik Bekas Tanpa Cek Kondisi",
-      "sentiment": "Neutral",
-      "score": 0.0,
+      "title": "Video: Tancap Gas Bisnis di RI, Produsen Mobil China Ekspansi Dealer",
+      "summary": "Judul RSS CNBC Indonesia: Video: Tancap Gas Bisnis di RI, Produsen Mobil China Ekspansi Dealer",
+      "sentiment": "Positive",
+      "score": 0.25,
       "confidence": 0.35,
-      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "JPNN.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOHQ4SVN5b2RMcnlHc3lkSHo3d3A1NU45MDBPSk9CYlk1U3hEX2JuT1pidlYzWjN3M3ViSG9OQnpGYUxxTFktVHBtTG80WmlKXzlOcG1udnZrN0VSbF9SYWZNUHlWTFVhd2tLRFpNOWRfWGVnU1JOV05MOGpzZlRrZ3NVVk5BVnE0bklLRE1qSnFXX2pU0gGXAUFVX3lxTE1vNk91eno5QlQ4OVpJMGxHUnIwS0VRd2Q0dURYLWo4YnBiMDdQdTd5SThuaXd2OGZSaTFQWFkwZExWNWhzQkRTNTZBVFJ3dVdEazVvMFdMWGRDYkx3RUJ1R1hHNGtQel9tbGZMcm01ajlRTkswRGhWUkVId0xaRlZ6TnhCbkdtMDdKWklqNFFtNzN4TkRJMXc?oc=5",
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdVVBOTBUWGhMY1J0a1g2S2ZJbGEtSUhNYWRwUHdzeTVCLW1UYk1YWEVYaFNqa0RrSWRyRjlBeWUxbFZpZ2tYYTEyNy1oQ1lnZEpmdjNpTjNVYlBJRndYa2JxSzhjYklKMUNyQlBfNHpZaHc0S0lMaWVOQ2x1UVN6ZGZuSi1Td1luczNSend6eEE4S1Juemp3SzFMTnlxU1JVWlhMMUVxOXBnaXFPVTFvQWZyT1M1UzA1UFNGSllXS0JVSUk?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T00:01:00+07:00",
+      "publishedAt": "2026-11-07T20:00:18+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-d48cf60102",
-      "date": "2026-11-06",
+      "id": "2026-11-07-53ebd342ad",
+      "date": "2026-11-07",
       "topic": "Markets",
-      "title": "IHSG Rebound 2,25%, Cek Strategi dan Saham Pilihan Hari Ini",
-      "summary": "Judul RSS Maybank Trade ID: IHSG Rebound 2,25%, Cek Strategi dan Saham Pilihan Hari Ini",
+      "title": "IHSG Kembali ke Atas 5.000, Investor Perlu Waspadai Peninjauan MSCI Pekan Depan",
+      "summary": "Judul RSS Kompas.com: IHSG Kembali ke Atas 5.000, Investor Perlu Waspadai Peninjauan MSCI Pekan Depan",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Maybank Trade ID",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3NpNnpLOEFYMG9HRGp0cHQ0S1phVEd1Zmx0WXRITHdoZ3RaVkRpYnI5YlBMN2hibnJrOGhzV096MHlCODJsSVlLSTlEc0tlaXVZZnI3V29LNGJ1eGgyTWxZdUhtUkFUTjFsVlFRWjIzOW9lNi1zVE5tRHFUUlZZbENpNV9tbFE5S0l6TGJ3VEZ6eE1CWE1rZXJoZw?oc=5",
+      "source": "Kompas.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQVk3TWhUaG5YVS1YQnlrcEVDVFJtWmZlZjN3Z3VoMGhnV1lXcFpTRjNsU0RPSjJ1aXFtbkgwTTR4VWtfN3FNMXgzemlpQ09vQ0FXbGtCYnNQcmhXX3ZVSExpaDVxZGNibTVPdEZwb0htaEFLQTNob3o2clNja0JxWHRGX01GeHRqVW51cTRzeE9pOUZMNDl3RmVFVlRuZWF2UW5Hbi1oNkEtcWJFOVFaaWNua29pU0hxSjV6RERvNmxLS2xwRW9LNg?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T16:15:00+07:00",
+      "publishedAt": "2026-11-07T17:06:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-07-c9c1fab055",
-      "date": "2026-11-07",
+      "id": "2026-11-08-045e1126af",
+      "date": "2026-11-08",
       "topic": "Business / Investment",
-      "title": "Indonesia pastikan prosedur ekspor SDA strategis tidak berubah",
-      "summary": "Judul RSS IDNFinancials: Indonesia pastikan prosedur ekspor SDA strategis tidak berubah",
+      "title": "Investor Pasar Modal Indonesia Tembus 32,7 Juta SID, Literasi Investasi Terus Diperkuat",
+      "summary": "Judul RSS jatengpos.co.id: Investor Pasar Modal Indonesia Tembus 32,7 Juta SID, Literasi Investasi Terus Diperkuat",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "IDNFinancials",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRmlOVWdQb0hEc0k3UDR5c2hROUJmaVVoTy1LWkczSlBQWWtuRTM0WEtDb01ReUdpdEF1Y3VsdWRrSmloRmRlLWN0bmtIT25VaHZ3RGdUbFFMY25PdnhQYjdiZ1F4ZlJhT1RwQWJUVWdVUTEtRVVpU2FZX1Z2WVhqRy00Z3d1TGh3RU1iZmlEQ1p1SjFlTzZUaElRZmFGd1N3X3V2U0N3czJkQQ?oc=5",
+      "source": "jatengpos.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWhtaGdReDc5eXF3UWp4dUZ3NGdUcXIwVnlId2NIMTFoOEl0UmVueUZQRWZaQ1pUaGhBTUZnVlVZUnV1WVNic09aWm5kcHVCcFJLSWFkWXVTU05Dd3J5Sm1ZcWljc0ZPMGZ0WDdBSnZMSU9FX25qcndLcUdHel9EdkZtbFFOM0tzeFBUbWFkaWhEM25Qc2N4Y1B3ckNsLU9ZS29zcGV4aTJzOTlUSVhZWHRQMS1zblNnTmlRczZTOGpDZDZzZHprSg?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-07T05:00:00+07:00",
+      "publishedAt": "2026-11-08T06:09:44+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-4798cdc063",
-      "date": "2026-11-06",
+      "id": "2026-11-07-3c084b5cac",
+      "date": "2026-11-07",
       "topic": "Infrastructure",
-      "title": "Jasa Marga Kantongi Laba Rp2,7 Triliun hingga Kuartal III 2026, Ini Pendorong Utamanya",
-      "summary": "Judul RSS Info Ekonomi: Jasa Marga Kantongi Laba Rp2,7 Triliun hingga Kuartal III 2026, Ini Pendorong Utamanya",
+      "title": "Jasa Marga Gandeng BPS, Data Jalan Tol Bakal Jadi Senjata Baru Baca Ekonomi RI - karawangbekasi.disway.id",
+      "summary": "Judul RSS karawang bekasi disway: Jasa Marga Gandeng BPS, Data Jalan Tol Bakal Jadi Senjata Baru Baca Ekonomi RI - karawangbekasi.disway.id",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Info Ekonomi",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFQwLWhIVld0THAxaUE5OXQ5S0dUYTJHenFNajJKWFJxVl9nWHNBSVpkWW1ZaHVzdHV5Y2tIZnAtLVVlX2xjVmV0eGFtdTdtVTUwTE5LNnd0NGNPei1LZ210dnJfX0xLYlRZX1E0SnRVZkRaUHZRRDdRV05JTzlNaG9QU2dwbUpObHRiRWJnSmkxOGpRWjdGdUppYUV6OGhERXlXWEJ2LVB2bHpGTTJKMkQwY1RCWUU?oc=5",
+      "source": "karawang bekasi disway",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdFBGZTkxODRCRDBQdnhVcEJOVXJPQ0daS2ZDV0piZzN4eXhHMWpQRkhpM0V1YnNYVVJFaVVmZW9CamRWSFpvZ3dYWW1NM0NtSmlsbEduZmdSY0U3TTJIVkZYdFFsdFU3RXlvN2Vxc3hHZGtGZ3MzTEdiZkJnZGF4ZWlESE14LURDV1JmTDRfcXdIQVBiWjhuVk0tTXlzRzBubmhIZi1aQUpVS2JUYzhPTXpiSWVNUnJfT0Yyd2xIQjR0OEs5djNkcWtR0gG8AUFVX3lxTFA1M2d3TGJSMlBoaUE4R2VVX1h1T0lwNVNJLWFMQnR5dng4MzM3bjMyV3pFSm1Id3hLTWFveXNuRDNUTVFVd1VIYkVBelZJQVhQOHNWM2hSSWRwTXZvbHdqYmhzZXNwWjVnYnAzY0NEYUJ2R1dwQVZFNTd3dzVJVTdtdFc0cHpSOUJ6UzAyN29uRUZYQ0hmX0hlZm1jcm92bHFINmVUTXRfMHhQeUVKY1pLb2UwODB0LUZkTC1p?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T15:25:22+07:00",
+      "publishedAt": "2026-11-07T11:11:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-06-28dbac9cc0",
+      "id": "2026-11-06-46aafb0d80",
       "date": "2026-11-06",
       "topic": "Regulation",
-      "title": "Kejagung Ungkap Dugaan Permainan Izin Usaha Pertambangan, Eks Karyawan Glencore Kendalikan Enam Perusahaan Nikel",
-      "summary": "Judul RSS OWRITE: Kejagung Ungkap Dugaan Permainan Izin Usaha Pertambangan, Eks Karyawan Glencore Kendalikan Enam Perusahaan Nikel",
-      "sentiment": "Neutral",
-      "score": 0.0,
+      "title": "BI jadikan Festival Salawaku wadah pengembangan UMKM Malut dan dorong pertumbuhan ekonomi",
+      "summary": "Judul RSS ANTARA News: BI jadikan Festival Salawaku wadah pengembangan UMKM Malut dan dorong pertumbuhan ekonomi",
+      "sentiment": "Positive",
+      "score": 0.25,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "OWRITE",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPelpSOHpMSXFwU3pQQWlWc0pVS3ltZmdGUmJNMlBlZUdOVkl4bGFKajA5djVFblhkcUdrWHZRYVVFYUtZSDNlSzJpR2VSRXNzUG9MQzNwb2ZFVmdscFZJVDQ5LVFpYmt5VlQ1R01yeUIzQ2ItOXNlb05acTZEWjA1eklOVUliZEhHZGJqWW1zYUk2amNsM1Z4Uld5b3pLM2pvNnZjU3ZvUUxmeHJOZlYxQVIzUVdOb0hZUUl1M3JDVWFQRGM1bW91RG5pNzVZamc?oc=5",
+      "source": "ANTARA News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcTVZMU01ekd0WWhsQWQ2WmQ2dkZfM0VjZ1pCZlVCb0FNTkRDNG4yVlk0S1JiN01GV0w2TnB5eFVHVFh5S2pJNE43Z0JxdDh6ZG5PYTJWb01OTXhobDRJTW5DUDM4VlZPdklFeUVPTkxIWUF4dDNweTJQMW9BMHYyeXg1WDhhSFMzYm4yQ1I3QmZabkt0V1luZGdNZFJxQ3hXdjQyRk1xbjZqSmpzdmhralBJa1VYRm5lOGR2OFBPY2R2Ujk0bHExeUgxRjHSAdIBQVVfeXFMUHhjSndpUjllYnVRV24zUEkzSjE2WjlPU05JOURWdmtUajlnek1aZER4Y3lYNGFUOE5ZSjlkcXplcE03UmtOa1N2cG9vUkh2MktOZm9UM2tNdTkydzVYbEFhQWo2LVBhVExHcjBQUTV0S0pKSGFjX2llYXFyUW4xSTZ6c2o4dUNkejlENmRsd0piZVJ2REgwSnNnSHBvY0dhWDJDX3FMMldhMEhFeVp5YWkyaFlCd2kyNDVjT19oT0RTVGNrMjkyTDFySWt3YkpCMkFR?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T20:27:22+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-dbefab8eea",
-      "date": "2026-11-06",
-      "topic": "Tech / AI",
-      "title": "Investasi AI, Ekonomi AS, dan Risiko Data Center",
-      "summary": "Judul RSS XTB.com: Investasi AI, Ekonomi AS, dan Risiko Data Center",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
-      "source": "XTB.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTzdQRjBIX09FSTM5STFYOW9DWm9qRXR6aXlHM1F3dlk5UUJKbVNfUkdIbk9tS2pveDhGTElIcmhuUnYzYVRDYUxMdVlibEJIY1FydUdWNTF1TlBkNUJhb3dySHVGdXdDVDJtZ0lQZ3RhTFhwaG5vSW1aM1VqbDJ2Q1NKTng1RlVmb28teUZGYUdRX2JzbGI0VXViV3VGby16clhzdjNIT3lFSkQ5enRBdUVIaTlETHZwVVZiNw?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T19:36:03+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-fbeed45499",
-      "date": "2026-11-06",
-      "topic": "Automotive / EV",
-      "title": "PLN gandeng kalangan kampus songsong era mobil listrik",
-      "summary": "Judul RSS Antara News jatim: PLN gandeng kalangan kampus songsong era mobil listrik",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut mobil listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Antara News jatim",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUkk4eV83ck8yeE5seG9uZDBEUjJxSXNwU3JnOFhkbXQtUUlaNXEydklTTzRNMmNCOUlYUjdud1RYV1dvbUtSbEMtRDZOX1lVMWdoQmpDU3dsNDVzbGU4SU5qSl9uOW9VcUpRamhCRUF0YUh3c1lUdURNWWo5c3NSdVRlZHRPbUV6MnYyb1pfUTBnTHFxNV95WUt2Qm5wa3fSAaQBQVVfeXFMTkZKNm5scExGY2l5N1hab1ZoOXExU1Bfd1JlS2FHdWMxMm41LTNaLUZ0VHRVc1VZZWIxSlJmeE9kRHc0QW05RktNZUluUmZxMWVMT2RBZG04Ym5TUGJOUWpQTEVjLUoycWhHOEpqR1F3YXlaSGdfbHNGR241S2NYLUs5emgwamJXWGlBdGdFQ01fSmVBZnJsNEkxeW5rLUlta1gtZjM?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T23:33:49+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-ee54024e48",
-      "date": "2026-11-06",
-      "topic": "Markets",
-      "title": "Update Jelang MSCI November: Net Sell Asing Tekan IHSG, Lolos Standalone Market?",
-      "summary": "Judul RSS Ajaib: Update Jelang MSCI November: Net Sell Asing Tekan IHSG, Lolos Standalone Market?",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Ajaib",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMnlIX2ViUmVkMHd0bmQ0TmFvcUxfdFR6VkJOZGdwanFaY1prRjV0X2FfVUZGQ2NQUFhLUXlBRFNfdzRGLXZxdG96S3pEWnlhb29WNWhIcHRfcXQzWWE1QWFRdDAxeEQ5aUtJMl9TeFdMX3BLMkhFVUxWRl9iRFhtWVY0Yl9LWHBBWXEtQUxUUld1RUF6NGxLLWpueEs3RnlNS0FiYm5xOXhKd2ltYl8xWERR?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T15:50:54+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-c37d348165",
-      "date": "2026-11-06",
-      "topic": "Business / Investment",
-      "title": "Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
-      "summary": "Judul RSS - Kementerian Koordinator Bidang Perekonomian Republik Indonesia: Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "- Kementerian Koordinator Bidang Perekonomian Republik Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNURZV20tQXVWUUVLMmdmODVla0R5Vm9EVDk4Nk5ocnhOSjBWWUlueXU0TmZ3c3NDWU82VTRWbWdBZmtWdV92ZnpBenZTemFjaXAtcXZvYVBzTFYxWVFFT19LdWxPT2x6c0gzNllibkpRV01SbUhlM0RBbVczUXA5c0V6YWstUElTeF9TT1ppTVZCQTZsQzhrOWNtZkhQQ1VoeS13Sm1NQzBOMVFiUTdJVFVDWmpNc1Q2UzV5Ykl0a0pkRndIUXg1RGZBV3RWbHpYWlh0cExfVGF1TXlOY1JOTDdXd21PNXBYcEE0NVFCVHNaWTdDREtwWjYwMUlJSFhiNUlQT2tnR2tzM1hY?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T20:42:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-06-798dc4b3d5",
-      "date": "2026-11-06",
-      "topic": "Infrastructure",
-      "title": "Ketegangan Singapura-Indonesia jadi Ujian Transisi Energi ASEAN",
-      "summary": "Judul RSS Transisi energi berkeadilan: Ketegangan Singapura-Indonesia jadi Ujian Transisi Energi ASEAN",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Transisi energi berkeadilan",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQWRsWkJ3aTNUUjYyWFNBV0hwTjNzNGM1RG50dFFNWU1PT0lmbng1cm1XS2xHVUo1VkZEQkxpTWF6dEtnT2VCd09XdE1DNlBRdG4tN00td2U4YzlYMG5FMHlXTHFSUlU4WWtoa2diT0k2NHJuUHhOSUdDUGlEV3ZTT3c0MDlFVFFRd2JnT3VneWpvQWJKV0stWkZGM0k2a0FDdzlkanROS2JjZU1saDFkX081QTFNN0dJRkJlU19famVPQUN6?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-06T14:45:15+07:00",
+      "publishedAt": "2026-11-06T22:55:36+07:00",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-11-07T07:00:36+07:00",
+    "generatedAt": "2026-11-08T07:00:36+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice. CNY: 1/252 daily observations; excluded from FX ranking",
     "dataWarnings": [
       "CNY: 1/252 daily observations; excluded from FX ranking"
@@ -449,298 +449,298 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 17479.1992,
-        "date": "2026-11-06",
-        "return1m": -2.23,
-        "return3m": -2.42,
-        "return6m": 1.05,
-        "return1y": 5.11,
-        "volatility": 8.96,
+        "last": 18103.0,
+        "date": "2026-11-07",
+        "return1m": 1.66,
+        "return3m": 1.74,
+        "return6m": 4.67,
+        "return1y": 8.86,
+        "volatility": 10.15,
         "maxDrawdown": -3.95,
         "sparkline": [
           {
-            "date": "2026-04-26",
-            "value": 17246.0
+            "date": "2026-04-27",
+            "value": 17216.0
           },
           {
-            "date": "2026-04-28",
-            "value": 17244.0
+            "date": "2026-04-29",
+            "value": 17334.1992
           },
           {
-            "date": "2026-04-30",
-            "value": 17311.0
+            "date": "2026-05-03",
+            "value": 17288.5
           },
           {
-            "date": "2026-05-04",
-            "value": 17346.1992
+            "date": "2026-05-05",
+            "value": 17389.8008
           },
           {
-            "date": "2026-05-06",
-            "value": 17296.9004
+            "date": "2026-05-07",
+            "value": 17294.9004
           },
           {
-            "date": "2026-05-10",
-            "value": 17358.0
+            "date": "2026-05-11",
+            "value": 17413.0
           },
           {
-            "date": "2026-05-12",
-            "value": 17549.0
+            "date": "2026-05-13",
+            "value": 17500.0
           },
           {
-            "date": "2026-05-14",
-            "value": 17530.5996
+            "date": "2026-05-17",
+            "value": 17586.0
           },
           {
-            "date": "2026-05-18",
-            "value": 17701.0
+            "date": "2026-05-19",
+            "value": 17777.0
           },
           {
-            "date": "2026-05-20",
-            "value": 17658.4004
-          },
-          {
-            "date": "2026-05-24",
+            "date": "2026-05-21",
             "value": 17692.0
           },
           {
-            "date": "2026-05-26",
-            "value": 17699.6992
+            "date": "2026-05-25",
+            "value": 17762.0
           },
           {
-            "date": "2026-05-28",
-            "value": 17840.0
+            "date": "2026-05-27",
+            "value": 17804.0
           },
           {
-            "date": "2026-06-01",
-            "value": 17864.0
+            "date": "2026-05-31",
+            "value": 17817.0
           },
           {
-            "date": "2026-06-03",
-            "value": 18004.1992
+            "date": "2026-06-02",
+            "value": 17858.0
           },
           {
-            "date": "2026-06-07",
-            "value": 18029.0
+            "date": "2026-06-04",
+            "value": 17955.5
           },
           {
-            "date": "2026-06-09",
-            "value": 18031.0
+            "date": "2026-06-08",
+            "value": 18190.3008
           },
           {
-            "date": "2026-06-11",
-            "value": 17921.0
+            "date": "2026-06-10",
+            "value": 17875.9004
           },
           {
-            "date": "2026-06-15",
-            "value": 17716.0
+            "date": "2026-06-14",
+            "value": 17772.0
           },
           {
-            "date": "2026-06-17",
-            "value": 17891.0
+            "date": "2026-06-16",
+            "value": 17730.0
           },
           {
-            "date": "2026-06-21",
-            "value": 17788.0
+            "date": "2026-06-18",
+            "value": 17794.4004
           },
           {
-            "date": "2026-06-23",
-            "value": 17916.0
+            "date": "2026-06-22",
+            "value": 17862.0
           },
           {
-            "date": "2026-06-25",
-            "value": 17995.0
+            "date": "2026-06-24",
+            "value": 17990.0
           },
           {
-            "date": "2026-06-29",
-            "value": 17925.0
-          },
-          {
-            "date": "2026-07-01",
-            "value": 17998.0
-          },
-          {
-            "date": "2026-07-05",
-            "value": 17998.0
-          },
-          {
-            "date": "2026-07-07",
-            "value": 17979.0
-          },
-          {
-            "date": "2026-07-09",
-            "value": 18125.0
-          },
-          {
-            "date": "2026-07-13",
-            "value": 18111.0
-          },
-          {
-            "date": "2026-07-15",
-            "value": 18068.8008
-          },
-          {
-            "date": "2026-07-19",
-            "value": 17934.0
-          },
-          {
-            "date": "2026-07-21",
-            "value": 17911.0
-          },
-          {
-            "date": "2026-07-23",
-            "value": 17967.0
-          },
-          {
-            "date": "2026-07-27",
-            "value": 18053.0
-          },
-          {
-            "date": "2026-07-29",
-            "value": 18079.0
-          },
-          {
-            "date": "2026-08-02",
-            "value": 18030.0
-          },
-          {
-            "date": "2026-08-04",
-            "value": 17963.0
-          },
-          {
-            "date": "2026-08-06",
-            "value": 17912.0
-          },
-          {
-            "date": "2026-08-10",
-            "value": 17791.0
-          },
-          {
-            "date": "2026-08-12",
-            "value": 17853.0
-          },
-          {
-            "date": "2026-08-16",
+            "date": "2026-06-28",
             "value": 17830.0
           },
           {
-            "date": "2026-08-18",
-            "value": 17768.5
+            "date": "2026-06-30",
+            "value": 17935.0
           },
           {
-            "date": "2026-08-20",
-            "value": 17755.0
+            "date": "2026-07-02",
+            "value": 17787.9004
           },
           {
-            "date": "2026-08-24",
-            "value": 17714.5996
+            "date": "2026-07-06",
+            "value": 18046.0
           },
           {
-            "date": "2026-08-26",
-            "value": 17778.0
+            "date": "2026-07-08",
+            "value": 18125.0
           },
           {
-            "date": "2026-08-30",
+            "date": "2026-07-12",
+            "value": 18065.0
+          },
+          {
+            "date": "2026-07-14",
+            "value": 18157.0
+          },
+          {
+            "date": "2026-07-16",
+            "value": 17985.0
+          },
+          {
+            "date": "2026-07-20",
+            "value": 17931.0
+          },
+          {
+            "date": "2026-07-22",
+            "value": 17917.0
+          },
+          {
+            "date": "2026-07-26",
+            "value": 17958.0
+          },
+          {
+            "date": "2026-07-28",
+            "value": 18053.0
+          },
+          {
+            "date": "2026-07-30",
+            "value": 18040.0996
+          },
+          {
+            "date": "2026-08-03",
+            "value": 17963.3008
+          },
+          {
+            "date": "2026-08-05",
+            "value": 17873.0
+          },
+          {
+            "date": "2026-08-09",
+            "value": 17794.0
+          },
+          {
+            "date": "2026-08-11",
+            "value": 17822.0
+          },
+          {
+            "date": "2026-08-13",
+            "value": 17863.0
+          },
+          {
+            "date": "2026-08-17",
+            "value": 17824.0
+          },
+          {
+            "date": "2026-08-19",
+            "value": 17807.0
+          },
+          {
+            "date": "2026-08-23",
+            "value": 17655.0
+          },
+          {
+            "date": "2026-08-25",
+            "value": 17695.0
+          },
+          {
+            "date": "2026-08-27",
             "value": 17749.0
           },
           {
-            "date": "2026-09-01",
-            "value": 17697.1992
+            "date": "2026-08-31",
+            "value": 17689.9004
           },
           {
-            "date": "2026-09-03",
-            "value": 17618.0996
+            "date": "2026-09-02",
+            "value": 17723.0
           },
           {
-            "date": "2026-09-07",
-            "value": 17664.0
+            "date": "2026-09-06",
+            "value": 17638.0
           },
           {
-            "date": "2026-09-09",
-            "value": 17501.0
+            "date": "2026-09-08",
+            "value": 17588.0
           },
           {
-            "date": "2026-09-13",
-            "value": 17630.0
+            "date": "2026-09-10",
+            "value": 17588.0996
           },
           {
-            "date": "2026-09-15",
-            "value": 17665.0
+            "date": "2026-09-14",
+            "value": 17636.0
           },
           {
-            "date": "2026-09-17",
-            "value": 17757.0
+            "date": "2026-09-16",
+            "value": 17718.0
           },
           {
-            "date": "2026-09-21",
-            "value": 17846.0
+            "date": "2026-09-20",
+            "value": 17806.0
           },
           {
-            "date": "2026-09-23",
-            "value": 17837.3008
+            "date": "2026-09-22",
+            "value": 17805.0
           },
           {
-            "date": "2026-09-27",
-            "value": 17950.0
+            "date": "2026-09-24",
+            "value": 17559.5
           },
           {
-            "date": "2026-09-29",
-            "value": 17736.4004
+            "date": "2026-09-28",
+            "value": 17980.3008
           },
           {
-            "date": "2026-10-01",
-            "value": 17922.8008
+            "date": "2026-09-30",
+            "value": 17884.8008
           },
           {
-            "date": "2026-10-05",
-            "value": 17887.9004
+            "date": "2026-10-04",
+            "value": 17909.0
           },
           {
-            "date": "2026-10-07",
-            "value": 17877.5
+            "date": "2026-10-06",
+            "value": 17829.0
           },
           {
-            "date": "2026-10-11",
-            "value": 17910.0
+            "date": "2026-10-08",
+            "value": 17807.5
           },
           {
-            "date": "2026-10-13",
-            "value": 17866.5
+            "date": "2026-10-12",
+            "value": 17913.0
           },
           {
-            "date": "2026-10-15",
-            "value": 18020.0996
+            "date": "2026-10-14",
+            "value": 17823.6992
           },
           {
-            "date": "2026-10-19",
-            "value": 18041.0
+            "date": "2026-10-18",
+            "value": 18056.0
           },
           {
-            "date": "2026-10-21",
-            "value": 18008.0
+            "date": "2026-10-20",
+            "value": 17985.4004
           },
           {
-            "date": "2026-10-26",
-            "value": 18081.0
+            "date": "2026-10-22",
+            "value": 18053.0
           },
           {
-            "date": "2026-10-28",
-            "value": 18139.5
+            "date": "2026-10-27",
+            "value": 18144.0
           },
           {
-            "date": "2026-10-30",
-            "value": 18070.4004
+            "date": "2026-10-29",
+            "value": 18065.4004
           },
           {
-            "date": "2026-11-03",
-            "value": 17472.1992
+            "date": "2026-11-02",
+            "value": 18113.9004
           },
           {
-            "date": "2026-11-05",
-            "value": 17509.1992
+            "date": "2026-11-04",
+            "value": 17536.0996
+          },
+          {
+            "date": "2026-11-06",
+            "value": 17479.1992
           }
         ],
-        "profitScore": -1.53,
-        "view": "defensive/watchlist screen"
+        "profitScore": 2.23,
+        "view": "strongest IDR return screen"
       },
       {
         "symbol": "SGDIDR=X",
@@ -1940,298 +1940,298 @@
       "label": "US Dollar",
       "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
       "pair": "USD",
-      "last": 17479.1992,
-      "date": "2026-11-06",
-      "return1m": -2.23,
-      "return3m": -2.42,
-      "return6m": 1.05,
-      "return1y": 5.11,
-      "volatility": 8.96,
+      "last": 18103.0,
+      "date": "2026-11-07",
+      "return1m": 1.66,
+      "return3m": 1.74,
+      "return6m": 4.67,
+      "return1y": 8.86,
+      "volatility": 10.15,
       "maxDrawdown": -3.95,
       "sparkline": [
         {
-          "date": "2026-04-26",
-          "value": 17246.0
+          "date": "2026-04-27",
+          "value": 17216.0
         },
         {
-          "date": "2026-04-28",
-          "value": 17244.0
+          "date": "2026-04-29",
+          "value": 17334.1992
         },
         {
-          "date": "2026-04-30",
-          "value": 17311.0
+          "date": "2026-05-03",
+          "value": 17288.5
         },
         {
-          "date": "2026-05-04",
-          "value": 17346.1992
+          "date": "2026-05-05",
+          "value": 17389.8008
         },
         {
-          "date": "2026-05-06",
-          "value": 17296.9004
+          "date": "2026-05-07",
+          "value": 17294.9004
         },
         {
-          "date": "2026-05-10",
-          "value": 17358.0
+          "date": "2026-05-11",
+          "value": 17413.0
         },
         {
-          "date": "2026-05-12",
-          "value": 17549.0
+          "date": "2026-05-13",
+          "value": 17500.0
         },
         {
-          "date": "2026-05-14",
-          "value": 17530.5996
+          "date": "2026-05-17",
+          "value": 17586.0
         },
         {
-          "date": "2026-05-18",
-          "value": 17701.0
+          "date": "2026-05-19",
+          "value": 17777.0
         },
         {
-          "date": "2026-05-20",
-          "value": 17658.4004
-        },
-        {
-          "date": "2026-05-24",
+          "date": "2026-05-21",
           "value": 17692.0
         },
         {
-          "date": "2026-05-26",
-          "value": 17699.6992
+          "date": "2026-05-25",
+          "value": 17762.0
         },
         {
-          "date": "2026-05-28",
-          "value": 17840.0
+          "date": "2026-05-27",
+          "value": 17804.0
         },
         {
-          "date": "2026-06-01",
-          "value": 17864.0
+          "date": "2026-05-31",
+          "value": 17817.0
         },
         {
-          "date": "2026-06-03",
-          "value": 18004.1992
+          "date": "2026-06-02",
+          "value": 17858.0
         },
         {
-          "date": "2026-06-07",
-          "value": 18029.0
+          "date": "2026-06-04",
+          "value": 17955.5
         },
         {
-          "date": "2026-06-09",
-          "value": 18031.0
+          "date": "2026-06-08",
+          "value": 18190.3008
         },
         {
-          "date": "2026-06-11",
-          "value": 17921.0
+          "date": "2026-06-10",
+          "value": 17875.9004
         },
         {
-          "date": "2026-06-15",
-          "value": 17716.0
+          "date": "2026-06-14",
+          "value": 17772.0
         },
         {
-          "date": "2026-06-17",
-          "value": 17891.0
+          "date": "2026-06-16",
+          "value": 17730.0
         },
         {
-          "date": "2026-06-21",
-          "value": 17788.0
+          "date": "2026-06-18",
+          "value": 17794.4004
         },
         {
-          "date": "2026-06-23",
-          "value": 17916.0
+          "date": "2026-06-22",
+          "value": 17862.0
         },
         {
-          "date": "2026-06-25",
-          "value": 17995.0
+          "date": "2026-06-24",
+          "value": 17990.0
         },
         {
-          "date": "2026-06-29",
-          "value": 17925.0
-        },
-        {
-          "date": "2026-07-01",
-          "value": 17998.0
-        },
-        {
-          "date": "2026-07-05",
-          "value": 17998.0
-        },
-        {
-          "date": "2026-07-07",
-          "value": 17979.0
-        },
-        {
-          "date": "2026-07-09",
-          "value": 18125.0
-        },
-        {
-          "date": "2026-07-13",
-          "value": 18111.0
-        },
-        {
-          "date": "2026-07-15",
-          "value": 18068.8008
-        },
-        {
-          "date": "2026-07-19",
-          "value": 17934.0
-        },
-        {
-          "date": "2026-07-21",
-          "value": 17911.0
-        },
-        {
-          "date": "2026-07-23",
-          "value": 17967.0
-        },
-        {
-          "date": "2026-07-27",
-          "value": 18053.0
-        },
-        {
-          "date": "2026-07-29",
-          "value": 18079.0
-        },
-        {
-          "date": "2026-08-02",
-          "value": 18030.0
-        },
-        {
-          "date": "2026-08-04",
-          "value": 17963.0
-        },
-        {
-          "date": "2026-08-06",
-          "value": 17912.0
-        },
-        {
-          "date": "2026-08-10",
-          "value": 17791.0
-        },
-        {
-          "date": "2026-08-12",
-          "value": 17853.0
-        },
-        {
-          "date": "2026-08-16",
+          "date": "2026-06-28",
           "value": 17830.0
         },
         {
-          "date": "2026-08-18",
-          "value": 17768.5
+          "date": "2026-06-30",
+          "value": 17935.0
         },
         {
-          "date": "2026-08-20",
-          "value": 17755.0
+          "date": "2026-07-02",
+          "value": 17787.9004
         },
         {
-          "date": "2026-08-24",
-          "value": 17714.5996
+          "date": "2026-07-06",
+          "value": 18046.0
         },
         {
-          "date": "2026-08-26",
-          "value": 17778.0
+          "date": "2026-07-08",
+          "value": 18125.0
         },
         {
-          "date": "2026-08-30",
+          "date": "2026-07-12",
+          "value": 18065.0
+        },
+        {
+          "date": "2026-07-14",
+          "value": 18157.0
+        },
+        {
+          "date": "2026-07-16",
+          "value": 17985.0
+        },
+        {
+          "date": "2026-07-20",
+          "value": 17931.0
+        },
+        {
+          "date": "2026-07-22",
+          "value": 17917.0
+        },
+        {
+          "date": "2026-07-26",
+          "value": 17958.0
+        },
+        {
+          "date": "2026-07-28",
+          "value": 18053.0
+        },
+        {
+          "date": "2026-07-30",
+          "value": 18040.0996
+        },
+        {
+          "date": "2026-08-03",
+          "value": 17963.3008
+        },
+        {
+          "date": "2026-08-05",
+          "value": 17873.0
+        },
+        {
+          "date": "2026-08-09",
+          "value": 17794.0
+        },
+        {
+          "date": "2026-08-11",
+          "value": 17822.0
+        },
+        {
+          "date": "2026-08-13",
+          "value": 17863.0
+        },
+        {
+          "date": "2026-08-17",
+          "value": 17824.0
+        },
+        {
+          "date": "2026-08-19",
+          "value": 17807.0
+        },
+        {
+          "date": "2026-08-23",
+          "value": 17655.0
+        },
+        {
+          "date": "2026-08-25",
+          "value": 17695.0
+        },
+        {
+          "date": "2026-08-27",
           "value": 17749.0
         },
         {
-          "date": "2026-09-01",
-          "value": 17697.1992
+          "date": "2026-08-31",
+          "value": 17689.9004
         },
         {
-          "date": "2026-09-03",
-          "value": 17618.0996
+          "date": "2026-09-02",
+          "value": 17723.0
         },
         {
-          "date": "2026-09-07",
-          "value": 17664.0
+          "date": "2026-09-06",
+          "value": 17638.0
         },
         {
-          "date": "2026-09-09",
-          "value": 17501.0
+          "date": "2026-09-08",
+          "value": 17588.0
         },
         {
-          "date": "2026-09-13",
-          "value": 17630.0
+          "date": "2026-09-10",
+          "value": 17588.0996
         },
         {
-          "date": "2026-09-15",
-          "value": 17665.0
+          "date": "2026-09-14",
+          "value": 17636.0
         },
         {
-          "date": "2026-09-17",
-          "value": 17757.0
+          "date": "2026-09-16",
+          "value": 17718.0
         },
         {
-          "date": "2026-09-21",
-          "value": 17846.0
+          "date": "2026-09-20",
+          "value": 17806.0
         },
         {
-          "date": "2026-09-23",
-          "value": 17837.3008
+          "date": "2026-09-22",
+          "value": 17805.0
         },
         {
-          "date": "2026-09-27",
-          "value": 17950.0
+          "date": "2026-09-24",
+          "value": 17559.5
         },
         {
-          "date": "2026-09-29",
-          "value": 17736.4004
+          "date": "2026-09-28",
+          "value": 17980.3008
         },
         {
-          "date": "2026-10-01",
-          "value": 17922.8008
+          "date": "2026-09-30",
+          "value": 17884.8008
         },
         {
-          "date": "2026-10-05",
-          "value": 17887.9004
+          "date": "2026-10-04",
+          "value": 17909.0
         },
         {
-          "date": "2026-10-07",
-          "value": 17877.5
+          "date": "2026-10-06",
+          "value": 17829.0
         },
         {
-          "date": "2026-10-11",
-          "value": 17910.0
+          "date": "2026-10-08",
+          "value": 17807.5
         },
         {
-          "date": "2026-10-13",
-          "value": 17866.5
+          "date": "2026-10-12",
+          "value": 17913.0
         },
         {
-          "date": "2026-10-15",
-          "value": 18020.0996
+          "date": "2026-10-14",
+          "value": 17823.6992
         },
         {
-          "date": "2026-10-19",
-          "value": 18041.0
+          "date": "2026-10-18",
+          "value": 18056.0
         },
         {
-          "date": "2026-10-21",
-          "value": 18008.0
+          "date": "2026-10-20",
+          "value": 17985.4004
         },
         {
-          "date": "2026-10-26",
-          "value": 18081.0
+          "date": "2026-10-22",
+          "value": 18053.0
         },
         {
-          "date": "2026-10-28",
-          "value": 18139.5
+          "date": "2026-10-27",
+          "value": 18144.0
         },
         {
-          "date": "2026-10-30",
-          "value": 18070.4004
+          "date": "2026-10-29",
+          "value": 18065.4004
         },
         {
-          "date": "2026-11-03",
-          "value": 17472.1992
+          "date": "2026-11-02",
+          "value": 18113.9004
         },
         {
-          "date": "2026-11-05",
-          "value": 17509.1992
+          "date": "2026-11-04",
+          "value": 17536.0996
+        },
+        {
+          "date": "2026-11-06",
+          "value": 17479.1992
         }
       ],
-      "profitScore": -1.53,
-      "view": "defensive/watchlist screen"
+      "profitScore": 2.23,
+      "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
     "stockOpportunities": [

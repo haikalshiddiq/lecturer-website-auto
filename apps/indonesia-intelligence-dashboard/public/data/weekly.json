@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-07T07:00:43+07:00",
+  "generatedAt": "2026-11-08T09:48:23+07:00",
   "period": {
-    "start": "2026-11-01",
-    "end": "2026-11-07",
-    "label": "01 Nov - 07 Nov 2026"
+    "start": "2026-11-02",
+    "end": "2026-11-08",
+    "label": "02 Nov - 08 Nov 2026"
   },
   "status": {
     "level": "monitor",
@@ -21,43 +21,28 @@
     "drivers": [
       {
         "kind": "support",
-        "topic": "Infrastructure",
-        "score": 0.16
-      },
-      {
-        "kind": "support",
-        "topic": "Business & Investment",
-        "score": 0.08
-      },
-      {
-        "kind": "support",
         "topic": "Markets",
-        "score": 0.053
+        "score": 0.08
       }
     ],
     "caveat": "Data bidang kritis belum lengkap: Economy & Jobs, Health & Family, Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
   },
   "metrics": {
-    "articles": 15,
-    "sources": 10,
-    "categoriesCovered": 7,
+    "articles": 14,
+    "sources": 9,
+    "categoriesCovered": 6,
     "categoriesTracked": 13,
-    "positive": 4,
+    "positive": 3,
     "neutral": 10,
     "negative": 1,
-    "averageScore": 0.029,
+    "averageScore": 0.019,
     "criticalNegativeSignals": 1
   },
   "dailyTrend": [
     {
-      "date": "2026-11-01",
-      "score": null,
-      "articles": 0
-    },
-    {
       "date": "2026-11-02",
-      "score": 0.0,
-      "articles": 1
+      "score": -0.094,
+      "articles": 2
     },
     {
       "date": "2026-11-03",
@@ -66,23 +51,28 @@
     },
     {
       "date": "2026-11-04",
-      "score": 0.0,
-      "articles": 1
+      "score": null,
+      "articles": 0
     },
     {
       "date": "2026-11-05",
-      "score": -0.061,
+      "score": 0.061,
       "articles": 3
     },
     {
       "date": "2026-11-06",
-      "score": 0.084,
-      "articles": 6
+      "score": 0.067,
+      "articles": 4
     },
     {
       "date": "2026-11-07",
-      "score": 0.069,
+      "score": 0.0,
       "articles": 2
+    },
+    {
+      "date": "2026-11-08",
+      "score": 0.0,
+      "articles": 1
     }
   ],
   "topicScores": [
@@ -147,6 +137,26 @@
       "highlightId": null
     },
     {
+      "topic": "Automotive & EV",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Business & Investment",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-11-07-729ba5677bfc"
+    },
+    {
       "topic": "Tech & AI",
       "count": 1,
       "score": 0.0,
@@ -157,14 +167,14 @@
       "highlightId": "2026-11-05-a1d3bceb9d3c"
     },
     {
-      "topic": "Automotive & EV",
-      "count": 1,
+      "topic": "Infrastructure",
+      "count": 2,
       "score": 0.0,
       "sentiment": "Neutral",
       "positive": 0,
-      "neutral": 1,
+      "neutral": 2,
       "negative": 0,
-      "highlightId": "2026-11-06-fbeed45499"
+      "highlightId": "2026-11-08-a8ee1af225"
     },
     {
       "topic": "Governance",
@@ -178,49 +188,29 @@
     },
     {
       "topic": "Climate & Disaster",
-      "count": 4,
+      "count": 3,
       "score": 0.0,
       "sentiment": "Neutral",
       "positive": 1,
-      "neutral": 2,
+      "neutral": 1,
       "negative": 1,
-      "highlightId": "2026-11-06-48bbf5499a33"
+      "highlightId": "2026-11-05-48bbf5499a33"
     },
     {
       "topic": "Markets",
-      "count": 3,
-      "score": 0.053,
+      "count": 4,
+      "score": 0.08,
       "sentiment": "Neutral",
-      "positive": 1,
+      "positive": 2,
       "neutral": 2,
       "negative": 0,
       "highlightId": "2026-11-06-d82d7a099b7f"
-    },
-    {
-      "topic": "Business & Investment",
-      "count": 2,
-      "score": 0.08,
-      "sentiment": "Neutral",
-      "positive": 1,
-      "neutral": 1,
-      "negative": 0,
-      "highlightId": "2026-11-07-d22450ac29"
-    },
-    {
-      "topic": "Infrastructure",
-      "count": 1,
-      "score": 0.16,
-      "sentiment": "Positive",
-      "positive": 1,
-      "neutral": 0,
-      "negative": 0,
-      "highlightId": "2026-11-06-9639a6da2c"
     }
   ],
   "highlights": [
     {
-      "id": "2026-11-06-48bbf5499a33",
-      "date": "2026-11-06",
+      "id": "2026-11-05-48bbf5499a33",
+      "date": "2026-11-05",
       "topic": "Climate & Disaster",
       "title": "Prakiraan Cuaca Indonesia Sepekan Periode 3 – 10 November 2026 Hujan Berpeluang Terjadi di Sejumlah Wilayah, Panas dan Kering Masih Bertahan di Wilayah Lain",
       "source": "BMKG",
@@ -228,28 +218,6 @@
       "sentiment": "Positive",
       "score": 0.16,
       "confidence": 0.68
-    },
-    {
-      "id": "2026-11-06-9639a6da2c",
-      "date": "2026-11-06",
-      "topic": "Infrastructure",
-      "title": "Foto : Dari Diesel ke Matahari, Jalan Indonesia Menuju Swasembada Energi Halaman 1",
-      "source": "Kompas.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSU84c3V1aHpXanRia1hhWE5mWVJGT2JyclMzb0VoQ2p0OVpWN2lFTWxtd3kxRHVQNXBlNTlYRnRDYkNWSFBRSFVjbjFGejVKR3Z5SUZoUmE3Q1o0elZwTUFCY0lCbGYtbEllVV9mS3lweFNJWHRLMkZhWFBoXzN1RTFQNG0tTl91VEpkUmM3NFBYNHBIN1d4U2VQeXRfbEdUWlVPYmx4dy15TDFPdmxxdlhBdVBSWU9HSUMwYkNsSng?oc=5",
-      "sentiment": "Positive",
-      "score": 0.16,
-      "confidence": 0.35
-    },
-    {
-      "id": "2026-11-07-d22450ac29",
-      "date": "2026-11-07",
-      "topic": "Business & Investment",
-      "title": "Indonesia Kantongi Komitmen Investasi Rp6,3 Triliun dari Forum London",
-      "source": "republika.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1pRcFVqZmRkOWxuVXBWX3hRSGdSXzNNTHlMMkNXSldReGNNWEpGMlY3X2lJQlZqMVdlZFFfRDM3MjhuNVZES1JmVHJtd0lfekV1eGZ6anV2N2RPOTc4SlBUUXplVVNhb0pUZ1NmRWhfazFzUkpUMkpwQjZOTmxmVk1zX0xfZ1ltZm5CMnMwbVhpYWNFVGpYNG9Iay10eFBFa3YxYmxraDlpSXVvaHk2cnNfTmE0SXA3QjZkLVBn?oc=5",
-      "sentiment": "Positive",
-      "score": 0.16,
-      "confidence": 0.35
     },
     {
       "id": "2026-11-06-d82d7a099b7f",
@@ -274,6 +242,28 @@
       "confidence": 0.68
     },
     {
+      "id": "2026-11-08-a8ee1af225",
+      "date": "2026-11-08",
+      "topic": "Infrastructure",
+      "title": "Tol Trans Sumatra Tembus Bukittinggi-Sicincin, Ini Bocoran Rutenya",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb01QajNGUXBEeDRRWTdwbmZJcFVPSllFR0pkS05tZFpMbmlvaWc0aXNmcW4yRUdJM2xWVDZucGQ1SWlCaHVrMkxST3VoV2V2YlVVUElIM2JfWG5XNWFNRHlENXNsUE40NVdtTlRMZXJuU2ZwbDVpNWJRbXJyLWMzSG1jNDhZTndLU0xxSGt0ZlJ2WUFPX1Z6djhBS1A5ZlNURzc5azVvc1ZsRGdtODhpZ1doNU44eG9vbnFZTGNmNGRld9IBxwFBVV95cUxOTmExWkNJRzRfLWd3Q0pZUnMyUTNtZWs1a01iX0dfTlhscEc4WWNiS0l4dHVuWnJmOVd5a3RNRk12NFNEV1VJSmV5cEJfSTgySXUyN2NKbFQtbUJqNlZzb3FSMlJBTENVNW04dFhnMDFOLXBhdW9aem5nMlFrVVBkXzBOWjQtODV5Tmd6c2IteWpCQlRuc05qdzZhWWU2a3JxTTc4ZG5KQVNNQzFOY2JmcEFjeDMyLXcxOU1ST2RTd3VYZC0xUkdn?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35
+    },
+    {
+      "id": "2026-11-07-729ba5677bfc",
+      "date": "2026-11-07",
+      "topic": "Business & Investment",
+      "title": "Investment Day Futurepreneur Lab 2026: Panggung Inovasi Startup Mahasiswa di Jakarta",
+      "source": "Media Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUk5N1JnVE1JZjhBOTl6YjdHYThGdmpTT2IwMkJOMHV0SmI0MjhBWk5JZzI5N0dQa1UwenJfYktTSzBsVEVKVkc4aEZqUWVMV0JDdGZ6UkFMVU5uckktMVBnRmZpcG9iaHBfb3hTVk9LUEQ4dFJCa0xqRVdIOHdXUG1YSkJpZXQ2NGtLNE81Mkl4T01DSkZyRlAzX3ZHNTN3TFNlUTc3WDRlcWJRZ3VsZExqZXZsdTdXb3cwbWd1ZjBiM0k?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
       "id": "2026-11-05-a1d3bceb9d3c",
       "date": "2026-11-05",
       "topic": "Tech & AI",
@@ -285,19 +275,8 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-11-06-fbeed45499",
-      "date": "2026-11-06",
-      "topic": "Automotive & EV",
-      "title": "PLN gandeng kalangan kampus songsong era mobil listrik",
-      "source": "Antara News jatim",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUkk4eV83ck8yeE5seG9uZDBEUjJxSXNwU3JnOFhkbXQtUUlaNXEydklTTzRNMmNCOUlYUjdud1RYV1dvbUtSbEMtRDZOX1lVMWdoQmpDU3dsNDVzbGU4SU5qSl9uOW9VcUpRamhCRUF0YUh3c1lUdURNWWo5c3NSdVRlZHRPbUV6MnYyb1pfUTBnTHFxNV95WUt2Qm5wa3fSAaQBQVVfeXFMTkZKNm5scExGY2l5N1hab1ZoOXExU1Bfd1JlS2FHdWMxMm41LTNaLUZ0VHRVc1VZZWIxSlJmeE9kRHc0QW05RktNZUluUmZxMWVMT2RBZG04Ym5TUGJOUWpQTEVjLUoycWhHOEpqR1F3YXlaSGdfbHNGR241S2NYLUs5emgwamJXWGlBdGdFQ01fSmVBZnJsNEkxeW5rLUlta1gtZjM?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35
-    },
-    {
-      "id": "2026-11-05-e93f72c7943e",
-      "date": "2026-11-05",
+      "id": "2026-11-02-e93f72c7943e",
+      "date": "2026-11-02",
       "topic": "Climate & Disaster",
       "title": "BMKG Dukung Penanganan Karhutla dan Antisipasi Banjir di Papua Selatan",
       "source": "BMKG",
@@ -307,8 +286,8 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-11-07-8d73577cc761",
-      "date": "2026-11-07",
+      "id": "2026-11-06-8d73577cc761",
+      "date": "2026-11-06",
       "topic": "Climate & Disaster",
       "title": "Seleksi Penerimaan Taruna Baru STMKG 2026, BMKG Utamakan Integritas dan Semangat Pengabdian",
       "source": "BMKG",
@@ -318,14 +297,14 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-11-04-61faae837ec0",
-      "date": "2026-11-04",
-      "topic": "Climate & Disaster",
-      "title": "Siswa SD Lazuardi Depok Belajar Cuaca, Iklim, dan Mitigasi Bencana di BMKG",
-      "source": "BMKG",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdEFKZ2tzaFV6TW1hTmJMSm5VOWxvNFp3bU55Qng1S3BlTFRRUG9kNTB0VFhyR0wwRGNjUnhPQVpyb1N1Z1ExYmI4UUI1U0pfdks5YlNiX0dJclhVQUMxR2pkV1hLQmtwbHVsNVdjN2dxenZ3MG90OVZYWDVTZEdZM21xOFVQX3M5UHBLbk9RYmRBMVhFOG1vbXJLbkFFaDVLYjZ2SQ?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
+      "id": "2026-11-06-59039d9efe3a",
+      "date": "2026-11-06",
+      "topic": "Markets",
+      "title": "Rupiah Dibayangi Tekanan Global, BI-Rate Diproyeksi Naik Ke Level 6,25% di 2027",
+      "source": "kontan.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdHJxeE1IVUtrcEg1MTl2LXRuQU5jOExMOWN3Z1poNXo2aGhxYnhXVVE1QmJZUHVYMG9Ld1dvb3dkUGRuSGhpVE1LRVhDMXVud1UzajMtVWhjdmlIUDB1d1ZENmpUems4OGZ0Q0ZoQ1VaOVlzSENKcVJGd3FiQWM4U01PR2txd05xZHJ3dzNjM3NraFhoZmZ1MU9SUy1hYjVnSllzTEczLUtwbTdpMkMtTdIBqgFBVV95cUxNWGg3TlZSUnp4RWtZSGk0QnQzRUdvWi02NDJxQWpic1htMGFTNW8tVDlNZWh3REt5YTNkUXVodFdLR2dkY1hVSkxsTWN1WGVyanlXWXZTYk81VElWRkJOcWE0dU00bWN6YWY2WWhCTUV4WkJzNE5HZHN4QTBnM1hFU1JVSjlhNFZfUXF2MXBMMkJoX204MU9WUmk1NlZzTWFIRWpBZ2ZsTjBEdw?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
       "confidence": 0.68
     },
     {
@@ -349,6 +328,17 @@
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.68
+    },
+    {
+      "id": "2026-11-07-8dac60f347",
+      "date": "2026-11-07",
+      "topic": "Infrastructure",
+      "title": "Jalan Panjang Indonesia Mengejar Bauran Energi Terbarukan hingga 72 Persen pada 2060",
+      "source": "Kompas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUzJDdFAtYTRqOXJXX0h1akhRTnlvakV0RHBPemVUTGdaWVpFTlhBS0tOTWUzRTNxTWplTFZVLS11UUZMVmdPb2RXR1lnZi1reG4wNlF3ektXd3ZGeTZIU2Myc3J6Mlc4Vzd3VmtfTkdxbm5qZ1l3YlpvZVNhVHFkTE1OWGNhYmRqNi02cno2cldjY0lnb0daRXRBTTVxbWdNdF80WE1xV1VRMzBLZUVxV0x0Y0otWGpZcU5hSENkcmxGYW1wclJEOGZiLWlrUHZzZ3R1YQ?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35
     }
   ],
   "decisionTriggers": [

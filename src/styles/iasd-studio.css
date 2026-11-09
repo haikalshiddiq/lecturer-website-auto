@@ -9,3 +9,5 @@
 #sim-controls:has([data-iasd-data-contract]) select,#sim-controls:has([data-iasd-data-contract]) .check{min-height:44px}
 #sim-controls:has([data-iasd-reserve-contract]) select{min-height:44px}
 #sim-controls:has([data-iasd-lifecycle-contract]) select{min-height:44px}
+#sim-controls:has([data-iasd-pickup-contract]) select,#sim-controls:has([data-iasd-pickup-contract]) input[type=range],#sim-controls:has([data-iasd-pickup-contract]) .check{min-height:44px}
+[data-iasd-pickup-contract]>label{display:block;margin-top:12px}

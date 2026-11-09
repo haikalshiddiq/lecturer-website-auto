@@ -132,6 +132,15 @@ function s10Scenario(s){
   const history=pick(s,'s10History','yes',['yes','no']),row=pick(s,'s10Row','allow',['allow','reject']);
   return {price,snapshot,discount,parent,history,row,total:2*((snapshot?100:price)-(discount==='locked'?10:20)),historical:snapshot&&discount==='locked',signature:[price,snapshot,discount,parent,history,row].join(':')};
 }
+function s16Scenario(s){
+  const trace=pick(s,'s16Trace','partial',['partial','duplicate','complete']),status=pick(s,'s16Status','complete',['partial','complete']),next=pick(s,'s16Next','record',['wait','dedup','record']);
+  const cases={
+    partial:{status:'partial',next:'wait',proof:'A: reservasi A=2/B=1 dikonfirmasi. E-A menyerahkan dua dari A; belum ada penyerahan B.',a:2,b:0,reason:'Ledger A=2/B=0, total dua, sisa satu: Sebagian. Tampilkan dua dari tiga diserahkan dan tunggu bukti B. Reservasi tiga dan Paid bukan bukti tiga sudah diserahkan.'},
+    duplicate:{status:'partial',next:'dedup',proof:'B: sesudah E-A, event E-A yang sama diterima ulang dengan alokasi dan payload sama.',a:2,b:0,reason:'Ledger tetap A=2/B=0, total dua, sisa satu: Sebagian. Kembalikan hasil tercatat tanpa efek ulang menurut asumsi pencatatan atomik event dan efek. Jangan menambah dua lagi. Payload berbeda harus ditahan untuk audit; ID saja tidak membuktikan deduplikasi nyata.'},
+    complete:{status:'complete',next:'record',proof:'C: sesudah E-A, event baru E-B menyerahkan satu dari alokasi B, cocok dengan sisa reservasinya.',a:2,b:1,reason:'Ledger A=2/B=1, total tiga, sisa nol: Lengkap. Catat bukti baru E-B; order_id sama tidak menjadikannya duplikat E-A. Status pemenuhan tidak mengubah bukti pembayaran atau harga historis.'}
+  };
+  return {trace,status,next,expected:cases[trace],signature:[trace,status,next].join(':')};
+}
 function s15Scenario(s){
   const trace=pick(s,'s15Trace','conflict',['partial','conflict','contrast']),scope=pick(s,'s15Scope','domain',['domain','decision','visual']),next=pick(s,'s15Next','model',['model','clarify','ui']);
   const cases={
@@ -212,6 +221,16 @@ else if(type==='claims'){const claims=[['Pendapatan 2025 sebesar Rp120 juta.','d
 else if(type==='risk'){const owner=pick(s,'riskOwner','belum',['belum','analis','manajer']),evidence=!!s.riskEvidence,stop=!!s.riskStop,fallback=!!s.riskFallback;title='Bangun kontrol yang dapat diperiksa';controls=selectControl('riskOwner','Owner keputusan',['belum','analis','manajer'],owner)+checkControl('riskEvidence','Bukti pemeriksaan kualitas didefinisikan',evidence)+checkControl('riskStop','Kewenangan stop dan eskalasi jelas',stop)+checkControl('riskFallback','Fallback manual tersedia dalam rencana',fallback);const n=Number(owner!=='belum')+Number(evidence)+Number(stop)+Number(fallback);viz=flow(['Risiko','Owner','Kontrol','Bukti','Eskalasi'],Math.min(n,4))+`<div class="big-number">${n} / 4</div><p>Elemen rencana kontrol terdefinisi</p>`+feedback(n===4?'Rencana lebih lengkap. Sekarang tentukan nama bukti, frekuensi, pemilik pengganti dan cara menguji efektivitas; checklist tidak membuktikan kontrol telah bekerja.':'Lengkapi owner, bukti, kewenangan dan fallback. Risiko tidak otomatis rendah karena kolom terisi.');}
 else if(type==='monitor'){const mr=val(s,'missingLimit',.08,.01,.2),rl=val(s,'recallLimit',.75,.4,1),rows=csvdata('monitoring.csv');title='Tentukan trigger dan respons monitoring';controls=rangeControl('missingLimit','Review jika missing lebih besar dari',.01,.2,.01,mr)+rangeControl('recallLimit','Review jika recall lebih kecil dari',.4,1,.05,rl);viz=table(['Periode','Missing','Recall','Complaints','n label','Status latihan'],rows.map(r=>[r.period,fmt(+r.missing_rate,2),fmt(+r.recall,2),r.complaints,r.n_labeled,(+r.missing_rate>mr||+r.recall<rl)?'REVIEW':'PANTAU']))+flow(['Deteksi','Cek data/label','Owner review','Fallback','Verifikasi'],1)+feedback('Batas adalah asumsi kelas; P2/P3 memicu review pada default 0,08 dan 0,75. Data ini tidak memuat distribusi fitur, sehingga tidak membuktikan drift. Jangan otomatis retrain sebelum diagnosis.');}
 else{title='Latihan keputusan';controls=simButton('match','Coba');viz=flow(['Tujuan','Bukti','Keputusan']);}
+if(type==='exam'&&view===16&&supplements[16]){
+  const x=s16Scenario(s),correct=x.status===x.expected.status&&x.next===x.expected.next;
+  controls+=`<details data-iasd-pickup-contract ${$('#sim-controls [data-iasd-pickup-contract]')?.open||Object.keys(s).some(k=>k.startsWith('s16'))?'open':''}><summary>Latihan ledger pengambilan dua gudang</summary><p class="small">Snapshot independen dari slider stok dasar: O-AR16 meminta tiga, reservasi A=2/B=1 sudah dikonfirmasi, pembayaran sah dan petugas berwenang diasumsikan. Kartu bukan transaksi hasil klik sebelumnya.</p>`
+    +selectControl('s16Trace','Bukti pengambilan',[['partial','A: E-A menyerahkan dua'],['duplicate','B: E-A sama diterima ulang'],['complete','C: E-B baru menyerahkan satu']],x.trace)
+    +selectControl('s16Status','Prediksi status pemenuhan',[['partial','Sebagian diserahkan'],['complete','Seluruhnya diserahkan']],x.status)
+    +selectControl('s16Next','Respons utama terhadap bukti',[['wait','Tampilkan sisa satu, tunggu bukti B'],['dedup','Kembalikan hasil E-A tanpa efek ulang'],['record','Catat bukti baru E-B dan lengkap']],x.next)
+    +simButton('s16review','Periksa ledger pengambilan')+'</details>';
+  viz+=`<section data-iasd-s16-proof><h3>Bukti sebelum prediksi</h3><p>${esc(x.expected.proof)}</p></section>`;
+  viz+=s.s16Reviewed===x.signature?`<section data-iasd-s16-feedback>${feedback(`<b>${correct?'Ledger dan respons tepat.':'Pisahkan alokasi, event dan penyerahan.'}</b><p>${esc(x.expected.reason)}</p>${table(['Alokasi','Dicadangkan','Diserahkan kumulatif'],[['A',2,x.expected.a],['B',1,x.expected.b]])}<p>Invariant: 0 <= diserahkan per alokasi <= dicadangkan; total tidak melebihi tiga. Jejak FR-WH → Allocation/Pickup → kontrak confirmPickup → UI sisa → acceptance test. Ini expected result walkthrough, bukan bukti eksekusi backend, otorisasi atau konkurensi; checklist bukan nilai UAS resmi.</p>`,correct?'':'warn')}</section>`:'<p data-iasd-s16-prediction>Prediksi belum diperiksa. Bedakan status pemenuhan dan respons event, lalu periksa ledger.</p>';
+}
 if(type==='sdlc'&&view===1&&supplements[1]){
   const change=pick(s,'change','sering',['sering','stabil']),access=pick(s,'access','ada',['ada','sulit']);
   const decision=pick(s,'s1Decision','iterasi',['iterasi','bertahap','klarifikasi']);
@@ -398,6 +417,7 @@ if(action==='s10review'&&view===10)s.s10Reviewed=s10Scenario(s).signature;
 if(action==='s13review'&&view===13)s.s13Reviewed=s13Scenario(s).signature;
 if(action==='s14review'&&view===14)s.s14Reviewed=s14Scenario(s).signature;
 if(action==='s15review'&&view===15)s.s15Reviewed=s15Scenario(s).signature;
+if(action==='s16review'&&view===16)s.s16Reviewed=s16Scenario(s).signature;
 if(action==='s9review'&&view===9)s.s9Reviewed=s9Scenario(s).signature;
 if(action==='s5review'&&view===5)s.s5Reviewed=[pick(s,'join','join',['join','merge']),!!s.address,!!s.label,pick(s,'s5Outcome','sah',['tunggu','sah','dini'])].join(':');
 if(action==='s4review'&&view===4)s.s4Reviewed=[pick(s,'actor','Pelanggan',['Pelanggan','Penyedia bayar','Database internal']),pick(s,'s4Stock','1',['1','3']),pick(s,'s4Role','eksternal',['eksternal','internal']),pick(s,'s4Outcome','reservasi',['tolak','reservasi','lunas'])].join(':');

@@ -45,6 +45,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         const example1 = await page.locator('[data-iasd-supplement="1"]').innerText();
         for (const text of ['FR-STOK-v1', 'TC-STOK', 'tanpa reservasi baru', 'bukti belum tersedia', 'implementasi kelak', 'operasi kelak', 'bukan mode stok']) assert.ok(example1.includes(text), `S01 worked example lacks ${text}`);
         await checkOverflow('S01 expanded nightly-stock example');
+        for (const field of ['change', 'access', 's1Decision']) assert.ok(await page.locator(`[data-setting="${field}"]`).evaluate(el => el.getBoundingClientRect().height >= 44), `S01 tap target: ${field}`);
         await select('change', 'sering'); await select('access', 'ada'); await select('s1Decision', 'iterasi'); await action('s1review');
         await page.reload({ waitUntil: 'networkidle' });
         assert.equal(await page.locator('[data-setting="s1Decision"]').inputValue(), 'iterasi');

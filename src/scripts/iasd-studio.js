@@ -236,9 +236,9 @@ if(type==='sdlc'&&view===1&&supplements[1]){
   const decision=pick(s,'s1Decision','iterasi',['iterasi','bertahap','klarifikasi']);
   const expected=access==='sulit'?'klarifikasi':change==='sering'?'iterasi':'bertahap';
   const reasons={
-    klarifikasi:'Akses stakeholder sulit: jadwalkan klarifikasi atau wakil berwenang, catat asumsi dan tunda keputusan yang belum punya bukti. Ini tindakan awal, bukan nama metode baru; kebutuhan stabil pun tidak membenarkan melewati konfirmasi.',
-    iterasi:'Kebutuhan sering berubah dan stakeholder tersedia: iterasi dengan review memberi kesempatan menguji tafsir. Tetap simpan kebutuhan berversi dan hasil uji; iterasi bukan izin menghapus dokumentasi.',
-    bertahap:'Kebutuhan relatif stabil dan stakeholder tersedia: tahapan dengan keluaran serta review terencana masuk akal. Stabil bukan berarti pasti benar; tinjau ulang bila bukti berubah.'
+    klarifikasi:'Akses stakeholder sulit: jadwalkan klarifikasi atau wakil berwenang, catat asumsi dan tunda keputusan yang belum punya bukti. Peta batas dan test kandidat tetap dapat disusun. Pada contoh pembaruan malam, tanyakan owner dan waktu bukti stok; angka buku belum membuktikan stok saat checkout. Klarifikasi adalah tindakan awal, bukan metode baru.',
+    iterasi:'Kebutuhan sering berubah dan stakeholder tersedia: iterasi dengan review memberi kesempatan menguji tafsir. Tetap simpan kebutuhan berversi dan hasil uji. Pada contoh pembaruan malam, iterasi tidak membuat angka buku menjadi stok terkonfirmasi; telusuri sumber dan waktu bukti pada FR-STOK dan TC-STOK.',
+    bertahap:'Kebutuhan relatif stabil dan stakeholder tersedia: tahapan dengan keluaran serta review terencana masuk akal. Aturan stabil bukan data stok mutakhir. Pada contoh pembaruan malam, angka buku belum membuktikan stok saat checkout; kaji ulang analisis sumber/waktu, desain pemeriksaan dan TC-STOK, bukan cukup mengganti metode.'
   };
   controls+=selectControl('s1Decision','Prediksi tindakan awal Anda',[['iterasi','Iterasi dengan review pengguna'],['bertahap','Tahapan dengan review terencana'],['klarifikasi','Klarifikasi akses dan asumsi dahulu']],decision)+simButton('s1review','Periksa alasan');
   const signature=[change,access,decision].join(':');

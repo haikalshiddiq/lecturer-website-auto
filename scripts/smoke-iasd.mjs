@@ -36,11 +36,15 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
             await page.locator('[data-simact="s1review"]').focus();
             await page.locator('[data-simact="s1review"]').press('Enter');
             await feedback(decision === expected ? 'Tepat untuk asumsi latihan.' : 'Tinjau alasan pilihan.');
+            await feedback('pembaruan malam');
+            await feedback(expected === 'bertahap' ? 'Aturan stabil bukan data stok mutakhir' : expected === 'iterasi' ? 'stok terkonfirmasi' : 'test kandidat tetap dapat disusun');
           }
         }
         await page.locator('[data-iasd-supplement="1"] summary').focus();
         await page.locator('[data-iasd-supplement="1"] summary').press('Enter');
-        assert.ok((await page.locator('[data-iasd-supplement="1"]').innerText()).includes('stok buku dan rak'));
+        const example1 = await page.locator('[data-iasd-supplement="1"]').innerText();
+        for (const text of ['FR-STOK-v1', 'TC-STOK', 'tanpa reservasi baru', 'bukti belum tersedia', 'implementasi kelak', 'operasi kelak', 'bukan mode stok']) assert.ok(example1.includes(text), `S01 worked example lacks ${text}`);
+        await checkOverflow('S01 expanded nightly-stock example');
         await select('change', 'sering'); await select('access', 'ada'); await select('s1Decision', 'iterasi'); await action('s1review');
         await page.reload({ waitUntil: 'networkidle' });
         assert.equal(await page.locator('[data-setting="s1Decision"]').inputValue(), 'iterasi');
@@ -790,6 +794,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     const backup = await downloadText(await tool('export'));
     assert.equal(JSON.parse(backup.text).lessons[1].notes[0], saved.lessons[1].notes[0]);
     await page.setInputFiles('#import-file', { name: 'wrong-course.json', mimeType: 'application/json', buffer: Buffer.from('{"course":"OTHER","version":"bad","lessons":{}}') });
+    await page.waitForFunction(() => document.querySelector('#toast')?.textContent.includes('Tidak dipulihkan'));
     assert.ok((await page.locator('#toast').innerText()).includes('Tidak dipulihkan'));
     const legacy = JSON.parse(backup.text);
     for (const record of Object.values(legacy.lessons)) for (const field of Object.keys(record.sim)) if (/^s(?:16|15|14|13|12|11|10|[123456789])/.test(field)) delete record.sim[field];

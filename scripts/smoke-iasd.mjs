@@ -79,6 +79,10 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
             const correct = outcome === (stock === '1' ? 'tolak' : 'reservasi') && status === (approval === 'belum' ? 'usulan' : 'disepakati');
             await feedback(correct ? 'Kedua prediksi tepat.' : 'Ada prediksi yang perlu direvisi.');
             await feedback(stock === '1' ? 'tidak membuat reservasi' : 'mencatat reservasi dua');
+            await feedback('bukan spinner detik satu');
+            await feedback('empat pemeriksaan berbeda');
+            await feedback('tetap salah terhadap FR01');
+            await feedback('actual test beban belum diuji');
           }
         }
         await select('s2Limit', '2');
@@ -89,9 +93,12 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         await feedback('memenuhi batas');
         assert.equal(await page.locator('[data-setting="s2Limit"]').inputValue(), '5');
         await page.locator('[data-iasd-supplement="2"] summary').click();
-        assert.ok((await page.locator('[data-iasd-supplement="2"]').innerText()).includes('FR01-v0'));
+        const example2 = await page.locator('[data-iasd-supplement="2"]').innerText();
+        for (const text of ['FR01-v0', 'Kartu bukti A', 'Kartu lawan B', 'AC-WAKTU-v0', 'hasil akhir', 'actual test beban']) assert.ok(example2.includes(text), `S02 worked example lacks ${text}`);
         await checkOverflow('session 2 expanded example');
-        await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="2"]').innerText()).includes('peminjaman proyektor'));
+        await tab('reflect');
+        const transfer2 = await page.locator('[data-iasd-transfer="2"]').innerText();
+        for (const text of ['peminjaman proyektor', 'Kartu P', 'kartu Q', 'tabel A/B', 'belum ada']) assert.ok(transfer2.includes(text), `S02 transfer lacks ${text}`);
         await tab('teach'); await page.locator('[data-iasd-facilitation="2"] summary').click();
         assert.ok((await page.locator('[data-iasd-facilitation="2"]').innerText()).includes('Rubrik diagnostik'));
         await tab('concept');

@@ -35,6 +35,11 @@ BOOTSTRAP_FILES = {
     'scripts/teaching-release.py', 'scripts/test-teaching-release.py',
     'automation/lecturer-focus.json', 'automation/teaching-maintenance.md',
 }
+MANUAL_APP_FILES = {
+    'src/components/layout/SEOHead.astro', 'src/layouts/BaseLayout.astro',
+    'public/sw.js', 'scripts/teaching-release.py', 'scripts/test-teaching-release.py',
+    'automation/teaching-maintenance.md', 'package.json',
+}
 
 
 def digest(value: object) -> str:
@@ -63,17 +68,19 @@ def advance_state(state: dict, course: str, revision: str, changed: bool) -> dic
             'successfulRefinements': state.get('successfulRefinements', 0) + 1}
 
 
-def allowed_path(path: str, course: str, bootstrap: bool = False) -> bool:
+def allowed_path(path: str, course: str, bootstrap: bool = False, manual: bool = False) -> bool:
     if path == MANIFEST or path == 'public/iasd-release.json':
         return True
     if bootstrap and path in BOOTSTRAP_FILES:
+        return True
+    if manual and path in MANUAL_APP_FILES:
         return True
     targets = COURSES if bootstrap else (course,)
     for target in targets:
         key = target.lower()
         if path.startswith((f'src/pages/{key}/', f'src/components/{key}/', f'public/{key}/', f'automation/{key}-')):
             return True
-        if path.startswith((f'src/data/{key}-', f'src/scripts/{key}-', f'src/styles/{key}-', f'scripts/test-{key}-')):
+        if path.startswith((f'src/data/{key}-', f'src/scripts/{key}-', f'src/styles/{key}-', f'scripts/test-{key}-', f'scripts/{key}-')):
             return True
         if path in (f'scripts/smoke-{key}.mjs', f'scripts/validate-{key}.mjs'):
             return True
@@ -86,8 +93,8 @@ def changed_paths() -> list[str]:
     return sorted(set(path for path in (tracked + untracked).split('\0') if path))
 
 
-def assert_scope(paths: list[str], course: str, bootstrap: bool = False) -> None:
-    bad = [path for path in paths if not allowed_path(path, course, bootstrap)]
+def assert_scope(paths: list[str], course: str, bootstrap: bool = False, manual: bool = False) -> None:
+    bad = [path for path in paths if not allowed_path(path, course, bootstrap, manual)]
     if bad:
         raise RuntimeError('Teaching release refused out-of-turn/unrelated edits: ' + ', '.join(bad))
 
@@ -109,7 +116,7 @@ def course_payload(course: str) -> dict:
 
 def release_payload() -> dict:
     courses = {name: course_payload(name) for name in COURSES}
-    shell = [[name, hashlib.sha256((REPO / name).read_bytes()).hexdigest()] for name in ('src/data/site.ts', 'src/pages/index.astro', 'public/sw.js')]
+    shell = [[name, hashlib.sha256((REPO / name).read_bytes()).hexdigest()] for name in ('src/data/site.ts', 'src/pages/index.astro', 'public/sw.js', 'src/components/layout/SEOHead.astro', 'src/layouts/BaseLayout.astro')]
     return {'version': 1, 'activeCourses': list(COURSES), 'revision': digest([courses, shell]), 'courses': courses}
 
 
@@ -177,16 +184,28 @@ def verify_live(payload: dict) -> None:
         code, overview = shared.fetch_live(f'https://hicall.web.id/{key}', required_markers=(f'data-{key}-overview',))
         if code != 200 or f'data-{key}-overview' not in overview:
             raise RuntimeError('Course overview is not live: ' + course)
+    # The HTML manifest alone cannot establish that the downloadable dataset/notebook actually shipped.
+    for path in ('aifn/manifest.webmanifest', 'aifn/data/credit.json', 'aifn/aifn-labs.ipynb'):
+        expected = json.loads((REPO / 'public' / path).read_text())
+        code, body = shared.fetch_live('https://hicall.web.id/' + path, attempts=3, delay=3)
+        if code != 200 or json.loads(body) != expected:
+            raise RuntimeError('Live AiFn learning artifact differs: ' + path)
+    for path in ('aifn/aifn-finance.csv', 'aifn/aifn-labs.py', 'aifn/README.txt'):
+        code, body = shared.fetch_live('https://hicall.web.id/' + path, attempts=3, delay=3)
+        if code != 200 or body != (REPO / 'public' / path).read_text():
+            raise RuntimeError('Live AiFn download bytes differ: ' + path)
 
 
-def release(course: str, bootstrap: bool = False) -> int:
+def release(course: str, bootstrap: bool = False, manual: bool = False) -> int:
+    if bootstrap and manual:
+        raise RuntimeError('Bootstrap and an explicit manual refinement are different release contracts')
     verify_governance()
     state = json.loads(STATE.read_text()) if STATE.exists() else {'version': 1, 'nextCourse': 'IASD', 'successfulRefinements': 0}
-    if not bootstrap and course != next_course(state):
+    if not bootstrap and not manual and course != next_course(state):
         raise RuntimeError('Requested course differs from next successful-release turn')
     shared.run('git fetch origin main', timeout=120)
     paths = changed_paths()
-    assert_scope(paths, course, bootstrap)
+    assert_scope(paths, course, bootstrap, manual)
     head = shared.run('git rev-parse HEAD').stdout.strip()
     remote = shared.run('git rev-parse origin/main').stdout.strip()
     if head != remote:
@@ -200,7 +219,7 @@ def release(course: str, bootstrap: bool = False) -> int:
     legacy = {'focus': 'IASD', **payload['courses']['IASD'], 'courseVersion': '2026.10.17.1'}
     (REPO / 'public/iasd-release.json').write_text(json.dumps(legacy, indent=2) + '\n')
     paths = changed_paths()
-    assert_scope(paths, course, bootstrap)
+    assert_scope(paths, course, bootstrap, manual)
     shared.run('python3 scripts/test-teaching-release.py', timeout=60)
     gates = shared.run_release_gates()
     shared.run_impeccable_pwa_gate()
@@ -216,17 +235,20 @@ def release(course: str, bootstrap: bool = False) -> int:
     meaningful = isinstance(old, dict) and old.get('courses', {}).get(course) != payload['courses'][course]
     if bootstrap:
         state = {**state, 'nextCourse': 'IASD', 'bootstrapRevision': payload['revision']}
-    else:
+    elif not manual:
         state = advance_state(state, course, payload['revision'], meaningful)
-    STATE.parent.mkdir(parents=True, exist_ok=True)
-    temp = STATE.with_suffix('.tmp')
-    temp.write_text(json.dumps(state, indent=2) + '\n')
-    temp.replace(STATE)
+    if not manual:
+        STATE.parent.mkdir(parents=True, exist_ok=True)
+        temp = STATE.with_suffix('.tmp')
+        temp.write_text(json.dumps(state, indent=2) + '\n')
+        temp.replace(STATE)
     print('## Teaching: IASD + AiFn')
     print('- Rilis terverifikasi: ' + payload['revision'])
     print('- Gate: ' + ', '.join(gates))
     print('- Deployment: ' + deployment)
     print('- Giliran berikutnya: ' + next_course(state) + '. Tidak menyatakan progres mahasiswa.')
+    if manual:
+        print('- Rilis permintaan langsung: urutan dan progres cron dipertahankan, bukan bootstrap.')
     print('- AiFn: https://hicall.web.id/aifn/studio#1')
     print('- IASD: https://hicall.web.id/iasd/studio#1')
     return 0
@@ -237,13 +259,16 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument('--next-course', action='store_true')
     parser.add_argument('--course', choices=COURSES)
     parser.add_argument('--bootstrap', action='store_true', help='Only for the explicitly authorized initial two-course integration')
+    parser.add_argument('--manual', action='store_true', help='Explicit user-requested course refinement; preserve the scheduled rotation exactly. Never use in cron.')
     args = parser.parse_args(argv)
+    if args.manual and (not args.course or args.next_course):
+        parser.error('--manual requires an explicit --course and cannot be used for scheduled selection')
     if args.next_course:
         print(next_course())
         return 0
     with (Path.home() / '.hermes/cache/hicall-teaching-release.lock').open('w') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        return release(args.course or next_course(), args.bootstrap)
+        return release(args.course or next_course(), args.bootstrap, args.manual)
 
 
 if __name__ == '__main__':

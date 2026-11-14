@@ -19,7 +19,16 @@ One existing agent cron at 07:30 WIB alternates IASD and AiFn by successful new 
 5. Run `python3 /home/ubuntu/.hermes/scripts/hicall_courses_maintainer.py --course IASD` or `--course AiFn`, matching the selected turn. The command enforces paths, baseline integrity, build, all-course visual/interaction checks, deployment and exact live read-back.
 6. Only the release command advances `/home/ubuntu/.hermes/cache/teaching-course-rotation.json` after a changed course revision is verified live. No-change, failed authoring, failed build, API/model outage and deployment failure retain the same next course. A failed run never skips a course or invents learner completion.
 
-The initial integration uses `--bootstrap` only in the explicitly authorized parent implementation. Daily cron must never use that flag to broaden its editing scope.
+The initial integration uses `--bootstrap` only in the explicitly authorized parent implementation. Daily cron must never use that flag to broaden its editing scope. An explicitly requested off-cycle course improvement uses `--manual --course AiFn` (or IASD): it still enforces the selected-course scope and all release gates, permits only a narrow shared app-shell allowlist, and preserves the rotation record byte-for-byte. Daily cron must NEVER use `--manual` or treat a manual publication as a scheduled turn.
+
+## AiFn finance-first learning contract
+
+- Learners know Excel and basic statistics; introduce Python and machine learning from zero. Explain each new term through a finance question, an Excel intuition, the calculation, the chart, and a bounded business interpretation.
+- Each of the 16 RPS meetings has a concrete case, a guided 30–45 minute practice plan, evidence to submit, a separate take-home notebook task, common mistakes and a concise instructor rubric. UTS/UAS remain public practice, not official examinations or automatic grades.
+- Use verified licensed public datasets when they genuinely fit the question; synthetic or illustrative data must be labeled. Keep source URLs, licensing, retrieval date, source digest, original units and data limitations. Never relabel historical creditworthiness as observed default within an invented time horizon, or foreign historical credit amounts as Indonesian rupiah/current market observations.
+- The browser's regression, classification/ROC, threshold costs, group audit and clustering must derive from the same disclosed records and actual computations. Fit preprocessing on training data only; show holdout baselines, denominators and uncertainty. Do not turn demographic audit groups into lending rules or model importance into causation.
+- Keep the dedicated AiFn manifest/start URL, real installation guidance, last-session resume and verified offline pack working. A service-worker registration or an install button alone does not prove offline readiness or installation on a physical phone. External Colab/Claude require network; a downloaded notebook still requires a Python runtime to execute.
+- Keep numerical tests, executable notebooks, all-session browser smoke and exact production data/manifest read-back in the release gate. A new lesson must not silently return to hard-coded scores or decorative graphs.
 
 ## Quality and visual direction
 

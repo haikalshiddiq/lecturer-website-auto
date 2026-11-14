@@ -35,7 +35,7 @@ html.dark .aifn :focus-visible { outline-color:#ffd078; }
 .af-visual { margin:1rem 0; min-width:0; }
 .af-diagram-surface { max-width:100%; overflow-x:auto; margin-top:.75rem; }
 .af-diagram-surface.af-diagram-expanded svg { min-width:480px; max-height:none; }
-.af-visual svg { width:100%; height:auto; max-height:300px; display:block; color:var(--af-text); background:var(--af-panel); }
+.af-visual svg { width:100%; min-width:540px; height:auto; display:block; color:var(--af-text); background:var(--af-panel); }
 .af-visual text { fill:currentColor; font:13px system-ui,sans-serif; }
 .af-visual .af-mark { fill:var(--af-accent); stroke:var(--af-accent); }
 .af-visual .af-alt { fill:none; stroke:var(--af-text); }
@@ -66,4 +66,38 @@ html.dark .aifn :focus-visible { outline-color:#ffd078; }
 .aifn [hidden] { display:none!important; }
 .af-prompt { white-space:pre-wrap; overflow-wrap:anywhere; font:inherit; background:var(--af-soft); padding:1rem; border-radius:4px; }
 @media(max-width:850px) { .af-shell { grid-template-columns:1fr; gap:.75rem; } .af-rail { border:0; padding:0; } .af-rail ol { display:none; } .af-grid { grid-template-columns:1fr; } .af-map { grid-template-columns:1fr; } .af-top { padding:.5rem 1rem; } .af-main h1 { margin-top:.3rem; } }
+.af-finance-question { max-width:65ch; font-size:1.1rem; }
+/* Fixed chart text size protects axis readability; the table is the narrow-screen equivalent. */
+.af-visual text { font:14px system-ui,sans-serif; }
+.af-chart-heading { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:.5rem; }
+.af-read-chart { max-width:75ch; }
+.af-table-wrap { width:100%; overflow-x:auto; margin:1rem 0; }
+.aifn table { border-collapse:collapse; width:100%; font-size:.95rem; }
+.aifn caption { text-align:left; font-weight:600; padding:.5rem 0; }
+.aifn th,.aifn td { text-align:left; border-bottom:1px solid var(--af-line); padding:.55rem .65rem; vertical-align:top; }
+.aifn th { background:var(--af-soft); }
+.aifn code,.aifn dd,.aifn p { overflow-wrap:anywhere; }
+.aifn dt { font-weight:700; }
+.aifn dd { margin:0 0 .8rem; }
+.af-choice { display:flex; align-items:center; gap:.65rem; min-height:44px; }
+.af-choice input { flex:0 0 auto; }
+.af-step-nav { display:flex; flex-wrap:wrap; gap:.4rem; margin:1rem 0; }
+.af-step-nav button { text-align:left; flex:1 1 160px; }
+.af-step-nav button[aria-pressed=true] { background:var(--af-soft); border-color:var(--af-accent); font-weight:700; }
+.af-guided { border-top:2px solid var(--af-accent); padding-top:.75rem; }
+.af-continue-bar { display:flex; flex-wrap:wrap; align-items:center; gap:.8rem; margin-top:1rem; padding:1rem 0; border-bottom:1px solid var(--af-line); }
+.aifn .af-primary { background:var(--af-accent); color:var(--af-panel); font-weight:700; border-color:var(--af-accent); }
+.aifn button:disabled { opacity:.6; cursor:not-allowed; }
+.af-app-tools { display:flex; flex-wrap:wrap; gap:.5rem; max-width:1380px; margin:auto; padding:.65rem 1rem; border-bottom:1px solid var(--af-line); }
+.af-app-tools p { flex:1 1 300px; margin:.5rem 0; color:var(--af-muted); font-size:.9rem; }
+.aifn input[type=file] { max-width:100%; }
+.aifn fieldset { min-width:0; border:1px solid var(--af-line); margin-bottom:1rem; padding:.75rem; }
+.aifn dialog { width:min(1000px,calc(100% - 24px)); max-height:90dvh; border:1px solid var(--af-line); border-radius:8px; color:var(--af-text); background:var(--af-panel); padding:1rem; }
+.aifn dialog::backdrop { background:rgb(0 0 0 / .65); }
+.aifn dialog svg { min-width:700px; width:100%; height:auto; color:var(--af-text); }
+.aifn dialog text { fill:currentColor; font:14px system-ui,sans-serif; }
+.aifn dialog .af-mark { fill:var(--af-accent); stroke:var(--af-accent); }
+.aifn dialog .af-alt { fill:none; stroke:var(--af-text); }
+.af-text-case blockquote { margin:1rem 0; font-size:1.3rem; font-weight:600; }
+@media(max-width:540px) { .af-shell { padding:.75rem; } .af-panel { padding:.8rem; } .af-tabs { display:grid; grid-template-columns:1fr 1fr; overflow:visible; } .af-tabs button { font-size:.9rem; padding:.45rem; white-space:normal; } .af-top { gap:.25rem; } .af-top a,.af-top button { font-size:.9rem; } .af-sim select { font-size:.95rem; } .af-step-nav { display:grid; grid-template-columns:1fr; } .aifn th,.aifn td { padding:.4rem; font-size:.9rem; } .af-app-tools { padding:.5rem .75rem; } .af-app-tools button { flex:1 1 140px; } }
 @media(prefers-reduced-motion:reduce) { .aifn * { scroll-behavior:auto; transition:none; } }

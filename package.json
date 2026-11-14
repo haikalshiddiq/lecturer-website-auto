@@ -19,7 +19,7 @@
     "validate:courses": "node ./scripts/validate-course-visuals.mjs",
     "maintenance:report": "node ./scripts/maintenance-report.mjs",
     "smoke:live": "node ./scripts/smoke-check-live.mjs",
-    "smoke:pwa": "npm run validate:learning && npm run validate:iasd && npm run validate:aifn && npm run validate:courses && node ./scripts/smoke-pwa.mjs"
+    "smoke:pwa": "npm run validate:learning && npm run validate:iasd && npm run validate:aifn && npm run validate:courses && node ./scripts/test-aifn-finance.mjs && node ./scripts/smoke-pwa.mjs && node ./scripts/test-aifn-pwa.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

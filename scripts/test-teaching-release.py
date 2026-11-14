@@ -68,6 +68,31 @@ class RotationContract(unittest.TestCase):
                 deploy.assert_not_called()
             self.assertEqual(state.read_text(),original)
 
+    def test_manual_refinement_preserves_rotation_and_frozen_scope(self):
+        r.assert_scope(['src/layouts/BaseLayout.astro', 'src/components/layout/SEOHead.astro', 'public/sw.js', 'public/aifn/manifest.webmanifest', 'scripts/aifn-data-build.py'], 'AiFn', manual=True)
+        for path in ['src/data/iasd-course.json', 'src/content/blog/new.md', 'src/data/site.ts']:
+            with self.assertRaises(RuntimeError, msg=path):
+                r.assert_scope([path], 'AiFn', manual=True)
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / 'public').mkdir()
+            state = root / 'state.json'
+            original = '{"nextCourse":"IASD","successfulRefinements":7,"futureField":"preserved"}'
+            state.write_text(original)
+            fake = type('Result', (), {'stdout': 'same-head\n'})()
+            payload = {'revision':'new', 'courses': {'IASD': {'revision':'unchanged','sessions':16}, 'AiFn': {'revision':'changed','sessions':16}}}
+            with patch.object(r, 'REPO', root), patch.object(r, 'STATE', state), patch.object(r, 'verify_governance'), patch.object(r, 'changed_paths', return_value=[]), patch.object(r, 'live_json', return_value={'courses': {'AiFn': {'revision':'old'}}}), patch.object(r, 'release_payload', return_value=payload), patch.object(r.shared, 'run', return_value=fake), patch.object(r.shared, 'run_release_gates', return_value=['fixture']), patch.object(r.shared, 'run_impeccable_pwa_gate'), patch.object(r.shared, 'ensure_git_identity'), patch.object(r, 'deploy', return_value='fixture'), patch.object(r, 'verify_live') as verify:
+                self.assertEqual(r.release('AiFn', manual=True), 0)
+                verify.assert_called_once_with(payload)
+            self.assertEqual(state.read_text(), original)
+
+    def test_manual_requires_an_explicit_selected_course(self):
+        for args in [['--manual'], ['--manual', '--next-course']]:
+            with self.assertRaises(SystemExit):
+                r.main(args)
+        with self.assertRaises(RuntimeError):
+            r.release('AiFn', bootstrap=True, manual=True)
+
 
 if __name__ == '__main__':
     unittest.main()

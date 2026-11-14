@@ -1,0 +1,51 @@
+DATA ATTRIBUTION AND LICENSE
+
+Hofmann, H. (1994). Statlog (German Credit Data). UCI Machine Learning
+Repository. DOI: https://doi.org/10.24432/C5NC77
+Creator: Hans Hofmann.
+
+Dataset page:
+https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+Official metadata:
+https://archive.ics.uci.edu/api/dataset?id=144
+Official archive:
+https://archive.ics.uci.edu/static/public/144/statlog+german+credit+data.zip
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+Legal license: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+The official UCI dataset page explicitly states this license. A snapshot
+of that statement is retained in uci-144-source-page.html.txt. CC BY 4.0 permits
+sharing/adaptation with appropriate attribution, a license link, and notice
+of changes. This notice is not a substitute for the full legal license.
+Full English legalcode HTML is retained in LICENSE-CC-BY-4.0.html.txt, retrieved
+from https://creativecommons.org/licenses/by/4.0/legalcode.en (the plain-text
+endpoint returned HTTP 403; the English HTML endpoint succeeded).
+
+Changes for AiFn: use original german.data (not the numeric variant).
+Select original attributes 2,5,8,16,13 and class. Keep numeric values;
+rename to duration,amount,installmentRate,existingCredits,age. Map source
+class 1=good / 2=bad to risk 0=good / 1=bad. Add sourceRow as a local 1-based
+line ordinal; it is NOT a source customer ID. No dates or outcomes added.
+
+Units: UCI explicitly describes duration in months and age in years.
+Attribute5 is described as credit amount but its official units entry is
+null and german.doc does not specify its currency. Other attributes mention
+DM, but that is not proof of Attribute5 units. AiFn therefore labels amount
+as original/source credit-amount units, NOT rupiah and without conversion.
+Installment rate retains integer source values 1-4; documentation describes
+percentage of disposable income but supplies no further thresholds here.
+Do not invent a category-to-percentage mapping.
+
+risk means historical good/bad creditworthiness in this dataset. It is NOT
+a verified default within 90 days. No application timestamps exist in this
+extract. The random split is NOT out-of-time validation. No representation
+of Indonesia or contemporary borrowers is claimed.
+
+Raw archive SHA256:
+e12d9d5def6845c0622634a1cd2ab87fa470668c4298f1ec52a4e403376a435b
+Original german.data SHA256 (meta.sourceSha256):
+b21f3d81db8071257d5ff1deaeba1fd4303b62712e6fcc9715c7a86202cb5871
+See provenance.json for retrieval timestamp, file hashes and transform.
+Retained official german.doc documents fields and illustrative cost matrix
+FN=5, FP=1. These are dimensionless teaching costs, not actual money.

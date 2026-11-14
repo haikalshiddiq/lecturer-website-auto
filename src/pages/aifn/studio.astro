@@ -7,7 +7,7 @@ import '../../styles/aifn-studio.css';
 <!doctype html>
 <html lang="id" data-aifn-studio>
 <head>
-  <SEOHead title="Studio AiFn | Artificial Intelligence in Finance" description="16 pertemuan AI keuangan dengan simulator sintetis, praktik Python offline, kuis, dan panduan pengajar publik." />
+  <SEOHead title="Studio AiFn | Artificial Intelligence in Finance" description="Praktik AI keuangan terpandu untuk pemula: data kredit publik, hasil model yang dapat diperiksa, dan 16 sesi sesuai RPS." manifestHref="/aifn/manifest.webmanifest" appTitle="AiFn" />
   <script is:inline>
     (()=>{let saved;try{saved=localStorage.getItem('theme');}catch{}const dark=saved?saved==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.classList.toggle('dark',dark);document.documentElement.dataset.theme=dark?'dark':'light';})();
   </script>
@@ -15,10 +15,11 @@ import '../../styles/aifn-studio.css';
 <body class="aifn">
   <a class="af-skip" href="#aifn-main">Lewati navigasi</a>
   <header class="af-top"><a class="af-brand" href="/aifn">AiFn / Studio</a><a href="/">Situs dosen</a><a id="aifn-mode" href="?mode=teach#1">Pengajar publik</a><button id="aifn-theme" type="button">Ganti tema</button></header>
+  <section class="af-app-tools" aria-label="Aplikasi dan belajar offline"><button id="aifn-install" type="button">Pasang AiFn</button><button id="aifn-offline-prepare" type="button">Siapkan belajar offline</button><button id="aifn-resume" type="button">Lanjutkan sesi terakhir</button><p id="aifn-pwa-status" role="status" aria-live="polite">Pemasangan tidak wajib. Simpan berkas praktik sebelum belajar offline.</p></section>
   <div id="aifn-app" aria-busy="true"><p class="af-notice" role="status">Menyiapkan 16 pertemuan lokal…</p></div>
   <p id="aifn-status" class="af-status" role="status" aria-live="polite" style="max-width:1350px;margin:0 auto;padding:0 1rem"></p>
   <noscript><p>Studio interaktif memerlukan JavaScript. <a href="/aifn">Peta RPS dan unduhan notebook dapat dibaca di ikhtisar AiFn.</a></p></noscript>
   <script id="aifn-course-data" is:inline type="application/json" set:html={JSON.stringify(course).replace(/</g,'\\u003c')} />
-  <script>import '../../scripts/aifn-studio.js';</script>
+  <script>import '../../scripts/aifn-pwa.js'; import '../../scripts/aifn-studio.js';</script>
 </body>
 </html>

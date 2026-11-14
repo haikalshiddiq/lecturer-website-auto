@@ -1,4 +1,4 @@
-const VERSION = "2026-11-14-aifn-iasd-1";
+const VERSION = "2026-11-14-aifn-finance-app-2";
 const SHELL_CACHE = `hicall-shell-${VERSION}`;
 const DATA_CACHE = `hicall-data-${VERSION}`;
 const SHELL = [
@@ -19,7 +19,7 @@ self.addEventListener("install", (event) => {
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((key) => ![SHELL_CACHE, DATA_CACHE].includes(key)).map((key) => caches.delete(key))))
+      .then((keys) => Promise.all(keys.filter((key) => ![SHELL_CACHE, DATA_CACHE, 'hicall-aifn-pack-v2'].includes(key)).map((key) => caches.delete(key))))
       .then(() => self.clients.claim())
   );
 });
@@ -41,7 +41,12 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(request)
         .then((response) => cacheResponse(DATA_CACHE, request, response))
-        .catch(async () => (await caches.match(request)) || caches.match("/offline.html"))
+        .catch(async () => {
+          const cached = (await caches.match(request)) || (await caches.match("/offline.html"));
+          if (!cached) return new Response("Materi belum tersimpan. Buka sekali saat online.", { status: 503 });
+          // Static hosts can cache a clean-URL redirect; offline navigations require a fresh response.
+          return cached.redirected ? new Response(cached.body, { status: cached.status, headers: cached.headers }) : cached;
+        })
     );
     return;
   }

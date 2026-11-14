@@ -1,0 +1,23 @@
+{
+  "creator": "Hans Hofmann",
+  "citation": "Hofmann, H. (1994). Statlog (German Credit Data). UCI Machine Learning Repository. https://doi.org/10.24432/C5NC77",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data",
+  "metadataUrl": "https://archive.ics.uci.edu/api/dataset?id=144",
+  "downloadUrl": "https://archive.ics.uci.edu/static/public/144/statlog+german+credit+data.zip",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "retrievedAt": "2026-11-14T19:20:01.117276+00:00",
+  "retainedLicenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+  "sourceSha256": "b21f3d81db8071257d5ff1deaeba1fd4303b62712e6fcc9715c7a86202cb5871",
+  "archiveSha256": "e12d9d5def6845c0622634a1cd2ab87fa470668c4298f1ec52a4e403376a435b",
+  "transform": "german.data zero-based columns [1,4,7,15,12,20]; first five numeric values unchanged, risk=source class minus one; sourceRow=1-based file line ordinal",
+  "files": {
+    "LICENSE-CC-BY-4.0.html.txt": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+    "uci-144-source-page.html.txt": "167ff762dea58d45cea83678565083465cf32b61e2816c96eb2577010eef92db",
+    "credit.json": "a5802eeed7e41fa1683ce252711c614280c34e5d8f1e24c5509980a915c748ec",
+    "uci-144-metadata.json": "d99e40b6b0a348840a03d8fd7a56dd25f4d0cd4b9262c2b3a1dc8e05bf1faef9",
+    "uci-144-source.zip": "e12d9d5def6845c0622634a1cd2ab87fa470668c4298f1ec52a4e403376a435b",
+    "ATTRIBUTION.txt": "55d331ad10f42b91eb088296770f0e0dd531caceb7ccf954591adba456372d75",
+    "german.doc": "69b92cb551111bc37098698288849c96f0fd87ce81a2e54451ff39aa1e53fe49",
+    "german.data": "b21f3d81db8071257d5ff1deaeba1fd4303b62712e6fcc9715c7a86202cb5871"
+  }
+}

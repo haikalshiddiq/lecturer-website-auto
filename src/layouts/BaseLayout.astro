@@ -8,8 +8,10 @@ interface Props {
   title?: string;
   description?: string;
   lang?: string;
+  manifestHref?: string;
+  appTitle?: string;
 }
-const { title, description, lang = 'en' } = Astro.props;
+const { title, description, lang = 'en', manifestHref, appTitle } = Astro.props;
 const themeInitScript = `(() => {
   const saved = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -21,7 +23,7 @@ const themeInitScript = `(() => {
 <!doctype html>
 <html lang={lang}>
   <head>
-    <SEOHead title={title} description={description} />
+    <SEOHead title={title} description={description} manifestHref={manifestHref} appTitle={appTitle} />
     <script is:inline set:html={themeInitScript}></script>
   </head>
   <body class="flex min-h-dvh flex-col">

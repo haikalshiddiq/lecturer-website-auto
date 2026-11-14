@@ -1,0 +1,9026 @@
+{
+  "meta": {
+    "title": "Statlog (German Credit Data), UCI 144: six-feature teaching extract",
+    "sourceUrl": "https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data",
+    "downloadUrl": "https://archive.ics.uci.edu/static/public/144/statlog+german+credit+data.zip",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "retrievedAt": "2026-11-14T19:20:01.117276+00:00",
+    "sourceSha256": "b21f3d81db8071257d5ff1deaeba1fd4303b62712e6fcc9715c7a86202cb5871",
+    "currency": "Unspecified for Attribute5 in UCI documentation; original credit-amount units, not IDR",
+    "limitations": [
+      "Historical German creditworthiness labels: source 1=good, 2=bad; extract risk=0 good, 1 bad. Not a verified 90-day default outcome.",
+      "No application timestamps: random stratified split is not an out-of-time validation or a future-performance guarantee.",
+      "UCI explicitly specifies duration in months and age in years. Attribute5 credit amount has no currency unit in its variable entry; retain original units, never convert to rupiah.",
+      "InstallmentRate retains source integer values 1-4 described as installment rate in percentage of disposable income; do not invent thresholds, convert categories, or assume a modern debt-ratio measure.",
+      "sourceRow is a local 1-based line ordinal, not a customer identifier. Public extract omits other source attributes.",
+      "Age is retained only for descriptive audit, never a classifier feature. Age cutoff 25 is a teaching choice, not a legal fairness standard.",
+      "Historical selected sample of 1000 records, 700 good and 300 bad. Not representative of Indonesia or current borrowers; correlations are not causal.",
+      "Three regression predictors cannot establish credit affordability. Regression reconstructs observed credit amount, not a justified lending limit.",
+      "Cost weights FN=5 and FP=1 follow the documented illustrative UCI cost matrix; costs are dimensionless teaching units, not actual money.",
+      "Logistic scores are not validated/calibrated PDs. Threshold sweeps on test are descriptive; policy selection requires a separate training-side validation set."
+    ]
+  },
+  "records": [
+    {
+      "sourceRow": 1,
+      "duration": 6,
+      "amount": 1169,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 67,
+      "risk": 0
+    },
+    {
+      "sourceRow": 2,
+      "duration": 48,
+      "amount": 5951,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 3,
+      "duration": 12,
+      "amount": 2096,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 4,
+      "duration": 42,
+      "amount": 7882,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 5,
+      "duration": 24,
+      "amount": 4870,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 53,
+      "risk": 1
+    },
+    {
+      "sourceRow": 6,
+      "duration": 36,
+      "amount": 9055,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 7,
+      "duration": 24,
+      "amount": 2835,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 53,
+      "risk": 0
+    },
+    {
+      "sourceRow": 8,
+      "duration": 36,
+      "amount": 6948,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 9,
+      "duration": 12,
+      "amount": 3059,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 61,
+      "risk": 0
+    },
+    {
+      "sourceRow": 10,
+      "duration": 30,
+      "amount": 5234,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 11,
+      "duration": 12,
+      "amount": 1295,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 12,
+      "duration": 48,
+      "amount": 4308,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 13,
+      "duration": 12,
+      "amount": 1567,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 14,
+      "duration": 24,
+      "amount": 1199,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 60,
+      "risk": 1
+    },
+    {
+      "sourceRow": 15,
+      "duration": 15,
+      "amount": 1403,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 16,
+      "duration": 24,
+      "amount": 1282,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 17,
+      "duration": 24,
+      "amount": 2424,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 53,
+      "risk": 0
+    },
+    {
+      "sourceRow": 18,
+      "duration": 30,
+      "amount": 8072,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 19,
+      "duration": 24,
+      "amount": 12579,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 1
+    },
+    {
+      "sourceRow": 20,
+      "duration": 24,
+      "amount": 3430,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 21,
+      "duration": 9,
+      "amount": 2134,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 22,
+      "duration": 6,
+      "amount": 2647,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 23,
+      "duration": 10,
+      "amount": 2241,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 24,
+      "duration": 12,
+      "amount": 1804,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 25,
+      "duration": 10,
+      "amount": 2069,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 26,
+      "duration": 6,
+      "amount": 1374,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 27,
+      "duration": 6,
+      "amount": 426,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 28,
+      "duration": 12,
+      "amount": 409,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 29,
+      "duration": 7,
+      "amount": 2415,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 30,
+      "duration": 60,
+      "amount": 6836,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 63,
+      "risk": 1
+    },
+    {
+      "sourceRow": 31,
+      "duration": 18,
+      "amount": 1913,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 32,
+      "duration": 24,
+      "amount": 4020,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 33,
+      "duration": 18,
+      "amount": 5866,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 34,
+      "duration": 12,
+      "amount": 1264,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 57,
+      "risk": 0
+    },
+    {
+      "sourceRow": 35,
+      "duration": 12,
+      "amount": 1474,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 36,
+      "duration": 45,
+      "amount": 4746,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 37,
+      "duration": 48,
+      "amount": 6110,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 38,
+      "duration": 18,
+      "amount": 2100,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 1
+    },
+    {
+      "sourceRow": 39,
+      "duration": 10,
+      "amount": 1225,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 40,
+      "duration": 9,
+      "amount": 458,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 41,
+      "duration": 30,
+      "amount": 2333,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 42,
+      "duration": 12,
+      "amount": 1158,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 43,
+      "duration": 18,
+      "amount": 6204,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 44,
+      "duration": 30,
+      "amount": 6187,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 45,
+      "duration": 48,
+      "amount": 6143,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 58,
+      "risk": 1
+    },
+    {
+      "sourceRow": 46,
+      "duration": 11,
+      "amount": 1393,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 47,
+      "duration": 36,
+      "amount": 2299,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 48,
+      "duration": 6,
+      "amount": 1352,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 49,
+      "duration": 11,
+      "amount": 7228,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 50,
+      "duration": 12,
+      "amount": 2073,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 51,
+      "duration": 24,
+      "amount": 2333,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 52,
+      "duration": 27,
+      "amount": 5965,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 53,
+      "duration": 12,
+      "amount": 1262,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 54,
+      "duration": 18,
+      "amount": 3378,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 55,
+      "duration": 36,
+      "amount": 2225,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 57,
+      "risk": 1
+    },
+    {
+      "sourceRow": 56,
+      "duration": 6,
+      "amount": 783,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 57,
+      "duration": 12,
+      "amount": 6468,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 52,
+      "risk": 1
+    },
+    {
+      "sourceRow": 58,
+      "duration": 36,
+      "amount": 9566,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 59,
+      "duration": 18,
+      "amount": 1961,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 60,
+      "duration": 36,
+      "amount": 6229,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 61,
+      "duration": 9,
+      "amount": 1391,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 62,
+      "duration": 15,
+      "amount": 1537,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 63,
+      "duration": 36,
+      "amount": 1953,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 61,
+      "risk": 1
+    },
+    {
+      "sourceRow": 64,
+      "duration": 48,
+      "amount": 14421,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 65,
+      "duration": 24,
+      "amount": 3181,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 66,
+      "duration": 27,
+      "amount": 5190,
+      "installmentRate": 4,
+      "existingCredits": 4,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 67,
+      "duration": 12,
+      "amount": 2171,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 68,
+      "duration": 12,
+      "amount": 1007,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 69,
+      "duration": 36,
+      "amount": 1819,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 1
+    },
+    {
+      "sourceRow": 70,
+      "duration": 36,
+      "amount": 2394,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 71,
+      "duration": 36,
+      "amount": 8133,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 72,
+      "duration": 7,
+      "amount": 730,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 73,
+      "duration": 8,
+      "amount": 1164,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 51,
+      "risk": 0
+    },
+    {
+      "sourceRow": 74,
+      "duration": 42,
+      "amount": 5954,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 75,
+      "duration": 36,
+      "amount": 1977,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 1
+    },
+    {
+      "sourceRow": 76,
+      "duration": 12,
+      "amount": 1526,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 66,
+      "risk": 0
+    },
+    {
+      "sourceRow": 77,
+      "duration": 42,
+      "amount": 3965,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 78,
+      "duration": 11,
+      "amount": 4771,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 51,
+      "risk": 0
+    },
+    {
+      "sourceRow": 79,
+      "duration": 54,
+      "amount": 9436,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 80,
+      "duration": 30,
+      "amount": 3832,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 81,
+      "duration": 24,
+      "amount": 5943,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 44,
+      "risk": 1
+    },
+    {
+      "sourceRow": 82,
+      "duration": 15,
+      "amount": 1213,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 83,
+      "duration": 18,
+      "amount": 1568,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 84,
+      "duration": 24,
+      "amount": 1755,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 58,
+      "risk": 0
+    },
+    {
+      "sourceRow": 85,
+      "duration": 10,
+      "amount": 2315,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 52,
+      "risk": 0
+    },
+    {
+      "sourceRow": 86,
+      "duration": 12,
+      "amount": 1412,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 87,
+      "duration": 18,
+      "amount": 1295,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 88,
+      "duration": 36,
+      "amount": 12612,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 47,
+      "risk": 1
+    },
+    {
+      "sourceRow": 89,
+      "duration": 18,
+      "amount": 2249,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 90,
+      "duration": 12,
+      "amount": 1108,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 91,
+      "duration": 12,
+      "amount": 618,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 56,
+      "risk": 0
+    },
+    {
+      "sourceRow": 92,
+      "duration": 12,
+      "amount": 1409,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 54,
+      "risk": 0
+    },
+    {
+      "sourceRow": 93,
+      "duration": 12,
+      "amount": 797,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 94,
+      "duration": 24,
+      "amount": 3617,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 95,
+      "duration": 12,
+      "amount": 1318,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 54,
+      "risk": 0
+    },
+    {
+      "sourceRow": 96,
+      "duration": 54,
+      "amount": 15945,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 58,
+      "risk": 1
+    },
+    {
+      "sourceRow": 97,
+      "duration": 12,
+      "amount": 2012,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 61,
+      "risk": 0
+    },
+    {
+      "sourceRow": 98,
+      "duration": 18,
+      "amount": 2622,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 99,
+      "duration": 36,
+      "amount": 2337,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 100,
+      "duration": 20,
+      "amount": 7057,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 101,
+      "duration": 24,
+      "amount": 1469,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 102,
+      "duration": 36,
+      "amount": 2323,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 103,
+      "duration": 6,
+      "amount": 932,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 104,
+      "duration": 9,
+      "amount": 1919,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 105,
+      "duration": 12,
+      "amount": 2445,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 106,
+      "duration": 24,
+      "amount": 11938,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 1
+    },
+    {
+      "sourceRow": 107,
+      "duration": 18,
+      "amount": 6458,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 1
+    },
+    {
+      "sourceRow": 108,
+      "duration": 12,
+      "amount": 6078,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 109,
+      "duration": 24,
+      "amount": 7721,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 110,
+      "duration": 14,
+      "amount": 1410,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 111,
+      "duration": 6,
+      "amount": 1449,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 112,
+      "duration": 15,
+      "amount": 392,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 113,
+      "duration": 18,
+      "amount": 6260,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 114,
+      "duration": 36,
+      "amount": 7855,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 115,
+      "duration": 12,
+      "amount": 1680,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 116,
+      "duration": 48,
+      "amount": 3578,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 117,
+      "duration": 42,
+      "amount": 7174,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 118,
+      "duration": 10,
+      "amount": 2132,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 119,
+      "duration": 33,
+      "amount": 4281,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 120,
+      "duration": 12,
+      "amount": 2366,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 121,
+      "duration": 21,
+      "amount": 1835,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 122,
+      "duration": 24,
+      "amount": 3868,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 123,
+      "duration": 12,
+      "amount": 1768,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 124,
+      "duration": 10,
+      "amount": 781,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 63,
+      "risk": 0
+    },
+    {
+      "sourceRow": 125,
+      "duration": 18,
+      "amount": 1924,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 126,
+      "duration": 12,
+      "amount": 2121,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 127,
+      "duration": 12,
+      "amount": 701,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 128,
+      "duration": 12,
+      "amount": 639,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 129,
+      "duration": 12,
+      "amount": 1860,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 130,
+      "duration": 12,
+      "amount": 3499,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 131,
+      "duration": 48,
+      "amount": 8487,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 132,
+      "duration": 36,
+      "amount": 6887,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 133,
+      "duration": 15,
+      "amount": 2708,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 134,
+      "duration": 18,
+      "amount": 1984,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 135,
+      "duration": 60,
+      "amount": 10144,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 136,
+      "duration": 12,
+      "amount": 1240,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 137,
+      "duration": 27,
+      "amount": 8613,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 138,
+      "duration": 12,
+      "amount": 766,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 66,
+      "risk": 1
+    },
+    {
+      "sourceRow": 139,
+      "duration": 15,
+      "amount": 2728,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 140,
+      "duration": 12,
+      "amount": 1881,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 141,
+      "duration": 6,
+      "amount": 709,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 142,
+      "duration": 36,
+      "amount": 4795,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 143,
+      "duration": 27,
+      "amount": 3416,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 144,
+      "duration": 18,
+      "amount": 2462,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 145,
+      "duration": 21,
+      "amount": 2288,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 146,
+      "duration": 48,
+      "amount": 3566,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 147,
+      "duration": 6,
+      "amount": 860,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 148,
+      "duration": 12,
+      "amount": 682,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 51,
+      "risk": 0
+    },
+    {
+      "sourceRow": 149,
+      "duration": 36,
+      "amount": 5371,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 150,
+      "duration": 18,
+      "amount": 1582,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 151,
+      "duration": 6,
+      "amount": 1346,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 152,
+      "duration": 10,
+      "amount": 1924,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 153,
+      "duration": 36,
+      "amount": 5848,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 154,
+      "duration": 24,
+      "amount": 7758,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 155,
+      "duration": 24,
+      "amount": 6967,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 156,
+      "duration": 12,
+      "amount": 1282,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 1
+    },
+    {
+      "sourceRow": 157,
+      "duration": 9,
+      "amount": 1288,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 158,
+      "duration": 12,
+      "amount": 339,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 159,
+      "duration": 24,
+      "amount": 3512,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 160,
+      "duration": 6,
+      "amount": 1898,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 161,
+      "duration": 24,
+      "amount": 2872,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 162,
+      "duration": 18,
+      "amount": 1055,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 163,
+      "duration": 15,
+      "amount": 1262,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 164,
+      "duration": 10,
+      "amount": 7308,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 70,
+      "risk": 0
+    },
+    {
+      "sourceRow": 165,
+      "duration": 36,
+      "amount": 909,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 166,
+      "duration": 6,
+      "amount": 2978,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 167,
+      "duration": 18,
+      "amount": 1131,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 168,
+      "duration": 11,
+      "amount": 1577,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 169,
+      "duration": 24,
+      "amount": 3972,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 170,
+      "duration": 24,
+      "amount": 1935,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 171,
+      "duration": 15,
+      "amount": 950,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 172,
+      "duration": 12,
+      "amount": 763,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 173,
+      "duration": 24,
+      "amount": 2064,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 174,
+      "duration": 8,
+      "amount": 1414,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 175,
+      "duration": 21,
+      "amount": 3414,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 176,
+      "duration": 30,
+      "amount": 7485,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 53,
+      "risk": 1
+    },
+    {
+      "sourceRow": 177,
+      "duration": 12,
+      "amount": 2577,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 178,
+      "duration": 6,
+      "amount": 338,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 52,
+      "risk": 0
+    },
+    {
+      "sourceRow": 179,
+      "duration": 12,
+      "amount": 1963,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 180,
+      "duration": 21,
+      "amount": 571,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 65,
+      "risk": 0
+    },
+    {
+      "sourceRow": 181,
+      "duration": 36,
+      "amount": 9572,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 182,
+      "duration": 36,
+      "amount": 4455,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 183,
+      "duration": 21,
+      "amount": 1647,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 1
+    },
+    {
+      "sourceRow": 184,
+      "duration": 24,
+      "amount": 3777,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 185,
+      "duration": 18,
+      "amount": 884,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 1
+    },
+    {
+      "sourceRow": 186,
+      "duration": 15,
+      "amount": 1360,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 187,
+      "duration": 9,
+      "amount": 5129,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 74,
+      "risk": 1
+    },
+    {
+      "sourceRow": 188,
+      "duration": 16,
+      "amount": 1175,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 68,
+      "risk": 0
+    },
+    {
+      "sourceRow": 189,
+      "duration": 12,
+      "amount": 674,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 1
+    },
+    {
+      "sourceRow": 190,
+      "duration": 18,
+      "amount": 3244,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 191,
+      "duration": 24,
+      "amount": 4591,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 54,
+      "risk": 1
+    },
+    {
+      "sourceRow": 192,
+      "duration": 48,
+      "amount": 3844,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 193,
+      "duration": 27,
+      "amount": 3915,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 1
+    },
+    {
+      "sourceRow": 194,
+      "duration": 6,
+      "amount": 2108,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 195,
+      "duration": 45,
+      "amount": 3031,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 1
+    },
+    {
+      "sourceRow": 196,
+      "duration": 9,
+      "amount": 1501,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 197,
+      "duration": 6,
+      "amount": 1382,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 198,
+      "duration": 12,
+      "amount": 951,
+      "installmentRate": 4,
+      "existingCredits": 4,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 199,
+      "duration": 24,
+      "amount": 2760,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 200,
+      "duration": 18,
+      "amount": 4297,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 1
+    },
+    {
+      "sourceRow": 201,
+      "duration": 9,
+      "amount": 936,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 52,
+      "risk": 0
+    },
+    {
+      "sourceRow": 202,
+      "duration": 12,
+      "amount": 1168,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 203,
+      "duration": 27,
+      "amount": 5117,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 204,
+      "duration": 12,
+      "amount": 902,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 1
+    },
+    {
+      "sourceRow": 205,
+      "duration": 12,
+      "amount": 1495,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 206,
+      "duration": 30,
+      "amount": 10623,
+      "installmentRate": 3,
+      "existingCredits": 3,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 207,
+      "duration": 12,
+      "amount": 1935,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 208,
+      "duration": 12,
+      "amount": 1424,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 209,
+      "duration": 24,
+      "amount": 6568,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 210,
+      "duration": 12,
+      "amount": 1413,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 55,
+      "risk": 0
+    },
+    {
+      "sourceRow": 211,
+      "duration": 9,
+      "amount": 3074,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 212,
+      "duration": 36,
+      "amount": 3835,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 213,
+      "duration": 27,
+      "amount": 5293,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 50,
+      "risk": 1
+    },
+    {
+      "sourceRow": 214,
+      "duration": 30,
+      "amount": 1908,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 66,
+      "risk": 1
+    },
+    {
+      "sourceRow": 215,
+      "duration": 36,
+      "amount": 3342,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 51,
+      "risk": 0
+    },
+    {
+      "sourceRow": 216,
+      "duration": 6,
+      "amount": 932,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 217,
+      "duration": 18,
+      "amount": 3104,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 218,
+      "duration": 36,
+      "amount": 3913,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 219,
+      "duration": 24,
+      "amount": 3021,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 220,
+      "duration": 10,
+      "amount": 1364,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 64,
+      "risk": 0
+    },
+    {
+      "sourceRow": 221,
+      "duration": 12,
+      "amount": 625,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 222,
+      "duration": 12,
+      "amount": 1200,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 223,
+      "duration": 12,
+      "amount": 707,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 224,
+      "duration": 24,
+      "amount": 2978,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 225,
+      "duration": 15,
+      "amount": 4657,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 226,
+      "duration": 36,
+      "amount": 2613,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 227,
+      "duration": 48,
+      "amount": 10961,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 228,
+      "duration": 12,
+      "amount": 7865,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 53,
+      "risk": 1
+    },
+    {
+      "sourceRow": 229,
+      "duration": 9,
+      "amount": 1478,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 230,
+      "duration": 24,
+      "amount": 3149,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 231,
+      "duration": 36,
+      "amount": 4210,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 232,
+      "duration": 9,
+      "amount": 2507,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 51,
+      "risk": 0
+    },
+    {
+      "sourceRow": 233,
+      "duration": 12,
+      "amount": 2141,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 234,
+      "duration": 18,
+      "amount": 866,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 235,
+      "duration": 4,
+      "amount": 1544,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 236,
+      "duration": 24,
+      "amount": 1823,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 237,
+      "duration": 6,
+      "amount": 14555,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 238,
+      "duration": 21,
+      "amount": 2767,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 61,
+      "risk": 1
+    },
+    {
+      "sourceRow": 239,
+      "duration": 12,
+      "amount": 1291,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 240,
+      "duration": 30,
+      "amount": 2522,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 241,
+      "duration": 24,
+      "amount": 915,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 242,
+      "duration": 6,
+      "amount": 1595,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 51,
+      "risk": 0
+    },
+    {
+      "sourceRow": 243,
+      "duration": 48,
+      "amount": 4605,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 244,
+      "duration": 12,
+      "amount": 1185,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 245,
+      "duration": 12,
+      "amount": 3447,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 246,
+      "duration": 24,
+      "amount": 1258,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 247,
+      "duration": 12,
+      "amount": 717,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 52,
+      "risk": 0
+    },
+    {
+      "sourceRow": 248,
+      "duration": 6,
+      "amount": 1204,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 249,
+      "duration": 24,
+      "amount": 1925,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 250,
+      "duration": 18,
+      "amount": 433,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 251,
+      "duration": 6,
+      "amount": 666,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 252,
+      "duration": 12,
+      "amount": 2251,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 253,
+      "duration": 30,
+      "amount": 2150,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 254,
+      "duration": 24,
+      "amount": 4151,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 255,
+      "duration": 9,
+      "amount": 2030,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 256,
+      "duration": 60,
+      "amount": 7418,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 257,
+      "duration": 24,
+      "amount": 2684,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 258,
+      "duration": 12,
+      "amount": 2149,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 259,
+      "duration": 15,
+      "amount": 3812,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 260,
+      "duration": 11,
+      "amount": 1154,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 57,
+      "risk": 0
+    },
+    {
+      "sourceRow": 261,
+      "duration": 12,
+      "amount": 1657,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 262,
+      "duration": 24,
+      "amount": 1603,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 55,
+      "risk": 0
+    },
+    {
+      "sourceRow": 263,
+      "duration": 18,
+      "amount": 5302,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 264,
+      "duration": 12,
+      "amount": 2748,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 57,
+      "risk": 0
+    },
+    {
+      "sourceRow": 265,
+      "duration": 10,
+      "amount": 1231,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 266,
+      "duration": 15,
+      "amount": 802,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 1
+    },
+    {
+      "sourceRow": 267,
+      "duration": 36,
+      "amount": 6304,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 268,
+      "duration": 24,
+      "amount": 1533,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 269,
+      "duration": 14,
+      "amount": 8978,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 1
+    },
+    {
+      "sourceRow": 270,
+      "duration": 24,
+      "amount": 999,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 271,
+      "duration": 18,
+      "amount": 2662,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 272,
+      "duration": 12,
+      "amount": 1402,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 273,
+      "duration": 48,
+      "amount": 12169,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 274,
+      "duration": 48,
+      "amount": 3060,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 275,
+      "duration": 30,
+      "amount": 11998,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 276,
+      "duration": 9,
+      "amount": 2697,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 277,
+      "duration": 18,
+      "amount": 2404,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 278,
+      "duration": 12,
+      "amount": 1262,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 279,
+      "duration": 6,
+      "amount": 4611,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 280,
+      "duration": 24,
+      "amount": 1901,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 281,
+      "duration": 15,
+      "amount": 3368,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 282,
+      "duration": 12,
+      "amount": 1574,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 283,
+      "duration": 18,
+      "amount": 1445,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 284,
+      "duration": 15,
+      "amount": 1520,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 63,
+      "risk": 0
+    },
+    {
+      "sourceRow": 285,
+      "duration": 24,
+      "amount": 3878,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 286,
+      "duration": 47,
+      "amount": 10722,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 287,
+      "duration": 48,
+      "amount": 4788,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 288,
+      "duration": 48,
+      "amount": 7582,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 289,
+      "duration": 12,
+      "amount": 1092,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 290,
+      "duration": 24,
+      "amount": 1024,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 48,
+      "risk": 1
+    },
+    {
+      "sourceRow": 291,
+      "duration": 12,
+      "amount": 1076,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 292,
+      "duration": 36,
+      "amount": 9398,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 293,
+      "duration": 24,
+      "amount": 6419,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 294,
+      "duration": 42,
+      "amount": 4796,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 56,
+      "risk": 0
+    },
+    {
+      "sourceRow": 295,
+      "duration": 48,
+      "amount": 7629,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 296,
+      "duration": 48,
+      "amount": 9960,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 297,
+      "duration": 12,
+      "amount": 4675,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 298,
+      "duration": 10,
+      "amount": 1287,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 299,
+      "duration": 18,
+      "amount": 2515,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 300,
+      "duration": 21,
+      "amount": 2745,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 301,
+      "duration": 6,
+      "amount": 672,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 54,
+      "risk": 0
+    },
+    {
+      "sourceRow": 302,
+      "duration": 36,
+      "amount": 3804,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 1
+    },
+    {
+      "sourceRow": 303,
+      "duration": 24,
+      "amount": 1344,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 37,
+      "risk": 1
+    },
+    {
+      "sourceRow": 304,
+      "duration": 10,
+      "amount": 1038,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 305,
+      "duration": 48,
+      "amount": 10127,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 1
+    },
+    {
+      "sourceRow": 306,
+      "duration": 6,
+      "amount": 1543,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 307,
+      "duration": 30,
+      "amount": 4811,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 308,
+      "duration": 12,
+      "amount": 727,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 309,
+      "duration": 8,
+      "amount": 1237,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 310,
+      "duration": 9,
+      "amount": 276,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 311,
+      "duration": 48,
+      "amount": 5381,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 312,
+      "duration": 24,
+      "amount": 5511,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 313,
+      "duration": 24,
+      "amount": 3749,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 314,
+      "duration": 12,
+      "amount": 685,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 315,
+      "duration": 4,
+      "amount": 1494,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 316,
+      "duration": 36,
+      "amount": 2746,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 317,
+      "duration": 12,
+      "amount": 708,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 318,
+      "duration": 24,
+      "amount": 4351,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 319,
+      "duration": 12,
+      "amount": 701,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 320,
+      "duration": 15,
+      "amount": 3643,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 321,
+      "duration": 30,
+      "amount": 4249,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 322,
+      "duration": 24,
+      "amount": 1938,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 323,
+      "duration": 24,
+      "amount": 2910,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 324,
+      "duration": 18,
+      "amount": 2659,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 325,
+      "duration": 18,
+      "amount": 1028,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 326,
+      "duration": 8,
+      "amount": 3398,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 327,
+      "duration": 12,
+      "amount": 5801,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 328,
+      "duration": 24,
+      "amount": 1525,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 329,
+      "duration": 36,
+      "amount": 4473,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 330,
+      "duration": 6,
+      "amount": 1068,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 331,
+      "duration": 24,
+      "amount": 6615,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 75,
+      "risk": 0
+    },
+    {
+      "sourceRow": 332,
+      "duration": 18,
+      "amount": 1864,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 333,
+      "duration": 60,
+      "amount": 7408,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 334,
+      "duration": 48,
+      "amount": 11590,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 335,
+      "duration": 24,
+      "amount": 4110,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 336,
+      "duration": 6,
+      "amount": 3384,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 1
+    },
+    {
+      "sourceRow": 337,
+      "duration": 13,
+      "amount": 2101,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 338,
+      "duration": 15,
+      "amount": 1275,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 339,
+      "duration": 24,
+      "amount": 4169,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 340,
+      "duration": 10,
+      "amount": 1521,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 341,
+      "duration": 24,
+      "amount": 5743,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 342,
+      "duration": 21,
+      "amount": 3599,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 343,
+      "duration": 18,
+      "amount": 3213,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 344,
+      "duration": 18,
+      "amount": 4439,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 345,
+      "duration": 10,
+      "amount": 3949,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 346,
+      "duration": 15,
+      "amount": 1459,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 347,
+      "duration": 13,
+      "amount": 882,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 348,
+      "duration": 24,
+      "amount": 3758,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 349,
+      "duration": 6,
+      "amount": 1743,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 350,
+      "duration": 9,
+      "amount": 1136,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 351,
+      "duration": 9,
+      "amount": 1236,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 352,
+      "duration": 9,
+      "amount": 959,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 353,
+      "duration": 18,
+      "amount": 3229,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 354,
+      "duration": 12,
+      "amount": 6199,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 355,
+      "duration": 10,
+      "amount": 727,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 356,
+      "duration": 24,
+      "amount": 1246,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 357,
+      "duration": 12,
+      "amount": 2331,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 358,
+      "duration": 36,
+      "amount": 4463,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 359,
+      "duration": 12,
+      "amount": 776,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 360,
+      "duration": 30,
+      "amount": 2406,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 361,
+      "duration": 18,
+      "amount": 1239,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 61,
+      "risk": 0
+    },
+    {
+      "sourceRow": 362,
+      "duration": 12,
+      "amount": 3399,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 363,
+      "duration": 12,
+      "amount": 2247,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 364,
+      "duration": 6,
+      "amount": 1766,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 365,
+      "duration": 18,
+      "amount": 2473,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 366,
+      "duration": 12,
+      "amount": 1542,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 367,
+      "duration": 18,
+      "amount": 3850,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 368,
+      "duration": 18,
+      "amount": 3650,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 369,
+      "duration": 36,
+      "amount": 3446,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 1
+    },
+    {
+      "sourceRow": 370,
+      "duration": 18,
+      "amount": 3001,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 371,
+      "duration": 36,
+      "amount": 3079,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 372,
+      "duration": 18,
+      "amount": 6070,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 373,
+      "duration": 10,
+      "amount": 2146,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 374,
+      "duration": 60,
+      "amount": 13756,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 63,
+      "risk": 0
+    },
+    {
+      "sourceRow": 375,
+      "duration": 60,
+      "amount": 14782,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 60,
+      "risk": 1
+    },
+    {
+      "sourceRow": 376,
+      "duration": 48,
+      "amount": 7685,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 1
+    },
+    {
+      "sourceRow": 377,
+      "duration": 18,
+      "amount": 2320,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 378,
+      "duration": 7,
+      "amount": 846,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 379,
+      "duration": 36,
+      "amount": 14318,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 57,
+      "risk": 1
+    },
+    {
+      "sourceRow": 380,
+      "duration": 6,
+      "amount": 362,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 52,
+      "risk": 0
+    },
+    {
+      "sourceRow": 381,
+      "duration": 20,
+      "amount": 2212,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 382,
+      "duration": 18,
+      "amount": 12976,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 1
+    },
+    {
+      "sourceRow": 383,
+      "duration": 22,
+      "amount": 1283,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 384,
+      "duration": 12,
+      "amount": 1330,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 385,
+      "duration": 30,
+      "amount": 4272,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 386,
+      "duration": 18,
+      "amount": 2238,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 387,
+      "duration": 18,
+      "amount": 1126,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 388,
+      "duration": 18,
+      "amount": 7374,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 389,
+      "duration": 15,
+      "amount": 2326,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 390,
+      "duration": 9,
+      "amount": 1449,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 391,
+      "duration": 18,
+      "amount": 1820,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 392,
+      "duration": 12,
+      "amount": 983,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 19,
+      "risk": 0
+    },
+    {
+      "sourceRow": 393,
+      "duration": 36,
+      "amount": 3249,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 394,
+      "duration": 6,
+      "amount": 1957,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 395,
+      "duration": 9,
+      "amount": 2406,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 396,
+      "duration": 39,
+      "amount": 11760,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 397,
+      "duration": 12,
+      "amount": 2578,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 55,
+      "risk": 0
+    },
+    {
+      "sourceRow": 398,
+      "duration": 36,
+      "amount": 2348,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 399,
+      "duration": 12,
+      "amount": 1223,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 1
+    },
+    {
+      "sourceRow": 400,
+      "duration": 24,
+      "amount": 1516,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 401,
+      "duration": 18,
+      "amount": 1473,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 402,
+      "duration": 18,
+      "amount": 1887,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 403,
+      "duration": 24,
+      "amount": 8648,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 404,
+      "duration": 14,
+      "amount": 802,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 405,
+      "duration": 18,
+      "amount": 2899,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 406,
+      "duration": 24,
+      "amount": 2039,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 407,
+      "duration": 24,
+      "amount": 2197,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 408,
+      "duration": 15,
+      "amount": 1053,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 409,
+      "duration": 24,
+      "amount": 3235,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 410,
+      "duration": 12,
+      "amount": 939,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 411,
+      "duration": 24,
+      "amount": 1967,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 412,
+      "duration": 33,
+      "amount": 7253,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 413,
+      "duration": 12,
+      "amount": 2292,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 42,
+      "risk": 1
+    },
+    {
+      "sourceRow": 414,
+      "duration": 10,
+      "amount": 1597,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 415,
+      "duration": 24,
+      "amount": 1381,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 1
+    },
+    {
+      "sourceRow": 416,
+      "duration": 36,
+      "amount": 5842,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 417,
+      "duration": 12,
+      "amount": 2579,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 418,
+      "duration": 18,
+      "amount": 8471,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 419,
+      "duration": 21,
+      "amount": 2782,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 420,
+      "duration": 18,
+      "amount": 1042,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 421,
+      "duration": 15,
+      "amount": 3186,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 422,
+      "duration": 12,
+      "amount": 2028,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 423,
+      "duration": 12,
+      "amount": 958,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 424,
+      "duration": 21,
+      "amount": 1591,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 425,
+      "duration": 12,
+      "amount": 2762,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 426,
+      "duration": 18,
+      "amount": 2779,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 427,
+      "duration": 28,
+      "amount": 2743,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 428,
+      "duration": 18,
+      "amount": 1149,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 429,
+      "duration": 9,
+      "amount": 1313,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 430,
+      "duration": 18,
+      "amount": 1190,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 55,
+      "risk": 1
+    },
+    {
+      "sourceRow": 431,
+      "duration": 5,
+      "amount": 3448,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 74,
+      "risk": 0
+    },
+    {
+      "sourceRow": 432,
+      "duration": 24,
+      "amount": 11328,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 433,
+      "duration": 6,
+      "amount": 1872,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 434,
+      "duration": 24,
+      "amount": 2058,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 435,
+      "duration": 9,
+      "amount": 2136,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 436,
+      "duration": 12,
+      "amount": 1484,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 437,
+      "duration": 6,
+      "amount": 660,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 438,
+      "duration": 24,
+      "amount": 1287,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 439,
+      "duration": 42,
+      "amount": 3394,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 65,
+      "risk": 0
+    },
+    {
+      "sourceRow": 440,
+      "duration": 12,
+      "amount": 609,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 441,
+      "duration": 12,
+      "amount": 1884,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 442,
+      "duration": 12,
+      "amount": 1620,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 443,
+      "duration": 20,
+      "amount": 2629,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 444,
+      "duration": 12,
+      "amount": 719,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 1
+    },
+    {
+      "sourceRow": 445,
+      "duration": 48,
+      "amount": 5096,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 446,
+      "duration": 9,
+      "amount": 1244,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 447,
+      "duration": 36,
+      "amount": 1842,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 448,
+      "duration": 7,
+      "amount": 2576,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 449,
+      "duration": 12,
+      "amount": 1424,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 55,
+      "risk": 0
+    },
+    {
+      "sourceRow": 450,
+      "duration": 15,
+      "amount": 1512,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 61,
+      "risk": 1
+    },
+    {
+      "sourceRow": 451,
+      "duration": 36,
+      "amount": 11054,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 452,
+      "duration": 6,
+      "amount": 518,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 453,
+      "duration": 12,
+      "amount": 2759,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 454,
+      "duration": 24,
+      "amount": 2670,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 455,
+      "duration": 24,
+      "amount": 4817,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 456,
+      "duration": 24,
+      "amount": 2679,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 457,
+      "duration": 11,
+      "amount": 3905,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 458,
+      "duration": 12,
+      "amount": 3386,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 1
+    },
+    {
+      "sourceRow": 459,
+      "duration": 6,
+      "amount": 343,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 460,
+      "duration": 18,
+      "amount": 4594,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 461,
+      "duration": 36,
+      "amount": 3620,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 462,
+      "duration": 15,
+      "amount": 1721,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 463,
+      "duration": 12,
+      "amount": 3017,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 464,
+      "duration": 12,
+      "amount": 754,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 465,
+      "duration": 18,
+      "amount": 1950,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 466,
+      "duration": 24,
+      "amount": 2924,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 63,
+      "risk": 0
+    },
+    {
+      "sourceRow": 467,
+      "duration": 24,
+      "amount": 1659,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 468,
+      "duration": 48,
+      "amount": 7238,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 469,
+      "duration": 33,
+      "amount": 2764,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 470,
+      "duration": 24,
+      "amount": 4679,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 471,
+      "duration": 24,
+      "amount": 3092,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 472,
+      "duration": 6,
+      "amount": 448,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 473,
+      "duration": 9,
+      "amount": 654,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 474,
+      "duration": 6,
+      "amount": 1238,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 475,
+      "duration": 18,
+      "amount": 1245,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 476,
+      "duration": 18,
+      "amount": 3114,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 477,
+      "duration": 39,
+      "amount": 2569,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 478,
+      "duration": 24,
+      "amount": 5152,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 479,
+      "duration": 12,
+      "amount": 1037,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 480,
+      "duration": 15,
+      "amount": 1478,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 481,
+      "duration": 12,
+      "amount": 3573,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 482,
+      "duration": 24,
+      "amount": 1201,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 483,
+      "duration": 30,
+      "amount": 3622,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 57,
+      "risk": 0
+    },
+    {
+      "sourceRow": 484,
+      "duration": 15,
+      "amount": 960,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 485,
+      "duration": 12,
+      "amount": 1163,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 486,
+      "duration": 6,
+      "amount": 1209,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 47,
+      "risk": 1
+    },
+    {
+      "sourceRow": 487,
+      "duration": 12,
+      "amount": 3077,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 52,
+      "risk": 0
+    },
+    {
+      "sourceRow": 488,
+      "duration": 24,
+      "amount": 3757,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 62,
+      "risk": 0
+    },
+    {
+      "sourceRow": 489,
+      "duration": 10,
+      "amount": 1418,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 490,
+      "duration": 6,
+      "amount": 3518,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 491,
+      "duration": 12,
+      "amount": 1934,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 492,
+      "duration": 27,
+      "amount": 8318,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 42,
+      "risk": 1
+    },
+    {
+      "sourceRow": 493,
+      "duration": 6,
+      "amount": 1237,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 494,
+      "duration": 6,
+      "amount": 368,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 495,
+      "duration": 12,
+      "amount": 2122,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 0
+    },
+    {
+      "sourceRow": 496,
+      "duration": 24,
+      "amount": 2996,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 1
+    },
+    {
+      "sourceRow": 497,
+      "duration": 36,
+      "amount": 9034,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 498,
+      "duration": 24,
+      "amount": 1585,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 499,
+      "duration": 18,
+      "amount": 1301,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 500,
+      "duration": 6,
+      "amount": 1323,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 501,
+      "duration": 24,
+      "amount": 3123,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 502,
+      "duration": 36,
+      "amount": 5493,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 503,
+      "duration": 9,
+      "amount": 1126,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 504,
+      "duration": 24,
+      "amount": 1216,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 1
+    },
+    {
+      "sourceRow": 505,
+      "duration": 24,
+      "amount": 1207,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 506,
+      "duration": 10,
+      "amount": 1309,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 507,
+      "duration": 15,
+      "amount": 2360,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 508,
+      "duration": 15,
+      "amount": 6850,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 509,
+      "duration": 24,
+      "amount": 1413,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 510,
+      "duration": 39,
+      "amount": 8588,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 511,
+      "duration": 12,
+      "amount": 759,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 512,
+      "duration": 36,
+      "amount": 4686,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 513,
+      "duration": 15,
+      "amount": 2687,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 514,
+      "duration": 12,
+      "amount": 585,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 515,
+      "duration": 24,
+      "amount": 2255,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 54,
+      "risk": 0
+    },
+    {
+      "sourceRow": 516,
+      "duration": 6,
+      "amount": 609,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 517,
+      "duration": 6,
+      "amount": 1361,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 518,
+      "duration": 36,
+      "amount": 7127,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 519,
+      "duration": 6,
+      "amount": 1203,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 520,
+      "duration": 6,
+      "amount": 700,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 521,
+      "duration": 24,
+      "amount": 5507,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 522,
+      "duration": 18,
+      "amount": 3190,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 523,
+      "duration": 48,
+      "amount": 7119,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 53,
+      "risk": 1
+    },
+    {
+      "sourceRow": 524,
+      "duration": 24,
+      "amount": 3488,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 525,
+      "duration": 18,
+      "amount": 1113,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 526,
+      "duration": 26,
+      "amount": 7966,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 527,
+      "duration": 15,
+      "amount": 1532,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 528,
+      "duration": 4,
+      "amount": 1503,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 529,
+      "duration": 36,
+      "amount": 2302,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 530,
+      "duration": 6,
+      "amount": 662,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 531,
+      "duration": 36,
+      "amount": 2273,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 532,
+      "duration": 15,
+      "amount": 2631,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 533,
+      "duration": 12,
+      "amount": 1503,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 534,
+      "duration": 24,
+      "amount": 1311,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 535,
+      "duration": 24,
+      "amount": 3105,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 536,
+      "duration": 21,
+      "amount": 2319,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 537,
+      "duration": 6,
+      "amount": 1374,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 75,
+      "risk": 0
+    },
+    {
+      "sourceRow": 538,
+      "duration": 18,
+      "amount": 3612,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 539,
+      "duration": 48,
+      "amount": 7763,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 1
+    },
+    {
+      "sourceRow": 540,
+      "duration": 18,
+      "amount": 3049,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 541,
+      "duration": 12,
+      "amount": 1534,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 542,
+      "duration": 24,
+      "amount": 2032,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 60,
+      "risk": 0
+    },
+    {
+      "sourceRow": 543,
+      "duration": 30,
+      "amount": 6350,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 544,
+      "duration": 18,
+      "amount": 2864,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 545,
+      "duration": 12,
+      "amount": 1255,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 61,
+      "risk": 0
+    },
+    {
+      "sourceRow": 546,
+      "duration": 24,
+      "amount": 1333,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 43,
+      "risk": 1
+    },
+    {
+      "sourceRow": 547,
+      "duration": 24,
+      "amount": 2022,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 548,
+      "duration": 24,
+      "amount": 1552,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 549,
+      "duration": 12,
+      "amount": 626,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 550,
+      "duration": 48,
+      "amount": 8858,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 551,
+      "duration": 12,
+      "amount": 996,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 552,
+      "duration": 6,
+      "amount": 1750,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 553,
+      "duration": 48,
+      "amount": 6999,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 554,
+      "duration": 12,
+      "amount": 1995,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 555,
+      "duration": 9,
+      "amount": 1199,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 67,
+      "risk": 0
+    },
+    {
+      "sourceRow": 556,
+      "duration": 12,
+      "amount": 1331,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 557,
+      "duration": 18,
+      "amount": 2278,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 558,
+      "duration": 21,
+      "amount": 5003,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 559,
+      "duration": 24,
+      "amount": 3552,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 560,
+      "duration": 18,
+      "amount": 1928,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 561,
+      "duration": 24,
+      "amount": 2964,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 562,
+      "duration": 24,
+      "amount": 1546,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 563,
+      "duration": 6,
+      "amount": 683,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 564,
+      "duration": 36,
+      "amount": 12389,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 1
+    },
+    {
+      "sourceRow": 565,
+      "duration": 24,
+      "amount": 4712,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 566,
+      "duration": 24,
+      "amount": 1553,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 567,
+      "duration": 12,
+      "amount": 1372,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 1
+    },
+    {
+      "sourceRow": 568,
+      "duration": 24,
+      "amount": 2578,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 569,
+      "duration": 48,
+      "amount": 3979,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 570,
+      "duration": 48,
+      "amount": 6758,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 571,
+      "duration": 24,
+      "amount": 3234,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 572,
+      "duration": 30,
+      "amount": 5954,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 573,
+      "duration": 24,
+      "amount": 5433,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 574,
+      "duration": 15,
+      "amount": 806,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 575,
+      "duration": 9,
+      "amount": 1082,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 576,
+      "duration": 15,
+      "amount": 2788,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 577,
+      "duration": 12,
+      "amount": 2930,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 578,
+      "duration": 24,
+      "amount": 1927,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 579,
+      "duration": 36,
+      "amount": 2820,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 580,
+      "duration": 24,
+      "amount": 937,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 581,
+      "duration": 18,
+      "amount": 1056,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 582,
+      "duration": 12,
+      "amount": 3124,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 583,
+      "duration": 9,
+      "amount": 1388,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 584,
+      "duration": 36,
+      "amount": 2384,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 585,
+      "duration": 12,
+      "amount": 2133,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 52,
+      "risk": 0
+    },
+    {
+      "sourceRow": 586,
+      "duration": 18,
+      "amount": 2039,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 1
+    },
+    {
+      "sourceRow": 587,
+      "duration": 9,
+      "amount": 2799,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 588,
+      "duration": 12,
+      "amount": 1289,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 589,
+      "duration": 18,
+      "amount": 1217,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 47,
+      "risk": 1
+    },
+    {
+      "sourceRow": 590,
+      "duration": 12,
+      "amount": 2246,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 60,
+      "risk": 1
+    },
+    {
+      "sourceRow": 591,
+      "duration": 12,
+      "amount": 385,
+      "installmentRate": 4,
+      "existingCredits": 4,
+      "age": 58,
+      "risk": 0
+    },
+    {
+      "sourceRow": 592,
+      "duration": 24,
+      "amount": 1965,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 593,
+      "duration": 21,
+      "amount": 1572,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 594,
+      "duration": 24,
+      "amount": 2718,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 1
+    },
+    {
+      "sourceRow": 595,
+      "duration": 24,
+      "amount": 1358,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 1
+    },
+    {
+      "sourceRow": 596,
+      "duration": 6,
+      "amount": 931,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 597,
+      "duration": 24,
+      "amount": 1442,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 598,
+      "duration": 24,
+      "amount": 4241,
+      "installmentRate": 1,
+      "existingCredits": 3,
+      "age": 36,
+      "risk": 1
+    },
+    {
+      "sourceRow": 599,
+      "duration": 18,
+      "amount": 2775,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 600,
+      "duration": 24,
+      "amount": 3863,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 601,
+      "duration": 7,
+      "amount": 2329,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 602,
+      "duration": 9,
+      "amount": 918,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 603,
+      "duration": 24,
+      "amount": 1837,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 604,
+      "duration": 36,
+      "amount": 3349,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 605,
+      "duration": 10,
+      "amount": 1275,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 606,
+      "duration": 24,
+      "amount": 2828,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 607,
+      "duration": 24,
+      "amount": 4526,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 74,
+      "risk": 0
+    },
+    {
+      "sourceRow": 608,
+      "duration": 36,
+      "amount": 2671,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 1
+    },
+    {
+      "sourceRow": 609,
+      "duration": 18,
+      "amount": 2051,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 610,
+      "duration": 15,
+      "amount": 1300,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 611,
+      "duration": 12,
+      "amount": 741,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 612,
+      "duration": 10,
+      "amount": 1240,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 48,
+      "risk": 1
+    },
+    {
+      "sourceRow": 613,
+      "duration": 21,
+      "amount": 3357,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 614,
+      "duration": 24,
+      "amount": 3632,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 615,
+      "duration": 18,
+      "amount": 1808,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 616,
+      "duration": 48,
+      "amount": 12204,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 617,
+      "duration": 60,
+      "amount": 9157,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 618,
+      "duration": 6,
+      "amount": 3676,
+      "installmentRate": 1,
+      "existingCredits": 3,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 619,
+      "duration": 30,
+      "amount": 3441,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 1
+    },
+    {
+      "sourceRow": 620,
+      "duration": 12,
+      "amount": 640,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 621,
+      "duration": 21,
+      "amount": 3652,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 622,
+      "duration": 18,
+      "amount": 1530,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 623,
+      "duration": 48,
+      "amount": 3914,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 1
+    },
+    {
+      "sourceRow": 624,
+      "duration": 12,
+      "amount": 1858,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 625,
+      "duration": 18,
+      "amount": 2600,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 65,
+      "risk": 1
+    },
+    {
+      "sourceRow": 626,
+      "duration": 15,
+      "amount": 1979,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 627,
+      "duration": 6,
+      "amount": 2116,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 628,
+      "duration": 9,
+      "amount": 1437,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 629,
+      "duration": 42,
+      "amount": 4042,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 630,
+      "duration": 9,
+      "amount": 3832,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 64,
+      "risk": 0
+    },
+    {
+      "sourceRow": 631,
+      "duration": 24,
+      "amount": 3660,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 632,
+      "duration": 18,
+      "amount": 1553,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 1
+    },
+    {
+      "sourceRow": 633,
+      "duration": 15,
+      "amount": 1444,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 634,
+      "duration": 9,
+      "amount": 1980,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 19,
+      "risk": 1
+    },
+    {
+      "sourceRow": 635,
+      "duration": 24,
+      "amount": 1355,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 636,
+      "duration": 12,
+      "amount": 1393,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 637,
+      "duration": 24,
+      "amount": 1376,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 638,
+      "duration": 60,
+      "amount": 15653,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 639,
+      "duration": 12,
+      "amount": 1493,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 640,
+      "duration": 42,
+      "amount": 4370,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 641,
+      "duration": 18,
+      "amount": 750,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 642,
+      "duration": 15,
+      "amount": 1308,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 643,
+      "duration": 15,
+      "amount": 4623,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 1
+    },
+    {
+      "sourceRow": 644,
+      "duration": 24,
+      "amount": 1851,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 645,
+      "duration": 18,
+      "amount": 1880,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 646,
+      "duration": 36,
+      "amount": 7980,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 647,
+      "duration": 30,
+      "amount": 4583,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 648,
+      "duration": 12,
+      "amount": 1386,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 649,
+      "duration": 24,
+      "amount": 947,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 1
+    },
+    {
+      "sourceRow": 650,
+      "duration": 12,
+      "amount": 684,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 1
+    },
+    {
+      "sourceRow": 651,
+      "duration": 48,
+      "amount": 7476,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 652,
+      "duration": 12,
+      "amount": 1922,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 1
+    },
+    {
+      "sourceRow": 653,
+      "duration": 24,
+      "amount": 2303,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 1
+    },
+    {
+      "sourceRow": 654,
+      "duration": 36,
+      "amount": 8086,
+      "installmentRate": 2,
+      "existingCredits": 4,
+      "age": 42,
+      "risk": 1
+    },
+    {
+      "sourceRow": 655,
+      "duration": 24,
+      "amount": 2346,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 656,
+      "duration": 14,
+      "amount": 3973,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 657,
+      "duration": 12,
+      "amount": 888,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 1
+    },
+    {
+      "sourceRow": 658,
+      "duration": 48,
+      "amount": 10222,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 659,
+      "duration": 30,
+      "amount": 4221,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 660,
+      "duration": 18,
+      "amount": 6361,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 661,
+      "duration": 12,
+      "amount": 1297,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 662,
+      "duration": 12,
+      "amount": 900,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 663,
+      "duration": 21,
+      "amount": 2241,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 664,
+      "duration": 6,
+      "amount": 1050,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 665,
+      "duration": 6,
+      "amount": 1047,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 666,
+      "duration": 24,
+      "amount": 6314,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 667,
+      "duration": 30,
+      "amount": 3496,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 668,
+      "duration": 48,
+      "amount": 3609,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 669,
+      "duration": 12,
+      "amount": 4843,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 43,
+      "risk": 1
+    },
+    {
+      "sourceRow": 670,
+      "duration": 30,
+      "amount": 3017,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 671,
+      "duration": 24,
+      "amount": 4139,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 672,
+      "duration": 36,
+      "amount": 5742,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 673,
+      "duration": 60,
+      "amount": 10366,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 674,
+      "duration": 6,
+      "amount": 2080,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 675,
+      "duration": 21,
+      "amount": 2580,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 1
+    },
+    {
+      "sourceRow": 676,
+      "duration": 30,
+      "amount": 4530,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 677,
+      "duration": 24,
+      "amount": 5150,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 678,
+      "duration": 72,
+      "amount": 5595,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 679,
+      "duration": 24,
+      "amount": 2384,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 64,
+      "risk": 0
+    },
+    {
+      "sourceRow": 680,
+      "duration": 18,
+      "amount": 1453,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 681,
+      "duration": 6,
+      "amount": 1538,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 56,
+      "risk": 0
+    },
+    {
+      "sourceRow": 682,
+      "duration": 12,
+      "amount": 2279,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 683,
+      "duration": 15,
+      "amount": 1478,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 684,
+      "duration": 24,
+      "amount": 5103,
+      "installmentRate": 3,
+      "existingCredits": 3,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 685,
+      "duration": 36,
+      "amount": 9857,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 686,
+      "duration": 60,
+      "amount": 6527,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 687,
+      "duration": 10,
+      "amount": 1347,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 688,
+      "duration": 36,
+      "amount": 2862,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 689,
+      "duration": 9,
+      "amount": 2753,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 690,
+      "duration": 12,
+      "amount": 3651,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 691,
+      "duration": 15,
+      "amount": 975,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 692,
+      "duration": 15,
+      "amount": 2631,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 693,
+      "duration": 24,
+      "amount": 2896,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 694,
+      "duration": 6,
+      "amount": 4716,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 695,
+      "duration": 24,
+      "amount": 2284,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 696,
+      "duration": 6,
+      "amount": 1236,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 697,
+      "duration": 12,
+      "amount": 1103,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 698,
+      "duration": 12,
+      "amount": 926,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 699,
+      "duration": 18,
+      "amount": 1800,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 700,
+      "duration": 15,
+      "amount": 1905,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 701,
+      "duration": 12,
+      "amount": 1123,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 702,
+      "duration": 48,
+      "amount": 6331,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 1
+    },
+    {
+      "sourceRow": 703,
+      "duration": 24,
+      "amount": 1377,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 704,
+      "duration": 30,
+      "amount": 2503,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 705,
+      "duration": 27,
+      "amount": 2528,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 706,
+      "duration": 15,
+      "amount": 5324,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 707,
+      "duration": 48,
+      "amount": 6560,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 708,
+      "duration": 12,
+      "amount": 2969,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 709,
+      "duration": 9,
+      "amount": 1206,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 710,
+      "duration": 9,
+      "amount": 2118,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 711,
+      "duration": 18,
+      "amount": 629,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 712,
+      "duration": 6,
+      "amount": 1198,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 1
+    },
+    {
+      "sourceRow": 713,
+      "duration": 21,
+      "amount": 2476,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 714,
+      "duration": 9,
+      "amount": 1138,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 715,
+      "duration": 60,
+      "amount": 14027,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 716,
+      "duration": 30,
+      "amount": 7596,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 63,
+      "risk": 0
+    },
+    {
+      "sourceRow": 717,
+      "duration": 30,
+      "amount": 3077,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 718,
+      "duration": 18,
+      "amount": 1505,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 719,
+      "duration": 24,
+      "amount": 3148,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 720,
+      "duration": 20,
+      "amount": 6148,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 721,
+      "duration": 9,
+      "amount": 1337,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 1
+    },
+    {
+      "sourceRow": 722,
+      "duration": 6,
+      "amount": 433,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 723,
+      "duration": 12,
+      "amount": 1228,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 724,
+      "duration": 9,
+      "amount": 790,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 66,
+      "risk": 0
+    },
+    {
+      "sourceRow": 725,
+      "duration": 27,
+      "amount": 2570,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 1
+    },
+    {
+      "sourceRow": 726,
+      "duration": 6,
+      "amount": 250,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 727,
+      "duration": 15,
+      "amount": 1316,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 728,
+      "duration": 18,
+      "amount": 1882,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 729,
+      "duration": 48,
+      "amount": 6416,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 59,
+      "risk": 1
+    },
+    {
+      "sourceRow": 730,
+      "duration": 24,
+      "amount": 1275,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 731,
+      "duration": 24,
+      "amount": 6403,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 732,
+      "duration": 24,
+      "amount": 1987,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 1
+    },
+    {
+      "sourceRow": 733,
+      "duration": 8,
+      "amount": 760,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 734,
+      "duration": 24,
+      "amount": 2603,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 735,
+      "duration": 4,
+      "amount": 3380,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 736,
+      "duration": 36,
+      "amount": 3990,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 737,
+      "duration": 24,
+      "amount": 11560,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 738,
+      "duration": 18,
+      "amount": 4380,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 739,
+      "duration": 6,
+      "amount": 6761,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 740,
+      "duration": 30,
+      "amount": 4280,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 741,
+      "duration": 24,
+      "amount": 2325,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 742,
+      "duration": 10,
+      "amount": 1048,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 743,
+      "duration": 21,
+      "amount": 3160,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 744,
+      "duration": 24,
+      "amount": 2483,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 745,
+      "duration": 39,
+      "amount": 14179,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 746,
+      "duration": 13,
+      "amount": 1797,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 747,
+      "duration": 15,
+      "amount": 2511,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 748,
+      "duration": 12,
+      "amount": 1274,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 1
+    },
+    {
+      "sourceRow": 749,
+      "duration": 21,
+      "amount": 5248,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 750,
+      "duration": 15,
+      "amount": 3029,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 751,
+      "duration": 6,
+      "amount": 428,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 752,
+      "duration": 18,
+      "amount": 976,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 753,
+      "duration": 12,
+      "amount": 841,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 754,
+      "duration": 30,
+      "amount": 5771,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 755,
+      "duration": 12,
+      "amount": 1555,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 55,
+      "risk": 1
+    },
+    {
+      "sourceRow": 756,
+      "duration": 24,
+      "amount": 1285,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 757,
+      "duration": 6,
+      "amount": 1299,
+      "installmentRate": 1,
+      "existingCredits": 3,
+      "age": 74,
+      "risk": 0
+    },
+    {
+      "sourceRow": 758,
+      "duration": 15,
+      "amount": 1271,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 39,
+      "risk": 1
+    },
+    {
+      "sourceRow": 759,
+      "duration": 24,
+      "amount": 1393,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 760,
+      "duration": 12,
+      "amount": 691,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 1
+    },
+    {
+      "sourceRow": 761,
+      "duration": 15,
+      "amount": 5045,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 59,
+      "risk": 0
+    },
+    {
+      "sourceRow": 762,
+      "duration": 18,
+      "amount": 2124,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 763,
+      "duration": 12,
+      "amount": 2214,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 764,
+      "duration": 21,
+      "amount": 12680,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 765,
+      "duration": 24,
+      "amount": 2463,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 766,
+      "duration": 12,
+      "amount": 1155,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 767,
+      "duration": 30,
+      "amount": 3108,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 768,
+      "duration": 10,
+      "amount": 2901,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 769,
+      "duration": 12,
+      "amount": 3617,
+      "installmentRate": 1,
+      "existingCredits": 3,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 770,
+      "duration": 12,
+      "amount": 1655,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 63,
+      "risk": 0
+    },
+    {
+      "sourceRow": 771,
+      "duration": 24,
+      "amount": 2812,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 772,
+      "duration": 36,
+      "amount": 8065,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 773,
+      "duration": 21,
+      "amount": 3275,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 774,
+      "duration": 24,
+      "amount": 2223,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 52,
+      "risk": 0
+    },
+    {
+      "sourceRow": 775,
+      "duration": 12,
+      "amount": 1480,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 66,
+      "risk": 0
+    },
+    {
+      "sourceRow": 776,
+      "duration": 24,
+      "amount": 1371,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 777,
+      "duration": 36,
+      "amount": 3535,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 778,
+      "duration": 18,
+      "amount": 3509,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 779,
+      "duration": 36,
+      "amount": 5711,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 780,
+      "duration": 18,
+      "amount": 3872,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 67,
+      "risk": 0
+    },
+    {
+      "sourceRow": 781,
+      "duration": 39,
+      "amount": 4933,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 782,
+      "duration": 24,
+      "amount": 1940,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 60,
+      "risk": 0
+    },
+    {
+      "sourceRow": 783,
+      "duration": 12,
+      "amount": 1410,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 784,
+      "duration": 12,
+      "amount": 836,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 785,
+      "duration": 20,
+      "amount": 6468,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 60,
+      "risk": 0
+    },
+    {
+      "sourceRow": 786,
+      "duration": 18,
+      "amount": 1941,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 787,
+      "duration": 22,
+      "amount": 2675,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 788,
+      "duration": 48,
+      "amount": 2751,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 789,
+      "duration": 48,
+      "amount": 6224,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 1
+    },
+    {
+      "sourceRow": 790,
+      "duration": 40,
+      "amount": 5998,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 791,
+      "duration": 21,
+      "amount": 1188,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 1
+    },
+    {
+      "sourceRow": 792,
+      "duration": 24,
+      "amount": 6313,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 0
+    },
+    {
+      "sourceRow": 793,
+      "duration": 6,
+      "amount": 1221,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 794,
+      "duration": 24,
+      "amount": 2892,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 51,
+      "risk": 0
+    },
+    {
+      "sourceRow": 795,
+      "duration": 24,
+      "amount": 3062,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 796,
+      "duration": 9,
+      "amount": 2301,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 797,
+      "duration": 18,
+      "amount": 7511,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 51,
+      "risk": 1
+    },
+    {
+      "sourceRow": 798,
+      "duration": 12,
+      "amount": 1258,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 799,
+      "duration": 24,
+      "amount": 717,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 54,
+      "risk": 0
+    },
+    {
+      "sourceRow": 800,
+      "duration": 9,
+      "amount": 1549,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 801,
+      "duration": 24,
+      "amount": 1597,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 54,
+      "risk": 0
+    },
+    {
+      "sourceRow": 802,
+      "duration": 18,
+      "amount": 1795,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 803,
+      "duration": 20,
+      "amount": 4272,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 804,
+      "duration": 12,
+      "amount": 976,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 805,
+      "duration": 12,
+      "amount": 7472,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 806,
+      "duration": 36,
+      "amount": 9271,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 807,
+      "duration": 6,
+      "amount": 590,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 808,
+      "duration": 12,
+      "amount": 930,
+      "installmentRate": 4,
+      "existingCredits": 4,
+      "age": 65,
+      "risk": 0
+    },
+    {
+      "sourceRow": 809,
+      "duration": 42,
+      "amount": 9283,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 55,
+      "risk": 0
+    },
+    {
+      "sourceRow": 810,
+      "duration": 15,
+      "amount": 1778,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 811,
+      "duration": 8,
+      "amount": 907,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 812,
+      "duration": 6,
+      "amount": 484,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 813,
+      "duration": 36,
+      "amount": 9629,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 814,
+      "duration": 48,
+      "amount": 3051,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 54,
+      "risk": 1
+    },
+    {
+      "sourceRow": 815,
+      "duration": 48,
+      "amount": 3931,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 46,
+      "risk": 1
+    },
+    {
+      "sourceRow": 816,
+      "duration": 36,
+      "amount": 7432,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 54,
+      "risk": 0
+    },
+    {
+      "sourceRow": 817,
+      "duration": 6,
+      "amount": 1338,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 62,
+      "risk": 0
+    },
+    {
+      "sourceRow": 818,
+      "duration": 6,
+      "amount": 1554,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 819,
+      "duration": 36,
+      "amount": 15857,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 820,
+      "duration": 18,
+      "amount": 1345,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 821,
+      "duration": 12,
+      "amount": 1101,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 822,
+      "duration": 12,
+      "amount": 3016,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 823,
+      "duration": 36,
+      "amount": 2712,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 41,
+      "risk": 1
+    },
+    {
+      "sourceRow": 824,
+      "duration": 8,
+      "amount": 731,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 825,
+      "duration": 18,
+      "amount": 3780,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 826,
+      "duration": 21,
+      "amount": 1602,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 827,
+      "duration": 18,
+      "amount": 3966,
+      "installmentRate": 1,
+      "existingCredits": 3,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 828,
+      "duration": 18,
+      "amount": 4165,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 1
+    },
+    {
+      "sourceRow": 829,
+      "duration": 36,
+      "amount": 8335,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 47,
+      "risk": 1
+    },
+    {
+      "sourceRow": 830,
+      "duration": 48,
+      "amount": 6681,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 831,
+      "duration": 24,
+      "amount": 2375,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 832,
+      "duration": 18,
+      "amount": 1216,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 833,
+      "duration": 45,
+      "amount": 11816,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 834,
+      "duration": 24,
+      "amount": 5084,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 835,
+      "duration": 15,
+      "amount": 2327,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 836,
+      "duration": 12,
+      "amount": 1082,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 48,
+      "risk": 1
+    },
+    {
+      "sourceRow": 837,
+      "duration": 12,
+      "amount": 886,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 838,
+      "duration": 4,
+      "amount": 601,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 839,
+      "duration": 24,
+      "amount": 2957,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 63,
+      "risk": 0
+    },
+    {
+      "sourceRow": 840,
+      "duration": 24,
+      "amount": 2611,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 841,
+      "duration": 36,
+      "amount": 5179,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 842,
+      "duration": 21,
+      "amount": 2993,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 843,
+      "duration": 18,
+      "amount": 1943,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 844,
+      "duration": 24,
+      "amount": 1559,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 845,
+      "duration": 18,
+      "amount": 3422,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 846,
+      "duration": 21,
+      "amount": 3976,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 847,
+      "duration": 18,
+      "amount": 6761,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 68,
+      "risk": 1
+    },
+    {
+      "sourceRow": 848,
+      "duration": 24,
+      "amount": 1249,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 849,
+      "duration": 9,
+      "amount": 1364,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 59,
+      "risk": 0
+    },
+    {
+      "sourceRow": 850,
+      "duration": 12,
+      "amount": 709,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 57,
+      "risk": 1
+    },
+    {
+      "sourceRow": 851,
+      "duration": 20,
+      "amount": 2235,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 852,
+      "duration": 24,
+      "amount": 4042,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 853,
+      "duration": 15,
+      "amount": 1471,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 854,
+      "duration": 18,
+      "amount": 1442,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 855,
+      "duration": 36,
+      "amount": 10875,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 856,
+      "duration": 24,
+      "amount": 1474,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 857,
+      "duration": 10,
+      "amount": 894,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 858,
+      "duration": 15,
+      "amount": 3343,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 859,
+      "duration": 15,
+      "amount": 3959,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 860,
+      "duration": 9,
+      "amount": 3577,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 861,
+      "duration": 24,
+      "amount": 5804,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 862,
+      "duration": 18,
+      "amount": 2169,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 863,
+      "duration": 24,
+      "amount": 2439,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 1
+    },
+    {
+      "sourceRow": 864,
+      "duration": 27,
+      "amount": 4526,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 865,
+      "duration": 10,
+      "amount": 2210,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 866,
+      "duration": 15,
+      "amount": 2221,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 867,
+      "duration": 18,
+      "amount": 2389,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 868,
+      "duration": 12,
+      "amount": 3331,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 869,
+      "duration": 36,
+      "amount": 7409,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 870,
+      "duration": 12,
+      "amount": 652,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 871,
+      "duration": 36,
+      "amount": 7678,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 872,
+      "duration": 6,
+      "amount": 1343,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 873,
+      "duration": 24,
+      "amount": 1382,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 874,
+      "duration": 15,
+      "amount": 874,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 875,
+      "duration": 12,
+      "amount": 3590,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 876,
+      "duration": 11,
+      "amount": 1322,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 877,
+      "duration": 18,
+      "amount": 1940,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 878,
+      "duration": 36,
+      "amount": 3595,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 879,
+      "duration": 9,
+      "amount": 1422,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 1
+    },
+    {
+      "sourceRow": 880,
+      "duration": 30,
+      "amount": 6742,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 881,
+      "duration": 24,
+      "amount": 7814,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 882,
+      "duration": 24,
+      "amount": 9277,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 883,
+      "duration": 30,
+      "amount": 2181,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 884,
+      "duration": 18,
+      "amount": 1098,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 65,
+      "risk": 0
+    },
+    {
+      "sourceRow": 885,
+      "duration": 24,
+      "amount": 4057,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 1
+    },
+    {
+      "sourceRow": 886,
+      "duration": 12,
+      "amount": 795,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 53,
+      "risk": 1
+    },
+    {
+      "sourceRow": 887,
+      "duration": 24,
+      "amount": 2825,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 888,
+      "duration": 48,
+      "amount": 15672,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 889,
+      "duration": 36,
+      "amount": 6614,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 890,
+      "duration": 28,
+      "amount": 7824,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 891,
+      "duration": 27,
+      "amount": 2442,
+      "installmentRate": 4,
+      "existingCredits": 4,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 892,
+      "duration": 15,
+      "amount": 1829,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 893,
+      "duration": 12,
+      "amount": 2171,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 894,
+      "duration": 36,
+      "amount": 5800,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 895,
+      "duration": 18,
+      "amount": 1169,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 896,
+      "duration": 36,
+      "amount": 8947,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 897,
+      "duration": 21,
+      "amount": 2606,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 898,
+      "duration": 12,
+      "amount": 1592,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 35,
+      "risk": 0
+    },
+    {
+      "sourceRow": 899,
+      "duration": 15,
+      "amount": 2186,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 900,
+      "duration": 18,
+      "amount": 4153,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 1
+    },
+    {
+      "sourceRow": 901,
+      "duration": 16,
+      "amount": 2625,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 1
+    },
+    {
+      "sourceRow": 902,
+      "duration": 20,
+      "amount": 3485,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 44,
+      "risk": 0
+    },
+    {
+      "sourceRow": 903,
+      "duration": 36,
+      "amount": 10477,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 904,
+      "duration": 15,
+      "amount": 1386,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 905,
+      "duration": 24,
+      "amount": 1278,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 0
+    },
+    {
+      "sourceRow": 906,
+      "duration": 12,
+      "amount": 1107,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 20,
+      "risk": 0
+    },
+    {
+      "sourceRow": 907,
+      "duration": 21,
+      "amount": 3763,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 908,
+      "duration": 36,
+      "amount": 3711,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    },
+    {
+      "sourceRow": 909,
+      "duration": 15,
+      "amount": 3594,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 910,
+      "duration": 9,
+      "amount": 3195,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 911,
+      "duration": 36,
+      "amount": 4454,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 912,
+      "duration": 24,
+      "amount": 4736,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 913,
+      "duration": 30,
+      "amount": 2991,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 914,
+      "duration": 11,
+      "amount": 2142,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 915,
+      "duration": 24,
+      "amount": 3161,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 916,
+      "duration": 48,
+      "amount": 18424,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 1
+    },
+    {
+      "sourceRow": 917,
+      "duration": 10,
+      "amount": 2848,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 32,
+      "risk": 0
+    },
+    {
+      "sourceRow": 918,
+      "duration": 6,
+      "amount": 14896,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 68,
+      "risk": 1
+    },
+    {
+      "sourceRow": 919,
+      "duration": 24,
+      "amount": 2359,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 920,
+      "duration": 24,
+      "amount": 3345,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 39,
+      "risk": 1
+    },
+    {
+      "sourceRow": 921,
+      "duration": 18,
+      "amount": 1817,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 922,
+      "duration": 48,
+      "amount": 12749,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 923,
+      "duration": 9,
+      "amount": 1366,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 924,
+      "duration": 12,
+      "amount": 2002,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 925,
+      "duration": 24,
+      "amount": 6872,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 55,
+      "risk": 1
+    },
+    {
+      "sourceRow": 926,
+      "duration": 12,
+      "amount": 697,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 1
+    },
+    {
+      "sourceRow": 927,
+      "duration": 18,
+      "amount": 1049,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 21,
+      "risk": 0
+    },
+    {
+      "sourceRow": 928,
+      "duration": 48,
+      "amount": 10297,
+      "installmentRate": 4,
+      "existingCredits": 3,
+      "age": 39,
+      "risk": 1
+    },
+    {
+      "sourceRow": 929,
+      "duration": 30,
+      "amount": 1867,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 58,
+      "risk": 0
+    },
+    {
+      "sourceRow": 930,
+      "duration": 12,
+      "amount": 1344,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 931,
+      "duration": 24,
+      "amount": 1747,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 24,
+      "risk": 0
+    },
+    {
+      "sourceRow": 932,
+      "duration": 9,
+      "amount": 1670,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 1
+    },
+    {
+      "sourceRow": 933,
+      "duration": 9,
+      "amount": 1224,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 934,
+      "duration": 12,
+      "amount": 522,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 935,
+      "duration": 12,
+      "amount": 1498,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 936,
+      "duration": 30,
+      "amount": 1919,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 937,
+      "duration": 9,
+      "amount": 745,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 938,
+      "duration": 6,
+      "amount": 2063,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 939,
+      "duration": 60,
+      "amount": 6288,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 42,
+      "risk": 1
+    },
+    {
+      "sourceRow": 940,
+      "duration": 24,
+      "amount": 6842,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 941,
+      "duration": 12,
+      "amount": 3527,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 0
+    },
+    {
+      "sourceRow": 942,
+      "duration": 10,
+      "amount": 1546,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 943,
+      "duration": 24,
+      "amount": 929,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 944,
+      "duration": 4,
+      "amount": 1455,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 945,
+      "duration": 15,
+      "amount": 1845,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 46,
+      "risk": 0
+    },
+    {
+      "sourceRow": 946,
+      "duration": 48,
+      "amount": 8358,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 947,
+      "duration": 24,
+      "amount": 3349,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 1
+    },
+    {
+      "sourceRow": 948,
+      "duration": 12,
+      "amount": 2859,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 949,
+      "duration": 18,
+      "amount": 1533,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 1
+    },
+    {
+      "sourceRow": 950,
+      "duration": 24,
+      "amount": 3621,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 31,
+      "risk": 1
+    },
+    {
+      "sourceRow": 951,
+      "duration": 18,
+      "amount": 3590,
+      "installmentRate": 3,
+      "existingCredits": 3,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 952,
+      "duration": 36,
+      "amount": 2145,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 24,
+      "risk": 1
+    },
+    {
+      "sourceRow": 953,
+      "duration": 24,
+      "amount": 4113,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 1
+    },
+    {
+      "sourceRow": 954,
+      "duration": 36,
+      "amount": 10974,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 955,
+      "duration": 12,
+      "amount": 1893,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 956,
+      "duration": 24,
+      "amount": 1231,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 57,
+      "risk": 0
+    },
+    {
+      "sourceRow": 957,
+      "duration": 30,
+      "amount": 3656,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 49,
+      "risk": 0
+    },
+    {
+      "sourceRow": 958,
+      "duration": 9,
+      "amount": 1154,
+      "installmentRate": 2,
+      "existingCredits": 3,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 959,
+      "duration": 28,
+      "amount": 4006,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 45,
+      "risk": 1
+    },
+    {
+      "sourceRow": 960,
+      "duration": 24,
+      "amount": 3069,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 961,
+      "duration": 6,
+      "amount": 1740,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 962,
+      "duration": 21,
+      "amount": 2353,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 47,
+      "risk": 0
+    },
+    {
+      "sourceRow": 963,
+      "duration": 15,
+      "amount": 3556,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 964,
+      "duration": 24,
+      "amount": 2397,
+      "installmentRate": 3,
+      "existingCredits": 2,
+      "age": 35,
+      "risk": 1
+    },
+    {
+      "sourceRow": 965,
+      "duration": 6,
+      "amount": 454,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 966,
+      "duration": 30,
+      "amount": 1715,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 0
+    },
+    {
+      "sourceRow": 967,
+      "duration": 27,
+      "amount": 2520,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 968,
+      "duration": 15,
+      "amount": 3568,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 54,
+      "risk": 0
+    },
+    {
+      "sourceRow": 969,
+      "duration": 42,
+      "amount": 7166,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 970,
+      "duration": 11,
+      "amount": 3939,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 971,
+      "duration": 15,
+      "amount": 1514,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 22,
+      "risk": 0
+    },
+    {
+      "sourceRow": 972,
+      "duration": 24,
+      "amount": 7393,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 43,
+      "risk": 0
+    },
+    {
+      "sourceRow": 973,
+      "duration": 24,
+      "amount": 1193,
+      "installmentRate": 1,
+      "existingCredits": 2,
+      "age": 29,
+      "risk": 1
+    },
+    {
+      "sourceRow": 974,
+      "duration": 60,
+      "amount": 7297,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 36,
+      "risk": 1
+    },
+    {
+      "sourceRow": 975,
+      "duration": 30,
+      "amount": 2831,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 976,
+      "duration": 24,
+      "amount": 1258,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 57,
+      "risk": 0
+    },
+    {
+      "sourceRow": 977,
+      "duration": 6,
+      "amount": 753,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 64,
+      "risk": 0
+    },
+    {
+      "sourceRow": 978,
+      "duration": 18,
+      "amount": 2427,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 42,
+      "risk": 0
+    },
+    {
+      "sourceRow": 979,
+      "duration": 24,
+      "amount": 2538,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 47,
+      "risk": 1
+    },
+    {
+      "sourceRow": 980,
+      "duration": 15,
+      "amount": 1264,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 25,
+      "risk": 1
+    },
+    {
+      "sourceRow": 981,
+      "duration": 30,
+      "amount": 8386,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 49,
+      "risk": 1
+    },
+    {
+      "sourceRow": 982,
+      "duration": 48,
+      "amount": 4844,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 33,
+      "risk": 1
+    },
+    {
+      "sourceRow": 983,
+      "duration": 21,
+      "amount": 2923,
+      "installmentRate": 1,
+      "existingCredits": 1,
+      "age": 28,
+      "risk": 0
+    },
+    {
+      "sourceRow": 984,
+      "duration": 36,
+      "amount": 8229,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 26,
+      "risk": 1
+    },
+    {
+      "sourceRow": 985,
+      "duration": 24,
+      "amount": 2028,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 986,
+      "duration": 15,
+      "amount": 1433,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 25,
+      "risk": 0
+    },
+    {
+      "sourceRow": 987,
+      "duration": 42,
+      "amount": 6289,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 33,
+      "risk": 0
+    },
+    {
+      "sourceRow": 988,
+      "duration": 13,
+      "amount": 1409,
+      "installmentRate": 2,
+      "existingCredits": 1,
+      "age": 64,
+      "risk": 0
+    },
+    {
+      "sourceRow": 989,
+      "duration": 24,
+      "amount": 6579,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 29,
+      "risk": 0
+    },
+    {
+      "sourceRow": 990,
+      "duration": 24,
+      "amount": 1743,
+      "installmentRate": 4,
+      "existingCredits": 2,
+      "age": 48,
+      "risk": 0
+    },
+    {
+      "sourceRow": 991,
+      "duration": 12,
+      "amount": 3565,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 37,
+      "risk": 0
+    },
+    {
+      "sourceRow": 992,
+      "duration": 15,
+      "amount": 1569,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 34,
+      "risk": 0
+    },
+    {
+      "sourceRow": 993,
+      "duration": 18,
+      "amount": 1936,
+      "installmentRate": 2,
+      "existingCredits": 2,
+      "age": 23,
+      "risk": 0
+    },
+    {
+      "sourceRow": 994,
+      "duration": 36,
+      "amount": 3959,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 30,
+      "risk": 0
+    },
+    {
+      "sourceRow": 995,
+      "duration": 12,
+      "amount": 2390,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 50,
+      "risk": 0
+    },
+    {
+      "sourceRow": 996,
+      "duration": 12,
+      "amount": 1736,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 31,
+      "risk": 0
+    },
+    {
+      "sourceRow": 997,
+      "duration": 30,
+      "amount": 3857,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 40,
+      "risk": 0
+    },
+    {
+      "sourceRow": 998,
+      "duration": 12,
+      "amount": 804,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 38,
+      "risk": 0
+    },
+    {
+      "sourceRow": 999,
+      "duration": 45,
+      "amount": 1845,
+      "installmentRate": 4,
+      "existingCredits": 1,
+      "age": 23,
+      "risk": 1
+    },
+    {
+      "sourceRow": 1000,
+      "duration": 45,
+      "amount": 4576,
+      "installmentRate": 3,
+      "existingCredits": 1,
+      "age": 27,
+      "risk": 0
+    }
+  ]
+}

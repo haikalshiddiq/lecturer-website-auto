@@ -1,0 +1,8 @@
+.af-install-dialog { width:min(35rem,calc(100vw - 2rem)); max-height:85dvh; overflow:auto; border:1px solid #7587ab; border-radius:12px; padding:1.5rem; background:#fff; color:#17243d; font:inherit; line-height:1.65; }
+.af-install-dialog::backdrop { background:rgb(8 15 30 / .66); }
+.af-install-dialog h2 { margin:0 0 1rem; font-size:1.35rem; font-weight:750; }
+.af-install-dialog p { margin:.8rem 0; }
+.af-install-dialog button { min-height:44px; padding:.6rem 1rem; border:1px solid #2d52b8; border-radius:6px; background:#2d52b8; color:#fff; font:inherit; cursor:pointer; }
+.af-install-dialog button:focus-visible { outline:3px solid #ac5200; outline-offset:3px; }
+.dark .af-install-dialog,[data-theme="dark"] .af-install-dialog { background:#141e30; color:#f3f6fc; border-color:#91a4c7; }
+.dark .af-install-dialog button:focus-visible,[data-theme="dark"] .af-install-dialog button:focus-visible { outline-color:#ffd49f; }

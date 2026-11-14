@@ -2,10 +2,12 @@
 interface Props {
   title?: string;
   description?: string;
+  manifestHref?: string;
+  appTitle?: string;
 }
 
 import { siteConfig } from '../../data/site';
-const { title = siteConfig.title, description = siteConfig.description } = Astro.props;
+const { title = siteConfig.title, description = siteConfig.description, manifestHref = '/manifest.webmanifest', appTitle = 'Haikal Lecturer' } = Astro.props;
 const url = new URL(Astro.url.pathname, siteConfig.siteUrl).toString();
 ---
 <meta charset="utf-8" />
@@ -14,8 +16,8 @@ const url = new URL(Astro.url.pathname, siteConfig.siteUrl).toString();
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta name="apple-mobile-web-app-title" content="Haikal Lecturer" />
-<link rel="manifest" href="/manifest.webmanifest" />
+<meta name="apple-mobile-web-app-title" content={appTitle} />
+<link rel="manifest" href={manifestHref} />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <title>{title}</title>

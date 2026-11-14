@@ -140,6 +140,8 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
             await feedback(prediction === (join === 'parallel' ? 'tunggu' : 'akhir') ? 'Prediksi tepat.' : 'Prediksi perlu direvisi.');
             await feedback(stock === 'cukup' ? 'Reservasi: satu token' : 'Beri tahu: satu token');
             await feedback(join === 'parallel' ? 'tidak pernah diaktifkan' : 'Tidak menunggu cabang lain');
+            await feedback(stock === 'cukup' ? 'reservasi dua dan sisa tersedia satu, belum lunas' : 'penolakan tanpa reservasi baru, tersedia tetap satu');
+            for (const text of ['End bukan bukti pesanan diterima', 'bukan bukti rollback', 'FR-STOK-03', 'Actual backend belum diuji']) await feedback(text);
           }
         }
         await select('stock', 'cukup');
@@ -147,8 +149,12 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         await select('s3Outcome', 'tunggu'); await action('s3review');
         await page.reload({ waitUntil: 'networkidle' }); await feedback('Prediksi tepat.');
         await page.locator('[data-iasd-supplement="3"] summary').press('Enter');
-        assert.ok((await page.locator('[data-iasd-supplement="3"]').innerText()).includes('jejak A'));
-        await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="3"]').innerText()).includes('perpustakaan'));
+        const example3 = await page.locator('[data-iasd-supplement="3"]').innerText();
+        for (const text of ['jejak A', 'Kartu lawan C', 'AC-KURANG', 'actual backend belum diuji', 'diagram tidak menunjukkan rollback']) assert.ok(example3.includes(text), `S03 example lacks ${text}`);
+        await checkOverflow('S03 expanded task-contract example');
+        await tab('reflect');
+        const transfer3 = await page.locator('[data-iasd-transfer="3"]').innerText();
+        for (const text of ['perpustakaan', 'P/Q', 'Kartu R', 'kontrak task', 'belum membuktikan buku diserahkan']) assert.ok(transfer3.includes(text), `S03 transfer lacks ${text}`);
         await tab('teach'); await page.locator('[data-iasd-facilitation="3"] summary').click();
         assert.ok((await page.locator('[data-iasd-facilitation="3"]').innerText()).includes('Rubrik diagnostik'));
         await tab('concept');

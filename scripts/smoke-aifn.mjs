@@ -75,7 +75,10 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
     assert.equal(await page.locator('#af-notes').inputValue(),'imported valid AiFn');
     assert.equal(await page.evaluate(()=>localStorage.getItem('hicall-iasd-smoke-sentinel')),'untouched');
     await tab('practice');
+    // A deliberate download cadence matches human clicks and avoids Chromium burst suppression.
     for(const [suffix,expected] of [['aifn-labs.ipynb','nbformat'],['aifn-synthetic.csv','debt_ratio'],['README.txt','Jupyter']]) {
+      await page.waitForTimeout(200);
+      console.log(`AiFn ${profile.name} download check: ${suffix}`);
       const d=page.waitForEvent('download');await page.locator(`a[download][href$="${suffix}"]`).click();const file=await d;
       const data=await fs.readFile(await file.path(),'utf8');assert.ok(data.includes(expected));if(suffix.endsWith('ipynb'))assert.equal(JSON.parse(data).nbformat,4);
     }
@@ -86,7 +89,17 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
     await page.locator('#af-session').focus();await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');await page.waitForFunction(()=>document.location.hash==='#2');
     await session(2);await page.locator('#af-setting').selectOption('empty');assert.match(await page.locator('[data-aifn-equivalent]').innerText(),/Belum ada/);
     await page.locator('#af-setting').selectOption('error');assert.match(await page.locator('[data-aifn-equivalent]').innerText(),/Error/);
-    await page.locator('#aifn-theme').click();await overflow('theme one');await page.locator('#aifn-theme').click();await overflow('theme two');
+    const initialTheme=await page.locator('html').getAttribute('data-theme');
+    await page.locator('#aifn-theme').click();assert.notEqual(await page.locator('html').getAttribute('data-theme'),initialTheme);await overflow('theme one');
+    await page.locator('#aifn-theme').click();assert.equal(await page.locator('html').getAttribute('data-theme'),initialTheme);await overflow('theme two');
+    await session(9);await tab('practice');
+    await context.grantPermissions(['clipboard-read','clipboard-write']);
+    await page.locator('#af-copy').click();await page.waitForFunction(()=>document.querySelector('#af-copy-status').textContent.includes('Prompt tersalin'));
+    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),course.lessons[8].prompt);
+    await session(1);assert.ok(await page.locator('#af-prev').isDisabled());await page.locator('#af-next').click();await page.waitForFunction(()=>location.hash==='#2');
+    await page.locator('#af-prev').click();await page.waitForFunction(()=>location.hash==='#1');
+    await session(16);assert.ok(await page.locator('#af-next').isDisabled());
+    await session(2);await tab('concept');
     await fs.mkdir('output',{recursive:true});await page.screenshot({path:`output/aifn-${profile.name}.png`,fullPage:true});
     const isDev=await page.locator('script[src*="@vite"]').count()>0;
     let offline='not exercised on Vite dev modules; production integration required';

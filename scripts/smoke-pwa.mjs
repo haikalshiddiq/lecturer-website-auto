@@ -4,6 +4,7 @@ import net from 'node:net';
 import process from 'node:process';
 import { chromium } from 'playwright';
 import { runIasdSmoke } from './smoke-iasd.mjs';
+import { runAifnSmoke } from './smoke-aifn.mjs';
 
 const reserveFreePort = () => new Promise((resolve, reject) => {
   const probe = net.createServer();
@@ -200,6 +201,9 @@ try {
     results.push(`${profile.name}: homepage learning flow, resource/blog LMS details, progress, theme, service worker, overflow PASS`);
     await context.close();
     results.push(await runIasdSmoke(browser, baseUrl, profile));
+    const aifnResult = await runAifnSmoke(browser, baseUrl, profile);
+    assert(aifnResult.sessions.length === 16 && aifnResult.errors.length === 0, `${profile.name}: AiFn session coverage incomplete`);
+    results.push(`${profile.name}: AiFn ${aifnResult.sessions.length} sessions, controls, quizzes, teacher, storage, keyboard, downloads; ${aifnResult.offline}`);
   }
 
   const offlineContext = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'allow' });

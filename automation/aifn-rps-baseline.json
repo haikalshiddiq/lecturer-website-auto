@@ -1,0 +1,149 @@
+{
+  "sourceFilename": "RPS_FIN_S3_Artificial_Intelligence_in_Finance.docx",
+  "sourceSha256": "21bfba17138796debc00502a176c51e786f3eb9d4a214bd1141f96487edb7e7c",
+  "title": "Artificial Intelligence in Finance",
+  "id": "AiFn",
+  "sks": 2,
+  "semester": 3,
+  "institution": "Universitas Cakrawala",
+  "program": "Ekonomi, Keuangan, dan Perbankan",
+  "lessons": [
+    {
+      "n": 1,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Menjelaskan peran AI dalam keuangan.",
+      "assessment": "Kuis",
+      "method": "Ceramah interaktif",
+      "title": "Pengantar AI dan machine learning di keuangan"
+    },
+    {
+      "n": 2,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Menyiapkan lingkungan Python dan data.",
+      "assessment": "Praktikum",
+      "method": "Praktikum laboratorium",
+      "title": "Python, Jupyter, dan pemrosesan data keuangan"
+    },
+    {
+      "n": 3,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Mengeksplorasi data keuangan.",
+      "assessment": "Praktikum",
+      "method": "Praktikum",
+      "title": "Eksplorasi dan praproses data keuangan"
+    },
+    {
+      "n": 4,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Menjelaskan supervised learning.",
+      "assessment": "Tugas",
+      "method": "Ceramah dan praktikum",
+      "title": "Supervised learning: regresi dan klasifikasi"
+    },
+    {
+      "n": 5,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Membangun model regresi.",
+      "assessment": "Praktikum",
+      "method": "Praktikum",
+      "title": "Model regresi untuk prediksi nilai"
+    },
+    {
+      "n": 6,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Membangun model klasifikasi.",
+      "assessment": "Praktikum",
+      "method": "Praktikum",
+      "title": "Model klasifikasi untuk keputusan keuangan"
+    },
+    {
+      "n": 7,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Membangun model credit scoring.",
+      "assessment": "Tugas kelompok",
+      "method": "Praktikum",
+      "title": "Model credit scoring"
+    },
+    {
+      "n": 8,
+      "sourceWeeklyWeight": "15%",
+      "outcome": "Evaluasi capaian paruh pertama semester",
+      "assessment": "UTS",
+      "method": "Ujian tertulis",
+      "title": "Ujian Tengah Semester (UTS)"
+    },
+    {
+      "n": 9,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Menerapkan analisis sentimen.",
+      "assessment": "Praktikum",
+      "method": "Praktikum laboratorium",
+      "title": "Analisis sentimen berita/keuangan dengan Claude"
+    },
+    {
+      "n": 10,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Mengevaluasi performa model.",
+      "assessment": "Tugas",
+      "method": "Praktikum",
+      "title": "Evaluasi model: akurasi, presisi, dan AUC"
+    },
+    {
+      "n": 11,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Menginterpretasikan hasil model.",
+      "assessment": "Tugas",
+      "method": "Diskusi",
+      "title": "Interpretasi dan penjelasan model"
+    },
+    {
+      "n": 12,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Menilai etika dan bias AI.",
+      "assessment": "Tugas",
+      "method": "Diskusi kasus",
+      "title": "Etika, bias, dan responsible AI di keuangan"
+    },
+    {
+      "n": 13,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Menerapkan clustering untuk segmentasi.",
+      "assessment": "Praktikum",
+      "method": "Praktikum",
+      "title": "Unsupervised learning: clustering untuk segmentasi nasabah"
+    },
+    {
+      "n": 14,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Menyempurnakan dan mendokumentasikan model.",
+      "assessment": "Tugas",
+      "method": "Bimbingan",
+      "title": "Penyempurnaan model dan dokumentasi"
+    },
+    {
+      "n": 15,
+      "sourceWeeklyWeight": "5%",
+      "outcome": "Mempresentasikan model AI keuangan.",
+      "assessment": "Presentasi",
+      "method": "Presentasi dan evaluasi",
+      "title": "Proyek: credit-scoring atau sentiment model"
+    },
+    {
+      "n": 16,
+      "sourceWeeklyWeight": "15%",
+      "outcome": "Evaluasi capaian menyeluruh satu semester",
+      "assessment": "UAS",
+      "method": "Ujian tertulis / proyek akhir",
+      "title": "Ujian Akhir Semester (UAS)"
+    }
+  ],
+  "activeGrading": {
+    "UTS": 25,
+    "UAS": 25,
+    "individual": 20,
+    "group": 20,
+    "attendance": 10
+  },
+  "gradingAuthority": "User confirmation in this conversation: use final assessment summary, not weekly table weights. Source weekly weights retained only as provenance.",
+  "runtimePolicy": "Browser simulations plus Colab/Jupyter notebook downloads; Claude manual guide, no paid API backend; publicly accessible including instructor; exams are public practice."
+}

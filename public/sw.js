@@ -1,4 +1,4 @@
-const VERSION = "2026-10-21-iasd-1";
+const VERSION = "2026-11-14-aifn-iasd-1";
 const SHELL_CACHE = `hicall-shell-${VERSION}`;
 const DATA_CACHE = `hicall-data-${VERSION}`;
 const SHELL = [
@@ -42,6 +42,15 @@ self.addEventListener("fetch", (event) => {
       fetch(request)
         .then((response) => cacheResponse(DATA_CACHE, request, response))
         .catch(async () => (await caches.match(request)) || caches.match("/offline.html"))
+    );
+    return;
+  }
+
+  if (url.pathname.startsWith("/aifn/") || url.pathname.startsWith("/iasd/")) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => cacheResponse(DATA_CACHE, request, response))
+        .catch(async () => (await caches.match(request)) || new Response("Materi belum tersimpan. Buka sekali saat online.", { status: 503, headers: { "Content-Type": "text/plain; charset=utf-8" } }))
     );
     return;
   }

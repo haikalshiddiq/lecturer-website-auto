@@ -8,4 +8,6 @@ coverage/
 .DS_Store
 .vercel
 output/
+__pycache__/
+*.pyc
 

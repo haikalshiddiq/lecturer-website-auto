@@ -1,4 +1,6 @@
-# IASD-only maintenance contract
+# Historical IASD-only maintenance contract
+
+Superseded by `automation/teaching-maintenance.md`: the user authorized AiFn alongside IASD and one success-based alternating daily cron. The old course freezes, baseline protection and evidence discipline below remain; IASD-only turn selection and the legacy release entry point are historical, not the current contract.
 
 ## Scope
 

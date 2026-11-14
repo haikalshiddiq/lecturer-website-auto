@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "activeCourses": [
+    "IASD",
+    "AiFn"
+  ],
+  "revision": "6ae8e57edad7609ae9e0f2c9128a74edacf186f8f6e03233095f7b2a2f555943",
+  "courses": {
+    "IASD": {
+      "revision": "b39ce2707de2192fbb8fe83f3ed2d63cab1c7143b7a22861326bea755f599144",
+      "sessions": 16
+    },
+    "AiFn": {
+      "revision": "ca4f087247234aa42d3549d3ca11fbc92666906d0fde431508fdbb41125d0215",
+      "sessions": 16
+    }
+  }
+}

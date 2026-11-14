@@ -1,9 +1,10 @@
 {
-  "activeCourse": "IASD",
+  "activeCourses": ["IASD", "AiFn"],
   "pausedCourses": ["Information System Management", "Communication Protocol", "Artificial Intelligence"],
   "genericDailyPublishing": false,
   "preserveExistingMaterials": true,
   "contentLanguage": "id",
-  "authoritativeBaseline": "src/data/iasd-course.json",
-  "enhancementPolicy": "Add sourced, clearly labeled IASD supplements or improve IASD interactions. Preserve the supplied 16-session baseline and local learner progress. Do not generate generic date-stamped articles."
+  "authoritativeBaselines": {"IASD": "src/data/iasd-course.json", "AiFn": "automation/aifn-rps-baseline.json"},
+  "rotation": {"mode": "alternate-successful-releases", "stateFile": "/home/ubuntu/.hermes/cache/teaching-course-rotation.json", "initialNextCourse": "IASD", "advanceOnNoChange": false, "advanceOnFailure": false},
+  "enhancementPolicy": "Each scheduled run deepens one session in the selected course only. Preserve the IASD supplied 16-session baseline, AiFn RPS mapping and user-confirmed grading, plus all local learner progress. New teaching examples are labeled supplements. Preserve visuals, interactivity, public student/instructor access and offline material. No generic date-stamped articles or financial advice."
 }

@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Haikal Shiddiq S.Kom., M.T.',
   role: 'Lecturer · Academic Professional',
-  siteUrl: 'https://lecturer-materials.pages.dev',
+  siteUrl: 'https://hicall.web.id',
   title:
     'Haikal Shiddiq S.Kom., M.T. | Information System Management, Communication Protocol, and Artificial Intelligence',
   description:
@@ -19,6 +19,7 @@ export const siteConfig = {
     { label: 'Expertise', href: '/expertise' },
     { label: 'Resources', href: '/resources' },
     { label: 'IASD', href: '/iasd' },
+    { label: 'AiFn', href: '/aifn' },
     { label: 'Blog', href: '/blog' },
     { label: 'Publications', href: '/publications' },
     { label: 'Contact', href: '/contact' }

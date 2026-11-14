@@ -777,6 +777,11 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
     for (const lesson of course.lessons) {
       await session(lesson.n);
       assert.equal(await page.locator('.concept-grid .concept').count(), 3);
+      const conceptVisual = page.locator(`[data-course-visual="iasd"][data-lesson-id="${lesson.n}"]`);
+      assert.ok(await conceptVisual.isVisible(), `Session ${lesson.n} conceptual visual missing`);
+      assert.ok(await conceptVisual.getAttribute('aria-labelledby'));
+      assert.ok(await conceptVisual.getAttribute('aria-describedby'));
+      assert.ok(await conceptVisual.locator('figcaption').textContent());
       assert.ok(await page.locator(lesson.sim === 'prototype' ? '#sim-viz .screen' : '#sim-viz svg').isVisible(), `Session ${lesson.n} visual missing`);
       await simulator(lesson.n);
       await checkOverflow(`session ${lesson.n} visual`);

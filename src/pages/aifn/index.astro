@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import course from '../../data/aifn-course.json';
+import '../../styles/aifn-studio.css';
+---
+<BaseLayout title="AiFn: Artificial Intelligence in Finance" description="Peta 16 pertemuan AI dalam keuangan, studio simulasi, notebook Python offline, dan panduan pengajar publik." lang="id">
+  <div class="aifn" data-aifn-overview>
+    <div class="af-overview">
+      <header>
+        <p class="af-kicker">{course.institution} · {course.program} · Semester {course.semester} · {course.credits} SKS</p>
+        <h1>{course.title}</h1>
+        <p>Belajar membangun, mengevaluasi, dan mengkritisi model keuangan. Setiap pertemuan memuat visual yang dapat diubah, contoh hitung, praktik, kuis beralasan, dan panduan fasilitasi.</p>
+        <div class="af-actions"><a class="af-link" href="/aifn/studio#1">Buka studio pertemuan 1</a><a class="af-link" href="/aifn/studio?mode=teach#1">Panduan pengajar publik</a></div>
+      </header>
+      <p class="af-notice">Semua dataset dan kasus adalah sintetis untuk belajar. Bukan nasihat keuangan, investasi, atau keputusan kredit nyata. UTS/UAS di studio adalah latihan publik, bukan ujian resmi. Catatan dan progres tersimpan hanya di browser ini.</p>
+      <section aria-labelledby="map-title"><h2 id="map-title">16 pertemuan, satu alur bukti</h2><ol class="af-map">{course.lessons.map(lesson => <li><a href={`/aifn/studio#${lesson.id}`}>{String(lesson.id).padStart(2,'0')} · {lesson.title}</a><p>{lesson.objective} · {lesson.cpmk.map(n=>`CPMK${n}`).join(', ')}</p></li>)}</ol></section>
+      <details open><summary>Penilaian akhir yang berlaku</summary><div class="af-grade">{Object.entries(course.grading).map(([label,value])=><div><strong>{value}%</strong>{label}</div>)}</div><p>{course.gradingNote}</p></details>
+      <details><summary>Capaian, pemetaan RPS, dan provenance</summary><ul>{course.outcomes.map(outcome=><li>{outcome}</li>)}</ul><p>Sumber: RPS {course.title}, disusun {course.source.date}. Berkas: <code>{course.source.file}</code>.</p><p style="overflow-wrap:anywhere">SHA-256 dokumen: <code>{course.source.sha256}</code></p><p>{course.source.note}</p><p>Tabel mingguan sumber mencantumkan 5% untuk sesi nonujian dan 15% untuk sesi 8/16. Nilai itu dipertahankan sebagai provenance saja, bukan skema nilai aktif. Penilaian aktif mengikuti konfirmasi 25/25/20/20/10 di atas.</p><ol>{course.lessons.map(lesson=><li><strong>Sesi {lesson.id}: {lesson.rpsTopic}</strong><br />Sub-CPMK: {lesson.objective}</li>)}</ol><h3>Pustaka RPS</h3><ul>{course.references.map(reference=><li>{reference}</li>)}</ul></details>
+      <details><summary>Notebook, CSV, dan cara belajar tanpa API</summary><p>Unduh kedua berkas. Di Jupyter: letakkan CSV bersama notebook, buka notebook, restart kernel lalu Run All. Python 3 dengan pustaka standar cukup, tanpa instalasi paket.</p><p>Di Google Colab: buka Colab secara manual, pilih File → Upload notebook, lalu unggah CSV lewat panel Files. Colab memerlukan internet untuk membuka layanannya; notebook lokal Jupyter tidak memerlukan jaringan. Buka sel lab yang sesuai sesi. Panduan Claude sesi 9 dapat disalin manual, tanpa API atau kunci.</p><div class="af-actions"><a class="af-link" href="/aifn/aifn-labs.ipynb" download>Unduh notebook (.ipynb)</a><a class="af-link" href="/aifn/aifn-synthetic.csv" download>Unduh dataset sintetis (.csv)</a><a class="af-link" href="/aifn/README.txt" download>Petunjuk offline (.txt)</a></div></details>
+      <p class="af-muted">Mulai dengan prediksi, lanjutkan dengan evaluasi, tutup dengan batasan. Tidak ada data nasabah atau kunci API yang dibutuhkan.</p>
+    </div>
+  </div>
+</BaseLayout>

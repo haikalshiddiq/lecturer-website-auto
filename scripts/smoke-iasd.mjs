@@ -187,6 +187,11 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
             await feedback(correct ? 'Kedua prediksi tepat.' : 'Revisi prediksi dengan kontrak.');
             await feedback(stock === '1' ? 'tanpa reservasi baru' : 'reservasi dua unit');
             await feedback('belum membuktikan pembayaran berhasil');
+            await feedback(stock === '1' ? 'reservasi 0 → 0' : 'reservasi 0 → 2');
+            await feedback('permintaan pembayaran 0 → 0');
+            await feedback('Kartu lawan C');
+            await feedback('Screenshot pesan tidak membaca ledger; actual backend belum diuji');
+            await feedback('jangan menghapus alternatif lewat precondition');
           }
         }
         await select('s4Stock', '1');
@@ -195,14 +200,18 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         await page.reload({ waitUntil: 'networkidle' }); await feedback('Kedua prediksi tepat.');
         assert.equal(await page.locator('[data-setting="s4Stock"]').inputValue(), '1');
         const example4 = page.locator('[data-iasd-supplement="4"] summary'); await example4.press('Enter');
-        assert.ok((await page.locator('[data-iasd-supplement="4"]').innerText()).includes('UC01-A'));
+        const text4 = await page.locator('[data-iasd-supplement="4"]').innerText();
+        for (const phrase of ['UC01-A', 'Kartu lawan C', 'Pesan benar, efek salah', 'terkorelasi U4', 'Histori lain tetap', 'bukti rollback']) assert.ok(text4.includes(phrase), `S04 worked example lacks ${phrase}`);
         await example4.press('Escape'); assert.equal(await page.locator('[data-iasd-supplement="4"]').getAttribute('open'), null); await example4.press('Enter');
         await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="4"]').innerText()).includes('peminjaman kamera'));
+        const transfer4 = await page.locator('[data-iasd-transfer="4"]').innerText();
+        for (const phrase of ['P:', 'Q:', 'Layanan Pembayaran', 'actual belum diuji', 'peminjam tidak diasumsikan berinteraksi langsung']) assert.ok(transfer4.includes(phrase), `S04 transfer lacks ${phrase}`);
         await page.locator('[data-note="2"]').fill('Transfer kamera: boundary aplikasi; stok satu menolak dua; stok tiga reservasi dua; pembayaran belum terbukti.');
         await page.reload({ waitUntil: 'networkidle' }); await tab('reflect');
         assert.ok((await page.locator('[data-note="2"]').inputValue()).includes('Transfer kamera'));
         await tab('teach'); await page.locator('[data-iasd-facilitation="4"] summary').press('Enter');
         assert.ok((await page.locator('[data-iasd-facilitation="4"]').innerText()).includes('Rubrik diagnostik'));
+        assert.ok((await page.locator('[data-iasd-facilitation="4"]').innerText()).includes('delta per U4'));
         await tab('concept');
         for (const dark of [false, true]) {
           if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();

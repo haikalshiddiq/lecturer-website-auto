@@ -1,0 +1,408 @@
+{
+  "generatedAt": "2026-11-15T07:01:03+07:00",
+  "period": {
+    "start": "2026-11-09",
+    "end": "2026-11-15",
+    "label": "09 Nov - 15 Nov 2026"
+  },
+  "status": {
+    "level": "monitor",
+    "label": "Pantau",
+    "conditionIndex": 45,
+    "confidence": "Low",
+    "dataSufficiency": "Insufficient",
+    "dataQualifier": "Data belum cukup",
+    "missingCriticalTopics": [
+      "Economy & Jobs",
+      "Health & Family",
+      "Public Safety"
+    ],
+    "summary": "Cakupan bidang kritis belum memadai untuk memberi kesimpulan kondisi nasional. Periksa sumber tambahan dan gunakan laporan ini hanya sebagai daftar hal yang perlu dipantau.",
+    "drivers": [
+      {
+        "kind": "pressure",
+        "topic": "Climate & Disaster",
+        "score": -0.16
+      },
+      {
+        "kind": "support",
+        "topic": "Markets",
+        "score": 0.107
+      },
+      {
+        "kind": "support",
+        "topic": "Business & Investment",
+        "score": 0.08
+      }
+    ],
+    "caveat": "Data bidang kritis belum lengkap: Economy & Jobs, Health & Family, Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
+  },
+  "metrics": {
+    "articles": 15,
+    "sources": 12,
+    "categoriesCovered": 6,
+    "categoriesTracked": 13,
+    "positive": 3,
+    "neutral": 9,
+    "negative": 3,
+    "averageScore": -0.037,
+    "criticalNegativeSignals": 3
+  },
+  "dailyTrend": [
+    {
+      "date": "2026-11-09",
+      "score": null,
+      "articles": 0
+    },
+    {
+      "date": "2026-11-10",
+      "score": 0.0,
+      "articles": 1
+    },
+    {
+      "date": "2026-11-11",
+      "score": -0.061,
+      "articles": 4
+    },
+    {
+      "date": "2026-11-12",
+      "score": -0.215,
+      "articles": 2
+    },
+    {
+      "date": "2026-11-13",
+      "score": 0.0,
+      "articles": 2
+    },
+    {
+      "date": "2026-11-14",
+      "score": 0.0,
+      "articles": 5
+    },
+    {
+      "date": "2026-11-15",
+      "score": 0.16,
+      "articles": 1
+    }
+  ],
+  "topicScores": [
+    {
+      "topic": "Climate & Disaster",
+      "count": 5,
+      "score": -0.16,
+      "sentiment": "Negative",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 3,
+      "highlightId": "2026-11-12-87f2757c3bc9"
+    },
+    {
+      "topic": "Public Safety",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Economy & Jobs",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Health & Family",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Infrastructure",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Energy",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Education & Talent",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Telecom",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Tech & AI",
+      "count": 1,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-11-11-16a64a7d5fcd"
+    },
+    {
+      "topic": "Governance",
+      "count": 2,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 0,
+      "highlightId": "2026-11-14-19f19ea719"
+    },
+    {
+      "topic": "Automotive & EV",
+      "count": 2,
+      "score": 0.0,
+      "sentiment": "Neutral",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 0,
+      "highlightId": "2026-11-14-7197ff8df8"
+    },
+    {
+      "topic": "Business & Investment",
+      "count": 2,
+      "score": 0.08,
+      "sentiment": "Neutral",
+      "positive": 1,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-11-15-36dbb94e8f"
+    },
+    {
+      "topic": "Markets",
+      "count": 3,
+      "score": 0.107,
+      "sentiment": "Neutral",
+      "positive": 2,
+      "neutral": 1,
+      "negative": 0,
+      "highlightId": "2026-11-12-b414ce064d29"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "2026-11-12-87f2757c3bc9",
+      "date": "2026-11-12",
+      "topic": "Climate & Disaster",
+      "title": "Begini Penampakan Banjir Bikin Pemerintah Aceh Siaga Darurat Bencana",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQU0FWdThsd2x1RF9SdksySDZQUEtENEFIcnowZGZPaU8yS1Z2Um9MVlB1VWFkTWRITVg2ZXI0b0dnM0ZfNnFwbXRNNHFZRlM3SFZHNTRaaFBuNUE3ZW5BRko0bVlrOTIyNm9ncm1MMDNGcGdtdUZObm1EZzFaTVNSSXVhUDYxTnJPSmx6SUY3NDNIWGxpM09WbWNQWmRucEhvZEVBTVVBekJZQWJkUjRXd2p0bXhkYm9idnpLTWlkdVBXMkNqakHSAcsBQVVfeXFMTmF5ZTI0aUhxd1pNbHF5OFlnYUVXbFd0NENwR3VMZ2xWM2pqSkI1cEpHMTlSTC1COW54UWxvM1FSbmxJUmd2X2FJc01QOE82WlRhMHVCVjlkMFNRRFp3M2IydFc4STRiaVlYU1NtN29sT3FYVUdQcDZwQzhmNnRjWFVpVVhrRmJrbEZfOV9Pd0ZwVWR5cVpORnJHazhvbmVUNGZubTFIeGMwSVNaUnNKQ0ctVnowUzVHREoySXhGUGJUTnZrUDVzZmlTMkk?oc=5",
+      "sentiment": "Negative",
+      "score": -0.48,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-11-15-36dbb94e8f",
+      "date": "2026-11-15",
+      "topic": "Business & Investment",
+      "title": "Kawasan Indonesia Timur Berkomitmen Permudah Perizinan Investasi",
+      "source": "Bisnis.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNWc1ZUkyeDgwOUZqcVF5VWJuNnZId2luUE9HSVZReHNIZnZDT0ttOFBtb0RYS2dCQTBaTVh2RWVjNW1nOGNET0xSdWMyUWc1YlY2UmduMkV5eHVlZTZpRjZaSHN4akVnTHJvaXFkUmVKdk9OU0ZVN0ZRVktON25FcVlhcm9ZMUF3d0tCeWc0WlNzcS1LeTUzbnI4MVpYdUhwckZJZDFVMldWQzkwZkJzQmtXZURLcEZ0cmc?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
+      "confidence": 0.35
+    },
+    {
+      "id": "2026-11-12-b414ce064d29",
+      "date": "2026-11-12",
+      "topic": "Markets",
+      "title": "Rupiah Makin Babak Belur, BI Perlu Naikkan Bunga untuk Jaga Kurs",
+      "source": "kontan.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcm5qS0V5R2paMG1ELWlISmlyR18yQWJ6S0FvakdjLW14V3JaS25jdllmUmE2Nk5RcXBuV0ZQNXV0M3lVdVV1MklLSTRsSWszaDRnYlJBLWRuMmp4Y1lfWVRPYmVlSjcxdUVQMTdVb1QxSWE2S1ZBWjhFTEZYNlZUZmpJRUtueTl0TjQ0eElhRlZyeXktSlNleFp5ZEJJNG9k0gGYAUFVX3lxTFBic1pnWEJwVVlZV1B4TDZ5RUJ4WWd1SXdLOEpiT25KaWRqeHF2anNacENoQXVCWE9XeWZkNHJUSWctVkptRGJLakZQU1ljbGRVbXVxSk93UmJZWndmb0YtVDZ2eDltbXcyc2NMYS0wNEJ6dElqbnBZTkpfVVFDblRQd1RQWDdFRnVHdDNza1FuRy1xUnZjNEdC?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-11-14-19f19ea719",
+      "date": "2026-11-14",
+      "topic": "Governance",
+      "title": "Pajak RI Tembus Rp1.796 Triliun, Pekerja atau Perusahaan Setor Berapa?",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdXR6RTJaU242bWlQMVVHd2VhQW5kelp0eW9yb2MzUEFRT296VmtwT201YTBGQ2lEOWZaMkh5czRQOFNHQUo0YTBSLWdjY2V4Nm9QN2U1c1B2Mnh2eEIteUtkYnpuWXdmd0lzRjVUdDFMM1lRWTE4QUphTG5KaHh4eTdrMVotYWtGbU1fRXdZMjd2cnBxSFNCRjFrRTlFWVJSamQwWllIRm1xT2ltV3d6S2o5RWc1RkduUW5sZTdCWUNJS1l5Rm1VRXA1OWk?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35
+    },
+    {
+      "id": "2026-11-11-16a64a7d5fcd",
+      "date": "2026-11-11",
+      "topic": "Tech & AI",
+      "title": "Wamenkomdigi Target Kapasitas Pusat Data Indonesia Tembus 2 GW di 2029",
+      "source": "CNN Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOemV1Z3dTMW4xRGdqc1pLOFhRc3FWNUFXYVB0LWxPdUNLMXo3LXY5RmIwem5qbUZJSXhmbXBGcWMzbkJ2Z0YwcjRRQ3RNS3I3Wm9TMnViNTlGSGZhTGlZVmZQa0pfXzF6Ti1lVFZMQVowZTdPMDR0ZWpSY3JHd09Qak43aEZpcTZKQ20zMVlQX200MGNwMm1lLWtYWGg0RmtCcUM2WFhpUnZ2OWRBTjB5RERCNVJsclRROWxSM0NWWWlLTDF3dWxVSXFsTVc0MEpyYmc?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-11-14-7197ff8df8",
+      "date": "2026-11-14",
+      "topic": "Automotive & EV",
+      "title": "SPBU Pertamina Bakal Dijajal untuk Teknologi Cas Kilat Mobil Listrik BYD",
+      "source": "detikFinance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZllCRlpoS3Jmenl2dHV6N0wyTUxCZzZoQlkxOFZ4VGxpQ0xvTzliTENSZUNoVmlWZU1SUF9aVjU0Q0VYNTdyMjEzZWNBUWNQeEhZSHlWYWk4LTl5eW9wdm8xOVZtT0NmckdRZ3JLNjNCaXFqcmRQMEFhbFlTSmdLLS1pdXlWM1ZxNTlMMGFRSWNPeFBmUHk5bDJndjJPMjQydWRUOHBzcmFmMVFUVjlWa0xfNjNud9IBuwFBVV95cUxNV200TUYtdFZJd1lLUm50dDQ5a201R1RPM244V0kxZkk0cXJJcG9oYTZQcTctZGpLNmRSTmpqX3lwRlQ0Sk1yM3JSeWN4UnVKYnV5OGxvVlRkelhpNER4WVN1UWlONC12MGd6bXFyNFhPWTNOSUtSUnAxcVF4QnVJanM2VnloU1dxNFB5RHVwWGJyVXRwXzMyTXRBQWs3WS14SFp4V1l2ZEs0SWM0czlQQVdGR05QRHJjTzZZ?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35
+    },
+    {
+      "id": "2026-11-11-593176ffb8dd",
+      "date": "2026-11-11",
+      "topic": "Climate & Disaster",
+      "title": "Mahasiswa Universitas Indonesia Pelajari Sistem Pemantauan Cuaca, Iklim, Gempa Bumi, dan Tsunami",
+      "source": "BMKG",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZjZ6d092eHM5M0U2bFlfa3ZpbHhvVXBXb0pDWkRURWM3UWw5M205ZFhVRFMyWjFrVFZsVGxHdG5oUjZfM3hfTmhSVmNHaWtWbDFOYTNOM3FsQkFyZ3NVWDhudmh2YnpKZ1JQZzV6eFRmTm9IUnhvLWJTa3RQQ1JLc1RDZ3hPekJVRWZsLVBDY1FVc3lpTml5QTR4bWVOU0Zvbl9oVWJLVnNHX3BlNHZoM3owSjlndDB1WEU0c09nS1o?oc=5",
+      "sentiment": "Negative",
+      "score": -0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-11-11-1f11a333ac69",
+      "date": "2026-11-11",
+      "topic": "Climate & Disaster",
+      "title": "BNPB Catat Cuaca Ekstrem, Banjir, dan Karhutla di Sejumlah Daerah, Warga Diminta Waspada",
+      "source": "Serayu Nusantara",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTTVoZ2VqRnI2T2I4VWRVeUJLVFRQYmxsYUhHVmkyNEM0Z25IelhjRnRLUjFaVmswZVFNczBRekR2MmFjUVowdFh0MUVMaXpoMzgtY0t4Vm9iMnY3QzIyRjRZQTh0UnJnd2lRc3I0TlFJYk01Vnk4N0ZKM3E0LUVhUE9qSkxidWZFbG1Gb01wckNFb3A2T0pwV1VJY19HNnlu?oc=5",
+      "sentiment": "Negative",
+      "score": -0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-11-14-1caba1bfe5cd",
+      "date": "2026-11-14",
+      "topic": "Climate & Disaster",
+      "title": "BMKG Siapkan Langkah Antisipasi Hadapi Potensi Bencana Hidrometeorologi Jelang Musim Hujan 2026/2027",
+      "source": "BMKG",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNVJZN0NqTFp3anNJMGV6UF9zOFU1OHV5RnJhS2l4WjI5Q29KdVVadEtWVzRmYUxlZml5c0FxWVlWdEhMZ3M0cmFVdDdvQTJVVlVURzMzRlEyQk04X3lPQ1h0UGNVMXBVOVdtYjdFcTNhbDZwSmtzX2dBdjVlWE1QMk4xQk9YTFFKRWNMUlJzZVZkWkNHSEhlY2M4cjNxbnNhVl84QWtEV3pBODVkbHlnZmxiQUlKRzJpV1dDTTRaak5qajho?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-11-13-8d73577cc761",
+      "date": "2026-11-13",
+      "topic": "Climate & Disaster",
+      "title": "Seleksi Penerimaan Taruna Baru STMKG 2026, BMKG Utamakan Integritas dan Semangat Pengabdian",
+      "source": "BMKG",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQXppVTBXcDBKcnhwQmtUSHNSTFJyN0xPOGdFYkVPWUJENWJaNmNGUHhuVjgzUjNYZmZtSHFETXBoVk5TREV2YmJSSC1RZHRMbXZGWnVKaVZ3UU1HSG43RkdFRUpVSFc1a1hyTVA0Wnh3N2E2bktvX3RJV2xIQlJEREZWN2JubEhHSTVueXVyNEhKVHdfLXBLdDRpMFprWWNsVEVBcGxyNTF6Tjdnc1ZaUFBBbm8xTWlCT3hLRA?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-11-11-e3a051b50887",
+      "date": "2026-11-11",
+      "topic": "Markets",
+      "title": "KSSK: Harga minyak melandai buka ruang RI jaga pertumbuhan ekonomi",
+      "source": "ANTARA News Jambi",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQlluczM5dHhqTFN6WWZLZEtXMHlqVi14VnVBalFfaS1XS29JQVZfRmhBTmMtcFpWUDBKQXFzR0FKMkh6UkxKVEhyY1pHNHZQRklBLWlvSVpLMHlQdkdJVWxCWFVEMUJXTF8xelgweUlodTlPTnhLUnJmdDk2RktBdlhId1VxUmpWZ0xsZDN0TGRmWjBsempYa0oyYWsyUlZqUzJDUmdQVFV2MjNJcFAxT1RB0gGyAUFVX3lxTE9CWW5zMzl0eGpMU3pZZktkS1cweWpWLXhWdUFqUV9pLVdLb0lBVl9GaEFOYy1wWlZQMEpBcXNHQUoySHpSTEpUSHJjWkc0dlBGSUEtaW9JWksweVB2R0lVbEJYVUQxQldMXzF6WDB5SWh1OU9OeEtScmZ0OTZGS0F2WEh3VXFSalZnTGxkM3RMZGZaMGx6alhrSjJhazJSVmpTMkNSZ1BUVXYyM0lwUDFPVEE?oc=5",
+      "sentiment": "Positive",
+      "score": 0.16,
+      "confidence": 0.68
+    },
+    {
+      "id": "2026-11-10-a45a8630fe20",
+      "date": "2026-11-10",
+      "topic": "Governance",
+      "title": "Daftar Pemakzulan Presiden di Berbagai Negara pada Abad ke-21, Ada Indonesia",
+      "source": "detikcom",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOODdCQ1E2VGlTNkNxeDNMZk50TjJYTTA4MldWTFhFOUNUNFB2NDZ5cFVJTGphcDVvdFItQ3RXMDhxMXlUU0VtODF5UzRXa3FJa1ZoUm9nbzdPTHBlUzRoVHpaQTRlZFJWbTFSZnJoY2N0SW15NTFDc1dTek9FUlMzUzZkWnFlNmxrNUVlVkxWdzZvaXpFbGxOOXJaYWdBcTVNdzBtUnhyODhMYl9Ud3JPbWJrVjFSODhrVnR4M0xZZ21ENTBG0gHEAUFVX3lxTE44N0JDUTZUaVM2Q3F4M0xmTnROMlhNMDgyV1ZMWEU5Q1Q0UHY0NnlwVUlMamFwNW90Ui1DdFcwOHExeVRTRW04MXlTNFdrcUlrVmhSb2dvN09McGVTNGhUelpBNGVkUlZtMVJmcmhjY3RJbXk1MUNzV1N6T0VSUzNTNmRacWU2bGs1RWVWTFZ3Nm9pekVsbE45clphZ0FxNU13MG1SeHI4OExiX1R3ck9tYmtWMVI4OGtWdHgzTFlnbUQ1MEY?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
+    }
+  ],
+  "decisionTriggers": [
+    {
+      "title": "Karier dan pendapatan",
+      "state": "Unknown",
+      "instruction": "Periksa tren PHK, lowongan bidang Anda, daya beli, dan cadangan dana keluarga. Jangan bertindak dari sentimen pasar saja."
+    },
+    {
+      "title": "Keamanan dan tata kelola",
+      "state": "Unknown",
+      "instruction": "Cari konfirmasi dari sumber resmi dan beberapa media untuk gangguan keamanan, perubahan hukum, atau pembatasan yang berdampak langsung."
+    },
+    {
+      "title": "Kesehatan ibu dan anak",
+      "state": "Unknown",
+      "instruction": "Pisahkan sinyal nasional dari kondisi lokal. Verifikasi fasilitas persalinan, BPJS atau asuransi, dokter, dan dukungan keluarga secara langsung."
+    },
+    {
+      "title": "Pemicu keputusan keluarga",
+      "state": "Plan",
+      "instruction": "Tetapkan pemicu tertulis, misalnya kehilangan pendapatan, gangguan keamanan lokal berulang, atau akses kesehatan yang tidak memadai, lalu tinjau bersama pasangan."
+    }
+  ],
+  "relocationRadar": [
+    {
+      "country": "Malaysia",
+      "careerSignal": "Peluang regional di pendidikan, teknologi, dan jasa dengan jarak budaya serta perjalanan yang relatif dekat dari Indonesia.",
+      "familySignal": "Kedekatan geografis dapat memudahkan kunjungan keluarga dan masa transisi.",
+      "planningFocus": "Pastikan jalur kerja bersponsor, kelayakan tanggungan, layanan kesehatan, dan biaya hidup kota tujuan.",
+      "officialLabel": "Malaysia Expatriate Services Division",
+      "officialUrl": "https://esd.imi.gov.my/portal/"
+    },
+    {
+      "country": "Taiwan",
+      "careerSignal": "Ekosistem teknologi, semikonduktor, AI, dan universitas kuat; kecocokan peran sangat bergantung pada spesialisasi.",
+      "familySignal": "Layanan kesehatan dan status tanggungan harus diperiksa sesuai izin kerja dan jalur tinggal yang dipilih.",
+      "planningFocus": "Validasi sponsor pemberi kerja, kebutuhan bahasa Mandarin, izin tinggal tanggungan, dan akses penitipan anak.",
+      "officialLabel": "EZ Work Taiwan",
+      "officialUrl": "https://ezworktaiwan.wda.gov.tw/"
+    },
+    {
+      "country": "Japan",
+      "careerSignal": "Pasar riset, AI, teknik, dan pendidikan tinggi besar dengan kategori status tinggal yang spesifik terhadap pekerjaan.",
+      "familySignal": "Kecocokan jangka panjang bergantung pada bahasa, hunian, penitipan anak, dan cakupan tanggungan pada status yang dipilih.",
+      "planningFocus": "Cocokkan kualifikasi dengan status kerja, periksa kebutuhan bahasa Jepang, dan siapkan anggaran enam bulan pertama.",
+      "officialLabel": "Ministry of Foreign Affairs of Japan visa guidance",
+      "officialUrl": "https://www.mofa.go.jp/j_info/visit/visa/index.html"
+    }
+  ],
+  "methodology": {
+    "sentiment": "Penilaian kata kunci pada judul berbahasa Indonesia dari -1 sampai +1. Netral berarti tidak ada kata yang memberi arah kuat.",
+    "status": "Indeks kondisi berjalan dari 0 (tekanan negatif lebih kuat) sampai 100 (judul lebih suportif). Perhitungan menggabungkan sentimen berbobot dan porsi sinyal negatif. Level tertinggi juga memerlukan konfirmasi lintas bidang kritis dan sumber independen.",
+    "limitations": "Pemilihan berita, ketersediaan penerbit, pembingkaian berulang, dan bahasa judul dapat menimbulkan bias. Keamanan lokal, akses kesehatan, keuangan, kelayakan visa, dan pilihan keluarga harus diverifikasi terpisah.",
+    "queryErrors": []
+  }
+}

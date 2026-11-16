@@ -46,15 +46,15 @@
       ],
       "kind": "workflow",
       "control": {
-        "label": "Informasi yang tersedia saat keputusan",
+        "label": "Audit rancangan input (tidak melatih ulang model)",
         "options": [
           [
             "before",
-            "Fitur yang diketahui saat pengajuan"
+            "A: empat fitur kandidat; risk tetap target terpisah"
           ],
           [
             "after",
-            "Label hasil sebagai target, bukan fitur"
+            "B: empat fitur ditambah risk sebagai input (bocor)"
           ]
         ]
       },
@@ -64,9 +64,9 @@
         "Skor adalah keluaran model, sedangkan keputusan penggunaan adalah tanggung jawab manusia. Kasus semester ini menilai apakah analisis cukup dapat diperiksa untuk pembelajaran; data asing historis tidak menjadi dasar kebijakan kredit Indonesia atau keputusan terhadap pemohon nyata."
       ],
       "assumptions": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi.",
-      "worked": "Dosen membuka beberapa baris arsip. Mahasiswa menunjuk duration sebagai lama kredit dalam bulan, amount sebagai jumlah dalam satuan sumber, dan risk sebagai label historis. Kartu kasus menulis tanggal keputusan: tidak tersedia; horizon label: tidak diketahui. Grafik jumlah tiap kelas menjelaskan komposisi arsip, bukan peluang gagal bayar penduduk Indonesia.",
-      "practice": "Tulis kartu kasus satu halaman: satu baris berarti apa, arti risk, satuan amount, apa yang tidak diketahui tentang waktu, dan siapa yang bertanggung jawab meninjau penggunaan. Di rumah, jalankan sel pengenalan notebook dan cocokkan nama kolom dengan kartu.",
-      "misconception": "Label Bad bukan sinonim otomatis untuk gagal bayar 90 hari. Tanpa definisi kejadian dan waktu yang dapat ditelusuri, klaim tersebut melampaui bukti sumber.",
+      "worked": "Suplemen pedagogis hipotetis, bukan baris UCI: duration=12 bulan, amount=2000 satuan latihan, installmentRate=2 (kode tanpa ambang persentase yang dibuat-buat), existingCredits=1, risk=1. Rancangan A mengirim empat fitur kandidat ke input dan menyimpan risk terpisah sebagai target: 4 input, 0 target bocor. Rancangan B menambahkan risk ke input: 5 input, 1 target bocor. B memberi jawaban historis kepada model; koreksinya keluarkan risk dari input, bukan hapus seluruh target pelatihan. Hasil audit A hanya membuktikan pemisahan kolom. Tanggal dan horizon tetap tidak diketahui; tidak ada skor, keuntungan atau kelayakan kredit yang dihitung dari contoh ini. Tabel simulator terpisah memakai baris pertama UCI nyata, bukan angka hipotetis ini.",
+      "practice": "Transfer individu: tulis s01-kartu-kasus.md untuk target jumlah pinjaman (amount), bukan risk. Pindahkan amount dari input ke target; calonkan duration, installmentRate, existingCredits sebagai input, tandai risk belum layak menjadi fitur tanpa bukti waktu. Sertakan tabel kolom/input/target/alasan, satuan, waktu dan horizon tidak diketahui, peninjau penggunaan, serta satu bukti yang masih diperlukan. Di rumah jalankan bagian pengenalan notebook dari kernel kosong dan cocokkan kolom; tidak perlu melatih model bocor.",
+      "misconception": "Mengeluarkan risk dari input bukan berarti menghapus label dari pelatihan. Target tetap diperlukan untuk belajar dan mengevaluasi supervised learning. Lulus pemisahan kolom juga tidak membuktikan fitur diketahui saat pengajuan. Label Bad bukan otomatis gagal bayar 90 hari; waktu dan horizon sumber tetap tidak diketahui.",
       "quiz": {
         "question": "Apa pernyataan yang sah tentang label risk=1 dalam praktikum?",
         "options": [
@@ -82,22 +82,22 @@
         ]
       },
       "teacher": {
-        "flow": "6 menit: Tulis pertanyaan audit di kertas. 9 menit: Buka sumber UCI dan cocokkan tiga kolom di browser. 10 menit: Baca grafik komposisi label tanpa menyebut prediksi. 10 menit: Dosen membandingkan aturan manual dan model, lalu mahasiswa melengkapi kartu kasus. Tugas rumah: jalankan ulang bagian notebook terkait dan jelaskan hasilnya dengan kalimat keuangan, bukan salinan angka.",
+        "flow": "35 menit terpandu: 6 menit mahasiswa memprediksi jumlah input A/B sebelum kontrol diubah; 9 menit demonstrasikan kedua rancangan dan cocokkan lima kolom dengan tabel baris sumber; 10 menit mahasiswa menjelaskan mengapa target harus terpisah tetapi tetap disimpan, lalu bedakan audit struktur dari bukti waktu; 10 menit transfer individu ke target amount dan silang periksa alasan. Dosen meminta bukti yang belum ada, bukan menyatakan A siap dipakai. Tugas rumah: jalankan bagian pengenalan notebook dari kernel kosong; simpan catatan hasil dan batasnya.",
         "rubric": [
-          "Unit, label, dan horizon tidak diketahui ditulis tepat (30)",
-          "Satuan sumber dan asal historis disebut (25)",
-          "Prediksi dibedakan dari keputusan penggunaan (30)",
-          "Kartu jelas dan dapat ditelusuri ke sumber (15)"
+          "Jejak A=4 input/0 target bocor, B=5/1 dengan koreksi risk tetap target (30)",
+          "Transfer amount keluar input; risk tanpa bukti waktu tidak dinyatakan sah (25)",
+          "Unit sumber, horizon tidak diketahui dan batas keputusan nyata tepat (30)",
+          "Kartu individu menunjuk bukti dan peninjau; angka hipotetis dipisahkan dari UCI (15)"
         ],
-        "probe": "Jika dosen mengganti kata Bad menjadi gagal bayar 90 hari, bukti apa yang harus diminta? Minta mahasiswa menunjuk metadata yang belum tersedia."
+        "probe": "Mahasiswa berkata: A aman karena risk dihapus. Tanyakan: dihapus dari input saja atau dari seluruh pelatihan? Minta ia menunjuk target, menghitung 4/0 versus 5/1, lalu menyebut bukti waktu yang masih belum ada. Pada transfer amount, apakah risk otomatis boleh jadi fitur? Tidak tanpa bukti ketersediaan waktu."
       },
       "financeLab": {
-        "caseTitle": "Arsip kredit: apa sebenarnya yang sedang diprediksi?",
-        "financeQuestion": "Apakah arsip ini cukup jelas untuk dipakai sebagai bahan audit model kredit?",
+        "caseTitle": "Empat fitur, satu target: ke mana kolom risk mengalir?",
+        "financeQuestion": "Apakah model menerima informasi calon fitur, atau justru jawaban historisnya sendiri?",
         "decision": "Izinkan analisis kelas historis untuk belajar; tahan semua klaim keputusan pinjaman nyata.",
         "excelBridge": [
           "Buka CSV seperti lembar Excel: satu baris catatan, satu kolom sifat; jangan mengira nomor baris adalah identitas nasabah.",
-          "Gunakan COUNTIF pada risk untuk membaca komposisi label, lalu bandingkan dengan grafik hitungan di browser."
+          "Di Excel, pisahkan empat kolom input dari kolom jawaban risk. COUNTA pada header input memberi 4 pada A atau 5 pada B; hitung apakah header risk ikut input (0 atau 1). Ini audit kolom, bukan akurasi model."
         ],
         "glossary": [
           {
@@ -124,27 +124,27 @@
         "guidedMinutes": 35,
         "steps": [
           {
-            "action": "Tulis pertanyaan audit di kertas",
-            "why": "Membedakan tujuan belajar dan keputusan nyata",
-            "expectedEvidence": "Kartu tujuan dan pihak peninjau",
+            "action": "Prediksi jalur lima kolom sebelum mengubah kontrol",
+            "why": "Membedakan input model dan jawaban historis tanpa menebak skor",
+            "expectedEvidence": "Prediksi A=4 input/0 target bocor, B=5/1 dan alasan awal",
             "minutes": 6
           },
           {
-            "action": "Buka sumber UCI dan cocokkan tiga kolom di browser",
-            "why": "Memisahkan definisi sumber dari dugaan",
-            "expectedEvidence": "Catatan duration, amount, risk beserta satuannya",
+            "action": "Bandingkan A/B dan telusuri tabel baris pertama sumber",
+            "why": "Menghubungkan perubahan batang dengan kolom yang benar-benar dialihkan",
+            "expectedEvidence": "Dua hasil kontrol, jalur risk dan satuan duration/amount; model tidak fit ulang",
             "minutes": 9
           },
           {
-            "action": "Baca grafik komposisi label tanpa menyebut prediksi",
-            "why": "Menghindari salah tafsir distribusi arsip sebagai risiko populasi",
-            "expectedEvidence": "Dua kalimat tentang jumlah kelas dan batas generalisasi",
+            "action": "Perbaiki B dan uji alasan benar maupun keliru",
+            "why": "Menghapus target dari seluruh dataset bukan perbaikan supervised learning",
+            "expectedEvidence": "Risk dikeluarkan dari input, disimpan sebagai target; audit waktu belum terpenuhi",
             "minutes": 10
           },
           {
-            "action": "Dosen membandingkan aturan manual dan model, lalu mahasiswa melengkapi kartu kasus",
-            "why": "Mengaitkan AI dengan pekerjaan analis yang sudah dikenal",
-            "expectedEvidence": "Kartu kasus dengan tanggal dan horizon tidak diketahui",
+            "action": "Transfer individu: target berubah dari risk menjadi amount",
+            "why": "Menguji pemahaman peran kolom, bukan hafalan nama risk",
+            "expectedEvidence": "Kartu amount sebagai target, tiga fitur kandidat, risk ditahan tanpa bukti waktu dan satu batas penggunaan",
             "minutes": 10
           }
         ],
@@ -154,14 +154,14 @@
             "s01-catatan-notebook.ipynb"
           ],
           "rubric": [
-            "Unit, label, dan horizon tidak diketahui ditulis tepat (30)",
-            "Satuan sumber dan asal historis disebut (25)",
-            "Prediksi dibedakan dari keputusan penggunaan (30)",
-            "Kartu jelas dan dapat ditelusuri ke sumber (15)"
+            "Jejak A=4 input/0 target bocor, B=5/1 dan koreksi mempertahankan target (30)",
+            "Transfer amount tidak memasukkan target ke fitur dan tidak menganggap risk tersedia (25)",
+            "Satuan, asal historis dan bukti waktu yang belum ada dijelaskan (30)",
+            "Kartu memisahkan contoh hipotetis dari sumber nyata dan menyebut peninjau (15)"
           ]
         },
         "notebookSection": "Sesi 01: kartu masalah dan asal data",
-        "coreTask": "Hubungkan satu grafik komposisi dengan satu batas penggunaan arsip.",
+        "coreTask": "Telusuri risk pada dua rancangan input, perbaiki kebocoran tanpa membuang target, lalu buat kartu individual untuk target amount. Rancangan A/B adalah suplemen pedagogis, bukan kutipan RPS atau hasil eksperimen backend.",
         "extension": "Cari metadata tambahan tentang waktu; jika tidak ditemukan, laporkan pencarian dan tetap tulis tidak diketahui.",
         "dataUse": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi.",
         "limitations": "Arsip bukan sampel representatif Indonesia. Tidak ada nasihat keuangan, keputusan kredit, atau persetujuan resmi regulator."

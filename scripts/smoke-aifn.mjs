@@ -34,8 +34,20 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
    for(const value of settings){
     if(l.control.options)await page.locator('#af-setting').selectOption(String(value));else await page.locator('#af-setting').evaluate((el,v)=>{el.value=String(v);el.dispatchEvent(new Event('input',{bubbles:true}));},value);
     const text=await page.locator('[data-aifn-equivalent]').innerText();if(previous&&text!==previous)changed=true;previous=text;
+    if(l.kind==='workflow'){
+     const leaked=value==='after';
+     assert.ok(text.includes(`${leaked?5:4} kolom dikirim sebagai input, 4 fitur kandidat dan ${leaked?1:0} target terlarang`));
+     assert.match(text,/tidak dilatih ulang/);
+     const rows=await page.locator('#af-viz tbody tr').allTextContents();assert.equal(rows.length,5);
+     assert.match(rows[4],leaked?/SALAH: target masuk input/:/Target terpisah/);
+     assert.deepEqual(await page.locator('#af-viz [data-course-visual] rect').evaluateAll(xs=>xs.map(x=>Number(x.getAttribute('width')))),[250,leaked?62.5:0]);
+    }
     const feedback=[];for(const answer of ['safe','revise']){await page.locator('#af-prediction').selectOption(answer);await page.locator('#af-reason').click();feedback.push(await page.locator('#af-reason-result').innerText());}
     assert.equal(feedback.filter(s=>s.startsWith('Alasan pilihan tepat.')).length,1);assert.equal(feedback.filter(s=>s.startsWith('Tinjau pilihan Anda.')).length,1);
+    if(l.kind==='workflow'){
+     assert.ok(feedback[value==='after'?1:0].startsWith('Alasan pilihan tepat.'));
+     assert.match(feedback[0],value==='after'?/Hapus risk dari input/:/tanggal dan horizon UCI tidak diketahui/);
+    }
     if(l.kind==='explain'){const trace=await page.locator('#af-viz [data-aifn-logit]').evaluate(el=>({score:Number(el.dataset.aifnScore),reconstructed:Number(el.dataset.aifnReconstructed),logit:Number(el.dataset.aifnLogit)}));const i=Math.min(expected.classification.scores.length-1,Math.floor(Number(value)*(expected.classification.scores.length-1)));assert.ok(Number.isFinite(trace.logit));assert.ok(Math.abs(trace.score-expected.classification.scores[i].score)<1e-12);assert.ok(Math.abs(trace.reconstructed-trace.score)<1e-12);}
     if(['classification','evaluation'].includes(l.kind)){const m=metricsAt(expected.classification.scores,Number(value));for(const name of ['TP','FP','TN','FN'])assert.ok(text.includes(`${name} ${m[name]}`));assert.ok(text.includes(expected.classification.auc.toLocaleString('id-ID',{maximumFractionDigits:3})));}
    }

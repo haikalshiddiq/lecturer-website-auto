@@ -238,11 +238,18 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
           await select('join', join); await check('address', address); await check('label', label);
           const released = join === 'join' ? address && label : address || label;
           const expected = !released ? 'tunggu' : address && label ? 'sah' : 'dini';
+          const evidenceRows = page.locator('[data-iasd-s5-evidence] tbody tr');
+          assert.equal(await evidenceRows.nth(0).locator('td').last().innerText(), `${Number(address)} token tersedia`);
+          assert.equal(await evidenceRows.nth(1).locator('td').last().innerText(), `${Number(label)} token tersedia`);
+          assert.equal(await evidenceRows.nth(2).locator('td').last().innerText(), `${Number(address) + Number(label)} dari 2`);
+          assert.equal(await evidenceRows.nth(3).locator('td').last().innerText(), released ? 'Ya, bukan jumlah eksekusi Kirim' : 'Tidak');
+          assert.equal(await evidenceRows.nth(4).locator('td').last().innerText(), 'Diasumsikan, bukan diperiksa join');
           for (const prediction of ['tunggu', 'sah', 'dini']) {
             await select('s5Outcome', prediction);
             await page.locator('[data-simact="s5review"]').press('Enter');
             await feedback(prediction === expected ? 'Prediksi dan alasan cocok.' : 'Pisahkan aliran dari izin bisnis.');
             await feedback(!released ? 'Tidak ada token keluar' : address && label ? 'kedua prasyarat terpenuhi' : 'satu prasyarat belum selesai');
+            for (const text of ['Join tidak membaca isi hasil validasi', 'Kartu E tertulis', 'FR-KIRIM-v1', 'actual belum diuji', 'bukan rollback']) await feedback(text);
           }
         }
         await select('join', 'merge'); await check('address', true); await check('label', false);
@@ -251,13 +258,14 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         await check('label', false); await action('s5review');
         await page.reload({ waitUntil: 'networkidle' }); await feedback('Prediksi dan alasan cocok.');
         const example5 = page.locator('[data-iasd-supplement="5"] summary'); await example5.press('Enter');
-        assert.ok((await page.locator('[data-iasd-supplement="5"]').innerText()).includes('bypass'));
+        for (const text of ['bypass', 'Kartu lawan E', 'FR-KIRIM-v1', 'AC-E', 'alamat tidak valid', 'actual belum diuji']) assert.ok((await page.locator('[data-iasd-supplement="5"]').innerText()).includes(text), `S05 example lacks ${text}`);
         await example5.press('Escape'); assert.equal(await page.locator('[data-iasd-supplement="5"]').getAttribute('open'), null); await example5.press('Enter');
-        await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="5"]').innerText()).includes('sertifikat'));
+        await tab('reflect');
+        for (const text of ['sertifikat', 'Q:', 'R:', 'tidak cocok', 'refund', 'actual belum diuji']) assert.ok((await page.locator('[data-iasd-transfer="5"]').innerText()).includes(text), `S05 transfer lacks ${text}`);
         await page.locator('[data-note="2"]').fill('Transfer sertifikat: pembayaran dan identitas wajib; bypass menghasilkan token selesai tanpa validasi ulang.');
         await page.reload({ waitUntil: 'networkidle' }); await tab('reflect'); assert.ok((await page.locator('[data-note="2"]').inputValue()).includes('Transfer sertifikat'));
         await tab('teach'); await page.locator('[data-iasd-facilitation="5"] summary').press('Enter');
-        assert.ok((await page.locator('[data-iasd-facilitation="5"]').innerText()).includes('Rubrik diagnostik')); await tab('concept');
+        for (const text of ['Rubrik diagnostik', 'AC-Q', 'FR-KIRIM-v1', 'efek tetap nol']) assert.ok((await page.locator('[data-iasd-facilitation="5"]').innerText()).includes(text), `S05 instructor lacks ${text}`); await tab('concept');
         for (const dark of [false, true]) {
           if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
           await page.locator('[data-iasd-supplement="5"]').evaluate(el => { el.open = true; });
@@ -271,7 +279,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
           assert.deepEqual(await page.evaluate(() => {
             const rgb = c => (c.match(/[\d.]+/g) || []).map(Number);
             const lum = c => rgb(c).slice(0,3).map(v => { v /= 255; return v <= .04045 ? v / 12.92 : ((v+.055)/1.055)**2.4; }).reduce((s,v,i) => s+v*[.2126,.7152,.0722][i],0);
-            return [...document.querySelectorAll('[data-iasd-supplement="5"] *, #sim-controls label, #sim-controls select, #sim-viz .feedback *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
+            return [...document.querySelectorAll('[data-iasd-supplement="5"] *, [data-iasd-s5-evidence] *, #sim-controls label, #sim-controls select, #sim-viz .feedback *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
               const style=getComputedStyle(el); let ancestor=el, bg='rgb(255,255,255)';
               while(ancestor) { const color=getComputedStyle(ancestor).backgroundColor; if(rgb(color)[3]!==0){bg=color;break;} ancestor=ancestor.parentElement; }
               const a=lum(style.color),b=lum(bg),ratio=(Math.max(a,b)+.05)/(Math.min(a,b)+.05),size=parseFloat(style.fontSize),large=size>=24 || (size>=18.66 && Number(style.fontWeight)>=700);

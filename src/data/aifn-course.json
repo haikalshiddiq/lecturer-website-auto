@@ -199,9 +199,9 @@
         "Kernel adalah ruang kerja Python yang menyimpan variabel selama notebook berjalan. Restart lalu Run All menguji apakah seluruh instruksi sudah lengkap. Hasil yang tampak benar di layar belum cukup bila hanya berjalan karena ada variabel sisa dari percobaan sebelumnya."
       ],
       "assumptions": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi. CSV turunan berisi duration, amount, installmentRate, existingCredits, age, dan risk; nomor baris turunan bukan identitas orang.",
-      "worked": "Dosen menyorot kolom duration di CSV, lalu sel Python yang memilih kolom yang sama. Hasil hitungan baris dibandingkan dengan jumlah baris data Excel, tanpa menghitung header. amount kosong pada salinan uji kerusakan harus menghasilkan pesan pemeriksaan, bukan diubah menjadi nol; berkas sumber tetap tidak diubah.",
-      "practice": "Lengkapi kamus enam kolom dengan arti, tipe, satuan, dan peran fitur/target/audit. Jalankan notebook dari kernel baru di rumah. Simpan catatan jumlah baris, nama kolom, dan pesan kesalahan dari salinan CSV yang sengaja dirusak.",
-      "misconception": "Kesalahan membaca CSV bukan kegagalan memahami keuangan. Periksa nama berkas, pemisah kolom, dan tipe angka satu per satu; jangan mengarang hasil agar notebook tampak selesai.",
+      "worked": "Suplemen sintetis, bukan hasil UCI: amount dalam unit latihan berisi 100, 200, 900. Kontrak mewajibkan setiap baris berisi angka. SUM=1200, COUNT=3, mean=400. Jika sel kedua kosong, kontrak menolak baris 2 dan menahan mean. Mengganti kosong dengan nol memberi 1000/3 ≈ 333,333; mengabaikannya memberi 1000/2=500. Kedua hasil mengubah asumsi, bukan memperbaiki sumber. CSV hanya header memiliki 0 observasi, sehingga mean tidak terdefinisi. Diagram menghitung hasil pemeriksaan fixture, bukan distribusi atau model UCI. Lulus tiga sel tidak membuktikan seluruh kontrak enam kolom atau kelayakan kredit.",
+      "practice": "Prediksi hasil tiga fixture sebelum memilih kontrol. Catat sel mentah, baris ditolak, pembilang, denominator dan status mean. Transfer individu ke duration sintetis 6, kosong, 18 bulan: tahan mean, lalu minta bukti sumber. Jika bukti mengisi nilai hilang menjadi 12, hitung ulang; bandingkan dengan kebijakan mengabaikan kosong yang kebetulan menghasilkan mean sama tetapi denominator berbeda. Lengkapi kamus enam kolom dan jalankan notebook UCI dari kernel baru secara terpisah.",
+      "misconception": "Excel AVERAGE yang mengabaikan sel kosong dapat tetap menampilkan angka; itu bukan bukti kontrak lengkap. Kosong bukan nol. Dua prosedur bahkan dapat menghasilkan mean sama dengan jumlah observasi berbeda. Catat aturan dan denominator, jangan menilai kualitas hanya dari angka akhir.",
       "quiz": {
         "question": "Kolom amount berisi teks kosong pada salinan uji. Apa langkah pertama?",
         "options": [
@@ -217,22 +217,22 @@
         ]
       },
       "teacher": {
-        "flow": "8 menit: Cocokkan header CSV dan kamus di kertas. 10 menit: Dosen menjalankan sel baca CSV, mahasiswa menunjuk padanannya di Excel. 9 menit: Periksa keadaan data valid, kosong, dan salah tipe di browser. 8 menit: Latih urutan Restart dan Run All serta tulis tugas rumah. Tugas rumah: jalankan ulang bagian notebook terkait dan jelaskan hasilnya dengan kalimat keuangan, bukan salinan angka.",
+        "flow": "35 menit: 6 menit prediksi mean dan status pada tiga fixture tanpa membuka hasil; 9 menit demonstrasi kontrol valid/header/kosong dan minta mahasiswa menjelaskan setiap batang; 10 menit bandingkan perbaikan sumber dengan penggantian nol atau pengabaian; 10 menit transfer individual duration 6, kosong, 18 bulan. Perbaikan terverifikasi menjadi 12 menghasilkan SUM=36, COUNT=3, mean=12 bulan; mengabaikan kosong juga memberi 12 tetapi SUM=24, COUNT=2. Minta pembelaan denominator, bukan hafalan mean. Tugas rumah terpisah: Restart/Run All notebook UCI, catat enam kolom, jumlah baris dan satuan. Browser tidak menjalankan Python atau mengubah CSV asli.",
         "rubric": [
-          "Arti dan satuan enam kolom benar (30)",
-          "Jumlah baris dan tipe diperiksa (25)",
-          "Kesalahan terdeteksi tanpa nol palsu (25)",
-          "Notebook dijalankan dari awal dengan catatan (20)"
+          "Jejak tiga fixture: baris valid/ditolak dan status mean sesuai kontrak (30)",
+          "SUM, COUNT dan dampak nol/pengabaian dijelaskan, bukan hanya mean (25)",
+          "Transfer duration membedakan dua denominator walau mean sama (25)",
+          "Kamus enam kolom dan Restart/Run All notebook UCI dicatat terpisah (20)"
         ],
-        "probe": "Jika jumlah baris Python berbeda dari Excel, apakah model boleh diteruskan? Minta urutan pemeriksaan header, filter, dan baris kosong sebelum menyalahkan algoritme."
+        "probe": "Dua mahasiswa sama-sama memperoleh 12 bulan. Yang pertama memakai 6, 12, 18; yang kedua hanya 6, 18. Apakah bukti datanya sama? Minta SUM, COUNT, alasan perbaikan dan satu klaim yang belum boleh dibuat."
       },
       "financeLab": {
-        "caseTitle": "Dari lembar kerja kredit ke notebook pertama",
-        "financeQuestion": "Bagaimana memastikan Python membaca arsip yang sama dengan yang dilihat analis di Excel?",
+        "caseTitle": "Mean 400, 333,333 atau 500: siapa mengubah kontrak?",
+        "financeQuestion": "Kapan rata-rata amount boleh dilaporkan jika satu sel kosong?",
         "decision": "Terima data untuk analisis hanya setelah kolom, tipe, jumlah baris, dan arti nilai lolos pemeriksaan.",
         "excelBridge": [
-          "Bandingkan COUNTA pada kolom yang wajib terisi dengan hitungan baris Python; keluarkan header dari hitungan.",
-          "Padankan pemilihan satu kolom Excel dengan ekspresi Python untuk kolom itu; cukup baca dan jalankan sel yang disediakan, tidak perlu menulis program dari nol."
+          "Pada fixture 100, 200, 900, cocokkan SUM=1200 dan COUNT=3 dengan mean=400; header tidak ikut hitungan.",
+          "COUNT menghitung angka, COUNTA menghitung sel tidak kosong. AVERAGE mengabaikan kosong; kontrak latihan ini justru menahan mean ketika ada sel wajib kosong. Tulis pembilang dan denominator agar beda kebijakan terlihat."
         ],
         "glossary": [
           {
@@ -259,28 +259,28 @@
         "guidedMinutes": 35,
         "steps": [
           {
-            "action": "Cocokkan header CSV dan kamus di kertas",
-            "why": "Mencegah tebakan arti kolom dari nama singkat",
-            "expectedEvidence": "Kamus enam kolom dengan satuan",
-            "minutes": 8
+            "action": "Prediksi tiga fixture sebelum membuka hasil",
+            "why": "Membedakan angka nol, sel kosong dan tidak ada observasi",
+            "expectedEvidence": "Prediksi valid: mean 400; header/kosong: tahan mean; unit latihan",
+            "minutes": 6
           },
           {
-            "action": "Dosen menjalankan sel baca CSV, mahasiswa menunjuk padanannya di Excel",
-            "why": "Membangun jembatan tabel ke instruksi Python",
-            "expectedEvidence": "Catatan satu baris dan satu kolom yang sama di dua tampilan",
-            "minutes": 10
-          },
-          {
-            "action": "Periksa keadaan data valid, kosong, dan salah tipe di browser",
-            "why": "Membaca kegagalan sebagai informasi kualitas data",
-            "expectedEvidence": "Daftar pesan yang perlu ditindaklanjuti",
+            "action": "Ubah kontrol dan telusuri batang ke sel mentah",
+            "why": "Hasil pemeriksaan harus dapat ditelusuri ke baris yang ditolak",
+            "expectedEvidence": "Valid 3/3/0, header 0/0/0, kosong 3/2/1 untuk baris/valid/ditolak; uji dua pilihan alasan",
             "minutes": 9
           },
           {
-            "action": "Latih urutan Restart dan Run All serta tulis tugas rumah",
-            "why": "Membiasakan reproduksi tanpa variabel tersembunyi",
-            "expectedEvidence": "Checklist eksekusi dari awal",
-            "minutes": 8
+            "action": "Jelaskan tiga kebijakan tanpa mengubah sumber",
+            "why": "Mean 333,333 atau 500 dapat menyembunyikan asumsi yang tidak disetujui",
+            "expectedEvidence": "Kontrak menahan mean; nol memberi 1000/3; pengabaian memberi 1000/2; usulan perbaikan membutuhkan bukti",
+            "minutes": 10
+          },
+          {
+            "action": "Transfer individu: duration 6, kosong, 18 bulan",
+            "why": "Mean sama tidak menjamin kelengkapan atau prosedur sama",
+            "expectedEvidence": "Tahan mean; bila sumber mengonfirmasi 12: SUM 36/COUNT 3; mengabaikan: SUM 24/COUNT 2; keduanya mean 12 dengan bukti berbeda",
+            "minutes": 10
           }
         ],
         "deliverable": {
@@ -290,14 +290,14 @@
             "s02-run-all.ipynb"
           ],
           "rubric": [
-            "Arti dan satuan enam kolom benar (30)",
-            "Jumlah baris dan tipe diperiksa (25)",
-            "Kesalahan terdeteksi tanpa nol palsu (25)",
-            "Notebook dijalankan dari awal dengan catatan (20)"
+            "Jejak tiga fixture dan status mean (30)",
+            "Pembilang, denominator dan asumsi nol/pengabaian (25)",
+            "Transfer duration: mean sama, bukti berbeda (25)",
+            "Kamus dan notebook UCI dari awal, terpisah dari fixture (20)"
           ]
         },
         "notebookSection": "Sesi 02: membaca CSV dan kamus data",
-        "coreTask": "Baca hasil sel yang disediakan dan jelaskan dengan bahasa tabel Excel.",
+        "coreTask": "Buat s02-pemeriksaan-data.md berisi tabel tiga fixture, diagnosis baris 2, SUM/COUNT dan satu usulan perbaikan bersyarat. Tambahkan kartu transfer duration dengan dua denominator dan batas klaim. Suplemen pedagogis ini bukan kutipan RPS, data nasabah atau eksekusi Python browser.",
         "extension": "Tambahkan pemeriksaan nama kolom salah pada salinan berkas, bukan pada sumber asli.",
         "dataUse": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi. installmentRate tetap kode ordinal 1–4; arti persentase rinci belum dipastikan.",
         "limitations": "Tidak memerlukan dasar pemrograman. Hindari data identitas atau berkas nasabah pribadi; latihan kesalahan hanya memakai salinan."

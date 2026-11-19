@@ -42,11 +42,27 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
      assert.match(rows[4],leaked?/SALAH: target masuk input/:/Target terpisah/);
      assert.deepEqual(await page.locator('#af-viz [data-course-visual] rect').evaluateAll(xs=>xs.map(x=>Number(x.getAttribute('width')))),[250,leaked?62.5:0]);
     }
+    if(l.kind==='data'){
+     const contract=await page.locator('#af-viz [data-aifn-contract]').evaluate(el=>({...el.dataset}));
+     const counts=value==='empty'?[0,0,0]:value==='error'?[3,2,1]:[3,3,0];
+     assert.deepEqual([Number(contract.rows),Number(contract.valid),Number(contract.invalid)],counts);
+     assert.equal(contract.mean,value==='valid'?'400':'unavailable');
+     assert.match(text,/Fixture sintetis/);assert.match(text,/model tetap tidak berubah/);
+     const max=Math.max(1,...counts);
+     assert.deepEqual(await page.locator('#af-viz [data-course-visual] rect').evaluateAll(xs=>xs.map(x=>Number(x.getAttribute('width')))),counts.map(x=>x/max*250));
+     if(value==='error')assert.match((await page.locator('#af-viz tbody tr').allTextContents())[1],/2\[kosong\]DITOLAK/);
+     if(value==='empty')assert.match(await page.locator('#af-viz tbody').innerText(),/Mean tidak terdefinisi/);
+     assert.match(await page.locator('#af-reason-result').innerText(),/Pilih benar atau tidak/);
+    }
     const feedback=[];for(const answer of ['safe','revise']){await page.locator('#af-prediction').selectOption(answer);await page.locator('#af-reason').click();feedback.push(await page.locator('#af-reason-result').innerText());}
     assert.equal(feedback.filter(s=>s.startsWith('Alasan pilihan tepat.')).length,1);assert.equal(feedback.filter(s=>s.startsWith('Tinjau pilihan Anda.')).length,1);
     if(l.kind==='workflow'){
      assert.ok(feedback[value==='after'?1:0].startsWith('Alasan pilihan tepat.'));
      assert.match(feedback[0],value==='after'?/Hapus risk dari input/:/tanggal dan horizon UCI tidak diketahui/);
+    }
+    if(l.kind==='data'){
+     assert.ok(feedback[value==='valid'?0:1].startsWith('Alasan pilihan tepat.'));
+     assert.match(feedback[0],value==='valid'?/400 unit latihan/:value==='empty'?/COUNT = 0/:/1000 \/ 3/);
     }
     if(l.kind==='explain'){const trace=await page.locator('#af-viz [data-aifn-logit]').evaluate(el=>({score:Number(el.dataset.aifnScore),reconstructed:Number(el.dataset.aifnReconstructed),logit:Number(el.dataset.aifnLogit)}));const i=Math.min(expected.classification.scores.length-1,Math.floor(Number(value)*(expected.classification.scores.length-1)));assert.ok(Number.isFinite(trace.logit));assert.ok(Math.abs(trace.score-expected.classification.scores[i].score)<1e-12);assert.ok(Math.abs(trace.reconstructed-trace.score)<1e-12);}
     if(['classification','evaluation'].includes(l.kind)){const m=metricsAt(expected.classification.scores,Number(value));for(const name of ['TP','FP','TN','FN'])assert.ok(text.includes(`${name} ${m[name]}`));assert.ok(text.includes(expected.classification.auc.toLocaleString('id-ID',{maximumFractionDigits:3})));}

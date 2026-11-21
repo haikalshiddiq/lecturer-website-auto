@@ -332,9 +332,9 @@
         "Pisahkan data sebelum menghitung parameter yang dipelajari, seperti rerata, simpangan baku, atau median imputasi. Praktikum menggunakan split acak berstrata 80/20 dengan aturan tetap karena tidak ada tanggal. Ini bukan evaluasi masa depan; semua transformasi model dipelajari dari train saja."
       ],
       "assumptions": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi. Dataset sumber dinyatakan tanpa missing pada tabel UCI; notebook tetap memeriksa. Contoh nilai hilang tambahan, jika dipakai, adalah salinan latihan berlabel sintetis.",
-      "worked": "Dosen membuka histogram amount dan mengklik rentang paling kanan untuk menanyakan apakah kredit besar itu salah atau hanya jarang. Sel notebook memeriksa missing dan batas nilai sebelum split. Rerata dan skala dihitung dari train, lalu dipakai apa adanya pada test; tidak ada klaim angka median tertentu sebelum kode dijalankan.",
-      "practice": "Buat satu histogram amount dengan satuan, satu tabel missing, dan catatan pemeriksaan pencilan. Di rumah, jalankan split tetap dan buktikan bahwa parameter transformasi berasal dari train. Jelaskan mengapa tidak tersedia evaluasi temporal pada data ini.",
-      "misconception": "Acak berstrata menjaga proporsi kelas secara pendekatan, bukan urutan waktu. Jangan menggambar bulan atau tanggal rekaan untuk menyebut split ini temporal.",
+      "worked": "Suplemen sintetis, unit latihan tanpa mata uang: T1/T2/T3 adalah train dengan amount 100/kosong/300; E1/E2 adalah test 900/1100. Fit median hanya pada nilai teramati train: (100 + 300) / 2 = 200. Transform mengisi T2 dengan 200 dan mempertahankan semua nilai teramati. Jika test ikut fit, urutan 100,300,900,1100 memberi (300 + 900) / 2 = 600: isian T2 berubah meski label risk tidak dibaca. Kontrol menghitung fixture dan diagram, bukan melatih ulang model UCI atau mengukur perubahan akurasi. Di notebook rumah, periksa histogram dan missing sumber apa adanya; jangan menghapus nilai ekstrem agar grafik rapi.",
+      "practice": "Transfer individu: fixture durasi sintetis train 6/kosong/18 bulan, test 60/84 bulan. Tuliskan nilai terurut, median train dan gabungan, isian tiap baris setelah transform, serta dua ID test yang dilarang ikut fit. Serahkan s03-eda.md dengan alasan asal parameter, bukan hanya nilai median. Di rumah, buat s03-histogram.png dari UCI beserta tabel missing dan satu pemeriksaan pencilan; jalankan s03-praproses.ipynb dengan split tetap dan parameter train saja. Tanpa tanggal, jangan menyebutnya evaluasi temporal.",
+      "misconception": "Tidak memakai label test belum berarti bebas kebocoran: amount test juga tidak boleh menentukan median imputasi. Fit mempelajari parameter; transform menerapkannya tanpa belajar ulang. Nilai kosong bukan 0. Acak berstrata bukan urutan waktu; jangan mengarang tanggal atau mengklaim arah perubahan akurasi dari dua median saja.",
       "quiz": {
         "question": "Dari mana rerata dan skala untuk model harus dihitung?",
         "options": [
@@ -350,22 +350,22 @@
         ]
       },
       "teacher": {
-        "flow": "7 menit: Sketsa histogram dari pengelompokan nilai di kertas. 10 menit: Baca histogram dan pemeriksaan missing di browser. 10 menit: Dosen menunjukkan split dan asal parameter praproses. 8 menit: Tulis keputusan mempertahankan atau memeriksa ulang nilai ekstrem. Tugas rumah: jalankan ulang bagian notebook terkait dan jelaskan hasilnya dengan kalimat keuangan, bukan salinan angka.",
+        "flow": "35 menit. 7 menit: prediksi median dari kartu train 100/kosong/300 tanpa membuka test. 10 menit: ubah sumber statistik di browser, baca dua batang dan telusuri setiap baris pada tabel. 10 menit: mahasiswa menjelaskan mengapa 600 memakai test walau tidak melihat risk; bedakan fit dengan transform dan tegaskan tidak ada uji akurasi model bocor. 8 menit: transfer individu durasi train 6/kosong/18, test 60/84. Kunci fasilitasi: median train 12 bulan, gabungan 39 bulan; hanya sel kosong diganti, test tetap 60/84. Tugas rumah terpisah: histogram, missing, pencilan dan parameter train pada notebook UCI, tanpa tanggal rekaan.",
         "rubric": [
           "Histogram dan satuan terbaca (25)",
           "Missing dan pencilan diperiksa tanpa asumsi nol (25)",
           "Split berstrata dan fit train-only benar (35)",
           "Batas tanpa tanggal dinyatakan (15)"
         ],
-        "probe": "Apakah kredit paling besar harus dihapus agar grafik rapi? Minta alasan berbasis satuan, sumber, dan dampak pada tujuan audit, bukan tampilan grafik."
+        "probe": "Jika risk test disembunyikan tetapi amount test ikut median, apakah audit lolos? Minta ID dan hitungan, bukan slogan. Rubrik diagnosis: 25 poin histogram/satuan sumber; 25 poin missing bukan nol dan pencilan ditinjau; 35 poin asal fit serta transfer (12 versus 39 bulan, test tidak berubah); 15 poin batas tanpa tanggal, tanpa klaim akurasi baru. Skor ini rubrik latihan, bukan perubahan bobot resmi."
       },
       "financeLab": {
-        "caseTitle": "Membaca sebaran pinjaman sebelum memilih model",
-        "financeQuestion": "Apakah ada pola jumlah kredit, nilai hilang, atau kesalahan satuan yang merusak analisis?",
-        "decision": "Pertahankan nilai ekstrem yang sah; hentikan analisis bila masalah tipe atau satuan belum selesai.",
+        "caseTitle": "Siapa yang mengajari isian amount kosong?",
+        "financeQuestion": "Apakah nilai test diam-diam mengubah median yang dipakai mengisi train?",
+        "decision": "Fit parameter hanya dari train; transform tanpa fit ulang. Pertahankan nilai ekstrem yang sah dan pisahkan fixture sintetis dari arsip.",
         "excelBridge": [
-          "Gunakan histogram Excel atau tabel FREQUENCY untuk amount, lalu baca sumbu grafik browser yang sama.",
-          "Bayangkan train sebagai lembar kerja penyusun aturan dan test sebagai lembar pemeriksaan; rumus rerata aturan hanya boleh menunjuk train."
+          "Untuk tugas rumah, gunakan histogram Excel atau tabel FREQUENCY pada amount sumber; beri satuan dan hitungan. Grafik batang browser kali ini khusus audit median fixture, bukan histogram UCI.",
+          "Buat lembar train 100/kosong/300 dan test 900/1100. MEDIAN pada nilai train adalah 200; rentang gabungan menjadi 600. Rumus pengisian merujuk satu sel parameter train yang dikunci, bukan menghitung ulang dari test."
         ],
         "glossary": [
           {
@@ -387,32 +387,42 @@
             "term": "Holdout/test",
             "meaning": "Bagian yang dipisahkan untuk evaluasi, bukan pelatihan.",
             "financeExample": "Baris test tidak ikut menentukan rerata transformasi."
+          },
+          {
+            "term": "Median dan imputasi",
+            "meaning": "Median adalah nilai tengah setelah angka diurutkan; untuk jumlah genap, rata-ratakan dua nilai tengah. Imputasi mengisi nilai hilang dengan aturan yang dinyatakan.",
+            "financeExample": "Train 100 dan 300 memberi median 200 unit latihan untuk mengisi T2 yang kosong, bukan mengganti semua amount."
+          },
+          {
+            "term": "Fit versus transform",
+            "meaning": "Fit mempelajari parameter dari train; transform menerapkan parameter tersimpan tanpa mempelajarinya ulang.",
+            "financeExample": "Simpan median 200 sebelum membuka test, lalu terapkan aturan pengisian yang sama pada kedua bagian."
           }
         ],
         "guidedMinutes": 35,
         "steps": [
           {
-            "action": "Sketsa histogram dari pengelompokan nilai di kertas",
-            "why": "Menghubungkan tabel jumlah dengan bentuk distribusi",
-            "expectedEvidence": "Sketsa berlabel amount dan hitungan",
+            "action": "Prediksi median train tanpa membuka kartu test",
+            "why": "Membedakan nilai hilang dari nol dan membatasi informasi fit",
+            "expectedEvidence": "Urutan 100,300; median 200; T2 diisi 200 unit latihan",
             "minutes": 7
           },
           {
-            "action": "Baca histogram dan pemeriksaan missing di browser",
-            "why": "Memisahkan observasi nyata dari dugaan kerusakan",
-            "expectedEvidence": "Tabel missing dan satu pencilan yang ditinjau",
+            "action": "Ubah sumber median dan baca batang bersama tabel",
+            "why": "Melihat isian berubah karena dua nilai test ikut fit",
+            "expectedEvidence": "Dua mode: median 200/600, jumlah nilai fit 2/4, ID E1/E2 bocor hanya pada gabungan",
             "minutes": 10
           },
           {
-            "action": "Dosen menunjukkan split dan asal parameter praproses",
-            "why": "Memperjelas batas informasi train/test",
-            "expectedEvidence": "Diagram acak berstrata 80/20 tanpa tanggal rekaan",
+            "action": "Jelaskan fit versus transform tanpa memakai label risk",
+            "why": "Mengoreksi anggapan kebocoran hanya berasal dari jawaban target",
+            "expectedEvidence": "Alasan mengapa 600 tidak lolos audit; tidak ada klaim model bocor dilatih atau akurasi berubah",
             "minutes": 10
           },
           {
-            "action": "Tulis keputusan mempertahankan atau memeriksa ulang nilai ekstrem",
-            "why": "Melatih alasan bisnis alih-alih hapus otomatis",
-            "expectedEvidence": "Catatan kualitas data dan checklist notebook rumah",
+            "action": "Transfer individu ke durasi lalu rencanakan notebook rumah",
+            "why": "Memastikan aturan asal parameter berpindah ke contoh baru",
+            "expectedEvidence": "s03-eda.md: train 6/kosong/18, test 60/84 bulan; dua median, tabel transform, ID terlarang dan batas kesimpulan",
             "minutes": 8
           }
         ],
@@ -430,8 +440,8 @@
           ]
         },
         "notebookSection": "Sesi 03: EDA dan split tanpa kebocoran",
-        "coreTask": "Jelaskan dua ciri histogram dan telusuri asal parameter transformasi.",
-        "extension": "Pada salinan sintetis, kosongkan satu nilai train dan bandingkan imputasi train dengan imputasi gabungan, tanpa mengubah sumber.",
+        "coreTask": "Hitung median fixture, telusuri baris penyusunnya dan lakukan transfer durasi secara individu. Histogram dan notebook UCI adalah tugas rumah terpisah.",
+        "extension": "Opsional: ubah hanya test sintetis menjadi 24/30 bulan; median train harus tetap 12. Jika parameter ikut berubah, tunjukkan rentang fit yang salah. Jangan mengubah arsip sumber.",
         "dataUse": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi.",
         "limitations": "Split acak tidak membuktikan kinerja masa depan atau bebas pengulangan orang. Jika tidak ada missing, laporkan nol sesuai output, bukan menciptakan masalah."
       }

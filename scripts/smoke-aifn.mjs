@@ -64,6 +64,18 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
      assert.ok(feedback[value==='valid'?0:1].startsWith('Alasan pilihan tepat.'));
      assert.match(feedback[0],value==='valid'?/400 unit latihan/:value==='empty'?/COUNT = 0/:/1000 \/ 3/);
     }
+    if(l.kind==='split'){
+     const pooled=value==='all',median=pooled?600:200;
+     const trace=await page.locator('#af-viz [data-aifn-imputation]').evaluate(el=>({...el.dataset}));
+     assert.equal(Number(trace.median),median);assert.equal(Number(trace.fitCount),pooled?4:2);assert.equal(Number(trace.testFit),pooled?2:0);
+     assert.match(text,/Fixture sintetis/);assert.match(text,/Model nyata tetap fit train/);
+     const rows=await page.locator('#af-viz tbody tr').allTextContents();assert.equal(rows.length,5);
+     assert.match(rows[1],new RegExp(`T2 / train\\[kosong\\]Tidak: nilai hilang${median}$`));
+     assert.match(rows[3],pooled?/YA: bocor dari test900$/:/Tidak: test ditahan900$/);
+     assert.match(rows[4],pooled?/YA: bocor dari test1100$/:/Tidak: test ditahan1100$/);
+     assert.deepEqual(await page.locator('#af-viz [data-course-visual] rect').evaluateAll(xs=>xs.map(x=>Number(x.getAttribute('width')))),[200/median*250,250]);
+     assert.ok(feedback[pooled?1:0].startsWith('Alasan pilihan tepat.'));assert.match(feedback[0],pooled?/600.*Dua nilai test/:/200.*transform train dan test/);
+    }
     if(l.kind==='explain'){const trace=await page.locator('#af-viz [data-aifn-logit]').evaluate(el=>({score:Number(el.dataset.aifnScore),reconstructed:Number(el.dataset.aifnReconstructed),logit:Number(el.dataset.aifnLogit)}));const i=Math.min(expected.classification.scores.length-1,Math.floor(Number(value)*(expected.classification.scores.length-1)));assert.ok(Number.isFinite(trace.logit));assert.ok(Math.abs(trace.score-expected.classification.scores[i].score)<1e-12);assert.ok(Math.abs(trace.reconstructed-trace.score)<1e-12);}
     if(['classification','evaluation'].includes(l.kind)){const m=metricsAt(expected.classification.scores,Number(value));for(const name of ['TP','FP','TN','FN'])assert.ok(text.includes(`${name} ${m[name]}`));assert.ok(text.includes(expected.classification.auc.toLocaleString('id-ID',{maximumFractionDigits:3})));}
    }

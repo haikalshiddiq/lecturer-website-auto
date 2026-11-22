@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T07:00:24+07:00",
+  "generatedAt": "2026-11-22T10:35:33+07:00",
   "period": {
     "start": "2026-11-16",
     "end": "2026-11-22",
@@ -8,7 +8,7 @@
   "status": {
     "level": "monitor",
     "label": "Pantau",
-    "conditionIndex": 47,
+    "conditionIndex": 48,
     "confidence": "Low",
     "dataSufficiency": "Insufficient",
     "dataQualifier": "Data belum cukup",
@@ -26,11 +26,6 @@
       },
       {
         "kind": "support",
-        "topic": "Markets",
-        "score": 0.053
-      },
-      {
-        "kind": "support",
         "topic": "Business & Investment",
         "score": 0.053
       }
@@ -38,12 +33,12 @@
     "caveat": "Data bidang kritis belum lengkap: Economy & Jobs, Health & Family, Public Safety. Status ini adalah sinyal risiko berita berbasis judul dan sumber, bukan penilaian keselamatan pribadi atau rekomendasi pindah negara."
   },
   "metrics": {
-    "articles": 16,
-    "sources": 11,
-    "categoriesCovered": 6,
+    "articles": 17,
+    "sources": 12,
+    "categoriesCovered": 5,
     "categoriesTracked": 13,
     "positive": 2,
-    "neutral": 12,
+    "neutral": 13,
     "negative": 2,
     "averageScore": -0.006,
     "criticalNegativeSignals": 2
@@ -57,12 +52,12 @@
     {
       "date": "2026-11-17",
       "score": 0.0,
-      "articles": 1
+      "articles": 2
     },
     {
       "date": "2026-11-18",
-      "score": 0.057,
-      "articles": 3
+      "score": 0.042,
+      "articles": 4
     },
     {
       "date": "2026-11-19",
@@ -71,8 +66,8 @@
     },
     {
       "date": "2026-11-20",
-      "score": -0.013,
-      "articles": 4
+      "score": -0.016,
+      "articles": 3
     },
     {
       "date": "2026-11-21",
@@ -118,6 +113,16 @@
     },
     {
       "topic": "Economy & Jobs",
+      "count": 0,
+      "score": 0,
+      "sentiment": "No coverage",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "highlightId": null
+    },
+    {
+      "topic": "Tech & AI",
       "count": 0,
       "score": 0,
       "sentiment": "No coverage",
@@ -177,16 +182,6 @@
       "highlightId": null
     },
     {
-      "topic": "Tech & AI",
-      "count": 1,
-      "score": 0.0,
-      "sentiment": "Neutral",
-      "positive": 0,
-      "neutral": 1,
-      "negative": 0,
-      "highlightId": "2026-11-20-64d5015980be"
-    },
-    {
       "topic": "Automotive & EV",
       "count": 3,
       "score": 0.0,
@@ -197,6 +192,16 @@
       "highlightId": "2026-11-22-fd387159cc"
     },
     {
+      "topic": "Markets",
+      "count": 5,
+      "score": 0.032,
+      "sentiment": "Neutral",
+      "positive": 1,
+      "neutral": 4,
+      "negative": 0,
+      "highlightId": "2026-11-18-a73c4e90f37b"
+    },
+    {
       "topic": "Business & Investment",
       "count": 3,
       "score": 0.053,
@@ -205,16 +210,6 @@
       "neutral": 2,
       "negative": 0,
       "highlightId": "2026-11-20-63a978bbdc0a"
-    },
-    {
-      "topic": "Markets",
-      "count": 3,
-      "score": 0.053,
-      "sentiment": "Neutral",
-      "positive": 1,
-      "neutral": 2,
-      "negative": 0,
-      "highlightId": "2026-11-18-3298e4da065b"
     }
   ],
   "highlights": [
@@ -224,7 +219,7 @@
       "topic": "Climate & Disaster",
       "title": "BNPB: 2.397 bencana sepanjang 2026 didominasi karhutla dan banjir",
       "source": "ANTARA News Jambi",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGtYdE5sVDlrR3BtbEYwRTM1OWJBZDRzTVp6Wl9LUGl4Y0YtM1JNeVVpS3pBQlJVVDdMYjhoWVZFV2dmU19ESDdSMTRSeUtNQjlSMEo1Y1UzQzVELWFQWGV3NDJKMWM2QVNDUUd4UXV0TXBLY2tlSF9DRlpNWnJmczdMX3hYLXdmMHJlUVNfM3lpUUFHcXhlQnNvRVczNEJJaXg3REZKSmlXZ9IBrwFBVV95cUxQbGVJZkQzUGl0OTM4QlJsbHdySU1yWk5HYWxGcTZkWVZhZEc1OG0yTnJwaXJUMWlnMkhxYjR0Uy1Id3A5aUZVQjdEdHIxMy1BWnhGV2tYakswNFNqM2NIeHA5enpwWlEtU3MyYzFCVF9FdmxXQXBMTU5JWGlBaFI2TzZwanh6dm1LaGtNLU13NlJ2cTR5ejlqOV9hd1JYakdlTEl4NzY3dVdqOGR4bEEw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbGVJZkQzUGl0OTM4QlJsbHdySU1yWk5HYWxGcTZkWVZhZEc1OG0yTnJwaXJUMWlnMkhxYjR0Uy1Id3A5aUZVQjdEdHIxMy1BWnhGV2tYakswNFNqM2NIeHA5enpwWlEtU3MyYzFCVF9FdmxXQXBMTU5JWGlBaFI2TzZwanh6dm1LaGtNLU13NlJ2cTR5ejlqOV9hd1JYakdlTEl4NzY3dVdqOGR4bEEw0gGvAUFVX3lxTFBsZUlmRDNQaXQ5MzhCUmxsd3JJTXJaTkdhbEZxNmRZVmFkRzU4bTJOcnBpclQxaWcySHFiNHRTLUh3cDlpRlVCN0R0cjEzLUFaeEZXa1hqSzA0U2ozY0h4cDl6enBaUS1TczJjMUJUX0V2bFdBcExNTklYaUFoUjZPNnBqeHp2bUtoa00tTXc2UnZxNHl6OWo5X2F3UlhqR2VMSXg3Njd1V2o4ZHhsQTA?oc=5",
       "sentiment": "Negative",
       "score": -0.16,
       "confidence": 0.68
@@ -252,25 +247,14 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-11-18-3298e4da065b",
+      "id": "2026-11-18-a73c4e90f37b",
       "date": "2026-11-18",
       "topic": "Markets",
-      "title": "Skenario BI Rate Naik ke 6% Bisa Dorong Kinerja Pasar Saham dan Pergerakan IHSG",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQa0pjUU55WFI0Y3QxLUNMRjA4dm85aTRnN2cyaG14Y3loc1Y0N1k0RzVtWlB1aUlwOGZqNTdaakVaWTFTLUJVMVpVaUFaWnBBemFQRTZLZmhacWpLVHNZeVB6MzdSRXctT2xSNExSXzBfZ1hPLWl0UTNLZU9wZWtVWlV3VWczSVg3andMUHg1REU5YThrbm5wY0pQcy03cDRXM1ZfeEVHdVIwbTZsT0t4QnRJUGPSAawBQVVfeXFMTkFZTVdESUJvT2RlakRqb2FRaFNuTnF0SHZ6QUZCYW9fa2FubUI0VGRMZjhJa0VQcmFMTml5WWlyR0JuNVgxa2hGNW9aaHBEUTJfR2ppYS1vdzFJTDZSc3FtLU5Hak1haUVyRDQ2QVhhVVY0MEFNRjFBQWxxNHBvMl9vcFhtR0RBOUFwZDNPODhCWkdFbFY2Q1JNWmFMeVEwT2I0ZXhJRmJuMVhxcg?oc=5",
+      "title": "BI Rate Naik Jadi 6%, Pelaku Pasar Ungkap Efeknya ke Saham-Reksa Dana",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPV1FXLWlnS0t6a3VIWmFBSVNTbWdMdlBraFVxUjhTZ2dlckdFeUJxTjZYcGpTbkFiRGowVldLa0lfdjJBTmhaSnlRZ3dqUm5ScHBacVpZR2tqV3FJbE1VVUJhMlI2TVNaOHNsNTF0UHpSS05QMEFsd1VhQTAtSFhZalBLcjBBWHhuLVpSU1BDeXROYVhxNDVoT0E4OFpScFlva29ybWpUbXNtLWFQUXpSeTUydHJ4UU1NMWNldUFnLVNDQUNodUk4cdIBzgFBVV95cUxQVF85OElkNml5WTRmZVlSVlJZbko2cUVocVFja2xlNHBJazNXUHZJd1ZQeEUwUmhjRnE5UXltOFktdFJJVGpzZVdreDNFNXY1dkh5M0ZMdjJZd0hRa0hIdzYxM2x4c0Y5ZE5XTnIyMFkxTGhQVjhseUxRSzE3VklXYS1MX0dzcXdWT0EycGpUSXdNQllYOExkeUhyck5YTmw4WEpoREFlQWc2SVFrZ19kQ3NsYVRpOXV4UXpYMGI3OHdfaTlCa2s1SGV4c19Wdw?oc=5",
       "sentiment": "Positive",
       "score": 0.16,
-      "confidence": 0.68
-    },
-    {
-      "id": "2026-11-20-64d5015980be",
-      "date": "2026-11-20",
-      "topic": "Tech & AI",
-      "title": "Hari Anak Sedunia 2026, Ini Deretan Masalah di RI yang Tak Tuntas",
-      "source": "Bloomberg Technoz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZUZYVG5iSnFkVGpLU0lKbWtzejlBbVZFMkxKNHktbk9ScmJuRmRqWV80UHVwaDlQSWk4U3BQckVMVEVQeHRiOTlkckVZWE13NWhXa29fd0RTZHhhZmExaG93LTFoak9zV1dJMzVkWmJEeU1pMmhscXF2T2d2VUNnQWhlQXdiSkItUldqTkZoTUNaa2tVbTdDV21RNzVwektIVERzYVBXX3lybEluc3kwY2JsbjNYb0U?oc=5",
-      "sentiment": "Neutral",
-      "score": 0.0,
       "confidence": 0.68
     },
     {
@@ -296,12 +280,12 @@
       "confidence": 0.68
     },
     {
-      "id": "2026-11-21-cec222b2dd65",
+      "id": "2026-11-21-c01843aed7ca",
       "date": "2026-11-21",
       "topic": "Climate & Disaster",
-      "title": "Prakiraan Cuaca Indonesia Sepekan Periode 20 – 26 November 2026: Dinamika Atmosfer Masih Aktif, Potensi Hujan Lebat Berlanjut di Sejumlah Wilayah Indonesia",
+      "title": "Prakiraan Cuaca Indonesia Sepekan Periode 17 – 23 November 2026: Aktivitas Atmosfer Masih Dinamis, Meningkatkan Potensi Hujan di Sejumlah Wilayah Indonesia",
       "source": "BMKG",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPRXlTYTBUQ1dPM2JFUVhiR0pEeEtYVVdEN3EzN0VULURhWWRCMXRXYl9oYUFsYUNIUk5EVXRGYXpxeXlqcDl5VHJ3d2JCb3VKNF9La3pTdWtRdGZZMDljTDBDWGo1UHFiWDJZcm1nbzFqSll3VGtKNUZ6REM5ZEM5akpxb2t5Zm1RTDhvZ1lHWlpXVXQ4bDFTZzdoYW1TYXlNWVdOaFd4Vlo3allyei16RGs1eWRZZVpKdUZzZWNhS2dKWGU5RGY2dFh1YzV5NkVmcl96QTdzS1oxQmdyY08yZkV1Tl90UVBxQmVmOF9lMy1TZWs1ZWdqSXNsMkNheHBnYmNYR2stSjZDMnp2X1lQUjNWb1dFdGRVTUtScW9qbHdkeWhtMUljaHJB?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbGRjcE9hYkt1UVdCRlhoWkZWWUV2eEJzOHZ6bGJ6REZrNElERWppVEFYSS1yOXR5bWJ6WmJWMUdIY0hIM3J2dThzRFJkQkI1b0VvQkxTYnpEamdlcTRUUXdJQVAyZEZRaUtaZ2ZyTUkyRmVCYWhGWHNUMHZvb1UzWGFoVU9tWWpNLVBSX1M1bXBXMExWRUd3R3QwX3RkRmwtbVZRS3piSXowdVpSQXhxdG9scy14Z3Z2aTJfcG5odjhVRVhaZi1LZzNFdmxKNnZnQ1pDWnlxRklBWnFRd0lMd2puN21iRGlpSFVJb2hsaThMQk5oU19ITVFka1hKQy1jMXV6WWU3NUFRWlRTYUliZmk0bnBOMlpDcmxXTjlNTjZ6UG9mamhfeThn?oc=5",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.68
@@ -312,7 +296,7 @@
       "topic": "Climate & Disaster",
       "title": "BMKG Tekankan Peran Informasi MKG dalam Membangun Ketangguhan Bencana dan Pembangunan Berkelanjutan",
       "source": "BMKG",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa3ZTMTRBcTZpSmQ5SWE4LXZ2TVVQTG1BUFhjOHRXSWhHM21xSmt1MU5sYUxGSWhCdkVST29BMGhFYVBjZVEyT0J1VDhkeG5GTHZ4UlFWTmc1UENQM0lIZ3JkRFZud3RwRGRtSEZINDdScTJwcV9CMHprZEdoVFA0RExIN3duNnBsS3VTYWtlTHZlQTA1cXlpSFhGVktPLXExT0xLWFZackREeU4xN2VHajlTSU4waFBMMjJJWlVRMGFUWmtPeDdPcQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdW1KdGtaODktcGp1N2VTVHZVOF9FV09sbnVTcWhIY1ZFdUIxYjQyY1I0YTlTUGtkTlRJd2xlazE5ZUtRQUVMYUZWektMSXV6Vzc0NklLankzLTk0UlZWVmgyTWhjMjlaMHE4OG54UDlDNVBEU0VWdTdCWnZMdE1xV0xVUmczSWl0SUFqVGRxNlZCUkk4QTBIc1pOR3FaSVc0akRudVdQU0NYcnR5S2x6RFg3dnpGMTZLUWdwa2pIUlpZaEd2dzlITWtIUUd5OC1s?oc=5",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.68
@@ -349,6 +333,17 @@
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35
+    },
+    {
+      "id": "2026-11-20-7b8595de5115",
+      "date": "2026-11-20",
+      "topic": "Markets",
+      "title": "Ujian Rupiah Hari Ini: Dolar Perkasa, Bursa Saham Merana - Market",
+      "source": "Bloomberg Technoz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeE1YZ3JiaEo5Y3h6M2h1Y2toN0lxYjhsTFY4aWxud1Z6TWVIZEJlVlFMY0cyNi1pdVhNMkx0MjNPNTZCLWdnM1djX1RJZEtqdlRqa3doUHpCMUxsWGV1LUVQXzVJRG82c1JLUk56WWhoY2Ftc3hMNy1yVmZMaS1VQU1acTZDdFBiNVhTR0xnX0VrdG1Zc29jTXZWMVFKRHdWNW1mRHVHcXpQRE0t?oc=5",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.68
     }
   ],
   "decisionTriggers": [

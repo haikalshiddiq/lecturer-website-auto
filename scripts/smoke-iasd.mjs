@@ -349,11 +349,16 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         for (const draft of [false, true]) for (const qty of [0, 1, 4]) for (const event of ['save', 'submit']) {
           await check('draft', draft); await range('qty', qty); await select('s7Event', event);
           const expected = qty > 0 || (draft && event === 'save') ? 'allow' : 'reject';
+          assert.deepEqual(await page.locator('[data-iasd-s7-ledger] tbody tr').allTextContents(), [
+            `Objek OrderItem${qty}`, `Total unit: objek × 3${qty * 3}`, `Operasi${event === 'save' ? 'saveDraft()' : 'submit()'}`,
+            `Kebijakan draft kosong${draft ? 'Diizinkan' : 'Tidak diizinkan'}`, `Guard jumlah baris${expected === 'allow' ? 'Lolos syarat jumlah' : 'Ditolak dari jumlah'}`
+          ], 'S07 ledger must follow object count, units, operation and policy');
           for (const decision of ['allow', 'reject']) for (const owner of ['Order', 'UI']) {
             await select('s7Decision', decision); await select('s7Owner', owner); await page.locator('[data-simact="s7review"]').press('Enter');
             await feedback(decision === expected && owner === 'Order' ? 'Kontrak dan owner tepat.' : 'Tinjau kontrak atau owner.');
             await feedback(expected === 'allow' ? 'Operasi diizinkan' : 'Operasi ditolak');
             await feedback('Order menjaga invariant');
+            await feedback(`total ${qty * 3} unit dari ${qty} objek`); await feedback('Jejak D tertulis'); await feedback('D bukan hasil simulator ini');
           }
         }
         await check('draft', true); await range('qty', 0); await select('s7Event', 'submit'); await select('s7Decision', 'reject'); await select('s7Owner', 'Order'); await action('s7review');
@@ -365,12 +370,13 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         await check('draft', true); await action('s7review');
         await page.reload({ waitUntil: 'networkidle' }); await feedback('Kontrak dan owner tepat.');
         const example7 = page.locator('[data-iasd-supplement="7"] summary'); await example7.press('Enter');
-        assert.ok((await page.locator('[data-iasd-supplement="7"]').innerText()).includes('O-AR7')); await example7.press('Escape'); await example7.press('Enter');
+        for (const text of ['O-AR7', '4 × 3 = 12', 'TC-D', 'Actual belum diuji']) assert.ok((await page.locator('[data-iasd-supplement="7"]').innerText()).includes(text)); await example7.press('Escape'); await example7.press('Enter');
         await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="7"]').innerText()).includes('peminjaman alat'));
+        for (const text of ['P:', 'Q:', 'R:', 'TC-R']) assert.ok((await page.locator('[data-iasd-transfer="7"]').innerText()).includes(text));
         await page.locator('[data-note="2"]').fill('Transfer peminjaman alat: draft kosong boleh disimpan, submit memerlukan baris; objek Permohonan menjaga invariant.');
         await page.reload({ waitUntil: 'networkidle' }); await tab('reflect'); assert.ok((await page.locator('[data-note="2"]').inputValue()).includes('Transfer peminjaman alat'));
         await tab('teach'); await page.locator('[data-iasd-facilitation="7"] summary').press('Enter');
-        assert.ok((await page.locator('[data-iasd-facilitation="7"]').innerText()).includes('Rubrik diagnostik')); await tab('concept');
+        for (const text of ['Rubrik diagnostik', '35 menit', 'actual belum diuji']) assert.ok((await page.locator('[data-iasd-facilitation="7"]').innerText()).includes(text)); await tab('concept');
         for (const dark of [false, true]) {
           if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
           await page.locator('[data-iasd-supplement="7"]').evaluate(el => { el.open = true; });
@@ -385,7 +391,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
           assert.deepEqual(await page.evaluate(() => {
             const rgb = c => (c.match(/[\d.]+/g) || []).map(Number);
             const lum = c => rgb(c).slice(0,3).map(v => { v /= 255; return v <= .04045 ? v / 12.92 : ((v+.055)/1.055)**2.4; }).reduce((s,v,i) => s+v*[.2126,.7152,.0722][i],0);
-            return [...document.querySelectorAll('[data-iasd-supplement="7"] *, [data-iasd-object-contract] *, [data-iasd-s7-feedback] *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
+            return [...document.querySelectorAll('[data-iasd-supplement="7"] *, [data-iasd-object-contract] *, [data-iasd-s7-ledger] *, [data-iasd-s7-feedback] *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
               const style=getComputedStyle(el); let ancestor=el, bg='rgb(255,255,255)';
               while(ancestor) { const color=getComputedStyle(ancestor).backgroundColor; if(rgb(color)[3]!==0){bg=color;break;} ancestor=ancestor.parentElement; }
               const a=lum(style.color),b=lum(bg),ratio=(Math.max(a,b)+.05)/(Math.min(a,b)+.05),size=parseFloat(style.fontSize),large=size>=24 || (size>=18.66 && Number(style.fontWeight)>=700);

@@ -1,95 +1,221 @@
 {
-  "generatedAt": "2026-11-21T07:00:16+07:00",
-  "briefingTitle": "Indonesia Hot News Briefing: 21 November 2026",
+  "generatedAt": "2026-11-22T07:00:16+07:00",
+  "briefingTitle": "Indonesia Hot News Briefing: 22 November 2026",
   "sentimentBasis": "Metadata penerbit via Google News RSS, maksimum 48 jam (Asia/Jakarta). Sentimen adalah heuristik kata pada judul, bukan dampak investasi terverifikasi. Confidence 0.35 menandai bukti terbatas, bukan probabilitas terkalibrasi. Artikel lengkap dan gambar belum diverifikasi; tautan discovery disimpan apa adanya.",
   "items": [
     {
-      "id": "2026-11-20-2089ded4b0",
-      "date": "2026-11-20",
+      "id": "2026-11-22-be76fbb196",
+      "date": "2026-11-22",
       "topic": "Tech / AI",
-      "title": "Merdeka AI Summit Ungkap Kesiapan RI Adopsi Tekonogi Kecerdasan Buatan",
-      "summary": "Judul RSS CNBC Indonesia: Merdeka AI Summit Ungkap Kesiapan RI Adopsi Tekonogi Kecerdasan Buatan",
+      "title": "Lee Jae Myung Minta Data Center AI Rp84 T di Ulsan Dipercepat",
+      "summary": "Judul RSS JournalArta: Lee Jae Myung Minta Data Center AI Rp84 T di Ulsan Dipercepat",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "CNBC Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOHRRYVR2QjcxMW5BamJKSUVrR3BCdGhaQzI5OXFRbi1yOFpWdWgzZWVKXzlZU3hKbjNjRVpQRVl5dTJMU0xZaEVoUTlaUno5YV9vcXRCaG9XVUFIRl9OcmNTa1FiQmR2Wm1tTkVXdWxMX0hId1hiMVhMeml0bGhfMjlOV19aX29YWTZ5WjlRZ3JHN1hPaXJjSHI3ZUhuVF9MMmJWdHpIampzUlM1alNEa0JSUzQteXZsTXBZT1ZFeW0xb003SHFPSlZB?oc=5",
+      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
+      "source": "JournalArta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaGtOZGpiamFtYVRWcHhseXQ1NWJaT0xBcjNnTjF5eU9iNWdGOTAzZjY3elI4RXNRWkppaHJZODZwSDBKQ251OEtjU2JSRURLY2c1SHloQXZQS1VHaF9jdmNHOWFSckR5ajVoRnBqRU9YLWJ4Rm5KZy1zOEJqZndRUFNfTEs1YWFQYUF6RkN4dzJXblVKVC1qX0pHQjh4TVhBLXBMeA?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T20:09:16+07:00",
+      "publishedAt": "2026-11-22T03:30:58+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-21-e67e407a87",
-      "date": "2026-11-21",
+      "id": "2026-11-22-fd387159cc",
+      "date": "2026-11-22",
       "topic": "Automotive / EV",
-      "title": "SUV Listrik Hyundai NEIRA Meluncur, Harga Mulai Rp 388 Juta untuk 1.000 Pembeli",
-      "summary": "Judul RSS kontan.co.id: SUV Listrik Hyundai NEIRA Meluncur, Harga Mulai Rp 388 Juta untuk 1.000 Pembeli",
+      "title": "Mobil Listrik Melaju Lebih Kencang dari Stasiun Pengisian",
+      "summary": "Judul RSS KONTAN: Mobil Listrik Melaju Lebih Kencang dari Stasiun Pengisian",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelNPdEQ0NHlqd3NYN204MTBBYXZtc1RIQndnRkxEWXpKOUwxelRyYUFCY3QxSkJmM05xQTljbUI4XzdENHdfYW5yemE5YlNHdDVwLTVPRzdlUXlhWWs0UkFQN0lrZmlkQmZQb3FlWll0UTVua1NkNjdSX3N3MnFxYW90SUtqd25xdUMxX2owYWNFUTdmM0FNc0VQakRNS1V1Q1VaOVBDN1ZJd2o2ek01WE5B0gGrAUFVX3lxTE1nWXc2VDh1T292NW54bWV1SWFsSnM3dWpNYVJNQW1zY1lLWGZSbEdIRXB4NmtsVHZwZGFaZmFSNURQNGh5TE02a1lfVzlJOXVQLXByaV9wUkpUdjRMQW1fcmtqM0RfNUtxOVktcW85cGVub3oxaXBtUFBRRTZPSVQtRXBvc1dZRWpEdkJIYlhfM2MydVNjYnRocS1xbE5PN1hzQk1FanNUYi1ubw?oc=5",
+      "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "KONTAN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdlR4M2RVTVZhbkE0R0QyTlZ6dDNlaXlfOUFRdERUNHNCSkZvS0M2dnJoREIycDFER1NhalppOEtRZ1E4UFRZYVM2Zk44YlRMMXZKNHJDSGJncG1MckVHWGY0ZVQ2MEVVNk5VWjhHUDZwd3Bkc0pjdnFoc0o1WHVscmNPWlhrV0htNzBQUllMNl9xeEl3cWc?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-21T06:11:01+07:00",
+      "publishedAt": "2026-11-22T05:50:03+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-20-613e372f11",
-      "date": "2026-11-20",
+      "id": "2026-11-22-a696e89859",
+      "date": "2026-11-22",
       "topic": "Markets",
-      "title": "BI Rate Naik Jadi 6%, Kredit Modal Kerja Perbankan Terancam Melambat",
-      "summary": "Judul RSS kontan.co.id: BI Rate Naik Jadi 6%, Kredit Modal Kerja Perbankan Terancam Melambat",
-      "sentiment": "Negative",
-      "score": -0.25,
-      "confidence": 0.35,
-      "impact": "Judul menyebut BI Rate. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRFktcUxmNDE0aXhrWVJQa0lxeVJZSjM1QXJzM0NlRGhCS0Q1OVNRVjB6dVFsQ0lraFUtTXF1Q0E5OTY2M1A1cFpmU0tOa2FZUklqVWxYNTZ6d0UtZVIzaG1lRVpQYVlfN3IyQ3k3MUlUUG5UN1R0NjRxNjJJZ3diU2NBdnlrbDlCQU5XWFdBRWpyNU1nc1dvcXZVQkZqa0FqZGk40gGcAUFVX3lxTE52Rm1KazE0MFNreU1PNlByMUtWaEE4LXpIZUJMZXBoeG85R0p0azFwel8tYmNrWHI5Yy1lNWN0NXpVQzRtaW9MX0JwM0xuSVJucVpaTW42Q25ycXdlRlRpZnhrV01zSGZGRVFkMXRLRHZmQThNal9KcEExcHJKM0tfU0JwYzJCUlJxRzQ4ZDBDQy1pNkN3VnhWZGNZUg?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T22:30:30+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-21-a749e6f4e2",
-      "date": "2026-11-21",
-      "topic": "Business / Investment",
-      "title": "Aturan Tambang dan Ekspor Berubah, Fitch Soroti Risiko Keuangan Emiten di Indonesia",
-      "summary": "Judul RSS kontan.co.id: Aturan Tambang dan Ekspor Berubah, Fitch Soroti Risiko Keuangan Emiten di Indonesia",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Aturan. Yang perlu diverifikasi: dokumen resmi, tanggal berlaku, dan pihak yang terkena aturan. Dampak belum dinilai dari artikel lengkap.",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaXZOczBpMDhKTDF2S2ZOT2NyeDZEUVJzZWp2Q1ZDX3dFYVduNm4xY0t1WEs2bkxUU2RGNENCWC1HZHZybGRKY21MSTNpX3oyQTJKeUFsdlJSSXVRTng2OXFyMFozblhoYU9ELXYwWXFxZVE5Q0Vham1iLVpleFVUMzFId0tBbGZMc3ktYlh1WWx6Qk1SWFJMNmJ1VWQ2RmxqOWpENUljdVdqRWppN1EtYTNhZF8zamNQ0gGyAUFVX3lxTE8xNW1FUFZOTHhQQVR4Rm5yeUlmNGhuZkNuM1ZEYXo5azRMa2IxRjk2RkF3T1ZWZ0hEajBwV285M1ZGX1VDWGFySTROQnBYdXhEaWxqRzRCQjF3bTh6dE1yVUptcmxkNmljaVBXVU9QQ2F1a1JySm1adTN3MlNVdW1KbVozcEJjM2FEN0U4TjgtMHNQLXIyWFRWTDlvSHhWekVaUEt3VHNNU2JycjVhNXNEcnc?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-21T06:20:27+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-2259f35e12",
-      "date": "2026-11-20",
-      "topic": "Infrastructure",
-      "title": "Tingkatkan Infrastruktur, Pemkab Tanbu Terima Hibah Jalan",
-      "summary": "Judul RSS detikcom: Tingkatkan Infrastruktur, Pemkab Tanbu Terima Hibah Jalan",
+      "title": "Investor Asing Tarik Rp100 Triliun dari Pasar Modal RI",
+      "summary": "Judul RSS Peradaban.id: Investor Asing Tarik Rp100 Triliun dari Pasar Modal RI",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "detikcom",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcFJZS3lzclFwbVlCbmw2SDJVWEl1OEJ1aGdsMEFZenoybktTZ1dUYTl2bGNJVTZRUHJWTTA4OFI3YlRqejg4ZWtDcnpuTkpHaldfV0JSQjN6N0RqZ3cwS1Q4SHJxTGphSDFESUZUckpWV0JEWWw5MDBwNC11ZGtnSFhjTlVtajRkcG9MdmNnNXBRdUdkY3QtOF9DdVVWY2pRM21GZ3hSUFlpd9IBrwFBVV95cUxOcWlVRm55OFg4Y0VWTnB4OUxZdzVqNzJkQzNHRUxacmJPWE5wVlgzTUo4RmxXc0pPTVBIcG9fX2c5QnA0UmZyME9KdFBGT2o4QkRMbUp1VFhIdmNIVGlhbERkOW1pVEZXcDFSeTIxeVRhNVZjSjZyNTR2dnpZVjNPSmtTVjBQSURCNmdrTWVDNlpjV2owckFtM21qRl9qakxmVUxQT29Mc2xPa2E1N01R?oc=5",
+      "source": "Peradaban.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKcHVrWk1xd01kMEJxV2IwZGNqTHJhQ3ZCU0g3bXpmeG9NWDRQaE1HY3NnN1NvV1BNRW5QUTEzbkJpZ0ZrakVzdmJzNm42SkdIYWdhNWY2cVk2bXc?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T20:01:38+07:00",
+      "publishedAt": "2026-11-22T06:28:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-22-d4665f4c81",
+      "date": "2026-11-22",
+      "topic": "Business / Investment",
+      "title": "Ini daftar 10 negara terbaik untuk bisnis versi GEM, Indonesia masuk?",
+      "summary": "Judul RSS IDNFinancials: Ini daftar 10 negara terbaik untuk bisnis versi GEM, Indonesia masuk?",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "IDNFinancials",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOazMxOWdRY084Q0xDYXhkZnhhUFlnLVEtWWRDZEdxck1Od0VsODA3c1pfRWJPS0dtTXFXLUxXZDh2OEtCNW5YMzg0WXYtUlV6NlRHcGo1WDRIRmRlblptV1RHaFlzVjVxaHlSWW55U25IeF9WcDh5UFVkVVE4dlNIamN2LWtoNUxQU3UycmJ2YktmS3dRVldFbHp3VEYwNm9CbHhYZGpLU09KYnR5UEtoOA?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-22T06:00:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-21-00498bf8f1",
+      "date": "2026-11-21",
+      "topic": "Infrastructure",
+      "title": "Menteri PU Dorong Diskon Tarif Tol 30 Persen Saat Libur Nataru 2026/2027",
+      "summary": "Judul RSS VOICE Indonesia: Menteri PU Dorong Diskon Tarif Tol 30 Persen Saat Libur Nataru 2026/2027",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "VOICE Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMjF3ZUp0Q1dhYm5KU0dENW5FTDNIVGd1eVM1YzBJSWRqeXplNE40ZDlTUUZCNDViVzVmSFdNbFRJNVB6bHluMTFGdHpGNXN2QXdVSGYtWjBxeEhoN1BFbXB3WGNjNFVRbzZGbEJaMXF3allYekpseFNmd1M4S3JKV1FmNEV3Zi1BSURDdTFNVllQYi1tdE5yaVBDTldITXY2VTZTT0RrQWg?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-21T15:33:54+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-21-13f29e9378",
+      "date": "2026-11-21",
+      "topic": "Startups",
+      "title": "Putaran Pendanaan Potensial Cognition AI Akan Menghimpun Lebih dari $2 Miliar dengan Valuasi $75 Miliar",
+      "summary": "Judul RSS Unite.AI: Putaran Pendanaan Potensial Cognition AI Akan Menghimpun Lebih dari $2 Miliar dengan Valuasi $75 Miliar",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Unite.AI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMERrbzVtcjR0UlNwLTBZS1N3RUpFQ0VncEdNWFprV0hEcFlLTXM5dW5CRVc5SzVqTEh5Mm5CYkN1cG13MV9vT3k4cC1OU1BUcTBSWGxBcS11a2dxbzRCc3NaOFNKUjJ6OTVnallDX01kYzc2Y3ZwT0Z3VGlkQ3VZRDZUX0d2VDUwWGpicmM3cGNCUG0x?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-21T05:50:03+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-21-a7cbd365ba",
+      "date": "2026-11-21",
+      "topic": "Regulation",
+      "title": "Lakukan pelanggaran, Pemerintah cabut izin pemanfaatan hutan PT RAPP seluas 338.536 ha",
+      "summary": "Judul RSS ANTARA News Makassar: Lakukan pelanggaran, Pemerintah cabut izin pemanfaatan hutan PT RAPP seluas 338.536 ha",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "ANTARA News Makassar",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ2FSOVBnbGhocnJzQ1N3TTd4c2pDcXY3amZUc3BMZUNtbFhaS0pkMEdBbE5ZWFprNHMwYWxTRUtULXZybUI2M1JRX0R2azVHdFkwWjlQNl9XcnFzeDYxcUlUcDBsMnVzQXhhZF94dmtJYXJGUTZuTXdLNlhONHNBVXpkMklOTWRJSUNmRElWb0oxWG5vQWdKbVJaakpGUG1JZ3VHWW9PdkVTaFp5VUV4YVpKMC1QRzNrbEZIdnlDek12UzJ1Q2J4eVNB?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-21T22:07:50+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-21-a96d3958c5",
+      "date": "2026-11-21",
+      "topic": "Tech / AI",
+      "title": "Komdigi Sebut Populasi Terbesar di ASEAN Jadi Modal Indonesia Kembangkan AI",
+      "summary": "Judul RSS MetroTVNews.com: Komdigi Sebut Populasi Terbesar di ASEAN Jadi Modal Indonesia Kembangkan AI",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "MetroTVNews.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORk0zWUN0b0Z5Q2VzX3ZydUdOckxnbFZlN2hsby00SG9GckFLUTdBdzFNTGF1TnFvR211d05BSDZpZ3NQaU9iWjluSGx5dWgzRmZKZlVCWERDbEFUMVVJQ1lXWlN3QUFJaWRIQVRkR3NWSFR3cUZjTjZzYkw2bWx4Yk5KNDlIa3p6VTVvTUYwZ0IxcW5YUEJ5aGp3QWpjQm1pSzFjcndvYTdEZm9LQTNFeGxLdkxWRGNR?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-21T20:58:47+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-22-6edb87dad8",
+      "date": "2026-11-22",
+      "topic": "Automotive / EV",
+      "title": "Omoda 04 Siap Gebrak Pasar Otomotif Indonesia Lewat Kolaborasi Musik dan Teknologi AI",
+      "summary": "Judul RSS Mobil Komersial: Omoda 04 Siap Gebrak Pasar Otomotif Indonesia Lewat Kolaborasi Musik dan Teknologi AI",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Mobil Komersial",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZUgtYkVEMHU5cGk4WU5kWE5WZkxvV2JFX2FjYnB3NUxUd0x1SUswd1lQNFJoUHNDVzlPOWNBME95WG43YlBQQVl4cmkzaEp6LUtwRXEtaXo4U3psbU4ybW9qamtvQWpQZ2pDYl9SVXIzSFdRb1ZFbjdIZXRZVWcxQ0xya3VNWExXeXVhVGw1UWI1UHVwanEwWG82cDRwbTR2Wk1MMzBvY0xraDJaWXJlS3pKYmYyOEtQd1YxOEhISGNudw?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-22T00:37:10+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-22-95d773df1f",
+      "date": "2026-11-22",
+      "topic": "Markets",
+      "title": "IHSG Berpeluang Menguat pada Perdagangan Senin 23 November",
+      "summary": "Judul RSS cwibc.co.id: IHSG Berpeluang Menguat pada Perdagangan Senin 23 November",
+      "sentiment": "Positive",
+      "score": 0.25,
+      "confidence": 0.35,
+      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
+      "source": "cwibc.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OT085NmljeksyQ3cwUGdRTjJkX1RKNmpaRFV6ejV0NnBhR1JDcVlWZmlFWEJZeU41UUkyb3Q3c3lBd1ZVVWdpZ0ZnQ0NhaGlvQXBUM1k3UEhfNWY1VS1j?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-22T06:10:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-22-5e43fdb4b5",
+      "date": "2026-11-22",
+      "topic": "Business / Investment",
+      "title": "Jawa-Bali Jadi Penggerak Ekonomi RI, Akselerasi Industri Diperkuat",
+      "summary": "Judul RSS CNN Indonesia: Jawa-Bali Jadi Penggerak Ekonomi RI, Akselerasi Industri Diperkuat",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "CNN Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPM3B5ZUtTWU92TzFvaWhtTm43dTloRkY2d2Q0YnduRnZTaThIVzVucWJrTlQ2MXZkM3h3cDFqQnNlQnp2cmc5NDRsX2k2cXpnQnlfZGU1S0Vjd2RsUW5aZm5Yc1p0OFVJeDZKNDJhTXhsOERONXQxR19RVGdhR1M4MlU3TWlCNmpMOGxDVUczTjhNSVhFc2p4Q0xCdjJMUlMyQi1QNThiTVRscm9rNGRZakZjRFFEd0xpZjN2MHprbDJnOU5DWjJrM9IBzgFBVV95cUxORDd3bm5sTDJ1UklxNkR5UzRmXzJ1RzYxbGxmcElZTnpRSHFHalVYSDNyVnREcjlMdDByd0hzQ1BreDBYNlliWGc2N1hlWlA4ejBZTl9IU0g4TlVuOUhzWTRzTG9KMTlQTGFTRWdyTzlEOEJEZmpiOUZsS19ncl9pZ081U0sxVU1GRkhzRWxqNzl6Vks5MVh2VVpYTjhyNHprZHpWMWtkWm82bUllNHVWLXdWaHlZREoySWJwWjJoYVJybVBXYWZxYi1WRDdsZw?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-22T05:58:12+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-21-87e0399377",
+      "date": "2026-11-21",
+      "topic": "Infrastructure",
+      "title": "Ops Zebra Jaya 2026, Satlantas Polres Metro Jakarta Utara Edukasi Pengendara di Jalan Raya Pelabuhan",
+      "summary": "Judul RSS Media Budaya Indonesia: Ops Zebra Jaya 2026, Satlantas Polres Metro Jakarta Utara Edukasi Pengendara di Jalan Raya Pelabuhan",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "Media Budaya Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdmM0MTFreDBVYlJSaExmd2NMX2xaT3VSRXNrN0RrbnZ2aGtZN2tYMnRmZVZKVnlaTWpNV0dEajdfdEFqeU5yaV9WTmtGN3JKaWxfUGNYWXhCYV9DSDQ4R1JxTXphTGVHRnlLdzRiMmtlNElBLVpaZUZtcElMTmh3em5JZWhoVlJyVS1GblFwemMwSTFtWGpSMDBTdW5OSGxfU252QlVCZDJPbE00eDhqT3Fxd21aY2RCN1p3VV9yQ2F6VVlrWGhxRzNwTW9yRzBYZnJWS2IxLU1xdnVwRjJUVl85SUMxYmlQ?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-21T11:24:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
@@ -112,6 +238,114 @@
       "imageAlt": ""
     },
     {
+      "id": "2026-11-21-c4887a15e2",
+      "date": "2026-11-21",
+      "topic": "Regulation",
+      "title": "Langgar Aturan, Kawasan Berikat PT. Joil Inni Indonesia Diduga Tak Daftarkan Seluruh Karyawan ke BPJS",
+      "summary": "Judul RSS Serangtimur.co.id: Langgar Aturan, Kawasan Berikat PT. Joil Inni Indonesia Diduga Tak Daftarkan Seluruh Karyawan ke BPJS",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Aturan. Yang perlu diverifikasi: dokumen resmi, tanggal berlaku, dan pihak yang terkena aturan. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Serangtimur.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU0dQWmw1cDlRZXlDOGpQblBoeTBCYk5IQldkdXFHUWUybEtkc3o4RG0wQkFSRFh6RFZrOUtueWpzX3dDbE9uVkFGMDRKZ1dQYzdBUkdpZ1F2UmZUYTNpSEdReFhsWWlRQ3VQb2VPRzFGLUdIUm11Y1VFLXowSVIyMlA4OGRxVmIy?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-21T17:03:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-21-50ce265a23",
+      "date": "2026-11-21",
+      "topic": "Tech / AI",
+      "title": "Trump Tiba-TIba Larang Pembangunan Data Center di Luar AS, Kenapa?",
+      "summary": "Judul RSS CNBC Indonesia: Trump Tiba-TIba Larang Pembangunan Data Center di Luar AS, Kenapa?",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
+      "source": "CNBC Indonesia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOG9tTTBZeERBUkswUV9kN1I1WnlMQkFweF9YbEwyQnJQSjhLbFB2Sk1qMWJWQnpIX1BiclBzMkhYRTI4MURiYU1TZUE5QW5sSTV1RUs1VXVaUXI5Yy1GaU5WRWJ0N2t1SzlHMm5XVUxoWmpKV1ZadmNqZFJvVXZucmwwU0JyUnJpMHpoYldDaTVwbEtBeWYxN05VSDB2aC1iM2F2ZHJEdTBiUkRvSmlDalBLOTJyU0E1THpnWWxCMGlzQQ?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-21T14:45:00+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-22-8a4378251c",
+      "date": "2026-11-22",
+      "topic": "Automotive / EV",
+      "title": "BAW M8 Meluncur di Indonesia, MPV Listrik 9-Seater Seharga Rp699 Juta",
+      "summary": "Judul RSS Uzone.id: BAW M8 Meluncur di Indonesia, MPV Listrik 9-Seater Seharga Rp699 Juta",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut MPV Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Uzone.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTHNTc1NIYk4zdE9wd3JrUTRfME9ZWHJybTVwZG15S0tWU2ZDcG44VDUtWWsyTDZRWjQ5ZDJVOE96aHJVcHJiM1BIR2pYbGtheWFMTHd1UV9udzZKc1FwOGV5ZVhsV1pUbzN6VDlfdl8wcVZJQTVfV25vamxlOENlWGFUTFlwekYxb214R2hn?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-22T00:13:12+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-21-ab7e7ea3ce",
+      "date": "2026-11-21",
+      "topic": "Markets",
+      "title": "Kantongi Peringkat idAAA, Saham BNI Tawarkan Valuasi Paling Atraktif di Tengah Tekanan IHSG",
+      "summary": "Judul RSS Stabilitas.id: Kantongi Peringkat idAAA, Saham BNI Tawarkan Valuasi Paling Atraktif di Tengah Tekanan IHSG",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Stabilitas.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX214TWs3QWpVVkpyNms5VXZ0RWlmQlI3RlJQSlBkcDZOMnFDeDJIdWx4cE9zSDBuWDdYeWJraU50SlZXeDFJWnU5bDh4a0pkRE05Q0Q5QllUa2FObUUyX1U2QUpzN2VweXVRU0Y4UGU5ZURnRmJQWGdpQVV5VUo4dmdscXZaVFR4Ty1NMlY5bTJDVTNsYXpvdWItYXJEck1RNW9EdmZST0dudGNGbHhpcDQwVTVJcDFI?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-21T14:33:36+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-22-dc9ac8a87b",
+      "date": "2026-11-22",
+      "topic": "Business / Investment",
+      "title": "Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
+      "summary": "Judul RSS Berita Cilegon: Pabrik Dongsuh Chemical diresmikan, Cilegon Perkuat Hilirasisasi Industri Alumunium",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Judul menyebut Pabrik. Yang perlu diverifikasi: nilai investasi, kapasitas produksi, dan jadwal operasi. Dampak belum dinilai dari artikel lengkap.",
+      "source": "Berita Cilegon",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObjVaVjYydkQ5UllBanpja1I5QUtGUElYblc5WUVzTkZQTk9vcUpXNGlyMEFQcVE5eHIycVRnOVozNXUyQUxzcmY3OVhDN1RhSTJMNTFlcXdVa01mWEJUcDc0MVN6clNMWmg3UnlYZmotVG9QVGZwRjRjbHBVT25DOWpCRlZDaTc2RDBNTjFYcDZUOTluOF9SbVFMaEFCOGh1OWs3VEdtV3ZiZVNqakFSc28zRTNLazZ4TDBkQUxTZmczLUFveHNXVjhRbGE1a2tQ?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-22T05:50:30+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-20-2259f35e12",
+      "date": "2026-11-20",
+      "topic": "Infrastructure",
+      "title": "Tingkatkan Infrastruktur, Pemkab Tanbu Terima Hibah Jalan",
+      "summary": "Judul RSS detikcom: Tingkatkan Infrastruktur, Pemkab Tanbu Terima Hibah Jalan",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "detikcom",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcFJZS3lzclFwbVlCbmw2SDJVWEl1OEJ1aGdsMEFZenoybktTZ1dUYTl2bGNJVTZRUHJWTTA4OFI3YlRqejg4ZWtDcnpuTkpHaldfV0JSQjN6N0RqZ3cwS1Q4SHJxTGphSDFESUZUckpWV0JEWWw5MDBwNC11ZGtnSFhjTlVtajRkcG9MdmNnNXBRdUdkY3QtOF9DdVVWY2pRM21GZ3hSUFlpd9IBrwFBVV95cUxOcWlVRm55OFg4Y0VWTnB4OUxZdzVqNzJkQzNHRUxacmJPWE5wVlgzTUo4RmxXc0pPTVBIcG9fX2c5QnA0UmZyME9KdFBGT2o4QkRMbUp1VFhIdmNIVGlhbERkOW1pVEZXcDFSeTIxeVRhNVZjSjZyNTR2dnpZVjNPSmtTVjBQSURCNmdrTWVDNlpjV2owckFtM21qRl9qakxmVUxQT29Mc2xPa2E1N01R?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-20T20:01:38+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
       "id": "2026-11-20-33d1c8fbfc",
       "date": "2026-11-20",
       "topic": "Regulation",
@@ -130,314 +364,80 @@
       "imageAlt": ""
     },
     {
-      "id": "2026-11-20-d3db9348fb",
-      "date": "2026-11-20",
+      "id": "2026-11-21-91ff299e12",
+      "date": "2026-11-21",
       "topic": "Tech / AI",
-      "title": "AllianzGI Indonesia: Perkembangan AI Buka Peluang Investasi di Berbagai Sektor",
-      "summary": "Judul RSS kontan.co.id: AllianzGI Indonesia: Perkembangan AI Buka Peluang Investasi di Berbagai Sektor",
+      "title": "Komdigi Ingatkan Ancaman Serangan Siber Berbasis Agentic AI",
+      "summary": "Judul RSS www.suaralandak.co.id: Komdigi Ingatkan Ancaman Serangan Siber Berbasis Agentic AI",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkRuYVVLd2pONU9BeFJLM09PZ1Z5ODRvZHhvSTVZMXFKU0xGZDhfaTZraFozMmlTV2thUnJSNmh6TjlJcnV6U1hUcXlySThNODdPZnpWelVjcklKb3lvMjQxVHNzMXVmRVZHY0cxdUNkam9ieF8tem9HbUlhNGVHOTFvUV9QT0dZMVdOVEF2Rlpac1BzTUxXbm5xV2c2R0s4dU5SY25WMUxQUTZhRzM1ZWpYSdIBqwFBVV95cUxPdXJYV3ItRHRmQWhOX0w1bVluWkgyYTFQWTM0akYzcXh6Q09aZHZsZmEtMmpNVlF4Q29mSTdOT3lTSDZvU1lzSnpBS0ZCTkdycm5xY1lzSGM5T3ZmZFBrQkpDZUZWb3Qxdm1WNUZVU1FQc0E4Rk9TOVBzbmxUU2I4ZDJLRm9RalI0T2YybDlJTVpxZGRXUkxzMVZBRnNRQW1PdmFVV0Nua18tdTQ?oc=5",
+      "source": "www.suaralandak.co.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CclJ1M1dHRml5Y3hrTThUeU9Bbi1mdDNqaGdPWkdxcGJuRUlkbWh1ZnZRSThHMUFkbFFubjZEN3FYUTNNMXY3YXZGSVh1aXFMd0pPS1BRZGcySUdnQkNkMzZNSm01N3VPQW9KYXMtYU5lYms?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T17:53:56+07:00",
+      "publishedAt": "2026-11-21T14:31:21+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-21-1868fb92ed",
+      "id": "2026-11-21-6380ddfc84",
       "date": "2026-11-21",
       "topic": "Automotive / EV",
-      "title": "BAW Perkenalkan Tiga Model MPV Listrik M8 di GAW 2026",
-      "summary": "Judul RSS republika.co.id: BAW Perkenalkan Tiga Model MPV Listrik M8 di GAW 2026",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut MPV Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "republika.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDlvT1plTjhVNURnMzFSRHllMzhDb09KbVR2dlZYb2ozSHhOMmJpREZqbUlQTGUwRDBIeXd4ZWRDdzA4MmFTZ3N3OTlmdTlkRkVLMVp0OW1sSUxSZXJPOUNCdHJiNDNHaFdxbzZidWdNT2lSQjFTVV91cmdRZEFHNnl1WEVXU3J4T2VndWZrNlFnZnV1SldPMDdzU0gtSGtvbl9mbg?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-21T05:26:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-1042716a2c",
-      "date": "2026-11-20",
-      "topic": "Markets",
-      "title": "Rupiah terendah sepanjang sejarah, kenaikan BI Rate sia-sia?",
-      "summary": "Judul RSS IDNFinancials: Rupiah terendah sepanjang sejarah, kenaikan BI Rate sia-sia?",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Rupiah. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
-      "source": "IDNFinancials",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbDdQQnJOY01UUDg4SXk0Mmg2c3I5akJKdnB2Y2NTTkJMSkE2bnFvRWpGem1rMFhlbVVsa2gwT2k2NE5jSWZLY3YtWFRmS24wVnZ2Z3hzamtxQVpoUDFHRHJURk04ZVMzdF9wN3BnRnlVNVlwM014SkNCVXJIMjRuN2ltdTAwbFFydUJaa0pmMEw3ckNfUHBGdU0yZm9UelFaYko3cg?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T16:00:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-21-837b87c5db",
-      "date": "2026-11-21",
-      "topic": "Business / Investment",
-      "title": "Presiden tiba di tanah air, bawa komitmen investasi Rp1.600 T",
-      "summary": "Judul RSS ANTARA News Sumbar: Presiden tiba di tanah air, bawa komitmen investasi Rp1.600 T",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "ANTARA News Sumbar",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd3RXMFpXcDBwSjNxd291bExjZXhiUkU2UUtZNFNwa0lYTDkzVUxKUnhTbHliSXlNY2FDd2xVemZhU0sxQk9uLWljQk1neTluay1uWGtFX3MzRVpMZ2xDcG5oRHZFb0hwcXE1V1dIQXNGXzF0SzZsdGtwbGUwWkd0c3FZRWVBT1Z5RkFYcGM3eWJqd2M1dU0tOFlDODJNNXFadTRJR3NR?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-21T05:34:18+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-ef29cde36a",
-      "date": "2026-11-20",
-      "topic": "Infrastructure",
-      "title": "Pemkab Tanah Bumbu Terima Hibah Jalan Alternatif KM 171 dari PT Arutmin Indonesia, Perkuat Infrastruktur dan Mobilitas Masyarakat Tanah Bumbu - Portal Berita Tanah Bumbu",
-      "summary": "Judul RSS PEMERINTAH KABUPATEN TANAH BUMBU: Pemkab Tanah Bumbu Terima Hibah Jalan Alternatif KM 171 dari PT Arutmin Indonesia, Perkuat Infrastruktur dan Mobilitas Masyarakat Tanah Bumbu - Portal Berita Tanah Bumbu",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "PEMERINTAH KABUPATEN TANAH BUMBU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZ25vZjByNnBsSzVuOGZEQUdoTFQxRmR6cW1HREwwYjZLVXZqbXdiTUhPa1hBMGtXeGt4VEZOaUN3VzVmLUo2dnB2cmJDRGZ6Q19GdDlvRS1UUnBMcDNqbGUzNjg3dHcwc3FlcHJuQS1DMFNlNUx0dEtONWFFZ2hXMHhIbmZLT2JzT0ZrdmtXSTc5Rm9KUGNibUhLMVcxbGJoblJyUXZqWGxNMHBEVFp1RVZEV1ZWVnZhM1p5VldQaUM4SXNVSFlNWTJhYmRrT2Nock82b0ZFMExvLTQtcXFyTFI1OFp2OHRLbmxpR1V6U1lzRmtfYXJ6bFRWcEdvTVNuSXNzNmVURQ?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T19:09:57+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-19-63c80e5f16",
-      "date": "2026-11-19",
-      "topic": "Startups",
-      "title": "Wilgot Menggalang Pendanaan Awal Sebesar $3 Juta untuk Meningkatkan Visibilitas Produk dalam Belanja Berbasis AI",
-      "summary": "Judul RSS Unite.AI: Wilgot Menggalang Pendanaan Awal Sebesar $3 Juta untuk Meningkatkan Visibilitas Produk dalam Belanja Berbasis AI",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Unite.AI",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZHRrRno1RDNIZkRJZmlpOGkwRUF2X2s1VE5IWVN5RVNCRjRxb1RmdXR0ZVVwMDVmQmFGUEFjSGp6VVRTTE44SFFZZUdlLTVYN1dpZXlCalhDSTk5UVlvTmtjSlFjUEN1TExoTFFYRVlYcE5sdmJMT01Id2VIRFA4MlBJRQ?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-19T15:00:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-fd257fdc64",
-      "date": "2026-11-20",
-      "topic": "Regulation",
-      "title": "Indonesia cabut izin kehutanan Riau Andalan anak usaha APRIL Group",
-      "summary": "Judul RSS IDNFinancials: Indonesia cabut izin kehutanan Riau Andalan anak usaha APRIL Group",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "IDNFinancials",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZHJLak9xQUdPSS1VYkZER2t4SG51REI5dlV2RThHSXdxOExTbzBrZllSZHFqTVE3cE44aUZUYVY3endDZDBTRXlfNGdMc0JRa01tTDV5eUR1UEtPdzNKTG1NR2pXMzdqRE5Lc19sdUZqNVRLTHNDZFBWXzlSYUtldDhUM1pBeXRtRXJpdzF3NDFSRlpqQXVrT3gyZWVpalRWRm04MEhSSHU0M21VdlNr?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T21:00:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-f08a007e60",
-      "date": "2026-11-20",
-      "topic": "Tech / AI",
-      "title": "Pembatasan Ekspor Chip AI AS Ancam Investasi Data Center Indonesia",
-      "summary": "Judul RSS kontan.co.id: Pembatasan Ekspor Chip AI AS Ancam Investasi Data Center Indonesia",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
-      "source": "kontan.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRHo2YnNQblg0LXBySUNFVjRVTklkV3pkNTR3RHY5TFdxbFR4UGxPSlFTcUQxdmtpOGZheHFIdjFIb01NUUpIZ0c2UFp4MTB4MFlPWE50YmRlRUJ2blp3UHVuODh3aW5ISnIxdGhzMlpnX0VkSGl2QUFPNjU4ZmE2a19XOEdNbm9pV256RWZkLTA4dEFNREJDaUJ2V2k2bm12VWFF0gGcAUFVX3lxTE5kYjJ6Vkg4ZEstR3lHNkJlVzVWcHRLWnltb3BZM0VXVFdLYks0a3IyaWdmbXVBbVBMd014T2ZNelp5LWk5bkVmSWpOLWszRl9tT0VwWlJ0S2ZZSVp5bWFCNFhaM3diTUhMaDgyZU9uUjcwRThsdjc3dEVnZ0ZmNHZNbXJrT3o2SlIxZzVrZTNidmRkYTNsQlh4cFlFWQ?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T15:22:36+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-21-896b9acae8",
-      "date": "2026-11-21",
-      "topic": "Automotive / EV",
-      "title": "Dijual Mulai Rp 419,9 Juta! Lepas E6 EV Tawarkan Kabin Mewah dan Jarak Tempuh 540 Km",
-      "summary": "Judul RSS Mobil Komersial: Dijual Mulai Rp 419,9 Juta! Lepas E6 EV Tawarkan Kabin Mewah dan Jarak Tempuh 540 Km",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Mobil Komersial",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORFY2bnFGazk1c2xiYXV3eHFCdWFwQTZOWmd3ejNlNVpaUHJpVkNuM0N4Z09Wa1pnQVNRQXlXVktSWjNicXQzSjA4MHZwTnluZTNrLTlPOTZjY0N3dDBwUDllX0hvWVZKV1h0LU5xWGhmMklmWHVrSVd3VTJIaWYyeFhjbGNmdm9vTXFzRlNLN2p1cEFlVkZRUV9ib2tNXzE0V0l2OGZUQXFJclJZZ1ZPR1h4S1l0NGlabVRlZWJ3?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-21T00:54:07+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-990b6819d5",
-      "date": "2026-11-20",
-      "topic": "Markets",
-      "title": "Bursa Efek Indonesia catat 14.471 warga Sulteng ikuti sekolah pasar modal",
-      "summary": "Judul RSS ANTARA News Sulteng: Bursa Efek Indonesia catat 14.471 warga Sulteng ikuti sekolah pasar modal",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "ANTARA News Sulteng",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWXRrNGZxc2dGR2pyNXVGVnVWdEtKR00tdkMwUXV5eGo1NDR0SHQ4TGc4WlE0SVF5eU1JQW4tcElyQTlPUmdkcE1udkE3UzdwSnpwY1ZVQXUweGRSdzRKcmdvYkh1bTU0ZklxR093Sl9UWFFiUXFldE55YUd6SHloYTRqeHA4ZjJxUHhBaVZ2eE9Nb3BKWVNmaEJ5SEdxa0NXZGRVUjd0SjlrdTJFRVd6R3dzNlZHSVBH?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T15:52:01+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-21-3c471c931c",
-      "date": "2026-11-21",
-      "topic": "Business / Investment",
-      "title": "Perkuat Sinergi Pentahelix, Karantina DIY Gandeng Lintas Instansi Dorong UMKM Jogja Tembus Pasar Ekspor",
-      "summary": "Judul RSS Badan Karantina Indonesia: Perkuat Sinergi Pentahelix, Karantina DIY Gandeng Lintas Instansi Dorong UMKM Jogja Tembus Pasar Ekspor",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Badan Karantina Indonesia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMERkakhSR3ZfWWdUejlLNjBzdUJSNjNpc2liQXNITGhrV1Bnb3hIbWJVa3c5cVN5MHkzOUJ2T08zenJnVUllVk9zeVlnWllUaGw3c1hRcUJCcWk4TGNwWEJSaTc2Znp2Y2tWVmJTYlBiMGtHRFpvWGxuZDl3Sk9iQkxFUnZrRWd5QmNGYTZQOWZkREtQV0JodzFpdlZKS0szY0ZuaFdJNTJ4aWNJTmdfSEJiLTh0bEVVblZJTFFjd1RDdllScERnMmwxdUptaWhNV3NmWmp3bVE0dGU5SmM2UWZKV2tDdnBjNWpYUXp5MTE?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-21T01:09:31+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-f0ef4936dd",
-      "date": "2026-11-20",
-      "topic": "Infrastructure",
-      "title": "Pemerintah Siapkan Integrasi Tarif Jalan Tol Metropolitan",
-      "summary": "Judul RSS cwibc.co.id: Pemerintah Siapkan Integrasi Tarif Jalan Tol Metropolitan",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "cwibc.co.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtTWRfUTE2MVJHVklacWVha1dmQmxQNlZpXzdDNnlXbjByQW55VFFDalVfckxleVc1OENBSkQ2VFVsX1NmdG00UDJvMVdyZy1RTkVkZndYZldxSEM4cV81VXNaenViSDJpbmc?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T18:03:04+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-19-93865f9136",
-      "date": "2026-11-19",
-      "topic": "Startups",
-      "title": "Taiwan tempati peringkat ke-19 dunia dalam Indeks Aktivitas Startup Korporat 2026",
-      "summary": "Judul RSS Focus Taiwan: Taiwan tempati peringkat ke-19 dunia dalam Indeks Aktivitas Startup Korporat 2026",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Focus Taiwan",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pVFk0UnVxdVN0TDdDdVFqSzRjcHoxZXU1RURTU25Pb0JFZXZZekFPc01CRl9qRXAzN0pDaGNiTTN4bDRVNDZySVJtUFQ1b0xIVlNwMFVaM25PZ1VuNlFHM3JTQnk?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-19T08:16:00+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-6d344d65e8",
-      "date": "2026-11-20",
-      "topic": "Regulation",
-      "title": "Izin Konsesi Dicabut Pemerintah, PT RAPP Akhirnya Buka Suara: 41 Ribu Pekerja Jadi Sorotan",
-      "summary": "Judul RSS Aktual.com: Izin Konsesi Dicabut Pemerintah, PT RAPP Akhirnya Buka Suara: 41 Ribu Pekerja Jadi Sorotan",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
-      "source": "Aktual.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVnBJME1obk8yUS1ZY1Z3aUwwdnhnN2kxTVp0QldtNVgzT2w2UzNEbmRuTXpmcVJlaHU5WW5FV3pSeXIxaWZmQmFxcDBxNURBcWJELUYwemRYTnhSb18zNGtJZ19rMk1fbzh4eXJHNWlVX29BYzFkcXpiMENzaW9XWVdjRXcxMmd4YzE1MWxUYjJ3bGh5OXAzVXlkU2xFeXJUc0N6aExuSjNlVXI2?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T20:35:50+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-7dd23b85c3",
-      "date": "2026-11-20",
-      "topic": "Tech / AI",
-      "title": "Batam Diburu Investasi AI dan Data Center, Seberapa Siap Pasokan Listriknya?",
-      "summary": "Judul RSS bataviapos.id: Batam Diburu Investasi AI dan Data Center, Seberapa Siap Pasokan Listriknya?",
-      "sentiment": "Neutral",
-      "score": 0.0,
-      "confidence": 0.35,
-      "impact": "Judul menyebut Data Center. Yang perlu diverifikasi: kapasitas, utilisasi, kontrak pelanggan, dan kebutuhan listrik. Dampak belum dinilai dari artikel lengkap.",
-      "source": "bataviapos.id",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSnBxN0hzUkFvYnZJdFh0X19HaWVmZVdYWDhGM04tZW4yMVVnU09XemVuRlVSa3kzTXBoZVFZd0xkMWJlZ3JaZ2dlOW9WaWVTRUtubzZFM2h1cVJKRkVfdTQ3X0NDVzhzdVdybnBKb0JEcUV0M2U0WW1mR1VtZlhwdmVwQXRCZHgxQnJFXzZDc2J6c1NjMldlSEk0dzJ2d0dualRyV0gwNXo?oc=5",
-      "discoverySource": "Google News RSS",
-      "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T06:57:12+07:00",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "id": "2026-11-20-4ded26593d",
-      "date": "2026-11-20",
-      "topic": "Automotive / EV",
-      "title": "Baterai Mobil Listrik Bekas Bisa Jadi Bom Waktu",
-      "summary": "Judul RSS Jawa Pos: Baterai Mobil Listrik Bekas Bisa Jadi Bom Waktu",
+      "title": "Kerjasama Ekonomi Terbaru China-Indonesia Capai Rp16 Ribu Triliun, Ada Pengelolaan Nikel hingga Mobil Listrik",
+      "summary": "Judul RSS AFU.id: Kerjasama Ekonomi Terbaru China-Indonesia Capai Rp16 Ribu Triliun, Ada Pengelolaan Nikel hingga Mobil Listrik",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut Mobil Listrik. Yang perlu diverifikasi: harga final, jadwal distribusi, dan ketentuan insentif. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Jawa Pos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYi1TODlRMHZoRE1rOUpaeEJGNUdRTHNsT3ZRLS1MZVRBMmxocnJCd1lQZHZxSVdzMlBwbzZkdjZYN2JpanN3ZjdJT3VqQThTMjg4UnAzbFNtT2VETFFTbXpsVXNka2VtNGI0NmdfcWFrSnp5cDNaQWVObDkyX2xEUUtNNlJhWmJRX0ZpamlsSnQzazBpam0wVdIBngFBVV95cUxPYXIwLWdaU0p4emZFOGRqSTNPMUJJcmt2bFliWmhZcHBHN3hYQmNVaG1aNEdraTNiNElrOXZfT3BsZmtYamh3TGhEcFNMWHlxbU5EcXJaS2YtT2dHN0lMekpCS25XVnMzWkhvZkxPSnFkRmlMeWNhbGk0NDBjQ3dkMDNjVnRXM18xdEtHbk5PZzNscHNFd2tsRTVOVEE1dw?oc=5",
+      "source": "AFU.id",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQk5ORWU2cEdsVWVpNU5manFfSWRyaUMwQmFCZ3M1TFp1TW42bEhqakpvV3lKaVdfNFFxeVNsd0ZuYzVReHA0MnZhTzBURFJCdzFwWjlud0RWTmFRdlFwNHc2SEhyRmV5bVl3ZVJDUkE1RldqRnVBdS0zS0ItOV9vLTZBalNwa3hmeE5vUVVhaDZUMzhZYUZ3ZWVPTjhKZlpXWlVaZHVTZE14a3RtcUZxZ1NiX3NjNzktTnZzQUJvTXBGYlUzQk1va3RR?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T21:02:00+07:00",
+      "publishedAt": "2026-11-21T23:00:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     },
     {
-      "id": "2026-11-20-d5e42c7867",
-      "date": "2026-11-20",
+      "id": "2026-11-21-00e2962ff2",
+      "date": "2026-11-21",
       "topic": "Markets",
-      "title": "IHSG 2026 dalam Angka: Level, Sektor, Data Penting",
-      "summary": "Judul RSS Pluang: IHSG 2026 dalam Angka: Level, Sektor, Data Penting",
+      "title": "IHSG Terjun 3,71 Persen, Kapitalisasi Pasar Menguap Rp322 Triliun! Asing Terus Kabur dari Bursa",
+      "summary": "Judul RSS Aktual.com: IHSG Terjun 3,71 Persen, Kapitalisasi Pasar Menguap Rp322 Triliun! Asing Terus Kabur dari Bursa",
       "sentiment": "Neutral",
       "score": 0.0,
       "confidence": 0.35,
       "impact": "Judul menyebut IHSG. Yang perlu diverifikasi: tanggal kuotasi, arah perubahan, dan pembanding resmi BI/BEI. Dampak belum dinilai dari artikel lengkap.",
-      "source": "Pluang",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON3FYOHoyN1hIM2xNYm1ESXZsYXVOZ0hTdG1Jd0F6VUtIV3ZWaW9DNDFHVldGNXZES2R5WnBfc3VkWW00MUhHTkw3SWhHZ1FMYlZUV1VFVWJNWjFhLWxjZlZRX0hHOU1CM190STk0RzV5VkpKSFN1QWx5d3Bnd2FsdUZoVEljSFhHMVdGb1ZrUmcyVVdvV0tOTXF4QkxMWGw4c1dFSVJvVHRTWE4zNFRhaVc2OV9MWm83eGx3SFh4N2Q?oc=5",
+      "source": "Aktual.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSXJoaDVTWDROdFMzcmNNMnU5LWNTZGhRdDFEdkNCSnlNQi1RVEhQMUtsQlZLQVkzLW9zMDNsUlg3Y1NzVE1ONGNuN1NEOTBmVWFxZW53M3prZUxjWEFRM2tZaG1KNDdMOUJvWlhETXREdDQ1SS1ma01kT0YtQlVaTGtETjBQQWJRNERjcHRRaEFxTWotYlZXTFlzNlJHajVzclNQNXZGdW9PY1RjQ0tmN1pB?oc=5",
       "discoverySource": "Google News RSS",
       "evidenceLevel": "rss-headline",
-      "publishedAt": "2026-11-20T14:40:00+07:00",
+      "publishedAt": "2026-11-21T12:45:15+07:00",
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "id": "2026-11-22-54e93b4a09",
+      "date": "2026-11-22",
+      "topic": "Business / Investment",
+      "title": "Indonesia-Uni Eropa tandatangani IEU-CEPA perkuat kerja sama dagang",
+      "summary": "Judul RSS ANTARA News Yogyakarta: Indonesia-Uni Eropa tandatangani IEU-CEPA perkuat kerja sama dagang",
+      "sentiment": "Neutral",
+      "score": 0.0,
+      "confidence": 0.35,
+      "impact": "Dampak belum dinilai: bukti yang tersedia hanya metadata RSS, bukan artikel lengkap.",
+      "source": "ANTARA News Yogyakarta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUTFfMGZYOWoxSXU1eUIwUHJnb0Q1Wkt6VEQxZUl2Unlrbjc3cFZSaFJGb1lOREhNZ25vMUtHNm1wWUZXa1p4YjFfckdEWTFOYjJzVVpIdWNPT0xqSEowckF4Y1dQSG5CNURUdUJYSmdGM0RVc1dkYWZROFVJQWZIZ0o2R3E3aU5PRzhYdUYyRnVMNFlhcS1yWVA3bkVVZkw1clVrb0FxY0ZYZFZ6VlBR?oc=5",
+      "discoverySource": "Google News RSS",
+      "evidenceLevel": "rss-headline",
+      "publishedAt": "2026-11-22T05:50:00+07:00",
       "imageUrl": "",
       "imageAlt": ""
     }
   ],
   "marketInsights": {
-    "generatedAt": "2026-11-21T07:00:16+07:00",
+    "generatedAt": "2026-11-22T07:00:16+07:00",
     "marketContext": "Indonesia news flow is mapped into business, FX, IDX, and US equity opportunity screens. This is analytical screening, not financial advice. CNY: 1/252 daily observations; excluded from FX ranking",
     "dataWarnings": [
       "CNY: 1/252 daily observations; excluded from FX ranking"
@@ -449,297 +449,297 @@
         "label": "US Dollar",
         "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
         "pair": "USD",
-        "last": 18254.0,
-        "date": "2026-11-20",
-        "return1m": 1.37,
-        "return3m": 2.81,
-        "return6m": 3.37,
-        "return1y": 9.44,
-        "volatility": 13.78,
+        "last": 18260.0,
+        "date": "2026-11-21",
+        "return1m": 1.15,
+        "return3m": 3.43,
+        "return6m": 3.21,
+        "return1y": 9.48,
+        "volatility": 13.77,
         "maxDrawdown": -3.95,
         "sparkline": [
           {
-            "date": "2026-05-10",
-            "value": 17358.0
+            "date": "2026-05-11",
+            "value": 17413.0
           },
           {
-            "date": "2026-05-12",
-            "value": 17549.0
+            "date": "2026-05-13",
+            "value": 17500.0
           },
           {
-            "date": "2026-05-14",
-            "value": 17530.5996
+            "date": "2026-05-17",
+            "value": 17586.0
           },
           {
-            "date": "2026-05-18",
-            "value": 17701.0
+            "date": "2026-05-19",
+            "value": 17777.0
           },
           {
-            "date": "2026-05-20",
-            "value": 17658.4004
-          },
-          {
-            "date": "2026-05-24",
+            "date": "2026-05-21",
             "value": 17692.0
           },
           {
-            "date": "2026-05-26",
-            "value": 17699.6992
+            "date": "2026-05-25",
+            "value": 17762.0
           },
           {
-            "date": "2026-05-28",
-            "value": 17840.0
+            "date": "2026-05-27",
+            "value": 17804.0
           },
           {
-            "date": "2026-06-01",
-            "value": 17864.0
+            "date": "2026-05-31",
+            "value": 17817.0
           },
           {
-            "date": "2026-06-03",
-            "value": 18004.1992
+            "date": "2026-06-02",
+            "value": 17858.0
           },
           {
-            "date": "2026-06-07",
-            "value": 18029.0
+            "date": "2026-06-04",
+            "value": 17955.5
           },
           {
-            "date": "2026-06-09",
-            "value": 18031.0
+            "date": "2026-06-08",
+            "value": 18190.3008
           },
           {
-            "date": "2026-06-11",
-            "value": 17921.0
+            "date": "2026-06-10",
+            "value": 17875.9004
           },
           {
-            "date": "2026-06-15",
-            "value": 17716.0
+            "date": "2026-06-14",
+            "value": 17772.0
           },
           {
-            "date": "2026-06-17",
-            "value": 17891.0
+            "date": "2026-06-16",
+            "value": 17730.0
           },
           {
-            "date": "2026-06-21",
-            "value": 17788.0
+            "date": "2026-06-18",
+            "value": 17794.4004
           },
           {
-            "date": "2026-06-23",
-            "value": 17916.0
+            "date": "2026-06-22",
+            "value": 17862.0
           },
           {
-            "date": "2026-06-25",
-            "value": 17995.0
+            "date": "2026-06-24",
+            "value": 17990.0
           },
           {
-            "date": "2026-06-29",
-            "value": 17925.0
-          },
-          {
-            "date": "2026-07-01",
-            "value": 17998.0
-          },
-          {
-            "date": "2026-07-05",
-            "value": 17998.0
-          },
-          {
-            "date": "2026-07-07",
-            "value": 17979.0
-          },
-          {
-            "date": "2026-07-09",
-            "value": 18125.0
-          },
-          {
-            "date": "2026-07-13",
-            "value": 18111.0
-          },
-          {
-            "date": "2026-07-15",
-            "value": 18068.8008
-          },
-          {
-            "date": "2026-07-19",
-            "value": 17934.0
-          },
-          {
-            "date": "2026-07-21",
-            "value": 17911.0
-          },
-          {
-            "date": "2026-07-23",
-            "value": 17967.0
-          },
-          {
-            "date": "2026-07-27",
-            "value": 18053.0
-          },
-          {
-            "date": "2026-07-29",
-            "value": 18079.0
-          },
-          {
-            "date": "2026-08-02",
-            "value": 18030.0
-          },
-          {
-            "date": "2026-08-04",
-            "value": 17963.0
-          },
-          {
-            "date": "2026-08-06",
-            "value": 17912.0
-          },
-          {
-            "date": "2026-08-10",
-            "value": 17791.0
-          },
-          {
-            "date": "2026-08-12",
-            "value": 17853.0
-          },
-          {
-            "date": "2026-08-16",
+            "date": "2026-06-28",
             "value": 17830.0
           },
           {
-            "date": "2026-08-18",
-            "value": 17768.5
+            "date": "2026-06-30",
+            "value": 17935.0
           },
           {
-            "date": "2026-08-20",
-            "value": 17755.0
+            "date": "2026-07-02",
+            "value": 17787.9004
           },
           {
-            "date": "2026-08-24",
-            "value": 17714.5996
+            "date": "2026-07-06",
+            "value": 18046.0
           },
           {
-            "date": "2026-08-26",
-            "value": 17778.0
+            "date": "2026-07-08",
+            "value": 18125.0
           },
           {
-            "date": "2026-08-30",
+            "date": "2026-07-12",
+            "value": 18065.0
+          },
+          {
+            "date": "2026-07-14",
+            "value": 18157.0
+          },
+          {
+            "date": "2026-07-16",
+            "value": 17985.0
+          },
+          {
+            "date": "2026-07-20",
+            "value": 17931.0
+          },
+          {
+            "date": "2026-07-22",
+            "value": 17917.0
+          },
+          {
+            "date": "2026-07-26",
+            "value": 17958.0
+          },
+          {
+            "date": "2026-07-28",
+            "value": 18053.0
+          },
+          {
+            "date": "2026-07-30",
+            "value": 18040.0996
+          },
+          {
+            "date": "2026-08-03",
+            "value": 17963.3008
+          },
+          {
+            "date": "2026-08-05",
+            "value": 17873.0
+          },
+          {
+            "date": "2026-08-09",
+            "value": 17794.0
+          },
+          {
+            "date": "2026-08-11",
+            "value": 17822.0
+          },
+          {
+            "date": "2026-08-13",
+            "value": 17863.0
+          },
+          {
+            "date": "2026-08-17",
+            "value": 17824.0
+          },
+          {
+            "date": "2026-08-19",
+            "value": 17807.0
+          },
+          {
+            "date": "2026-08-23",
+            "value": 17655.0
+          },
+          {
+            "date": "2026-08-25",
+            "value": 17695.0
+          },
+          {
+            "date": "2026-08-27",
             "value": 17749.0
           },
           {
-            "date": "2026-09-01",
-            "value": 17697.1992
+            "date": "2026-08-31",
+            "value": 17689.9004
           },
           {
-            "date": "2026-09-03",
-            "value": 17618.0996
+            "date": "2026-09-02",
+            "value": 17723.0
           },
           {
-            "date": "2026-09-07",
-            "value": 17664.0
+            "date": "2026-09-06",
+            "value": 17638.0
           },
           {
-            "date": "2026-09-09",
-            "value": 17501.0
+            "date": "2026-09-08",
+            "value": 17588.0
           },
           {
-            "date": "2026-09-13",
-            "value": 17630.0
+            "date": "2026-09-10",
+            "value": 17588.0996
           },
           {
-            "date": "2026-09-15",
-            "value": 17665.0
+            "date": "2026-09-14",
+            "value": 17636.0
           },
           {
-            "date": "2026-09-17",
-            "value": 17757.0
+            "date": "2026-09-16",
+            "value": 17718.0
           },
           {
-            "date": "2026-09-21",
-            "value": 17846.0
+            "date": "2026-09-20",
+            "value": 17806.0
           },
           {
-            "date": "2026-09-23",
-            "value": 17837.3008
+            "date": "2026-09-22",
+            "value": 17805.0
           },
           {
-            "date": "2026-09-27",
-            "value": 17950.0
+            "date": "2026-09-24",
+            "value": 17559.5
           },
           {
-            "date": "2026-09-29",
-            "value": 17736.4004
+            "date": "2026-09-28",
+            "value": 17980.3008
           },
           {
-            "date": "2026-10-01",
-            "value": 17922.8008
+            "date": "2026-09-30",
+            "value": 17884.8008
           },
           {
-            "date": "2026-10-05",
-            "value": 17887.9004
+            "date": "2026-10-04",
+            "value": 17909.0
           },
           {
-            "date": "2026-10-07",
-            "value": 17877.5
+            "date": "2026-10-06",
+            "value": 17829.0
           },
           {
-            "date": "2026-10-11",
-            "value": 17910.0
+            "date": "2026-10-08",
+            "value": 17807.5
           },
           {
-            "date": "2026-10-13",
-            "value": 17866.5
+            "date": "2026-10-12",
+            "value": 17913.0
           },
           {
-            "date": "2026-10-15",
-            "value": 18020.0996
+            "date": "2026-10-14",
+            "value": 17823.6992
           },
           {
-            "date": "2026-10-19",
-            "value": 18041.0
+            "date": "2026-10-18",
+            "value": 18056.0
           },
           {
-            "date": "2026-10-21",
-            "value": 18008.0
+            "date": "2026-10-20",
+            "value": 17985.4004
           },
           {
-            "date": "2026-10-26",
-            "value": 18081.0
+            "date": "2026-10-22",
+            "value": 18053.0
           },
           {
-            "date": "2026-10-28",
-            "value": 18139.5
+            "date": "2026-10-27",
+            "value": 18144.0
           },
           {
-            "date": "2026-10-30",
-            "value": 18070.4004
+            "date": "2026-10-29",
+            "value": 18065.4004
           },
           {
-            "date": "2026-11-03",
-            "value": 17472.1992
+            "date": "2026-11-02",
+            "value": 18113.9004
           },
           {
-            "date": "2026-11-05",
-            "value": 17509.1992
+            "date": "2026-11-04",
+            "value": 17536.0996
           },
           {
-            "date": "2026-11-09",
-            "value": 18095.4004
+            "date": "2026-11-06",
+            "value": 17479.1992
           },
           {
-            "date": "2026-11-11",
-            "value": 18140.0
+            "date": "2026-11-10",
+            "value": 18058.3008
           },
           {
-            "date": "2026-11-13",
-            "value": 17633.0996
+            "date": "2026-11-12",
+            "value": 17489.5
           },
           {
-            "date": "2026-11-17",
-            "value": 17595.4004
+            "date": "2026-11-16",
+            "value": 18222.4004
           },
           {
-            "date": "2026-11-19",
-            "value": 17637.1992
+            "date": "2026-11-18",
+            "value": 17660.0
+          },
+          {
+            "date": "2026-11-20",
+            "value": 18254.0
           }
         ],
-        "profitScore": 1.67,
+        "profitScore": 1.77,
         "view": "strongest IDR return screen"
       },
       {
@@ -1940,297 +1940,297 @@
       "label": "US Dollar",
       "useCase": "Global reserve currency, imports, debt service, and defensive cash proxy",
       "pair": "USD",
-      "last": 18254.0,
-      "date": "2026-11-20",
-      "return1m": 1.37,
-      "return3m": 2.81,
-      "return6m": 3.37,
-      "return1y": 9.44,
-      "volatility": 13.78,
+      "last": 18260.0,
+      "date": "2026-11-21",
+      "return1m": 1.15,
+      "return3m": 3.43,
+      "return6m": 3.21,
+      "return1y": 9.48,
+      "volatility": 13.77,
       "maxDrawdown": -3.95,
       "sparkline": [
         {
-          "date": "2026-05-10",
-          "value": 17358.0
+          "date": "2026-05-11",
+          "value": 17413.0
         },
         {
-          "date": "2026-05-12",
-          "value": 17549.0
+          "date": "2026-05-13",
+          "value": 17500.0
         },
         {
-          "date": "2026-05-14",
-          "value": 17530.5996
+          "date": "2026-05-17",
+          "value": 17586.0
         },
         {
-          "date": "2026-05-18",
-          "value": 17701.0
+          "date": "2026-05-19",
+          "value": 17777.0
         },
         {
-          "date": "2026-05-20",
-          "value": 17658.4004
-        },
-        {
-          "date": "2026-05-24",
+          "date": "2026-05-21",
           "value": 17692.0
         },
         {
-          "date": "2026-05-26",
-          "value": 17699.6992
+          "date": "2026-05-25",
+          "value": 17762.0
         },
         {
-          "date": "2026-05-28",
-          "value": 17840.0
+          "date": "2026-05-27",
+          "value": 17804.0
         },
         {
-          "date": "2026-06-01",
-          "value": 17864.0
+          "date": "2026-05-31",
+          "value": 17817.0
         },
         {
-          "date": "2026-06-03",
-          "value": 18004.1992
+          "date": "2026-06-02",
+          "value": 17858.0
         },
         {
-          "date": "2026-06-07",
-          "value": 18029.0
+          "date": "2026-06-04",
+          "value": 17955.5
         },
         {
-          "date": "2026-06-09",
-          "value": 18031.0
+          "date": "2026-06-08",
+          "value": 18190.3008
         },
         {
-          "date": "2026-06-11",
-          "value": 17921.0
+          "date": "2026-06-10",
+          "value": 17875.9004
         },
         {
-          "date": "2026-06-15",
-          "value": 17716.0
+          "date": "2026-06-14",
+          "value": 17772.0
         },
         {
-          "date": "2026-06-17",
-          "value": 17891.0
+          "date": "2026-06-16",
+          "value": 17730.0
         },
         {
-          "date": "2026-06-21",
-          "value": 17788.0
+          "date": "2026-06-18",
+          "value": 17794.4004
         },
         {
-          "date": "2026-06-23",
-          "value": 17916.0
+          "date": "2026-06-22",
+          "value": 17862.0
         },
         {
-          "date": "2026-06-25",
-          "value": 17995.0
+          "date": "2026-06-24",
+          "value": 17990.0
         },
         {
-          "date": "2026-06-29",
-          "value": 17925.0
-        },
-        {
-          "date": "2026-07-01",
-          "value": 17998.0
-        },
-        {
-          "date": "2026-07-05",
-          "value": 17998.0
-        },
-        {
-          "date": "2026-07-07",
-          "value": 17979.0
-        },
-        {
-          "date": "2026-07-09",
-          "value": 18125.0
-        },
-        {
-          "date": "2026-07-13",
-          "value": 18111.0
-        },
-        {
-          "date": "2026-07-15",
-          "value": 18068.8008
-        },
-        {
-          "date": "2026-07-19",
-          "value": 17934.0
-        },
-        {
-          "date": "2026-07-21",
-          "value": 17911.0
-        },
-        {
-          "date": "2026-07-23",
-          "value": 17967.0
-        },
-        {
-          "date": "2026-07-27",
-          "value": 18053.0
-        },
-        {
-          "date": "2026-07-29",
-          "value": 18079.0
-        },
-        {
-          "date": "2026-08-02",
-          "value": 18030.0
-        },
-        {
-          "date": "2026-08-04",
-          "value": 17963.0
-        },
-        {
-          "date": "2026-08-06",
-          "value": 17912.0
-        },
-        {
-          "date": "2026-08-10",
-          "value": 17791.0
-        },
-        {
-          "date": "2026-08-12",
-          "value": 17853.0
-        },
-        {
-          "date": "2026-08-16",
+          "date": "2026-06-28",
           "value": 17830.0
         },
         {
-          "date": "2026-08-18",
-          "value": 17768.5
+          "date": "2026-06-30",
+          "value": 17935.0
         },
         {
-          "date": "2026-08-20",
-          "value": 17755.0
+          "date": "2026-07-02",
+          "value": 17787.9004
         },
         {
-          "date": "2026-08-24",
-          "value": 17714.5996
+          "date": "2026-07-06",
+          "value": 18046.0
         },
         {
-          "date": "2026-08-26",
-          "value": 17778.0
+          "date": "2026-07-08",
+          "value": 18125.0
         },
         {
-          "date": "2026-08-30",
+          "date": "2026-07-12",
+          "value": 18065.0
+        },
+        {
+          "date": "2026-07-14",
+          "value": 18157.0
+        },
+        {
+          "date": "2026-07-16",
+          "value": 17985.0
+        },
+        {
+          "date": "2026-07-20",
+          "value": 17931.0
+        },
+        {
+          "date": "2026-07-22",
+          "value": 17917.0
+        },
+        {
+          "date": "2026-07-26",
+          "value": 17958.0
+        },
+        {
+          "date": "2026-07-28",
+          "value": 18053.0
+        },
+        {
+          "date": "2026-07-30",
+          "value": 18040.0996
+        },
+        {
+          "date": "2026-08-03",
+          "value": 17963.3008
+        },
+        {
+          "date": "2026-08-05",
+          "value": 17873.0
+        },
+        {
+          "date": "2026-08-09",
+          "value": 17794.0
+        },
+        {
+          "date": "2026-08-11",
+          "value": 17822.0
+        },
+        {
+          "date": "2026-08-13",
+          "value": 17863.0
+        },
+        {
+          "date": "2026-08-17",
+          "value": 17824.0
+        },
+        {
+          "date": "2026-08-19",
+          "value": 17807.0
+        },
+        {
+          "date": "2026-08-23",
+          "value": 17655.0
+        },
+        {
+          "date": "2026-08-25",
+          "value": 17695.0
+        },
+        {
+          "date": "2026-08-27",
           "value": 17749.0
         },
         {
-          "date": "2026-09-01",
-          "value": 17697.1992
+          "date": "2026-08-31",
+          "value": 17689.9004
         },
         {
-          "date": "2026-09-03",
-          "value": 17618.0996
+          "date": "2026-09-02",
+          "value": 17723.0
         },
         {
-          "date": "2026-09-07",
-          "value": 17664.0
+          "date": "2026-09-06",
+          "value": 17638.0
         },
         {
-          "date": "2026-09-09",
-          "value": 17501.0
+          "date": "2026-09-08",
+          "value": 17588.0
         },
         {
-          "date": "2026-09-13",
-          "value": 17630.0
+          "date": "2026-09-10",
+          "value": 17588.0996
         },
         {
-          "date": "2026-09-15",
-          "value": 17665.0
+          "date": "2026-09-14",
+          "value": 17636.0
         },
         {
-          "date": "2026-09-17",
-          "value": 17757.0
+          "date": "2026-09-16",
+          "value": 17718.0
         },
         {
-          "date": "2026-09-21",
-          "value": 17846.0
+          "date": "2026-09-20",
+          "value": 17806.0
         },
         {
-          "date": "2026-09-23",
-          "value": 17837.3008
+          "date": "2026-09-22",
+          "value": 17805.0
         },
         {
-          "date": "2026-09-27",
-          "value": 17950.0
+          "date": "2026-09-24",
+          "value": 17559.5
         },
         {
-          "date": "2026-09-29",
-          "value": 17736.4004
+          "date": "2026-09-28",
+          "value": 17980.3008
         },
         {
-          "date": "2026-10-01",
-          "value": 17922.8008
+          "date": "2026-09-30",
+          "value": 17884.8008
         },
         {
-          "date": "2026-10-05",
-          "value": 17887.9004
+          "date": "2026-10-04",
+          "value": 17909.0
         },
         {
-          "date": "2026-10-07",
-          "value": 17877.5
+          "date": "2026-10-06",
+          "value": 17829.0
         },
         {
-          "date": "2026-10-11",
-          "value": 17910.0
+          "date": "2026-10-08",
+          "value": 17807.5
         },
         {
-          "date": "2026-10-13",
-          "value": 17866.5
+          "date": "2026-10-12",
+          "value": 17913.0
         },
         {
-          "date": "2026-10-15",
-          "value": 18020.0996
+          "date": "2026-10-14",
+          "value": 17823.6992
         },
         {
-          "date": "2026-10-19",
-          "value": 18041.0
+          "date": "2026-10-18",
+          "value": 18056.0
         },
         {
-          "date": "2026-10-21",
-          "value": 18008.0
+          "date": "2026-10-20",
+          "value": 17985.4004
         },
         {
-          "date": "2026-10-26",
-          "value": 18081.0
+          "date": "2026-10-22",
+          "value": 18053.0
         },
         {
-          "date": "2026-10-28",
-          "value": 18139.5
+          "date": "2026-10-27",
+          "value": 18144.0
         },
         {
-          "date": "2026-10-30",
-          "value": 18070.4004
+          "date": "2026-10-29",
+          "value": 18065.4004
         },
         {
-          "date": "2026-11-03",
-          "value": 17472.1992
+          "date": "2026-11-02",
+          "value": 18113.9004
         },
         {
-          "date": "2026-11-05",
-          "value": 17509.1992
+          "date": "2026-11-04",
+          "value": 17536.0996
         },
         {
-          "date": "2026-11-09",
-          "value": 18095.4004
+          "date": "2026-11-06",
+          "value": 17479.1992
         },
         {
-          "date": "2026-11-11",
-          "value": 18140.0
+          "date": "2026-11-10",
+          "value": 18058.3008
         },
         {
-          "date": "2026-11-13",
-          "value": 17633.0996
+          "date": "2026-11-12",
+          "value": 17489.5
         },
         {
-          "date": "2026-11-17",
-          "value": 17595.4004
+          "date": "2026-11-16",
+          "value": 18222.4004
         },
         {
-          "date": "2026-11-19",
-          "value": 17637.1992
+          "date": "2026-11-18",
+          "value": 17660.0
+        },
+        {
+          "date": "2026-11-20",
+          "value": 18254.0
         }
       ],
-      "profitScore": 1.67,
+      "profitScore": 1.77,
       "view": "strongest IDR return screen"
     },
     "stockBasis": "Theme-based IDX watchlist derived from the current Indonesia news mix; not a buy/sell recommendation.",
@@ -2239,7 +2239,7 @@
         "ticker": "BBCA",
         "name": "Bank Central Asia",
         "theme": "Banking / quality liquidity",
-        "opportunityScore": 83,
+        "opportunityScore": 87,
         "rationale": "Benefits from resilient credit quality and digital transaction volume, but sensitive to rate and consumption slowdown.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },
@@ -2247,7 +2247,7 @@
         "ticker": "BMRI",
         "name": "Bank Mandiri",
         "theme": "Banking / SOE credit",
-        "opportunityScore": 83,
+        "opportunityScore": 87,
         "rationale": "Proxy for corporate loan growth and government-linked investment cycles; watch NIM compression risk.",
         "risk": "Screening only, not financial advice; validate valuation, liquidity, earnings, and personal risk profile before trading."
       },

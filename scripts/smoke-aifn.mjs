@@ -76,6 +76,17 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
      assert.deepEqual(await page.locator('#af-viz [data-course-visual] rect').evaluateAll(xs=>xs.map(x=>Number(x.getAttribute('width')))),[200/median*250,250]);
      assert.ok(feedback[pooled?1:0].startsWith('Alasan pilihan tepat.'));assert.match(feedback[0],pooled?/600.*Dua nilai test/:/200.*transform train dan test/);
     }
+    if(l.kind==='target'){
+     const amount=value==='amount',reg=expected.regression,metric=metricsAt(expected.classification.scores,.5);
+     const trace=await page.locator('#af-viz [data-aifn-target]').evaluate(el=>({...el.dataset}));
+     assert.equal(trace.aifnTarget,amount?'amount':'risk');assert.equal(Number(trace.holdout),expected.split.testCount);assert.equal(Number(trace.metric),amount?reg.mae:metric.accuracy);
+     const counts=amount?[reg.mae,reg.baselineMae]:[metric.TP,metric.FP,metric.TN,metric.FN],max=Math.max(...counts);
+     assert.deepEqual(await page.locator('#af-viz [data-course-visual] rect').evaluateAll(xs=>xs.map(x=>Number(x.getAttribute('width')))),counts.map(x=>x/max*250));
+     await page.locator('#af-viz summary').filter({hasText:'Telusuri tiga baris'}).click();
+     const rows=await page.locator('#af-viz .af-diagram-surface tbody tr').allTextContents();assert.equal(rows.length,3);
+     for(let i=0;i<3;i++){assert.ok(rows[i].startsWith(String(expected.split.testRows[i])));assert.ok(rows[i].includes((amount?reg.rows[i].predicted:expected.classification.scores[i].score).toLocaleString('id-ID',{maximumFractionDigits:3})));}
+     assert.ok(feedback[amount?0:1].startsWith('Alasan pilihan tepat.'));assert.match(feedback[0],amount?/MAE tidak dapat dibandingkan langsung/:/waktu ketersediaannya belum terverifikasi/);
+    }
     if(l.kind==='explain'){const trace=await page.locator('#af-viz [data-aifn-logit]').evaluate(el=>({score:Number(el.dataset.aifnScore),reconstructed:Number(el.dataset.aifnReconstructed),logit:Number(el.dataset.aifnLogit)}));const i=Math.min(expected.classification.scores.length-1,Math.floor(Number(value)*(expected.classification.scores.length-1)));assert.ok(Number.isFinite(trace.logit));assert.ok(Math.abs(trace.score-expected.classification.scores[i].score)<1e-12);assert.ok(Math.abs(trace.reconstructed-trace.score)<1e-12);}
     if(['classification','evaluation'].includes(l.kind)){const m=metricsAt(expected.classification.scores,Number(value));for(const name of ['TP','FP','TN','FN'])assert.ok(text.includes(`${name} ${m[name]}`));assert.ok(text.includes(expected.classification.auc.toLocaleString('id-ID',{maximumFractionDigits:3})));}
    }

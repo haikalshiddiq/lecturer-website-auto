@@ -475,9 +475,9 @@
         "Baseline adalah pembanding sederhana sebelum mengklaim model berguna. Regresi dibandingkan dengan rerata amount train; klasifikasi dibandingkan dengan selalu memilih kelas mayoritas train. Keduanya dinilai pada baris test yang sama, dengan metrik sesuai pertanyaan dan satuan target."
       ],
       "assumptions": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi. Regresi memakai duration, installmentRate, existingCredits untuk memprediksi amount. Klasifikasi memakai empat fitur yang disebut dalam konsep, bukan age atau risk sebagai input.",
-      "worked": "Buat dua kartu dari CSV yang sama. Kartu A menutup kolom amount, lalu memprediksinya dari tiga fitur lain dan menilai MAE dalam satuan sumber. Kartu B menutup risk, mempelajari skor kelas Bad, lalu memeriksa confusion matrix. Tidak ada target pengeluaran bulan depan atau kejadian 90 hari yang dibuat-buat.",
-      "practice": "Tandai X dan y untuk kedua tugas pada kamus data. Tulis baseline dan metrik masing-masing. Di rumah jalankan bagian penetapan target notebook dan periksa bahwa target regresi tidak ikut muncul dalam daftar fitur regresi.",
-      "misconception": "Angka 0/1 pada risk tidak menjadikan tugasnya regresi nilai uang. Yang menentukan adalah makna target, bukan sekadar apakah sel Excel berisi angka.",
+      "worked": "Suplemen hitung sintetis, terpisah dari grafik UCI: dua amount aktual 100 dan 300 unit latihan, prediksi 120 dan 240. Kesalahan absolut |100−120|=20 dan |300−240|=60; MAE=(20+60)/2=40 unit latihan. Jika mean train yang sudah disimpan 200, baseline memberi (100+100)/2=100 unit, bukan 100% salah. Pada kartu risk, label aktual 0 dan 1, skor bad 0,2 dan 0,4, ambang 0,5: keduanya tidak direview, TN=1 dan FN=1, accuracy=1/2=0,5, recall bad=0/1=0. Output angka tidak mengubah kategori menjadi nilai uang. Hasil ini tidak melatih model, tidak membuktikan kalibrasi atau kelayakan kredit. Grafik browser memakai seluruh holdout UCI nyata, bukan dua baris sintetis ini.",
+      "practice": "Transfer individu s04-dua-target.md: target baru duration, bukan amount; calonkan installmentRate dan existingCredits, keluarkan duration beserta transformasinya dan tahan amount/risk tanpa bukti waktu. Fixture sintetis: durasi aktual 6 dan 18 bulan, prediksi 9 dan 15; hitung dua error absolut dan MAE dengan satuan. Kartu klasifikasi terpisah: risk aktual 0 dan 1, skor 0,8 dan 0,3, ambang 0,5; tulis FP/FN, accuracy dan recall. Jelaskan mengapa metrik kedua kartu tidak dapat diranking langsung. Sertakan tabel pertanyaan/X/y/baseline/metrik/satuan/batas waktu. Di rumah jalankan s04-fitur-target.ipynb dari kernel kosong memakai bagian penetapan target notebook yang ada, periksa fitur regresi bebas amount, dan pisahkan hasil UCI dari fixture transfer.",
+      "misconception": "Kode risk 0/1 dan skor numerik tetap menjawab kelas good/bad, bukan jumlah uang. MAE 40 unit tidak lebih buruk atau lebih baik daripada accuracy 0,5: tugas, satuan dan arah baiknya berbeda. Amount dilarang untuk memprediksi dirinya, tetapi boleh menjadi fitur kandidat risk bila waktu ketersediaannya dapat dibuktikan. Lulus pemisahan target belum membuktikan waktu tersebut.",
       "quiz": {
         "question": "Mana rancangan regresi amount yang tidak membocorkan jawaban?",
         "options": [
@@ -493,14 +493,14 @@
         ]
       },
       "teacher": {
-        "flow": "7 menit: Tuliskan dua pertanyaan keuangan pada kartu. 9 menit: Warnai fitur dan target pada tabel CSV. 10 menit: Bandingkan pilihan target dan tampilan grafik di browser. 9 menit: Dosen menelusuri baseline di notebook dan mahasiswa mengoreksi rancangan teman. Tugas rumah: jalankan ulang bagian notebook terkait dan jelaskan hasilnya dengan kalimat keuangan, bukan salinan angka.",
+        "flow": "35 menit terpandu: 7 menit prediksi arti target dan hitung fixture 20/60 sebelum kontrol dipilih; 9 menit ganti amount/risk di browser, jelaskan pergantian sumbu unit MAE menjadi hitungan matriks dan buka tiga baris uji; 10 menit mahasiswa hitung transfer duration serta FP/FN secara individu; 9 menit telaah kartu X/y dan alasan metrik tidak sebanding. Acuan: transfer error 3 dan 3 bulan, MAE 3 bulan; klasifikasi FP=1, FN=1, TP=TN=0, accuracy=0/2=0, recall=0/1=0. Bedakan dua baris sintetis dari seluruh holdout UCI. Tugas rumah: jalankan bagian notebook yang ada dan laporkan bukti fitur/target, bukan klaim waktu yang tidak tersedia.",
         "rubric": [
-          "Pertanyaan dan jenis target tepat (30)",
-          "Daftar fitur bebas kebocoran target (30)",
-          "Baseline dan metrik cocok (25)",
-          "Batas interpretasi historis jelas (15)"
+          "Pertanyaan, target duration/risk dan satuan tepat (30)",
+          "Daftar X bebas target/transformasi dan asumsi waktu dinyatakan (30)",
+          "MAE 3 bulan serta FP/FN dan denominator 2/1 dapat ditelusuri (25)",
+          "Tidak meranking MAE vs accuracy atau menyimpulkan keputusan kredit (15)"
         ],
-        "probe": "Mengapa amount boleh menjadi fitur untuk risk tetapi dilarang menjadi fitur untuk memprediksi amount? Minta mahasiswa menjawab dengan gambar kolom yang ditutup."
+        "probe": "Jika dua kartu sama-sama menghasilkan angka, mengapa satu memakai MAE dan lainnya matriks? Minta mahasiswa menjelaskan 3 bulan versus accuracy 0, lalu menunjukkan kolom yang dilarang saat target berganti ke duration."
       },
       "financeLab": {
         "caseTitle": "Dua pertanyaan, satu arsip: jumlah kredit atau kelas risiko?",
@@ -572,7 +572,7 @@
           ]
         },
         "notebookSection": "Sesi 04: fitur, target, dan baseline",
-        "coreTask": "Susun dua spesifikasi tugas yang tidak mencampurkan fitur dan jawaban.",
+        "coreTask": "Transfer individu s04-dua-target.md: susun kartu duration dengan fitur kandidat installmentRate/existingCredits, tanpa duration/transformasinya dan tanpa amount/risk sebelum bukti waktu tersedia. Fixture sintetis: aktual 6/18 bulan, prediksi 9/15; hitung error dan MAE. Kartu risk terpisah: aktual 0/1, skor 0,8/0,3, ambang 0,5; hitung FP/FN, accuracy dan recall. Sertakan pertanyaan/X/y/baseline/metrik/satuan/batas, jelaskan mengapa kedua metrik tidak bisa diranking. Tugas rumah s04-fitur-target.ipynb memakai bagian penetapan target notebook yang diunduh; laporkan hasil UCI terpisah dari fixture ini.",
         "extension": "Usulkan target keuangan lain, lalu sebutkan data tambahan yang belum ada alih-alih mengarang kolom.",
         "dataUse": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi.",
         "limitations": "Regresi merekonstruksi amount historis, bukan ramalan kebutuhan kredit masa depan. Tidak menafsirkan label kontrol ilustratif sebagai metadata sumber."

@@ -40,7 +40,7 @@ class GuardianContract(unittest.TestCase):
     def test_delivery_failure_is_not_republication(self):
         self.assertEqual(self.decide({**JOB,'last_status':'delivery_failed'}),'delivery')
     def test_recoverable_failures_classified(self):
-        for error in ['HTTP 400 Bad Request','IASD S05 keyboard/tap target','preview timed out','worker died']:
+        for error in ['HTTP 400 Bad Request','IASD S05 keyboard/tap target','preview timed out','worker died','IASD S05 focus failed; baseline unchanged']:
             self.assertEqual(self.decide({**JOB,'last_error':error}),'recover')
     def test_auth_quota_scope_or_baseline_are_not_blindly_retried(self):
         for error in ['HTTP 401 invalidated token','quota usage limit','baseline hash changed','out-of-turn unrelated edits']:

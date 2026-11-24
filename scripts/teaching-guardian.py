@@ -22,7 +22,7 @@ ROTATION = HOME / 'cache/teaching-course-rotation.json'
 MAX_RECOVERIES = 2
 COOLDOWN = timedelta(hours=1)
 WIB = ZoneInfo('Asia/Jakarta')
-FATAL = re.compile(r'\b401\b|\b403\b|invalidated.*token|unauthorized|quota|usage.*limit|baseline.*(?:mismatch|changed)|out-of-turn|unrelated edits|scope conflict', re.I)
+FATAL = re.compile(r'\b401\b|\b403\b|invalidated.*token|unauthorized|quota|usage.*limit|baseline.*\b(?:mismatch|changed)\b|out-of-turn|unrelated edits|scope conflict', re.I)
 RECOVERABLE = re.compile(r'HTTP 400|Bad Request|timeout|timed out|keyboard/tap|focus|preview|ECONN|connection|DNS|interrupted|worker.*(?:died|exit)', re.I)
 
 

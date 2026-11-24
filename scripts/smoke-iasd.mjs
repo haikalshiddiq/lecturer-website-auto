@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
+import { assertIasdKeyboardTarget } from './test-iasd-focus-helpers.mjs';
 
 const course = JSON.parse(await fs.readFile('src/data/iasd-course.json', 'utf8'));
 const key = `hicall-iasd-studio-${course.version}`;
@@ -217,8 +218,8 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
           if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
           await page.locator('[data-iasd-supplement="4"]').evaluate(el => { el.open = true; });
           for (const field of ['actor', 's4Stock', 's4Role', 's4Outcome']) {
-            const control = page.locator(`[data-setting="${field}"]`); await control.focus(); await page.keyboard.press('Tab'); await page.keyboard.press('Shift+Tab');
-            assert.ok(await control.evaluate(el => document.activeElement === el && getComputedStyle(el).outlineStyle !== 'none' && el.getBoundingClientRect().height >= 44), `S04 keyboard/tap target ${field}`);
+            const control = page.locator(`[data-setting="${field}"]`);
+            await assertIasdKeyboardTarget(page, control, `S04 keyboard/tap target ${field}`);
           }
           await checkOverflow(`S04 expanded ${dark ? 'dark' : 'light'}`);
           assert.deepEqual(await page.evaluate(() => {
@@ -269,8 +270,8 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         for (const dark of [false, true]) {
           if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
           await page.locator('[data-iasd-supplement="5"]').evaluate(el => { el.open = true; });
-          const prediction = page.locator('[data-setting="s5Outcome"]'); await prediction.focus(); await page.keyboard.press('Tab'); await page.keyboard.press('Shift+Tab');
-          assert.ok(await prediction.evaluate(el => document.activeElement === el && getComputedStyle(el).outlineStyle !== 'none' && el.getBoundingClientRect().height >= 44), 'S05 keyboard/tap target');
+          const prediction = page.locator('[data-setting="s5Outcome"]');
+          await assertIasdKeyboardTarget(page, prediction, 'S05 keyboard/tap target');
           for (const field of ['address', 'label']) {
             const control = page.locator(`[data-setting="${field}"]`); await control.focus(); await control.press('Space'); await control.press('Space');
             assert.ok(await control.evaluate(el => el.closest('label').getBoundingClientRect().height >= 44), `S05 checkbox target ${field}`);

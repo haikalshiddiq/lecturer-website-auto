@@ -39,6 +39,7 @@ MANUAL_APP_FILES = {
     'src/components/layout/SEOHead.astro', 'src/layouts/BaseLayout.astro',
     'public/sw.js', 'scripts/teaching-release.py', 'scripts/test-teaching-release.py',
     'automation/teaching-maintenance.md', 'package.json',
+    'automation/teaching-reliability.md', 'scripts/teaching-guardian.py', 'scripts/test-teaching-guardian.py',
 }
 
 
@@ -221,7 +222,10 @@ def release(course: str, bootstrap: bool = False, manual: bool = False) -> int:
     paths = changed_paths()
     assert_scope(paths, course, bootstrap, manual)
     shared.run('python3 scripts/test-teaching-release.py', timeout=60)
+    shared.run('python3 scripts/test-teaching-guardian.py', timeout=60)
     gates = shared.run_release_gates()
+    shared.run('node scripts/test-iasd-focus.mjs', timeout=120)
+    gates.append('bounded guardian and causal focus regressions')
     shared.run_impeccable_pwa_gate()
     if set(changed_paths()) != set(paths):
         raise RuntimeError('Release checks unexpectedly changed tracked content')

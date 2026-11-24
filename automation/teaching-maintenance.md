@@ -42,4 +42,6 @@ Keep known S04 mobile-focus behavior explicitly unresolved until causal isolatio
 
 ## Delivery
 
+Operational recovery follows [teaching-reliability.md](teaching-reliability.md). Keep the main authoring agent, original schedule and gate requirements; the separate deterministic guardian may request only bounded, checkpoint-checked recovery. Respect user pauses and ambiguous external publication state.
+
 In Indonesian, report selected course/session, actual student and instructor benefit, links, observed local/live tests, exact deployed revision and remaining limitation. Differentiate code written, build passed, publication verified and public-source truth. Do not claim an unavailable original IASD RPS was verified; AiFn does have the supplied RPS. External Claude/Colab and references require network even when bundled studio/notebooks are cached offline. Never claim absolutely bug-free software or full WCAG compliance from smoke tests alone.

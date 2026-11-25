@@ -405,8 +405,22 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
       case 8:
         await range('booked', 2); await feedback('melebihi kapasitas');
         await page.locator('[data-iasd-slot-contract] summary').press('Enter');
+        await page.locator('[data-iasd-s8-race] summary').press('Enter');
         for (const capacity of [1, 2]) for (const booked of [0, 1, 2, 3]) for (const event of ['reserve', 'cancelActive', 'cancelClosed']) {
           await range('slotCapacity', capacity); await range('booked', booked); await select('s8Event', event);
+          assert.equal(await page.locator('[data-iasd-s8-race]').evaluate(el => el.open), true, 'S08 comparison stays open after input');
+          const valid = booked <= capacity, free = Math.max(0, capacity - booked), allowed = valid && free > 0;
+          const rows8 = await page.locator('[data-iasd-s8-race] tbody tr').evaluateAll(rows => rows.map(row => [...row.cells].map(cell => cell.textContent)));
+          assert.deepEqual(rows8, [
+            ['Kapasitas / aktif awal', `${capacity} / ${booked}`, `${capacity} / ${booked}`],
+            ['Angka dibaca B', valid ? String(booked) : 'Audit data awal', valid ? String(booked) : 'Audit data awal'],
+            ['Angka dibaca C', valid ? String(booked) : 'Audit data awal', valid ? String(booked + Number(allowed)) : 'Audit data awal'],
+            ['Hasil B / C', !valid ? 'Tidak diproyeksikan' : allowed ? 'Terima / Terima' : 'Tolak / Tolak', !valid ? 'Tidak diproyeksikan' : !allowed ? 'Tolak / Tolak' : free >= 2 ? 'Terima / Terima' : 'Terima / Tolak'],
+            ['Aktif akhir gabungan', valid ? String(booked + 2 * Number(allowed)) : 'Tidak diproyeksikan', valid ? String(booked + Math.min(2, free)) : 'Tidak diproyeksikan'],
+            ['Invariant akhir aktif <= kapasitas', !valid ? 'Audit, bukan perbaikan otomatis' : booked + 2 * Number(allowed) > capacity ? 'Melanggar kapasitas' : 'Terpenuhi pada contoh ini', valid ? 'Terpenuhi pada contoh ini' : 'Audit, bukan perbaikan otomatis']
+          ], 'S08 two-request ledger from disclosed counts, independent of selected single operation');
+          assert.match(await page.locator('[data-iasd-s8-race]').innerText(), /ID berbeda bukan retry/);
+          assert.match(await page.locator('[data-iasd-s8-race]').innerText(), /actual belum diuji/);
           const expected = booked > capacity ? 'audit' : event === 'reserve' ? (booked < capacity ? 'allow' : 'reject') : event === 'cancelActive' && booked > 0 ? 'allow' : 'reject';
           for (const decision of ['allow', 'reject', 'audit']) {
             await select('s8Decision', decision); await page.locator('[data-simact="s8review"]').press('Enter');
@@ -421,11 +435,16 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         await page.reload({ waitUntil: 'networkidle' }); await feedback('Jejak dan keputusan cocok.');
         const example8 = page.locator('[data-iasd-supplement="8"] summary'); await example8.press('Enter');
         assert.ok((await page.locator('[data-iasd-supplement="8"]').innerText()).includes('FR-SLOT')); await example8.press('Escape'); await example8.press('Enter');
+        assert.match(await page.locator('[data-iasd-supplement="8"]').textContent(), /AC-DUA-PEMOHON/);
         await tab('reflect'); assert.ok((await page.locator('[data-iasd-transfer="8"]').innerText()).includes('ruang konsultasi'));
+        assert.match(await page.locator('[data-iasd-transfer="8"]').innerText(), /R-Z/);
         await page.locator('[data-note="2"]').fill('Transfer ruang konsultasi: hitung reservasi aktif, batalkan identitas aktif sekali, telusuri FR-SLOT ke guard dan Slot.');
         await page.reload({ waitUntil: 'networkidle' }); await tab('reflect'); assert.ok((await page.locator('[data-note="2"]').inputValue()).includes('Transfer ruang konsultasi'));
         await tab('teach'); await page.locator('[data-iasd-facilitation="8"] summary').press('Enter');
-        assert.ok((await page.locator('[data-iasd-facilitation="8"]').innerText()).includes('Rubrik diagnostik')); await tab('concept');
+        assert.ok((await page.locator('[data-iasd-facilitation="8"]').innerText()).includes('Rubrik diagnostik'));
+        assert.match(await page.locator('[data-iasd-facilitation="8"]').innerText(), /empat aktif/); await tab('concept');
+        await page.locator('[data-iasd-s8-race] summary').press('Enter');
+        assert.equal(await page.locator('[data-iasd-s8-race]').evaluate(el => el.open), true);
         for (const dark of [false, true]) {
           if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
           await page.locator('[data-iasd-supplement="8"]').evaluate(el => { el.open = true; });
@@ -437,7 +456,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
           assert.deepEqual(await page.evaluate(() => {
             const rgb = c => (c.match(/[\d.]+/g) || []).map(Number);
             const lum = c => rgb(c).slice(0,3).map(v => { v /= 255; return v <= .04045 ? v / 12.92 : ((v+.055)/1.055)**2.4; }).reduce((s,v,i) => s+v*[.2126,.7152,.0722][i],0);
-            return [...document.querySelectorAll('[data-iasd-supplement="8"] *, [data-iasd-slot-contract] *, [data-iasd-s8-feedback] *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
+            return [...document.querySelectorAll('[data-iasd-supplement="8"] *, [data-iasd-slot-contract] *, [data-iasd-s8-feedback] *, [data-iasd-s8-race] *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
               const style=getComputedStyle(el); let ancestor=el, bg='rgb(255,255,255)';
               while(ancestor) { const color=getComputedStyle(ancestor).backgroundColor; if(rgb(color)[3]!==0){bg=color;break;} ancestor=ancestor.parentElement; }
               const a=lum(style.color),b=lum(bg),ratio=(Math.max(a,b)+.05)/(Math.min(a,b)+.05),size=parseFloat(style.fontSize),large=size>=24 || (size>=18.66 && Number(style.fontWeight)>=700);

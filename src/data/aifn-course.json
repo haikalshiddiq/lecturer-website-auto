@@ -601,7 +601,7 @@
         "Model harus dibandingkan dengan baseline rerata train pada test yang sama. Grafik aktual versus prediksi memperlihatkan penyimpangan dari diagonal; MAE merangkum seluruh baris, bukan satu titik yang dipilih. Hasil OLS atau ridge hanya dilaporkan setelah notebook benar-benar dijalankan."
       ],
       "assumptions": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi. Target amount; fitur duration, installmentRate, existingCredits saja. Fit dan normalisasi hanya train, evaluasi holdout tetap. Tidak menggunakan amount/log(amount) sebagai fitur regresi.",
-      "worked": "Dosen memilih satu baris test pada tabel hasil. Mahasiswa menulis aktual, prediksi model, dan prediksi baseline dari output, lalu menghitung ABS(aktual-prediksi) seperti Excel. Plot aktual-prediksi dan dua MAE dipakai untuk menyimpulkan apakah model mengurangi kesalahan pada holdout; tidak dijanjikan model pasti menang.",
+      "worked": "Suplemen sintetis, unit latihan tanpa mata uang: aktual amount A=100 dan B=300; prediksi A=150 dan B=250. Residual aktual−prediksi: −50 dan +50, SUM=0, mean residual=0. ABS masing-masing 50, SUM ABS=100, MAE=100/2=50. Baseline yang diasumsikan telah dibekukan dari train memprediksi 180 untuk keduanya: residual −80 dan +120, MAE=(80+120)/2=100. Model contoh lebih kecil MAE-nya, bukan sempurna. Di browser gunakan seluruh holdout UCI, bukan dua baris sintetis ini: audit menampilkan SUM bertanda, SUM absolut, denominator, tiga jejak sumber dan batang MAE. Pengali hanya stress test, tidak fit ulang atau mencari model terbaik memakai test.",
       "practice": "Serahkan tabel satu baris residual yang diperiksa manual, grafik aktual versus prediksi, dan perbandingan MAE baseline/model pada holdout yang sama. Jalankan ulang fit di rumah dan jelaskan hasilnya dalam satuan amount sumber.",
       "misconception": "Garis yang terlihat dekat beberapa titik belum membuktikan model baik. Gunakan seluruh holdout dan pembanding yang sama, bukan mengganti test untuk memperoleh hasil lebih bagus.",
       "quiz": {
@@ -619,7 +619,7 @@
         ]
       },
       "teacher": {
-        "flow": "7 menit: Hitung satu residual dari baris hasil yang ditunjukkan dosen. 9 menit: Dosen menjalankan fit dan menunjukkan fitur tanpa amount. 11 menit: Baca grafik aktual-prediksi dan bandingkan dua MAE di browser. 8 menit: Tulis interpretasi analis dan rencana menjalankan ulang notebook. Tugas rumah: jalankan ulang bagian notebook terkait dan jelaskan hasilnya dengan kalimat keuangan, bukan salinan angka.",
+        "flow": "Suplemen fasilitasi 35 menit: 7 menit prediksi contoh sintetis amount 100/300 versus 150/250 sebelum membuka jawaban; 9 menit telusuri tiga sourceRow dan SUM/N seluruh holdout pada pengali 0, 1, 3; 11 menit kerjakan transfer durasi individual dan tukar audit; 8 menit bahas batas, denominator dan larangan tuning test. Acuan dosen transfer: residual model −3/+3, SUM=0, mean=0, MAE=3 bulan; baseline 10 memberi −4/+8, SUM=4, mean=2, MAE=6 bulan. Jangan membandingkan 3 bulan dengan MAE amount UCI. Rubrik diagnostik: periksa tanda/ABS, denominator semua baris, baseline sama dan batas klaim; pertahankan bobot latihan di bawah, bukan ubah penilaian aktif. Tugas rumah notebook S05 terpisah dari latihan browser.",
         "rubric": [
           "Fit dan fitur tanpa target bocor (25)",
           "Residual dan MAE bersatuan benar (30)",
@@ -667,15 +667,15 @@
             "minutes": 7
           },
           {
-            "action": "Dosen menjalankan fit dan menunjukkan fitur tanpa amount",
-            "why": "Membedakan model terlatih dari garis tebakan",
-            "expectedEvidence": "Catatan koefisien berasal dari train",
+            "action": "Telusuri sourceRow, SUM bertanda dan SUM absolut pada pengali 0, 1, 3",
+            "why": "Membedakan audit stress test dari fit ulang dan cancellation dari MAE",
+            "expectedEvidence": "Tiga jejak sumber, denominator seluruh holdout dan larangan tuning test",
             "minutes": 9
           },
           {
-            "action": "Baca grafik aktual-prediksi dan bandingkan dua MAE di browser",
-            "why": "Menilai seluruh holdout dengan patokan sama",
-            "expectedEvidence": "Tabel baseline versus model beserta satuan",
+            "action": "Kerjakan transfer durasi individual lalu audit dengan teman",
+            "why": "Membuktikan mean residual nol dapat menyembunyikan kesalahan dua arah",
+            "expectedEvidence": "CSV dua ID berisi residual model/baseline, SUM, N, mean dan MAE bersatuan bulan",
             "minutes": 11
           },
           {
@@ -699,7 +699,7 @@
           ]
         },
         "notebookSection": "Sesi 05: fit regresi dan evaluasi MAE",
-        "coreTask": "Periksa satu residual lalu jelaskan perbandingan model dengan baseline pada holdout.",
+        "coreTask": "Transfer individual sintetis, satuan bulan (bukan baris UCI): aktual durasi A=6, B=18; prediksi model A=9, B=15; baseline train yang diasumsikan beku=10 untuk keduanya. Buat s05-mae-dan-residual.csv dengan ID, aktual, prediksi, residual bertanda dan ABS untuk model serta baseline. Hitung SUM, N, mean residual dan MAE keduanya; tulis mengapa mean residual nol bukan prediksi sempurna. Di browser buka audit residual, pilih pengali 0, 1 dan 3, lalu rekam denominator, SUM ABS, MAE dan tiga sourceRow; jelaskan cuplikan berbeda dari seluruh holdout dan dilarang memilih model dengan test. Tugas rumah terpisah: jalankan bagian S05 notebook pada UCI, sertakan hasil baseline/model dan satu batas interpretasi, tanpa mengaku kode Python berjalan di browser.",
         "extension": "Bandingkan OLS dan ridge dengan validasi di dalam train bila tersedia; jangan memilih versi terbaik dari test.",
         "dataUse": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi.",
         "limitations": "Jumlah kredit historis bukan kerugian bank. Koefisien bukan efek kausal dan hasil dapat buruk di luar rentang arsip."

@@ -87,6 +87,22 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
      for(let i=0;i<3;i++){assert.ok(rows[i].startsWith(String(expected.split.testRows[i])));assert.ok(rows[i].includes((amount?reg.rows[i].predicted:expected.classification.scores[i].score).toLocaleString('id-ID',{maximumFractionDigits:3})));}
      assert.ok(feedback[amount?0:1].startsWith('Alasan pilihan tepat.'));assert.match(feedback[0],amount?/MAE tidak dapat dibandingkan langsung/:/waktu ketersediaannya belum terverifikasi/);
     }
+    if(l.kind==='regression'){
+     const residuals=expected.regression.rows.map(r=>r.actual-r.predicted*Number(value)),count=residuals.length;
+     const signedSum=residuals.reduce((s,x)=>s+x,0),absoluteSum=residuals.reduce((s,x)=>s+Math.abs(x),0),mae=absoluteSum/count;
+     const trace=await page.locator('#af-viz [data-aifn-residual-trace]').evaluate(el=>({...el.dataset}));
+     const near=(x,y)=>assert.ok(Math.abs(Number(x)-y)<1e-7,`${x} != ${y}`);
+     assert.equal(Number(trace.count),count);near(trace.signedSum,signedSum);near(trace.absoluteSum,absoluteSum);near(trace.mae,mae);near(trace.meanResidual,signedSum/count);
+     const audit=page.locator('#af-viz [data-aifn-residual-audit]');if(!await audit.evaluate(el=>el.open))await audit.locator('summary').click();
+     const values=[Math.abs(signedSum/count),mae,expected.regression.baselineMae],max=Math.max(...values);
+     const widths=await audit.locator('[data-aifn-residual-bars] rect').evaluateAll(xs=>xs.map(x=>Number(x.getAttribute('width'))));
+     widths.forEach((x,i)=>near(x,values[i]/max*250));
+     const rows=await audit.locator('tbody tr').allTextContents();assert.equal(rows.length,3);
+     rows.forEach((row,i)=>{assert.ok(row.startsWith(String(expected.split.testRows[i])));assert.ok(row.includes(residuals[i].toLocaleString('id-ID',{maximumFractionDigits:3})));});
+     assert.ok(feedback[mae<expected.regression.baselineMae?0:1].startsWith('Alasan pilihan tepat.'));assert.match(feedback[0],/bertanda dapat saling meniadakan/);
+     await page.locator('#af-setting').evaluate(el=>el.dispatchEvent(new Event('input',{bubbles:true})));
+     assert.ok(await page.locator('#af-viz [data-aifn-residual-audit]').evaluate(el=>el.open));assert.match(await page.locator('#af-reason-result').innerText(),/Pilih benar atau tidak/);
+    }
     if(l.kind==='explain'){const trace=await page.locator('#af-viz [data-aifn-logit]').evaluate(el=>({score:Number(el.dataset.aifnScore),reconstructed:Number(el.dataset.aifnReconstructed),logit:Number(el.dataset.aifnLogit)}));const i=Math.min(expected.classification.scores.length-1,Math.floor(Number(value)*(expected.classification.scores.length-1)));assert.ok(Number.isFinite(trace.logit));assert.ok(Math.abs(trace.score-expected.classification.scores[i].score)<1e-12);assert.ok(Math.abs(trace.reconstructed-trace.score)<1e-12);}
     if(['classification','evaluation'].includes(l.kind)){const m=metricsAt(expected.classification.scores,Number(value));for(const name of ['TP','FP','TN','FN'])assert.ok(text.includes(`${name} ${m[name]}`));assert.ok(text.includes(expected.classification.auc.toLocaleString('id-ID',{maximumFractionDigits:3})));}
    }

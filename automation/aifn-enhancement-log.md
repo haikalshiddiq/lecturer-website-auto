@@ -45,6 +45,17 @@
 - Browser screenshots of S02 at 320px inspected locally and live: body copy reflows, the fixed-coordinate chart uses the preserved bounded scroller and enlargement. Steady-state local contrast probe found no failures in tested visible text; an initial same-task theme measurement caught transition frames and was retained, not treated as an application fix or WCAG certification.
 - Evidence outside release inputs: `/home/ubuntu/.hermes/cache/scratch/aifn-s02-20261119-{release,hosted}.log`, `aifn-s02-20261119-focused.json`, `aifn-s02-live-{desktop,mobile}.json`, and width/theme screenshots. This post-verification log-only update is not another course publication and does not advance rotation.
 
+## S05: signed cancellation is not zero error (2026-11-26, Asia/Jakarta)
+
+- Selection: canonical next-course returned AiFn. Dedicated refinements cover S01–S04; S05 is the earliest tied underserved session, not learner progress. Clean tree fast-forwarded to origin/main 276101e; unrelated fetched dashboard data was not authored.
+- Student change: existing multiplier drives whole-holdout signed SUM/mean, absolute SUM/MAE, baseline comparison bars and three sourceRow traces. Audit disclosure stays open during changes. Correct/incorrect feedback compares actual whole-holdout MAE, clears stale feedback and explains cancellation; model, split, source and notebooks remain unchanged.
+- Labeled synthetic worked example: actual 100/300 versus predictions 150/250 has mean residual 0 but MAE 50; frozen assumed baseline 180 has MAE 100. Individual transfer uses durations 6/18 versus 9/15 and baseline 10; instructor answers are MAE 3 versus 6 months. No invented currency, financial advice or real lending claims.
+- Instructor: 35-minute predict/trace/transfer/review, diagnostic criteria and separate take-home executable notebook retained. Active grading, RPS mapping, public access and version-1 browser backups unchanged.
+- Design Read: compact finance studio for Python beginners; ENERGY 1 / RHYTHM 2 / MOTION 1. Existing typography, spacing, palette and themes retained. Scatter explains prediction error; expandable bars compare ABS(mean residual) and MAE, source table exposes arithmetic. No new assets/CSS/dependencies/navigation. Disclosure keeps the default view low-scroll.
+- Review: manual code review, aislop absent on PATH; no scanner score. Checked row alignment, full-precision denominator, negative-residual meaning, finite derived values, escaped rendering, closed/open disclosure and unchanged settings. New course-scoped smoke binds exact sums, sourceRow traces, bar widths, both feedback identities and stale-feedback reset. Only lesson 5 JSON is changed.
+- Publication pending at authoring. Use unchanged canonical daily --course AiFn and exact production read-back; append observed evidence only after success. Historical IASD S04/S05 focus remains unresolved; no passing run is claimed as causal repair. Smoke is not WCAG certification or physical-device installation.
+
+
 ## S03: trace the fitted median, not just the leakage slogan (2026-11-21, Asia/Jakarta)
 
 - Selection: canonical `--next-course` returned AiFn. S01/S02 alone had session-specific refinements, so S03 is the earliest tied underserved session; no learner completion inferred. Clean worktree fast-forwarded to origin/main before authoring; unrelated dashboard changes were fetched, not authored.

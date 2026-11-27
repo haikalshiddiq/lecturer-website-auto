@@ -483,7 +483,34 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         await select('s9Payload', 'idOnly'); await action('s9review');
         await check('missing', true); assert.ok(await page.locator('[data-iasd-s9-prediction]').isVisible()); await check('missing', false); await action('s9review');
         await check('bypass', true); assert.ok(await page.locator('[data-iasd-s9-prediction]').isVisible()); await check('bypass', false); await action('s9review');
+        await page.locator('[data-iasd-record-contract] summary').press('Enter');
+        await page.locator('[data-iasd-s9-record] summary').press('Enter');
+        for (const stock of ['1','2','3']) for (const sample of ['match','wrongId','wrongStatus']) {
+          await select('s9Stock', stock); await select('s9Sample', sample);
+          assert.ok(await page.locator('[data-iasd-record-contract]').evaluate(el => el.open));
+          assert.ok(await page.locator('[data-iasd-s9-record]').evaluate(el => el.open));
+          const expected = Number(stock) >= 2 ? 'diterima' : 'ditolak_stok';
+          const output = sample === 'wrongStatus' ? (expected === 'diterima' ? 'ditolak_stok' : 'diterima') : expected;
+          const rows = await page.locator('[data-iasd-s9-record] tbody tr').allTextContents();
+          assert.equal(rows.length, 4); assert.ok(rows[1].includes(stock+' unit')); assert.ok(rows[2].includes('Hasil yang diharapkan: '+expected));
+          assert.ok(rows[3].includes((sample === 'wrongId' ? 'R-10' : 'R-09')+'; '+output));
+          for (const decision of ['trace','hold']) {
+            await select('s9RecordDecision', decision); await page.locator('[data-simact="s9recordreview"]').press('Enter');
+            const message = await page.locator('[data-iasd-s9-record-feedback]').innerText();
+            assert.ok(message.includes(decision === (sample === 'match' ? 'trace' : 'hold') ? 'Jejak rekaman tepat.' : 'Tinjau bukti rekaman.'));
+            assert.ok(message.includes(sample === 'wrongId' ? 'request_id R-10 bukan R-09' : sample === 'wrongStatus' ? 'status berlawanan' : 'ID R-09 dipertahankan'));
+          }
+        }
+        await select('s9Stock','1'); assert.ok(await page.locator('[data-iasd-s9-record-prediction]').isVisible());
+        await action('s9recordreview'); await select('s9Sample','match'); assert.ok(await page.locator('[data-iasd-s9-record-prediction]').isVisible());
+        await select('s9RecordDecision','trace'); await action('s9recordreview');
+        const recordBefore = await page.locator('[data-iasd-s9-record] tbody').innerText();
+        await check('missing',true); assert.equal(await page.locator('[data-iasd-s9-record] tbody').innerText(),recordBefore);
+        await check('missing',false); await action('s9review');
         await page.reload({ waitUntil: 'networkidle' }); await feedback('Dua audit tepat.');
+        await feedback('Jejak rekaman tepat.'); assert.equal(await page.locator('[data-setting="s9Stock"]').inputValue(),'1');
+        await page.locator('[data-iasd-record-contract] summary').press('Enter');
+        await page.locator('[data-iasd-s9-record] summary').press('Enter');
         await page.locator('[data-iasd-supplement="9"] summary').press('Enter');
         assert.ok((await page.locator('[data-iasd-supplement="9"]').innerText()).includes('status_hasil'));
         await page.keyboard.press('Escape'); assert.equal(await page.locator('[data-iasd-supplement="9"]').getAttribute('open'), null);
@@ -496,7 +523,9 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
         for (const dark of [false, true]) {
           if ((await page.locator('html').evaluate(el => el.classList.contains('dark'))) !== dark) await page.locator('[data-act="theme"]').click();
           await page.locator('[data-iasd-data-contract]').evaluate(el => { el.open = true; });
-          for (const field of ['s9Payload', 's9Boundary', 's9Routing', 'missing', 'bypass']) {
+          await page.locator('[data-iasd-record-contract]').evaluate(el => { el.open = true; });
+          await page.locator('[data-iasd-s9-record]').evaluate(el => { el.open = true; });
+          for (const field of ['s9Payload', 's9Boundary', 's9Routing', 's9Stock', 's9Sample', 's9RecordDecision', 'missing', 'bypass']) {
             const control = page.locator(`[data-setting="${field}"]`); await control.focus(); await page.keyboard.press('Tab'); await page.keyboard.press('Shift+Tab');
             assert.ok(await control.evaluate(el => document.activeElement === el && getComputedStyle(el).outlineStyle !== 'none' && (el.type === 'checkbox' ? el.closest('label') : el).getBoundingClientRect().height >= 44), `S09 focus/tap target: ${field}`);
           }
@@ -504,7 +533,7 @@ export async function runIasdSmoke(browser, baseUrl, profile) {
           assert.deepEqual(await page.evaluate(() => {
             const rgb = c => (c.match(/[\d.]+/g) || []).map(Number);
             const lum = c => rgb(c).slice(0,3).map(v => { v /= 255; return v <= .04045 ? v / 12.92 : ((v+.055)/1.055)**2.4; }).reduce((s,v,i) => s+v*[.2126,.7152,.0722][i],0);
-            return [...document.querySelectorAll('[data-iasd-supplement="9"] *, [data-iasd-data-contract] *, [data-iasd-s9-feedback] *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
+            return [...document.querySelectorAll('[data-iasd-supplement="9"] *, [data-iasd-data-contract] *, [data-iasd-record-contract] *, [data-iasd-s9-record] *, [data-iasd-s9-record-feedback] *, [data-iasd-s9-feedback] *')].filter(el => el.checkVisibility() && el.tagName !== 'OPTION' && [...el.childNodes].some(n => n.nodeType===3 && n.textContent.trim())).flatMap(el => {
               const style=getComputedStyle(el); let ancestor=el, bg='rgb(255,255,255)';
               while(ancestor) { const color=getComputedStyle(ancestor).backgroundColor; if(rgb(color)[3]!==0){bg=color;break;} ancestor=ancestor.parentElement; }
               const a=lum(style.color),b=lum(bg),ratio=(Math.max(a,b)+.05)/(Math.min(a,b)+.05),size=parseFloat(style.fontSize),large=size>=24 || (size>=18.66 && Number(style.fontWeight)>=700);

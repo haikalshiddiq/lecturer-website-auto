@@ -139,6 +139,12 @@ function s9Scenario(s){
   const boundary=pick(s,'s9Boundary','yes',['yes','no']),routing=pick(s,'s9Routing','yes',['yes','no']);
   return {missing,bypass,payload,boundary,routing,balanced:!missing&&payload==='complete',signature:[missing,bypass,payload,boundary,routing].join(':')};
 }
+function s9Record(s){
+  const stock=pick(s,'s9Stock','1',['1','2','3']),sample=pick(s,'s9Sample','match',['match','wrongId','wrongStatus']);
+  const decision=pick(s,'s9RecordDecision','hold',['trace','hold']),expectedStatus=Number(stock)>=2?'diterima':'ditolak_stok';
+  const outputId=sample==='wrongId'?'R-10':'R-09',outputStatus=sample==='wrongStatus'?(expectedStatus==='diterima'?'ditolak_stok':'diterima'):expectedStatus;
+  return {stock,sample,decision,expectedStatus,outputId,outputStatus,expected:sample==='match'?'trace':'hold',signature:[stock,sample,decision].join(':')};
+}
 function s10Scenario(s){
   const price=val(s,'price',150,50,300),snapshot=s.snapshot!==false,discount=pick(s,'s10Discount','live',['locked','live']),parent=pick(s,'s10Parent','exists',['exists','missing']);
   const history=pick(s,'s10History','yes',['yes','no']),row=pick(s,'s10Row','allow',['allow','reject']);
@@ -341,6 +347,17 @@ if(type==='dfd'&&view===9&&supplements[9]){
     +selectControl('s9Boundary','Prediksi: kontrak eksternal tetap terwakili?',[['yes','Ya, arah dan isi terjaga'],['no','Tidak, output atau isinya hilang']],x.boundary)
     +selectControl('s9Routing','Prediksi: akses store pada contoh legal?',[['yes','Ya, melalui process'],['no','Tidak, ada entity langsung ke store']],x.routing)
     +simButton('s9review','Periksa dua audit')+'</details>';
+  const r=s9Record(s),recordCorrect=r.decision===r.expected;
+  controls+=`<details data-iasd-record-contract ${$('#sim-controls [data-iasd-record-contract]')?.open?'open':''}><summary>Audit rekaman: lengkap belum tentu cocok</summary><p class="small">Snapshot independen: arus lengkap dan jalur legal diasumsikan untuk audit rekaman ini, terpisah dari checkbox/isi arus di atas. R-09 meminta dua unit P09; proses membaca stok dari D-Produk, bukan dari pelanggan. Semua data sintetis, bukan pembacaan database.</p>`
+    +selectControl('s9Stock','Stok P09 pada snapshot / unit',['1','2','3'],r.stock)
+    +selectControl('s9Sample','Keluaran kandidat',[['match','A: ID dan hasil sesuai sumber'],['wrongId','B: hasil benar, ID milik permintaan lain'],['wrongStatus','C: ID benar, hasil berlawanan sumber']],r.sample)
+    +selectControl('s9RecordDecision','Prediksi: rekaman cocok dengan input dan aturan?',[['trace','Cocok pada snapshot ini'],['hold','Tahan, telusuri dan koreksi rekaman']],r.decision)
+    +simButton('s9recordreview','Periksa jejak rekaman')+'</details>';
+  viz+=`<details data-iasd-s9-record ${$('#sim-viz [data-iasd-s9-record]')?.open?'open':''}><summary>Jejak input → proses → keluaran R-09</summary><p>Asumsi aturan: qty=2 unit; cukup bila stok >= qty. Tiga kandidat selalu memiliki dua field lengkap; jumlah panah tidak berubah.</p>`
+    +table(['Tahap / owner','Data atau aturan','Jejak saat ini'],[['Input / Pelanggan','request_id; product_id; qty','R-09; P09; 2 unit'],['Sumber / D-Produk','available_qty untuk P09',r.stock+' unit'],['Transformasi / 2. Reservasi','Bandingkan stok >= 2; pertahankan request_id','Hasil yang diharapkan: '+r.expectedStatus],['Keluaran / 2. Reservasi','request_id + status_hasil',r.outputId+'; '+r.outputStatus]])
+    +'<p class="small">Ini penelusuran data satu snapshot, bukan urutan waktu DFD atau actual uji backend. diterima bukan Paid atau bukti reservasi atomik. Stok diasumsikan sah/mutakhir; otorisasi dan konkurensi belum diuji.</p></details>';
+  const recordReason=r.sample==='wrongId'?'Hasil stok cocok tetapi request_id R-10 bukan R-09. Telusuri korelasi input ke output; jangan mengubah input agar keluaran tampak cocok.':r.sample==='wrongStatus'?'ID R-09 cocok tetapi status berlawanan dengan stok sumber. Telusuri sumber/aturan transformasi proses 2; jangan meminta pelanggan mengisi sendiri status keputusan.':'ID R-09 dipertahankan dan status mengikuti stok sumber. Cocok pada snapshot ini saja, bukan bukti semua jalur atau backend benar.';
+  viz+=s.s9RecordReviewed===r.signature?`<section data-iasd-s9-record-feedback>${feedback(`<b>${recordCorrect?'Jejak rekaman tepat.':'Tinjau bukti rekaman.'}</b><p>${recordReason}</p><p>Stok ${r.stock} unit dibanding permintaan 2 unit: expected ${r.expectedStatus}; kandidat ${r.outputId}/${r.outputStatus}. Panah dan dua field lengkap belum membuktikan korelasi atau transformasi benar. Expected result bukan actual result.</p>`,recordCorrect?'':'warn')}</section>`:'<p data-iasd-s9-record-prediction>Prediksi rekaman belum diperiksa. Buka jejak R-09, telusuri ID dan asal status sebelum memeriksa.</p>';
   viz+=`<section data-iasd-s9-dictionary><h3>Kamus arus latihan</h3>`+table(['Arus / arah','Kontrak context','Dekomposisi saat ini'],[['Pesanan: Pelanggan → Sistem','request_id + baris(product_id, qty)','Tetap melalui 1. Validasi'],['Konfirmasi: Sistem → Pelanggan','request_id + status_hasil',x.missing?'Tidak ada arus keluar':x.payload==='complete'?'2. Reservasi: request_id + status_hasil':'2. Reservasi: request_id saja']])+`<p class="small">Bypass ${x.bypass?'aktif: Pelanggan → D1 Pesanan, tanpa process':'tidak aktif: D1 diakses melalui process'}. Ini kamus/snapshot kelas, bukan payload yang dikirim atau validator DFD lengkap.</p></section>`;
   const boundaryReason=x.missing?'Konfirmasi tidak keluar pada dekomposisi: hasil yang dijanjikan context hilang. Pulihkan output dari proses 2 beserta isi kontraknya.':x.payload==='idOnly'?'Panah bernama Konfirmasi ada tetapi status_hasil hilang. ID saja tidak menyatakan diterima atau ditolak_stok. Pulihkan isi, bukan hanya nama atau jumlah panah.':'Kontrak eksternal terwakili: Pesanan masuk dan Konfirmasi berisi request_id + status_hasil keluar. Rincian internal boleh bertambah tanpa mengubah kontrak ini.';
   const routingReason=x.bypass?'Pelanggan langsung ke D1 melanggar aturan akses store melalui process. Hapus bypass, telusuri validasi dan pencatatan; kontrak eksternal lengkap tidak membenarkan koneksi ini.':'Akses D1 melalui proses pada contoh, tanpa bypass entity. Ini tidak otomatis membuktikan isi output lengkap atau seluruh DFD benar.';
@@ -445,6 +462,7 @@ if(action==='s14review'&&view===14)s.s14Reviewed=s14Scenario(s).signature;
 if(action==='s15review'&&view===15)s.s15Reviewed=s15Scenario(s).signature;
 if(action==='s16review'&&view===16)s.s16Reviewed=s16Scenario(s).signature;
 if(action==='s9review'&&view===9)s.s9Reviewed=s9Scenario(s).signature;
+if(action==='s9recordreview'&&view===9)s.s9RecordReviewed=s9Record(s).signature;
 if(action==='s5review'&&view===5)s.s5Reviewed=[pick(s,'join','join',['join','merge']),!!s.address,!!s.label,pick(s,'s5Outcome','sah',['tunggu','sah','dini'])].join(':');
 if(action==='s4review'&&view===4)s.s4Reviewed=[pick(s,'actor','Pelanggan',['Pelanggan','Penyedia bayar','Database internal']),pick(s,'s4Stock','1',['1','3']),pick(s,'s4Role','eksternal',['eksternal','internal']),pick(s,'s4Outcome','reservasi',['tolak','reservasi','lunas'])].join(':');
 if(action==='s3review'&&view===3)s.s3Reviewed=[pick(s,'stock','cukup',['cukup','kurang']),pick(s,'join','exclusive',['exclusive','parallel']),pick(s,'s3Outcome','akhir',['akhir','tunggu'])].join(':');

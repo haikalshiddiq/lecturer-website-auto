@@ -728,9 +728,9 @@
         "Confusion matrix adalah tabel empat jenis hasil: TP alarm pada Bad, FP alarm pada Good, TN tidak ada alarm pada Good, dan FN Bad yang terlewat. FP dapat membebani pemohon yang seharusnya tidak ditandai; FN dapat melewatkan kasus yang perlu ditinjau. Keduanya harus dihitung dari prediksi holdout yang sama."
       ],
       "assumptions": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi. Skor adalah hasil fit logistik pada train dengan empat fitur; pembagian acak berstrata 80/20 tetap. Tidak menggunakan delapan skor buatan sebagai hasil model.",
-      "worked": "Dosen memilih baris dari tabel prediksi holdout, lalu mahasiswa memeriksa risk dan apakah skor melewati ambang. Gunakan COUNTIFS ala Excel untuk membentuk empat sel matriks. Geser ambang di browser dan bandingkan jumlah alarm serta FN; angka diisi dari eksekusi, bukan contoh delapan pemohon.",
+      "worked": "Suplemen sintetis terpisah dari UCI: A good skor 0,20; B bad 0,50; C good 0,70; D bad 0,80. Aturan skor ≥ ambang memakai nilai penuh. Pada 0,5: B/C/D direview, TP=2, FP=1, TN=1, FN=0; antrean 3/4. Pada 0,8: hanya D direview, TP=1, FP=0, TN=2, FN=1; antrean 1/4. B berpindah TP→FN, C FP→TN. Antrean berkurang dua, tetapi satu Bad terlewat; skor dan dua label Bad tetap. Skor tepat 0,50 maupun 0,80 ikut review pada batasnya. Ini aritmetika latihan, bukan hasil UCI, peluang gagal bayar terkalibrasi atau bukti kebijakan bank. Di browser, audit memakai seluruh skor holdout UCI nyata dan menampilkan maksimal tiga baris yang berpindah terhadap 0,5.",
       "practice": "Pada dua ambang, simpan TP/FP/TN/FN dan jumlah baris holdout. Pilih ambang sebagai skenario peninjauan kelas, jelaskan dampak bagi pemohon Good dan kasus Bad terlewat, lalu reproduksi hitungannya di notebook rumah.",
-      "misconception": "Menggeser ambang bukan melatih ulang model dan tidak menjamin ranking lebih baik. Ambang kelas ini tidak boleh diterapkan sebagai aturan penolakan kredit nyata.",
+      "misconception": "Antrean pendek bukan bukti sedikit Bad. Review = TP+FP; tidak review = TN+FN, bukan seluruhnya FN. Bad = TP+FN tetap ketika ambang berubah. Skor tepat pada ambang termasuk review; hitung dengan presisi penuh. Menggeser ambang bukan fit ulang, tidak memperbaiki AUC ranking dan bukan aturan penolakan kredit nyata.",
       "quiz": {
         "question": "Ambang diturunkan, skor dan baris tetap. Pernyataan mana pasti benar?",
         "options": [
@@ -746,14 +746,14 @@
         ]
       },
       "teacher": {
-        "flow": "7 menit: Susun empat kotak hasil di kertas dengan arti keuangannya. 8 menit: Dosen menunjukkan fit logistik dan beberapa skor holdout. 12 menit: Ubah ambang browser dan hitung ulang empat sel. 8 menit: Bandingkan pilihan kelompok dan tulis tugas notebook. Tugas rumah: jalankan ulang bagian notebook terkait dan jelaskan hasilnya dengan kalimat keuangan, bukan salinan angka.",
+        "flow": "35 menit: 7 menit prediksi contoh sintetis A–D pada 0,5/0,8, termasuk batas sama dengan; 8 menit buka audit browser dan telusuri baris yang berpindah dari 0,5; 12 menit transfer individu E–H tanpa menyalin jawaban; 8 menit pertukaran alasan dan cek invariant. Kunci transfer: pada 0,4, F/G/H review, TP=1 FP=2 TN=1 FN=0; pada 0,7, G/H review, TP=0 FP=2 TN=1 FN=1. F tepat 0,40 awalnya TP lalu FN; H tepat 0,70 tetap FP. Antrean 3→2, Bad tetap 1. Rubrik diagnostik: klasifikasi batas, total N, jalur F dan pemisahan beban/risiko. Tugas rumah terpisah: jalankan notebook S06 dari skor UCI, catat dua matriks dan batas penerapan, bukan tuning memakai test.",
         "rubric": [
           "Definisi alarm dan label konsisten (20)",
           "Empat sel dan total holdout tepat (35)",
           "Tradeoff FP/FN dijelaskan finansial (30)",
           "Skor bukan peluang terkalibrasi atau keputusan kredit (15)"
         ],
-        "probe": "Mengapa model dengan alarm lebih sedikit bisa terlihat nyaman bagi petugas tetapi melewatkan lebih banyak kasus Bad? Minta penjelasan memakai FN dan kapasitas review."
+        "probe": "Jika antrean turun, apa yang masih harus dihitung sebelum menyebut skenario lebih baik? Minta mahasiswa menunjuk satu TP→FN atau FP→TN, membuktikan TP+FN tetap, dan menjelaskan mengapa dua FP transfer tidak hilang saat ambang naik. FN nol pun bukan validasi data baru."
       },
       "financeLab": {
         "caseTitle": "Siapa yang masuk antrean peninjauan kredit?",
@@ -806,9 +806,9 @@
             "minutes": 12
           },
           {
-            "action": "Bandingkan pilihan kelompok dan tulis tugas notebook",
-            "why": "Mengakui tujuan review dapat berbeda",
-            "expectedEvidence": "Alasan pemilihan skenario dan pihak terdampak",
+            "action": "Periksa transfer individu E–H dan tulis tugas notebook",
+            "why": "Membedakan pengurangan antrean dari perubahan FN tanpa mengubah label",
+            "expectedEvidence": "Dua matriks E–H, jalur F dan H, invariant Bad dan batas penerapan",
             "minutes": 8
           }
         ],
@@ -826,7 +826,7 @@
           ]
         },
         "notebookSection": "Sesi 06: logistik, skor, dan ambang",
-        "coreTask": "Rekonstruksi dua confusion matrix dari skor holdout yang identik.",
+        "coreTask": "Audit browser: prediksi apakah semua Bad tertangkap, buka Audit antrean, lalu ubah ambang 0,5→0,8→0,1. Catat TP/FP/TN/FN, antrean TP+FP, Bad TP+FN dan satu baris berpindah; skor/label/AUC tetap. Transfer individu sintetis, bukan UCI: E good 0,10; F bad 0,40; G good 0,75; H good 0,70. Buat tabel ID/label/skor/hasil untuk ambang 0,4 dan 0,7 dengan ≥, dua matriks dan ukuran antrean; jelaskan F serta H yang tepat pada batas. Simpan s06-review.md secara mandiri, sertakan perhitungan, satu koreksi miskonsepsi dan hal yang belum terbukti; catatan browser hanya lokal, bukan pengumpulan otomatis. Notebook S06 UCI dikerjakan terpisah di rumah.",
         "extension": "Periksa ambang tambahan dan jumlah antrean, tanpa mengubah fitur atau melatih ulang berdasarkan hasil test.",
         "dataUse": "Data publik historis German Credit dari UCI, 1.000 baris sumber. duration dalam bulan; amount memakai satuan asli sumber, bukan rupiah. risk=1 memetakan kelas Bad sumber (2), risk=0 kelas Good (1). Tidak tersedia tanggal keputusan atau horizon kejadian yang terverifikasi.",
         "limitations": "Semua ambang adalah eksplorasi belajar pada holdout yang sudah terlihat, bukan pemilihan kebijakan independen atau validasi operasional."

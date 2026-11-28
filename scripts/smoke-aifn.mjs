@@ -4,6 +4,9 @@ import { pathToFileURL } from 'node:url';
 import { analyzeFinance, metricsAt } from '../src/scripts/aifn-finance-engine.js';
 const course=JSON.parse(await fs.readFile(new URL('../src/data/aifn-course.json',import.meta.url),'utf8'));
 const key='hicall-aifn-studio-v1';
+export async function waitForAifnImport(page,expectedNotes){
+ await page.waitForFunction(notes=>document.querySelector('#aifn-status').textContent.includes('diimpor dan divalidasi')&&document.querySelector('#af-notes')?.value===notes,expectedNotes);
+}
 export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewport:{width:1365,height:900}}){
  const context=await browser.newContext({viewport:profile.viewport??{width:1365,height:900},isMobile:profile.isMobile??false,hasTouch:profile.hasTouch??false,acceptDownloads:true});
  const page=await context.newPage();page.setDefaultTimeout(15000);const errors=[],results=[];page.on('pageerror',e=>errors.push(e.message));
@@ -103,6 +106,21 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
      await page.locator('#af-setting').evaluate(el=>el.dispatchEvent(new Event('input',{bubbles:true})));
      assert.ok(await page.locator('#af-viz [data-aifn-residual-audit]').evaluate(el=>el.open));assert.match(await page.locator('#af-reason-result').innerText(),/Pilih benar atau tidak/);
     }
+    if(l.kind==='classification'){
+     const threshold=Number(value),scores=expected.classification.scores,m=metricsAt(scores,threshold),reference=metricsAt(scores,.5);
+     const crossings=scores.filter(r=>(r.score>=.5)!==(r.score>=threshold));
+     const trace=await page.locator('#af-viz [data-aifn-queue-trace]').evaluate(el=>({...el.dataset}));
+     assert.equal(Number(trace.threshold),threshold);assert.equal(Number(trace.count),scores.length);assert.equal(Number(trace.review),m.TP+m.FP);assert.equal(Number(trace.referenceReview),reference.TP+reference.FP);assert.equal(Number(trace.fn),m.FN);assert.equal(Number(trace.crossing),crossings.length);
+     const audit=page.locator('#af-viz [data-aifn-queue-audit]');if(!await audit.evaluate(el=>el.open))await audit.locator('summary').click();
+     const values=[reference.TP+reference.FP,m.TP+m.FP,reference.FN,m.FN],max=Math.max(1,...values);
+     assert.deepEqual(await audit.locator('[data-aifn-queue-bars] rect').evaluateAll(xs=>xs.map(x=>Number(x.getAttribute('width')))),values.map(x=>x/max*250));
+     const rows=await audit.locator('tbody tr').allTextContents();assert.equal(rows.length,crossings.length?Math.min(3,crossings.length):1);
+     const outcome=(r,t)=>r.score>=t?r.actual?'TP':'FP':r.actual?'FN':'TN';
+     if(crossings.length)rows.forEach((row,i)=>{const r=crossings[i];assert.ok(row.startsWith(String(r.sourceRow)));assert.ok(row.endsWith(outcome(r,.5)+outcome(r,threshold)));});else assert.match(rows[0],/Tidak ada perpindahan/);
+     assert.ok(feedback[m.FN===0?0:1].startsWith('Alasan pilihan tepat.'));assert.match(feedback[0],/Skor, label dan AUC tetap/);
+     await page.locator('#af-setting').evaluate(el=>el.dispatchEvent(new Event('input',{bubbles:true})));
+     assert.ok(await page.locator('#af-viz [data-aifn-queue-audit]').evaluate(el=>el.open));assert.match(await page.locator('#af-reason-result').innerText(),/Pilih benar atau tidak/);
+    }
     if(l.kind==='explain'){const trace=await page.locator('#af-viz [data-aifn-logit]').evaluate(el=>({score:Number(el.dataset.aifnScore),reconstructed:Number(el.dataset.aifnReconstructed),logit:Number(el.dataset.aifnLogit)}));const i=Math.min(expected.classification.scores.length-1,Math.floor(Number(value)*(expected.classification.scores.length-1)));assert.ok(Number.isFinite(trace.logit));assert.ok(Math.abs(trace.score-expected.classification.scores[i].score)<1e-12);assert.ok(Math.abs(trace.reconstructed-trace.score)<1e-12);}
     if(['classification','evaluation'].includes(l.kind)){const m=metricsAt(expected.classification.scores,Number(value));for(const name of ['TP','FP','TN','FN'])assert.ok(text.includes(`${name} ${m[name]}`));assert.ok(text.includes(expected.classification.auc.toLocaleString('id-ID',{maximumFractionDigits:3})));}
    }
@@ -120,7 +138,7 @@ export async function runAifnSmoke(browser,baseUrl,profile={name:'desktop',viewp
   assert.equal(results.length,16);await page.reload();await ready();await tab('quiz');assert.equal(await page.locator('#af-notes').inputValue(),'AiFn 16: bukti data publik dan batasan');assert.ok(await page.locator('#af-done').isChecked());
   await page.locator('[data-af-pane="quiz"] summary').click();const pending=page.waitForEvent('download');await page.locator('#af-export').click();const exported=JSON.parse(await fs.readFile(await(await pending).path(),'utf8'));assert.equal(Object.keys(exported.lessons).length,16);
   for(const bad of [{...exported,course:'iasd'},{...exported,version:99},{...exported,lastSession:17},{...exported,lessons:{'17':{notes:'bad',done:true}}}]){await page.locator('#af-import').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(bad))});await page.waitForFunction(()=>document.querySelector('#aifn-status').textContent.includes('Impor ditolak'));}
-  for(const modern of [false,true]){const valid=structuredClone(exported);delete valid.lastSession;if(modern)valid.lastSession=16;valid.lessons['16'].notes=modern?'new valid backup':'legacy valid backup';await page.locator('#af-import').setInputFiles({name:'valid.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(valid))});await page.waitForFunction(()=>document.querySelector('#aifn-status').textContent.includes('diimpor dan divalidasi'));assert.equal(await page.locator('#af-notes').inputValue(),valid.lessons['16'].notes);await page.locator('[data-af-pane="quiz"] summary').click();}
+  for(const modern of [false,true]){const valid=structuredClone(exported);delete valid.lastSession;if(modern)valid.lastSession=16;valid.lessons['16'].notes=modern?'new valid backup':'legacy valid backup';await page.locator('#af-import').setInputFiles({name:'valid.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(valid))});await waitForAifnImport(page,valid.lessons['16'].notes);assert.equal(await page.locator('#af-notes').inputValue(),valid.lessons['16'].notes);await page.locator('[data-af-pane="quiz"] summary').click();}
   assert.equal(await page.evaluate(()=>localStorage.getItem('hicall-iasd-smoke-sentinel')),'untouched');
   await tab('practice');for(const [suffix,contains]of [['aifn-labs.ipynb','nbformat'],['aifn-finance.csv','duration'],['README.txt','Jupyter']]){await page.waitForTimeout(200);const d=page.waitForEvent('download');await page.locator(`a[download][href$="${suffix}"]`).click();const content=await fs.readFile(await(await d).path(),'utf8');assert.ok(content.includes(contains));if(suffix.endsWith('ipynb'))assert.equal(JSON.parse(content).nbformat,4);}
   await session(9);await tab('practice');await context.grantPermissions(['clipboard-read','clipboard-write']);await page.locator('#af-copy').click();await page.waitForFunction(()=>document.querySelector('#af-copy-status').textContent.includes('Prompt tersalin'));assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),course.lessons[8].prompt);
